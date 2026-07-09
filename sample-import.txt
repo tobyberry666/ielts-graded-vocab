@@ -1,0 +1,8 @@
+# Anki 导入样例（TSV）。制表符分隔，非空格。
+# —— 2 列：term <TAB> meaningZh（band 默认 5）——
+apple	苹果
+banana	香蕉
+
+# —— 9 列：term <TAB> phonetic <TAB> pos <TAB> meaningZh <TAB> meaningEn <TAB> band <TAB> collocations <TAB> example <TAB> exampleZh ——
+ubiquitous	/juːˈbɪkwɪtəs/	adj.	无处不在的	present everywhere	8	ubiquitous technology|become ubiquitous	Smartphones are ubiquitous.	智能手机无处不在。
+mitigation	/ˌmɪtɪˈɡeɪʃn/	n.	缓解；减轻	the action of reducing severity	8	risk mitigation|climate mitigation	Early warning aids mitigation.	预警有助于缓解。
