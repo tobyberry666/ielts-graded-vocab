@@ -1,325 +1,326 @@
-abbreviate,缩写,6
-abstract,抽象的,6
-abundant,丰富的,6
-accelerate,加速,6
-accommodate,容纳；适应,6
-accurate,准确的,6
-achievement,成就,6
-acquisition,获得,6
-administrative,行政的,6
-advocate,提倡,6
-affordable,负担得起的,6
-aggregate,总计,6
-algorithm,算法,6
-align,对齐,6
-allocate,分配,6
-ambiguous,模糊的,6
-analogy,类比,6
-analysis,分析,6
-anticipate,预期,6
-appreciate,欣赏,6
-arbitrary,任意的,6
-assert,断言,6
-assessment,评估,6
-assumption,假设,6
-attribute,归因,6
-authenticate,认证,6
-authorize,授权,6
-autonomous,自主的,6
-awareness,意识,6
-behalf,代表,6
-benchmark,基准,6
-bias,偏见,6
-bilateral,双边的,6
-bond,纽带；债券,6
-brevity,简洁,6
-bulk,大量,6
-bureaucracy,官僚,6
-calibrate,校准,6
-capability,能力,6
-capacity,容量,6
-cite,引用,6
-civilization,文明,6
-clarify,澄清,6
-classify,分类,6
-cohesion,凝聚力,6
-coincide,巧合,6
-collaborate,合作,6
-compensate,补偿,6
-competent,胜任的,6
-compile,编译,6
-complement,补充,6
-complexity,复杂性,6
-comply,遵守,6
-comprehensive,全面的,6
-comprise,包含,6
-concede,承认,6
-conceive,构想,6
-conclude,得出结论,6
-concurrent,同时的,6
-condense,浓缩,6
-confine,限制,6
-confirm,确认,6
-conform,符合,6
-confront,面对,6
-congestion,拥堵,6
-consensus,共识,6
-consequent,随之发生的,6
-conserve,保护,6
-consolidate,巩固,6
-constitute,构成,6
-constraint,约束,6
-contemporary,当代的,6
-contextual,语境的,6
-contradict,矛盾,6
-controversy,争议,6
-convene,召集,6
-convert,转换,6
-conviction,信念,6
-corporate,公司的,6
-correlate,相关,6
-correspond,对应,6
-counterpart,对应方,6
-cumulative,累积的,6
-curriculum,课程,6
-deduce,推断,6
-deficit,赤字,6
-delegate,委派,6
-deliberate,故意的,6
-demographic,人口统计的,6
-denote,表示,6
-depict,描绘,6
-deprive,剥夺,6
-derive,源于,6
-designate,指定,6
-despise,鄙视,6
-detach,分离,6
-deteriorate,恶化,6
-deviate,偏离,6
-discern,辨别,6
-disclose,披露,6
-discriminate,区分,6
-displace,取代,6
-dispose,处置,6
-distinct,明显的,6
-distort,扭曲,6
-domain,领域,6
-dominant,主导的,6
-doubtless,无疑的,6
-drastic,剧烈的,6
-duplicate,复制,6
-dynamic,动态的,6
-eccentric,古怪的,6
-ecosystem,生态系统,6
-elaborate,详尽的,6
-eliminate,消除,6
-embody,体现,6
-empathy,共情,6
-encompass,包含,6
-endeavor,努力,6
-enhance,增强,6
-envisage,设想,6
-equitable,公平的,6
-erosion,侵蚀,6
-essence,本质,6
-evaluate,评估,6
-evolve,进化,6
-exceed,超过,6
-exemplify,举例说明,6
-explicit,明确的,6
-exploit,开发；剥削,6
-extract,提取,6
-facet,方面,6
-facilitate,促进,6
-feasible,可行的,6
-fluctuate,波动,6
-foresee,预见,6
-formulate,制定,6
-fortify,加强,6
-fragment,碎片,6
-framework,框架,6
-fundamental,基本的,6
-gregarious,合群的,6
-hierarchy,等级,6
-highlight,强调,6
-homogeneous,同质的,6
-hypothesis,假设,6
-identifiable,可识别的,6
-illuminate,阐明,6
-illustrate,说明,6
-immense,巨大的,6
-impair,损害,6
-impart,传授,6
-imperative,必要的,6
-implicit,含蓄的,6
-incentive,激励,6
-incidence,发生率,6
-incline,倾向于,6
-incorporate,纳入,6
-increment,增量,6
-indicative,指示的,6
-inevitable,不可避免的,6
-infer,推断,6
-infrastructure,基础设施,6
-ingenious,巧妙的,6
-inhibit,抑制,6
-initiate,发起,6
-innovate,创新,6
-intricate,复杂的,6
-intuitive,直观的,6
-invariable,不变的,6
-levy,征收,6
-liaise,联络,6
-linear,线性的,6
-lucrative,有利可图的,6
-magnitude,量级,6
-mandate,授权,6
-manipulate,操纵,6
-mechanism,机制,6
-mediate,调解,6
-metaphor,隐喻,6
-methodology,方法论,6
-migration,迁移,6
-minimal,最小的,6
-mitigate,缓解,6
-moderate,适度的,6
-modify,修改,6
-module,模块,6
-momentum,势头,6
-notable,显著的,6
-objective,客观的,6
-obligation,义务,6
-ongoing,持续的,6
-opaque,不透明的,6
-optimum,最佳的,6
-parallel,平行的,6
-parameter,参数,6
-partial,部分的,6
-partition,分隔,6
-passive,被动的,6
-patent,专利,6
-pathway,路径,6
-plausible,看似合理的,6
-portray,描绘,6
-posit,假定,6
-pragmatic,务实的,6
-precede,先于,6
-precious,珍贵的,6
-precise,精确的,6
-predominant,主导的,6
-preliminary,初步的,6
-prescribe,规定,6
-presume,假定,6
-prevalent,普遍的,6
-priority,优先,6
-proficient,熟练的,6
-profound,深刻的,6
-prohibit,禁止,6
-prolong,延长,6
-prominent,显著的,6
-propel,推动,6
-prospect,前景,6
-protocol,协议,6
-province,省份,6
-provision,规定,6
-publication,出版物,6
-qualitative,定性的,6
-quantify,量化,6
-quintessential,典型的,6
-radical,激进的,6
-rational,理性的,6
-readily,容易地,6
-realm,领域,6
-reasonable,合理的,6
-recall,回忆,6
-recede,后退,6
-recipient,接受者,6
-recur,复发,6
-redundant,冗余的,6
-refine,精炼,6
-regime,政权,6
-regulate,监管,6
-reinforce,加强,6
-relay,转达,6
-reliable,可靠的,6
-relieve,缓解,6
-reluctant,不情愿的,6
-remedy,补救,6
-render,致使,6
-renew,更新,6
-replicate,复制,6
-reputation,声誉,6
-resilient,有韧性的,6
-resort,求助,6
-respective,各自的,6
-retrospect,回顾,6
-rigorous,严格的,6
-robust,强健的,6
-safeguard,保护,6
-scenario,情景,6
-scrutinize,细查,6
-segment,部分,6
-seldom,很少,6
-sequence,顺序,6
-serial,连续的,6
-signify,表示,6
-simulate,模拟,6
-simultaneous,同时的,6
-skeptical,怀疑的,6
-sole,唯一的,6
-solidarity,团结,6
-sophisticated,复杂的,6
-spatial,空间的,6
-specify,具体说明,6
-spectrum,光谱,6
-speculate,推测,6
-statistics,统计学,6
-straightforward,直截了当的,6
-strategy,策略,6
-streamline,简化,6
-subjective,主观的,6
-subordinate,下属,6
-subsequent,随后的,6
-subside,平息,6
-substantial,大量的,6
-subtle,微妙的,6
-successive,连续的,6
-successor,继任者,6
-sufficient,充足的,6
-summary,摘要,6
-supplement,补充,6
-surpass,超越,6
-suspend,暂停,6
-tangible,有形的,6
-temporal,暂时的,6
-tentative,试探性的,6
-terminate,终止,6
-theoretical,理论的,6
-thereby,因此,6
-threshold,阈值,6
-token,象征,6
-tolerant,容忍的,6
-trajectory,轨迹,6
-transcend,超越,6
-transmit,传播,6
-transparent,透明的,6
-traverse,穿越,6
-tremendous,巨大的,6
-trigger,触发,6
-unanimous,一致的,6
-undergo,经历,6
-underlie,构成…基础,6
-undermine,破坏,6
-unilateral,单边的,6
-unprecedented,前所未有的,6
-utilize,利用,6
-validate,验证,6
-variation,变化,6
-velocity,速度,6
-versatile,多才多艺的,6
-vicinity,附近,6
-volatile,易变的,6
-voluntary,自愿的,6
-whereby,借此,6
-widespread,广泛的,6
-withhold,拒绝给予,6
+term,pos,meaningZh,meaningEn,exampleEn,exampleZh,band
+abbreviate,v.,缩写,to shorten,We abbreviate the name to ABB.,我们把这个名字缩写为ABB。,6
+abstract,adj.,抽象的,not concrete,This idea is too abstract.,这个想法太抽象了。,6
+abundant,adj.,丰富的,plenty of,The garden has abundant flowers.,花园里花朵繁茂。,6
+accelerate,v.,加速,to speed up,The car accelerated quickly.,汽车迅速加速。,6
+accommodate,v.,容纳；适应,to house or adapt,The hotel can accommodate 200 guests.,这家酒店可容纳200位客人。,6
+accurate,adj.,准确的,exact,The data is accurate.,这些数据是准确的。,6
+achievement,n.,成就,something achieved,Winning the prize was a great achievement.,获奖是一项了不起的成就。,6
+acquisition,n.,获得,act of gaining,The acquisition of skills takes time.,技能的习得需要时间。,6
+administrative,adj.,行政的,of management,She works in an administrative role.,她从事行政工作。,6
+advocate,v.,提倡,to support,They advocate healthy eating.,他们提倡健康饮食。,6
+affordable,adj.,负担得起的,cheap enough,The flat is affordable.,这套公寓负担得起。,6
+aggregate,n.,总计,total amount,The aggregate of votes was clear.,选票总数一目了然。,6
+algorithm,n.,算法,a calculation method,The app uses a smart algorithm.,这款应用使用智能算法。,6
+align,v.,对齐,to line up,Please align the text to the left.,请把文字左对齐。,6
+allocate,v.,分配,to assign,We allocate tasks to each member.,我们把任务分配给每位成员。,6
+ambiguous,adj.,模糊的,unclear,His answer was ambiguous.,他的回答含糊不清。,6
+analogy,n.,类比,a comparison,He explained it by analogy.,他用一个类比来解释。,6
+analysis,n.,分析,detailed study,The analysis revealed a trend.,分析揭示了一个趋势。,6
+anticipate,v.,预期,to expect,We anticipate a rise in cost.,我们预计成本会上升。,6
+appreciate,v.,欣赏,to value,She appreciates good music.,她欣赏好音乐。,6
+arbitrary,adj.,任意的,random,The choice seemed arbitrary.,这个选择似乎很随意。,6
+assert,v.,断言,to state firmly,He asserted his innocence.,他坚称自己无辜。,6
+assessment,n.,评估,evaluation,The risk assessment is done.,风险评估已完成。,6
+assumption,n.,假设,something supposed,The plan is based on an assumption.,这个计划基于一个假设。,6
+attribute,v.,归因,to credit to,We attribute success to hard work.,我们把成功归功于努力。,6
+authenticate,v.,认证,to verify,You must authenticate your account.,你必须验证你的账户。,6
+authorize,v.,授权,to give permission,The manager authorized the payment.,经理批准了这笔付款。,6
+autonomous,adj.,自主的,self-governing,The robot is autonomous.,这个机器人是自主的。,6
+awareness,n.,意识,knowledge,There is growing awareness.,人们的意识在不断增强。,6
+behalf,n.,代表,side or interest,He spoke on my behalf.,他代表我发言。,6
+benchmark,n.,基准,a standard,This is the industry benchmark.,这是行业基准。,6
+bias,n.,偏见,prejudice,The test showed a bias.,测试显示存在偏见。,6
+bilateral,adj.,双边的,involving two sides,They signed a bilateral deal.,他们签署了一份双边协议。,6
+bond,n.,纽带；债券,a tie or link,The bond between them is strong.,他们之间的纽带很牢固。,6
+brevity,n.,简洁,shortness,The brevity of the note surprised us.,便条的简洁令我们意外。,6
+bulk,n.,大量,the majority,The bulk of work is done.,大部分工作已完成。,6
+bureaucracy,n.,官僚,complex admin,The bureaucracy slowed us down.,官僚程序拖慢了我们。,6
+calibrate,v.,校准,to adjust precisely,We calibrate the machine weekly.,我们每周校准这台机器。,6
+capability,n.,能力,ability,The system has great capability.,这个系统能力很强。,6
+capacity,n.,容量,maximum amount,The hall has a capacity of 500.,这个大厅可容纳500人。,6
+cite,v.,引用,to quote,She cited a famous line.,她引用了一句名言。,6
+civilization,n.,文明,advanced society,This civilization was ancient.,这个文明十分古老。,6
+clarify,v.,澄清,to make clear,Let me clarify the rule.,我来澄清一下规则。,6
+classify,v.,分类,to group,We classify books by topic.,我们按主题给书分类。,6
+cohesion,n.,凝聚力,unity,Team cohesion is important.,团队凝聚力很重要。,6
+coincide,v.,巧合,to happen together,Our views coincide.,我们的看法一致。,6
+collaborate,v.,合作,to work together,We collaborate on the project.,我们在这个项目上合作。,6
+compensate,v.,补偿,to make up for,They compensate for the loss.,他们对损失进行了补偿。,6
+competent,adj.,胜任的,capable,She is a competent leader.,她是一位称职的领导。,6
+compile,v.,编译,to gather or build,We compile the report each month.,我们每月汇编这份报告。,6
+complement,v.,补充,to complete,The wine complements the meal.,这款酒与这餐饭相得益彰。,6
+complexity,n.,复杂性,state of being complex,The complexity surprised us.,其复杂性令我们惊讶。,6
+comply,v.,遵守,to obey,You must comply with the law.,你必须遵守法律。,6
+comprehensive,adj.,全面的,complete,We need a comprehensive plan.,我们需要一个全面的计划。,6
+comprise,v.,包含,to consist of,The course comprises ten units.,这门课程包含十个单元。,6
+concede,v.,承认,to admit,He conceded the point.,他承认了这一点。,6
+conceive,v.,构想,to imagine,She conceived a new idea.,她想出了一个新方法。,6
+conclude,v.,得出结论,to finish or decide,We concluded the meeting on time.,我们按时结束了会议。,6
+concurrent,adj.,同时的,at the same time,Two concurrent events occurred.,两个事件同时发生。,6
+condense,v.,浓缩,to make denser,We condense the long text.,我们压缩了这篇长文。,6
+confine,v.,限制,to restrict,Please confine your talk to ten minutes.,请把发言限制在十分钟内。,6
+confirm,v.,确认,to verify,Please confirm your order.,请确认你的订单。,6
+conform,v.,符合,to match,The design must conform to the rules.,设计必须符合规范。,6
+confront,v.,面对,to face,We must confront the problem.,我们必须面对这个问题。,6
+congestion,n.,拥堵,heavy crowding,Traffic congestion is getting worse.,交通拥堵更严重了。,6
+consensus,n.,共识,general agreement,They reached a consensus.,他们达成了共识。,6
+consequent,adj.,随之发生的,following,The consequent rise was swift.,随之而来的上涨很迅速。,6
+conserve,v.,保护,to protect,We must conserve water.,我们必须节约用水。,6
+consolidate,v.,巩固,to strengthen,We consolidate our gains.,我们巩固已有的成果。,6
+constitute,v.,构成,to form,Twelve months constitute a year.,十二个月构成一年。,6
+constraint,n.,约束,a limit,Time is a key constraint.,时间是一个关键约束。,6
+contemporary,adj.,当代的,modern,He studies contemporary art.,他研究当代艺术。,6
+contextual,adj.,语境的,of context,The meaning is contextual.,这个含义是依语境而定的。,6
+contradict,v.,矛盾,to oppose,His words contradict his actions.,他的言行相矛盾。,6
+controversy,n.,争议,public dispute,The topic sparked controversy.,这个话题引发了争议。,6
+convene,v.,召集,to call together,They convene a meeting weekly.,他们每周召集一次会议。,6
+convert,v.,转换,to change,We convert sunlight to power.,我们把阳光转化为电能。,6
+conviction,n.,信念,strong belief,She spoke with conviction.,她说话时充满信念。,6
+corporate,adj.,公司的,of a company,The corporate office is here.,公司总部在这里。,6
+correlate,v.,相关,to link,Height correlates with weight.,身高与体重相关。,6
+correspond,v.,对应,to match,The map corresponds to reality.,这张地图与实况相符。,6
+counterpart,n.,对应方,matching person,He met his counterpart abroad.,他在国外见到了对应方。,6
+cumulative,adj.,累积的,adding up,The cumulative effect is clear.,累积效应很明显。,6
+curriculum,n.,课程,study plan,The curriculum is broad.,课程很宽泛。,6
+deduce,v.,推断,to conclude,We deduce the cause from the clues.,我们从线索推断出原因。,6
+deficit,n.,赤字,shortfall,The budget shows a deficit.,预算出现了赤字。,6
+delegate,v.,委派,to assign,We delegate the task to her.,我们把任务委派给她。,6
+deliberate,adj.,故意的,intentional,It was a deliberate act.,那是故意的行为。,6
+demographic,adj.,人口统计的,of population,The demographic data is useful.,人口统计数据很有用。,6
+denote,v.,表示,to mean,The sign denotes danger.,这个标志表示危险。,6
+depict,v.,描绘,to show,The painting depicts a lake.,这幅画描绘了一个湖。,6
+deprive,v.,剥夺,to take away,They deprive him of his rights.,他们剥夺了他的权利。,6
+derive,v.,源于,to come from,We derive heat from the sun.,我们从太阳获取热量。,6
+designate,v.,指定,to assign,We designate him as the lead.,我们指定他为主管。,6
+despise,v.,鄙视,to hate,He despises laziness.,他鄙视懒惰。,6
+detach,v.,分离,to separate,Please detach the price tag.,请把价签撕下。,6
+deteriorate,v.,恶化,to worsen,His health began to deteriorate.,他的健康开始恶化。,6
+deviate,v.,偏离,to stray,Do not deviate from the plan.,不要偏离计划。,6
+discern,v.,辨别,to perceive,We discern a clear pattern.,我们辨别出一种清晰的模式。,6
+disclose,v.,披露,to reveal,They disclose the facts at last.,他们最终披露了事实。,6
+discriminate,v.,区分,to tell apart,We discriminate the two types.,我们区分这两种类型。,6
+displace,v.,取代,to replace,New tech displaces the old.,新技术取代了旧技术。,6
+dispose,v.,处置,to get rid of,We dispose of the waste safely.,我们安全处理掉废弃物。,6
+distinct,adj.,明显的,clear,The two ideas are distinct.,这两种想法明显不同。,6
+distort,v.,扭曲,to twist,The lens distorts the image.,镜片扭曲了图像。,6
+domain,n.,领域,field,This is my domain of work.,这是我的工作领域。,6
+dominant,adj.,主导的,leading,The dominant trend is clear.,主导趋势很明显。,6
+doubtless,adv.,无疑地,certainly,He will doubtless agree.,他无疑会同意。,6
+drastic,adj.,剧烈的,extreme,We need a drastic change.,我们需要剧烈的改变。,6
+duplicate,v.,复制,to copy,Please duplicate the file first.,请先复制这个文件。,6
+dynamic,adj.,动态的,changing,The market is dynamic.,市场是动态的。,6
+eccentric,adj.,古怪的,odd,He is an eccentric man.,他是个古怪的人。,6
+ecosystem,n.,生态系统,life system,The forest ecosystem is rich.,森林生态系统很丰富。,6
+elaborate,adj.,详尽的,detailed,She gave an elaborate plan.,她给出了详尽的计划。,6
+eliminate,v.,消除,to remove,We eliminate errors before launch.,我们在上线前消除错误。,6
+embody,v.,体现,to represent,The law embodies fairness.,这部法律体现了公平。,6
+empathy,n.,共情,understanding,She showed real empathy.,她表现出真正的共情。,6
+encompass,v.,包含,to include,The plan encompasses all teams.,计划涵盖所有团队。,6
+endeavor,n.,努力,an effort,It was a noble endeavor.,那是一项高尚的努力。,6
+enhance,v.,增强,to improve,We enhance the product weekly.,我们每周改进产品。,6
+envisage,v.,设想,to imagine,We envisage a bright future.,我们设想一个光明的未来。,6
+equitable,adj.,公平的,fair,We seek an equitable deal.,我们寻求公平的协议。,6
+erosion,n.,侵蚀,wearing away,Soil erosion is a problem.,土壤侵蚀是个问题。,6
+essence,n.,本质,core nature,The essence is simple.,本质很简单。,6
+evaluate,v.,评估,to judge,We evaluate the results fairly.,我们公平地评估结果。,6
+evolve,v.,进化,to develop,The species evolved slowly.,这个物种缓慢进化。,6
+exceed,v.,超过,to go beyond,Sales exceed our goal.,销量超过了我们的目标。,6
+exemplify,v.,举例说明,to illustrate,This case exemplifies the rule.,这个案例说明了该规则。,6
+explicit,adj.,明确的,clearly stated,He gave explicit instructions.,他给出了明确的指示。,6
+exploit,v.,开发；剥削,to use or abuse,They exploit the resource wisely.,他们合理地开发这种资源。,6
+extract,v.,提取,to pull out,We extract the data from logs.,我们从日志中提取数据。,6
+facet,n.,方面,aspect,This is one facet of the issue.,这是问题的一个方面。,6
+facilitate,v.,促进,to make easy,The app facilitates daily learning.,这款应用促进日常学习。,6
+feasible,adj.,可行的,possible,The plan is feasible.,这个计划可行。,6
+fluctuate,v.,波动,to vary,Prices fluctuate daily.,价格每日波动。,6
+foresee,v.,预见,to predict,We foresee no major problem.,我们预见没有大问题。,6
+formulate,v.,制定,to create,We formulate a clear strategy.,我们制定清晰战略。,6
+fortify,v.,加强,to strengthen,They fortify the old wall.,他们加固了旧城墙。,6
+fragment,n.,碎片,a piece,The vase broke into fragments.,花瓶碎成了碎片。,6
+framework,n.,框架,a structure,We need a clear framework.,我们需要清晰的框架。,6
+fundamental,adj.,基本的,basic,Trust is fundamental to team work.,信任是团队合作的基础。,6
+gregarious,adj.,合群的,sociable,He is gregarious by nature.,他天性合群。,6
+hierarchy,n.,等级,a ranking,The hierarchy is clear.,等级很清晰。,6
+highlight,v.,强调,to emphasize,She highlighted the main risk.,她强调了主要风险。,6
+homogeneous,adj.,同质的,uniform,The group is homogeneous.,这个群体是同质的。,6
+hypothesis,n.,假设,a theory,The hypothesis was tested.,这个假设被检验了。,6
+identifiable,adj.,可识别的,recognizable,The cause is identifiable.,原因可识别。,6
+illuminate,v.,阐明,to clarify,The report illuminates the issue.,报告阐明了问题。,6
+illustrate,v.,说明,to explain,Let me illustrate with an example.,我用一个例子来说明。,6
+immense,adj.,巨大的,huge,The task is immense.,任务巨大。,6
+impair,v.,损害,to harm,Noise can impair your hearing.,噪音会损害听力。,6
+impart,v.,传授,to share,Teachers impart knowledge.,教师传授知识。,6
+imperative,adj.,必要的,essential,It is imperative to act now.,现在行动是必要的。,6
+implicit,adj.,含蓄的,implied,There is an implicit rule here.,这里有一条隐含的规则。,6
+incentive,n.,激励,a motive,The bonus is a strong incentive.,奖金是一种强力激励。,6
+incidence,n.,发生率,rate of occurrence,The incidence is rising.,发生率在上升。,6
+incline,v.,倾向于,to lean toward,We incline to agree with you.,我们倾向于同意你。,6
+incorporate,v.,纳入,to include,We incorporate user feedback.,我们纳入用户反馈。,6
+increment,n.,增量,an increase,Each small increment helps.,每一次小幅增量都有帮助。,6
+indicative,adj.,指示的,suggesting,This is indicative of growth.,这表明了增长。,6
+inevitable,adj.,不可避免的,unavoidable,Change is inevitable in life.,变化在生活中不可避免。,6
+infer,v.,推断,to deduce,We infer the meaning from context.,我们从语境推断其含义。,6
+infrastructure,n.,基础设施,basic systems,The infrastructure is rather old.,基础设施相当陈旧。,6
+ingenious,adj.,巧妙的,clever,It is an ingenious design.,这是一个巧妙的设计。,6
+inhibit,v.,抑制,to restrain,The drug inhibits bacterial growth.,这种药物抑制细菌生长。,6
+initiate,v.,发起,to start,We initiate the review process.,我们启动审查流程。,6
+innovate,v.,创新,to create new,We innovate to stay ahead.,我们创新以保持领先。,6
+intricate,adj.,复杂的,complex,The design is intricate.,设计很复杂。,6
+intuitive,adj.,直观的,instinctive,The interface is intuitive.,界面很直观。,6
+invariable,adj.,不变的,constant,The rule is invariable.,规则不变。,6
+levy,v.,征收,to impose,The state levies a tax on goods.,国家征收商品税。,6
+liaise,v.,联络,to coordinate,We liaise with local partners.,我们与本地伙伴联络。,6
+linear,adj.,线性的,straight-line,The path is linear and clear.,路径是线性的且清晰。,6
+lucrative,adj.,有利可图的,profitable,It is a lucrative business.,这是一门赚钱的生意。,6
+magnitude,n.,量级,size or scale,The magnitude of the task is huge.,任务量级巨大。,6
+mandate,v.,授权,to authorize,The law mandates a full review.,法律授权进行一次全面审查。,6
+manipulate,v.,操纵,to control,He manipulates the raw data.,他操纵原始数据。,6
+mechanism,n.,机制,a system,The mechanism is fairly simple.,机制相当简单。,6
+mediate,v.,调解,to settle,We mediate the labor dispute.,我们调解劳资争端。,6
+metaphor,n.,隐喻,a figure of speech,He used a powerful metaphor.,他用了有力的隐喻。,6
+methodology,n.,方法论,study method,The methodology is sound.,方法论是可靠的。,6
+migration,n.,迁移,moving,The data migration was smooth.,数据迁移很顺利。,6
+minimal,adj.,最小的,least possible,We want minimal risk exposure.,我们希望风险敞口最小。,6
+mitigate,v.,缓解,to lessen,We mitigate the negative impact.,我们缓解负面影响。,6
+moderate,adj.,适度的,reasonable,We need moderate change first.,我们需要先做适度改变。,6
+modify,v.,修改,to change,We modify the plan as needed.,我们按需修改计划。,6
+module,n.,模块,a unit,This module is optional.,这个模块是可选的。,6
+momentum,n.,势头,force of motion,The project gained momentum.,项目势头渐强。,6
+notable,adj.,显著的,remarkable,A notable change occurred.,发生了显著的变化。,6
+objective,adj.,客观的,unbiased,We need an objective view.,我们需要客观的看法。,6
+obligation,n.,义务,a duty,We have a legal obligation.,我们负有法律义务。,6
+ongoing,adj.,持续的,continuing,The work is ongoing.,工作持续进行中。,6
+opaque,adj.,不透明的,not clear,The glass is fully opaque.,玻璃是完全不透明的。,6
+optimum,adj.,最佳的,best,This is the optimum time to act.,这是行动的最佳时机。,6
+parallel,adj.,平行的,side by side,The two roads run parallel.,这两条路平行延伸。,6
+parameter,n.,参数,a variable,Set the key parameter first.,先设定关键参数。,6
+partial,adj.,部分的,incomplete,We saw only partial success.,我们仅看到部分成功。,6
+partition,v.,分隔,to divide,We partition the hard disk.,我们对硬盘分区。,6
+passive,adj.,被动的,not active,He took a passive role.,他扮演被动角色。,6
+patent,n.,专利,a legal right,He filed a new patent.,他申请了新专利。,6
+pathway,n.,路径,a route,This is a clear career pathway.,这是一条清晰的职业路径。,6
+plausible,adj.,看似合理的,believable,His story is plausible.,他的说法看似合理。,6
+portray,v.,描绘,to depict,The book portrays a real hero.,这本书描绘了一位真正的英雄。,6
+posit,v.,假定,to assume,We posit a simple case first.,我们先假设一个简单的情形。,6
+pragmatic,adj.,务实的,practical,We take a pragmatic view.,我们持务实的看法。,6
+precede,v.,先于,to come before,The intro precedes the main body.,引言在正文之前。,6
+precious,adj.,珍贵的,valuable,Time is precious to us.,时间对我们很珍贵。,6
+precise,adj.,精确的,exact,We need precise data points.,我们需要精确的数据点。,6
+predominant,adj.,主导的,main,The predominant color is blue.,主导色是蓝色。,6
+preliminary,adj.,初步的,initial,We did a preliminary check.,我们做了初步检查。,6
+prescribe,v.,规定,to order,The law prescribes a heavy fine.,法律规定了高额罚款。,6
+presume,v.,假定,to suppose,We presume he is correct.,我们假定他是对的。,6
+prevalent,adj.,普遍的,common,This view is prevalent now.,这种观点现在很普遍。,6
+priority,n.,优先,top concern,Safety is our top priority.,安全是我们的首要优先项。,6
+proficient,adj.,熟练的,skilled,She is proficient in French.,她法语很熟练。,6
+profound,adj.,深刻的,deep,The book had a profound impact.,这本书影响深远。,6
+prohibit,v.,禁止,to forbid,The rule prohibits smoking.,规则禁止吸烟。,6
+prolong,v.,延长,to extend,We prolong the meeting by an hour.,我们将会议延长一小时。,6
+prominent,adj.,显著的,noticeable,He is a prominent figure.,他是位显要人物。,6
+propel,v.,推动,to drive forward,The engine propels the car.,引擎推动汽车。,6
+prospect,n.,前景,outlook,The economic prospect is bright.,经济前景光明。,6
+protocol,n.,协议,a set of rules,Follow the security protocol.,遵守安全协议。,6
+province,n.,省份,a region,He lives in a remote province.,他住在偏远的省份。,6
+provision,n.,规定,a clause,The contract has a key provision.,合同有一项关键规定。,6
+publication,n.,出版物,a printed work,The new publication is online.,该新出版物已上线。,6
+qualitative,adj.,定性的,of quality,We did a qualitative study.,我们做了定性研究。,6
+quantify,v.,量化,to measure,We quantify the real risk.,我们量化实际风险。,6
+quintessential,adj.,典型的,most typical,He is the quintessential leader.,他是最典型的领导者。,6
+radical,adj.,激进的,extreme,We need a radical fix.,我们需要彻底修复。,6
+rational,adj.,理性的,logical,We made a rational choice.,我们做了理性的选择。,6
+readily,adv.,容易地,easily,The data is readily available.,数据很容易获取。,6
+realm,n.,领域,a sphere,This is within our realm.,这在我们领域之内。,6
+reasonable,adj.,合理的,fair,The price is quite reasonable.,价格相当合理。,6
+recall,v.,回忆,to remember,You can recall the event.,你能回忆起那件事。,6
+recede,v.,后退,to move back,The flood waters receded.,洪水退去了。,6
+recipient,n.,接受者,a receiver,He was the recipient of the award.,他是该奖项的获得者。,6
+recur,v.,复发,to happen again,The problem may recur soon.,问题可能很快复发。,6
+redundant,adj.,冗余的,unnecessary,This step is redundant.,这一步是多余的。,6
+refine,v.,精炼,to improve,We refine the design often.,我们常精炼设计。,6
+regime,n.,政权,a government,The old regime changed.,旧政权更迭了。,6
+regulate,v.,监管,to control,The agency regulates trade.,该机构监管贸易。,6
+reinforce,v.,加强,to strengthen,We reinforce the weak wall.,我们加固薄弱的墙体。,6
+relay,v.,转达,to pass on,Please relay the message to him.,请转达这个消息给他。,6
+reliable,adj.,可靠的,dependable,The source is reliable.,来源可靠。,6
+relieve,v.,缓解,to ease,The medicine relieves the pain.,药物缓解疼痛。,6
+reluctant,adj.,不情愿的,unwilling,He was reluctant to leave.,他不情愿离开。,6
+remedy,n.,补救,a fix,We need a quick remedy.,我们需要快速补救。,6
+render,v.,致使,to cause to be,The error rendered it useless.,这个错误使它失效。,6
+renew,v.,更新,to restore,We renew the contract yearly.,我们每年续签合同。,6
+replicate,v.,复制,to reproduce,We replicate the test result.,我们复现了实验结果。,6
+reputation,n.,声誉,fame,The firm has a good reputation.,这家公司声誉良好。,6
+resilient,adj.,有韧性的,able to recover,Children are quite resilient.,孩子很有韧性。,6
+resort,v.,求助,to turn to,We resort to plan B now.,我们现在求助于B计划。,6
+respective,adj.,各自的,individual,They went to their respective desks.,他们回到各自的座位。,6
+retrospect,n.,回顾,looking back,In retrospect it was wise.,回顾起来那是明智的。,6
+rigorous,adj.,严格的,strict,We applied rigorous tests.,我们进行了严格的测试。,6
+robust,adj.,强健的,strong,The system is robust.,系统强健。,6
+safeguard,v.,保护,to protect,We safeguard the user data.,我们保护用户数据。,6
+scenario,n.,情景,a situation,Consider this worst case scenario.,考虑这个最坏情景。,6
+scrutinize,v.,细查,to examine,We scrutinize the full report.,我们细查完整报告。,6
+segment,n.,部分,a piece,This market segment is key.,这个市场部分很关键。,6
+seldom,adv.,很少,rarely,He seldom complains at work.,他很少在工作时抱怨。,6
+sequence,n.,顺序,order,Follow the correct sequence.,按照正确的顺序来。,6
+serial,adj.,连续的,in series,We saw serial failures there.,我们看到了连续的失败。,6
+signify,v.,表示,to mean,This signifies a real change.,这表示一种真实的变化。,6
+simulate,v.,模拟,to mimic,We simulate the whole process.,我们模拟整个过程。,6
+simultaneous,adj.,同时的,at once,We held simultaneous talks.,我们同时举行了会谈。,6
+skeptical,adj.,怀疑的,doubting,She is skeptical of wild claims.,她对这些夸张说法持怀疑态度。,6
+sole,adj.,唯一的,only,He is the sole owner.,他是唯一的所有者。,6
+solidarity,n.,团结,unity,We showed real solidarity.,我们展现了真正的团结。,6
+sophisticated,adj.,复杂的,advanced,The tool is rather sophisticated.,这个工具相当复杂。,6
+spatial,adj.,空间的,of space,The spatial layout matters.,空间布局很重要。,6
+specify,v.,具体说明,to state clearly,Please specify the exact date.,请具体说明确切日期。,6
+spectrum,n.,光谱,a range,The risk spectrum is wide.,风险光谱很宽。,6
+speculate,v.,推测,to guess,We speculate on the real cause.,我们推测真正的原因。,6
+statistics,n.,统计学,data science,He studies statistics at college.,他在大学研究统计学。,6
+straightforward,adj.,直截了当的,simple,The answer is straightforward.,答案直截了当。,6
+strategy,n.,策略,a plan,We need a clear strategy.,我们需要清晰的策略。,6
+streamline,v.,简化,to make efficient,We streamline the workflow.,我们简化工作流程。,6
+subjective,adj.,主观的,personal,This is a subjective view.,这是主观看法。,6
+subordinate,adj.,下属的,lower in rank,He is a subordinate member.,他是下级成员。,6
+subsequent,adj.,随后的,following,The subsequent step is easy.,随后的步骤很简单。,6
+subside,v.,平息,to calm down,The storm finally subsided.,风暴终于平息了。,6
+substantial,adj.,大量的,large,We made substantial progress.,我们取得了大量进展。,6
+subtle,adj.,微妙的,slight,There is a subtle difference.,存在微妙的差异。,6
+successive,adj.,连续的,one after another,We won successive games.,我们连胜数场。,6
+successor,n.,继任者,a replacement,He named his successor.,他指定了继任者。,6
+sufficient,adj.,充足的,enough,We have sufficient time left.,我们还有充足的时间。,6
+summary,n.,摘要,a brief account,Read the executive summary first.,请先阅读执行摘要。,6
+supplement,v.,补充,to add to,We supplement our diet daily.,我们每天补充营养。,6
+surpass,v.,超越,to exceed,We surpass our yearly target.,我们超越了年度目标。,6
+suspend,v.,暂停,to halt,We suspend the service now.,我们暂停服务。,6
+tangible,adj.,有形的,real,We need tangible results.,我们需要有形的结果。,6
+temporal,adj.,暂时的,of time,The temporal limit still applies.,时间限制仍然适用。,6
+tentative,adj.,试探性的,provisional,We reached a tentative deal.,我们达成了试探性协议。,6
+terminate,v.,终止,to end,We terminate the old contract.,我们终止旧合同。,6
+theoretical,adj.,理论的,abstract,This is a theoretical model.,这是一个理论模型。,6
+thereby,adv.,因此,thus,He left early thereby missing it.,他早早离开因此错过了。,6
+threshold,n.,阈值,a limit,We crossed the danger threshold.,我们越过了危险阈值。,6
+token,n.,象征,a sign,This is a token of our thanks.,这是感谢的象征。,6
+tolerant,adj.,容忍的,accepting,She is tolerant of small errors.,她容忍小错误。,6
+trajectory,n.,轨迹,a path,The sales trajectory is clear.,销售轨迹清晰。,6
+transcend,v.,超越,to go beyond,Art can transcend time.,艺术能超越时间。,6
+transmit,v.,传播,to send,We transmit the signal abroad.,我们向海外传播信号。,6
+transparent,adj.,透明的,clear,The process is transparent.,过程透明。,6
+traverse,v.,穿越,to cross,We traverse the dense forest.,我们穿越茂密森林。,6
+tremendous,adj.,巨大的,huge,We made tremendous progress.,我们取得了巨大进展。,6
+trigger,v.,触发,to set off,The event triggered a crisis.,事件引发了危机。,6
+unanimous,adj.,一致的,in full agreement,The vote was unanimous.,表决一致通过。,6
+undergo,v.,经历,to experience,He underwent major surgery.,他接受了大手术。,6
+underlie,v.,构成…基础,to be the basis,Trust underlies the whole deal.,信任是整笔交易的基础。,6
+undermine,v.,破坏,to weaken,This undermines public trust.,这会破坏公众信任。,6
+unilateral,adj.,单边的,one-sided,It was a unilateral move.,那是单边举动。,6
+unprecedented,adj.,前所未有的,never before seen,We face unprecedented change.,我们面临前所未有的变化。,6
+utilize,v.,利用,to use,We utilize the data wisely.,我们合理利用数据。,6
+validate,v.,验证,to confirm,We validate the new model.,我们验证新模型。,6
+variation,n.,变化,a difference,There is slight variation here.,这里存在轻微变化。,6
+velocity,n.,速度,speed,The wind velocity is high.,风速很高。,6
+versatile,adj.,多才多艺的,adaptable,She is a versatile actor.,她是多才多艺的演员。,6
+vicinity,n.,附近,nearby area,There is a park in the vicinity.,附近有个公园。,6
+volatile,adj.,易变的,unstable,The market is rather volatile.,市场相当易变。,6
+voluntary,adj.,自愿的,by choice,It was a voluntary act.,那是自愿的行为。,6
+whereby,adv.,借此,by which,This is the system whereby we vote.,这是我们投票所依的系统。,6
+widespread,adj.,广泛的,broad,The change was widespread.,变化很广泛。,6
+withhold,v.,拒绝给予,to hold back,They withhold the extra funds.,他们拒绝拨出额外款项。,6

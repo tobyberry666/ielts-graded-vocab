@@ -1,1599 +1,1600 @@
-abandon,放弃,5
-ability,能力,5
-absence,缺席,5
-absolute,绝对的,5
-academic,学术的,5
-accept,接受,5
-access,接近；使用权,5
-accident,事故,5
-accompany,陪伴,5
-accomplish,完成,5
-achieve,实现,5
-acquire,获得,5
-activity,活动,5
-actual,实际的,5
-adapt,适应,5
-adequate,充足的,5
-adjust,调整,5
-admire,钦佩,5
-admit,承认,5
-adopt,采纳；收养,5
-adult,成年人,5
-advance,推进；进步,5
-advantage,优势,5
-adventure,冒险,5
-advertise,做广告,5
-advice,建议,5
-affair,事务,5
-affect,影响,5
-afford,负担得起,5
-afraid,害怕的,5
-agency,机构,5
-agenda,议程,5
-agent,代理人,5
-agriculture,农业,5
-aim,目标,5
-alarm,警报,5
-alike,相似的,5
-alive,活着的,5
-allow,允许,5
-alone,单独的,5
-alphabet,字母表,5
-alternative,替代的；选择,5
-amaze,使惊奇,5
-ambition,抱负,5
-amount,数量,5
-amuse,逗乐,5
-ancient,古老的,5
-anger,愤怒,5
-angle,角度,5
-animal,动物,5
-announce,宣布,5
-annoy,使恼怒,5
-annual,每年的,5
-anxious,焦虑的,5
-apart,分开,5
-apologise,道歉,5
-apparent,明显的,5
-appeal,呼吁；吸引,5
-appear,出现,5
-apply,申请；应用,5
-appoint,任命,5
-approach,方法；接近,5
-appropriate,合适的,5
-approve,批准,5
-argue,争论,5
-arise,出现；升起,5
-army,军队,5
-arrange,安排,5
-arrest,逮捕,5
-arrive,到达,5
-article,文章；物品,5
-artist,艺术家,5
-aspect,方面,5
-assess,评估,5
-assign,分配,5
-assist,协助,5
-assume,假设,5
-attack,攻击,5
-attempt,尝试,5
-attend,参加,5
-attitude,态度,5
-attract,吸引,5
-audience,观众,5
-author,作者,5
-authority,权威；当局,5
-automatic,自动的,5
-available,可用的,5
-average,平均的,5
-avoid,避免,5
-awake,醒着的,5
-aware,意识到的,5
-awesome,令人惊叹的,5
-awful,糟糕的,5
-background,背景,5
-balance,平衡,5
-basic,基本的,5
-basis,基础,5
-battle,战斗,5
-beauty,美丽,5
-behave,表现,5
-belief,信念,5
-belong,属于,5
-beside,在…旁边,5
-block,块；阻塞,5
-board,木板；董事会,5
-boil,煮沸,5
-border,边界,5
-boring,无聊的,5
-borrow,借入,5
-boss,老板,5
-bottom,底部,5
-brain,大脑,5
-branch,分支,5
-brave,勇敢的,5
-bread,面包,5
-break,打破,5
-breath,呼吸,5
-breathe,呼吸,5
-brief,简短的,5
-bright,明亮的,5
-broad,宽阔的,5
-brother,兄弟,5
-brown,棕色的,5
-build,建造,5
-burden,负担,5
-burn,燃烧,5
-business,商业,5
-busy,忙碌的,5
-butter,黄油,5
-buy,购买,5
-cabinet,橱柜,5
-calculate,计算,5
-calendar,日历,5
-camp,营地,5
-campaign,运动,5
-cancel,取消,5
-cancer,癌症,5
-candidate,候选人,5
-capable,有能力的,5
-capital,首都；资本,5
-captain,船长；队长,5
-capture,捕获,5
-carbon,碳,5
-career,职业,5
-careful,小心的,5
-carry,携带,5
-carve,雕刻,5
-case,情况；案例,5
-cash,现金,5
-cast,投掷；演员,5
-catch,抓住,5
-category,类别,5
-cause,原因；导致,5
-cease,停止,5
-celebrate,庆祝,5
-centre,中心,5
-ceremony,仪式,5
-certain,确定的,5
-chain,链,5
-challenge,挑战,5
-chance,机会,5
-change,改变,5
-channel,频道；渠道,5
-chapter,章节,5
-character,性格；角色,5
-charge,收费；负责,5
-chart,图表,5
-chase,追逐,5
-cheap,便宜的,5
-cheat,欺骗,5
-check,检查,5
-cheer,欢呼,5
-chief,主要的；首领,5
-child,孩子,5
-choice,选择,5
-choose,选择,5
-circle,圆,5
-citizen,公民,5
-city,城市,5
-civil,公民的,5
-claim,声称；索赔,5
-classic,经典的,5
-climate,气候,5
-climb,爬,5
-clock,时钟,5
-close,关闭；接近的,5
-clothes,衣服,5
-cloud,云,5
-coach,教练,5
-coal,煤,5
-coast,海岸,5
-coffee,咖啡,5
-coin,硬币,5
-cold,冷的,5
-collect,收集,5
-college,学院,5
-combat,战斗,5
-combine,结合,5
-comfort,舒适,5
-command,命令,5
-comment,评论,5
-commercial,商业的,5
-commit,承诺；犯（错）,5
-common,常见的,5
-communicate,沟通,5
-community,社区,5
-company,公司,5
-compare,比较,5
-compete,竞争,5
-complain,抱怨,5
-complete,完成,5
-complex,复杂的,5
-component,组成部分,5
-concept,概念,5
-concern,关心；担忧,5
-concert,音乐会,5
-conduct,实施；行为,5
-connect,连接,5
-consent,同意,5
-consider,考虑,5
-consist,由…组成,5
-constant,持续的,5
-construct,建造,5
-consult,咨询,5
-consume,消耗,5
-contact,联系,5
-contain,包含,5
-content,内容；满意的,5
-contest,竞赛,5
-context,语境,5
-continue,继续,5
-contract,合同,5
-contrast,对比,5
-contribute,贡献,5
-control,控制,5
-convenient,方便的,5
-convince,说服,5
-cook,烹饪,5
-cool,凉爽的,5
-cope,应付,5
-copy,复制,5
-corner,角落,5
-correct,正确的,5
-cost,成本,5
-council,委员会,5
-count,计数,5
-country,国家,5
-courage,勇气,5
-course,课程；过程,5
-court,法院；球场,5
-cover,覆盖,5
-craft,工艺,5
-crash,坠毁,5
-create,创造,5
-credit,信用,5
-crime,犯罪,5
-crisis,危机,5
-critic,批评家,5
-crop,作物,5
-cross,穿过,5
-crowd,人群,5
-crucial,关键的,5
-crush,压碎,5
-culture,文化,5
-cure,治愈,5
-curious,好奇的,5
-current,当前的,5
-custom,习俗,5
-cut,切,5
-cycle,循环,5
-daily,日常的,5
-damage,损害,5
-danger,危险,5
-dark,黑暗的,5
-data,数据,5
-deal,处理；交易,5
-debate,辩论,5
-debt,债务,5
-decade,十年,5
-decide,决定,5
-decline,下降；拒绝,5
-decorate,装饰,5
-decrease,减少,5
-defeat,击败,5
-defend,保卫,5
-define,定义,5
-degree,程度；学位,5
-delay,延迟,5
-deliver,递送,5
-demand,需求；要求,5
-democracy,民主,5
-demonstrate,证明；演示,5
-deny,否认,5
-depend,依赖,5
-deploy,部署,5
-depress,使沮丧,5
-depth,深度,5
-describe,描述,5
-design,设计,5
-desire,渴望,5
-detail,细节,5
-detect,探测,5
-develop,发展,5
-device,装置,5
-devote,奉献,5
-differ,不同,5
-difficult,困难的,5
-dig,挖,5
-direct,直接的；指导,5
-disappear,消失,5
-discover,发现,5
-discuss,讨论,5
-disease,疾病,5
-dismiss,解雇；不予考虑,5
-display,展示,5
-dispute,争端,5
-distance,距离,5
-district,地区,5
-disturb,打扰,5
-diverse,多样的,5
-divide,划分,5
-division,分割,5
-document,文件,5
-donate,捐赠,5
-double,双倍的,5
-doubt,怀疑,5
-drag,拖,5
-drama,戏剧,5
-dream,梦想,5
-dress,服装,5
-drink,喝,5
-drive,驾驶,5
-drop,掉落,5
-drug,药物；毒品,5
-dry,干燥的,5
-due,到期的；应有的,5
-dump,倾倒,5
-duty,职责,5
-eager,渴望的,5
-earn,赚取,5
-earth,地球,5
-ease,轻松；缓和,5
-east,东方,5
-easy,容易的,5
-eat,吃,5
-ecology,生态,5
-economy,经济,5
-edge,边缘,5
-edit,编辑,5
-educate,教育,5
-effect,影响,5
-effort,努力,5
-elder,年长的,5
-elect,选举,5
-element,元素,5
-email,电子邮件,5
-embrace,拥抱；接受,5
-emerge,出现,5
-emotion,情感,5
-emphasis,强调,5
-employ,雇佣,5
-enable,使能够,5
-encourage,鼓励,5
-end,结束,5
-energy,能量,5
-engage,从事；吸引,5
-engine,引擎,5
-enjoy,享受,5
-enough,足够的,5
-ensure,确保,5
-enter,进入,5
-entire,整个的,5
-entitle,使有权利,5
-entrance,入口,5
-equal,平等的,5
-equip,装备,5
-error,错误,5
-escape,逃脱,5
-essay,短文,5
-establish,建立,5
-estimate,估计,5
-ethnic,民族的,5
-evident,明显的,5
-exact,精确的,5
-examine,检查,5
-example,例子,5
-exceed,超过,5
-exchange,交换,5
-exclude,排除,5
-excuse,借口,5
-execute,执行,5
-exercise,锻炼,5
-exhibit,展览,5
-exist,存在,5
-expand,扩张,5
-expect,期望,5
-expend,花费,5
-expense,开支,5
-experience,经验,5
-experiment,实验,5
-expert,专家,5
-explain,解释,5
-explore,探索,5
-export,出口,5
-expose,暴露,5
-express,表达,5
-extend,延伸,5
-external,外部的,5
-extra,额外的,5
-extreme,极端的,5
-eye,眼睛,5
-face,脸；面对,5
-fact,事实,5
-facility,设施,5
-factor,因素,5
-fail,失败,5
-fair,公平的,5
-fall,落下,5
-family,家庭,5
-famous,著名的,5
-far,远的,5
-farm,农场,5
-fast,快的,5
-fat,胖的,5
-fate,命运,5
-fault,错误；故障,5
-favor,喜爱；帮助,5
-fear,恐惧,5
-feature,特征,5
-fee,费用,5
-feed,喂养,5
-feel,感觉,5
-fellow,同伴,5
-female,女性的,5
-fence,栅栏,5
-few,很少的,5
-field,田野；领域,5
-fight,战斗,5
-figure,数字；人物,5
-file,文件,5
-fill,填满,5
-film,电影,5
-final,最终的,5
-finance,金融,5
-find,找到,5
-fine,罚款；好的,5
-firm,坚定的,5
-fish,鱼,5
-fit,适合,5
-fix,修理,5
-flag,旗帜,5
-flat,平坦的,5
-flavor,风味,5
-flight,航班,5
-floor,地板,5
-flow,流动,5
-flower,花,5
-fluid,流体,5
-focus,焦点；专注,5
-fold,折叠,5
-folk,人们；民间的,5
-follow,跟随,5
-food,食物,5
-fool,傻瓜,5
-foot,脚,5
-force,力量；迫使,5
-forest,森林,5
-forget,忘记,5
-form,形式,5
-formal,正式的,5
-format,格式,5
-former,前者的,5
-fortune,财富；运气,5
-forward,向前,5
-found,建立,5
-free,自由的,5
-freeze,冻结,5
-friend,朋友,5
-frighten,使害怕,5
-fruit,水果,5
-fuel,燃料,5
-full,满的,5
-fun,乐趣,5
-fund,资金,5
-funny,有趣的,5
-fur,毛皮,5
-furniture,家具,5
-further,进一步,5
-future,未来,5
-gain,获得,5
-game,游戏,5
-gap,缺口,5
-garden,花园,5
-gas,气体,5
-gate,大门,5
-gather,聚集,5
-gender,性别,5
-general,一般的,5
-generate,产生,5
-generous,慷慨的,5
-gentle,温和的,5
-genuine,真正的,5
-gesture,姿态,5
-gift,礼物,5
-girl,女孩,5
-give,给,5
-glad,高兴的,5
-glass,玻璃,5
-global,全球的,5
-goal,目标,5
-god,神,5
-gold,黄金,5
-good,好的,5
-govern,统治,5
-grade,等级,5
-grain,谷物,5
-grand,宏伟的,5
-grant,授予,5
-grass,草,5
-grave,严重的,5
-great,伟大的,5
-green,绿色的,5
-greet,问候,5
-ground,地面,5
-group,群体,5
-grow,生长,5
-guard,守卫,5
-guess,猜测,5
-guest,客人,5
-guide,引导,5
-guilt,内疚,5
-habit,习惯,5
-hair,头发,5
-half,一半,5
-hall,大厅,5
-hand,手,5
-handle,处理,5
-hang,悬挂,5
-happen,发生,5
-happy,快乐的,5
-harbor,港口,5
-hard,硬的；困难的,5
-harm,伤害,5
-harvest,收获,5
-hate,憎恨,5
-head,头,5
-health,健康,5
-hear,听见,5
-heart,心,5
-heat,热,5
-heavy,重的,5
-height,高度,5
-hell,地狱,5
-help,帮助,5
-hero,英雄,5
-hide,隐藏,5
-high,高的,5
-hill,小山,5
-hint,暗示,5
-hire,雇佣,5
-history,历史,5
-hit,打击,5
-hold,持有,5
-hole,洞,5
-holiday,假期,5
-holy,神圣的,5
-home,家,5
-honest,诚实的,5
-honor,荣誉,5
-hope,希望,5
-horn,号角,5
-horror,恐怖,5
-horse,马,5
-host,主人；主持,5
-hot,热的,5
-hotel,酒店,5
-hour,小时,5
-house,房子,5
-huge,巨大的,5
-human,人类,5
-humor,幽默,5
-hundred,百,5
-hunger,饥饿,5
-hunt,打猎,5
-hurry,匆忙,5
-hurt,伤害,5
-husband,丈夫,5
-ice,冰,5
-idea,想法,5
-ideal,理想的,5
-identify,识别,5
-idle,闲置的,5
-ignore,忽视,5
-ill,生病的,5
-image,形象,5
-imagine,想象,5
-impact,影响,5
-implement,实施,5
-import,进口,5
-impose,强加,5
-improve,改善,5
-include,包括,5
-income,收入,5
-index,指数,5
-indicate,表明,5
-industry,工业,5
-infant,婴儿,5
-infect,感染,5
-influence,影响,5
-inform,通知,5
-initial,最初的,5
-injure,伤害,5
-inner,内部的,5
-innocent,无辜的,5
-input,输入,5
-inquiry,询问,5
-insist,坚持,5
-install,安装,5
-instance,实例,5
-instant,瞬间的,5
-instead,代替,5
-institute,机构,5
-instruct,指示,5
-insult,侮辱,5
-insurance,保险,5
-intend,打算,5
-intent,意图,5
-interest,兴趣,5
-interfere,干涉,5
-internal,内部的,5
-international,国际的,5
-interpret,解释,5
-interval,间隔,5
-interview,面试,5
-introduce,介绍,5
-invent,发明,5
-invest,投资,5
-invite,邀请,5
-involve,涉及,5
-iron,铁,5
-island,岛屿,5
-issue,问题；发行,5
-item,项目,5
-jail,监狱,5
-job,工作,5
-join,加入,5
-joint,联合的,5
-journal,期刊,5
-journey,旅程,5
-joy,喜悦,5
-judge,判断,5
-juice,果汁,5
-jump,跳,5
-jungle,丛林,5
-junior,初级的,5
-jury,陪审团,5
-justice,正义,5
-justify,证明…正当,5
-keep,保持,5
-key,钥匙；关键的,5
-kick,踢,5
-kill,杀死,5
-kind,善良的；种类,5
-king,国王,5
-kiss,亲吻,5
-kitchen,厨房,5
-knee,膝盖,5
-knife,刀,5
-knock,敲,5
-know,知道,5
-labor,劳动,5
-lake,湖,5
-land,土地,5
-language,语言,5
-large,大的,5
-last,最后的,5
-late,迟的,5
-laugh,笑,5
-launch,发射；发起,5
-law,法律,5
-lay,放置,5
-lead,领导,5
-leaf,叶子,5
-league,联盟,5
-leak,泄漏,5
-lean,倾斜,5
-learn,学习,5
-least,最少的,5
-leave,离开,5
-lecture,讲座,5
-left,左边的,5
-legal,合法的,5
-lend,借出,5
-length,长度,5
-less,更少的,5
-lesson,课程,5
-letter,信；字母,5
-level,水平,5
-liable,有责任的,5
-liberal,自由的,5
-library,图书馆,5
-license,执照,5
-lie,躺；说谎,5
-life,生命,5
-lift,举起,5
-light,光；轻的,5
-like,喜欢,5
-limit,限制,5
-link,联系,5
-liquid,液体,5
-list,列表,5
-listen,听,5
-little,小的,5
-live,居住；生活,5
-load,负载,5
-local,当地的,5
-lock,锁,5
-lonely,孤独的,5
-long,长的,5
-look,看,5
-lose,失去,5
-loss,损失,5
-lot,许多,5
-loud,大声的,5
-love,爱,5
-low,低的,5
-loyal,忠诚的,5
-luck,运气,5
-machine,机器,5
-mad,疯狂的,5
-magazine,杂志,5
-mail,邮件,5
-main,主要的,5
-maintain,维持,5
-major,主要的；专业,5
-majority,多数,5
-make,制造,5
-male,男性的,5
-mall,商场,5
-manage,管理,5
-manner,方式,5
-manual,手动的,5
-manufacture,制造,5
-many,许多,5
-map,地图,5
-mark,标记,5
-market,市场,5
-marriage,婚姻,5
-mass,大量,5
-master,掌握；主人,5
-match,匹配,5
-material,材料,5
-matter,事情,5
-mature,成熟的,5
-meal,餐,5
-mean,意味着,5
-measure,测量,5
-meat,肉,5
-media,媒体,5
-medical,医学的,5
-meet,遇见,5
-melt,融化,5
-member,成员,5
-memory,记忆,5
-mental,精神的,5
-mention,提及,5
-menu,菜单,5
-mere,仅仅的,5
-metal,金属,5
-method,方法,5
-middle,中间,5
-migrate,迁移,5
-military,军事的,5
-milk,牛奶,5
-mind,头脑,5
-mineral,矿物,5
-minimum,最小的,5
-minister,部长,5
-minor,次要的,5
-minute,分钟,5
-mirror,镜子,5
-miss,错过；想念,5
-mix,混合,5
-mode,模式,5
-model,模型,5
-modern,现代的,5
-modest,谦虚的,5
-moment,时刻,5
-money,钱,5
-monitor,监视,5
-month,月份,5
-moral,道德的,5
-more,更多的,5
-morning,早晨,5
-mother,母亲,5
-motion,运动,5
-motor,马达,5
-mount,登上,5
-mountain,山,5
-mouse,老鼠,5
-mouth,嘴,5
-move,移动,5
-movie,电影,5
-much,许多,5
-mud,泥,5
-murder,谋杀,5
-muscle,肌肉,5
-museum,博物馆,5
-music,音乐,5
-must,必须,5
-mutual,相互的,5
-mystery,神秘,5
-nail,钉子,5
-naked,裸露的,5
-name,名字,5
-narrow,狭窄的,5
-nation,国家,5
-native,本地的,5
-natural,自然的,5
-nature,自然,5
-near,近的,5
-neat,整洁的,5
-necessary,必要的,5
-need,需要,5
-negative,消极的,5
-negotiate,谈判,5
-neighbor,邻居,5
-nervous,紧张的,5
-net,网,5
-never,从不,5
-news,新闻,5
-nice,好的,5
-night,夜晚,5
-noble,高贵的,5
-noise,噪音,5
-none,没有,5
-normal,正常的,5
-north,北方,5
-nose,鼻子,5
-note,笔记,5
-notice,注意,5
-notion,概念,5
-novel,小说,5
-now,现在,5
-nuclear,核能的,5
-number,数字,5
-nurse,护士,5
-nut,坚果,5
-object,物体；反对,5
-oblige,迫使,5
-observe,观察,5
-obtain,获得,5
-obvious,明显的,5
-occasion,场合,5
-occupy,占据,5
-occur,发生,5
-ocean,海洋,5
-offer,提供,5
-office,办公室,5
-offset,抵消,5
-oil,油,5
-old,老的,5
-onion,洋葱,5
-operate,操作,5
-opinion,意见,5
-opponent,对手,5
-opportunity,机会,5
-oppose,反对,5
-option,选项,5
-oral,口头的,5
-orange,橙子；橙色,5
-order,命令；订单,5
-ordinary,普通的,5
-organ,器官,5
-organise,组织,5
-orient,使适应,5
-origin,起源,5
-original,原始的,5
-other,其他的,5
-output,产出,5
-outcome,结果,5
-outdoor,户外的,5
-outer,外部的,5
-outline,大纲,5
-outset,开始,5
-outside,外部,5
-overall,总体的,5
-overcome,克服,5
-overseas,海外的,5
-owe,欠,5
-own,拥有,5
-owner,所有者,5
-pack,打包,5
-page,页,5
-pain,疼痛,5
-paint,绘画,5
-pair,一对,5
-palace,宫殿,5
-pale,苍白的,5
-pan,平底锅,5
-paper,纸,5
-parent,父母,5
-park,公园,5
-part,部分,5
-participate,参与,5
-particular,特定的,5
-partner,伙伴,5
-party,聚会；政党,5
-pass,通过,5
-past,过去的,5
-patch,补丁,5
-path,路径,5
-patient,耐心的；病人,5
-pattern,模式,5
-pause,暂停,5
-pay,支付,5
-peace,和平,5
-peak,顶峰,5
-pen,钢笔,5
-penalty,惩罚,5
-penny,便士,5
-people,人们,5
-perceive,感知,5
-perfect,完美的,5
-perform,执行,5
-perhaps,也许,5
-period,时期,5
-permit,允许,5
-person,人,5
-personal,个人的,5
-persuade,说服,5
-pet,宠物,5
-phase,阶段,5
-phenomenon,现象,5
-philosophy,哲学,5
-phone,电话,5
-photo,照片,5
-phrase,短语,5
-physical,身体的,5
-pick,挑选,5
-picture,图片,5
-piece,片,5
-pile,堆,5
-pilot,飞行员,5
-pink,粉色,5
-pioneer,先驱,5
-pipe,管道,5
-pity,遗憾,5
-place,地方,5
-plain,朴素的,5
-plan,计划,5
-plane,飞机,5
-planet,行星,5
-plant,植物；工厂,5
-plastic,塑料,5
-plate,盘子,5
-play,玩,5
-please,请,5
-plenty,大量,5
-plot,情节,5
-plug,插头,5
-plural,复数,5
-plus,加,5
-pocket,口袋,5
-poem,诗,5
-poet,诗人,5
-point,点；指出,5
-poison,毒药,5
-pole,杆；极,5
-police,警察,5
-polish,抛光,5
-political,政治的,5
-poll,投票,5
-pollute,污染,5
-pool,池塘,5
-poor,贫穷的,5
-popular,流行的,5
-population,人口,5
-port,港口,5
-pose,造成；摆姿势,5
-position,位置,5
-positive,积极的,5
-possess,拥有,5
-possible,可能的,5
-post,邮寄；岗位,5
-pot,锅,5
-potato,土豆,5
-potential,潜在的,5
-pour,倾倒,5
-poverty,贫困,5
-power,权力,5
-practice,练习,5
-praise,赞扬,5
-pray,祈祷,5
-prefer,更喜欢,5
-prepare,准备,5
-present,呈现；礼物,5
-preserve,保护,5
-press,压；新闻,5
-pressure,压力,5
-pretend,假装,5
-pretty,漂亮的,5
-prevent,防止,5
-previous,先前的,5
-price,价格,5
-pride,骄傲,5
-primary,主要的,5
-prime,首要的,5
-prince,王子,5
-prison,监狱,5
-private,私人的,5
-prize,奖品,5
-probable,可能的,5
-problem,问题,5
-procedure,程序,5
-proceed,继续进行,5
-process,过程,5
-produce,生产,5
-product,产品,5
-profit,利润,5
-program,项目；程序,5
-progress,进步,5
-project,项目,5
-promise,承诺,5
-promote,促进,5
-proof,证明,5
-proper,适当的,5
-property,财产,5
-propose,提议,5
-protect,保护,5
-protest,抗议,5
-proud,骄傲的,5
-prove,证明,5
-provide,提供,5
-publish,出版,5
-pull,拉,5
-purpose,目的,5
-pursue,追求,5
-push,推,5
-qualify,使合格,5
-quality,质量,5
-quantity,数量,5
-quarter,四分之一,5
-queen,女王,5
-question,问题,5
-quick,快速的,5
-quiet,安静的,5
-quit,退出,5
-quite,相当,5
-quote,引用,5
-race,种族；赛跑,5
-radio,收音机,5
-rail,栏杆,5
-rain,雨,5
-raise,提高,5
-random,随机的,5
-range,范围,5
-rank,等级,5
-rapid,快速的,5
-rare,稀有的,5
-rate,比率,5
-rather,相当,5
-raw,生的,5
-reach,到达,5
-react,反应,5
-ready,准备好的,5
-real,真实的,5
-realize,意识到,5
-reason,原因,5
-receive,接收,5
-recent,最近的,5
-recognize,认出,5
-recommend,推荐,5
-record,记录,5
-reduce,减少,5
-reflect,反映,5
-reform,改革,5
-refuse,拒绝,5
-regard,认为,5
-region,地区,5
-register,登记,5
-regret,后悔,5
-regular,规律的,5
-reject,拒绝,5
-relate,关联,5
-release,释放,5
-relevant,相关的,5
-relief,缓解,5
-religion,宗教,5
-rely,依赖,5
-remain,保持,5
-remark,评论,5
-remember,记得,5
-remind,提醒,5
-remote,遥远的,5
-remove,移除,5
-rent,租金,5
-repair,修理,5
-repeat,重复,5
-replace,替换,5
-reply,回复,5
-report,报告,5
-represent,代表,5
-republic,共和国,5
-rescue,救援,5
-research,研究,5
-resolve,解决,5
-resource,资源,5
-respect,尊重,5
-respond,回应,5
-restore,恢复,5
-restrict,限制,5
-result,结果,5
-retain,保留,5
-retire,退休,5
-return,返回,5
-reveal,揭示,5
-reverse,反转,5
-review,复习,5
-revise,修订,5
-reward,奖励,5
-rhythm,节奏,5
-ride,骑,5
-right,正确的；权利,5
-ring,戒指；铃,5
-rise,上升,5
-risk,风险,5
-ritual,仪式,5
-river,河流,5
-road,道路,5
-rob,抢劫,5
-rock,岩石,5
-role,角色,5
-roll,滚动,5
-roof,屋顶,5
-room,房间,5
-root,根,5
-rope,绳子,5
-rose,玫瑰,5
-rough,粗糙的,5
-round,圆的,5
-route,路线,5
-routine,常规,5
-row,排,5
-royal,皇家的,5
-rub,摩擦,5
-rule,规则,5
-run,跑,5
-rural,农村的,5
-rush,冲,5
-sacred,神圣的,5
-sad,悲伤的,5
-safe,安全的,5
-sail,航行,5
-salad,沙拉,5
-salary,薪水,5
-sale,销售,5
-salt,盐,5
-same,相同的,5
-sample,样本,5
-sand,沙,5
-satellite,卫星,5
-satisfy,满足,5
-save,拯救,5
-scale,规模,5
-scan,扫描,5
-scarce,稀缺的,5
-scare,惊吓,5
-scene,场景,5
-scheme,计划,5
-school,学校,5
-science,科学,5
-scope,范围,5
-score,分数,5
-screen,屏幕,5
-sea,海,5
-search,搜索,5
-season,季节,5
-seat,座位,5
-second,第二,5
-secret,秘密,5
-section,部分,5
-secure,安全的,5
-see,看见,5
-seed,种子,5
-seek,寻求,5
-seem,似乎,5
-select,选择,5
-sell,卖,5
-send,发送,5
-senior,高级的,5
-sense,感觉,5
-sentence,句子,5
-separate,分开的,5
-series,系列,5
-serious,严肃的,5
-serve,服务,5
-set,设置,5
-settle,解决,5
-several,几个,5
-severe,严重的,5
-sex,性别,5
-shadow,阴影,5
-shake,摇动,5
-shall,将,5
-shame,羞耻,5
-shape,形状,5
-share,分享,5
-sharp,锋利的,5
-sheep,羊,5
-sheet,床单,5
-shelf,架子,5
-shell,壳,5
-shift,转移,5
-shine,发光,5
-ship,船,5
-shock,震惊,5
-shoot,射击,5
-shop,商店,5
-short,短的,5
-should,应该,5
-shoulder,肩膀,5
-shout,喊叫,5
-show,展示,5
-shrink,收缩,5
-shut,关闭,5
-sick,生病的,5
-side,边,5
-sign,标志；签名,5
-signal,信号,5
-significant,重要的,5
-silence,沉默,5
-similar,相似的,5
-simple,简单的,5
-since,自从,5
-sing,唱,5
-single,单一的,5
-sink,下沉,5
-sister,姐妹,5
-site,地点,5
-situation,情况,5
-size,尺寸,5
-skill,技能,5
-skin,皮肤,5
-skip,跳过,5
-slave,奴隶,5
-sleep,睡觉,5
-slice,片,5
-slide,滑动,5
-slight,轻微的,5
-slope,斜坡,5
-slow,慢的,5
-small,小的,5
-smart,聪明的,5
-smell,气味,5
-smile,微笑,5
-smoke,烟,5
-smooth,光滑的,5
-snake,蛇,5
-snow,雪,5
-soak,浸泡,5
-social,社会的,5
-society,社会,5
-soft,柔软的,5
-soil,土壤,5
-soldier,士兵,5
-solid,固体的,5
-solve,解决,5
-some,一些,5
-son,儿子,5
-song,歌曲,5
-soon,很快,5
-sort,种类,5
-soul,灵魂,5
-sound,声音,5
-source,来源,5
-south,南方,5
-space,空间,5
-spare,备用的,5
-speak,说,5
-special,特别的,5
-species,物种,5
-specific,具体的,5
-speech,演讲,5
-speed,速度,5
-spend,花费,5
-spice,香料,5
-spill,溢出,5
-spirit,精神,5
-split,分裂,5
-sport,运动,5
-spot,地点,5
-spread,传播,5
-spring,春天,5
-square,广场,5
-stable,稳定的,5
-staff,员工,5
-stage,阶段,5
-stair,楼梯,5
-stand,站立,5
-standard,标准,5
-star,星星,5
-start,开始,5
-state,州；状态,5
-station,车站,5
-status,地位,5
-stay,停留,5
-steady,稳定的,5
-steal,偷,5
-steam,蒸汽,5
-steel,钢,5
-step,步骤,5
-stick,棍；粘,5
-still,仍然,5
-stone,石头,5
-stop,停止,5
-store,商店；储存,5
-storm,风暴,5
-story,故事,5
-strange,奇怪的,5
-street,街道,5
-stress,压力,5
-strict,严格的,5
-strike,罢工；打击,5
-strong,强壮的,5
-structure,结构,5
-student,学生,5
-study,学习,5
-stuff,东西,5
-stupid,愚蠢的,5
-style,风格,5
-subject,主题,5
-substance,物质,5
-success,成功,5
-such,这样的,5
-sudden,突然的,5
-suffer,遭受,5
-sugar,糖,5
-suggest,建议,5
-suit,适合,5
-summer,夏天,5
-sun,太阳,5
-support,支持,5
-suppose,假设,5
-supreme,最高的,5
-sure,确定的,5
-surface,表面,5
-survey,调查,5
-survive,幸存,5
-suspect,怀疑,5
-sustain,维持,5
-swim,游泳,5
-symbol,象征,5
-system,系统,5
-table,桌子,5
-tackle,处理,5
-tactic,策略,5
-tail,尾巴,5
-take,拿,5
-tale,故事,5
-talk,谈话,5
-tall,高的,5
-tank,坦克；箱,5
-tape,胶带,5
-target,目标,5
-task,任务,5
-taste,味道,5
-tax,税,5
-tea,茶,5
-teach,教,5
-team,团队,5
-tear,撕裂,5
-technical,技术的,5
-technique,技巧,5
-technology,技术,5
-telephone,电话,5
-television,电视,5
-tell,告诉,5
-temper,脾气,5
-temperature,温度,5
-temporary,暂时的,5
-tend,倾向于,5
-tension,紧张,5
-term,术语,5
-terrible,可怕的,5
-test,测试,5
-text,文本,5
-than,比,5
-thank,感谢,5
-theft,盗窃,5
-their,他们的,5
-theme,主题,5
-theory,理论,5
-there,那里,5
-thick,厚的,5
-thin,薄的,5
-thing,事物,5
-think,思考,5
-third,第三,5
-thirsty,口渴的,5
-this,这个,5
-though,尽管,5
-threat,威胁,5
-throat,喉咙,5
-through,通过,5
-throw,投掷,5
-thus,因此,5
-ticket,票,5
-tide,潮汐,5
-tie,系,5
-tight,紧的,5
-time,时间,5
-tiny,微小的,5
-tip,尖端；小费,5
-tired,疲倦的,5
-title,标题,5
-toast,吐司,5
-today,今天,5
-toilet,厕所,5
-tomato,番茄,5
-tomorrow,明天,5
-tone,语气,5
-tongue,舌头,5
-tonight,今晚,5
-tool,工具,5
-tooth,牙齿,5
-top,顶部,5
-topic,话题,5
-total,总计,5
-touch,触摸,5
-tough,坚韧的,5
-tour,旅行,5
-toward,朝向,5
-town,城镇,5
-toy,玩具,5
-trace,追踪,5
-track,轨道,5
-trade,贸易,5
-tradition,传统,5
-traffic,交通,5
-tragedy,悲剧,5
-train,火车,5
-transfer,转移,5
-transform,转变,5
-transit,运输,5
-translate,翻译,5
-transport,运输,5
-trap,陷阱,5
-travel,旅行,5
-treat,对待,5
-treaty,条约,5
-tree,树,5
-trend,趋势,5
-trial,试验,5
-trip,旅行,5
-troop,部队,5
-trouble,麻烦,5
-truck,卡车,5
-true,真实的,5
-trust,信任,5
-truth,真相,5
-try,尝试,5
-tube,管子,5
-turn,转动,5
-twin,双胞胎,5
-type,类型,5
-typical,典型的,5
-ugly,丑陋的,5
-ultimate,最终的,5
-unable,无法的,5
-unfair,不公平的,5
-unhappy,不快乐的,5
-uniform,制服,5
-union,联盟,5
-unique,独特的,5
-unit,单元,5
-unite,联合,5
-universe,宇宙,5
-unknown,未知的,5
-unlike,不像,5
-urban,城市的,5
-urge,敦促,5
-use,使用,5
-useful,有用的,5
-usual,通常的,5
-utility,公用事业,5
-vacant,空的,5
-vacation,假期,5
-vague,模糊的,5
-valid,有效的,5
-valley,山谷,5
-value,价值,5
-vanish,消失,5
-variable,变量,5
-variety,多样,5
-various,各种各样的,5
-vast,广阔的,5
-vegetable,蔬菜,5
-vehicle,车辆,5
-venture,冒险,5
-version,版本,5
-vessel,容器,5
-veteran,老兵,5
-viable,可行的,5
-victim,受害者,5
-victory,胜利,5
-view,观点,5
-village,村庄,5
-violence,暴力,5
-virtual,虚拟的,5
-visible,可见的,5
-vision,视野,5
-visit,访问,5
-visual,视觉的,5
-vital,至关重要的,5
-voice,声音,5
-volume,音量,5
-vote,投票,5
-voyage,航行,5
-wage,工资,5
-wait,等待,5
-wake,醒来,5
-walk,走,5
-wall,墙,5
-want,想要,5
-war,战争,5
-warm,温暖的,5
-warn,警告,5
-wash,洗,5
-waste,浪费,5
-watch,观看,5
-water,水,5
-wave,波浪,5
-way,方式,5
-weak,虚弱的,5
-wealth,财富,5
-weapon,武器,5
-wear,穿,5
-weather,天气,5
-wedding,婚礼,5
-week,周,5
-weigh,称重,5
-weight,重量,5
-welcome,欢迎,5
-welfare,福利,5
-west,西方,5
-wet,湿的,5
-what,什么,5
-wheat,小麦,5
-wheel,轮子,5
-when,何时,5
-where,哪里,5
-whether,是否,5
-which,哪一个,5
-while,当…时候,5
-white,白色的,5
-who,谁,5
-whole,整个的,5
-why,为什么,5
-wide,宽的,5
-wife,妻子,5
-wild,野生的,5
-will,意志；将,5
-win,赢,5
-wind,风,5
-window,窗户,5
-wine,酒,5
-wing,翅膀,5
-winter,冬天,5
-wire,电线,5
-wise,明智的,5
-wish,希望,5
-with,和,5
-withdraw,撤回,5
-within,在…之内,5
-without,没有,5
-witness,目击,5
-woman,女人,5
-wonder,想知道,5
-wood,木头,5
-word,单词,5
-work,工作,5
-world,世界,5
-worry,担心,5
-worse,更糟的,5
-worst,最糟的,5
-worth,值得的,5
-would,将会,5
-wound,伤口,5
-write,写,5
-wrong,错误的,5
-yard,院子,5
-year,年,5
-yellow,黄色的,5
-yield,产出,5
-young,年轻的,5
-youth,青年,5
-zone,区域,5
-zoom,缩放,5
+term,pos,meaningZh,meaningEn,exampleEn,exampleZh,band
+abandon,v.,放弃,to leave behind,He abandoned the old car.,他抛弃了那辆旧车。,5
+ability,n.,能力,skill or power,She has great ability.,她能力很强。,5
+absence,n.,缺席,being away,His absence was noted.,有人注意到他缺席了。,5
+absolute,adj.,绝对的,total,He has absolute trust in her.,他对她绝对信任。,5
+academic,adj.,学术的,of study,She has an academic career.,她从事学术工作。,5
+accept,v.,接受,to take,We accept your kind offer.,我们接受你的好意。,5
+access,n.,接近；使用权,way to reach,The app gives quick access.,这款应用能快速访问。,5
+accident,n.,事故,unplanned event,The accident was minor.,事故很轻微。,5
+accompany,v.,陪伴,to go with,She accompanied her friend.,她陪伴了朋友。,5
+accomplish,v.,完成,to finish,We accomplished the goal.,我们完成了目标。,5
+achieve,v.,实现,to reach,He achieved his dream.,他实现了梦想。,5
+acquire,v.,获得,to gain,We acquired new skills.,我们获得了新技能。,5
+activity,n.,活动,thing done,The activity was fun.,活动很有趣。,5
+actual,adj.,实际的,real,The actual cost was low.,实际成本很低。,5
+adapt,v.,适应,to adjust,We adapt to change.,我们适应变化。,5
+adequate,adj.,充足的,enough,The supply is adequate.,供应是充足的。,5
+adjust,v.,调整,to change slightly,We adjust the settings.,我们调整设置。,5
+admire,v.,钦佩,to respect,She admires his courage.,她钦佩他的勇气。,5
+admit,v.,承认,to accept as true,He admitted his mistake.,他承认了错误。,5
+adopt,v.,采纳；收养,to take up or take in,They adopted the plan.,他们采纳了计划。,5
+adult,n.,成年人,grown person,He is a responsible adult.,他是个负责任的成年人。,5
+advance,v.,推进；进步,to move forward,We advance the project.,我们推进项目。,5
+advantage,n.,优势,benefit,This gives us an advantage.,这给了我们优势。,5
+adventure,n.,冒险,exciting trip,The adventure was thrilling.,冒险令人激动。,5
+advertise,v.,做广告,to promote,They advertise on social media.,他们在社交媒体做广告。,5
+advice,n.,建议,guidance,He gave me good advice.,他给了我好建议。,5
+affair,n.,事务,matter,This is a private affair.,这是私事。,5
+affect,v.,影响,to influence,Weather affects our mood.,天气影响心情。,5
+afford,v.,负担得起,to have enough money,We cannot afford it.,我们负担不起。,5
+afraid,adj.,害怕的,scared,She is afraid of dogs.,她怕狗。,5
+agency,n.,机构,organization,The agency handles tours.,该机构负责旅游。,5
+agenda,n.,议程,list of topics,The agenda is full.,议程排满了。,5
+agent,n.,代理人,representative,The agent booked the trip.,代理订了行程。,5
+agriculture,n.,农业,farming,Agriculture feeds the nation.,农业养活国家。,5
+aim,n.,目标,purpose,Our aim is clear.,我们的目标明确。,5
+alarm,n.,警报,warning sound,The alarm woke us.,警报叫醒了我们。,5
+alike,adj.,相似的,similar,The two are alike.,两者相似。,5
+alive,adj.,活着的,living,The fish is still alive.,鱼还活着。,5
+allow,v.,允许,to permit,They allow pets here.,这里允许宠物。,5
+alone,adj.,单独的,by oneself,He lives alone.,他独自生活。,5
+alphabet,n.,字母表,letters,She learned the alphabet.,她学了字母表。,5
+alternative,adj.,替代的；选择,other option,We need an alternative plan.,我们需要替代方案。,5
+amaze,v.,使惊奇,to surprise,The view amazed us.,景色使我们惊叹。,5
+ambition,n.,抱负,strong goal,His ambition is clear.,他的抱负明确。,5
+amount,n.,数量,quantity,The amount is small.,数量很小。,5
+amuse,v.,逗乐,to entertain,The joke amused us.,笑话逗乐了我们。,5
+ancient,adj.,古老的,very old,This is an ancient city.,这是座古城。,5
+anger,n.,愤怒,strong displeasure,His anger was clear.,他的愤怒很明显。,5
+angle,n.,角度,point of view,Look at it from this angle.,从这个角度看。,5
+animal,n.,动物,living creature,The animal is cute.,这只动物很可爱。,5
+announce,v.,宣布,to make known,They announced the result.,他们宣布了结果。,5
+annoy,v.,使恼怒,to irritate,The noise annoyed him.,噪音惹恼了他。,5
+annual,adj.,每年的,yearly,We hold an annual event.,我们举办年度活动。,5
+anxious,adj.,焦虑的,worried,She feels anxious before tests.,考试前她感到焦虑。,5
+apart,adv.,分开,separately,They live apart now.,他们现在分开住。,5
+apologise,v.,道歉,to say sorry,He apologised for the error.,他为错误道了歉。,5
+apparent,adj.,明显的,clear,The reason is apparent.,原因很明显。,5
+appeal,v.,呼吁；吸引,to request or attract,The idea appeals to me.,这个想法吸引我。,5
+appear,v.,出现,to show up,He appeared at the door.,他出现在门口。,5
+apply,v.,申请；应用,to request or use,You can apply online.,你可以在线申请。,5
+appoint,v.,任命,to assign a role,They appointed a new head.,他们任命了新主管。,5
+approach,n.,方法；接近,way or to come near,We need a calm approach.,我们需要冷静的方法。,5
+appropriate,adj.,合适的,proper,This is appropriate dress.,这身打扮合适。,5
+approve,v.,批准,to agree to,They approved the plan.,他们批准了计划。,5
+argue,v.,争论,to disagree,They argue about politics.,他们争论政治。,5
+arise,v.,出现；升起,to come up,Problems may arise.,问题可能出现。,5
+army,n.,军队,fighting force,The army defended the city.,军队保卫了城市。,5
+arrange,v.,安排,to organize,We arrange the meeting.,我们安排会议。,5
+arrest,v.,逮捕,to seize,The police arrested the thief.,警察逮捕了小偷。,5
+arrive,v.,到达,to get there,We arrive at noon.,我们中午到达。,5
+article,n.,文章；物品,text or item,She wrote an article.,她写了一篇文章。,5
+artist,n.,艺术家,creative person,He is a gifted artist.,他是有天赋的艺术家。,5
+aspect,n.,方面,part or feature,This aspect is key.,这方面很关键。,5
+assess,v.,评估,to judge,We assess the risk.,我们评估风险。,5
+assign,v.,分配,to give out,We assign the tasks.,我们分配任务。,5
+assist,v.,协助,to help,She assisted the teacher.,她协助了老师。,5
+assume,v.,假设,to suppose,We assume he is right.,我们假定他是对的。,5
+attack,v.,攻击,to strike,The dog attacked the intruder.,狗攻击了闯入者。,5
+attempt,v.,尝试,to try,We attempt the challenge.,我们尝试挑战。,5
+attend,v.,参加,to go to,She attends the lecture.,她参加讲座。,5
+attitude,n.,态度,way of thinking,His attitude is positive.,他的态度积极。,5
+attract,v.,吸引,to draw in,The ad attracts customers.,广告吸引顾客。,5
+audience,n.,观众,viewers,The audience applauded.,观众鼓掌。,5
+author,n.,作者,writer,The author wrote a novel.,作者写了小说。,5
+authority,n.,权威；当局,power or officials,The authority approved it.,当局批准了。,5
+automatic,adj.,自动的,self-acting,The door is automatic.,门是自动的。,5
+available,adj.,可用的,ready to use,The room is available.,房间可用。,5
+average,adj.,平均的,typical,The average score rose.,平均分上升了。,5
+avoid,v.,避免,to stay away,We avoid the rush hour.,我们避开高峰。,5
+awake,adj.,醒着的,not asleep,He is still awake.,他还醒着。,5
+aware,adj.,意识到的,knowing,She is aware of the risk.,她意识到风险。,5
+awesome,adj.,令人惊叹的,amazing,The view is awesome.,景色令人惊叹。,5
+awful,adj.,糟糕的,very bad,The food was awful.,食物很糟糕。,5
+background,n.,背景,setting,He has a strong background.,他背景很强。,5
+balance,n.,平衡,steady state,We keep a healthy balance.,我们保持健康平衡。,5
+basic,adj.,基本的,fundamental,These are basic rules.,这些是基本规则。,5
+basis,n.,基础,foundation,Trust is the basis.,信任是基础。,5
+battle,n.,战斗,fight,The battle was long.,战斗很漫长。,5
+beauty,n.,美丽,loveliness,She admired the beauty.,她欣赏那份美丽。,5
+behave,v.,表现,to act,He behaves well at school.,他在学校表现好。,5
+belief,n.,信念,conviction,Her belief is strong.,她的信念坚定。,5
+belong,v.,属于,to be part of,This book belongs to me.,这本书属于我。,5
+beside,prep.,在…旁边,next to,She sat beside him.,她坐在他身边。,5
+block,n.,块；阻塞,solid piece or stop,The road is blocked.,道路被堵了。,5
+board,n.,木板；董事会,plank or group,The board met today.,董事会今天开会。,5
+boil,v.,煮沸,to heat to bubble,We boil the water first.,我们先烧开水。,5
+border,n.,边界,edge,The border is closed.,边界关闭了。,5
+boring,adj.,无聊的,dull,The movie was boring.,电影很无聊。,5
+borrow,v.,借入,to take from,Can I borrow your pen.,我能借你的笔吗。,5
+boss,n.,老板,manager,The boss approved it.,老板批准了。,5
+bottom,n.,底部,lowest part,The book is at the bottom.,书在底部。,5
+brain,n.,大脑,mind organ,The brain controls the body.,大脑控制身体。,5
+branch,n.,分支,part of a tree or org,The bank has a local branch.,这家银行有本地分行。,5
+brave,adj.,勇敢的,courageous,The brave soldier fought on.,勇敢的士兵继续战斗。,5
+bread,n.,面包,food,We ate fresh bread.,我们吃了新鲜面包。,5
+break,v.,打破,to shatter,Be careful not to break it.,小心别打碎它。,5
+breath,n.,呼吸,air in lungs,Take a deep breath.,深吸一口气。,5
+breathe,v.,呼吸,to take air,We breathe clean air.,我们呼吸清新空气。,5
+brief,adj.,简短的,short,He gave a brief reply.,他作了简短回复。,5
+bright,adj.,明亮的,shining,The room is bright.,房间明亮。,5
+broad,adj.,宽阔的,wide,The road is broad.,道路宽阔。,5
+brother,n.,兄弟,male sibling,My brother is older.,我哥哥年长些。,5
+brown,adj.,棕色的,color,She wore a brown coat.,她穿了棕色外套。,5
+build,v.,建造,to construct,We build a new house.,我们建了新房子。,5
+burden,n.,负担,heavy load,The debt is a burden.,债务是负担。,5
+burn,v.,燃烧,to be on fire,The fire burned all night.,火整夜燃烧。,5
+business,n.,商业,trade,He runs a small business.,他经营小生意。,5
+busy,adj.,忙碌的,occupied,She is busy today.,她今天很忙。,5
+butter,n.,黄油,food,We spread butter on bread.,我们把黄油涂在面包上。,5
+buy,v.,购买,to purchase,We buy fresh fruit.,我们买新鲜水果。,5
+cabinet,n.,橱柜,cupboard,The cabinet holds the dishes.,橱柜放着餐具。,5
+calculate,v.,计算,to compute,We calculate the cost.,我们计算成本。,5
+calendar,n.,日历,date book,Check the calendar.,查一下日历。,5
+camp,n.,营地,outdoor site,We stayed at the camp.,我们留在营地。,5
+campaign,n.,运动,planned effort,The campaign was a success.,活动很成功。,5
+cancel,v.,取消,to call off,We cancel the trip.,我们取消行程。,5
+cancer,n.,癌症,disease,He fought cancer bravely.,他勇敢对抗癌症。,5
+candidate,n.,候选人,applicant,She is the best candidate.,她是最佳候选人。,5
+capable,adj.,有能力的,able,He is capable of the job.,他能胜任这份工作。,5
+capital,n.,首都；资本,city or money,Paris is the capital.,巴黎是首都。,5
+captain,n.,船长；队长,leader,The captain led the team.,船长带领球队。,5
+capture,v.,捕获,to catch,They captured the moment.,他们捕捉了瞬间。,5
+carbon,n.,碳,element,Carbon is in all life.,碳存在于所有生命中。,5
+career,n.,职业,profession,She built a strong career.,她建立了稳固的职业。,5
+careful,adj.,小心的,cautious,Be careful with the glass.,小心玻璃。,5
+carry,v.,携带,to transport,She carries a heavy bag.,她背着沉重的包。,5
+carve,v.,雕刻,to cut shape,He carved a wooden bird.,他雕刻了木鸟。,5
+case,n.,情况；案例,situation or example,In this case we wait.,这种情况我们等待。,5
+cash,n.,现金,money,We pay in cash.,我们用现金支付。,5
+cast,v.,投掷；演员,to throw or actors,The film cast is great.,电影演员阵容强大。,5
+catch,v.,抓住,to grab,Try to catch the ball.,试着接住球。,5
+category,n.,类别,group,This falls in a new category.,这归入新类别。,5
+cause,v.,原因；导致,to make happen,The storm caused damage.,风暴造成了损害。,5
+cease,v.,停止,to stop,The noise ceased at last.,噪音终于停止了。,5
+celebrate,v.,庆祝,to honor,We celebrate the win.,我们庆祝胜利。,5
+centre,n.,中心,middle,The centre is busy.,中心很繁忙。,5
+ceremony,n.,仪式,formal event,The ceremony was brief.,仪式很简短。,5
+certain,adj.,确定的,sure,We are certain of it.,我们对此确定。,5
+chain,n.,链,linked series,The chain broke.,链子断了。,5
+challenge,n.,挑战,difficult task,The challenge is tough.,挑战很艰巨。,5
+chance,n.,机会,opportunity,Take this chance now.,抓住这次机会。,5
+change,v.,改变,to alter,We change the plan.,我们改变计划。,5
+channel,n.,频道；渠道,TV or path,Use this channel to apply.,用这个渠道申请。,5
+chapter,n.,章节,section,Read the next chapter.,读下一章。,5
+character,n.,性格；角色,trait or role,He is a kind character.,他是个善良的角色。,5
+charge,n.,收费；负责,fee or care,The charge is fair.,收费合理。,5
+chart,n.,图表,graph,The chart shows growth.,图表显示增长。,5
+chase,v.,追逐,to follow,The dog chases the cat.,狗追猫。,5
+cheap,adj.,便宜的,low cost,The ticket is cheap.,票很便宜。,5
+cheat,v.,欺骗,to trick,He cheated on the test.,他考试作弊。,5
+check,v.,检查,to inspect,We check the data.,我们检查数据。,5
+cheer,v.,欢呼,to applaud,The crowd cheered loudly.,人群大声欢呼。,5
+chief,adj.,主要的；首领,main or leader,The chief concern is cost.,主要担忧是成本。,5
+child,n.,孩子,young person,The child laughed.,孩子笑了。,5
+choice,n.,选择,option,We have no other choice.,我们别无选择。,5
+choose,v.,选择,to pick,We choose the blue one.,我们选蓝色的。,5
+circle,n.,圆,round shape,Draw a circle here.,在这里画个圆。,5
+citizen,n.,公民,member of a country,He is a proud citizen.,他是个自豪的公民。,5
+city,n.,城市,town,The city is crowded.,城市拥挤。,5
+civil,adj.,公民的,of citizens,He has civil duties.,他有公民义务。,5
+claim,v.,声称；索赔,to state or demand,He claimed the reward.,他领取了奖励。,5
+classic,adj.,经典的,timeless,This is a classic novel.,这是部经典小说。,5
+climate,n.,气候,weather pattern,The climate is changing.,气候在变化。,5
+climb,v.,爬,to go up,We climb the hill.,我们爬山。,5
+clock,n.,时钟,time device,The clock is slow.,钟慢了。,5
+close,v.,关闭；接近的,to shut or near,Please close the door.,请关上门。,5
+clothes,n.,衣服,garments,She folded the clothes.,她叠了衣服。,5
+cloud,n.,云,sky vapor,The cloud is white.,云是白色的。,5
+coach,n.,教练,trainer,The coach trained us.,教练训练了我们。,5
+coal,n.,煤,fuel,The coal is black.,煤是黑色的。,5
+coast,n.,海岸,seaside,We walked along the coast.,我们沿着海岸走。,5
+coffee,n.,咖啡,drink,We drank hot coffee.,我们喝了热咖啡。,5
+coin,n.,硬币,money piece,He flipped a coin.,他抛了硬币。,5
+cold,adj.,冷的,low temperature,The water is cold.,水很冷。,5
+collect,v.,收集,to gather,We collect stamps.,我们集邮。,5
+college,n.,学院,school,She went to college.,她上了大学。,5
+combat,n.,战斗,fight,The combat was fierce.,战斗激烈。,5
+combine,v.,结合,to join,We combine the two parts.,我们结合两部分。,5
+comfort,n.,舒适,ease,The chair offers comfort.,椅子很舒适。,5
+command,v.,命令,to order,He commanded the troops.,他指挥部队。,5
+comment,n.,评论,remark,He made a fair comment.,他作了公正评论。,5
+commercial,adj.,商业的,business related,It is a commercial site.,这是商业站点。,5
+commit,v.,承诺；犯（错）,to pledge or do wrong,We commit to the goal.,我们承诺达成目标。,5
+common,adj.,常见的,usual,This is a common error.,这是常见错误。,5
+communicate,v.,沟通,to share info,We communicate by email.,我们用邮件沟通。,5
+community,n.,社区,local group,The community is close.,社区很紧密。,5
+company,n.,公司,firm,The company grew fast.,公司增长很快。,5
+compare,v.,比较,to weigh,We compare the options.,我们比较选项。,5
+compete,v.,竞争,to contest,They compete for the prize.,他们竞争奖项。,5
+complain,v.,抱怨,to grumble,He complained about the noise.,他抱怨噪音。,5
+complete,v.,完成,to finish,We complete the task.,我们完成任务。,5
+complex,adj.,复杂的,complicated,The issue is complex.,问题很复杂。,5
+component,n.,组成部分,part,This is a key component.,这是关键组件。,5
+concept,n.,概念,idea,The concept is simple.,概念很简单。,5
+concern,v.,关心；担忧,to care or worry,We concern ourselves with safety.,我们关心安全。,5
+concert,n.,音乐会,music event,The concert was loud.,音乐会很吵。,5
+conduct,v.,实施；行为,to carry out,We conduct the test.,我们实施测试。,5
+connect,v.,连接,to link,We connect the wires.,我们连接电线。,5
+consent,v.,同意,to agree,She consented to the plan.,她同意了计划。,5
+consider,v.,考虑,to think about,We consider all options.,我们考虑所有选项。,5
+consist,v.,由…组成,to be made of,The team consists of five.,团队由五人组成。,5
+constant,adj.,持续的,steady,The noise is constant.,噪音持续不断。,5
+construct,v.,建造,to build,We construct a new bridge.,我们建新桥。,5
+consult,v.,咨询,to ask,We consult an expert.,我们咨询专家。,5
+consume,v.,消耗,to use up,We consume less power.,我们耗电更少。,5
+contact,v.,联系,to reach,Please contact us soon.,请尽快联系我们。,5
+contain,v.,包含,to hold,The box contains books.,盒子里有书。,5
+content,adj.,内容；满意的,info or satisfied,She is content with the result.,她对结果满意。,5
+contest,n.,竞赛,competition,He won the contest.,他赢了竞赛。,5
+context,n.,语境,setting,The context matters.,语境很重要。,5
+continue,v.,继续,to keep going,We continue the work.,我们继续工作。,5
+contract,n.,合同,agreement,We signed the contract.,我们签了合同。,5
+contrast,n.,对比,difference,The contrast is clear.,对比很明显。,5
+contribute,v.,贡献,to give,We contribute our time.,我们贡献时间。,5
+control,v.,控制,to manage,We control the process.,我们控制流程。,5
+convenient,adj.,方便的,handy,This tool is convenient.,这工具很方便。,5
+convince,v.,说服,to persuade,He convinced the team.,他说服了团队。,5
+cook,v.,烹饪,to make food,She cooks dinner daily.,她每天做晚饭。,5
+cool,adj.,凉爽的,lightly cold,The evening is cool.,夜晚凉爽。,5
+cope,v.,应付,to manage,We cope with stress.,我们应对压力。,5
+copy,v.,复制,to duplicate,Please copy the file.,请复制文件。,5
+corner,n.,角落,bend,Meet me at the corner.,在角落见我。,5
+correct,adj.,正确的,right,Your answer is correct.,你的答案正确。,5
+cost,n.,成本,price,The cost is high.,成本很高。,5
+council,n.,委员会,group,The council met today.,委员会今天开会。,5
+count,v.,计数,to tally,We count the votes.,我们统计选票。,5
+country,n.,国家,nation,He loves his country.,他热爱祖国。,5
+courage,n.,勇气,bravery,She showed great courage.,她展现出巨大勇气。,5
+course,n.,课程；过程,class or path,The course is useful.,课程很有用。,5
+court,n.,法院；球场,law or field,The case went to court.,案件上了法庭。,5
+cover,v.,覆盖,to shield,Snow covers the ground.,雪覆盖地面。,5
+craft,n.,工艺,skill,The craft is old.,这工艺很古老。,5
+crash,v.,坠毁,to break down,The car crashed into a tree.,汽车撞上树。,5
+create,v.,创造,to make,We create new ideas.,我们创造新想法。,5
+credit,n.,信用,trust,He has good credit.,他信用良好。,5
+crime,n.,犯罪,wrong act,The crime was solved.,案件告破。,5
+crisis,n.,危机,emergency,We face a crisis.,我们面临危机。,5
+critic,n.,批评家,reviewer,The critic liked the film.,批评家喜欢这部电影。,5
+crop,n.,作物,plants,The crop failed this year.,今年作物歉收。,5
+cross,v.,穿过,to go across,We cross the street.,我们过马路。,5
+crowd,n.,人群,group,The crowd cheered.,人群欢呼。,5
+crucial,adj.,关键的,vital,This step is crucial.,这步很关键。,5
+crush,v.,压碎,to squeeze,Do not crush the can.,别压扁罐子。,5
+culture,n.,文化,way of life,The culture is rich.,文化很丰富。,5
+cure,v.,治愈,to heal,The drug cures the illness.,药物治愈疾病。,5
+curious,adj.,好奇的,inquisitive,She is curious about space.,她对太空好奇。,5
+current,adj.,当前的,present,The current rate is low.,当前利率很低。,5
+custom,n.,习俗,tradition,This is an old custom.,这是古老习俗。,5
+cut,v.,切,to slice,Please cut the cake.,请切蛋糕。,5
+cycle,n.,循环,repeating pattern,The cycle repeats.,循环重复。,5
+daily,adj.,日常的,every day,This is a daily task.,这是日常任务。,5
+damage,v.,损害,to harm,The storm damaged the roof.,风暴损坏了屋顶。,5
+danger,n.,危险,risk,The danger is real.,危险是真实的。,5
+dark,adj.,黑暗的,no light,The room is dark.,房间黑暗。,5
+data,n.,数据,information,The data is clear.,数据清晰。,5
+deal,v.,处理；交易,to handle or trade,We deal with the issue.,我们处理问题。,5
+debate,n.,辩论,discussion,The debate was lively.,辩论很热烈。,5
+debt,n.,债务,money owed,He paid off the debt.,他还清了债务。,5
+decade,n.,十年,ten years,The change took a decade.,变化用了十年。,5
+decide,v.,决定,to choose,We decide the date.,我们决定日期。,5
+decline,v.,下降；拒绝,to fall or refuse,Sales decline in winter.,冬季销量下降。,5
+decorate,v.,装饰,to adorn,We decorate the room.,我们装饰房间。,5
+decrease,v.,减少,to lessen,We decrease the load.,我们减少负载。,5
+defeat,v.,击败,to beat,We defeat the rival.,我们击败对手。,5
+defend,v.,保卫,to protect,We defend our rights.,我们保卫权利。,5
+define,v.,定义,to state meaning,We define the term.,我们定义术语。,5
+degree,n.,程度；学位,level or title,He earned a degree.,他获得了学位。,5
+delay,v.,延迟,to postpone,We delay the launch.,我们延迟发布。,5
+deliver,v.,递送,to bring,We deliver the package.,我们递送包裹。,5
+demand,v.,需求；要求,to need or ask,They demand fair pay.,他们要求公平薪酬。,5
+democracy,n.,民主,rule by people,The democracy is young.,民主很年轻。,5
+demonstrate,v.,证明；演示,to show,We demonstrate the method.,我们演示方法。,5
+deny,v.,否认,to refuse to admit,He denied the claim.,他否认了说法。,5
+depend,v.,依赖,to rely,We depend on you.,我们依赖你。,5
+deploy,v.,部署,to set up,We deploy the system.,我们部署系统。,5
+depress,v.,使沮丧,to sadden,The news depressed him.,消息使他沮丧。,5
+depth,n.,深度,how deep,The depth is ten meters.,深度为十米。,5
+describe,v.,描述,to tell about,We describe the scene.,我们描述场景。,5
+design,v.,设计,to plan,We design the product.,我们设计产品。,5
+desire,v.,渴望,to want,She desires success.,她渴望成功。,5
+detail,n.,细节,small part,The detail is key.,细节很关键。,5
+detect,v.,探测,to find,We detect a signal.,我们探测到信号。,5
+develop,v.,发展,to grow,We develop the skill.,我们发展技能。,5
+device,n.,装置,tool,The device is small.,装置很小。,5
+devote,v.,奉献,to dedicate,We devote time to study.,我们奉献时间学习。,5
+differ,v.,不同,to vary,The views differ.,看法不同。,5
+difficult,adj.,困难的,hard,The task is difficult.,任务困难。,5
+dig,v.,挖,to burrow,We dig a hole.,我们挖洞。,5
+direct,adj.,直接的；指导,straight or guide,He gave direct feedback.,他给了直接反馈。,5
+disappear,v.,消失,to vanish,The sun disappeared.,太阳消失了。,5
+discover,v.,发现,to find,We discover a new star.,我们发现一颗新星。,5
+discuss,v.,讨论,to talk over,We discuss the plan.,我们讨论计划。,5
+disease,n.,疾病,illness,The disease spread fast.,疾病传播很快。,5
+dismiss,v.,解雇；不予考虑,to fire or reject,They dismissed the idea.,他们否决了这个想法。,5
+display,v.,展示,to show,We display the art.,我们展示艺术品。,5
+dispute,n.,争端,conflict,The dispute ended.,争端结束了。,5
+distance,n.,距离,space between,The distance is short.,距离很短。,5
+district,n.,地区,area,This district is safe.,这地区安全。,5
+disturb,v.,打扰,to bother,Do not disturb him.,别打扰他。,5
+diverse,adj.,多样的,varied,The group is diverse.,群体很多样。,5
+divide,v.,划分,to split,We divide the work.,我们划分工作。,5
+division,n.,分割,split,The division is fair.,划分很公平。,5
+document,n.,文件,paper,Sign the document.,签署文件。,5
+donate,v.,捐赠,to give,We donate to charity.,我们向慈善捐款。,5
+double,adj.,双倍的,two times,The price is double.,价格翻倍。,5
+doubt,v.,怀疑,to question,We doubt the claim.,我们怀疑这个说法。,5
+drag,v.,拖,to pull,He dragged the chair.,他拖了椅子。,5
+drama,n.,戏剧,play,The drama was moving.,戏剧很感人。,5
+dream,n.,梦想,wish,He followed his dream.,他追随梦想。,5
+dress,n.,服装,clothes,She wore a red dress.,她穿了红裙。,5
+drink,v.,喝,to swallow,We drink clean water.,我们喝清水。,5
+drive,v.,驾驶,to operate a car,He drives to work.,他开车上班。,5
+drop,v.,掉落,to fall,The glass dropped.,玻璃杯掉了。,5
+drug,n.,药物；毒品,medicine or narcotic,The drug eased the pain.,药物缓解了疼痛。,5
+dry,adj.,干燥的,not wet,The air is dry.,空气干燥。,5
+due,adj.,到期的；应有的,owed or proper,The payment is due.,付款到期了。,5
+dump,v.,倾倒,to discard,Do not dump the waste.,别倾倒废弃物。,5
+duty,n.,职责,responsibility,It is our duty.,这是我们的职责。,5
+eager,adj.,渴望的,keen,She is eager to learn.,她渴望学习。,5
+earn,v.,赚取,to gain money,We earn a fair wage.,我们赚合理工资。,5
+earth,n.,地球,planet,The earth is blue.,地球是蓝色的。,5
+ease,n.,轻松；缓和,comfort or relief,The ease surprised us.,轻松程度令我们意外。,5
+east,n.,东方,direction,The sun rises in the east.,太阳从东方升起。,5
+easy,adj.,容易的,simple,The test was easy.,考试很容易。,5
+eat,v.,吃,to consume food,We eat at noon.,我们中午吃饭。,5
+ecology,n.,生态,environment,The ecology is fragile.,生态很脆弱。,5
+economy,n.,经济,system,The economy is growing.,经济在增长。,5
+edge,n.,边缘,border,The edge is sharp.,边缘锋利。,5
+edit,v.,编辑,to revise,We edit the text.,我们编辑文本。,5
+educate,v.,教育,to teach,We educate the young.,我们教育年轻人。,5
+effect,n.,影响,result,The effect is clear.,影响很明显。,5
+effort,n.,努力,work,The effort paid off.,努力有了回报。,5
+elder,adj.,年长的,older,My elder sister helps me.,我姐姐帮助我。,5
+elect,v.,选举,to choose by vote,We elect a new head.,我们选举新主管。,5
+element,n.,元素,part,This is a key element.,这是关键元素。,5
+email,n.,电子邮件,message,Send me an email.,给我发邮件。,5
+embrace,v.,拥抱；接受,to hug or accept,We embrace the change.,我们接受变化。,5
+emerge,v.,出现,to appear,The sun emerged.,太阳出现了。,5
+emotion,n.,情感,feeling,The emotion was strong.,情感很强烈。,5
+emphasis,n.,强调,stress,The emphasis is clear.,重点很清楚。,5
+employ,v.,雇佣,to hire,We employ ten staff.,我们雇了十名员工。,5
+enable,v.,使能够,to make able,This tool enables speed.,这工具提升速度。,5
+encourage,v.,鼓励,to support,We encourage effort.,我们鼓励努力。,5
+end,v.,结束,to finish,We end the meeting.,我们结束会议。,5
+energy,n.,能量,power,The energy is clean.,能源很清洁。,5
+engage,v.,从事；吸引,to take part,We engage the user.,我们吸引用户。,5
+engine,n.,引擎,motor,The engine is loud.,引擎很吵。,5
+enjoy,v.,享受,to like,We enjoy the music.,我们享受音乐。,5
+enough,adj.,足够的,sufficient,We have enough time.,我们有足够时间。,5
+ensure,v.,确保,to make sure,We ensure quality.,我们确保质量。,5
+enter,v.,进入,to go in,We enter the room.,我们进入房间。,5
+entire,adj.,整个的,whole,The entire team came.,整个团队都来了。,5
+entitle,v.,使有权利,to grant right,This entitles you to vote.,这让你有权投票。,5
+entrance,n.,入口,doorway,The entrance is here.,入口在这里。,5
+equal,adj.,平等的,same,All are equal.,人人平等。,5
+equip,v.,装备,to supply,We equip the lab.,我们装备实验室。,5
+error,n.,错误,mistake,The error was fixed.,错误已修复。,5
+escape,v.,逃脱,to get free,The bird escaped.,鸟逃脱了。,5
+essay,n.,短文,short paper,She wrote an essay.,她写了短文。,5
+establish,v.,建立,to set up,We establish a fund.,我们建立基金。,5
+estimate,v.,估计,to guess,We estimate the cost.,我们估计成本。,5
+ethnic,adj.,民族的,of groups,The ethnic food is rich.,民族美食很丰富。,5
+evident,adj.,明显的,clear,The trend is evident.,趋势很明显。,5
+exact,adj.,精确的,precise,The exact time is known.,确切时间已知。,5
+examine,v.,检查,to inspect,We examine the case.,我们检查案例。,5
+example,n.,例子,sample,This is a clear example.,这是个清晰例子。,5
+exceed,v.,超过,to go beyond,Costs exceed the budget.,成本超过预算。,5
+exchange,v.,交换,to trade,We exchange ideas.,我们交换想法。,5
+exclude,v.,排除,to leave out,We exclude the risk.,我们排除风险。,5
+excuse,n.,借口,reason,He gave a weak excuse.,他给了软弱借口。,5
+execute,v.,执行,to carry out,We execute the plan.,我们执行计划。,5
+exercise,n.,锻炼,activity,We do daily exercise.,我们每天锻炼。,5
+exhibit,v.,展览,to show,We exhibit the work.,我们展览作品。,5
+exist,v.,存在,to be,The problem still exists.,问题仍存在。,5
+expand,v.,扩张,to grow,We expand the team.,我们扩张团队。,5
+expect,v.,期望,to anticipate,We expect good news.,我们期待好消息。,5
+expend,v.,花费,to spend,We expend much effort.,我们付出很多努力。,5
+expense,n.,开支,cost,The expense is high.,开支很高。,5
+experience,n.,经验,skill from doing,He has rich experience.,他经验丰富。,5
+experiment,n.,实验,test,The experiment worked.,实验成功了。,5
+expert,n.,专家,skilled person,He is an expert in law.,他是法律专家。,5
+explain,v.,解释,to make clear,Please explain the rule.,请解释规则。,5
+explore,v.,探索,to investigate,We explore the forest.,我们探索森林。,5
+export,v.,出口,to send abroad,We export goods.,我们出口商品。,5
+expose,v.,暴露,to reveal,The report exposes the truth.,报告揭露真相。,5
+express,v.,表达,to state,She expressed her view.,她表达了看法。,5
+extend,v.,延伸,to stretch,We extend the deadline.,我们延长截止日。,5
+external,adj.,外部的,outer,The external wall is old.,外墙很旧。,5
+extra,adj.,额外的,additional,We need extra time.,我们需要额外时间。,5
+extreme,adj.,极端的,severe,The heat is extreme.,酷热极端。,5
+eye,n.,眼睛,organ of sight,Her eyes are blue.,她的眼睛是蓝色的。,5
+face,v.,脸；面对,front or to meet,We face the challenge.,我们面对挑战。,5
+fact,n.,事实,truth,The fact is clear.,事实清楚。,5
+facility,n.,设施,building or service,The sports facility is new.,体育设施是新的。,5
+factor,n.,因素,element,Price is a key factor.,价格是关键因素。,5
+fail,v.,失败,to not succeed,We fail to finish.,我们未能完成。,5
+fair,adj.,公平的,just,The deal is fair.,交易公平。,5
+fall,v.,落下,to drop,Leaves fall in autumn.,叶子秋天落下。,5
+family,n.,家庭,relatives,My family is large.,我家人口多。,5
+famous,adj.,著名的,well known,He is a famous actor.,他是著名演员。,5
+far,adj.,远的,distant,The town is far.,城镇很远。,5
+farm,n.,农场,land for crops,The farm is huge.,农场很大。,5
+fast,adj.,快的,quick,The train is fast.,火车很快。,5
+fat,adj.,胖的,heavy,The cat is fat.,猫很胖。,5
+fate,n.,命运,destiny,His fate is sealed.,他的命运已定。,5
+fault,n.,错误；故障,flaw or defect,It is my fault.,这是我的错。,5
+favor,n.,喜爱；帮助,liking or help,Can you do me a favor.,能帮我个忙吗。,5
+fear,n.,恐惧,dread,He felt real fear.,他感到真正的恐惧。,5
+feature,n.,特征,trait,This is a key feature.,这是关键特征。,5
+fee,n.,费用,charge,The fee is low.,费用很低。,5
+feed,v.,喂养,to give food,We feed the dog.,我们喂狗。,5
+feel,v.,感觉,to sense,She feels happy.,她感到快乐。,5
+fellow,n.,同伴,companion,He is a good fellow.,他是个好伙伴。,5
+female,adj.,女性的,of women,The female lead is strong.,女主角很强。,5
+fence,n.,栅栏,barrier,The fence is wooden.,栅栏是木制的。,5
+few,adj.,很少的,not many,We have few options.,我们选项很少。,5
+field,n.,田野；领域,land or area,He works in this field.,他在这个领域工作。,5
+fight,v.,战斗,to battle,They fight for rights.,他们为权利而战。,5
+figure,n.,数字；人物,number or person,The figure rose.,数字上升了。,5
+file,n.,文件,document,Open the file please.,请打开文件。,5
+fill,v.,填满,to make full,We fill the glass.,我们倒满杯子。,5
+film,n.,电影,movie,The film is long.,电影很长。,5
+final,adj.,最终的,last,This is the final step.,这是最后一步。,5
+finance,n.,金融,money management,He studies finance.,他学金融。,5
+find,v.,找到,to locate,We find the answer.,我们找到答案。,5
+fine,adj.,罚款；好的,okay or penalty,The weather is fine.,天气很好。,5
+firm,adj.,坚定的,steady,He is firm on this.,他对此很坚定。,5
+fish,n.,鱼,animal,The fish is fresh.,鱼很新鲜。,5
+fit,v.,适合,to suit,This fits well.,这很合适。,5
+fix,v.,修理,to repair,We fix the bike.,我们修自行车。,5
+flag,n.,旗帜,cloth symbol,The flag waved.,旗帜飘扬。,5
+flat,adj.,平坦的,level,The road is flat.,道路平坦。,5
+flavor,n.,风味,taste,The flavor is rich.,风味浓郁。,5
+flight,n.,航班,journey by air,The flight is late.,航班晚点。,5
+floor,n.,地板,ground surface,The floor is clean.,地板干净。,5
+flow,v.,流动,to move,Water flows downhill.,水向下流。,5
+flower,n.,花,bloom,The flower is red.,花是红色的。,5
+fluid,n.,流体,liquid,The fluid leaked.,液体漏了。,5
+focus,v.,焦点；专注,center or concentrate,We focus on the task.,我们专注任务。,5
+fold,v.,折叠,to bend,She folds the letter.,她叠信。,5
+folk,n.,人们；民间的,people or traditional,The folk song is old.,民歌很古老。,5
+follow,v.,跟随,to go after,We follow the path.,我们沿着路走。,5
+food,n.,食物,nutrition,The food is tasty.,食物美味。,5
+fool,n.,傻瓜,silly person,Do not be a fool.,别当傻瓜。,5
+foot,n.,脚,body part,My foot hurts.,我的脚疼。,5
+force,v.,力量；迫使,power or compel,We force a change.,我们迫使改变。,5
+forest,n.,森林,trees,The forest is dense.,森林茂密。,5
+forget,v.,忘记,to not recall,Do not forget the key.,别忘带钥匙。,5
+form,n.,形式,shape or type,This is a new form.,这是新形式。,5
+formal,adj.,正式的,official,We wore formal clothes.,我们穿了正装。,5
+format,n.,格式,layout,The format changed.,格式变了。,5
+former,adj.,前者的,previous,The former is better.,前者更好。,5
+fortune,n.,财富；运气,wealth or luck,He made a fortune.,他发了财。,5
+forward,adv.,向前,ahead,Move forward now.,现在向前走。,5
+found,v.,建立,to set up,They found a school.,他们建了一所学校。,5
+free,adj.,自由的,not limited,We are free now.,我们现在自由了。,5
+freeze,v.,冻结,to turn to ice,Water freezes at zero.,水在零度结冰。,5
+friend,n.,朋友,companion,She is my friend.,她是我的朋友。,5
+frighten,v.,使害怕,to scare,The noise frightens him.,噪音吓到他。,5
+fruit,n.,水果,plant food,The fruit is sweet.,水果很甜。,5
+fuel,n.,燃料,energy source,The fuel ran out.,燃料用完了。,5
+full,adj.,满的,packed,The cup is full.,杯子满了。,5
+fun,n.,乐趣,enjoyment,We had great fun.,我们玩得开心。,5
+fund,n.,资金,money,The fund grew.,资金增长了。,5
+funny,adj.,有趣的,amusing,The joke is funny.,笑话很有趣。,5
+fur,n.,毛皮,animal hair,The fur is soft.,毛皮柔软。,5
+furniture,n.,家具,house items,The furniture is new.,家具是新的。,5
+further,adv.,进一步,more,We go further.,我们走得更远。,5
+future,n.,未来,time ahead,The future is bright.,未来光明。,5
+gain,v.,获得,to get,We gain new insight.,我们获得新见解。,5
+game,n.,游戏,play,The game is fun.,游戏有趣。,5
+gap,n.,缺口,space,There is a gap here.,这里有个缺口。,5
+garden,n.,花园,planted area,The garden is lovely.,花园很美。,5
+gas,n.,气体,air substance,The gas leaked.,气体泄漏了。,5
+gate,n.,大门,entry,The gate is open.,大门开着。,5
+gather,v.,聚集,to collect,We gather at noon.,我们中午聚集。,5
+gender,n.,性别,sex,The gender gap exists.,存在性别差距。,5
+general,adj.,一般的,common,This is a general rule.,这是一般规则。,5
+generate,v.,产生,to create,We generate power.,我们发电。,5
+generous,adj.,慷慨的,giving,He is generous.,他慷慨。,5
+gentle,adj.,温和的,mild,The breeze is gentle.,微风温和。,5
+genuine,adj.,真正的,real,This is genuine.,这是真的。,5
+gesture,n.,姿态,sign,His gesture was kind.,他的姿态友善。,5
+gift,n.,礼物,present,She gave a gift.,她送了礼物。,5
+girl,n.,女孩,female child,The girl smiled.,女孩笑了。,5
+give,v.,给,to hand over,We give our best.,我们全力以赴。,5
+glad,adj.,高兴的,happy,She is glad to help.,她乐于帮忙。,5
+glass,n.,玻璃,material,The glass broke.,玻璃碎了。,5
+global,adj.,全球的,worldwide,The issue is global.,问题全球化。,5
+goal,n.,目标,aim,Our goal is clear.,目标明确。,5
+god,n.,神,deity,They pray to god.,他们向神祈祷。,5
+gold,n.,黄金,metal,The gold is pure.,黄金是纯的。,5
+good,adj.,好的,fine,The food is good.,食物很好。,5
+govern,v.,统治,to rule,They govern the land.,他们统治这片土地。,5
+grade,n.,等级,level,He got a high grade.,他得了高分。,5
+grain,n.,谷物,seed,The grain is stored.,谷物已储存。,5
+grand,adj.,宏伟的,impressive,The view is grand.,景色宏伟。,5
+grant,v.,授予,to give,We grant the request.,我们批准请求。,5
+grass,n.,草,plant,The grass is green.,草是绿的。,5
+grave,adj.,严重的,serious,This is a grave error.,这是严重错误。,5
+great,adj.,伟大的,big,He is a great leader.,他是伟大的领袖。,5
+green,adj.,绿色的,color,The light is green.,灯是绿的。,5
+greet,v.,问候,to welcome,We greet the guest.,我们问候客人。,5
+ground,n.,地面,earth,The ground is wet.,地面湿了。,5
+group,n.,群体,collection,The group is small.,群体很小。,5
+grow,v.,生长,to develop,We grow the business.,我们发展业务。,5
+guard,v.,守卫,to protect,We guard the gate.,我们守卫大门。,5
+guess,v.,猜测,to suppose,We guess the answer.,我们猜答案。,5
+guest,n.,客人,visitor,The guest arrived.,客人到了。,5
+guide,v.,引导,to lead,We guide the team.,我们引导团队。,5
+guilt,n.,内疚,blame,He felt deep guilt.,他深感内疚。,5
+habit,n.,习惯,routine,This is a bad habit.,这是坏习惯。,5
+hair,n.,头发,on head,She cut her hair.,她剪了头发。,5
+half,n.,一半,part,We ate half.,我们吃了一半。,5
+hall,n.,大厅,room,The hall is big.,大厅很大。,5
+hand,n.,手,body part,Raise your hand.,举手。,5
+handle,v.,处理,to deal with,We handle the case.,我们处理案件。,5
+hang,v.,悬挂,to suspend,We hang the picture.,我们挂画。,5
+happen,v.,发生,to occur,What happened here.,这里发生了什么。,5
+happy,adj.,快乐的,glad,She is happy today.,她今天快乐。,5
+harbor,n.,港口,port,The harbor is safe.,港口安全。,5
+hard,adj.,硬的；困难的,solid or tough,The task is hard.,任务困难。,5
+harm,n.,伤害,damage,The harm is real.,伤害是真实的。,5
+harvest,v.,收获,to gather crops,We harvest in autumn.,我们秋天收获。,5
+hate,v.,憎恨,to loathe,He hates waiting.,他讨厌等待。,5
+head,n.,头,body top,He nodded his head.,他点了头。,5
+health,n.,健康,wellbeing,Her health is good.,她健康良好。,5
+hear,v.,听见,to perceive sound,We hear the music.,我们听见音乐。,5
+heart,n.,心,organ,Her heart is kind.,她心地善良。,5
+heat,n.,热,warmth,The heat is intense.,热浪强烈。,5
+heavy,adj.,重的,weighty,The box is heavy.,箱子很重。,5
+height,n.,高度,how tall,The height is ten feet.,高度为十英尺。,5
+hell,n.,地狱,underworld,He feared hell.,他害怕地狱。,5
+help,v.,帮助,to aid,We help each other.,我们互相帮助。,5
+hero,n.,英雄,brave person,He is a true hero.,他是真正的英雄。,5
+hide,v.,隐藏,to conceal,We hide the gift.,我们藏起礼物。,5
+high,adj.,高的,tall,The wall is high.,墙很高。,5
+hill,n.,小山,small mountain,The hill is green.,小山是绿的。,5
+hint,n.,暗示,clue,He gave a hint.,他给了暗示。,5
+hire,v.,雇佣,to employ,We hire a driver.,我们雇了司机。,5
+history,n.,历史,past events,The history is long.,历史悠久。,5
+hit,v.,打击,to strike,He hit the ball.,他击球。,5
+hold,v.,持有,to keep,We hold the line.,我们保持联络。,5
+hole,n.,洞,opening,There is a hole.,这里有个洞。,5
+holiday,n.,假期,break,We enjoy the holiday.,我们享受假期。,5
+holy,adj.,神圣的,sacred,This is a holy site.,这是圣地。,5
+home,n.,家,residence,We go home.,我们回家。,5
+honest,adj.,诚实的,truthful,He is honest.,他诚实。,5
+honor,n.,荣誉,respect,He won great honor.,他赢得荣誉。,5
+hope,n.,希望,wish,We have hope.,我们有希望。,5
+horn,n.,号角,wind instrument,He blew the horn.,他吹号角。,5
+horror,n.,恐怖,dread,The horror faded.,恐怖消散了。,5
+horse,n.,马,animal,The horse ran fast.,马跑得快。,5
+host,n.,主人；主持,owner or presenter,We host the event.,我们主办活动。,5
+hot,adj.,热的,warm,The soup is hot.,汤很烫。,5
+hotel,n.,酒店,lodging,The hotel is full.,酒店客满。,5
+hour,n.,小时,time unit,Wait one hour.,等一小时。,5
+house,n.,房子,building,The house is old.,房子很旧。,5
+huge,adj.,巨大的,very big,The cost is huge.,成本巨大。,5
+human,adj.,人类,of people,This is a human need.,这是人类需求。,5
+humor,n.,幽默,funny sense,He has good humor.,他很有幽默感。,5
+hundred,n.,百,100,We need a hundred.,我们需要一百个。,5
+hunger,n.,饥饿,need for food,The hunger grew.,饥饿加剧。,5
+hunt,v.,打猎,to chase game,We hunt in the woods.,我们在林中打猎。,5
+hurry,v.,匆忙,to rush,Do not hurry.,别匆忙。,5
+hurt,v.,伤害,to harm,He hurt his leg.,他伤了腿。,5
+husband,n.,丈夫,spouse,Her husband is kind.,她丈夫友善。,5
+ice,n.,冰,frozen water,The ice melted.,冰融化了。,5
+idea,n.,想法,thought,That is a good idea.,那是个好主意。,5
+ideal,adj.,理想的,perfect,This is ideal.,这很理想。,5
+identify,v.,识别,to recognize,We identify the risk.,我们识别风险。,5
+idle,adj.,闲置的,not used,The machine is idle.,机器闲置。,5
+ignore,v.,忽视,to disregard,Do not ignore the sign.,别忽视标志。,5
+ill,adj.,生病的,sick,She fell ill.,她病倒了。,5
+image,n.,形象,picture,The brand image is strong.,品牌形象强。,5
+imagine,v.,想象,to picture,We imagine the future.,我们想象未来。,5
+impact,n.,影响,effect,The impact is large.,影响很大。,5
+implement,v.,实施,to carry out,We implement the plan.,我们实施方案。,5
+import,v.,进口,to bring in,We import coffee.,我们进口咖啡。,5
+impose,v.,强加,to force,They impose a tax.,他们强加税收。,5
+improve,v.,改善,to get better,We improve the code.,我们改进代码。,5
+include,v.,包括,to contain,The price includes tax.,价格含稅。,5
+income,n.,收入,earnings,Her income rose.,她收入上升。,5
+index,n.,指数,measure,The index fell.,指数下跌。,5
+indicate,v.,表明,to show,The data indicates growth.,数据表明增长。,5
+industry,n.,工业,business sector,The industry grew.,工业增长了。,5
+infant,n.,婴儿,baby,The infant slept.,婴儿睡着了。,5
+infect,v.,感染,to contaminate,The wound infected.,伤口感染了。,5
+influence,v.,影响,to affect,We influence the outcome.,我们影响结果。,5
+inform,v.,通知,to tell,We inform the client.,我们通知客户。,5
+initial,adj.,最初的,first,The initial step is key.,第一步关键。,5
+injure,v.,伤害,to harm,He injured his arm.,他伤了手臂。,5
+inner,adj.,内部的,inside,The inner room is quiet.,里屋安静。,5
+innocent,adj.,无辜的,not guilty,He is innocent.,他是无辜的。,5
+input,n.,输入,data in,The input is clear.,输入清晰。,5
+inquiry,n.,询问,question,We made an inquiry.,我们做了询问。,5
+insist,v.,坚持,to demand,He insists on this.,他坚持这点。,5
+install,v.,安装,to set up,We install the app.,我们安装应用。,5
+instance,n.,实例,example,This is one instance.,这是一个实例。,5
+instant,adj.,瞬间的,immediate,The change is instant.,变化是瞬间的。,5
+instead,adv.,代替,replacing,We walk instead.,我们改走路。,5
+institute,n.,机构,organization,The institute researches this.,该机构研究这个。,5
+instruct,v.,指示,to teach,We instruct the staff.,我们指示员工。,5
+insult,v.,侮辱,to offend,Do not insult him.,别侮辱他。,5
+insurance,n.,保险,coverage,We bought insurance.,我们买了保险。,5
+intend,v.,打算,to plan,We intend to win.,我们打算赢。,5
+intent,n.,意图,purpose,His intent is clear.,他的意图明确。,5
+interest,n.,兴趣,curiosity,She shows real interest.,她表现出真正兴趣。,5
+interfere,v.,干涉,to meddle,Do not interfere.,别干涉。,5
+internal,adj.,内部的,inner,The internal link works.,内部链接可用。,5
+international,adj.,国际的,global,This is an international event.,这是国际事件。,5
+interpret,v.,解释,to explain,We interpret the law.,我们解释法律。,5
+interval,n.,间隔,gap,The interval is short.,间隔很短。,5
+interview,n.,面试,meeting,The interview went well.,面试顺利。,5
+introduce,v.,介绍,to present,Let me introduce him.,让我介绍他。,5
+invent,v.,发明,to create,He invented the device.,他发明了装置。,5
+invest,v.,投资,to put money,We invest in stocks.,我们投资股票。,5
+invite,v.,邀请,to ask,We invite our friends.,我们邀请朋友。,5
+involve,v.,涉及,to include,The task involves risk.,任务涉及风险。,5
+iron,n.,铁,metal,The iron is hard.,铁很硬。,5
+island,n.,岛屿,land in water,The island is small.,岛屿很小。,5
+issue,n.,问题；发行,problem or release,This is a key issue.,这是关键问题。,5
+item,n.,项目,thing,Each item matters.,每项都重要。,5
+jail,n.,监狱,prison,He went to jail.,他进了监狱。,5
+job,n.,工作,employment,She found a job.,她找到工作。,5
+join,v.,加入,to become part,We join the club.,我们加入俱乐部。,5
+joint,adj.,联合的,shared,This is a joint effort.,这是联合努力。,5
+journal,n.,期刊,magazine,The journal is monthly.,期刊是月刊。,5
+journey,n.,旅程,trip,The journey was long.,旅程漫长。,5
+joy,n.,喜悦,happiness,We felt pure joy.,我们感到纯粹喜悦。,5
+judge,v.,判断,to decide,We judge the case.,我们判决案件。,5
+juice,n.,果汁,drink,The juice is fresh.,果汁新鲜。,5
+jump,v.,跳,to leap,The cat jumped up.,猫跳起来。,5
+jungle,n.,丛林,forest,The jungle is thick.,丛林茂密。,5
+junior,adj.,初级的,lower,He is a junior member.,他是初级成员。,5
+jury,n.,陪审团,panel,The jury decided.,陪审团作出了决定。,5
+justice,n.,正义,fairness,We seek justice.,我们寻求正义。,5
+justify,v.,证明…正当,to defend,He justified the cost.,他证明了成本正当。,5
+keep,v.,保持,to retain,We keep the change.,我们保留零钱。,5
+key,adj.,钥匙；关键的,tool or vital,This is the key point.,这是关键点。,5
+kick,v.,踢,to strike with foot,He kicked the ball.,他踢了球。,5
+kill,v.,杀死,to end life,Do not kill the bug.,别弄死虫子。,5
+kind,adj.,善良的；种类,nice or type,She is a kind person.,她是个善良的人。,5
+king,n.,国王,ruler,The king ruled fairly.,国王公正统治。,5
+kiss,v.,亲吻,to touch with lips,She kissed the child.,她亲了孩子。,5
+kitchen,n.,厨房,room,The kitchen is clean.,厨房干净。,5
+knee,n.,膝盖,body part,He hurt his knee.,他伤了膝盖。,5
+knife,n.,刀,blade,The knife is sharp.,刀很锋利。,5
+knock,v.,敲,to tap,Please knock first.,请先敲门。,5
+know,v.,知道,to understand,We know the answer.,我们知道答案。,5
+labor,n.,劳动,work,The labor was hard.,劳动很辛苦。,5
+lake,n.,湖,water,The lake is calm.,湖面平静。,5
+land,n.,土地,ground,The land is fertile.,土地肥沃。,5
+language,n.,语言,tongue,She speaks three languages.,她说三种语言。,5
+large,adj.,大的,big,The room is large.,房间很大。,5
+last,adj.,最后的,final,This is the last stop.,这是最后一站。,5
+late,adj.,迟的,not on time,He is late again.,他又迟到了。,5
+laugh,v.,笑,to giggle,We laugh at the joke.,我们因笑话而笑。,5
+launch,v.,发射；发起,to send or start,We launch the product.,我们发布产品。,5
+law,n.,法律,rule,The law protects us.,法律保护我们。,5
+lay,v.,放置,to put,We lay the book down.,我们放下书。,5
+lead,v.,领导,to guide,She leads the team.,她领导团队。,5
+leaf,n.,叶子,plant part,The leaf is green.,叶子是绿的。,5
+league,n.,联盟,group,The league expanded.,联盟扩员了。,5
+leak,v.,泄漏,to escape,The pipe leaks water.,管子漏水。,5
+lean,v.,倾斜,to tilt,He leaned on the wall.,他倚着墙。,5
+learn,v.,学习,to study,We learn by doing.,我们通过实践学习。,5
+least,adj.,最少的,smallest,This costs the least.,这花费最少。,5
+leave,v.,离开,to depart,We leave at dawn.,我们黎明离开。,5
+lecture,n.,讲座,talk,The lecture was clear.,讲座清晰。,5
+left,adj.,左边的,on that side,Turn left here.,这里左转。,5
+legal,adj.,合法的,lawful,This is a legal act.,这是合法行为。,5
+lend,v.,借出,to loan,Can you lend me money.,能借我钱吗。,5
+length,n.,长度,how long,The length is short.,长度很短。,5
+less,adj.,更少的,fewer,We need less time.,我们需要更少时间。,5
+lesson,n.,课程,class,The lesson is useful.,课程有用。,5
+letter,n.,信；字母,mail or character,She wrote a letter.,她写了信。,5
+level,n.,水平,standard,The level is high.,水平很高。,5
+liable,adj.,有责任的,responsible,He is liable for this.,他对此负责。,5
+liberal,adj.,自由的,open,He has liberal views.,他观点开明。,5
+library,n.,图书馆,book place,The library is quiet.,图书馆安静。,5
+license,n.,执照,permit,He renewed his license.,他续了执照。,5
+lie,v.,躺；说谎,to recline or deceive,Do not lie to me.,别对我撒谎。,5
+life,n.,生命,existence,Life is precious.,生命珍贵。,5
+lift,v.,举起,to raise,We lift the box.,我们举起箱子。,5
+light,adj.,光；轻的,bright or weightless,The bag is light.,包很轻。,5
+like,v.,喜欢,to enjoy,We like the movie.,我们喜欢电影。,5
+limit,n.,限制,bound,There is a limit.,有限制。,5
+link,n.,联系,connection,The link is clear.,联系很清楚。,5
+liquid,n.,液体,fluid,The liquid is cold.,液体很冷。,5
+list,n.,列表,series,Check the list.,查看列表。,5
+listen,v.,听,to hear,We listen to music.,我们听音乐。,5
+little,adj.,小的,small,The dog is little.,狗很小。,5
+live,v.,居住；生活,to reside,We live in the city.,我们住在城市。,5
+load,v.,负载,to fill,We load the truck.,我们装车。,5
+local,adj.,当地的,nearby,The local food is good.,当地食物很好。,5
+lock,v.,锁,to secure,We lock the door.,我们锁门。,5
+lonely,adj.,孤独的,alone,He feels lonely.,他感到孤独。,5
+long,adj.,长的,extended,The road is long.,路很长。,5
+look,v.,看,to see,We look at the sky.,我们看天空。,5
+lose,v.,失去,to misplace,We lose the game.,我们输了比赛。,5
+loss,n.,损失,deficit,The loss is small.,损失很小。,5
+lot,n.,许多,much,We have a lot.,我们有很多。,5
+loud,adj.,大声的,noisy,The music is loud.,音乐很大声。,5
+love,v.,爱,to care for,We love our family.,我们爱家人。,5
+low,adj.,低的,not high,The price is low.,价格很低。,5
+loyal,adj.,忠诚的,faithful,He is a loyal friend.,他是忠诚的朋友。,5
+luck,n.,运气,fortune,Bad luck struck.,厄运降临。,5
+machine,n.,机器,device,The machine is fast.,机器很快。,5
+mad,adj.,疯狂的,crazy,He went mad.,他疯了。,5
+magazine,n.,杂志,periodical,She reads a magazine.,她读杂志。,5
+mail,n.,邮件,post,The mail arrived.,邮件到了。,5
+main,adj.,主要的,chief,The main reason is cost.,主要理由是成本。,5
+maintain,v.,维持,to keep,We maintain the system.,我们维护系统。,5
+major,adj.,主要的；专业,chief or subject,This is a major issue.,这是主要问题。,5
+majority,n.,多数,most,The majority agreed.,多数人同意。,5
+make,v.,制造,to create,We make a cake.,我们做蛋糕。,5
+male,adj.,男性的,of men,The male lead is strong.,男主角很强。,5
+mall,n.,商场,shopping place,The mall is busy.,商场很繁忙。,5
+manage,v.,管理,to run,We manage the project.,我们管理项目。,5
+manner,n.,方式,way,He did it in a calm manner.,他冷静地处理。,5
+manual,adj.,手动的,by hand,This is a manual task.,这是手动任务。,5
+manufacture,v.,制造,to produce,We manufacture cars.,我们制造汽车。,5
+many,adj.,许多,numerous,We have many friends.,我们有许多朋友。,5
+map,n.,地图,chart,Check the map.,查看地图。,5
+mark,n.,标记,sign,He left a mark.,他留下标记。,5
+market,n.,市场,place to trade,The market is open.,市场开放。,5
+marriage,n.,婚姻,union,Their marriage is strong.,他们的婚姻稳固。,5
+mass,n.,大量,large amount,The mass of data is huge.,数据量巨大。,5
+master,v.,掌握；主人,to learn or owner,He masters the skill.,他掌握了技能。,5
+match,v.,匹配,to fit,This matches the style.,这与风格匹配。,5
+material,n.,材料,substance,The material is soft.,材料柔软。,5
+matter,n.,事情,issue,This matter is urgent.,此事紧急。,5
+mature,adj.,成熟的,grown,He is mature now.,他现在成熟了。,5
+meal,n.,餐,food,The meal was good.,餐食很好。,5
+mean,v.,意味着,to signify,This means a lot.,这意味深长。,5
+measure,v.,测量,to size,We measure the room.,我们测量房间。,5
+meat,n.,肉,food,The meat is fresh.,肉很新鲜。,5
+media,n.,媒体,press,The media reported it.,媒体报道了。,5
+medical,adj.,医学的,of health,He needs medical care.,他需要医疗护理。,5
+meet,v.,遇见,to encounter,We meet at noon.,我们中午见。,5
+melt,v.,融化,to liquefy,The snow melts.,雪融化了。,5
+member,n.,成员,participant,He is a key member.,他是关键成员。,5
+memory,n.,记忆,recall,The memory faded.,记忆淡去。,5
+mental,adj.,精神的,of mind,He needs mental rest.,他需要精神休息。,5
+mention,v.,提及,to note,She mentioned the risk.,她提到了风险。,5
+menu,n.,菜单,list of food,Read the menu.,看菜单。,5
+mere,adj.,仅仅的,only,He is a mere child.,他只是个孩子。,5
+metal,n.,金属,element,The metal is cold.,金属很冷。,5
+method,n.,方法,way,This is a new method.,这是新方法。,5
+middle,n.,中间,center,We meet in the middle.,我们在中间碰面。,5
+migrate,v.,迁移,to move,They migrate south.,他们南迁。,5
+military,adj.,军事的,of army,The military acted.,军方行动了。,5
+milk,n.,牛奶,drink,The milk is fresh.,牛奶新鲜。,5
+mind,n.,头脑,brain,Keep an open mind.,保持开放心态。,5
+mineral,n.,矿物,substance,The water has minerals.,水含矿物质。,5
+minimum,adj.,最小的,least,We need the minimum.,我们需要最小值。,5
+minister,n.,部长,official,The minister spoke.,部长发言了。,5
+minor,adj.,次要的,lesser,This is a minor issue.,这是次要问题。,5
+minute,n.,分钟,time,Wait one minute.,等一分钟。,5
+mirror,n.,镜子,reflector,The mirror is clean.,镜子干净。,5
+miss,v.,错过；想念,to skip or long for,We miss the train.,我们错过火车。,5
+mix,v.,混合,to blend,We mix the colors.,我们混合颜色。,5
+mode,n.,模式,way,Switch the mode.,切换模式。,5
+model,n.,模型,example,This is a new model.,这是新模型。,5
+modern,adj.,现代的,current,The building is modern.,建筑很现代。,5
+modest,adj.,谦虚的,humble,He is modest.,他谦虚。,5
+moment,n.,时刻,time,This is the key moment.,这是关键时刻。,5
+money,n.,钱,currency,We save money.,我们存钱。,5
+monitor,v.,监视,to watch,We monitor the system.,我们监视系统。,5
+month,n.,月份,time,The project takes a month.,项目耗时一个月。,5
+moral,adj.,道德的,of right,This is a moral duty.,这是道德义务。,5
+more,adj.,更多的,greater,We need more time.,我们需要更多时间。,5
+morning,n.,早晨,early day,The morning is calm.,早晨很宁静。,5
+mother,n.,母亲,parent,His mother is kind.,他母亲友善。,5
+motion,n.,运动,movement,The motion is smooth.,运动流畅。,5
+motor,n.,马达,engine,The motor is loud.,马达很吵。,5
+mount,v.,登上,to climb,We mount the stairs.,我们上楼梯。,5
+mountain,n.,山,peak,The mountain is tall.,山很高。,5
+mouse,n.,老鼠,animal,The mouse hid.,老鼠藏起来了。,5
+mouth,n.,嘴,the opening in the face,The baby's mouth is small.,宝宝的嘴很小。,5
+move,v.,移动,to change position,Please move the chair.,请把椅子移动一下。,5
+movie,n.,电影,a film,We watched a movie.,我们看了一部电影。,5
+much,adj.,许多,a large amount,We have much work.,我们有许多工作。,5
+mud,n.,泥,wet soft earth,The mud is wet.,泥很湿。,5
+murder,n.,谋杀,the crime of killing,The murder shocked us.,那起谋杀让我们震惊。,5
+muscle,n.,肌肉,body tissue for movement,He has strong muscles.,他肌肉很强壮。,5
+museum,n.,博物馆,a building for exhibits,We visited the museum.,我们参观了博物馆。,5
+music,n.,音乐,sounds arranged nicely,The music is calm.,音乐很平静。,5
+must,aux.,必须,have to,You must leave now.,你必须现在离开。,5
+mutual,adj.,相互的,shared by two,We have mutual trust.,我们有相互的信任。,5
+mystery,n.,神秘,something unknown,The case is a mystery.,这个案子是个谜。,5
+nail,n.,钉子,a small metal spike,He hit the nail.,他敲了钉子。,5
+naked,adj.,裸露的,not covered,The baby is naked.,宝宝光着身子。,5
+name,n.,名字,what you are called,What is your name?,你叫什么名字？,5
+narrow,adj.,狭窄的,not wide,The road is narrow.,这条路很窄。,5
+nation,n.,国家,a country,The nation is peaceful.,这个国家很和平。,5
+native,adj.,本地的,from a place,He is a native speaker.,他是本地语者。,5
+natural,adj.,自然的,from nature,The view is natural.,景色很自然。,5
+nature,n.,自然,the physical world,We love nature.,我们热爱自然。,5
+near,adj.,近的,not far,The school is near.,学校很近。,5
+neat,adj.,整洁的,clean and tidy,Her room is neat.,她的房间很整洁。,5
+necessary,adj.,必要的,needed,Sleep is necessary.,睡眠是必要的。,5
+need,v.,需要,to require,We need water.,我们需要水。,5
+negative,adj.,消极的,not positive,He gave a negative reply.,他给了消极的回复。,5
+negotiate,v.,谈判,to discuss terms,They negotiate the deal.,他们谈判这笔交易。,5
+neighbor,n.,邻居,a person nearby,My neighbor is kind.,我的邻居很友善。,5
+nervous,adj.,紧张的,anxious,She feels nervous.,她感到紧张。,5
+net,n.,网,a mesh for catching,The fish hit the net.,鱼撞到了网。,5
+never,adv.,从不,not ever,He never lies.,他从不说谎。,5
+news,n.,新闻,new information,The news is good.,新闻很好。,5
+nice,adj.,好的,pleasant,She is very nice.,她人很好。,5
+night,n.,夜晚,the dark part of day,The night is quiet.,夜晚很安静。,5
+noble,adj.,高贵的,of high rank,He is a noble man.,他是个高贵的人。,5
+noise,n.,噪音,loud unwanted sound,The noise is loud.,噪音很大。,5
+none,pron.,没有,not any,None of them came.,他们一个也没来。,5
+normal,adj.,正常的,usual,This is normal.,这很正常。,5
+north,n.,北方,the direction up,The wind is from the north.,风从北方来。,5
+nose,n.,鼻子,the smell organ,His nose is red.,他的鼻子红了。,5
+note,n.,笔记,a short record,Take a note.,记个笔记。,5
+notice,v.,注意,to observe,Did you notice that?,你注意到那个了吗？,5
+notion,n.,概念,an idea,He has an odd notion.,他有个奇怪的概念。,5
+novel,n.,小说,a long story book,She wrote a novel.,她写了一本小说。,5
+now,adv.,现在,at this time,We must go now.,我们现在必须走。,5
+nuclear,adj.,核能的,of the nucleus,It is a nuclear plant.,这是一座核电站。,5
+number,n.,数字,a count,Write the number.,写出那个数字。,5
+nurse,n.,护士,a care worker,The nurse is busy.,护士很忙。,5
+nut,n.,坚果,a hard seed,He ate a nut.,他吃了一颗坚果。,5
+object,n.,物体；反对,a thing or to oppose,This object is heavy.,这个物体很重。,5
+oblige,v.,迫使,to force,The law obliges us.,法律迫使我们。,5
+observe,v.,观察,to watch,We observe the stars.,我们观察星星。,5
+obtain,v.,获得,to get,He obtained a prize.,他获得了一个奖。,5
+obvious,adj.,明显的,clear,The answer is obvious.,答案很明显。,5
+occasion,n.,场合,a special event,It is a happy occasion.,这是个快乐的场合。,5
+occupy,v.,占据,to fill,The chair is occupied.,椅子被占了。,5
+occur,v.,发生,to happen,The error occurred again.,错误又发生了。,5
+ocean,n.,海洋,the big sea,The ocean is deep.,海洋很深。,5
+offer,v.,提供,to give,They offer help.,他们提供帮助。,5
+office,n.,办公室,a work room,He is in the office.,他在办公室里。,5
+offset,v.,抵消,to balance,The cost is offset.,成本被抵消了。,5
+oil,n.,油,a greasy liquid,The oil is hot.,油很热。,5
+old,adj.,老的,not young,The man is old.,那位老人年迈。,5
+onion,n.,洋葱,a strong vegetable,He cut the onion.,他切了洋葱。,5
+operate,v.,操作,to run,We operate the machine.,我们操作这台机器。,5
+opinion,n.,意见,a view,What is your opinion?,你的意见是什么？,5
+opponent,n.,对手,a rival,The opponent is strong.,对手很强。,5
+opportunity,n.,机会,a good chance,Take this opportunity.,抓住这个机会。,5
+oppose,v.,反对,to be against,We oppose the plan.,我们反对这个计划。,5
+option,n.,选项,a choice,Pick an option.,选一个选项。,5
+oral,adj.,口头的,spoken,He gave an oral report.,他做了口头报告。,5
+orange,n.,橙子；橙色,a fruit or a color,She ate an orange.,她吃了一个橙子。,5
+order,n.,命令；订单,a command or a request,The order is clear.,命令很明确。,5
+ordinary,adj.,普通的,common,It is an ordinary day.,这是平常的一天。,5
+organ,n.,器官,a body part,The heart is an organ.,心脏是一个器官。,5
+organise,v.,组织,to arrange,We organise the event.,我们组织这场活动。,5
+orient,v.,使适应,to adjust,He oriented himself.,他让自己适应了。,5
+origin,n.,起源,the start,The origin is unclear.,起源不清楚。,5
+original,adj.,原始的,first,The original plan failed.,原始计划失败了。,5
+other,adj.,其他的,different,The other book is new.,另一本书是新的。,5
+output,n.,产出,what is produced,The output is high.,产出很高。,5
+outcome,n.,结果,the result,The outcome is good.,结果很好。,5
+outdoor,adj.,户外的,outside,We did outdoor sports.,我们做了户外运动。,5
+outer,adj.,外部的,outside,The outer wall is thick.,外墙很厚。,5
+outline,n.,大纲,a rough plan,He drew an outline.,他画了一个大纲。,5
+outset,n.,开始,the start,At the outset we agreed.,一开始我们就同意了。,5
+outside,adv.,外部,out of,He waited outside.,他在外面等。,5
+overall,adj.,总体的,total,The overall score is high.,总得分很高。,5
+overcome,v.,克服,to defeat,We overcame the fear.,我们克服了恐惧。,5
+overseas,adv.,海外的,abroad,He works overseas.,他在海外工作。,5
+owe,v.,欠,to need to pay,He owes me money.,他欠我钱。,5
+own,adj.,拥有,to have,This is my own room.,这是我自己的房间。,5
+owner,n.,所有者,a holder,The owner is away.,所有者外出了。,5
+pack,v.,打包,to box up,We pack the bags.,我们打包行李。,5
+page,n.,页,a sheet,Read page one.,读第一页。,5
+pain,n.,疼痛,ache,He felt a pain.,他感到疼痛。,5
+paint,v.,绘画,to make art,She paints a flower.,她画了一朵花。,5
+pair,n.,一对,two of a kind,He bought a pair.,他买了一对。,5
+palace,n.,宫殿,a royal home,The palace is grand.,宫殿很宏伟。,5
+pale,adj.,苍白的,light colored,She looks pale.,她看起来苍白。,5
+pan,n.,平底锅,a cooking tool,The pan is hot.,平底锅很热。,5
+paper,n.,纸,a thin sheet,Write on the paper.,在纸上写。,5
+parent,n.,父母,a mother or father,My parent is kind.,我的父母很友善。,5
+park,n.,公园,a green space,We walked in the park.,我们在公园散步。,5
+part,n.,部分,a piece,This is part of it.,这是它的一部分。,5
+participate,v.,参与,to join,We participate in the game.,我们参与了游戏。,5
+particular,adj.,特定的,specific,That is a particular case.,那是个特定情况。,5
+partner,n.,伙伴,a teammate,He is my partner.,他是我的伙伴。,5
+party,n.,聚会；政党,a social event or a group,The party was fun.,聚会很有趣。,5
+pass,v.,通过,to go through,He passed the test.,他通过了测试。,5
+past,adj.,过去的,gone by,The past year was hard.,过去的一年很难。,5
+patch,n.,补丁,a small fix,He sewed a patch.,他缝了一块补丁。,5
+path,n.,路径,a way,The path is narrow.,小路很窄。,5
+patient,adj.,耐心的；病人,calm or a sick person,She is a patient nurse.,她是个耐心的护士。,5
+pattern,n.,模式,a design,The pattern is clear.,模式很清楚。,5
+pause,v.,暂停,to stop briefly,He paused the video.,他暂停了视频。,5
+pay,v.,支付,to give money,Please pay the bill.,请支付账单。,5
+peace,n.,和平,no war,We want peace.,我们想要和平。,5
+peak,n.,顶峰,the top,The peak is high.,顶峰很高。,5
+pen,n.,钢笔,a writing tool,He lost his pen.,他丢了他的钢笔。,5
+penalty,n.,惩罚,a punishment,The penalty is strict.,惩罚很严厉。,5
+penny,n.,便士,a small coin,It costs a penny.,它值一便士。,5
+people,n.,人们,persons,The people are happy.,人们很开心。,5
+perceive,v.,感知,to sense,He perceived the change.,他感知到了变化。,5
+perfect,adj.,完美的,flawless,The plan is perfect.,计划很完美。,5
+perform,v.,执行,to do,We perform the task.,我们执行任务。,5
+perhaps,adv.,也许,maybe,Perhaps it will rain.,也许会下雨。,5
+period,n.,时期,a span,The period was long.,那段时期很长。,5
+permit,v.,允许,to allow,We permit the visit.,我们允许这次访问。,5
+person,n.,人,a human,The person smiled.,那个人笑了。,5
+personal,adj.,个人的,private,This is my personal view.,这是我的个人看法。,5
+persuade,v.,说服,to convince,He persuaded his friend.,他说服了朋友。,5
+pet,n.,宠物,a tame animal,The pet is cute.,宠物很可爱。,5
+phase,n.,阶段,a stage,We entered a new phase.,我们进入了一个新阶段。,5
+phenomenon,n.,现象,a fact observed,This phenomenon is odd.,这个现象很奇怪。,5
+philosophy,n.,哲学,the study of truth,He loves philosophy.,他热爱哲学。,5
+phone,n.,电话,a device,Call me on the phone.,用电话打给我。,5
+photo,n.,照片,a picture,She took a photo.,她拍了一张照片。,5
+phrase,n.,短语,a group of words,Learn this phrase.,学这个短语。,5
+physical,adj.,身体的,of the body,He needs physical rest.,他需要身体休息。,5
+pick,v.,挑选,to choose,Please pick one.,请挑一个。,5
+picture,n.,图片,an image,The picture is nice.,图片很好看。,5
+piece,n.,片,a part,He ate a piece.,他吃了一片。,5
+pile,n.,堆,a stack,The pile is high.,那堆很高。,5
+pilot,n.,飞行员,a flyer,The pilot is skilled.,飞行员很有经验。,5
+pink,adj.,粉色,a light red color,She wore a pink dress.,她穿了一条粉色裙子。,5
+pioneer,n.,先驱,a forerunner,He is a pioneer.,他是个先驱。,5
+pipe,n.,管道,a tube,The pipe is long.,管道很长。,5
+pity,n.,遗憾,regret,What a pity!,真遗憾！,5
+place,n.,地方,a location,This is a nice place.,这是个好地方。,5
+plain,adj.,朴素的,simple,The dress is plain.,裙子很朴素。,5
+plan,n.,计划,a scheme,We made a plan.,我们制定了一个计划。,5
+plane,n.,飞机,an aircraft,The plane is late.,飞机晚点了。,5
+planet,n.,行星,a world,The planet is far.,行星很远。,5
+plant,n.,植物；工厂,a living thing or a factory,The plant is green.,植物是绿色的。,5
+plastic,n.,塑料,a man-made material,The cup is plastic.,杯子是塑料的。,5
+plate,n.,盘子,a dish,The plate is clean.,盘子很干净。,5
+play,v.,玩,to have fun,The kids play outside.,孩子们在外面玩。,5
+please,int.,请,used to be polite,Please sit down.,请坐下。,5
+plenty,n.,大量,a lot,We have plenty of time.,我们有大量时间。,5
+plot,n.,情节,the story line,The plot is simple.,情节很简单。,5
+plug,n.,插头,a connector,The plug is loose.,插头松了。,5
+plural,adj.,复数,more than one,Use the plural form.,用复数形式。,5
+plus,prep.,加,added to,Two plus two is four.,二加二等于四。,5
+pocket,n.,口袋,a small bag,He put it in his pocket.,他把它放进口袋。,5
+poem,n.,诗,a verse,She wrote a poem.,她写了一首诗。,5
+poet,n.,诗人,a verse writer,The poet is famous.,诗人很有名。,5
+point,n.,点；指出,a dot or to show,Make a point.,提出一个要点。,5
+poison,n.,毒药,a harmful substance,The poison is deadly.,毒药致命。,5
+pole,n.,杆；极,a stick or an end,The pole is long.,杆子很长。,5
+police,n.,警察,law officers,The police arrived.,警察到了。,5
+polish,v.,抛光,to shine,He polished the shoe.,他擦亮了鞋。,5
+political,adj.,政治的,of government,The issue is political.,这个问题是政治性的。,5
+poll,n.,投票,a survey,The poll closed.,投票结束了。,5
+pollute,v.,污染,to dirty,Factories pollute the river.,工厂污染了河流。,5
+pool,n.,池塘,a small lake,The pool is blue.,池塘是蓝色的。,5
+poor,adj.,贫穷的,not rich,The family is poor.,这家人很穷。,5
+popular,adj.,流行的,liked by many,The song is popular.,这首歌很流行。,5
+population,n.,人口,the people count,The population grew.,人口增长。,5
+port,n.,港口,a harbor,The ship left the port.,船离开了港口。,5
+pose,v.,造成；摆姿势,to cause or to pose,The act may pose a risk.,该行为可能造成风险。,5
+position,n.,位置,a place,The position is clear.,位置很清楚。,5
+positive,adj.,积极的,good,He has a positive mood.,他情绪积极。,5
+possess,v.,拥有,to own,He possesses a car.,他拥有一辆车。,5
+possible,adj.,可能的,can happen,It is possible to win.,赢是有可能的。,5
+post,v.,邮寄；岗位,to mail or a job,She will post the letter.,她会寄出这封信。,5
+pot,n.,锅,a container,The pot is full.,锅满了。,5
+potato,n.,土豆,a starchy root,He ate a potato.,他吃了一个土豆。,5
+potential,adj.,潜在的,possible,He has potential skill.,他有潜在的技能。,5
+pour,v.,倾倒,to flow,Please pour the water.,请倒水。,5
+poverty,n.,贫困,being poor,Poverty is a problem.,贫困是个问题。,5
+power,n.,权力,control,He has the power.,他拥有权力。,5
+practice,n.,练习,repeated training,We need more practice.,我们需要更多练习。,5
+praise,v.,赞扬,to commend,They praised the child.,他们赞扬了孩子。,5
+pray,v.,祈祷,to hope to god,We pray for peace.,我们祈祷和平。,5
+prefer,v.,更喜欢,to like more,He prefers tea.,他更喜欢茶。,5
+prepare,v.,准备,to get ready,We prepare the meal.,我们准备饭菜。,5
+present,v./n.,呈现；礼物,to show or a gift,He gave a present.,他送了一份礼物。,5
+preserve,v.,保护,to keep safe,We preserve the forest.,我们保护森林。,5
+press,v.,压；新闻,to push or news,Press the button.,按下按钮。,5
+pressure,n.,压力,force,The pressure is high.,压力很大。,5
+pretend,v.,假装,to fake,He pretends to sleep.,他假装睡觉。,5
+pretty,adj.,漂亮的,nice looking,She is pretty.,她很漂亮。,5
+prevent,v.,防止,to stop,We prevent the loss.,我们防止损失。,5
+previous,adj.,先前的,before,The previous plan failed.,先前的计划失败了。,5
+price,n.,价格,the cost,The price is low.,价格很低。,5
+pride,n.,骄傲,self respect,He felt pride.,他感到骄傲。,5
+primary,adj.,主要的,first,The primary goal is clear.,主要目标明确。,5
+prime,adj.,首要的,top,This is the prime task.,这是首要任务。,5
+prince,n.,王子,a royal son,The prince smiled.,王子笑了。,5
+prison,n.,监狱,a jail,He was sent to prison.,他被送进监狱。,5
+private,adj.,私人的,not public,This is a private matter.,这是私事。,5
+prize,n.,奖品,an award,He won a prize.,他赢得奖品。,5
+probable,adj.,可能的,likely,Rain is probable.,很可能会下雨。,5
+problem,n.,问题,a trouble,We found a problem.,我们发现了问题。,5
+procedure,n.,程序,a method,Follow the procedure.,遵循程序。,5
+proceed,v.,继续进行,to go on,We proceed with care.,我们谨慎继续。,5
+process,n.,过程,a series of steps,The process is slow.,过程很慢。,5
+produce,v.,生产,to make,The farm produces milk.,农场生产牛奶。,5
+product,n.,产品,a made item,The product is new.,产品是新的。,5
+profit,n.,利润,money gained,The profit is high.,利润很高。,5
+program,n.,项目；程序,a plan or code,The program is useful.,这个项目很有用。,5
+progress,n.,进步,improvement,We made progress.,我们取得了进步。,5
+project,n.,项目,a task,The project is big.,项目很大。,5
+promise,n.,承诺,a vow,He kept his promise.,他遵守了承诺。,5
+promote,v.,促进,to advance,We promote the cause.,我们促进这项事业。,5
+proof,n.,证明,evidence,We need proof.,我们需要证据。,5
+proper,adj.,适当的,right,Use the proper tool.,用适当的工具。,5
+property,n.,财产,a possession,The property is his.,财产是他的。,5
+propose,v.,提议,to suggest,He proposed a plan.,他提出了一个计划。,5
+protect,v.,保护,to guard,We protect the child.,我们保护孩子。,5
+protest,v.,抗议,to object,They protest the law.,他们抗议这项法律。,5
+proud,adj.,骄傲的,pleased,He is proud of her.,他为她骄傲。,5
+prove,v.,证明,to show true,We prove the point.,我们证明了这一点。,5
+provide,v.,提供,to supply,They provide food.,他们提供食物。,5
+publish,v.,出版,to print,We publish the book.,我们出版了这本书。,5
+pull,v.,拉,to drag,Please pull the rope.,请拉绳子。,5
+purpose,n.,目的,a goal,The purpose is clear.,目的明确。,5
+pursue,v.,追求,to chase,He pursues his dream.,他追求梦想。,5
+push,v.,推,to shove,Please push the door.,请推门。,5
+qualify,v.,使合格,to certify,He qualified as a doctor.,他取得了医生资格。,5
+quality,n.,质量,how good,The quality is high.,质量很高。,5
+quantity,n.,数量,how much,The quantity is small.,数量很少。,5
+quarter,n.,四分之一,one of four,He ate a quarter.,他吃了四分之一。,5
+queen,n.,女王,a female ruler,The queen waved.,女王挥手。,5
+question,n.,问题,an inquiry,Ask a question.,问一个问题。,5
+quick,adj.,快速的,fast,He is quick.,他很快。,5
+quiet,adj.,安静的,silent,The room is quiet.,房间很安静。,5
+quit,v.,退出,to leave,He quit the job.,他退出了工作。,5
+quite,adv.,相当,rather,It is quite cold.,天气相当冷。,5
+quote,v.,引用,to cite,He quoted the line.,他引用了那句话。,5
+race,n.,种族；赛跑,a people or a run,The race was close.,比赛很激烈。,5
+radio,n.,收音机,a device,The radio is on.,收音机开着。,5
+rail,n.,栏杆,a bar,He held the rail.,他扶着栏杆。,5
+rain,n.,雨,water from sky,The rain stopped.,雨停了。,5
+raise,v.,提高,to lift,Please raise your hand.,请举起手。,5
+random,adj.,随机的,by chance,He made a random choice.,他随机选了一个。,5
+range,n.,范围,a span,The range is wide.,范围很广。,5
+rank,n.,等级,a level,He rose in rank.,他提升了等级。,5
+rapid,adj.,快速的,very fast,The change is rapid.,变化很快。,5
+rare,adj.,稀有的,uncommon,This stone is rare.,这块石头很稀有。,5
+rate,n.,比率,a ratio,The rate is low.,比率很低。,5
+rather,adv.,相当,more willingly,He would rather stay.,他宁愿留下。,5
+raw,adj.,生的,uncooked,The meat is raw.,肉是生的。,5
+reach,v.,到达,to arrive,We reach the top.,我们到达了顶部。,5
+react,v.,反应,to respond,He reacted fast.,他反应很快。,5
+ready,adj.,准备好的,set,We are ready.,我们准备好了。,5
+real,adj.,真实的,true,This is a real story.,这是真实的故事。,5
+realize,v.,意识到,to understand,He realized the truth.,他意识到了真相。,5
+reason,n.,原因,a cause,The reason is clear.,原因很清楚。,5
+receive,v.,接收,to get,We received a letter.,我们收到一封信。,5
+recent,adj.,最近的,not long ago,The recent news is good.,最近的消息很好。,5
+recognize,v.,认出,to know again,She recognized him.,她认出了他。,5
+recommend,v.,推荐,to suggest,We recommend this book.,我们推荐这本书。,5
+record,v.,记录,to note,He recorded the song.,他记录了这首歌。,5
+reduce,v.,减少,to cut,We reduce the cost.,我们减少了成本。,5
+reflect,v.,反映,to show back,The mirror reflects light.,镜子反射光。,5
+reform,v.,改革,to improve,We reform the system.,我们改革制度。,5
+refuse,v.,拒绝,to say no,He refused the offer.,他拒绝了提议。,5
+regard,v.,认为,to view,We regard him as a friend.,我们把他当朋友。,5
+region,n.,地区,an area,The region is dry.,这个地区很干燥。,5
+register,v.,登记,to sign up,Please register first.,请先登记。,5
+regret,v.,后悔,to feel sorry,He regretted his words.,他后悔说了那些话。,5
+regular,adj.,规律的,steady,He has regular habits.,他有规律的作息。,5
+reject,v.,拒绝,to dismiss,They rejected the plan.,他们拒绝了计划。,5
+relate,v.,关联,to connect,We relate the facts.,我们关联这些事实。,5
+release,v.,释放,to free,They released the bird.,他们释放了鸟。,5
+relevant,adj.,相关的,related,This point is relevant.,这点相关。,5
+relief,n.,缓解,ease,He felt relief.,他感到缓解。,5
+religion,n.,宗教,faith,He studies religion.,他研究宗教。,5
+rely,v.,依赖,to depend,We rely on you.,我们依赖你。,5
+remain,v.,保持,to stay,He remained calm.,他保持冷静。,5
+remark,v.,评论,to comment,She remarked on it.,她对此评论。,5
+remember,v.,记得,to recall,I remember the day.,我记得那天。,5
+remind,v.,提醒,to prompt,Please remind me.,请提醒我。,5
+remote,adj.,遥远的,far,The island is remote.,岛屿很遥远。,5
+remove,v.,移除,to take away,Please remove the tag.,请移除标签。,5
+rent,n.,租金,money for use,The rent is high.,租金很高。,5
+repair,v.,修理,to fix,He repaired the bike.,他修理了自行车。,5
+repeat,v.,重复,to say again,Please repeat it.,请重复一遍。,5
+replace,v.,替换,to swap,We replace the part.,我们替换了部件。,5
+reply,v.,回复,to answer,She replied at once.,她立刻回复了。,5
+report,v.,报告,to tell,He reported the news.,他报告了消息。,5
+represent,v.,代表,to stand for,He represents the team.,他代表团队。,5
+republic,n.,共和国,a state,The republic is young.,这个共和国很年轻。,5
+rescue,v.,救援,to save,They rescued the cat.,他们救援了猫。,5
+research,n.,研究,study,We do research.,我们做研究。,5
+resolve,v.,解决,to settle,We resolve the issue.,我们解决了问题。,5
+resource,n.,资源,a supply,The resource is limited.,资源有限。,5
+respect,v.,尊重,to honor,We respect the elder.,我们尊重长辈。,5
+respond,v.,回应,to reply,He responded quickly.,他很快回应。,5
+restore,v.,恢复,to bring back,We restore the file.,我们恢复了文件。,5
+restrict,v.,限制,to limit,We restrict the access.,我们限制了访问。,5
+result,n.,结果,an outcome,The result is clear.,结果很清楚。,5
+retain,v.,保留,to keep,We retain the right.,我们保留权利。,5
+retire,v.,退休,to stop work,He retired last year.,他去年退休了。,5
+return,v.,返回,to come back,He returned home.,他回到了家。,5
+reveal,v.,揭示,to show,The test reveals the truth.,测试揭示了真相。,5
+reverse,v.,反转,to flip,He reversed the car.,他倒车了。,5
+review,v.,复习,to study again,We review the lesson.,我们复习了功课。,5
+revise,v.,修订,to edit,We revise the draft.,我们修订了草稿。,5
+reward,n.,奖励,a prize,He got a reward.,他得到了奖励。,5
+rhythm,n.,节奏,a beat,The rhythm is steady.,节奏稳定。,5
+ride,v.,骑,to sit on,He rides a bike.,他骑自行车。,5
+right,adj.,正确的；权利,correct or a claim,That is the right way.,那是正确的方法。,5
+ring,n.,戒指；铃,a band or a bell,She wore a ring.,她戴着戒指。,5
+rise,v.,上升,to go up,The sun rises.,太阳升起了。,5
+risk,n.,风险,a danger,The risk is real.,风险是真实的。,5
+ritual,n.,仪式,a rite,The ritual is old.,仪式很古老。,5
+river,n.,河流,a stream,The river is wide.,河流很宽。,5
+road,n.,道路,a way,The road is long.,道路很长。,5
+rob,v.,抢劫,to steal,They robbed the bank.,他们抢劫了银行。,5
+rock,n.,岩石,a stone,The rock is heavy.,岩石很重。,5
+role,n.,角色,a part,He played a role.,他扮演了角色。,5
+roll,v.,滚动,to turn over,The ball rolls.,球滚动了。,5
+roof,n.,屋顶,the top cover,The roof is new.,屋顶是新的。,5
+room,n.,房间,a space,The room is bright.,房间很明亮。,5
+root,n.,根,the base,The root is deep.,根很深。,5
+rope,n.,绳子,a cord,The rope is strong.,绳子很结实。,5
+rose,n.,玫瑰,a flower,She gave a rose.,她送了一朵玫瑰。,5
+rough,adj.,粗糙的,not smooth,The surface is rough.,表面很粗糙。,5
+round,adj.,圆的,circular,The table is round.,桌子是圆的。,5
+route,n.,路线,a path,This is the route.,这是路线。,5
+routine,n.,常规,a habit,He has a routine.,他有固定常规。,5
+row,n.,排,a line,They sat in a row.,他们坐成一排。,5
+royal,adj.,皇家的,of the king,The royal palace is grand.,皇家宫殿很宏伟。,5
+rub,v.,摩擦,to wipe,He rubbed his eyes.,他揉了揉眼睛。,5
+rule,n.,规则,a law,Follow the rule.,遵守规则。,5
+run,v.,跑,to sprint,He runs fast.,他跑得快。,5
+rural,adj.,农村的,of the country,The rural area is quiet.,农村地区很安静。,5
+rush,v.,冲,to hurry,He rushed out.,他冲了出去。,5
+sacred,adj.,神圣的,holy,The site is sacred.,这地点很神圣。,5
+sad,adj.,悲伤的,unhappy,She feels sad.,她感到悲伤。,5
+safe,adj.,安全的,not dangerous,The place is safe.,这个地方很安全。,5
+sail,v.,航行,to boat,The ship sails at dawn.,船在黎明起航。,5
+salad,n.,沙拉,a cold dish,He ate a salad.,他吃了一份沙拉。,5
+salary,n.,薪水,pay,The salary is fair.,薪水公平。,5
+sale,n.,销售,a sell,The sale ended.,促销结束了。,5
+salt,n.,盐,a seasoning,The soup needs salt.,汤需要盐。,5
+same,adj.,相同的,alike,We wore the same shirt.,我们穿了相同的衬衫。,5
+sample,n.,样本,a small part,This is a sample.,这是一个样本。,5
+sand,n.,沙,small grains,The sand is warm.,沙很暖。,5
+satellite,n.,卫星,a moon-made object,The satellite orbits earth.,卫星绕地球运行。,5
+satisfy,v.,满足,to please,The result satisfies us.,结果令我们满意。,5
+save,v.,拯救,to rescue,We save the child.,我们救了孩子。,5
+scale,n.,规模,a size,The scale is huge.,规模很大。,5
+scan,v.,扫描,to read fast,He scanned the page.,他快速扫视了页面。,5
+scarce,adj.,稀缺的,rare,Water is scarce here.,这里水很稀缺。,5
+scare,v.,惊吓,to frighten,The noise scared him.,噪音吓到了他。,5
+scene,n.,场景,a view,The scene is calm.,场景很平静。,5
+scheme,n.,计划,a plot,They made a scheme.,他们制定了一个计划。,5
+school,n.,学校,a place to learn,The school is near.,学校很近。,5
+science,n.,科学,knowledge,He loves science.,他热爱科学。,5
+scope,n.,范围,a range,The scope is broad.,范围很广。,5
+score,n.,分数,a result,He got a high score.,他得了高分。,5
+screen,n.,屏幕,a display,The screen is bright.,屏幕很亮。,5
+sea,n.,海,the ocean,The sea is blue.,海是蓝色的。,5
+search,v.,搜索,to look,We search the web.,我们搜索网络。,5
+season,n.,季节,a time of year,Spring is my season.,春天是我的季节。,5
+seat,n.,座位,a place to sit,Take a seat.,坐下吧。,5
+second,adj.,第二,next after first,He came in second.,他得了第二。,5
+secret,n.,秘密,a hidden fact,Keep it a secret.,保守秘密。,5
+section,n.,部分,a part,Read this section.,读这一部分。,5
+secure,adj.,安全的,safe,The door is secure.,门很安全。,5
+see,v.,看见,to view,I see a bird.,我看见一只鸟。,5
+seed,n.,种子,a plant start,He planted a seed.,他种下了一颗种子。,5
+seek,v.,寻求,to look for,We seek the truth.,我们寻求真相。,5
+seem,v.,似乎,to appear,He seems happy.,他似乎很开心。,5
+select,v.,选择,to pick,Please select one.,请选一个。,5
+sell,v.,卖,to trade,We sell books.,我们卖书。,5
+send,v.,发送,to dispatch,She sent a card.,她寄了一张卡片。,5
+senior,adj.,高级的,of higher rank,He is a senior staff.,他是高级职员。,5
+sense,n.,感觉,a feel,He has a good sense.,他感觉很好。,5
+sentence,n.,句子,a phrase,Write a sentence.,写一个句子。,5
+separate,adj.,分开的,apart,They live in separate rooms.,他们住在分开的房间。,5
+series,n.,系列,a set,This is a series.,这是一个系列。,5
+serious,adj.,严肃的,grave,He is a serious man.,他是个严肃的人。,5
+serve,v.,服务,to help,We serve the guests.,我们服务客人。,5
+set,v.,设置,to place,Please set the table.,请摆好桌子。,5
+settle,v.,解决,to resolve,We settle the bill.,我们结清了账单。,5
+several,adj.,几个,more than two,We met several times.,我们见过几次。,5
+severe,adj.,严重的,very bad,The storm is severe.,风暴很严重。,5
+sex,n.,性别,male or female,The form asks for sex.,表格询问性别。,5
+shadow,n.,阴影,a dark shape,The tree casts a shadow.,树投下阴影。,5
+shake,v.,摇动,to move fast,He shook the bottle.,他摇了摇瓶子。,5
+shall,aux.,将,will,We shall see.,我们将会看到。,5
+shame,n.,羞耻,bad feeling,He felt shame.,他感到羞耻。,5
+shape,n.,形状,a form,The shape is round.,形状是圆的。,5
+share,v.,分享,to divide,We share the food.,我们分享食物。,5
+sharp,adj.,锋利的,cutting,The knife is sharp.,刀很锋利。,5
+sheep,n.,羊,a wool animal,The sheep is white.,羊是白色的。,5
+sheet,n.,床单,a cloth,The sheet is clean.,床单很干净。,5
+shelf,n.,架子,a board,The book is on the shelf.,书在架子上。,5
+shell,n.,壳,a hard cover,The shell is hard.,壳很硬。,5
+shift,v.,转移,to move,We shift the load.,我们转移了负载。,5
+shine,v.,发光,to give light,The sun shines.,太阳发光。,5
+ship,n.,船,a large boat,The ship is big.,船很大。,5
+shock,n.,震惊,a surprise,The news was a shock.,消息令人震惊。,5
+shoot,v.,射击,to fire,He shot the target.,他射击了目标。,5
+shop,n.,商店,a store,The shop is open.,商店开门了。,5
+short,adj.,短的,not long,The rope is short.,绳子很短。,5
+should,aux.,应该,ought to,You should rest.,你应该休息。,5
+shoulder,n.,肩膀,the body joint,His shoulder hurts.,他的肩膀疼。,5
+shout,v.,喊叫,to cry out,He shouted for help.,他大声呼救。,5
+show,v.,展示,to display,She showed the photo.,她展示了照片。,5
+shrink,v.,收缩,to get smaller,The cloth shrinks.,布会收缩。,5
+shut,v.,关闭,to close,Please shut the door.,请关上门。,5
+sick,adj.,生病的,ill,The child is sick.,孩子生病了。,5
+side,n.,边,a surface,The side is rough.,那一边很粗糙。,5
+sign,n.,标志；签名,a mark or a name,The sign is clear.,标志很清楚。,5
+signal,n.,信号,a message,The signal is weak.,信号很弱。,5
+significant,adj.,重要的,meaningful,This is a significant day.,这是重要的一天。,5
+silence,n.,沉默,no sound,The silence is deep.,沉默很深。,5
+similar,adj.,相似的,alike,The two are similar.,这两样很相似。,5
+simple,adj.,简单的,easy,The rule is simple.,规则很简单。,5
+since,conj.,自从,from then,We left since dawn.,我们从黎明就离开了。,5
+sing,v.,唱,to make music,She sings a song.,她唱了一首歌。,5
+single,adj.,单一的,one only,He is a single man.,他是单身。,5
+sink,v.,下沉,to go down,The ship sinks.,船下沉了。,5
+sister,n.,姐妹,a female sibling,My sister is kind.,我的姐妹很友善。,5
+site,n.,地点,a place,The site is safe.,地点很安全。,5
+situation,n.,情况,a condition,The situation is calm.,情况很平静。,5
+size,n.,尺寸,how big,What is the size?,尺寸是多少？,5
+skill,n.,技能,ability,He has a skill.,他有一项技能。,5
+skin,n.,皮肤,the body cover,Her skin is soft.,她的皮肤很柔软。,5
+skip,v.,跳过,to jump over,He skipped the step.,他跳过了那一步。,5
+slave,n.,奴隶,a captive,The slave worked hard.,奴隶辛勤劳作。,5
+sleep,v.,睡觉,to rest,The baby sleeps.,宝宝睡着了。,5
+slice,n.,片,a thin piece,He ate a slice.,他吃了一片。,5
+slide,v.,滑动,to glide,The book slid off.,书滑落了。,5
+slight,adj.,轻微的,small,There is a slight error.,有一个轻微的误差。,5
+slope,n.,斜坡,a hill,The slope is steep.,斜坡很陡。,5
+slow,adj.,慢的,not fast,The train is slow.,火车很慢。,5
+small,adj.,小的,little,The box is small.,盒子很小。,5
+smart,adj.,聪明的,clever,He is smart.,他很聪明。,5
+smell,n.,气味,a scent,The smell is sweet.,气味很香。,5
+smile,v.,微笑,to grin,She smiled at me.,她对我微笑。,5
+smoke,n.,烟,dirty air,The smoke rose.,烟升起了。,5
+smooth,adj.,光滑的,even,The surface is smooth.,表面很光滑。,5
+snake,n.,蛇,a long animal,The snake slithered.,蛇滑行了。,5
+snow,n.,雪,white ice,The snow is deep.,雪很深。,5
+soak,v.,浸泡,to wet,He soaked the cloth.,他浸泡了布。,5
+social,adj.,社会的,of society,He is a social person.,他是个社交型的人。,5
+society,n.,社会,a community,The society is fair.,社会很公平。,5
+soft,adj.,柔软的,not hard,The pillow is soft.,枕头很柔软。,5
+soil,n.,土壤,earth,The soil is rich.,土壤很肥沃。,5
+soldier,n.,士兵,a fighter,The soldier stood.,士兵站着。,5
+solid,adj.,固体的,hard,The ice is solid.,冰是固态的。,5
+solve,v.,解决,to fix,We solve the problem.,我们解决了问题。,5
+some,adj.,一些,a few,We need some water.,我们需要一些水。,5
+son,n.,儿子,a male child,Her son is young.,她的儿子还小。,5
+song,n.,歌曲,a tune,The song is nice.,歌曲很好听。,5
+soon,adv.,很快,before long,He will come soon.,他很快会来。,5
+sort,n.,种类,a type,This is a new sort.,这是一种新种类。,5
+soul,n.,灵魂,the spirit,His soul is calm.,他的灵魂平静。,5
+sound,n.,声音,noise,The sound is loud.,声音很大。,5
+source,n.,来源,a start,The source is clear.,来源很清楚。,5
+south,n.,南方,the warm direction,The wind is from the south.,风从南方来。,5
+space,n.,空间,empty area,The space is large.,空间很大。,5
+spare,adj.,备用的,extra,We have a spare key.,我们有一把备用钥匙。,5
+speak,v.,说,to talk,He speaks English.,他说英语。,5
+special,adj.,特别的,unusual,This is a special day.,这是特别的一天。,5
+species,n.,物种,a life kind,This species is rare.,这个物种很稀有。,5
+specific,adj.,具体的,exact,Give a specific answer.,给一个具体的回答。,5
+speech,n.,演讲,a talk,The speech was short.,演讲很短。,5
+speed,n.,速度,how fast,The speed is high.,速度很快。,5
+spend,v.,花费,to use up,We spend the money.,我们花了钱。,5
+spice,n.,香料,a flavor,The spice is strong.,香料很浓。,5
+spill,v.,溢出,to pour out,He spilled the milk.,他洒了牛奶。,5
+spirit,n.,精神,the mind,Her spirit is high.,她精神饱满。,5
+split,v.,分裂,to break apart,The wood split.,木头裂开了。,5
+sport,n.,运动,a game,He likes sport.,他喜欢运动。,5
+spot,n.,地点,a place,This is a nice spot.,这是个好地点。,5
+spread,v.,传播,to widen,The news spread.,消息传开了。,5
+spring,n.,春天,the warm season,Spring is here.,春天来了。,5
+square,n.,广场,an open area,The square is busy.,广场很热闹。,5
+stable,adj.,稳定的,steady,The table is stable.,桌子很稳。,5
+staff,n.,员工,workers,The staff is kind.,员工很友善。,5
+stage,n.,阶段,a step,We reached a new stage.,我们进入了新阶段。,5
+stair,n.,楼梯,steps,He climbed the stair.,他爬了楼梯。,5
+stand,v.,站立,to be upright,Please stand up.,请站起来。,5
+standard,n.,标准,a rule,This meets the standard.,这达到了标准。,5
+star,n.,星星,a sky light,The star is bright.,星星很亮。,5
+start,v.,开始,to begin,We start now.,我们现在开始。,5
+state,n.,州；状态,a region or a condition,The state is calm.,状态很平静。,5
+station,n.,车站,a stop,The station is near.,车站很近。,5
+status,n.,地位,position,His status is high.,他的地位很高。,5
+stay,v.,停留,to remain,We stay here.,我们留在这里。,5
+steady,adj.,稳定的,constant,The pace is steady.,节奏稳定。,5
+steal,v.,偷,to take,He stole the book.,他偷了书。,5
+steam,n.,蒸汽,hot vapor,The steam rose.,蒸汽升起了。,5
+steel,n.,钢,a metal,The steel is strong.,钢很坚固。,5
+step,n.,步骤,a move,Take the next step.,迈出下一步。,5
+stick,n.,棍；粘,a rod or to glue,The stick is long.,棍子很长。,5
+still,adv.,仍然,yet,He is still here.,他仍然在这里。,5
+stone,n.,石头,a rock,The stone is heavy.,石头很重。,5
+stop,v.,停止,to halt,Please stop the car.,请停下汽车。,5
+store,n.,商店；储存,a shop or to keep,The store is open.,商店开门了。,5
+storm,n.,风暴,a bad weather,The storm passed.,风暴过去了。,5
+story,n.,故事,a tale,The story is fun.,故事很有趣。,5
+strange,adj.,奇怪的,odd,The dream is strange.,梦很奇怪。,5
+street,n.,街道,a road,The street is quiet.,街道很安静。,5
+stress,n.,压力,strain,The stress is high.,压力很大。,5
+strict,adj.,严格的,severe,The rule is strict.,规则很严格。,5
+strike,v.,罢工；打击,to stop work or to hit,They strike for rights.,他们为权利罢工。,5
+strong,adj.,强壮的,powerful,He is strong.,他很强壮。,5
+structure,n.,结构,the build,The structure is sound.,结构健全。,5
+student,n.,学生,a learner,The student studies.,学生学习。,5
+study,v.,学习,to learn,We study hard.,我们努力学习。,5
+stuff,n.,东西,things,Put the stuff away.,把东西收好。,5
+stupid,adj.,愚蠢的,foolish,That was a stupid act.,那是愚蠢的行为。,5
+style,n.,风格,a way,The style is modern.,风格很现代。,5
+subject,n.,主题,a topic,The subject is clear.,主题很清楚。,5
+substance,n.,物质,material,The substance is safe.,物质是安全的。,5
+success,n.,成功,a win,The plan is a success.,计划成功了。,5
+such,adj.,这样的,like this,We saw such a sight.,我们看到了这样的景象。,5
+sudden,adj.,突然的,quick,The change is sudden.,变化很突然。,5
+suffer,v.,遭受,to bear,He suffers pain.,他遭受疼痛。,5
+sugar,n.,糖,a sweet,The sugar is white.,糖是白色的。,5
+suggest,v.,建议,to advise,He suggests a plan.,他建议一个计划。,5
+suit,v.,适合,to fit,The color suits you.,这个颜色适合你。,5
+summer,n.,夏天,the hot season,Summer is hot.,夏天很热。,5
+sun,n.,太阳,the star,The sun is bright.,太阳很明亮。,5
+support,v.,支持,to help,We support the cause.,我们支持这项事业。,5
+suppose,v.,假设,to guess,Suppose it rains.,假设下雨了。,5
+supreme,adj.,最高的,highest,The court is supreme.,法院是最高级的。,5
+sure,adj.,确定的,certain,He is sure of it.,他对此很确定。,5
+surface,n.,表面,the top,The surface is clean.,表面很干净。,5
+survey,n.,调查,a study,The survey is done.,调查完成了。,5
+survive,v.,幸存,to live,He survived the crash.,他在坠机中幸存。,5
+suspect,v.,怀疑,to doubt,We suspect the cause.,我们怀疑原因。,5
+sustain,v.,维持,to keep,We sustain the effort.,我们维持努力。,5
+swim,v.,游泳,to paddle,He swims fast.,他游泳很快。,5
+symbol,n.,象征,a sign,The dove is a symbol.,鸽子是象征。,5
+system,n.,系统,a set,The system works.,系统运行正常。,5
+table,n.,桌子,a flat top,The table is wood.,桌子是木头的。,5
+tackle,v.,处理,to deal,We tackle the issue.,我们处理问题。,5
+tactic,n.,策略,a method,This is a good tactic.,这是个好策略。,5
+tail,n.,尾巴,a rear part,The dog wagged its tail.,狗摇了尾巴。,5
+take,v.,拿,to grab,Please take the bag.,请拿上包。,5
+tale,n.,故事,a story,He told a tale.,他讲了个故事。,5
+talk,v.,谈话,to speak,They talk often.,他们常谈话。,5
+tall,adj.,高的,high,The tower is tall.,塔很高。,5
+tank,n.,坦克；箱,a vehicle or a container,The tank is full.,箱子里装满了。,5
+tape,n.,胶带,a strip,The tape is sticky.,胶带很粘。,5
+target,n.,目标,an aim,We hit the target.,我们击中了目标。,5
+task,n.,任务,a job,The task is done.,任务完成了。,5
+taste,n.,味道,a flavor,The taste is sweet.,味道很甜。,5
+tax,n.,税,a fee,The tax is low.,税很低。,5
+tea,n.,茶,a drink,She drank tea.,她喝了茶。,5
+teach,v.,教,to instruct,He teaches math.,他教数学。,5
+team,n.,团队,a group,The team won.,团队赢了。,5
+tear,v.,撕裂,to rip,He tore the paper.,他撕了纸。,5
+technical,adj.,技术的,of skill,The manual is technical.,手册是技术性的。,5
+technique,n.,技巧,a method,The technique is useful.,技巧很有用。,5
+technology,n.,技术,applied science,Technology helps us.,技术帮助我们。,5
+telephone,n.,电话,a device,The telephone rang.,电话响了。,5
+television,n.,电视,a screen,The television is on.,电视开着。,5
+tell,v.,告诉,to say,He told the truth.,他说了真相。,5
+temper,n.,脾气,mood,He lost his temper.,他发了脾气。,5
+temperature,n.,温度,heat level,The temperature fell.,温度下降了。,5
+temporary,adj.,暂时的,short term,This is a temporary fix.,这是暂时的修复。,5
+tend,v.,倾向于,to lean,He tends to agree.,他倾向于同意。,5
+tension,n.,紧张,strain,The tension eased.,紧张缓解了。,5
+term,n.,术语,a word,Learn this term.,学这个术语。,5
+terrible,adj.,可怕的,awful,The storm is terrible.,风暴很可怕。,5
+test,n.,测试,a check,The test is hard.,测试很难。,5
+text,n.,文本,words,Read the text.,读文本。,5
+than,conj.,比,compared,He is taller than me.,他比我高。,5
+thank,v.,感谢,to appreciate,We thank the host.,我们感谢主人。,5
+theft,n.,盗窃,stealing,The theft was caught.,盗窃被抓了。,5
+their,pron.,他们的,belonging to them,Their car is new.,他们的车是新的。,5
+theme,n.,主题,a topic,The theme is clear.,主题清楚。,5
+theory,n.,理论,an idea,The theory holds.,理论成立。,5
+there,adv.,那里,at that place,Put it there.,把它放在那里。,5
+thick,adj.,厚的,not thin,The wall is thick.,墙很厚。,5
+thin,adj.,薄的,not thick,The ice is thin.,冰很薄。,5
+thing,n.,事物,an object,This thing is odd.,这个东西很奇怪。,5
+think,v.,思考,to reason,I think it is right.,我认为是对的。,5
+third,adj.,第三,next after two,He came in third.,他得了第三。,5
+thirsty,adj.,口渴的,needing water,He is thirsty.,他口渴了。,5
+this,pron.,这个,near me,This is mine.,这是我的。,5
+though,conj.,尽管,even if,We left though it rained.,虽然下雨我们还是离开了。,5
+threat,n.,威胁,a danger,The threat is real.,威胁是真实的。,5
+throat,n.,喉咙,the neck part,His throat hurts.,他的喉咙疼。,5
+through,prep.,通过,by way of,We walked through the door.,我们穿过了门。,5
+throw,v.,投掷,to toss,He threw the ball.,他投掷了球。,5
+thus,adv.,因此,so,Thus we won.,因此我们赢了。,5
+ticket,n.,票,a pass,The ticket is valid.,票有效。,5
+tide,n.,潮汐,the sea move,The tide rose.,潮水涨了。,5
+tie,v.,系,to bind,He tied the rope.,他系了绳子。,5
+tight,adj.,紧的,not loose,The lid is tight.,盖子很紧。,5
+time,n.,时间,when,The time is now.,时间就是现在。,5
+tiny,adj.,微小的,very small,The bug is tiny.,虫子很小。,5
+tip,n.,尖端；小费,the end or a fee,He left a tip.,他留了小费。,5
+tired,adj.,疲倦的,weary,She is tired.,她疲倦了。,5
+title,n.,标题,a name,The title is clear.,标题很清楚。,5
+toast,n.,吐司,bread slice,He ate toast.,他吃了吐司。,5
+today,adv.,今天,this day,Today is sunny.,今天晴朗。,5
+toilet,n.,厕所,a restroom,The toilet is clean.,厕所很干净。,5
+tomato,n.,番茄,a red fruit,He ate a tomato.,他吃了一个番茄。,5
+tomorrow,adv.,明天,next day,We leave tomorrow.,我们明天出发。,5
+tone,n.,语气,a voice quality,His tone was calm.,他的语气很平静。,5
+tongue,n.,舌头,the mouth part,The tongue is red.,舌头是红的。,5
+tonight,adv.,今晚,this night,We stay tonight.,我们今晚留下。,5
+tool,n.,工具,a device,The tool is sharp.,工具很锋利。,5
+tooth,n.,牙齿,a mouth bone,The tooth hurts.,牙齿疼。,5
+top,n.,顶部,the highest,The top is flat.,顶部是平的。,5
+topic,n.,话题,a subject,The topic is fun.,话题很有趣。,5
+total,adj.,总计,whole,The total is high.,总数很高。,5
+touch,v.,触摸,to feel,He touched the wall.,他摸了墙。,5
+tough,adj.,坚韧的,hard,The meat is tough.,肉很韧。,5
+tour,n.,旅行,a trip,We took a tour.,我们去了旅行。,5
+toward,prep.,朝向,to,He walked toward the door.,他朝门走去。,5
+town,n.,城镇,a small city,The town is quiet.,城镇很安静。,5
+toy,n.,玩具,a play thing,The toy is new.,玩具是新的。,5
+trace,v.,追踪,to follow,We trace the call.,我们追踪了来电。,5
+track,n.,轨道,a rail,The train left the track.,火车偏离了轨道。,5
+trade,n.,贸易,business,The trade grew.,贸易增长了。,5
+tradition,n.,传统,a custom,The tradition lives.,传统延续。,5
+traffic,n.,交通,cars,The traffic is heavy.,交通很拥挤。,5
+tragedy,n.,悲剧,a sad event,The play is a tragedy.,这部剧是悲剧。,5
+train,n.,火车,a rail car,The train is late.,火车晚点了。,5
+transfer,v.,转移,to move,We transfer the data.,我们转移了数据。,5
+transform,v.,转变,to change,We transform the model.,我们转变了模型。,5
+transit,n.,运输,movement,The transit is smooth.,运输很顺畅。,5
+translate,v.,翻译,to render,We translate the text.,我们翻译了文本。,5
+transport,v.,运输,to carry,We transport goods.,我们运输货物。,5
+trap,n.,陷阱,a snare,The trap is set.,陷阱设好了。,5
+travel,v.,旅行,to journey,We travel far.,我们远行。,5
+treat,v.,对待,to handle,He treats me well.,他待我很好。,5
+treaty,n.,条约,a pact,The treaty was signed.,条约签署了。,5
+tree,n.,树,a plant,The tree is tall.,树很高。,5
+trend,n.,趋势,a drift,The trend is clear.,趋势很明显。,5
+trial,n.,试验,a test,The trial failed.,试验失败了。,5
+trip,n.,旅行,a journey,The trip was fun.,旅行很有趣。,5
+troop,n.,部队,soldiers,The troop marched.,部队行进了。,5
+trouble,n.,麻烦,a problem,We avoid trouble.,我们避免麻烦。,5
+truck,n.,卡车,a vehicle,The truck is full.,卡车装满了。,5
+true,adj.,真实的,real,The story is true.,故事是真的。,5
+trust,v.,信任,to believe,We trust him.,我们信任他。,5
+truth,n.,真相,fact,The truth is clear.,真相很清楚。,5
+try,v.,尝试,to attempt,Please try again.,请再试一次。,5
+tube,n.,管子,a pipe,The tube is long.,管子很长。,5
+turn,v.,转动,to rotate,He turned the knob.,他转动了旋钮。,5
+twin,n.,双胞胎,one of two,The twin smiled.,双胞胎笑了。,5
+type,n.,类型,a kind,This is a new type.,这是一种新类型。,5
+typical,adj.,典型的,usual,This is a typical case.,这是典型案例。,5
+ugly,adj.,丑陋的,not pretty,The mask is ugly.,面具很丑。,5
+ultimate,adj.,最终的,final,This is the ultimate goal.,这是最终目标。,5
+unable,adj.,无法的,not able,He is unable to come.,他无法前来。,5
+unfair,adj.,不公平的,not just,The rule is unfair.,规则不公平。,5
+unhappy,adj.,不快乐的,not glad,She is unhappy.,她不快乐。,5
+uniform,n.,制服,a suit,He wore a uniform.,他穿了制服。,5
+union,n.,联盟,a group,The union is strong.,联盟很强。,5
+unique,adj.,独特的,one of a kind,This is unique.,这很独特。,5
+unit,n.,单元,a part,This is a unit.,这是一个单元。,5
+unite,v.,联合,to join,We unite the teams.,我们联合各队。,5
+universe,n.,宇宙,all space,The universe is vast.,宇宙很广阔。,5
+unknown,adj.,未知的,not known,The cause is unknown.,原因未知。,5
+unlike,prep.,不像,not like,This is unlike that.,这和那个不同。,5
+urban,adj.,城市的,of the city,The urban area grew.,城市地区扩大了。,5
+urge,v.,敦促,to push,He urged us on.,他敦促我们前进。,5
+use,v.,使用,to employ,We use the tool.,我们使用工具。,5
+useful,adj.,有用的,helpful,The map is useful.,地图很有用。,5
+usual,adj.,通常的,normal,The usual time came.,通常的时间到了。,5
+utility,n.,公用事业,a service,The utility failed.,公用事业停了。,5
+vacant,adj.,空的,empty,The seat is vacant.,座位空着。,5
+vacation,n.,假期,a holiday,We took a vacation.,我们休假了。,5
+vague,adj.,模糊的,unclear,The answer is vague.,回答很模糊。,5
+valid,adj.,有效的,legal,The pass is valid.,通行证有效。,5
+valley,n.,山谷,a low land,The valley is green.,山谷是绿色的。,5
+value,n.,价值,worth,The value is high.,价值很高。,5
+vanish,v.,消失,to disappear,The fog vanished.,雾消散了。,5
+variable,n.,变量,a factor,This is a variable.,这是一个变量。,5
+variety,n.,多样,a range,We offer variety.,我们提供多样选择。,5
+various,adj.,各种各样的,many kinds,We tried various ways.,我们尝试了各种方法。,5
+vast,adj.,广阔的,huge,The desert is vast.,沙漠很广阔。,5
+vegetable,n.,蔬菜,a plant food,He ate a vegetable.,他吃了蔬菜。,5
+vehicle,n.,车辆,a car,The vehicle is new.,车辆是新的。,5
+venture,n.,冒险,a risk,The venture failed.,冒险失败了。,5
+version,n.,版本,a form,This is the new version.,这是新版本。,5
+vessel,n.,容器,a holder,The vessel is full.,容器满了。,5
+veteran,n.,老兵,an old soldier,The veteran smiled.,老兵笑了。,5
+viable,adj.,可行的,workable,The plan is viable.,计划可行。,5
+victim,n.,受害者,a sufferer,The victim recovered.,受害者康复了。,5
+victory,n.,胜利,a win,The victory is ours.,胜利属于我们。,5
+view,n.,观点,a thought,He shared his view.,他分享了他的观点。,5
+village,n.,村庄,a small town,The village is quiet.,村庄很安静。,5
+violence,n.,暴力,force,We reject violence.,我们拒绝暴力。,5
+virtual,adj.,虚拟的,not real,The world is virtual.,世界是虚拟的。,5
+visible,adj.,可见的,seen,The star is visible.,星星可见。,5
+vision,n.,视野,sight,His vision is clear.,他的视野清晰。,5
+visit,v.,访问,to call on,We visit friends.,我们拜访朋友。,5
+visual,adj.,视觉的,of sight,The aid is visual.,辅助是视觉性的。,5
+vital,adj.,至关重要的,key,Water is vital.,水至关重要。,5
+voice,n.,声音,the speech sound,Her voice is soft.,她的声音柔和。,5
+volume,n.,音量,loudness,The volume is low.,音量很低。,5
+vote,v.,投票,to choose,We vote today.,我们今天投票。,5
+voyage,n.,航行,a trip,The voyage was long.,航行很长。,5
+wage,n.,工资,pay,The wage rose.,工资涨了。,5
+wait,v.,等待,to stay,We wait here.,我们在此等待。,5
+wake,v.,醒来,to rise,He wakes early.,他早起。,5
+walk,v.,走,to step,We walk home.,我们走回家。,5
+wall,n.,墙,a barrier,The wall is high.,墙很高。,5
+want,v.,想要,to wish,He wants water.,他想要水。,5
+war,n.,战争,a conflict,The war ended.,战争结束了。,5
+warm,adj.,温暖的,not cold,The room is warm.,房间很温暖。,5
+warn,v.,警告,to alert,He warned us.,他警告了我们。,5
+wash,v.,洗,to clean,She washes the dish.,她洗了盘子。,5
+waste,v.,浪费,to misuse,Do not waste food.,不要浪费食物。,5
+watch,v.,观看,to look,We watch the game.,我们观看比赛。,5
+water,n.,水,a liquid,The water is cold.,水很冷。,5
+wave,n.,波浪,a swell,The wave is high.,波浪很高。,5
+way,n.,方式,a method,This is the way.,这是方法。,5
+weak,adj.,虚弱的,not strong,He feels weak.,他感到虚弱。,5
+wealth,n.,财富,riches,The wealth grew.,财富增长了。,5
+weapon,n.,武器,a tool of war,The weapon is banned.,武器被禁。,5
+wear,v.,穿,to put on,She wears a coat.,她穿了外套。,5
+weather,n.,天气,climate,The weather is fine.,天气很好。,5
+wedding,n.,婚礼,a marriage,The wedding was lovely.,婚礼很美好。,5
+week,n.,周,seven days,The week passed.,一周过去了。,5
+weigh,v.,称重,to measure,He weighed the bag.,他称了包。,5
+weight,n.,重量,heaviness,The weight is high.,重量很大。,5
+welcome,v.,欢迎,to greet,We welcome you.,我们欢迎你。,5
+welfare,n.,福利,aid,The welfare helps.,福利有帮助。,5
+west,n.,西方,the sunset side,The sun sets in the west.,太阳在西边落下。,5
+wet,adj.,湿的,not dry,The cloth is wet.,布是湿的。,5
+what,pron.,什么,a question,What is this?,这是什么？,5
+wheat,n.,小麦,a grain,The wheat is gold.,小麦是金色的。,5
+wheel,n.,轮子,a round part,The wheel spins.,轮子转动。,5
+when,adv.,何时,what time,When does it start?,什么时候开始？,5
+where,adv.,哪里,what place,Where is the book?,书在哪里？,5
+whether,conj.,是否,if,Ask whether he comes.,问他是否来。,5
+which,pron.,哪一个,what one,Which is yours?,哪一个是你的？,5
+while,conj.,当…时候,during,He read while we ate.,我们吃时他读书。,5
+white,adj.,白色的,light color,The snow is white.,雪是白色的。,5
+who,pron.,谁,a person,Who is that?,那是谁？,5
+whole,adj.,整个的,full,The whole team came.,整个团队都来了。,5
+why,adv.,为什么,a reason,Why did it fail?,为什么失败了？,5
+wide,adj.,宽的,broad,The road is wide.,路很宽。,5
+wife,n.,妻子,a spouse,His wife smiled.,他的妻子笑了。,5
+wild,adj.,野生的,not tame,The animal is wild.,动物是野生的。,5
+will,n.,意志；将,mind or future,He has strong will.,他有坚强意志。,5
+win,v.,赢,to triumph,We win the game.,我们赢了比赛。,5
+wind,n.,风,air move,The wind is strong.,风很大。,5
+window,n.,窗户,a pane,The window is open.,窗户开着。,5
+wine,n.,酒,a drink,He drank wine.,他喝了酒。,5
+wing,n.,翅膀,a fly part,The wing broke.,翅膀断了。,5
+winter,n.,冬天,the cold season,Winter is cold.,冬天很冷。,5
+wire,n.,电线,a cord,The wire is live.,电线带电。,5
+wise,adj.,明智的,smart,The choice is wise.,选择很明智。,5
+wish,v.,希望,to want,We wish you well.,我们祝你好。,5
+with,prep.,和,along,He came with us.,他和我们一起来。,5
+withdraw,v.,撤回,to pull back,We withdraw the claim.,我们撤回了主张。,5
+within,prep.,在…之内,inside,We finish within a day.,我们一天内完成。,5
+without,prep.,没有,lacking,We left without him.,我们没带他离开。,5
+witness,v.,目击,to see,He witnessed the event.,他目击了事件。,5
+woman,n.,女人,a female,The woman smiled.,女人笑了。,5
+wonder,v.,想知道,to ask,We wonder why.,我们想知道为什么。,5
+wood,n.,木头,timber,The wood is dry.,木头很干。,5
+word,n.,单词,a term,Learn this word.,学这个单词。,5
+work,v.,工作,to labor,He works hard.,他工作努力。,5
+world,n.,世界,the earth,The world is big.,世界很大。,5
+worry,v.,担心,to fear,Do not worry.,别担心。,5
+worse,adj.,更糟的,less good,The pain is worse.,疼痛更糟了。,5
+worst,adj.,最糟的,least good,This is the worst.,这是最糟的。,5
+worth,adj.,值得的,valuable,The trip is worth it.,旅行值得。,5
+would,aux.,将会,used to,He would help.,他会帮忙。,5
+wound,n.,伤口,a hurt,The wound healed.,伤口愈合了。,5
+write,v.,写,to pen,Please write a note.,请写个便条。,5
+wrong,adj.,错误的,not right,The answer is wrong.,答案错了。,5
+yard,n.,院子,a court,The yard is clean.,院子很干净。,5
+year,n.,年,a time,The year passed.,一年过去了。,5
+yellow,adj.,黄色的,a bright color,The sun is yellow.,太阳是黄色的。,5
+yield,v.,产出,to give,The farm yields corn.,农场产出玉米。,5
+young,adj.,年轻的,not old,The child is young.,孩子还小。,5
+youth,n.,青年,being young,Youth is bright.,青春灿烂。,5
+zone,n.,区域,an area,The zone is safe.,区域很安全。,5
+zoom,v.,缩放,to enlarge,Please zoom in.,请放大。,5
