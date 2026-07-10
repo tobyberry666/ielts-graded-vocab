@@ -17,6 +17,9 @@ class FakeRepo implements VocabRepositoryPort {
   async seedIfEmpty(words: VocabEntry[]): Promise<void> {
     if (this.store.size === 0) for (const w of words) this.store.set(w.id, w);
   }
+  async seedOrRefresh(_words: VocabEntry[], _version: string): Promise<void> {
+    /* 测试不依赖刷新逻辑，留空 */
+  }
   async getAllWords(): Promise<VocabEntry[]> {
     return [...this.store.values()];
   }

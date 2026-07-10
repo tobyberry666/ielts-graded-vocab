@@ -1181,8 +1181,8 @@ body {
 
 .export-title {
   margin: 0;
-  font-size: 15px;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 700;
   color: var(--text-strong);
 }
 
@@ -1203,10 +1203,10 @@ body {
   border: 1px solid var(--card-border);
   background: var(--chip-bg);
   color: var(--text-strong);
-  font-size: 12px;
-  font-weight: 700;
-  padding: 9px 10px;
-  border-radius: 10px;
+  font-size: 11.5px;
+  font-weight: 600;
+  padding: 6px 9px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background 0.18s ease, transform 0.18s var(--ease-flip),
     border-color 0.18s ease;
@@ -1218,16 +1218,24 @@ body {
   transform: translateY(-1px);
 }
 
+/* 「导出全部档」降为低调的幽灵文字按钮，避免喧宾夺主 */
 .export-btn-all {
   width: 100%;
-  background: var(--accent-soft);
-  color: var(--accent);
-  border-color: transparent;
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  border-top: 1px solid var(--card-border);
+  border-radius: 0;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 8px 4px 0;
+  margin-top: 2px;
 }
 
 .export-btn-all:hover {
-  background: var(--accent);
-  color: #fff;
+  background: transparent;
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 /* ---------- 学习范围切换（仅到期 / 全部本档） ---------- */

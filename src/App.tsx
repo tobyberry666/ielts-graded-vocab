@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { List, type RowComponentProps } from 'react-window';
-import { SEED_WORDS, type Band, type VocabEntry } from './data/words';
+import { SEED_WORDS, SEED_VERSION, type Band, type VocabEntry } from './data/words';
 import { SrsService, type Grade } from './services/SrsService';
 // 持久层与业务编排（已落地）
 import { VocabRepository } from './repository/VocabRepository';
@@ -86,7 +86,7 @@ export default function App() {
   // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode 变化都会触发。
   async function buildSession(bandVal: Band, size: number, modeVal: 'due' | 'all' = 'due') {
     setLoading(true);
-    await repo.seedIfEmpty(SEED_WORDS); // merge: older DBs 也能拿到新增词
+    await repo.seedOrRefresh(SEED_WORDS, SEED_VERSION); // 版本化刷新：内置词随版本自愈，导入词/进度不动
     const all = await wordService.filterByBand(bandVal);
     setBandTotal(all.length);
     const studySet = await wordService.getStudySet(srs, bandVal, Date.now(), modeVal);
@@ -99,7 +99,7 @@ export default function App() {
     let cancelled = false;
     (async () => {
       setLoading(true);
-      await repo.seedIfEmpty(SEED_WORDS);
+      await repo.seedOrRefresh(SEED_WORDS, SEED_VERSION);
       const all = await wordService.filterByBand(band);
       if (cancelled) return;
       setBandTotal(all.length);

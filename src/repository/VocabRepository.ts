@@ -14,6 +14,9 @@ import type { VocabEntry } from '../data/words';
 export interface VocabRepositoryPort {
   /** merge: insert missing seed words without overwriting existing ones. */
   seedIfEmpty(words: VocabEntry[]): Promise<void>;
+  /** 版本化刷新：插入缺失词，并把已存在的「内置种子词」用最新富文本覆盖更新；
+   *  用户导入的词（id 不在种子集合内）与 FSRS 进度（cards 表）一律不动。 */
+  seedOrRefresh(words: VocabEntry[], version: string): Promise<void>;
   /** 取全部词（按存储顺序）。 */
   getAllWords(): Promise<VocabEntry[]>;
   /** 按 id 取单个词，不存在返回 undefined。 */
@@ -47,6 +50,7 @@ class VocabDB extends Dexie {
   words!: Table<VocabEntry, string>;
   cards!: Table<CardRow, string>;
   studyLog!: Table<StudyLogRow, string>;
+  meta!: Table<{ key: string; value: string }, string>;
 
   constructor() {
     super('ielts-graded-vocab');
@@ -59,6 +63,13 @@ class VocabDB extends Dexie {
       words: 'id',
       cards: 'wordId',
       studyLog: 'date', // 主键 date
+    });
+    // v3：新增 meta 表，存种子版本号，支持「内置词随版本刷新」。
+    this.version(3).stores({
+      words: 'id',
+      cards: 'wordId',
+      studyLog: 'date',
+      meta: 'key', // 主键 key
     });
   }
 }
@@ -111,6 +122,31 @@ export class VocabRepository implements VocabRepositoryPort {
     if (missing.length > 0) {
       await this.db.words.bulkPut(missing);
     }
+  }
+
+  async seedOrRefresh(words: VocabEntry[], version: string): Promise<void> {
+    // 版本一致则跳过，避免每次启动都重写 4500+ 词。
+    const meta = await this.db.meta.get('seedVersion');
+    if (meta && meta.value === version) return;
+
+    const seedIds = new Set(words.map((w) => w.id));
+    const seedMap = new Map(words.map((w) => [w.id, w]));
+    const existing = await this.db.words.toArray();
+    const existingIds = new Set(existing.map((w) => w.id));
+
+    // 1) 缺失的内置词：插入
+    const missing = words.filter((w) => !existingIds.has(w.id));
+    // 2) 已存在且属于内置种子（id 在种子集合内）的词：用最新富文本覆盖更新
+    const toRefresh = existing
+      .filter((w) => seedIds.has(w.id))
+      .map((w) => seedMap.get(w.id)!);
+    // 注意：用户导入的词（id 不在 seedIds 内）与 cards 表里的 FSRS 进度均不触碰。
+
+    const toPut = [...missing, ...toRefresh];
+    if (toPut.length > 0) {
+      await this.db.words.bulkPut(toPut);
+    }
+    await this.db.meta.put({ key: 'seedVersion', value: version });
   }
 
   async getAllWords(): Promise<VocabEntry[]> {
