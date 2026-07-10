@@ -1,10 +1,13 @@
 # 雅思分级背词器 (IELTS Graded Vocab)
 
 类 Anki 的雅思分级背单词 Web 应用：输入你的水平 Band → 推送对应难度词表
-（初级≈Band5-6 / 中级≈Band6-7 / 高级≈Band7-8+，每级 1000-2000 词）→ 用现代
+（Band 5 / 6 / 7 / 8 / 9(GRE 级)，共约 2840 词）→ 用现代
 FSRS 间隔重复算法排期 → 柯林斯式闪卡（音标/词性/中英释义/搭配/原版例句）。
 
-> 当前为 **M5 完成**：在 M4（会话制循环复习 + 学习日历）基础上，M5 进一步**大幅扩容词表至 210+ 词**（Band 7 达 72），并新增**复习模式「仅到期 / 全部本档」**——学完本档也能重学，不再空档卡死。导入管线、虚拟词库、framer-motion 翻转均保持可用。完整 1000-2000 词表在后续里程碑。详见 `M4_TEAM_REPORT.md` 与 `M5_TEAM_REPORT.md`。
+🌐 **在线使用（推荐，任何人直接开链接就能背词，无需安装）**：
+https://tobyberry666.github.io/ielts-graded-vocab/
+
+> 已完成：M2 种子词表 → M3 CSV/Anki 导入 + framer-motion 翻转 → M4 会话制循环复习 + 学习日历 → M5 扩容至 ~2840 词 + 「仅到期/全部本档」复习模式 → M6 新增 **Band 9(GRE 级)** + 日历月份导航 + CSV/Anki 导出，并**部署到 GitHub Pages**（见上方链接，纯静态站点，点开即用）。
 
 ## 技术栈
 
@@ -13,15 +16,26 @@ FSRS 间隔重复算法排期 → 柯林斯式闪卡（音标/词性/中英释�
 - **测试**：Vitest（覆盖 Service 调度核心）
 - **持久化**：M1 用 `localStorage`；M2 换成 `Dexie`(IndexedDB)
 
-## 快速开始
+## 🌐 别人/自己怎么用（无需安装）
+
+**直接打开这个网址即可，不用装 Node、不用 clone、不用开 5173 端口：**
+> https://tobyberry666.github.io/ielts-graded-vocab/
+
+- 选 Band（5/6/7/8/9）→ 开始背 → 翻卡看释义 → 按 `again / hard / good / easy` 评分，FSRS 自动排期。
+- 进度存在浏览器本地（IndexedDB），换设备 / 清缓存会重置；需要带走的词表用右侧「导出 CSV / Anki」。
+- 纯前端静态站点，部署在 GitHub Pages，**任何人点链接就能用**。
+
+## 开发者本地调试（改代码才需要）
 
 ```bash
 cd app
 npm install
-npm run dev        # 启动开发服务器（默认 http://localhost:5173）
+npm run dev        # 启动开发服务器（默认 http://localhost:5173，仅本机可访问）
 npm test           # 运行 SRS 调度核心单元测试
 npm run build      # 类型检查 + 生产构建
 ```
+
+> 重新部署到线上：改完代码后 `npm run build`，再把 `app/dist/` 内容推到 `gh-pages` 分支（仓库已配好 GitHub Pages，自动发布）。
 
 ## 架构（团队定的分层红线）
 
