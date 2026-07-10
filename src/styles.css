@@ -604,6 +604,67 @@ body {
   box-shadow: 0 12px 24px -12px var(--grade-easy);
 }
 
+/* 背面「会啦！」按钮：玻璃渐变质感，正面、强引导 */
+.fc-mastered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin: 4px 0 2px;
+  padding: 13px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 16px;
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  box-shadow: 0 12px 28px -12px var(--accent);
+  transition: transform 0.3s var(--ease-flip), box-shadow 0.3s ease,
+    filter 0.2s ease;
+}
+
+.fc-mastered:hover {
+  transform: translateY(-2px) scale(1.02);
+  filter: brightness(1.05);
+  box-shadow: 0 18px 36px -14px var(--accent);
+}
+
+.fc-mastered:active {
+  transform: translateY(0) scale(0.99);
+}
+
+.fc-mastered-emoji {
+  font-size: 1.15rem;
+}
+
+/* 已掌握计数 + 撤销 */
+.mastered-counter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 2px 0 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.mastered-reset {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-left: 4px;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: underline dotted;
+  cursor: pointer;
+}
+
+.mastered-reset:hover {
+  color: var(--accent-2);
+}
+
 /* ---------- 空队列提示 ---------- */
 .empty-state {
   margin-top: 8px;

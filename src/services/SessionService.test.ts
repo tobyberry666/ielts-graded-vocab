@@ -5,6 +5,7 @@ import {
   createSession,
   currentCard,
   grade,
+  dismissCurrent,
   shuffle,
   type SessionCard,
   type SessionState,
@@ -153,6 +154,49 @@ describe('grade 行为', () => {
     const s = { ...createSession([], 1), completed: true };
     const r = grade(s, 'good');
     expect(r).toBe(s);
+  });
+});
+
+describe('dismissCurrent（会啦 / 已掌握）', () => {
+  // 反复 dismiss 直到会话完成；返回操作总次数。
+  function driveUntilDoneDismiss(s: SessionState): SessionState {
+    let cur = s;
+    let guard = 0;
+    while (!cur.completed && guard < 10000) {
+      cur = dismissCurrent(cur);
+      guard++;
+    }
+    return cur;
+  }
+
+  it('移除队首、studiedTotal+1，且该卡彻底离开会话（不进 pool）', () => {
+    const s0 = createSession(makeCards(['a', 'b', 'c']), 1); // 每批 1 张
+    const dismissedId = currentCard(s0)!.word.id; // 当前队首（随机洗牌，不假设具体是谁）
+    const s = dismissCurrent(s0);
+    // 被移除的卡彻底离开会话（既不在队列也不在剩余池）
+    const remaining = [...idsOf(s.queue), ...idsOf(s.pool)];
+    expect(remaining).not.toContain(dismissedId);
+    expect(s.studiedTotal).toBe(1);
+  });
+
+  it('池空时全部 dismiss 后 completed=true，studiedTotal=卡数', () => {
+    const s = driveUntilDoneDismiss(createSession(makeCards(['a', 'b', 'c']), 2));
+    expect(s.completed).toBe(true);
+    expect(s.studiedTotal).toBe(3);
+    expect(s.queue).toEqual([]);
+    expect(s.pool).toEqual([]);
+  });
+
+  it('不可变：入参不被修改', () => {
+    const s = createSession(makeCards(['a', 'b']), 2);
+    const snapshot = JSON.stringify(s);
+    dismissCurrent(s);
+    expect(JSON.stringify(s)).toBe(snapshot);
+  });
+
+  it('空/completed 时 no-op（直接返回同一引用）', () => {
+    const s = { ...createSession([], 1), completed: true };
+    expect(dismissCurrent(s)).toBe(s);
   });
 });
 

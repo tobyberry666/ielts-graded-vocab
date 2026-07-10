@@ -101,3 +101,33 @@ export function grade(s: SessionState, g: Grade): SessionState {
   // pool 空 → 全部背完
   return { ...s, queue: [], pool: [], completed: true, studiedTotal };
 }
+
+/**
+ * 「会啦 / 已掌握」出队：直接移除当前队首（不重排、不回收进 pool），studiedTotal +1。
+ * 会话队列上的效果与 grade(...,'good') 一致（出队且计 1），区别仅在于语义上不涉及
+ * FSRS 重排——FSRS 卡的实际删除由调用方在仓库层（deleteCard）处理。不可变。
+ */
+export function dismissCurrent(s: SessionState): SessionState {
+  if (s.completed || s.queue.length === 0) return s;
+
+  const [, ...rest] = s.queue;
+  const studiedTotal = s.studiedTotal + 1;
+
+  // 同批次继续
+  if (rest.length > 0) {
+    return { ...s, queue: rest, studiedTotal };
+  }
+
+  // 本轮批次背完：若 pool 仍有卡 → 重洗成下一批
+  if (s.pool.length > 0) {
+    const next = shuffle(s.pool);
+    const queue = next.slice(0, s.size);
+    const pool = next.slice(s.size);
+    const batchNumber = s.batchNumber + 1;
+    const completed = pool.length === 0 && queue.length === 0;
+    return { ...s, queue, pool, batchNumber, completed, studiedTotal };
+  }
+
+  // pool 空 → 全部背完
+  return { ...s, queue: [], pool: [], completed: true, studiedTotal };
+}

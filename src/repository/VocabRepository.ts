@@ -70,6 +70,14 @@ export interface VocabRepositoryPort {
   renameProfile(id: string, name: string): Promise<void>;
   /** 删除档案，并级联清除其 cards / studyLog 进度。 */
   deleteProfile(id: string): Promise<void>;
+  /** 取当前激活档案下所有「已掌握（会啦）」的词 id 集合。 */
+  getMasteredIds(): Promise<Set<string>>;
+  /** 将某词标记为已掌握（会啦），从此不再进入任何学习集合。 */
+  markMastered(wordId: string): Promise<void>;
+  /** 清空当前激活档案的全部「已掌握」标记（撤销会啦）。 */
+  resetMastered(): Promise<void>;
+  /** 删除当前激活档案下某词的 FSRS 卡（标记掌握后调用，彻底退出调度）。 */
+  deleteCard(wordId: string): Promise<void>;
   /** 首启引导：若无任何档案则创建默认档案，并恢复上次激活的档案；返回当前激活 id。 */
   ensureDefaultProfile(): Promise<string>;
   /** 切换当前激活档案（同步，写入内存并异步落 meta）。 */
@@ -267,6 +275,8 @@ export class VocabRepository implements VocabRepositoryPort {
     if (this.activeProfileId === id) {
       this.setActiveProfile(DEFAULT_PROFILE_ID);
     }
+    // 级联清除该档案的「已掌握」集合，避免孤儿数据。
+    await this.db.meta.delete(`mastered:${id}`);
   }
 
   async ensureDefaultProfile(): Promise<string> {
@@ -321,6 +331,36 @@ export class VocabRepository implements VocabRepositoryPort {
 
   getActiveProfileId(): string {
     return this.activeProfileId;
+  }
+
+  // ---------- 已掌握（会啦）----------
+  // 以 meta 单行存某档案的「已掌握词 id 集合」JSON。复用 meta 表而非新增表，
+  // 既规避 DB schema 升级（fake-indexeddb 重建表丢数据的陷阱），又随档案天然隔离。
+
+  private masteredKey(): string {
+    return `mastered:${this.activeProfileId}`;
+  }
+
+  async getMasteredIds(): Promise<Set<string>> {
+    const row = await this.db.meta.get(this.masteredKey());
+    if (!row) return new Set();
+    try {
+      const arr = JSON.parse(row.value);
+      return Array.isArray(arr) ? new Set(arr as string[]) : new Set();
+    } catch {
+      return new Set();
+    }
+  }
+
+  async markMastered(wordId: string): Promise<void> {
+    const set = await this.getMasteredIds();
+    if (set.has(wordId)) return;
+    set.add(wordId);
+    await this.db.meta.put({ key: this.masteredKey(), value: JSON.stringify([...set]) });
+  }
+
+  async resetMastered(): Promise<void> {
+    await this.db.meta.delete(this.masteredKey());
   }
 
   /** 关闭底层数据库连接（测试清理用，不影响业务）。 */
@@ -394,6 +434,11 @@ export class VocabRepository implements VocabRepositoryPort {
       profileId: this.activeProfileId,
       cardJson: JSON.stringify(card),
     });
+  }
+
+  /** 删除当前激活档案下某词的 FSRS 卡（标记掌握后调用，使其彻底退出调度）。 */
+  async deleteCard(wordId: string): Promise<void> {
+    await this.db.cards.delete(profileKey(this.activeProfileId, wordId));
   }
 
   async putWord(word: VocabEntry): Promise<void> {

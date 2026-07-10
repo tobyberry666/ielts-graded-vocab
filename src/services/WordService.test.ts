@@ -14,6 +14,11 @@ export interface VocabRepositoryPort {
   saveCard(wordId: string, card: Card): Promise<void>;
   recordStudyDay(dateStr: string): Promise<void>;
   getStudiedDays(): Promise<string[]>;
+  // 已掌握（会啦）相关接口
+  getMasteredIds(): Promise<Set<string>>;
+  markMastered(wordId: string): Promise<void>;
+  resetMastered(): Promise<void>;
+  deleteCard(wordId: string): Promise<void>;
 }
 
 // ── 内存版假实现 ──────────────────────────────────────────────────────────
@@ -63,6 +68,13 @@ class FakeRepo implements VocabRepositoryPort {
   async getStudiedDays(): Promise<string[]> {
     return [...this.studyDays];
   }
+
+  async getMasteredIds(): Promise<Set<string>> {
+    return new Set();
+  }
+  async markMastered(_id: string): Promise<void> {}
+  async resetMastered(): Promise<void> {}
+  async deleteCard(_id: string): Promise<void> {}
 }
 
 // ── 动态加载 WordService（施调度并行产出，可能尚未就绪）────────────────────
@@ -78,6 +90,7 @@ let WordServiceCtor: (new (repo: VocabRepositoryPort) => {
     band: Band,
     now?: number,
     mode?: 'due' | 'all',
+    excluded?: Set<string>,
   ): Promise<Array<{ word: VocabEntry; card: Card }>>;
 }) | null = null;
 
@@ -197,6 +210,23 @@ maybeDescribe('WordService（依赖施调度模块）', () => {
     const dueRef = await ws.getDueCards(svc, '5', now);
     // 默认 due 模式等价于 getDueCards
     expect(due.map((e) => e.word.id).sort()).toEqual(dueRef.map((e) => e.word.id).sort());
+  });
+
+  it('getStudySet 接受 excluded 集合，排除已掌握（会啦）的词', async () => {
+    const now = Date.now();
+    const ws = new WordServiceCtor!(repo);
+    // a/b/c 全部设为立即到期（未见过 → newCard），d 属 Band6 不计入 Band5
+    repo.presetCard('a', null);
+    repo.presetCard('b', null);
+    repo.presetCard('c', null);
+
+    const all = await ws.getStudySet(svc, '5', now, 'all', new Set(['b']));
+    // b 被排除，只剩 a/c
+    expect(all.map((e) => e.word.id).sort()).toEqual(['a', 'c']);
+
+    const due = await ws.getStudySet(svc, '5', now, 'due', new Set(['a', 'c']));
+    // 排除 a/c 后，仅剩 b
+    expect(due.map((e) => e.word.id)).toEqual(['b']);
   });
 
   it('FakeRepo.seedIfEmpty 为 merge：重复 seed 不重复、补新、保留旧', async () => {

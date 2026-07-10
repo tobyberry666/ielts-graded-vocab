@@ -24,8 +24,9 @@ export class WordService {
     srs: SrsService,
     band: Band,
     now: number = Date.now(),
+    excluded: Set<string> = new Set(),
   ): Promise<{ word: VocabEntry; card: Card }[]> {
-    const words = await this.filterByBand(band);
+    const words = (await this.filterByBand(band)).filter((w) => !excluded.has(w.id));
     const due: { word: VocabEntry; card: Card }[] = [];
 
     for (const word of words) {
@@ -50,8 +51,9 @@ export class WordService {
     band: Band,
     now: number = Date.now(),
     mode: 'due' | 'all' = 'due',
+    excluded: Set<string> = new Set(),
   ): Promise<{ word: VocabEntry; card: Card }[]> {
-    const words = await this.filterByBand(band);
+    const words = (await this.filterByBand(band)).filter((w) => !excluded.has(w.id));
     if (mode === 'all') {
       // 重学模式：返回本档全部词（含已排期到未来的），未见过则 newCard。
       return Promise.all(words.map(async (w) => {
@@ -59,6 +61,6 @@ export class WordService {
         return { word: w, card };
       }));
     }
-    return this.getDueCards(srs, band, now); // 默认仅到期
+    return this.getDueCards(srs, band, now, excluded); // 默认仅到期
   }
 }

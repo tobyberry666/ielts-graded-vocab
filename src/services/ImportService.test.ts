@@ -61,6 +61,13 @@ class FakeRepo implements VocabRepositoryPort {
   getActiveProfileId(): string {
     return 'default';
   }
+  // ── 已掌握（会啦）接口：测试不依赖，留空 ──
+  async getMasteredIds(): Promise<Set<string>> {
+    return new Set();
+  }
+  async markMastered(_id: string): Promise<void> {}
+  async resetMastered(): Promise<void> {}
+  async deleteCard(_id: string): Promise<void> {}
 }
 
 // ── CSV fixtures ──────────────────────────────────────────────────────────

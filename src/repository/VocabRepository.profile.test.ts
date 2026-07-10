@@ -166,3 +166,61 @@ describe('VocabRepository 多档案', () => {
     expect(restored).toBe(b.id);
   });
 });
+
+describe('VocabRepository 已掌握（会啦）', () => {
+  it('markMastered 后 getMasteredIds 可见，deleteCard 清除 FSRS 卡', async () => {
+    repo = new VocabRepository();
+    await repo.ensureDefaultProfile();
+    const srs = new SrsService();
+
+    await repo.saveCard('w1', srs.newCard(Date.now()));
+    expect(await repo.getMasteredIds()).toEqual(new Set());
+
+    await repo.markMastered('w1');
+    expect([...await repo.getMasteredIds()]).toEqual(['w1']);
+
+    // 标记掌握后删卡，从此不应再被调度。
+    await repo.deleteCard('w1');
+    expect(await repo.loadCard('w1')).toBeNull();
+  });
+
+  it('已掌握集合按档案隔离', async () => {
+    repo = new VocabRepository();
+    await repo.ensureDefaultProfile();
+
+    repo.setActiveProfile(DEFAULT_PROFILE_ID);
+    await repo.markMastered('w1');
+
+    const b = await repo.createProfile('Tom');
+    repo.setActiveProfile(b.id);
+    expect(await repo.getMasteredIds()).toEqual(new Set());
+
+    repo.setActiveProfile(DEFAULT_PROFILE_ID);
+    expect([...await repo.getMasteredIds()]).toEqual(['w1']);
+  });
+
+  it('resetMastered 清空当前档案已掌握集合', async () => {
+    repo = new VocabRepository();
+    await repo.ensureDefaultProfile();
+    await repo.markMastered('w1');
+    await repo.markMastered('w2');
+    expect((await repo.getMasteredIds()).size).toBe(2);
+
+    await repo.resetMastered();
+    expect(await repo.getMasteredIds()).toEqual(new Set());
+  });
+
+  it('删除档案级联清除其已掌握集合', async () => {
+    repo = new VocabRepository();
+    await repo.ensureDefaultProfile();
+    const b = await repo.createProfile('Tom');
+    repo.setActiveProfile(b.id);
+    await repo.markMastered('w1');
+
+    repo.setActiveProfile(DEFAULT_PROFILE_ID);
+    await repo.deleteProfile(b.id);
+
+    repo.setActiveProfile(b.id);
+    expect(await repo.getMasteredIds()).toEqual(new Set());
+  });
+});

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { List, type RowComponentProps } from 'react-window';
 import { SEED_WORDS, SEED_VERSION, type Band, type VocabEntry } from './data/words';
@@ -6,7 +6,7 @@ import { SrsService, type Grade } from './services/SrsService';
 // 持久层与业务编排（已落地）
 import { VocabRepository, type Profile } from './repository/VocabRepository';
 import { WordService } from './services/WordService';
-import { createSession, currentCard, grade as gradeSession, type SessionState } from './services/SessionService';
+import { createSession, currentCard, grade as gradeSession, dismissCurrent as dismissSession, type SessionState } from './services/SessionService';
 import { dateKey } from './utils/date';
 import { toCsv, toAnki, downloadFile } from './utils/export';
 import Flashcard from './components/Flashcard';
@@ -94,13 +94,19 @@ export default function App() {
   // 初始为空串：门控会话/日历加载，确保档案引导完成后再拉数据，避免错档。
   const [activeProfileId, setActiveProfileId] = useState<string>('');
 
+  // 已掌握（会啦）词集合：驱动「不再出现」与计数展示。
+  const [masteredIds, setMasteredIds] = useState<Set<string>>(new Set());
+  // ref 始终保持最新集合，供 buildSession 在闭包中读取而不触发重新构建会话（避免中途重洗）。
+  const masteredRef = useRef<Set<string>>(masteredIds);
+  masteredRef.current = masteredIds;
+
   // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode 变化都会触发。
   async function buildSession(bandVal: Band, size: number, modeVal: 'due' | 'all' = 'due') {
     setLoading(true);
     await repo.seedOrRefresh(SEED_WORDS, SEED_VERSION); // 版本化刷新：内置词随版本自愈，导入词/进度不动
     const all = await wordService.filterByBand(bandVal);
     setBandTotal(all.length);
-    const studySet = await wordService.getStudySet(srs, bandVal, Date.now(), modeVal);
+    const studySet = await wordService.getStudySet(srs, bandVal, Date.now(), modeVal, masteredRef.current);
     setSession(createSession(studySet, size));
     setRevealed(false);
     setLoading(false);
@@ -115,7 +121,7 @@ export default function App() {
       const all = await wordService.filterByBand(band);
       if (cancelled) return;
       setBandTotal(all.length);
-      const studySet = await wordService.getStudySet(srs, band, Date.now(), mode);
+      const studySet = await wordService.getStudySet(srs, band, Date.now(), mode, masteredRef.current);
       if (cancelled) return;
       setSession(createSession(studySet, sessionSize));
       setRevealed(false);
@@ -149,6 +155,7 @@ export default function App() {
       if (cancelled) return;
       setActiveProfileId(id);
       setProfiles(await repo.listProfiles());
+      setMasteredIds(await repo.getMasteredIds());
     })();
     return () => {
       cancelled = true;
@@ -225,20 +232,62 @@ export default function App() {
     });
   }
 
+  // 「会啦！」：标记当前词为已掌握 → 从 FSRS 调度彻底移除 + 出队 + 记录今日学习。
+  async function handleMastered() {
+    const cur = session ? currentCard(session) : null;
+    if (!cur) return;
+    const wordId = cur.word.id;
+    await repo.markMastered(wordId);
+    await repo.deleteCard(wordId); // 彻底退出调度，永不再出现
+    setSession((prev) => (prev ? dismissSession(prev) : prev));
+    setRevealed(false);
+    setMasteredIds((prev) => {
+      const n = new Set(prev);
+      n.add(wordId);
+      return n;
+    });
+    // 打卡：算作今日学习，让日历保持活跃。
+    const key = dateKey();
+    await repo.recordStudyDay(key);
+    setStudiedDays((prev) => {
+      if (prev.has(key)) return prev;
+      const n = new Set(prev);
+      n.add(key);
+      return n;
+    });
+  }
+
+  // 撤销「会啦」：清空当前档案已掌握集合，并把词重新放回复习队列。
+  async function handleResetMastered() {
+    if (masteredIds.size === 0) return;
+    const ok = window.confirm(
+      `确定要取消「会啦」标记吗？\n这将把已掌握的 ${masteredIds.size} 个词重新放回复习队列。`,
+    );
+    if (!ok) return;
+    await repo.resetMastered();
+    setMasteredIds(new Set());
+    await buildSession(band, sessionSize, mode);
+  }
+
   // ---------- 多档案（本地账号）操作 ----------
   async function refreshProfiles() {
     setProfiles(await repo.listProfiles());
+  }
+  async function refreshMastered() {
+    setMasteredIds(await repo.getMasteredIds());
   }
   function handleSwitchProfile(id: string) {
     if (id === activeProfileId) return;
     repo.setActiveProfile(id);
     setActiveProfileId(id); // 触发会话 + 日历按新档案重建
+    void refreshMastered();
   }
   async function handleCreateProfile(name: string) {
     const p = await repo.createProfile(name);
     repo.setActiveProfile(p.id);
     setActiveProfileId(p.id); // 自动切到新建档案（全新进度）
     await refreshProfiles();
+    await refreshMastered();
   }
   async function handleRenameProfile(id: string, name: string) {
     await repo.renameProfile(id, name);
@@ -248,6 +297,7 @@ export default function App() {
     await repo.deleteProfile(id);
     setActiveProfileId(repo.getActiveProfileId()); // deleteProfile 已回退到默认档案
     await refreshProfiles();
+    await refreshMastered();
   }
 
   // ---------- 导入词表（模态） ----------
@@ -366,6 +416,20 @@ export default function App() {
               : '全部本档：练习本档全部单词（含尚未学过的生词），适合集中刷词、扩充词库。'}
           </p>
 
+          {masteredIds.size > 0 && (
+            <p className="mastered-counter" aria-live="polite">
+              <span aria-hidden="true">✨</span> 已掌握 {masteredIds.size} 词
+              <button
+                type="button"
+                className="mastered-reset"
+                onClick={handleResetMastered}
+                title="取消所有「会啦」标记，把词重新放回复习队列"
+              >
+                撤销「会啦」
+              </button>
+            </p>
+          )}
+
           <div className="size-selector" role="group" aria-label="每轮卡片数量">
             {SESSION_SIZES.map((n) => (
               <button
@@ -404,6 +468,7 @@ export default function App() {
               audioSource={audioSource}
               onReveal={() => setRevealed(true)}
               onGrade={handleGrade}
+              onMastered={handleMastered}
               onSpeak={() => speak(current.word.term)}
             />
           )}

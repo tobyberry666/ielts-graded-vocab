@@ -13,6 +13,8 @@ export interface FlashcardProps {
   onReveal: () => void;
   /** 在背面打分（again/hard/good/easy）时触发。 */
   onGrade: (grade: Grade) => void;
+  /** 点击「会啦！」标记已掌握、从此不再出现时触发。 */
+  onMastered: () => void;
   /** 点击朗读按钮时触发原生语音。 */
   onSpeak: () => void;
 }
@@ -63,7 +65,7 @@ function SourcePill({ source }: { source: AudioSource }) {
   );
 }
 
-export default function Flashcard({ word, revealed, audioSource, onReveal, onGrade, onSpeak }: FlashcardProps) {
+export default function Flashcard({ word, revealed, audioSource, onReveal, onGrade, onMastered, onSpeak }: FlashcardProps) {
   const reduceMotion = useReducedMotion();
   const flipTransition = reduceMotion
     ? { duration: 0 }
@@ -135,6 +137,16 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
               <p className="fc-note">该词暂仅有中文释义，词性与双语例句将在后续补充。</p>
             )}
           </div>
+
+          <button
+            type="button"
+            className="fc-mastered"
+            onClick={onMastered}
+            title="我会了，这个词以后不再出现"
+          >
+            <span className="fc-mastered-emoji" aria-hidden="true">✨</span>
+            会啦！
+          </button>
 
           <div className="fc-grades">
             {GRADES.map(({ grade, label, hint }) => (
