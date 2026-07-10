@@ -15,6 +15,11 @@ import ProgressRing from './components/ProgressRing';
 import Calendar from './components/Calendar';
 import ImportPanel from './components/ImportPanel';
 import ProfileSwitcher from './components/ProfileSwitcher';
+import {
+  playPronunciation,
+  prefetchPronunciation,
+  type AudioSource,
+} from './services/PronunciationService';
 import './styles.css';
 
 // 单例：真实项目里由依赖注入 / context 提供，这里为演示直接实例化。
@@ -154,13 +159,21 @@ export default function App() {
   const roundDone = !loading && session?.completed === true;
   const isEmpty = !loading && (session?.initialCount ?? 0) === 0;
 
+  const [audioSource, setAudioSource] = useState<AudioSource | null>(null);
+
   function speak(term: string) {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-    window.speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(term);
-    u.lang = 'en-GB';
-    window.speechSynthesis.speak(u);
+    // 优先真人发音，取不到自动回退机器 TTS
+    playPronunciation(term, { onSource: setAudioSource });
   }
+
+  // 当前词切换时，后台预取真人发音 URL（命中缓存则跳过），让朗读秒出
+  useEffect(() => {
+    const term = current?.word.term;
+    if (term) {
+      setAudioSource(null);
+      prefetchPronunciation(term);
+    }
+  }, [current?.word.term]);
 
   // ---------- 日历月份导航 ----------
   function stepMonth(delta: number) {
@@ -388,6 +401,7 @@ export default function App() {
             <Flashcard
               word={current.word}
               revealed={revealed}
+              audioSource={audioSource}
               onReveal={() => setRevealed(true)}
               onGrade={handleGrade}
               onSpeak={() => speak(current.word.term)}

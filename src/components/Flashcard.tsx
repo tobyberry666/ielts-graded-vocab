@@ -1,11 +1,14 @@
 import { motion, useReducedMotion } from 'framer-motion';
 import type { VocabEntry } from '../data/words';
 import type { Grade } from '../services/SrsService';
+import type { AudioSource } from '../services/PronunciationService';
 
 export interface FlashcardProps {
   word: VocabEntry;
   /** 是否已翻到背面（显示释义）。 */
   revealed: boolean;
+  /** 当前朗读来源：真人发音 / 机器 TTS；null 表示尚未播放。 */
+  audioSource?: AudioSource | null;
   /** 点击正面「显示释义」时触发。 */
   onReveal: () => void;
   /** 在背面打分（again/hard/good/easy）时触发。 */
@@ -47,7 +50,20 @@ function SpeakButton({ onClick }: { onClick: () => void }) {
   );
 }
 
-export default function Flashcard({ word, revealed, onReveal, onGrade, onSpeak }: FlashcardProps) {
+function SourcePill({ source }: { source: AudioSource }) {
+  const isHuman = source === 'human';
+  return (
+    <span
+      className={`fc-source-pill ${isHuman ? 'is-human' : 'is-tts'}`}
+      title={isHuman ? '真人发音' : '机器发音'}
+      aria-label={isHuman ? '真人发音' : '机器发音'}
+    >
+      {isHuman ? '真人' : '机器'}
+    </span>
+  );
+}
+
+export default function Flashcard({ word, revealed, audioSource, onReveal, onGrade, onSpeak }: FlashcardProps) {
   const reduceMotion = useReducedMotion();
   const flipTransition = reduceMotion
     ? { duration: 0 }
@@ -70,7 +86,10 @@ export default function Flashcard({ word, revealed, onReveal, onGrade, onSpeak }
         >
           <div className="fc-front-top">
             <span className="fc-band-chip">Band {word.band}</span>
-            <SpeakButton onClick={onSpeak} />
+            <div className="fc-front-actions">
+              {audioSource && <SourcePill source={audioSource} />}
+              <SpeakButton onClick={onSpeak} />
+            </div>
           </div>
           <h2 className="fc-term">{word.term}</h2>
           {word.phonetic && <p className="fc-phonetic">{word.phonetic}</p>}
@@ -85,7 +104,10 @@ export default function Flashcard({ word, revealed, onReveal, onGrade, onSpeak }
               <h3 className="fc-back-term">{word.term}</h3>
               {word.pos && <span className="fc-pos-badge">{word.pos}</span>}
             </div>
-            <SpeakButton onClick={onSpeak} />
+            <div className="fc-front-actions">
+              {audioSource && <SourcePill source={audioSource} />}
+              <SpeakButton onClick={onSpeak} />
+            </div>
           </div>
 
           <div className="fc-body">

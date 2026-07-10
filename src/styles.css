@@ -415,6 +415,41 @@ body {
   box-shadow: 0 8px 18px -8px var(--accent);
 }
 
+/* 朗读按钮旁的发音来源小标签（真人 / 机器） */
+.fc-front-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fc-source-pill {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  padding: 3px 9px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--glass-border);
+  backdrop-filter: blur(8px);
+  white-space: nowrap;
+  animation: pill-pop 0.25s var(--ease-flip);
+}
+
+.fc-source-pill.is-human {
+  color: #0f9d58;
+  background: rgba(15, 157, 88, 0.14);
+  border-color: rgba(15, 157, 88, 0.35);
+}
+
+.fc-source-pill.is-tts {
+  color: var(--text-muted);
+  background: var(--chip-bg);
+}
+
+@keyframes pill-pop {
+  from { opacity: 0; transform: translateY(-3px) scale(0.92); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
 /* 背面内容 */
 .fc-back-head {
   display: flex;
