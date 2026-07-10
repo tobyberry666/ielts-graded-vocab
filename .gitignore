@@ -4,3 +4,5 @@ dist-ssr
 *.local
 .DS_Store
 .vite
+# TypeScript 增量构建缓存（自动生成，非交付物）
+*.tsbuildinfo
