@@ -9,7 +9,8 @@ const BANDS: { band: Band; label: string; sub: string }[] = [
   { band: '5', label: 'Band 5', sub: '≈5-6 分' },
   { band: '6', label: 'Band 6', sub: '≈6-7 分' },
   { band: '7', label: 'Band 7', sub: '≈7 分' },
-  { band: '8', label: 'Band 8+', sub: '8 分以上' },
+  { band: '8', label: 'Band 8', sub: '≈8 分' },
+  { band: '9', label: 'Band 9', sub: '8+ GRE 级' },
 ];
 
 export default function BandSelector({ value, onChange }: BandSelectorProps) {

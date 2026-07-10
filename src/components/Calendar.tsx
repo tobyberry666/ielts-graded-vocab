@@ -8,11 +8,17 @@ export interface CalendarProps {
   year: number;
   /** 月份 1-12。 */
   month: number;
+  /** 切到上个月。 */
+  onPrev: () => void;
+  /** 切到下个月。 */
+  onNext: () => void;
+  /** 回到当前月。 */
+  onToday: () => void;
 }
 
 const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六'];
 
-export default function Calendar({ studiedDays, year, month }: CalendarProps) {
+export default function Calendar({ studiedDays, year, month, onPrev, onNext, onToday }: CalendarProps) {
   const reduceMotion = useReducedMotion();
   const cells = buildMonthGrid(year, month);
   const prefix = `${year}-${String(month).padStart(2, '0')}`;
@@ -28,9 +34,17 @@ export default function Calendar({ studiedDays, year, month }: CalendarProps) {
     >
       <div className="cal-head">
         <h2 className="cal-title">学习日历</h2>
-        <span className="cal-month" aria-label={`${year} 年 ${month} 月`}>
-          {prefix}
-        </span>
+        <div className="cal-nav" role="group" aria-label="切换月份">
+          <button type="button" className="cal-nav-btn" aria-label="上个月" onClick={onPrev}>
+            ‹
+          </button>
+          <button type="button" className="cal-nav-today" aria-label="回到本月" onClick={onToday}>
+            {prefix}
+          </button>
+          <button type="button" className="cal-nav-btn" aria-label="下个月" onClick={onNext}>
+            ›
+          </button>
+        </div>
       </div>
 
       <div className="cal-weekdays" role="row" aria-hidden="true">

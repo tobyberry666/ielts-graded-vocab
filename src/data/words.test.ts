@@ -1,19 +1,20 @@
 import { describe, it, expect } from 'vitest';
 import { SEED_WORDS, type VocabEntry } from './words';
 
-const VALID_BANDS = ['5', '6', '7', '8'] as const;
+const VALID_BANDS = ['5', '6', '7', '8', '9'] as const;
 
 describe('SEED_WORDS 词表质量与规模', () => {
   it('总词数 ≥ 2000', () => {
     expect(SEED_WORDS.length).toBeGreaterThanOrEqual(2000);
   });
 
-  it('各 band 达到最低词数（5≥1400, 6≥250, 7≥200, 8≥80）', () => {
+  it('各 band 达到最低词数（5≥1400, 6≥250, 7≥200, 8≥80, 9≥100）', () => {
     const count = (b: string) => SEED_WORDS.filter((w) => w.band === b).length;
     expect(count('5')).toBeGreaterThanOrEqual(1400);
     expect(count('6')).toBeGreaterThanOrEqual(250);
     expect(count('7')).toBeGreaterThanOrEqual(200);
     expect(count('8')).toBeGreaterThanOrEqual(80);
+    expect(count('9')).toBeGreaterThanOrEqual(100);
   });
 
   it('所有 id 全局唯一', () => {

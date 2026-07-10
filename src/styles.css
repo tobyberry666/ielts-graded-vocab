@@ -1003,8 +1003,10 @@ body {
 
 .cal-head {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-bottom: 14px;
 }
 
@@ -1020,6 +1022,52 @@ body {
   font-weight: 700;
   color: var(--accent);
   font-variant-numeric: tabular-nums;
+}
+
+/* 日历月份导航 */
+.cal-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--chip-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 999px;
+  padding: 2px;
+}
+
+.cal-nav-btn {
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-strong);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s var(--ease-flip);
+}
+
+.cal-nav-btn:hover {
+  background: var(--accent-soft);
+  transform: scale(1.08);
+}
+
+.cal-nav-today {
+  border: none;
+  background: transparent;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  padding: 0 8px;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: background 0.18s ease;
+}
+
+.cal-nav-today:hover {
+  background: var(--accent-soft);
 }
 
 .cal-weekdays {
@@ -1082,6 +1130,71 @@ body {
   text-align: center;
   font-size: 12px;
   color: var(--text-muted);
+}
+
+/* ---------- 导出词表 ---------- */
+.export {
+  padding: 16px 18px;
+  margin-bottom: 18px;
+}
+
+.export-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.export-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-strong);
+}
+
+.export-sub {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.export-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.export-btn {
+  flex: 1;
+  border: 1px solid var(--card-border);
+  background: var(--chip-bg);
+  color: var(--text-strong);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 9px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.18s ease, transform 0.18s var(--ease-flip),
+    border-color 0.18s ease;
+}
+
+.export-btn:hover {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.export-btn-all {
+  width: 100%;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: transparent;
+}
+
+.export-btn-all:hover {
+  background: var(--accent);
+  color: #fff;
 }
 
 /* ---------- 学习范围切换（仅到期 / 全部本档） ---------- */

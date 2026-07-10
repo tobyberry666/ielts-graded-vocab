@@ -62,11 +62,11 @@ const CSV_INJECTION = [
   'safe,/seɪf/,adj.,安全的,safe,5,safe place,It is safe.,它是安全的。',
 ].join('\n');
 
-// band 缺失 / band 非法('9')
+// band 缺失 / band 非法('10')
 const CSV_BAD_BAND = [
   CSV_HEADER,
   'noband,/n/,n.,无分级词,no band,,col,ex,exz', // band 为空
-  'badband,/b/,n.,非法分级,invalid,9,col,ex,exz', // band='9'
+  'badband,/b/,n.,非法分级,invalid,10,col,ex,exz', // band='10'
 ].join('\n');
 
 // term 缺失
@@ -105,7 +105,7 @@ describe('parseCsv + importWords (CSV)', () => {
     expect(report.rejected).toHaveLength(2);
     const reasons = report.rejected.map((r) => r.reason);
     expect(reasons).toContain('band 非法: ');
-    expect(reasons).toContain('band 非法: 9');
+    expect(reasons).toContain('band 非法: 10');
   });
 
   it('缺失 term 被拒', () => {

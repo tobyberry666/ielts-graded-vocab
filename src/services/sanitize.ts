@@ -16,7 +16,7 @@ export type ParseResult =
   | { ok: true; value: VocabEntry }
   | { ok: false; error: string };
 
-const BANDS: Band[] = ['5', '6', '7', '8'];
+const BANDS: Band[] = ['5', '6', '7', '8', '9'];
 
 // 疑似注入的特征：脚本标签、iframe、事件处理器、伪协议。命中即视为不可信输入。
 const INJECTION_PATTERNS: RegExp[] = [

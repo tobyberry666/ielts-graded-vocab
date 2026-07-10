@@ -8,6 +8,7 @@ import { VocabRepository } from './repository/VocabRepository';
 import { WordService } from './services/WordService';
 import { createSession, currentCard, grade as gradeSession, type SessionState } from './services/SessionService';
 import { dateKey } from './utils/date';
+import { toCsv, toAnki, downloadFile } from './utils/export';
 import Flashcard from './components/Flashcard';
 import BandSelector from './components/BandSelector';
 import ProgressRing from './components/ProgressRing';
@@ -79,8 +80,8 @@ export default function App() {
   const [mode, setMode] = useState<'due' | 'all'>('due');
   const [bandTotal, setBandTotal] = useState(0);
   const [studiedDays, setStudiedDays] = useState<Set<string>>(new Set());
-
-  const now = new Date();
+  const [calYear, setCalYear] = useState(new Date().getFullYear());
+  const [calMonth, setCalMonth] = useState(new Date().getMonth() + 1);
 
   // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode 变化都会触发。
   async function buildSession(bandVal: Band, size: number, modeVal: 'due' | 'all' = 'due') {
@@ -137,6 +138,38 @@ export default function App() {
     const u = new SpeechSynthesisUtterance(term);
     u.lang = 'en-GB';
     window.speechSynthesis.speak(u);
+  }
+
+  // ---------- 日历月份导航 ----------
+  function stepMonth(delta: number) {
+    const d = new Date(calYear, calMonth - 1 + delta, 1);
+    setCalYear(d.getFullYear());
+    setCalMonth(d.getMonth() + 1);
+  }
+  function goPrevMonth() {
+    stepMonth(-1);
+  }
+  function goNextMonth() {
+    stepMonth(1);
+  }
+  function goToday() {
+    const d = new Date();
+    setCalYear(d.getFullYear());
+    setCalMonth(d.getMonth() + 1);
+  }
+
+  // ---------- 导出词表（CSV / Anki） ----------
+  async function exportWords(format: 'csv' | 'anki', scope: 'current' | 'all') {
+    const all = await repo.getAllWords();
+    const words = scope === 'all' ? all : all.filter((w) => w.band === band);
+    if (words.length === 0) return;
+    const stamp = new Date().toISOString().slice(0, 10);
+    const tag = scope === 'all' ? 'all' : `band${band}`;
+    if (format === 'csv') {
+      downloadFile(`ielts-vocab-${tag}-${stamp}.csv`, toCsv(words), 'text/csv;charset=utf-8');
+    } else {
+      downloadFile(`ielts-vocab-${tag}-${stamp}.txt`, toAnki(words), 'text/plain;charset=utf-8');
+    }
   }
 
   async function handleGrade(grade: Grade) {
@@ -382,7 +415,43 @@ export default function App() {
         </div>
 
         <aside className="app-aside">
-          <Calendar studiedDays={studiedDays} year={now.getFullYear()} month={now.getMonth() + 1} />
+          <section className="export glass" aria-label="导出词表">
+            <div className="export-head">
+              <h2 className="export-title">导出词表</h2>
+              <span className="export-sub">当前档 Band {band} · {bandTotal} 词</span>
+            </div>
+            <div className="export-row">
+              <button
+                type="button"
+                className="export-btn"
+                onClick={() => exportWords('csv', 'current')}
+              >
+                CSV（当前档）
+              </button>
+              <button
+                type="button"
+                className="export-btn"
+                onClick={() => exportWords('anki', 'current')}
+              >
+                Anki（当前档）
+              </button>
+            </div>
+            <button
+              type="button"
+              className="export-btn export-btn-all"
+              onClick={() => exportWords('csv', 'all')}
+            >
+              导出全部档（CSV）
+            </button>
+          </section>
+          <Calendar
+            studiedDays={studiedDays}
+            year={calYear}
+            month={calMonth}
+            onPrev={goPrevMonth}
+            onNext={goNextMonth}
+            onToday={goToday}
+          />
         </aside>
       </div>
 

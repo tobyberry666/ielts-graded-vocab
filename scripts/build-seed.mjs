@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = join(__dirname, '..', 'src', 'data');
 const OUT = join(DATA_DIR, 'seed-bulk.ts');
 
-const VALID_BANDS = new Set(['5', '6', '7', '8']);
+const VALID_BANDS = new Set(['5', '6', '7', '8', '9']);
 const CHUNK = 300;
 
 const files = readdirSync(DATA_DIR)
@@ -84,8 +84,8 @@ const header =
 
 writeFileSync(OUT, header + partDecls + '\n\n' + combine + '\n', 'utf8');
 
-const byBand = { '5': 0, '6': 0, '7': 0, '8': 0 };
+const byBand = { '5': 0, '6': 0, '7': 0, '8': 0, '9': 0 };
 for (const e of entries) byBand[e.band]++;
 console.log(`已生成 ${entries.length} 条（分 ${chunks.length} 块）→ ${OUT}`);
-console.log(`分档: Band5=${byBand['5']} Band6=${byBand['6']} Band7=${byBand['7']} Band8=${byBand['8']}`);
+console.log(`分档: Band5=${byBand['5']} Band6=${byBand['6']} Band7=${byBand['7']} Band8=${byBand['8']} Band9=${byBand['9']}`);
 console.log(`跳过(格式/非法): ${skipped}  重复term跳过: ${dup}`);

@@ -3,7 +3,7 @@
 //
 // 字段对齐「柯林斯式闪卡」：音标、词性、中英释义、搭配、原版例句+译文。
 
-export type Band = '5' | '6' | '7' | '8';
+export type Band = '5' | '6' | '7' | '8' | '9';
 
 export interface VocabEntry {
   id: string;
