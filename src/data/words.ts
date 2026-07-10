@@ -2557,4 +2557,4 @@ export const SEED_WORDS: VocabEntry[] = [...SEED_CORE, ...SEED_BULK];
  * 用户本地库的「一次性的内置词刷新」——把早期版本里残缺（仅有中文释义）的种子词
  * 用最新富文本覆盖更新，且不影响用户导入的词与 FSRS 学习进度。
  */
-export const SEED_VERSION = '2026-07-10-rich-b5b6';
+export const SEED_VERSION = '2026-07-10-examples-contain-word';
