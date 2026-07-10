@@ -74,39 +74,45 @@ export default function Flashcard({ word, revealed, onReveal, onGrade, onSpeak }
           </div>
           <h2 className="fc-term">{word.term}</h2>
           {word.phonetic && <p className="fc-phonetic">{word.phonetic}</p>}
-          {word.pos && <span className="fc-pos">{word.pos}</span>}
+          {word.pos && <span className="fc-pos-badge fc-pos-badge-front">{word.pos}</span>}
           <span className="fc-reveal-hint">点击卡片显示释义</span>
         </button>
 
-        {/* 背面：释义 + 搭配 + 例句，附打分按钮 */}
+        {/* 背面：词性徽章 + 释义 + 搭配 + 中英双语例句，附打分按钮 */}
         <div className="fc-face fc-back">
           <div className="fc-front-top">
-            <h3 className="fc-back-term">
-              {word.term}
-              {word.pos && <span className="fc-back-pos"> {word.pos}</span>}
-            </h3>
+            <div className="fc-back-head">
+              <h3 className="fc-back-term">{word.term}</h3>
+              {word.pos && <span className="fc-pos-badge">{word.pos}</span>}
+            </div>
             <SpeakButton onClick={onSpeak} />
           </div>
 
-          <div className="fc-meaning">
-            <span className="fc-meaning-zh">{word.meaningZh}</span>
-            {word.meaningEn && <span className="fc-meaning-en">{word.meaningEn}</span>}
+          <div className="fc-body">
+            <div className="fc-meaning">
+              <span className="fc-meaning-zh">{word.meaningZh}</span>
+              {word.meaningEn && <span className="fc-meaning-en">{word.meaningEn}</span>}
+            </div>
+
+            {word.collocations.length > 0 && (
+              <div className="fc-block">
+                <span className="fc-label">搭配 · Collocations</span>
+                <p className="fc-collocations">{word.collocations.join('；')}</p>
+              </div>
+            )}
+
+            {word.example && (
+              <div className="fc-block fc-example-block">
+                <span className="fc-label">例句 · Example</span>
+                <p className="fc-example">{word.example}</p>
+                {word.exampleZh && <p className="fc-example-zh">{word.exampleZh}</p>}
+              </div>
+            )}
+
+            {!word.pos && !word.example && !word.meaningEn && (
+              <p className="fc-note">该词暂仅有中文释义，词性与双语例句将在后续补充。</p>
+            )}
           </div>
-
-          {word.collocations.length > 0 && (
-            <div className="fc-block">
-              <span className="fc-label">搭配</span>
-              <p className="fc-collocations">{word.collocations.join('；')}</p>
-            </div>
-          )}
-
-          {word.example && (
-            <div className="fc-block">
-              <span className="fc-label">例句</span>
-              <p className="fc-example">{word.example}</p>
-              {word.exampleZh && <p className="fc-example-zh">{word.exampleZh}</p>}
-            </div>
-          )}
 
           <div className="fc-grades">
             {GRADES.map(({ grade, label, hint }) => (

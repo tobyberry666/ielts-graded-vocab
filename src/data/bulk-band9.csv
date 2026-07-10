@@ -1,288 +1,590 @@
-aberrant,反常的,9
-abeyance,中止,9
-abstemious,节制的,9
-acumen,敏锐,9
-adumbrate,预示,9
-anachronism,时代错误,9
-approbation,认可,9
-assiduous,勤勉的,9
-auspicious,吉兆的,9
-banal,平庸的,9
-bombastic,夸大的,9
-cacophony,刺耳声音,9
-cessation,停止,9
-chicanery,诡辩,9
-circumnavigate,绕行,9
-cogent,有说服力的,9
-conflagration,大火,9
-convoluted,复杂的,9
-credulous,易信的,9
-debacle,崩溃,9
-denigrate,诋毁,9
-didactic,说教的,9
-diffident,羞怯的,9
-disingenuous,不真诚的,9
-ebullient,热情洋溢的,9
-eclectic,折中的,9
-effrontery,厚颜,9
-elegy,挽歌,9
-emollient,缓和剂,9
-enervate,使衰弱,9
-engender,产生,9
-ephemeral,短暂的,9
-equanimity,平静,9
-erudite,博学的,9
-eschew,避开,9
-eulogy,颂词,9
-exacerbate,加剧,9
-execrate,憎恶,9
-exculpate,开脱,9
-exigent,紧急的,9
-expiation,赎罪,9
-extirpate,根除,9
-factious,派系的,9
-fallacious,谬误的,9
-fatuous,愚蠢的,9
-fecund,多产的,9
-fetid,恶臭的,9
-florid,华丽的,9
-forestall,先发制人,9
-fortuitous,偶然的,9
-fulminate,严厉谴责,9
-gauche,笨拙的,9
-gerrymander,不公正划分,9
-glib,油嘴滑舌的,9
-gregarious,合群的,9
-guile,狡诈,9
-gullible,易受骗的,9
-hallow,使神圣,9
-halcyon,平静的,9
-harangue,长篇演说,9
-heuristic,启发式的,9
-hubris,傲慢,9
-iconoclast,反对偶像者,9
-idiosyncratic,特质的,9
-immolate,献祭,9
-immutable,不可变的,9
-impair,损害,9
-impassive,冷漠的,9
-impecunious,贫穷的,9
-impervious,不可穿透的,9
-implacable,无法平息的,9
-importune,纠缠,9
-impugn,质疑,9
-inchoate,初期的,9
-incongruous,不协调的,9
-inculcate,灌输,9
-indict,起诉,9
-indolent,懒惰的,9
-inert,惰性的,9
-ingenuous,天真的,9
-inimical,敌意的,9
-innocuous,无害的,9
-inscrutable,高深莫测的,9
-insidious,阴险的,9
-insipid,乏味的,9
-intransigent,不妥协的,9
-inundate,淹没,9
-inveigle,诱骗,9
-irascible,易怒的,9
-knell,丧钟,9
-lachrymose,爱哭的,9
-laconic,简洁的,9
-lassitude,疲乏,9
-latent,潜在的,9
-laud,赞美,9
-lethargic,昏睡的,9
-levity,轻浮,9
-logorrhea,多言,9
-machination,阴谋,9
-malign,诽谤,9
-malleable,可塑的,9
-maverick,独行其是者,9
-mendacity,虚假,9
-mettlesome,勇敢的,9
-meticulous,一丝不苟的,9
-misanthrope,厌世者,9
-mitigate,减轻,9
-mollify,平息,9
-morose,忧郁的,9
-multifarious,多种多样的,9
-nadir,最低点,9
-nascent,初生的,9
-nefarious,邪恶的,9
-neologism,新词,9
-noisome,有害的,9
-nonchalant,漠不关心的,9
-nostrum,秘方,9
-obdurate,固执的,9
-obfuscate,使困惑,9
-obsequious,奉承的,9
-obviate,排除,9
-occlude,阻塞,9
-officious,多管闲事的,9
-onerous,繁重的,9
-opprobrium,耻辱,9
-ossify,僵化,9
-ostensible,表面的,9
-ostentatious,炫耀的,9
-overweening,自负的,9
-oxymoron,矛盾修辞,9
-paean,赞歌,9
-palliate,减轻,9
-pander,迎合,9
-paragon,典范,9
-partisan,党派的,9
-pastiche,模仿作品,9
-patrician,贵族的,9
-paucity,缺乏,9
-peccadillo,小过失,9
-pedantic,迂腐的,9
-pellucid,清晰的,9
-penchant,倾向,9
-penury,贫困,9
-peregrination,旅行,9
-perfidious,背信弃义的,9
-perfunctory,敷衍的,9
-peripatetic,巡游的,9
-perjury,伪证,9
-perspicacious,敏锐的,9
-pertinacious,顽固的,9
-pervade,弥漫,9
-phlegmatic,冷静的,9
-piquant,刺激的,9
-placate,安抚,9
-platitude,陈词滥调,9
-plethora,过多,9
-poignant,尖锐的,9
-porous,多孔的,9
-portend,预示,9
-preclude,排除,9
-precocious,早熟的,9
-predilection,偏好,9
-preen,打扮,9
-preponderance,优势,9
-presumptuous,冒昧的,9
-pristine,原始的,9
-probity,正直,9
-proclivity,倾向,9
-prodigal,挥霍的,9
-profligate,挥霍的,9
-prolix,冗长的,9
-propensity,习性,9
-propitiate,抚慰,9
-prosaic,平淡的,9
-proscribe,禁止,9
-protracted,拖延的,9
-provident,节俭的,9
-puerile,幼稚的,9
-pugnacious,好斗的,9
-pulchritude,美丽,9
-punctilious,一丝不苟的,9
-pundit,权威,9
-qualm,疑虑,9
-quiescent,静止的,9
-quixotic,不切实际的,9
-quotidian,日常的,9
-recalcitrant,不顺从的,9
-rectitude,正直,9
-redoubtable,可敬畏的,9
-refulgent,光辉的,9
-relegate,贬降,9
-remiss,疏忽的,9
-remonstrate,抗议,9
-reprobate,堕落者,9
-reprove,责备,9
-resilient,有弹性的,9
-restive,不安的,9
-reticent,沉默的,9
-sagacious,睿智的,9
-salubrious,有益健康的,9
-salutary,有益的,9
-sanction,批准,9
-satiate,使饱足,9
-scruple,顾忌,9
-scurrilous,粗俗骂人的,9
-sedulous,勤恳的,9
-seminal,开创性的,9
-sententious,说教的,9
-servile,奴性的,9
-shibboleth,行话,9
-sinuous,蜿蜒的,9
-skulk,潜行,9
-somnolent,困倦的,9
-sophomoric,一知半解的,9
-soporific,催眠的,9
-specious,似是而非的,9
-squander,浪费,9
-staid,稳重的,9
-stentorian,洪亮的,9
-stint,吝惜,9
-stolid,冷漠的,9
-striated,有条纹的,9
-stymie,阻碍,9
-subpoena,传票,9
-subterfuge,托词,9
-succinct,简洁的,9
-superfluous,多余的,9
-supercilious,傲慢的,9
-supersede,取代,9
-supine,仰卧的,9
-supplant,取代,9
-surfeit,过量,9
-surly,粗暴的,9
-surreptitious,秘密的,9
-swarthy,黝黑的,9
-sycophant,阿谀者,9
-tacit,默许的,9
-tangential,离题的,9
-tawdry,俗丽的,9
-tenuous,脆弱的,9
-timorous,胆怯的,9
-torpid,迟钝的,9
-tortuous,曲折的,9
-tractable,易处理的,9
-transgress,违反,9
-trenchant,锐利的,9
-trepidation,恐惧,9
-truculent,好斗的,9
-turpitude,卑鄙,9
-tyro,新手,9
-ubiquitous,无处不在的,9
-umbrage,愤怒,9
-unctuous,油滑的,9
-undulate,波动,9
-unfeigned,真诚的,9
-untenable,站不住脚的,9
-upbraid,责备,9
-urbane,温文尔雅的,9
-usury,高利贷,9
-vacillate,犹豫,9
-vagary,奇想,9
-vainglorious,虚荣的,9
-valedictory,告别的,9
-variegated,杂色的,9
-vehement,激烈的,9
-venal,贪污的,9
-venerable,可敬的,9
-venerate,崇敬,9
-veracious,真实的,9
-verbose,啰嗦的,9
-verdant,青翠的,9
-vertigo,眩晕,9
-vicarious,替代的,9
-vigilant,警惕的,9
-vitiate,损害,9
-vitriolic,尖刻的,9
-vociferous,大声疾呼的,9
-vouchsafe,赐予,9
-waggish,滑稽的,9
-waspish,暴躁的,9
-winsome,迷人的,9
-wizened,干瘪的,9
-wrath,愤怒,9
-xenophobe,仇外者,9
-zenith,顶点,9
-zest,热情,9
-zeitgeist,时代精神,9
-zealot,狂热者,9
+term,pos,meaningZh,meaningEn,exampleEn,exampleZh,band
+abate,v.,减轻；减退,to become less intense,The storm abated by midnight.,风暴在午夜前减弱了。,9
+aberrant,adj.,异常的；偏离常轨的,deviating from the norm,His aberrant behavior worried his friends.,他反常的举动让朋友们担忧。,9
+abeyance,n.,中止；暂时搁置,a state of temporary disuse,The plan was held in abeyance.,这个计划被暂时搁置。,9
+abscond,v.,潜逃；溜走,to leave secretly and hide,He absconded with the money.,他携款潜逃了。,9
+abstemious,adj.,节制的；节约的,restraining from excess,He led an abstemious life.,他过着节制的生活。,9
+admonish,v.,告诫；劝诫,to warn or reprimand,She admonished him to be careful.,她告诫他要小心。,9
+adulterate,v.,掺假；掺杂,to make impure by mixing,They adulterated the wine with water.,他们往酒里掺了水。,9
+aesthetic,adj.,美学的；审美的,concerning beauty or art,The building has great aesthetic value.,这栋建筑极具美学价值。,9
+ameliorate,v.,改善；减轻,to make better,The new policy ameliorated the crisis.,新政策缓解了危机。,9
+amenable,adj.,顺从的；易接受的,open to suggestion,He was amenable to the plan.,他乐意接受这个计划。,9
+anachronism,n.,时代错误；不合时宜,a thing out of its time,The phone in the period film was an anachronism.,那部古装片里的手机是个时代错误。,9
+anomaly,n.,异常；反常,deviation from the common rule,The data showed an anomaly.,数据出现了一个异常。,9
+antipathy,n.,反感；厌恶,strong dislike,He felt antipathy toward crowds.,他对人群感到反感。,9
+apathy,n.,冷漠；无动于衷,lack of interest,Public apathy shocked the leaders.,公众的冷漠让领导人震惊。,9
+apotheosis,n.,顶峰；神化,the highest point,The book is the apotheosis of his career.,这本书是他事业的顶峰。,9
+appease,v.,平息；安抚,to pacify by concession,They tried to appease the angry crowd.,他们试图安抚愤怒的人群。,9
+arduous,adj.,艰巨的；费力的,requiring great effort,The climb was arduous.,这次攀登十分艰难。,9
+ascetic,adj.,苦行的；禁欲的,practicing self-denial,Monks lead an ascetic life.,僧侣过着苦行的生活。,9
+assiduous,adj.,勤勉的；坚持不懈的,diligent and persistent,She was assiduous in her studies.,她学习十分勤勉。,9
+audacious,adj.,大胆的；鲁莽的,bold and daring,His audacious plan surprised everyone.,他大胆的计划让所有人惊讶。,9
+austere,adj.,朴素的；严厉的,severe and plain,The room was austere and empty.,房间朴素而空旷。,9
+axiom,n.,公理；自明之理,a self-evident truth,This is an axiom of geometry.,这是几何学的一条公理。,9
+bastion,n.,堡垒；据点,a defensive stronghold,The castle was a bastion of safety.,那座城堡是安全的堡垒。,9
+bane,n.,祸根；毒害,a cause of ruin,Social media can be the bane of focus.,社交媒体可能是专注力的祸根。,9
+banter,n.,玩笑；戏谑,good-humored teasing,Their banter lightened the mood.,他们的玩笑缓和了气氛。,9
+belligerent,adj.,好战的；交战的,hostile and aggressive,His belligerent tone angered her.,他好战的语气激怒了她。,9
+benevolent,adj.,仁慈的；慈善的,kind and well-meaning,The benevolent donor funded the school.,那位仁慈的捐助者资助了学校。,9
+bequeath,v.,遗赠；留下,to leave by will,He bequeathed his books to the library.,他把藏书遗赠给了图书馆。,9
+berate,v.,严责；训斥,to scold harshly,She berated him for the mistake.,她因这个错误严厉斥责他。,9
+bombastic,adj.,夸夸其谈的；浮夸的,pompous in speech,His bombastic speech bored the crowd.,他浮夸的演讲让听众厌烦。,9
+boorish,adj.,粗野的；粗鲁的,rough and bad-mannered,His boorish manners offended guests.,他粗野的举止冒犯了客人。,9
+burgeon,v.,迅速增长；发芽,to grow rapidly,The city burgeoned into a metropolis.,这座城市迅速发展成大都市。,9
+burnish,v.,擦亮；磨光,to polish to shine,He burnished the silver until it gleamed.,他把银器擦得闪闪发亮。,9
+cabal,n.,密谋集团；小团体,a secret political clique,The cabal plotted against the king.,那个小集团密谋反对国王。,9
+cacophony,n.,刺耳的嘈杂声,harsh discordant sound,The cacophony of the market was overwhelming.,市场刺耳的嘈杂声让人受不了。,9
+cajole,v.,哄骗；劝诱,to persuade with flattery,She cajoled him into staying.,她哄着他留了下来。,9
+callous,adj.,无情的；麻木的,emotionally hardened,His callous remark hurt her.,他冷漠的评论伤害了她。,9
+calumny,n.,诽谤；诬蔑,a false and malicious statement,The article was pure calumny.,那篇文章纯粹是诽谤。,9
+canard,n.,谣言；虚假报道,a false report,The story was a canard.,那个说法是个谣言。,9
+candor,n.,坦率；直言,frankness,He spoke with refreshing candor.,他说话坦率得让人耳目一新。,9
+capitulate,v.,投降；屈服,to surrender,The army capitulated at dawn.,军队在黎明时投降了。,9
+caprice,n.,反复无常；突发奇想,a sudden whim,His decision was mere caprice.,他的决定只是一时冲动。,9
+castigate,v.,严惩；申斥,to criticize severely,The report castigated the agency.,报告严厉批评了那个机构。,9
+catalyst,n.,催化剂；促进因素,a trigger of change,The war was a catalyst for reform.,那场战争是改革的催化剂。,9
+caustic,adj.,刻薄的；腐蚀性的,sarcastically biting,Her caustic wit silenced him.,她刻薄的妙语让他哑口无言。,9
+censure,n./v.,指责；谴责,official disapproval,The senator faced censure.,那位参议员遭到谴责。,9
+chicanery,n.,诡计；欺骗,trickery and deceit,The trial exposed his chicanery.,审判揭露了他的欺骗行为。,9
+circumlocution,n.,迂回说法；绕弯子,indirect and wordy speech,His answer was pure circumlocution.,他的回答完全是绕弯子。,9
+clamor,n.,喧闹；大声疾呼,loud and continuous noise,The clamor of the crowd grew.,人群的喧闹声越来越大。,9
+clemency,n.,仁慈；宽恕,mercy shown to an offender,The prisoner asked for clemency.,囚犯请求宽恕。,9
+coalesce,v.,合并；联合,to come together,The groups coalesced into one.,那些团体联合成了一个。,9
+cobbler,n.,补鞋匠；笨拙的工匠,a shoemaker,The cobbler repaired the boots.,补鞋匠修好了靴子。,9
+cogent,adj.,有说服力的；令人信服的,convincing and clear,She made a cogent argument.,她提出了一个令人信服的论点。,9
+commensurate,adj.,相称的；相当的,equal in measure,His pay was commensurate with his work.,他的薪酬与工作相称。,9
+complaisant,adj.,顺从的；殷勤的,eager to please,The complaisant clerk obeyed.,那位殷勤的店员照办了。,9
+concomitant,adj.,伴随的,accompanying,Poverty is often concomitant with illness.,贫穷常常伴随着疾病。,9
+condone,v.,宽恕；纵容,to overlook an offense,We cannot condone violence.,我们不能纵容暴力。,9
+confound,v.,使困惑；混淆,to confuse,The results confounded the experts.,结果让专家们困惑。,9
+connoisseur,n.,鉴赏家；行家,an expert in fine arts,He is a connoisseur of wine.,他是一位葡萄酒鉴赏家。,9
+contempt,n.,轻视；蔑视,disdain,She viewed the lie with contempt.,她以轻蔑看待那个谎言。,9
+contentious,adj.,好争论的；有争议的,likely to cause dispute,It was a contentious issue.,那是个有争议的问题。,9
+contrite,adj.,悔罪的；悔恨的,feeling remorse,He was contrite about the error.,他对那个错误感到悔恨。,9
+conundrum,n.,难题；谜,a confusing problem,The puzzle was a conundrum.,那个谜题是个难题。,9
+copious,adj.,丰富的；大量的,abundant,He took copious notes.,他做了大量的笔记。,9
+corroborate,v.,证实；确证,to support with evidence,The witness corroborated his story.,证人证实了他的说法。,9
+cosmopolitan,adj.,世界性的；见多识广的,including people from many places,The city is cosmopolitan.,这座城市极具国际性。,9
+craven,adj.,懦弱的；胆小的,cowardly,His craven retreat shocked us.,他懦弱的退缩让我们震惊。,9
+daunt,v.,使畏缩；威吓,to intimidate,The task did not daunt her.,那个任务没有吓倒她。,9
+debacle,n.,大灾难；惨败,a sudden disaster,The launch was a debacle.,那次发布是一场惨败。,9
+decorum,n.,得体；礼貌,proper behavior,He behaved with decorum.,他的举止得体。,9
+deference,n.,尊敬；顺从,respectful submission,She spoke with deference.,她恭敬地发言。,9
+delineate,v.,描绘；描画轮廓,to describe precisely,The report delineates the plan.,报告描绘了那个计划。,9
+demagogue,n.,煽动者,a leader who appeals to passions,The demagogue stirred the crowd.,那个煽动者鼓动了人群。,9
+demure,adj.,端庄的；羞涩的,modest and reserved,She gave a demure smile.,她羞涩地一笑。,9
+denigrate,v.,诋毁；贬低,to unfairly criticize,Do not denigrate his effort.,不要贬低他的努力。,9
+deride,v.,嘲笑；嘲弄,to mock,They derided his idea.,他们嘲笑他的想法。,9
+desiccated,adj.,干燥的；脱水的,dried out,The desiccated land cracked.,干涸的土地裂开了。,9
+desultory,adj.,散漫的；不连贯的,lacking plan,They held a desultory chat.,他们散漫地聊了一会儿。,9
+diatribe,n.,抨击；谩骂,a bitter verbal attack,He launched a diatribe.,他发起了一通谩骂。,9
+didactic,adj.,说教的；教导的,intended to teach,The book is too didactic.,这本书太说教了。,9
+diffidence,n.,羞怯；缺乏自信,shyness,His diffidence held him back.,他的羞怯让他退缩。,9
+dilatory,adj.,拖延的；迟缓的,slow to act,His dilatory habits annoyed us.,他拖沓的习惯惹恼了我们。,9
+dilettante,n.,业余爱好者；浅尝者,a dabbler in the arts,He is a dilettante in music.,他在音乐上只是个业余爱好者。,9
+discern,v.,辨别；看出,to perceive clearly,She could discern the truth.,她能看清真相。,9
+disparage,v.,贬低；轻视,to belittle,Do not disparage her work.,不要贬低她的作品。,9
+dissemble,v.,掩饰；装假,to conceal feelings,He dissembled his fear.,他掩饰了自己的恐惧。,9
+dissident,n.,持异议者,one who disagrees,The dissident was arrested.,那位持异议者被捕了。,9
+dogmatic,adj.,武断的；教条的,stubbornly opinionated,His dogmatic view angered others.,他武断的观点激怒了别人。,9
+duplicity,n.,口是心非；欺骗,deceitfulness,His duplicity was exposed.,他的欺骗被揭穿了。,9
+ebullient,adj.,热情奔放的；沸腾的,joyful and enthusiastic,Her ebullient mood was contagious.,她奔放的情绪很有感染力。,9
+eclectic,adj.,兼收并蓄的；折中的,drawing from many sources,His taste is eclectic.,他的品味兼收并蓄。,9
+edict,n.,法令；敕令,an official order,The king issued an edict.,国王颁布了一道法令。,9
+effrontery,n.,厚颜无耻,shameless boldness,He had the effrontery to laugh.,他竟厚颜无耻地笑了起来。,9
+elegy,n.,挽歌；哀诗,a poem of mourning,He wrote an elegy for his friend.,他写了一首悼念朋友的挽歌。,9
+elicit,v.,引出；探出,to draw out,The question elicited no reply.,那个问题没有引出回答。,9
+emollient,adj./n.,润肤的；缓和物,softening and soothing,Use an emollient cream.,用舒缓的润肤霜。,9
+empirical,adj.,经验主义的,based on observation,The study used empirical data.,那项研究使用了经验数据。,9
+emulate,v.,效仿；同…竞争,to imitate with effort,He tried to emulate his mentor.,他努力效仿他的导师。,9
+enervate,v.,使衰弱；使无力,to weaken,The heat enervated the workers.,酷热让工人们虚弱无力。,9
+engender,v.,产生；引起,to cause to exist,The policy engendered trust.,那项政策产生了信任。,9
+ennui,n.,厌倦；无聊,listlessness,The long wait filled her with ennui.,漫长的等待让她感到厌倦。,9
+ephemeral,adj.,短暂的；朝生暮死的,short-lived,The fame was ephemeral.,那名声转瞬即逝。,9
+epistyle,n.,额枋；柱顶过梁,the architrave,The epistyle cracked.,那根额枋裂开了。,9
+equanimity,n.,镇定；平和,calmness,She faced the news with equanimity.,她镇定地面对这个消息。,9
+equivocate,v.,含糊其词；支吾,to use ambiguous language,He equivocated about the cost.,他在费用问题上支吾其词。,9
+erudite,adj.,博学的,showing great knowledge,The erudite professor lectured.,那位博学的教授做了讲座。,9
+eschew,v.,避开；戒绝,to avoid deliberately,He eschewed all violence.,他刻意回避一切暴力。,9
+eulogy,n.,颂词；悼词,speech in praise,He delivered a eulogy.,他致了一篇悼词。,9
+euphemism,n.,委婉语,a mild substitute word,Passed away is a euphemism.,去世是一种委婉说法。,9
+evanescent,adj.,易逝的；短暂的,quickly fading,The evanescent light vanished.,那转瞬即逝的光消失了。,9
+exacerbate,v.,使恶化；加剧,to make worse,The drug exacerbated the pain.,那种药加剧了疼痛。,9
+exculpate,v.,开脱；证明无罪,to free from blame,New evidence exculpated him.,新证据证明他无罪。,9
+exemplar,n.,模范；典范,a perfect example,He is an exemplar of virtue.,他是品德的典范。,9
+exhort,v.,劝勉；力劝,to strongly encourage,She exhorted them to vote.,她力劝他们去投票。,9
+exonerate,v.,免除；证明无罪,to clear of blame,The verdict exonerated her.,判决证明她无罪。,9
+expedient,adj./n.,权宜的；权宜之计,convenient but improper,It was an expedient choice.,那是个权宜之计。,9
+expiate,v.,赎罪；补偿,to atone for,He sought to expiate his sin.,他寻求赎罪。,9
+expunge,v.,抹去；删除,to erase completely,They expunged the record.,他们抹去了那个记录。,9
+extant,adj.,现存的,still in existence,The manuscript is extant.,那份手稿现存于世。,9
+extol,v.,赞美；颂扬,to praise highly,They extolled his courage.,他们高度赞扬他的勇气。,9
+extraneous,adj.,无关的；外来的,irrelevant,Remove the extraneous details.,删掉那些无关的细枝末节。,9
+facetious,adj.,爱开玩笑的；滑稽的,not meant to be taken seriously,His facetious remark eased tension.,他开玩笑的话缓解了紧张。,9
+fallacious,adj.,谬误的；骗人的,containing a fallacy,That is a fallacious argument.,那是个谬误的论点。,9
+fatuous,adj.,愚昧的；自满的,silly and self-satisfied,His fatuous grin annoyed her.,他愚蠢的傻笑惹恼了她。,9
+feckless,adj.,效率低下的；不负责任的,lacking purpose,His feckless son worried him.,他那个不成器的儿子让他担忧。,9
+fervid,adj.,炽热的；热情的,intensely enthusiastic,She gave a fervid speech.,她做了一番热情的演讲。,9
+flag,v.,衰退；减弱,to decline,His energy flagged at noon.,他的精力在中午衰退了。,9
+florid,adj.,红润的；华丽的,flushed or ornate,He had a florid face.,他面色红润。,9
+flout,v.,藐视；公然无视,to openly disobey,They flouted the rules.,他们公然无视规则。,9
+foment,v.,煽动；激起,to stir up trouble,He fomented rebellion.,他煽动叛乱。,9
+fortuitous,adj.,偶然的；幸运的,happening by chance,The meeting was fortuitous.,那次相遇纯属偶然。,9
+freudian,adj.,弗洛伊德学说的,relating to Freud,That was a Freudian slip.,那是个弗洛伊德式的失言。,9
+fulminate,v.,怒斥；爆炸,to protest vehemently,He fulminated against the law.,他怒斥那项法律。,9
+gainsay,v.,否认；反驳,to deny,No one could gainsay him.,没人能反驳他。,9
+gambit,n.,策略；开局让棋,a calculated move,His opening gambit worked.,他那开局的一招奏效了。,9
+garner,v.,获得；收集,to gather,The film garnered awards.,那部电影获得了诸多奖项。,9
+garrulous,adj.,喋喋不休的；唠叨的,excessively talkative,The garrulous guest talked on.,那位唠叨的客人说个不停。,9
+gregarious,adj.,合群的；爱社交的,sociable,He is a gregarious child.,他是个合群的孩子。,9
+guile,n.,狡诈；诡计,cunning,He used guile to win.,他用诡计赢了。,9
+gullible,adj.,易受骗的,easily deceived,The gullible tourist believed him.,那个易受骗的游客相信了他。,9
+harangue,n./v.,长篇大论的演说,a ranting speech,He delivered a harangue.,他发表了一通长篇演说。,9
+heterogeneous,adj.,异类的；多样的,diverse in kind,The crowd was heterogeneous.,人群成分复杂多样。,9
+hirsute,adj.,多毛的；毛发蓬乱的,hairy,The hirsute man scared the dog.,那个多毛的男人吓到了狗。,9
+hubris,n.,傲慢；狂妄自大,excessive pride,His hubris led to ruin.,他的狂妄导致了毁灭。,9
+hyperbole,n.,夸张,exaggeration,His claim was hyperbole.,他的说法夸张了。,9
+iconoclast,n.,反对崇拜者；打破传统的人,one who attacks norms,He is an iconoclast.,他是个打破传统的人。,9
+imminent,adj.,迫近的；即将发生的,about to happen,The storm was imminent.,暴风雨即将来临。,9
+immutable,adj.,不可改变的,unchangeable,The law is immutable.,那条法则不可改变。,9
+impassive,adj.,无动于衷的；冷静的,showing no emotion,He remained impassive.,他依然无动于衷。,9
+impecunious,adj.,贫穷的；没钱的,having no money,The impecunious student worked.,那个贫穷的学生打工。,9
+imperious,adj.,专横的；傲慢的,domineering,Her imperious tone offended him.,她专横的语气冒犯了他。,9
+imperturbable,adj.,沉着的；不易激动的,calm under pressure,She was imperturbable in crisis.,她在危机中沉着冷静。,9
+impetuous,adj.,冲动的；鲁莽的,acting hastily,His impetuous decision backfired.,他冲动的决定适得其反。,9
+implacable,adj.,无法平息的；固执的,unable to be pacified,He was implacable in hate.,他的仇恨无法平息。,9
+importune,v.,纠缠；强求,to beg persistently,He importuned for a loan.,他纠缠着要借钱。,9
+impugn,v.,质疑；指责,to attack as false,They impugned his motives.,他们质疑他的动机。,9
+inchoate,adj.,初期的；未成形的,just begun,The plan was still inchoate.,那个计划仍处于初期。,9
+inculcate,v.,反复灌输,to instill by repetition,Teachers inculcate values.,教师反复灌输价值观。,9
+indefatigable,adj.,不知疲倦的,tireless,He was an indefatigable worker.,他是个不知疲倦的工作者。,9
+ineffable,adj.,难以言喻的,too great to express,She felt ineffable joy.,她感到难以言喻的喜悦。,9
+inexorable,adj.,不可阻挡的；无情的,impossible to stop,Time is inexorable.,时间无情地流逝。,9
+ingenuous,adj.,天真的；坦率的,innocent and frank,Her ingenuous smile charmed all.,她天真的笑容迷住了所有人。,9
+inimical,adj.,敌对的；有害的,hostile,The climate is inimical to crops.,那种气候对庄稼有害。,9
+innocuous,adj.,无害的；无毒的,harmless,The joke was innocuous.,那个玩笑是无害的。,9
+insidious,adj.,阴险的；暗中为害的,proceeding subtly,The disease is insidious.,这种疾病十分阴险。,9
+insipid,adj.,淡而无味的；乏味的,flat and dull,The soup was insipid.,那汤淡而无味。,9
+intransigent,adj.,不妥协的；固执的,refusing to compromise,The intransigent boss refused.,那个不妥协的老板拒绝了。,9
+intrepid,adj.,无畏的；勇敢的,fearless,The intrepid explorer set out.,那位无畏的探险家出发了。,9
+inveterate,adj.,根深蒂固的；积习的,long established,He is an inveterate liar.,他是个积习难改的骗子。,9
+irascible,adj.,易怒的；暴躁的,prone to anger,The irascible old man shouted.,那个暴躁的老人大喊。,9
+ire,n.,愤怒,anger,His remark drew her ire.,他的话招来了她的愤怒。,9
+itinerant,adj.,巡回的；流动的,traveling from place to place,The itinerant seller moved on.,那个流动商贩继续赶路。,9
+kismet,n.,命运；天意,fate,They called it kismet.,他们称之为天意。,9
+laconic,adj.,简洁的；惜字如金的,using few words,His laconic reply ended it.,他简洁的回答结束了对话。,9
+languid,adj.,倦怠的；无精打采的,weak and slow,The heat made her languid.,酷热让她无精打采。,9
+lassitude,n.,疲乏；无力,physical weariness,He felt a deep lassitude.,他感到深深的疲乏。,9
+latent,adj.,潜在的；隐伏的,present but not active,The latent talent emerged.,那潜在的才华显现了。,9
+laud,v.,称赞；赞美,to praise,They lauded his success.,他们称赞他的成功。,9
+legerdemain,n.,戏法；诡辩,sleight of hand,The trick was mere legerdemain.,那个戏法只是障眼法。,9
+libertine,n.,放荡者；自由思想者,one who lives recklessly,The libertine ignored the rules.,那个放荡者无视规则。,9
+licentious,adj.,放肆的；淫乱的,unrestrained by morality,His licentious behavior shocked all.,他放肆的行为震惊了所有人。,9
+lilliputian,adj.,极小的；微不足道的,tiny,The lilliputian bug crawled away.,那只极小的虫子爬走了。,9
+loquacious,adj.,健谈的；多话的,very talkative,The loquacious host entertained.,那位健谈的主人生动活跃。,9
+lugubrious,adj.,忧郁的；哀伤的,mournful,He wore a lugubrious face.,他一脸忧郁。,9
+magnanimous,adj.,宽宏大量的,generous in forgiveness,He was magnanimous in victory.,他在胜利时宽宏大量。,9
+malinger,v.,装病偷懒,to feign illness,He malingered to skip work.,他装病逃避工作。,9
+malleable,adj.,可塑的；易受影响,easily shaped,The clay was malleable.,黏土可塑。,9
+maverick,n.,独行其是者；标新立异者,one who acts independently,He is a political maverick.,他是个政治上的独行侠。,9
+mellifluous,adj.,悦耳的；如蜜般流畅的,sweet sounding,Her mellifluous voice soothed him.,她悦耳的声音安抚了他。,9
+mendacity,n.,虚假；谎言,the quality of being false,His mendacity was exposed.,他的谎言被揭穿了。,9
+mercurial,adj.,善变的；机智的,changeable,His mercurial mood worried her.,他善变的情绪让她担忧。,9
+meticulous,adj.,一丝不苟的；极仔细的,very careful,She kept meticulous records.,她做了极仔细的记录。,9
+mettlesome,adj.,精神饱满的；勇敢的,spirited,The mettlesome horse raced.,那匹精神饱满的马奔驰。,9
+misanthrope,n.,厌世者,one who hates mankind,He became a misanthrope.,他变成了一个厌世者。,9
+mitigate,v.,减轻；缓和,to make less severe,The medicine mitigated the pain.,药减轻了疼痛。,9
+mollify,v.,抚慰；使平静,to soothe,She mollified the angry child.,她安抚了那个愤怒的孩子。,9
+morose,adj.,忧郁的；脾气坏的,sullen and gloomy,He was morose all day.,他一整天都闷闷不乐。,9
+mulct,v.,诈骗；处以罚款,to defraud,They mulcted him of his savings.,他们骗光了他的积蓄。,9
+munificent,adj.,慷慨的；大方的,very generous,The munificent gift funded the lab.,那笔慷慨的赠礼资助了实验室。,9
+nadir,n.,最低点；最糟时刻,the lowest point,His career hit its nadir.,他的事业跌至谷底。,9
+nefarious,adj.,邪恶的；穷凶极恶的,wicked,The nefarious plot failed.,那个邪恶的阴谋失败了。,9
+neophyte,n.,新手；初学者,a beginner,He is a neophyte in coding.,他是编程新手。,9
+noisome,adj.,恶臭的；有害的,offensive and harmful,The noisome fumes leaked.,那些有害的臭气泄漏了。,9
+nonchalant,adj.,漠不关心的；冷淡的,casually calm,He gave a nonchalant shrug.,他漠然地耸了耸肩。,9
+noun,n.,名词,a word for a thing,Book is a noun.,book 是个名词。,9
+obdurate,adj.,固执的；冷酷的,stubbornly resistant,The obdurate judge refused.,那个固执的法官拒绝了。,9
+obfuscate,v.,使模糊；使困惑,to confuse deliberately,The report obfuscated the facts.,那份报告模糊了事实。,9
+obsequious,adj.,奉承的；谄媚的,excessively submissive,The obsequious waiter bowed.,那个谄媚的侍者鞠了躬。,9
+obstinate,adj.,顽固的；倔强的,stubborn,The obstinate child refused food.,那个倔强的孩子拒绝进食。,9
+obviate,v.,排除；避免,to make unnecessary,The plan obviated the risk.,那个计划排除了风险。,9
+occlude,v.,堵塞；封闭,to close up,The clot occluded the artery.,血栓堵塞了动脉。,9
+odious,adj.,可憎的；讨厌的,hateful,The odious task fell to him.,那项可憎的任务落到了他头上。,9
+officious,adj.,爱管闲事的；非官方的,meddlesome,The officious neighbor interfered.,那个爱管闲事的邻居插了手。,9
+onerous,adj.,繁重的；费力的,burdensome,The onerous duty exhausted her.,那项繁重的职责让她筋疲力尽。,9
+opprobrium,n.,耻辱；责骂,public disgrace,He faced opprobrium.,他面临责骂。,9
+ossify,v.,骨化；僵化,to become rigid,The system ossified over time.,那个制度随时间僵化了。,9
+ostensible,adj.,表面的；假装的,stated but not genuine,His ostensible reason was false.,他表面的理由站不住脚。,9
+ostracize,v.,排斥；流放,to exclude from a group,They ostracized the traitor.,他们排斥了那个叛徒。,9
+palliate,v.,减轻；掩饰,to lessen without curing,The drug palliated the symptoms.,那种药减轻了症状。,9
+pallid,adj.,苍白的；暗淡的,pale,His pallid face worried the nurse.,他苍白的脸让护士担忧。,9
+paradigm,n.,范例；范式,a model or pattern,This is a new paradigm.,这是一个新范式。,9
+pariah,n.,被排斥者；贱民,an outcast,He became a social pariah.,他成了社会的弃儿。,9
+paroxysm,n.,突发；阵发,a sudden outburst,He fell in a paroxysm of cough.,他突然一阵咳嗽。,9
+parsimonious,adj.,吝啬的；节俭过度的,stingy,The parsimonious man saved all.,那个吝啬的男人把一切都存起来。,9
+pathological,adj.,病理的；病态的,relating to disease,His fear was pathological.,他的恐惧是病态的。,9
+paucity,n.,缺乏；稀少,scarcity,The paucity of data hindered us.,数据稀少阻碍了进展。,9
+peccadillo,n.,小过失；轻罪,a minor sin,He laughed off the peccadillo.,他一笑置之那点小过失。,9
+pedantic,adj.,学究气的；迂腐的,overly concerned with detail,His pedantic style bored them.,他学究气的风格让他们厌烦。,9
+pellucid,adj.,透明的；清晰的,transparently clear,The pellucid water shimmered.,清澈的水闪闪发光。,9
+penchant,n.,偏好；倾向,a strong liking,He has a penchant for risk.,他偏好冒险。,9
+penurious,adj.,贫穷的；吝啬的,extremely poor,The penurious family struggled.,那个贫穷的家庭艰难度日。,9
+peregrination,n.,旅行；游历,a long journey,His peregrination lasted years.,他的游历持续了数年。,9
+perfidious,adj.,背信弃义的,treacherous,The perfidious ally betrayed them.,那个背信弃义的盟友背叛了他们。,9
+perfunctory,adj.,敷衍的；马虎的,done without care,He gave a perfunctory nod.,他敷衍地点了点头。,9
+pernicious,adj.,有害的；恶性的,harmful in a subtle way,The pernicious rumor spread.,那个恶性的谣言传开了。,9
+perquisite,n.,特权；额外补贴,a special privilege,The car was a perquisite.,那辆车是一项额外补贴。,9
+pertinacious,adj.,执拗的；顽强的,holding firmly,Her pertinacious efforts paid off.,她执拗的努力有了回报。,9
+peruse,v.,细读；仔细阅读,to read carefully,She perused the contract.,她仔细阅读了合同。,9
+picaresque,adj.,流浪汉式的；滑稽冒险的,of roguish adventure,The picaresque novel amused him.,那部流浪汉小说让他觉得有趣。,9
+pillage,v./n.,掠夺；劫掠,to plunder,The army pillaged the town.,军队劫掠了城镇。,9
+pinnacle,n.,顶点；尖顶,the highest point,He reached the pinnacle of fame.,他登上了名望的顶点。,9
+piquant,adj.,辛辣的；开胃的,pleasantly sharp,The piquant sauce delighted her.,那辛辣的酱汁让她欢喜。,9
+pique,n./v.,恼怒；激起,resentment or to stir,The insult piqued his pride.,那侮辱激起了他的自尊。,9
+pithy,adj.,简练的；有力的,concise and forceful,He made a pithy remark.,他说了一句简练有力的话。,9
+placate,v.,安抚；平息,to soothe anger,She tried to placate him.,她试图安抚他。,9
+platitude,n.,陈词滥调；老生常谈,a trite remark,His speech was full of platitudes.,他的演讲满是陈词滥调。,9
+plethora,n.,过多；过剩,an excess,There was a plethora of choices.,选择过多。,9
+plumb,v.,探测；深入了解,to explore deeply,He plumbed the mystery.,他深入探究了那个谜团。,9
+plummet,v.,骤降；暴跌,to fall steeply,The stock plummeted.,股价暴跌。,9
+porcine,adj.,猪的；像猪的,pig-like,The porcine snout twitched.,那个像猪的鼻子抽动着。,9
+portent,n.,预兆；征兆,an omen,The comet was a portent.,那颗彗星是个预兆。,9
+precarious,adj.,不稳定的；危险的,insecure,His job was precarious.,他的工作不稳定。,9
+precipitous,adj.,陡峭的；仓促的,steep or hasty,They made a precipitous retreat.,他们仓促撤退。,9
+precursor,n.,先驱；前兆,a forerunner,The invention was a precursor.,那项发明是个先驱。,9
+prescience,n.,预知；先见,foreknowledge,Her prescience saved them.,她的先见之明拯救了他们。,9
+prevaricate,v.,支吾；说谎,to evade the truth,He prevaricated under pressure.,他在压力下支吾其词。,9
+probity,n.,正直；廉洁,integrity,His probity was unquestioned.,他的正直无可置疑。,9
+proclivity,n.,癖性；倾向,a natural tendency,He has a proclivity for art.,他天生偏爱艺术。,9
+prodigal,adj.,挥霍的；浪子的,wastefully extravagant,The prodigal son returned.,那个浪子回头了。,9
+profusion,n.,丰富；大量,abundance,Flowers bloomed in profusion.,鲜花大量盛开。,9
+prolix,adj.,冗长的,wordy,His prolix letter bored her.,他冗长的信让她厌烦。,9
+propinquity,n.,邻近；亲近,nearness,Their propinquity sparked friendship.,他们的邻近促成了友谊。,9
+propitiate,v.,抚慰；劝解,to appease,They sought to propitiate the gods.,他们试图抚慰众神。,9
+propitious,adj.,吉利的；有利的,favorable,The propitious wind aided them.,那阵有利的风帮了他们。,9
+prosaic,adj.,平淡的；乏味的,ordinary and dull,His prose was prosaic.,他的散文平淡乏味。,9
+proscribe,v.,禁止；剥夺权利,to forbid,The law proscribes such acts.,法律禁止此类行为。,9
+pugnacious,adj.,好斗的；好战的,aggressive,His pugnacious stance alarmed them.,他好斗的姿态让他们警觉。,9
+pulchritude,n.,美丽,physical beauty,Her pulchritude was famed.,她的美貌闻名遐迩。,9
+punctilious,adj.,一丝不苟的；拘礼的,very attentive to detail,The punctilious host greeted all.,那位一丝不苟的主人向所有人致意。,9
+pundit,n.,权威；专家,a learned expert,The pundit analyzed the news.,那位权威分析了新闻。,9
+punitive,adj.,惩罚的；刑罚的,inflicting punishment,The punitive fine was heavy.,那笔惩罚性罚款很重。,9
+puerile,adj.,幼稚的；孩子气的,childish,His puerile joke fell flat.,他幼稚的玩笑无人捧场。,9
+pugilist,n.,拳击手,a boxer,The pugilist trained hard.,那个拳击手刻苦训练。,9
+quaff,v.,痛饮；大口喝,to drink heartily,He quaffed the ale.,他痛饮了麦酒。,9
+quagmire,n.,泥沼；困境,a difficult situation,The war became a quagmire.,那场战争成了泥潭。,9
+quail,v.,畏惧；畏缩,to shrink in fear,She did not quail at the threat.,她面对威胁毫不退缩。,9
+qualm,n.,疑虑；不安,a feeling of doubt,He had no qualms.,他毫无顾虑。,9
+quandary,n.,困惑；进退两难,a state of perplexity,He was in a quandary.,他陷入了进退两难。,9
+quibble,v./n.,挑剔；小反对,a minor objection,Do not quibble over words.,不要挑剔字眼。,9
+quiescent,adj.,静止的；休眠的,quiet and inactive,The volcano was quiescent.,那座火山处于休眠。,9
+raconteur,n.,善于讲故事的人,a skilled storyteller,He was a witty raconteur.,他是个风趣的讲故事高手。,9
+raillery,n.,善意的玩笑,good-natured teasing,Their raillery was harmless.,他们的玩笑并无恶意。,9
+rancor,n.,深仇；怨恨,bitter resentment,He felt no rancor.,他毫无怨恨。,9
+rapprochement,n.,和解；恢复友好,renewal of relations,The treaty brought rapprochement.,条约带来了和解。,9
+recalcitrant,adj.,倔强的；不服管教的,stubbornly resistant,The recalcitrant mule refused.,那头倔强的骡子不肯动。,9
+recidivism,n.,累犯；再犯,relapse into crime,The program reduced recidivism.,那个项目减少了累犯。,9
+recondite,adj.,深奥的；晦涩的,difficult to understand,The essay was recondite.,那篇文章很晦涩。,9
+redoubtable,adj.,令人敬畏的；强大的,formidable,The redoubtable general won.,那位令人敬畏的将军赢了。,9
+refulgent,adj.,辉煌的；灿烂的,shining brightly,The refulgent sun rose.,灿烂的太阳升起了。,9
+relegate,v.,降级；交付,to assign to a lower place,He was relegated to the bench.,他被降到了替补席。,9
+remonstrate,v.,抗议；规劝,to protest,She remonstrated with him.,她向他抗议。,9
+renounce,v.,放弃；声明放弃,to give up formally,He renounced the throne.,他放弃了王位。,9
+repast,n.,餐；宴席,a meal,The lavish repast delighted guests.,那顿丰盛的宴席让客人欢喜。,9
+reproof,n.,责备；指责,an expression of blame,He received a stern reproof.,他受到了严厉的责备。,9
+reprobate,n./adj.,堕落者；邪恶的,a wicked person,The reprobate cheated all.,那个堕落者骗了所有人。,9
+repudiate,v.,拒绝；否认,to reject as untrue,He repudiated the claim.,他否认了那个说法。,9
+rescind,v.,废除；取消,to revoke,They rescinded the order.,他们撤销了命令。,9
+restive,adj.,不安的；难控制的,restless and stubborn,The restive crowd grew loud.,不安的人群声音越来越大。,9
+ribald,adj.,粗俗的；下流的,coarse and vulgar,His ribald joke offended her.,他粗俗的笑话冒犯了她。,9
+rife,adj.,充斥的；普遍的,abundant,The city was rife with rumors.,城里充斥着谣言。,9
+risible,adj.,可笑的；滑稽的,provoking laughter,His excuse was risible.,他的借口可笑。,9
+roil,v.,激怒；搅浑,to disturb,The news roiled the market.,那个消息搅动了市场。,9
+sanguine,adj.,乐观的；红润的,cheerfully optimistic,She was sanguine about the future.,她对未来乐观。,9
+sapient,adj.,睿智的；有见识的,wise,The sapient elder spoke.,那位睿智的长者发言了。,9
+saturnine,adj.,阴沉的；忧郁的,gloomy,His saturnine mood chilled the room.,他阴沉的情绪让房间变冷。,9
+scurrilous,adj.,诽谤的；下流的,making vicious attacks,The scurrilous article libeled him.,那篇诽谤文章毁谤了他。,9
+seminal,adj.,开创性的；有影响力的,strongly influencing later developments,The book was seminal.,那本书具有开创性。,9
+sententious,adj.,说教的；简洁警句的,given to moralizing,His sententious tone annoyed them.,他说教的语气惹恼了他们。,9
+sinecure,n.,挂名差事；闲职,a paid job with no work,The post was a sinecure.,那个职位是个闲差。,9
+sinuous,adj.,蜿蜒的；柔软的,winding,The sinuous river curved.,蜿蜒的河流弯弯曲曲。,9
+slake,v.,消除；平息,to satisfy,He slaked his thirst.,他解了渴。,9
+sodden,adj.,浸透的；湿透的,soaked through,The sodden clothes clung.,湿透的衣服紧贴着身体。,9
+solecism,n.,语病；失礼,a grammatical error,His solecism amused the teacher.,他的语病让老师觉得好笑。,9
+splenetic,adj.,脾气坏的；忧郁的,bad-tempered,The splenetic man grumbled.,那个脾气坏的人抱怨着。,9
+spurious,adj.,伪造的；假的,false,The spurious claim was rejected.,那个伪造的说法被驳回。,9
+squalid,adj.,肮脏的；卑劣的,filthy and degraded,He grew up in squalid poverty.,他在肮脏的贫困中长大。,9
+staid,adj.,稳重的；沉静的,settled and steady,The staid audience listened.,沉静的听众听着。,9
+stentorian,adj.,声音洪亮的,extremely loud,His stentorian voice boomed.,他洪亮的嗓音隆隆作响。,9
+stolid,adj.,迟钝的；无动于衷的,showing little emotion,The stolid guard watched.,那个无动于衷的卫兵注视着。,9
+sublime,adj.,崇高的；壮丽的,of high excellence,The view was sublime.,那景色壮丽非凡。,9
+subterfuge,n.,诡计；托词,a deceptive trick,He used subterfuge to escape.,他用诡计逃脱了。,9
+succinct,adj.,简洁的；简明的,expressed briefly,Give a succinct answer.,给个简洁的回答。,9
+sundry,adj.,各种的；杂项的,various,He packed sundry items.,他打包了各种杂物。,9
+supine,adj.,仰卧的；懒散的,lying face up or passive,He lay supine on the grass.,他仰卧在草地上。,9
+surfeit,n./v.,过量；使厌腻,an excessive amount,He had a surfeit of food.,他吃得过饱。,9
+surly,adj.,乖戾的；态度粗暴的,hostile and rude,The surly clerk glared.,那个态度粗暴的店员瞪着眼。,9
+swarthy,adj.,黝黑的,dark-skinned,The swarthy sailor squinted.,那个黝黑的水手眯着眼。,9
+sycophant,n.,阿谀奉承者,a flatterer,The sycophant praised the boss.,那个马屁精夸赞老板。,9
+tacit,adj.,默许的；心照不宣的,implied not spoken,They had a tacit agreement.,他们有默契。,9
+taciturn,adj.,沉默寡言的,habitually silent,The taciturn man spoke little.,那个沉默寡言的人很少说话。,9
+tangential,adj.,离题的；相切的,only slightly related,His comment was tangential.,他的评论离题了。,9
+tawdry,adj.,俗丽的；廉价的,gaudy and cheap,She wore tawdry jewelry.,她戴着俗丽的珠宝。,9
+tee total,adj.,绝对戒酒的,abstaining from alcohol,The teetotal guest drank water.,那位戒酒的客人喝水。,9
+temerity,n.,鲁莽；蛮勇,reckless boldness,He had the temerity to argue.,他竟鲁莽地争辩起来。,9
+tenacious,adj.,顽强的；紧握的,holding firmly,Her tenacious grip held on.,她顽强的抓握坚持着。,9
+tendentious,adj.,有倾向的；有偏见的,biased,The tendentious report skewed facts.,那份有偏见的报告歪曲了事实。,9
+tenet,n.,信条；教义,a principle,Freedom is a tenet.,自由是一条信条。,9
+tenuous,adj.,脆弱的；纤细的,weak and thin,Their lead was tenuous.,他们的领先优势很微弱。,9
+terse,adj.,简洁的；简练的,using few words,He gave a terse reply.,他给了个简短的回答。,9
+thwart,v.,阻挠；挫败,to prevent,They thwarted the plan.,他们挫败了计划。,9
+timorous,adj.,胆怯的；羞怯的,fearful,The timorous child hid.,那个胆怯的孩子躲了起来。,9
+torpid,adj.,迟钝的；不活泼的,sluggish,The torpid frog lay still.,那只迟钝的青蛙一动不动。,9
+tractable,adj.,易处理的；温顺的,easily managed,The tractable horse obeyed.,那匹温顺的马听话了。,9
+transient,adj.,短暂的,lasting a short time,The joy was transient.,那份喜悦是短暂的。,9
+trenchant,adj.,犀利的；尖锐的,sharp and incisive,His trenchant critique stung.,他犀利的批评令人刺痛。,9
+trepidation,n.,恐惧；战栗,fear and anxiety,She entered with trepidation.,她战战兢兢地走进去。,9
+trite,adj.,陈腐的；老套的,lacking originality,His trite words annoyed her.,他陈腐的话惹恼了她。,9
+truculent,adj.,好斗的；粗暴的,aggressively defiant,His truculent manner scared them.,他粗暴的态度吓到了他们。,9
+turbid,adj.,浑浊的；混乱的,cloudy or confused,The turbid water hid the bottom.,浑浊的水遮住了水底。,9
+turpitude,n.,卑鄙；堕落,depravity,His moral turpitude shocked all.,他道德的堕落震惊了所有人。,9
+tutelary,adj.,保护的；守护的,protective,The tutelary spirit watched.,那位守护神注视着。,9
+tyro,n.,新手；生手,a beginner,He is a tyro at chess.,他是象棋新手。,9
+uberimminent,adj.,极度迫近的,extremely imminent,The uberimminent danger loomed.,极度迫近的危险笼罩着。,9
+umbrage,n.,不快；生气,offense,She took umbrage at the joke.,她对那个玩笑感到不快。,9
+unctuous,adj.,油滑的；奉承的,excessively smooth,His unctuous praise rang false.,他油滑的赞扬听起来虚假。,9
+undulate,v.,起伏；波动,to move in waves,The field undulated in wind.,田野在风中起伏。,9
+untoward,adj.,不幸的；麻烦的,unfavorable,An untoward event occurred.,发生了一件麻烦事。,9
+upbraid,v.,责备；责骂,to scold,She upbraid him for lying.,她责骂他撒谎。,9
+urbane,adj.,温文尔雅的；有礼貌的,refined in manner,The urbane host charmed guests.,那位温文尔雅的主人迷住了客人。,9
+usurp,v.,篡夺；夺取,to seize by force,He tried to usurp the throne.,他试图篡夺王位。,9
+vacuous,adj.,空洞的；无意义的,lacking thought,Her vacuous smile faded.,她空洞的笑容消失了。,9
+vagary,n.,奇想；变幻无常,an erratic notion,The weathers vagary surprised us.,天气的变幻让我们惊讶。,9
+valediction,n.,告别；临别赠言,a farewell,His valediction moved all.,他的告别辞感动了所有人。,9
+vainglory,n.,虚荣；浮夸的自豪,excessive pride,His vainglory amused none.,他的虚荣无人欣赏。,9
+variegated,adj.,杂色的；多样的,varied in color,The variegated leaves shimmered.,杂色的叶子闪闪发光。,9
+vehement,adj.,激烈的；热烈的,showing strong feeling,She made a vehement protest.,她提出了激烈的抗议。,9
+venal,adj.,贪污的；可收买的,open to bribery,The venal official took bribes.,那个贪腐的官员收了贿。,9
+venerate,v.,崇敬；敬仰,to regard with respect,They venerate their elders.,他们敬仰长辈。,9
+veracious,adj.,诚实的；真实的,truthful,He gave a veracious account.,他作了真实的陈述。,9
+verisimilitude,n.,逼真；似真,the appearance of truth,The film had verisimilitude.,那部电影很逼真。,9
+vertiginous,adj.,眩晕的；极高的,causing dizziness,The vertiginous cliff loomed.,那极高的悬崖耸立着。,9
+vicissitude,n.,变迁；兴衰,a change of fortune,He endured lifes vicissitudes.,他承受了人生的兴衰。,9
+vilify,v.,诽谤；污蔑,to speak evil of,They vilified the leader.,他们诽谤那位领袖。,9
+virulent,adj.,剧毒的；恶毒的,extremely hostile,The virulent strain spread.,那种恶毒的毒株传开了。,9
+viscid,adj.,黏稠的,sticky and thick,The viscid sap stuck.,黏稠的树液粘住了。,9
+vitiate,v.,损害；使无效,to impair,The error vitiated the study.,那个错误损害了研究。,9
+vitriolic,adj.,尖酸刻薄的；硫酸的,bitterly caustic,His vitriolic review stung.,他尖酸刻薄的评论令人刺痛。,9
+vivify,v.,使生动；使活泼,to give life to,The music vivified the scene.,音乐让场景生动起来。,9
+vociferous,adj.,大声疾呼的；喧闹的,loud and forceful,The vociferous crowd cheered.,喧闹的人群欢呼着。,9
+volatile,adj.,易变的；挥发性的,unstable,The volatile market swung.,不稳定的市场剧烈波动。,9
+voluble,adj.,健谈的；口若悬河的,fluent in speech,The voluble speaker fascinated.,那位口若悬河的演讲者迷住了人。,9
+voracious,adj.,贪吃的；求知欲强的,excessively eager,He is a voracious reader.,他是个如饥似渴的读者。,9
+waggish,adj.,滑稽的；爱开玩笑的,humorous,His waggish tale amused all.,他滑稽的故事让所有人发笑。,9
+waive,v.,放弃；免除,to refrain from enforcing,He waived his right.,他放弃了权利。,9
+warped,adj.,歪曲的；有偏见的,twisted,His warped view alarmed us.,他歪曲的观点让我们警觉。,9
+waspish,adj.,易怒的；刻薄的,irritable and sharp,Her waspish reply hurt.,她刻薄的回答伤害了人。,9
+wastrel,n.,挥霍者；败家子,a wasteful person,The wastrel lost the fortune.,那个败家子败光了家产。,9
+welter,n.,混乱；杂乱,a confused mass,The welter of papers buried him.,杂乱的文件淹没了他。,9
+wheedle,v.,哄骗；诱骗,to persuade by flattery,She wheedled a gift.,她哄来一份礼物。,9
+winsome,adj.,迷人的；惹人喜爱的,charming,The winsome child smiled.,那个迷人的孩子笑了。,9
+wizened,adj.,干瘪的；枯萎的,shriveled with age,The wizened elder nodded.,那位干瘪的长者点了点头。,9
+worldly,adj.,世俗的；老练的,experienced in life,He is a worldly man.,他是个老练的人。,9
+wraith,n.,幽灵；幻影,a ghostly figure,The wraith vanished at dawn.,那个幽灵在黎明时消失了。,9
+wynn,n.,古英语字母,a runic letter,The wynn symbol faded.,那个古字母符号淡化了。,9
+xenophobia,n.,排外；惧外,fear of foreigners,The riots showed xenophobia.,那场骚乱显示了排外情绪。,9
+yeoman,n.,自耕农；忠实仆人,a loyal servant,The yeoman served faithfully.,那个自耕农忠心服役。,9
+yokel,n.,乡下佬；土包子,an unsophisticated person,The yokel gawked at the city.,那个乡下佬对着城市发呆。,9
+zealot,n.,狂热者,a fanatic,The zealot preached loudly.,那个狂热者大声布道。,9
+zenith,n.,天顶；顶点,the highest point,His career reached its zenith.,他的事业达到了顶点。,9
+zeugma,n.,轭式搭配；兼用法,a figure of speech,The zeugma amused the class.,那个轭式搭配让全班觉得有趣。,9
+zesty,adj.,刺激的；有风味的,lively and pleasing,The zesty sauce pleased him.,那刺激的酱汁让他满意。,9
+abstinence,n.,节制；禁戒,restraint from indulgence,He practiced abstinence from alcohol.,他戒酒了。,9
+acrimony,n.,尖刻；刻薄,bitter anger,The debate was full of acrimony.,辩论充满了尖刻。,9
+acumen,n.,敏锐；洞察力,sharp insight,She has business acumen.,她有商业洞察力。,9
+adage,n.,格言；谚语,a wise saying,An old adage guided him.,一句古老的格言指引了他。,9
+adversity,n.,逆境；不幸,hard fortune,He thrived in adversity.,他在逆境中成长。,9
+affluent,adj.,富裕的,wealthy,They live in an affluent area.,他们住在富裕区。,9
+agitate,v.,煽动；搅动,to stir up,They agitated for change.,他们鼓动变革。,9
+alchemy,n.,炼金术,medieval chemistry,Alchemy sought gold.,炼金术追求黄金。,9
+allay,v.,减轻；平息,to calm,The news allayed fears.,消息平息了恐惧。,9
+ambrosial,adj.,芳香的；美味的,fragrant,The ambrosial meal delighted them.,那顿美餐让他们愉悦。,9
+amorphous,adj.,无定形的,shapeless,The plan was amorphous.,计划模糊不清。,9
+antithesis,n.,对立面,direct opposite,His view is the antithesis of mine.,他的观点与我的正相反。,9
+apogee,n.,最高点,highest point,The rocket reached its apogee.,火箭到达了最高点。,9
+approbation,n.,认可；赞许,approval,He won their approbation.,他赢得了赞许。,9
+arcane,adj.,神秘的,secret,The rite was arcane.,仪式很神秘。,9
+ardor,n.,热情,passion,She argued with ardor.,她热情地辩论。,9
+ascendancy,n.,优势；支配,dominance,They gained ascendancy.,他们取得了优势。,9
+avow,v.,公开承认,to declare,He avowed his belief.,他公开承认了信念。,9
+banal,adj.,平庸的,trite,The comment was banal.,这评论很平庸。,9
+beatitude,n.,极乐,blessedness,He spoke of beatitude.,他谈到了极乐。,9
+bedlam,n.,混乱,uproar,The room was bedlam.,房间里一片混乱。,9
+belie,v.,掩饰；与…不符,to contradict,His smile belied his fear.,他的微笑掩饰了恐惧。,9
+benign,adj.,良性的；温和的,harmless,The tumor was benign.,肿瘤是良性的。,9
+bombast,n.,浮夸的言辞,pompous speech,His bombast bored them.,他的浮夸令人厌烦。,9
+burgeon,v.,迅速发展,to grow fast,The city burgeoned.,城市迅速发展。,9
+cajole,v.,哄骗；劝诱,to coax,She cajoled him into going.,她哄他一起去。,9
+calumny,n.,诽谤,false accusation,He sued over calumny.,他因诽谤起诉。,9
+camaraderie,n.,同志情谊,good fellowship,The team shared camaraderie.,团队情谊深厚。,9
+candor,n.,坦率,honesty,She spoke with candor.,她坦率地说。,9
+caprice,n.,任性；突发奇想,whim,He acted on a caprice.,他凭一时冲动行事。,9
+castigate,v.,严厉批评,to rebuke,The critic castigated the film.,评论家严厉批评了影片。,9
+catholic,adj.,广泛的；普遍的,broad,He has catholic tastes.,他兴趣广泛。,9
+caustic,adj.,尖酸刻薄的,biting,Her caustic remark stung.,她刻薄的话刺痛了人。,9
+censure,v.,谴责,to criticize,The board censured him.,董事会谴责了他。,9
+chicanery,n.,诡计,trickery,The deal involved chicanery.,交易里有诡计。,9
+chimerical,adj.,空想的,fantastic,The plan was chimerical.,计划不切实际。,9
+circumspect,adj.,谨慎的,cautious,He was circumspect.,他十分谨慎。,9
+clamor,n./v.,喧闹；大声要求,loud noise,The crowd clamored for justice.,人群大声要求公正。,9
+cleave,v.,劈开；粘着,to split,He cleaved the log.,他劈开了木头。,9
+cloying,adj.,过甜的；腻人的,too sweet,The cloying dessert sickened her.,甜腻的甜点让她反胃。,9
+coeval,adj.,同时代的,of the same age,The two were coeval.,两者属于同一时代。,9
+cogitate,v.,深思,to ponder,He cogitated the problem.,他深思这个问题。,9
+comeliness,n.,美丽；优雅,beauty,Her comeliness drew looks.,她的美貌引人注目。,9
+concatenate,v.,连接；串联,to link,We concatenated the files.,我们串联了文件。,9
+concomitant,adj.,伴随的,accompanying,Poverty is a concomitant of war.,贫困是战争的伴随物。,9
+condone,v.,宽恕；纵容,to overlook,We cannot condone cheating.,我们不能纵容作弊。,9
+confluence,n.,汇聚,flowing together,A confluence of rivers met.,多条河流汇聚。,9
+connoisseur,n.,鉴赏家,expert judge,He is a wine connoisseur.,他是葡萄酒鉴赏家。,9
+contumely,n.,傲慢无礼,insolent abuse,He endured contumely.,他忍受了侮辱。,9
+corollary,n.,推论,natural consequence,This is a corollary of the law.,这是该定律的推论。,9
+countenance,n./v.,面容；支持,face or support,He countenanced the plan.,他支持这个计划。,9
+cupidity,n.,贪婪,greed,Cupidity drove him.,贪婪驱使他。,9
+deleterious,adj.,有害的,harmful,The effect was deleterious.,影响是有害的。,9
+demagogue,n.,煽动者,rabble rouser,The demagogue stirred crowds.,煽动者挑动了人群。,9
+denouement,n.,结局,final outcome,The denouement surprised all.,结局让所有人惊讶。,9
+depredation,n.,掠夺,plundering,War brought depredation.,战争带来了掠夺。,9
+desiccate,v.,使干燥,to dry out,The sun desiccated the land.,太阳晒干了土地。,9
+diaphanous,adj.,透明的；精致的,sheer,She wore a diaphanous gown.,她穿着透明的长袍。,9
+didactic,adj.,说教的,intended to teach,The book was didactic.,这本书有说教意味。,9
+disabuse,v.,使醒悟,to free from error,He disabused her of the myth.,他让她摆脱了误解。,9
+discomfit,v.,使困惑；使尴尬,to unsettle,The question discomfited him.,这个问题让他尴尬。,9
+dissemble,v.,掩饰,to pretend,He dissembled his grief.,他掩饰了悲伤。,9
+distaff,n./adj.,女性（的）,female side,The distaff side of the family.,家族的女性一方。,9
+droll,adj.,滑稽的,amusing,His droll tale amused them.,他滑稽的故事逗乐了大家。,9
+ebullient,adj.,热情奔放的,exuberant,She was ebullient.,她热情奔放。,9
+edify,v.,启发；教化,to instruct,The sermon edified them.,布道启发了他们。,9
+effulgent,adj.,光辉的,radiant,The effulgent sun rose.,灿烂的太阳升起了。,9
+egregious,adj.,极坏的,outstandingly bad,An egregious error occurred.,出现了严重的错误。,9
+elucidate,v.,阐明,to explain,He elucidated the point.,他阐明了要点。,9
+emolument,n.,报酬,payment,The emolument was fair.,报酬很合理。,9
+encomium,n.,赞颂,formal praise,He delivered an encomium.,他致了颂词。,9
+enfranchise,v.,授予权利,to give rights,The law enfranchised women.,法律赋予女性权利。,9
+epitome,n.,典范；缩影,perfect example,He is the epitome of grace.,他是优雅的典范。,9
+equivocate,v.,含糊其辞,to be ambiguous,He equivocated on the issue.,他在问题上含糊其辞。,9
+erudite,adj.,博学的,learned,She is erudite.,她博学多才。,9
+eschew,v.,避开；戒绝,to avoid,He eschewed conflict.,他避开了冲突。,9
+evanescent,adj.,短暂的,fading,The evanescent mist cleared.,短暂的雾散去了。,9
+excoriate,v.,严厉指责,to censure,They excoriated the policy.,他们严厉批评了政策。,9
+exigency,n.,紧急需要,urgency,The exigency required speed.,紧急情况需要速度。,9
+expiate,v.,赎罪,to atone,He sought to expiate his sin.,他试图赎罪。,9
+extant,adj.,现存的,still existing,Few copies are extant.,现存副本很少。,9
+extirpate,v.,根除,to destroy,They extirpated the weed.,他们根除了杂草。,9
+facetious,adj.,爱开玩笑的,joking,His facetious tone annoyed her.,他开玩笑的语气惹恼了她。,9
+fallacious,adj.,谬误的,false,The argument was fallacious.,论点有误。,9
+fatuous,adj.,愚昧的,foolish,His fatuous grin annoyed them.,他愚蠢的傻笑惹人烦。,9
+feckless,adj.,无用的,ineffective,He was feckless at work.,他工作不力。,9
+felicitous,adj.,恰当的,apt,Her felicitous remark helped.,她恰当的话起了作用。,9
+flagrant,adj.,公然的,obvious,A flagrant violation occurred.,发生了公然的违规。,9
+foible,n.,小缺点,minor flaw,His foible was lateness.,他的小缺点是迟到。,9
+foment,v.,煽动,to stir up,He fomented revolt.,他煽动叛乱。,9
+fulsome,adj.,过度的；令人反感的,excessive,His fulsome praise rang false.,他过度的赞美显得虚伪。,9
+garrulous,adj.,喋喋不休的,talkative,The garrulous guest talked on.,喋喋不休的客人说个不停。,9
+gesticulate,v.,做手势,to gesture,He gesticulated wildly.,他疯狂地比划。,9
+grandiloquent,adj.,夸张的,pompous,His grandiloquent speech bored them.,他夸张的演讲令人厌烦。,9
+halcyon,adj.,平静的；美好的,peaceful,They recalled halcyon days.,他们回忆起平静的往日。,9
+harangue,n./v.,长篇训斥,tyrade,He delivered a harangue.,他发表了一通训斥。,9
+hegemony,n.,霸权,dominance,The nation sought hegemony.,该国谋求霸权。,9
+hermetic,adj.,密封的；深奥的,sealed,The jar was hermetic.,罐子密封着。,9
+hiatus,n.,间断,gap,A hiatus occurred in work.,工作中出现了间断。,9
+hubris,n.,傲慢,excessive pride,His hubris caused his fall.,傲慢导致了他的覆灭。,9
+immutable,adj.,不可变的,unchanging,The law is immutable.,定律不可改变。,9
+impassive,adj.,无动于衷的,unemotional,He remained impassive.,他保持冷漠。,9
+impecunious,adj.,贫穷的,poor,The impecunious student worked.,贫穷的学生打工。,9
+implacable,adj.,无法平息的,unyielding,His implacable foe persisted.,他无法和解的敌人坚持着。,9
+inchoate,adj.,初步的；未成形的,just begun,The inchoate plan failed.,初步的计划失败了。,9
+inculcate,v.,反复灌输,to instill,They inculcated values.,他们灌输了价值观。,9
+ineffable,adj.,难以言喻的,indescribable,The view was ineffable.,景色难以形容。,9
+insidious,adj.,隐蔽有害的,treacherous,The insidious disease spread.,潜伏的疾病蔓延了。,9
+internecine,adj.,内部厮杀的,mutually destructive,The internecine feud ended.,内部仇杀结束了。,9
+inveterate,adj.,根深蒂固的,habitual,He was an inveterate liar.,他是惯于说谎的人。,9
+jejune,adj.,枯燥的；幼稚的,dull,The jejune talk bored them.,枯燥的谈话令人生厌。,9
+kudos,n.,荣誉,praise,He earned kudos.,他赢得了荣誉。,9
+lambast,v.,严厉批评,to attack,They lambasted the plan.,他们猛烈批评了计划。,9
+loquacious,adj.,健谈的,talkative,The loquacious host charmed all.,健谈的主人迷住了所有人。,9
+lugubrious,adj.,哀伤的,mournful,His lugubrious face saddened them.,他哀伤的脸让大家难过。,9
+magnanimous,adj.,宽宏大量的,generous,He was magnanimous in victory.,他胜得宽宏大量。,9
+malediction,n.,诅咒,curse,He uttered a malediction.,他发出了诅咒。,9
+malinger,v.,装病,to feign illness,He malingered to avoid work.,他装病逃避工作。,9
+mellifluous,adj.,悦耳的,sweet sounding,Her mellifluous voice soothed them.,她悦耳的声音安抚了大家。,9
+mendacious,adj.,虚假的,lying,His mendacious tale fooled none.,他虚假的故事骗不了人。,9
+meretricious,adj.,华而不实的,gaudy,The meretricious show failed.,华而不实的表演失败了。,9
+minatory,adj.,威胁的,threatening,His minatory tone warned them.,他威胁的语气警告了他们。,9
+mitigate,v.,减轻,to lessen,The law mitigated harm.,法律减轻了伤害。,9
+munificent,adj.,慷慨的,very generous,The munificent gift helped.,慷慨的馈赠帮了忙。,9
+nefarious,adj.,邪恶的,wicked,The nefarious plot failed.,邪恶的阴谋失败了。,9
+obdurate,adj.,固执的,stubborn,He was obdurate.,他固执己见。,9
+obsequious,adj.,谄媚的,fawning,His obsequious manner repelled her.,他谄媚的态度令她反感。,9
+obviate,v.,排除；避免,to prevent,The step obviated risk.,这一步避免了风险。,9
+oleaginous,adj.,油滑的；奉承的,oily,His oleaginous praise rang false.,他油滑的赞美显虚伪。,9
+palliate,v.,减轻；掩饰,to ease,The drug palliated pain.,药物减轻了疼痛。,9
+panegyric,n.,颂词,formal praise,He wrote a panegyric.,他写了一篇颂词。,9
+parsimonious,adj.,吝啬的,stingy,The parsimonious man saved much.,吝啬的人存了很多钱。,9
+pedantic,adj.,学究气的,overly precise,His pedantic style bored them.,他学究式的风格令人厌烦。,9
+pellucid,adj.,透明的；清晰的,clear,The pellucid water shone.,清澈的水闪闪发光。,9
+penurious,adj.,贫困的；吝啬的,poor,The penurious family struggled.,贫困的家庭苦苦支撑。,9
+peregrination,n.,旅行,travel,His peregrination taught him much.,他的旅行让他学到很多。,9
+perfidy,n.,背叛,treachery,His perfidy shocked friends.,他的背叛震惊了朋友。,9
+peripatetic,adj.,巡回的,traveling,The peripatetic teacher moved often.,巡回的老师经常搬家。,9
+pernicious,adj.,有害的,harmful,The pernicious habit spread.,有害的习惯蔓延了。,9
+perspicacious,adj.,敏锐的,astute,Her perspicacious insight helped.,她敏锐的洞察帮了忙。,9
+petrous,adj.,岩石的；坚硬的,rocky,The petrous cliff loomed.,坚硬的悬崖耸立。,9
+philistine,n./adj.,庸人；平庸的,anti-art person,The philistine ignored art.,庸人无视艺术。,9
+picayune,adj.,琐碎的；微小的,petty,The picayune detail annoyed him.,琐碎的细节惹恼了他。,9
+platitude,n.,陈词滥调,trite remark,His speech was full of platitudes.,他的演讲满是陈词滥调。,9
+plethora,n.,过多,excess,A plethora of options confused him.,过多的选择让他困惑。,9
+poltroon,n.,懦夫,coward,The poltroon fled.,懦夫逃跑了。,9
+prate,v.,闲聊；空谈,to chatter,He prated of his deeds.,他空谈自己的事迹。,9
+proclivity,n.,倾向,inclination,He has a proclivity for risk.,他有冒险倾向。,9
+prodigal,adj.,挥霍的,wasteful,The prodigal son returned.,挥霍的儿子回来了。,9
+profuse,adj.,大量的,abundant,He gave profuse thanks.,他连连致谢。,9
+prolix,adj.,冗长的,wordy,The prolix letter bored her.,冗长的信让她厌烦。,9
+propitiate,v.,抚慰,to appease,They sought to propitiate the gods.,他们试图抚慰神明。,9
+pulchritude,n.,美丽,beauty,Her pulchritude amazed all.,她的美丽惊艳了众人。,9
+pusillanimous,adj.,怯懦的,cowardly,The pusillanimous leader hid.,怯懦的领导躲了起来。,9
+querulous,adj.,抱怨的,complaining,The querulous guest whined.,爱抱怨的客人发牢骚。,9
+quixotic,adj.,不切实际的,impractical,His quixotic plan failed.,他不切实际的计划失败了。,9
+raffish,adj.,放荡的,disreputable,The raffish crowd gathered.,放荡的人群聚在一起。,9
+recalcitrant,adj.,倔强的,stubborn,The recalcitrant mule refused.,倔强的骡子不肯动。,9
+redolent,adj.,芬芳的；使人联想的,fragrant,The air was redolent of pine.,空气中弥漫着松香。,9
+refulgent,adj.,辉煌的,shining,The refulgent dawn broke.,辉煌的黎明降临。,9
+renegade,n.,叛徒,traitor,The renegade fled the camp.,叛徒逃离了营地。,9
+reprobate,n.,堕落者,villain,The reprobate was shunned.,堕落者被人回避。,9
+reticent,adj.,沉默寡言的,reserved,He was reticent about his past.,他对过去保持沉默。,9
+sanguine,adj.,乐观的；面色红润的,optimistic,She was sanguine about the future.,她对未来很乐观。,9
+sapient,adj.,睿智的,wise,The sapient elder spoke.,睿智的长者发言了。,9
+saturnine,adj.,阴沉的,gloomy,His saturnine mood silenced them.,他阴沉的情绪让大家安静。,9
+scurrilous,adj.,粗俗诽谤的,abusive,The scurrilous rumor spread.,恶毒的谣言传开了。,9
+sententious,adj.,说教式的,moralizing,His sententious tone annoyed them.,他说教式的语气惹人烦。,9
+splenetic,adj.,脾气坏的,irritable,The splenetic man snapped.,脾气坏的人发了火。,9
+stultify,v.,使变得无效,to hinder,The rule stultified progress.,规定阻碍了进步。,9
+sycophant,n.,阿谀奉承者,flatterer,The sycophant praised the boss.,马屁精吹捧老板。,9
+taciturn,adj.,沉默的,quiet,The taciturn man spoke little.,沉默的人很少说话。,9
+titanic,adj.,巨大的,huge,The titanic wave crashed.,巨大的海浪拍下。,9
+toady,n./v.,谄媚者；奉承,sycophant,The toady flattered the king.,谄媚者奉承国王。,9
+truculent,adj.,好斗的,aggressive,His truculent reply shocked her.,他好斗的回答震惊了她。,9
+ubiquitous,adj.,无处不在的,everywhere,The brand is ubiquitous.,这个品牌无处不在。,9
+unctuous,adj.,油腻的；奉承的,oily,His unctuous praise repelled her.,他油腻的赞美令人反感。,9
+untoward,adj.,不利的；不当的,unfortunate,An untoward event occurred.,发生了一件不幸的事。,9
+vacuous,adj.,空洞的,empty,Her vacuous smile annoyed him.,她空洞的微笑惹他烦。,9
+vainglorious,adj.,虚荣的,vain,The vainglorious man boasted.,虚荣的人自夸。,9
+verisimilitude,n.,逼真,realism,The film had verisimilitude.,影片很逼真。,9
+vestige,n.,痕迹,trace,No vestige remained.,没留下任何痕迹。,9
+vicissitude,n.,变迁,change,The vicissitude of life humbled him.,人生的变迁让他谦卑。,9
+vituperate,v.,斥责,to abuse,He vituperated the foe.,他痛斥敌人。,9
+vociferous,adj.,大声疾呼的,loud,The vociferous crowd cheered.,大声疾呼的人群欢呼。,9
+voracious,adj.,贪吃的；渴求的,greedy,He is a voracious reader.,他是个贪婪的读者。,9
+winsome,adj.,讨人喜欢的,charming,Her winsome smile charmed all.,她讨喜的微笑迷住众人。,9
+zeitgeist,n.,时代精神,spirit of the age,The art captured the zeitgeist.,艺术捕捉了时代精神。,9

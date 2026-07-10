@@ -1,263 +1,626 @@
-aberration,异常,7
-abolish,废除,7
-abstain,放弃；避免,7
-absurd,荒谬的,7
-accede,加入,7
-acquiesce,默许,7
-acronym,首字母缩写,7
-adversary,对手,7
-aesthetic,美学的,7
-affluent,富裕的,7
-alleviate,缓解,7
-amenable,服从的,7
-anomaly,异常,7
-antithesis,对立面,7
-apathy,冷漠,7
-arbitrate,仲裁,7
-ascertain,查明,7
-aspire,渴望,7
-atonement,赎罪,7
-augment,增加,7
-authentic,真实的,7
-averse,反对的,7
-axiom,公理,7
-belabor,赘述,7
-benevolent,仁慈的,7
-candor,坦率,7
-capricious,反复无常的,7
-catalyst,催化剂,7
-catholic,广泛的,7
-coerce,强迫,7
-commensurate,相称的,7
-commodity,商品,7
-concur,同意,7
-condone,宽恕,7
-confound,混淆,7
-connoisseur,鉴赏家,7
-contentious,有争议的,7
-corroborate,证实,7
-coterie,小圈子,7
-credible,可信的,7
-culminate,达到顶点,7
-dearth,缺乏,7
-debunk,揭穿,7
-decipher,破译,7
-decorum,得体,7
-deference,尊重,7
-delineate,描绘,7
-demagogue,煽动者,7
-deride,嘲笑,7
-detrimental,有害的,7
-discrepancy,差异,7
-disdain,鄙视,7
-disingenuous,不真诚的,7
-disparate,迥异的,7
-disseminate,传播,7
-dissonance,不和谐,7
-dogma,教条,7
-duplicity,表里不一,7
-eclectic,兼收并蓄的,7
-edify,启迪,7
-efface,抹去,7
-efficacy,功效,7
-elucidate,阐明,7
-empirical,经验主义的,7
-enmity,敌意,7
-epitome,缩影,7
-equanimity,平静,7
-equivocal,模棱两可的,7
-erudite,博学的,7
-esoteric,深奥的,7
-evince,表明,7
-exacerbate,加剧,7
-exculpate,开脱,7
-exonerate,免除罪责,7
-explicate,阐明,7
-extol,赞美,7
-fallacious,谬误的,7
-fatuous,愚昧的,7
-feckless,无能的,7
-flagrant,公然的,7
-florid,华丽的,7
-fortuitous,偶然的,7
-garrulous,健谈的,7
-harangue,长篇指责,7
-hegemony,霸权,7
-hiatus,间隙,7
-hubris,傲慢,7
-iconoclast,反传统者,7
-idiosyncratic,特异的,7
-imbue,灌输,7
-immutable,不可变的,7
-impede,阻碍,7
-impervious,不可渗透的,7
-implacable,无法平息的,7
-impugn,质疑,7
-inadvertent,无意的,7
-inane,愚蠢的,7
-incisive,敏锐的,7
-incongruous,不协调的,7
-inculcate,灌输,7
-ineffable,难以言喻的,7
-inertia,惰性,7
-infamous,臭名昭著的,7
-ingenuous,天真的,7
-inherent,固有的,7
-innocuous,无害的,7
-insidious,阴险的,7
-insipid,乏味的,7
-intransigent,不妥协的,7
-inundate,淹没,7
-inveigh,猛烈抨击,7
-inveigle,诱骗,7
-irascible,易怒的,7
-jejune,幼稚的,7
-largess,慷慨赠与,7
-loquacious,多话的,7
-magnanimous,宽宏大量的,7
-malinger,装病,7
-maverick,特立独行的人,7
-mendacious,虚假的,7
-mercurial,多变的,7
-mettlesome,勇敢的,7
-mollify,平息,7
-morose,忧郁的,7
-munificent,慷慨的,7
-myriad,无数的,7
-nefarious,邪恶的,7
-neophyte,新手,7
-obdurate,固执的,7
-obfuscate,使困惑,7
-obsequious,奉承的,7
-obviate,排除,7
-occlude,阻塞,7
-odious,可憎的,7
-officious,多管闲事的,7
-onerous,繁重的,7
-opprobrious,辱骂的,7
-palliate,减轻,7
-panegyric,颂词,7
-paradox,悖论,7
-paragon,模范,7
-partisan,党派的,7
-pejorative,贬义的,7
-pellucid,清晰的,7
-penchant,偏好,7
-penurious,贫穷的,7
-peremptory,专横的,7
-perfidious,背信弃义的,7
-perfunctory,敷衍的,7
-pernicious,有害的,7
-perspicacious,有洞察力的,7
-pertinacious,执拗的,7
-pervade,弥漫,7
-phlegmatic,冷淡的,7
-pillory,公开嘲笑,7
-piquant,辛辣的,7
-platitude,陈词滥调,7
-plethora,过多,7
-plumb,探测,7
-plutocracy,财阀统治,7
-poltroon,懦夫,7
-precarious,不稳定的,7
-precipitate,促成,7
-precocious,早熟的,7
-prescient,有先见之明的,7
-prevaricate,支吾,7
-probity,正直,7
-prodigal,挥霍的,7
-prodigious,巨大的,7
-proliferate,增殖,7
-prolix,冗长的,7
-propensity,倾向,7
-propitiate,抚慰,7
-propitious,吉利的,7
-prosaic,平淡的,7
-proscribe,禁止,7
-pugnacious,好斗的,7
-pulchritude,美丽,7
-punctilious,一丝不苟的,7
-puerile,幼稚的,7
-querulous,爱抱怨的,7
-quixotic,不切实际的,7
-raffish,放荡的,7
-recalcitrant,不服从的,7
-redolent,令人回想起的,7
-refulgent,辉煌的,7
-reprobate,堕落者,7
-reticent,沉默寡言的,7
-sanguine,乐观的,7
-saturnine,阴郁的,7
-schism,分裂,7
-scurrilous,辱骂的,7
-sedulous,勤勉的,7
-sentinel,哨兵,7
-sentient,有感知的,7
-servile,奴性的,7
-simian,似猿的,7
-slake,解渴,7
-sodden,浸透的,7
-solace,安慰,7
-soporific,催眠的,7
-specious,似是而非的,7
-spurious,虚假的,7
-staid,稳重的,7
-stentorian,洪亮的,7
-stolid,麻木的,7
-striated,有条纹的,7
-strident,刺耳的,7
-suave,温文尔雅的,7
-sublime,崇高的,7
-subversive,颠覆的,7
-succinct,简洁的,7
-supercilious,傲慢的,7
-supine,仰卧的,7
-tacit,默示的,7
-taciturn,沉默寡言的,7
-tenacious,顽强的,7
-tendentious,有倾向性的,7
-tenuous,脆弱的,7
-terse,简洁的,7
-timorous,胆怯的,7
-torpid,迟钝的,7
-tortuous,曲折的,7
-tractable,易处理的,7
-trite,陈腐的,7
-truculent,好斗的,7
-turbid,混浊的,7
-turgid,肿胀的,7
-turpitude,邪恶,7
-ubiquitous,无处不在的,7
-ulterior,隐秘的,7
-umbrage,不快,7
-unctuous,虚情假意的,7
-undulate,起伏,7
-upbraid,责备,7
-usurp,篡夺,7
-vacillate,犹豫,7
-vagary,奇想,7
-variegated,杂色的,7
-vehement,激烈的,7
-vendor,小贩,7
-veneer,虚饰,7
-venturous,冒险的,7
-veracious,诚实的,7
-verifiable,可验证的,7
-verisimilitude,逼真,7
-vertiginous,眩晕的,7
-vicarious,替代的,7
-vilify,诽谤,7
-virulent,恶毒的,7
-viscid,粘的,7
-vitiate,损害,7
-vituperate,责骂,7
-vociferous,大声疾呼的,7
-voluble,健谈的,7
-voracious,贪婪的,7
-winsome,迷人的,7
-wispy,纤细的,7
-worldly,世俗的,7
-yokel,乡巴佬,7
-zealous,热忱的,7
-zenith,顶点,7
-zeitgeist,时代精神,7
+term,pos,meaningZh,meaningEn,exampleEn,exampleZh,band
+abandon,v.,放弃,to give up,He abandoned the project.,他放弃了那个项目。,7
+abbreviate,v.,缩写,to shorten,Please abbreviate your name.,请把你的名字缩写。,7
+ability,n.,能力,capacity to do,She has the ability to lead.,她有领导能力。,7
+absence,n.,缺席,lack or non-presence,His absence was noted.,他的缺席被注意到了。,7
+absolute,adj.,绝对的,complete or total,It is an absolute rule.,这是一条绝对的规则。,7
+absorb,v.,吸收,to take in,The sponge absorbed water.,海绵吸收了水分。,7
+abstract,adj.,抽象的,not concrete,This idea is abstract.,这个想法很抽象。,7
+abundant,adj.,丰富的,plentiful,The region has abundant rain.,这个地区雨水充沛。,7
+academic,adj.,学术的,related to study,She has an academic career.,她从事学术工作。,7
+accept,v.,接受,to receive willingly,They accepted the offer.,他们接受了提议。,7
+access,n.,通道；使用权,means of approach,The library gives access to books.,图书馆提供书籍的使用权。,7
+accommodate,v.,容纳；适应,to house or adapt,The hotel can accommodate guests.,这家酒店能容纳客人。,7
+accompany,v.,陪伴,to go with,She accompanied her friend.,她陪伴了朋友。,7
+accomplish,v.,完成,to achieve,We accomplished the task.,我们完成了任务。,7
+account,n.,账户；描述,a record or report,He opened a bank account.,他开了一个银行账户。,7
+accurate,adj.,准确的,correct,The data is accurate.,数据是准确的。,7
+achieve,v.,达成,to succeed in doing,They achieved their goal.,他们达成了目标。,7
+acquire,v.,获得,to gain,He acquired new skills.,他获得了新技能。,7
+adapt,v.,适应,to adjust,Plants adapt to climate.,植物会适应环境。,7
+adequate,adj.,足够的,sufficient,We have adequate food.,我们有足够的食物。,7
+adjacent,adj.,相邻的,next to,The park is adjacent to school.,公园与学校相邻。,7
+adjust,v.,调整,to change slightly,He adjusted the seat.,他调整了座位。,7
+administrate,v.,管理,to manage,She administrates the office.,她管理办公室。,7
+admire,v.,钦佩,to respect,We admire her courage.,我们钦佩她的勇气。,7
+admit,v.,承认；准入,to confess or allow in,He admitted his mistake.,他承认了错误。,7
+adopt,v.,采纳；收养,to take up or raise,They adopted a child.,他们收养了一个孩子。,7
+advance,v./n.,推进；进步,to move forward,The research advanced quickly.,研究进展迅速。,7
+advantage,n.,优势,benefit,This gives us an advantage.,这给了我们一个优势。,7
+advocate,v./n.,提倡；倡导者,to support,He advocates clean energy.,他提倡清洁能源。,7
+aesthetic,adj.,审美的,related to beauty,The design has aesthetic value.,这个设计有审美价值。,7
+affect,v.,影响,to influence,Weather affects mood.,天气影响情绪。,7
+afford,v.,负担得起,to have enough money,They can afford a house.,他们买得起房子。,7
+aggregate,adj./n.,总计的,total,The aggregate score is high.,总分很高。,7
+aggressive,adj.,好斗的,forceful,He has an aggressive style.,他风格强势。,7
+allocate,v.,分配,to assign,We allocated the budget.,我们分配了预算。,7
+alternative,n./adj.,替代（的）,another option,We need an alternative plan.,我们需要替代方案。,7
+ambiguous,adj.,模糊的,unclear,The message is ambiguous.,这条信息含糊不清。,7
+amend,v.,修正,to correct,They amended the law.,他们修订了法律。,7
+analogy,n.,类比,comparison,He used an analogy.,他用了类比。,7
+analyze,v.,分析,to examine,We analyzed the data.,我们分析了数据。,7
+ancient,adj.,古老的,very old,This is an ancient book.,这是一本古书。,7
+annual,adj.,每年的,yearly,They hold an annual meeting.,他们举行年度会议。,7
+anticipate,v.,预期,to expect,We anticipate growth.,我们预期增长。,7
+apparent,adj.,明显的,seeming or clear,The problem is apparent.,问题很明显。,7
+appreciate,v.,欣赏；感激,to value,He appreciates art.,他欣赏艺术。,7
+appropriate,adj.,适当的,suitable,This is appropriate dress.,这身打扮很得体。,7
+approximate,adj.,近似的,near,The cost is approximate.,成本是个近似值。,7
+arbitrary,adj.,任意的,random,The choice was arbitrary.,这个选择很随意。,7
+argue,v.,争论,to debate,They argued the case.,他们为这个案子辩论。,7
+arise,v.,出现,to come up,Problems may arise.,问题可能会出现。,7
+array,n.,阵列；一系列,a range,There is an array of options.,有一系列的选择。,7
+aspect,n.,方面,a part,We studied every aspect.,我们研究了每个方面。,7
+assemble,v.,组装,to put together,We assembled the model.,我们组装了模型。,7
+assess,v.,评估,to evaluate,They assessed the risk.,他们评估了风险。,7
+assign,v.,分配,to give out,He assigned the task.,他分配了任务。,7
+assist,v.,协助,to help,She assisted the teacher.,她协助了老师。,7
+assume,v.,假设,to suppose,We assume he is right.,我们假定他是对的。,7
+assure,v.,确保,to make certain,He assured our safety.,他确保了我们的安全。,7
+attach,v.,附加,to fasten,Please attach the file.,请附上文件。,7
+attain,v.,达到,to achieve,She attained her dream.,她实现了梦想。,7
+attribute,v./n.,归因于；属性,to credit,We attribute success to work.,我们把成功归功于努力。,7
+authority,n.,权威,power,The police have authority.,警方有权威。,7
+automatic,adj.,自动的,self-acting,The door is automatic.,这扇门是自动的。,7
+available,adj.,可用的,ready to use,Seats are available.,还有空座。,7
+aware,adj.,意识到的,knowing,He is aware of risk.,他意识到了风险。,7
+benefit,n./v.,益处；受益,good effect,Exercise benefits health.,运动有益健康。,7
+bias,n.,偏见,prejudice,He has a bias.,他有偏见。,7
+brief,adj.,简短的,short,Give a brief answer.,给出一个简短的回答。,7
+broad,adj.,广泛的,wide,They have broad support.,他们有广泛的支持。,7
+bulk,n.,大部分,main mass,The bulk was shipped.,大部分已运出。,7
+capable,adj.,有能力的,able,She is capable of lead.,她有能力领导。,7
+capacity,n.,容量,ability to hold,The hall has capacity.,大厅有容量限制。,7
+category,n.,类别,class,This falls in a category.,这归为一类。,7
+cease,v.,停止,to stop,The rain ceased.,雨停了。,7
+challenge,n./v.,挑战,difficult task,He faced a challenge.,他面临挑战。,7
+channel,n.,渠道,means,Use this channel.,用这个渠道。,7
+chapter,n.,章节,a section,Read this chapter.,读这一章。,7
+characteristic,n.,特征,trait,This is a key trait.,这是一个关键特征。,7
+chemical,adj./n.,化学的,related to chemistry,The chemical reacted.,化学品发生了反应。,7
+circumstance,n.,情况,condition,Under the circumstance we left.,在这种情况下我们离开了。,7
+cite,v.,引用,to quote,He cited a study.,他引用了一项研究。,7
+civil,adj.,公民的,civic,He has civil rights.,他有公民权利。,7
+clarify,v.,澄清,to make clear,Please clarify your point.,请澄清你的观点。,7
+classic,adj.,经典的,of lasting value,This is a classic book.,这是一本经典书。,7
+client,n.,客户,customer,The client arrived.,客户到了。,7
+coincide,v.,同时发生,to happen together,The dates coincide.,日期重合了。,7
+collapse,v.,倒塌,to fall down,The bridge collapsed.,桥塌了。,7
+colleague,n.,同事,coworker,My colleague helped.,我的同事帮了忙。,7
+commute,v.,通勤,to travel to work,He commutes daily.,他每天通勤。,7
+compatible,adj.,兼容的,able to fit,The parts are compatible.,这些部件兼容。,7
+compensate,v.,补偿,to make up for,They compensated the loss.,他们补偿了损失。,7
+complex,adj.,复杂的,complicated,The issue is complex.,问题很复杂。,7
+component,n.,组件,part,A key component broke.,一个关键部件坏了。,7
+compound,n./adj.,化合物；复合的,a mix,Water is a compound.,水是化合物。,7
+comprehensive,adj.,全面的,complete,We need a full review.,我们需要全面审查。,7
+comprise,v.,包含,to consist of,The team comprises five.,团队由五人组成。,7
+compute,v.,计算,to calculate,The machine computes fast.,机器算得很快。,7
+conceal,v.,隐藏,to hide,He concealed the truth.,他隐藏了真相。,7
+concept,n.,概念,idea,This is a new idea.,这是一个新概念。,7
+conclude,v.,总结,to finish,We concluded the talk.,我们结束了谈话。,7
+concurrent,adj.,同时的,at the same time,Two events were concurrent.,两件事同时发生。,7
+conduct,v.,进行；行为,to carry out,They conducted a test.,他们进行了测试。,7
+confer,v.,授予；商议,to grant,The award was conferred.,奖项被颁授。,7
+confidential,adj.,机密的,secret,This is a secret file.,这是机密文件。,7
+confident,adj.,自信的,sure,She is confident.,她很自信。,7
+confine,v.,限制,to limit,They confined the area.,他们限制了区域。,7
+confirm,v.,确认,to verify,Please confirm the date.,请确认日期。,7
+conflict,n./v.,冲突,disagreement,A conflict arose.,出现了冲突。,7
+conform,v.,符合,to comply,He conformed to rules.,他遵守了规则。,7
+confront,v.,面对,to face,We confronted the issue.,我们面对了问题。,7
+confuse,v.,混淆,to mix up,Do not confuse the terms.,别混淆这些术语。,7
+connect,v.,连接,to join,Please connect the wire.,请接上线。,7
+conscious,adj.,有意识的,aware,He is conscious now.,他现在清醒了。,7
+consecutive,adj.,连续的,in a row,We won three games straight.,我们连赢了三场。,7
+consensus,n.,共识,general agreement,They reached a deal.,他们达成了共识。,7
+consent,n./v.,同意,permission,He gave his consent.,他同意了。,7
+consequent,adj.,随之发生的,following,The rise caused a fall.,上涨导致了下跌。,7
+conserve,v.,保护,to preserve,We must conserve water.,我们必须节约用水。,7
+consider,v.,考虑,to think about,We considered the plan.,我们考虑了计划。,7
+consist,v.,由…组成,to be made of,The set consists of parts.,这套装置由部件组成。,7
+constant,adj.,恒定的,steady,The speed is constant.,速度是恒定的。,7
+constitute,v.,构成,to form,These form the base.,这些构成了基础。,7
+constrain,v.,约束,to restrict,The law constrains us.,法律约束了我们。,7
+construct,v.,建造,to build,They constructed a bridge.,他们建了一座桥。,7
+consult,v.,咨询,to ask,He consulted a doctor.,他咨询了医生。,7
+consume,v.,消耗,to use up,We consumed the food.,我们吃光了食物。,7
+contact,n./v.,联系,to reach,Please contact us.,请联系我们。,7
+contain,v.,包含,to hold,The box contains gifts.,盒子里有礼物。,7
+contemplate,v.,沉思,to consider deeply,He contemplated the view.,他凝视着景色沉思。,7
+contemporary,adj.,当代的,modern,This is modern art.,这是当代艺术。,7
+content,n.,内容,what is inside,The content is clear.,内容很清晰。,7
+contend,v.,主张；竞争,to argue,He contended the point.,他主张这一点。,7
+context,n.,语境,setting,Read it in context.,结合语境读。,7
+continuity,n.,连续性,ongoing nature,The film lacks flow.,这部电影缺乏连贯性。,7
+contract,n./v.,合同；收缩,a deal,They signed a deal.,他们签了合同。,7
+contradict,v.,矛盾,to oppose,The facts contradict him.,事实与他的说法矛盾。,7
+contrast,n./v.,对比,difference,The contrast is clear.,对比很明显。,7
+contribute,v.,贡献,to give,He contributed ideas.,他贡献了想法。,7
+controversy,n.,争议,dispute,The topic caused debate.,这个话题引发了争议。,7
+convene,v.,召集,to meet,They convened a council.,他们召集了会议。,7
+converse,v.,交谈,to talk,We conversed for hours.,我们聊了几个小时。,7
+convert,v.,转换,to change,We converted the file.,我们转换了文件。,7
+convey,v.,传达,to communicate,He conveyed the news.,他传达了消息。,7
+convince,v.,说服,to persuade,She convinced the team.,她说服了团队。,7
+cooperate,v.,合作,to work together,We cooperated well.,我们合作得很好。,7
+coordinate,v.,协调,to organize,She coordinated the event.,她协调了活动。,7
+corporate,adj.,企业的,of a company,The firm grew fast.,这家公司发展很快。,7
+correspond,v.,对应,to match,The data correspond.,数据相互对应。,7
+couple,n./v.,一对；连接,two,They are a happy pair.,他们是一对佳偶。,7
+crucial,adj.,关键的,vital,This is a vital step.,这是关键一步。,7
+cultivate,v.,培养,to develop,He cultivated a habit.,他培养了一个习惯。,7
+culture,n.,文化,way of life,They value their culture.,他们重视自己的文化。,7
+curiosity,n.,好奇心,desire to know,She showed interest.,她表现出好奇心。,7
+currency,n.,货币,money,The local money fell.,当地货币贬值了。,7
+curriculum,n.,课程,course of study,The school changed courses.,学校调整了课程。,7
+cycle,n./v.,循环,a repeating series,The water cycle repeats.,水循环不断重复。,7
+debate,n./v.,辩论,discussion,They held a debate.,他们进行了一场辩论。,7
+decade,n.,十年,ten years,A lot changed in years.,这十年变化很大。,7
+decline,v./n.,下降,to decrease,Sales declined.,销量下降了。,7
+deduce,v.,推断,to infer,We deduced the cause.,我们推断出了原因。,7
+defect,n.,缺陷,fault,The product had a flaw.,产品有个缺陷。,7
+define,v.,定义,to state meaning,Please define the term.,请定义这个术语。,7
+definite,adj.,明确的,clear,We need a clear answer.,我们需要明确的答复。,7
+demonstrate,v.,证明；演示,to show,He demonstrated the tool.,他演示了工具。,7
+deny,v.,否认,to refuse,He denied the claim.,他否认了说法。,7
+depress,v.,使沮丧,to sadden,The news depressed her.,这消息让她沮丧。,7
+derive,v.,源自,to come from,We derived the formula.,我们推导出了公式。,7
+design,v./n.,设计,to plan,She designed a logo.,她设计了一个标志。,7
+desire,n./v.,渴望,wish,He desired success.,他渴望成功。,7
+detach,v.,分离,to separate,He detached the part.,他拆下了部件。,7
+detect,v.,检测,to discover,The system detected error.,系统检测到了错误。,7
+deteriorate,v.,恶化,to worsen,The road deteriorated.,路况恶化了。,7
+deviate,v.,偏离,to stray,Do not stray from plan.,不要偏离计划。,7
+device,n.,设备,tool,The device works well.,设备运行良好。,7
+devote,v.,奉献,to dedicate,She devoted her time.,她投入了时间。,7
+differentiate,v.,区分,to tell apart,We told the types apart.,我们区分了类型。,7
+dilemma,n.,困境,hard choice,He faced a tough choice.,他面临两难。,7
+diminish,v.,减少,to lessen,The risk diminished.,风险降低了。,7
+discrete,adj.,离散的,separate,We used separate units.,我们用了独立单元。,7
+discriminate,v.,区分；歧视,to distinguish,Do not judge by race.,不要以种族区别对待。,7
+displace,v.,取代,to replace,The new model displaced old.,新型号取代了旧的。,7
+display,v./n.,展示,to show,They displayed the art.,他们展出了艺术品。,7
+dispose,v.,处理,to get rid of,Please discard the waste.,请处理掉废物。,7
+dispute,n./v.,争端,conflict,They settled the clash.,他们解决了争端。,7
+dissect,v.,剖析,to cut apart,We analyzed the text.,我们剖析了文本。,7
+distinct,adj.,明显的；独特的,clear,The two are quite different.,两者明显不同。,7
+distort,v.,扭曲,to twist,The lens distorted the view.,镜片扭曲了景象。,7
+distribute,v.,分发,to spread out,We handed out the flyers.,我们分发了传单。,7
+diverse,adj.,多样的,varied,The group is varied.,这个群体很多样。,7
+document,n./v.,文件；记录,a paper,Please file the record.,请存档记录。,7
+domain,n.,领域,field,This is his field.,这是他的领域。,7
+dominate,v.,主导,to control,One team dominated.,一支队伍主导了比赛。,7
+doubt,n./v.,怀疑,uncertainty,He had doubts.,他有所怀疑。,7
+dual,adj.,双重的,twofold,It has a dual role.,它有双重作用。,7
+dynamic,adj.,动态的,changing,The market is changing.,市场是动态的。,7
+economy,n.,经济,system of trade,The economy grew.,经济增长了。,7
+edit,v.,编辑,to revise,She edited the draft.,她编辑了草稿。,7
+element,n.,元素,part,This is a key part.,这是一个关键元素。,7
+elevate,v.,提升,to raise,The win raised morale.,胜利提升了士气。,7
+eliminate,v.,消除,to remove,We removed the risk.,我们消除了风险。,7
+emerge,v.,出现,to appear,The sun emerged.,太阳出来了。,7
+emphasize,v.,强调,to stress,He stressed the point.,他强调了重点。,7
+empirical,adj.,实证的,based on evidence,We used evidence-based data.,我们用了实证数据。,7
+enable,v.,使能够,to make able,The tool enabled speed.,工具提升了速度。,7
+encounter,v.,遭遇,to meet,We met a problem.,我们遇到了问题。,7
+energy,n.,能量,power,We need more power.,我们需要更多能量。,7
+enhance,v.,增强,to improve,This improves the taste.,这增强了味道。,7
+enlighten,v.,启发,to inform,The talk enlightened us.,讲座启发了我们。,7
+enormous,adj.,巨大的,huge,The cost was huge.,代价巨大。,7
+ensure,v.,确保,to make sure,We ensured safety.,我们确保了安全。,7
+entity,n.,实体,thing,The firm is a legal body.,这家公司是法律实体。,7
+environment,n.,环境,surroundings,We protect the environment.,我们保护环境。,7
+equate,v.,等同,to treat as equal,Do not equate the two.,不要将两者等同。,7
+equip,v.,装备,to supply,They equipped the lab.,他们装备了实验室。,7
+equivalent,adj./n.,等价的,equal in value,This is equal to that.,这等同于那个。,7
+essence,n.,本质,nature,The core is simple.,本质很简单。,7
+establish,v.,建立,to set up,They set up a fund.,他们设立了一个基金。,7
+estate,n.,地产,property,He sold the property.,他卖掉了地产。,7
+ethical,adj.,道德的,moral,This is a moral issue.,这是个道德问题。,7
+eventually,adv.,最终,in the end,We won in the end.,我们最终赢了。,7
+evident,adj.,明显的,clear,The truth is clear.,真相很明显。,7
+evolve,v.,进化,to develop,The firm evolved fast.,公司迅速演变。,7
+exceed,v.,超过,to go beyond,Costs exceeded budget.,成本超出了预算。,7
+exclude,v.,排除,to leave out,We excluded the case.,我们排除了这种情况。,7
+exhibit,v./n.,展览,to show,They showed the work.,他们展出了作品。,7
+expand,v.,扩张,to grow,The firm expanded abroad.,公司扩张到海外。,7
+expect,v.,期待,to anticipate,We expect a reply.,我们期待回复。,7
+expert,n.,专家,specialist,He is a specialist.,他是个专家。,7
+explicit,adj.,明确的,stated clearly,He gave clear instructions.,他给出了明确指示。,7
+exploit,v.,利用,to use,They used the resource.,他们利用了资源。,7
+explore,v.,探索,to investigate,We explored the cave.,我们探索了洞穴。,7
+export,v./n.,出口,to send abroad,They shipped goods out.,他们出口了货物。,7
+expose,v.,暴露,to reveal,The leak exposed the truth.,泄露暴露了真相。,7
+extend,v.,延伸,to lengthen,We extended the road.,我们延长了道路。,7
+extent,n.,程度,degree,To what degree?,到什么程度？,7
+external,adj.,外部的,outer,The outer layer broke.,外层破裂了。,7
+factor,n.,因素,element,Price is a key factor.,价格是关键因素。,7
+faculty,n.,能力,staff or ability,The staff supported us.,教职员工支持了我们。,7
+feature,n./v.,特征；以…为特色,trait,This phone has a key trait.,这款手机有个关键特性。,7
+federal,adj.,联邦的,national,The national law applies.,联邦法律适用。,7
+fee,n.,费用,charge,The service charge is low.,服务费很低。,7
+final,adj.,最终的,last,This is the last step.,这是最后一步。,7
+finance,n./v.,金融；融资,money management,He studied money matters.,他研究金融。,7
+finite,adj.,有限的,limited,Resources are limited.,资源有限。,7
+flexibility,n.,灵活性,ability to adapt,We need more adaptability.,我们需要更多灵活性。,7
+fluctuate,v.,波动,to vary,Prices vary often.,价格经常波动。,7
+focus,v./n.,聚焦,to concentrate,Please focus on task.,请聚焦于任务。,7
+format,n.,格式,layout,Use the proper layout.,用正确的格式。,7
+formula,n.,公式,rule,We applied the rule.,我们用了公式。,7
+foundation,n.,基础,basis,Trust is the basis.,信任是基础。,7
+founder,n.,创始人,creator,The creator left the firm.,创始人离开了公司。,7
+function,n./v.,功能；运行,use,The tool works well.,功能运行良好。,7
+fundamental,adj.,基本的,basic,This is a basic right.,这是基本权利。,7
+furthermore,adv.,此外,also,Also we need time.,此外我们还需要时间。,7
+generate,v.,生成,to produce,The plant produces power.,工厂发电。,7
+genuine,adj.,真实的,real,This is a real smile.,这是真诚的微笑。,7
+global,adj.,全球的,worldwide,This is a worldwide issue.,这是个全球性问题。,7
+grade,n./v.,等级；评分,level,He graded the test.,他评了分。,7
+grant,v./n.,授予；拨款,to give,They gave a research fund.,他们授予了研究资金。,7
+guarantee,v./n.,保证,to promise,We promise quality.,我们保证质量。,7
+guilty,adj.,有罪的,at fault,He was found at fault.,他被认定有罪。,7
+hazard,n.,危险,risk,This is a safety risk.,这是个安全隐患。,7
+highlight,v.,突出,to emphasize,She stressed the key point.,她突出了重点。,7
+hypothesis,n.,假设,guess,The guess was correct.,假设是正确的。,7
+identical,adj.,相同的,same,The twins are the same.,双胞胎一模一样。,7
+identify,v.,识别,to recognize,We recognized the issue.,我们识别出了问题。,7
+ideology,n.,意识形态,belief system,The belief shaped policy.,意识形态影响了政策。,7
+ignorance,n.,无知,lack of knowledge,He acted from lack of knowledge.,他因无知而行事。,7
+illustrate,v.,说明,to explain,He explained with a chart.,他用图表说明。,7
+imagine,v.,想象,to picture, Imagine a better world.,想象一个更好的世界。,7
+imitate,v.,模仿,to copy,He copied the style.,他模仿了风格。,7
+immigrate,v.,移民,to move in,They moved to a new country.,他们移民到了新国家。,7
+impact,n./v.,影响,effect,The policy had an effect.,政策产生了影响。,7
+implement,v.,实施,to carry out,We carried out the plan.,我们实施了计划。,7
+implication,n.,含义,consequence,The result has meaning.,结果有深层含义。,7
+implicit,adj.,隐含的,implied,The rule was implied.,规则是隐含的。,7
+import,v./n.,进口,to bring in,They brought in goods.,他们进口了货物。,7
+impose,v.,强加,to force,They forced a tax.,他们强加了税收。,7
+incline,v.,倾向于,to lean,He leaned toward yes.,他倾向于同意。,7
+income,n.,收入,earnings,Her earnings rose.,她的收入增加了。,7
+index,n.,指数,measure,The price measure rose.,价格指数上升了。,7
+indicator,n.,指标,sign,This is a key sign.,这是个关键指标。,7
+infer,v.,推断,to deduce,We deduced the trend.,我们推断出了趋势。,7
+influence,n./v.,影响,effect,Peers have an effect.,同伴有影响。,7
+inform,v.,通知,to tell,Please tell the team.,请通知团队。,7
+inherent,adj.,内在的,built-in,The risk is built-in.,风险是固有的。,7
+initial,adj.,最初的,first,The first step is key.,第一步很关键。,7
+innovate,v.,创新,to create new,They created a new method.,他们创新了方法。,7
+input,n.,输入,data in,The data in was wrong.,输入数据有误。,7
+insert,v.,插入,to put in,Please put in the key.,请插入钥匙。,7
+insight,n.,洞察,deep understanding,She had a deep understanding.,她有深刻的洞察。,7
+inspect,v.,检查,to examine,We examined the site.,我们检查了现场。,7
+install,v.,安装,to set up,We set up the software.,我们安装了软件。,7
+instance,n.,实例,example,For example consider this.,以这个实例为例。,7
+instinct,n.,本能,intuition,He acted on intuition.,他凭本能行动。,7
+integrate,v.,整合,to combine,We combined the systems.,我们整合了系统。,7
+integrity,n.,诚信；完整,honesty,He is known for honesty.,他以诚信著称。,7
+intelligent,adj.,聪明的,smart,She is very smart.,她很聪明。,7
+intense,adj.,强烈的,strong,The pain was strong.,疼痛很剧烈。,7
+interact,v.,互动,to engage,We engaged with users.,我们与用户互动。,7
+internal,adj.,内部的,inner,The inner team met.,内部团队开会了。,7
+interpret,v.,解释,to explain,He explained the law.,他解释了法律。,7
+interval,n.,间隔,gap,There was a long gap.,间隔很长。,7
+intervene,v.,干预,to step in,They stepped in to help.,他们介入帮忙。,7
+intrinsic,adj.,内在的,innate,The value is innate.,价值是内在的。,7
+invest,v.,投资,to put money,They put money in stocks.,他们投资了股票。,7
+invoke,v.,调用；引发,to call upon,He cited the clause.,他援引了条款。,7
+involve,v.,涉及,to include,The task includes risk.,任务涉及风险。,7
+isolate,v.,隔离,to separate,They separated the case.,他们隔离了病例。,7
+issue,n./v.,问题；发布,problem,We faced a problem.,我们遇到了问题。,7
+joint,adj.,联合的,shared,They made a shared plan.,他们制定了联合计划。,7
+justify,v.,证明…合理,to defend,He defended the choice.,他为选择辩护。,7
+label,n./v.,标签；贴标签,a tag,Please tag the file.,请给文件贴标签。,7
+labor,n.,劳动,work,The work was hard.,劳动很辛苦。,7
+layer,n.,层,a level,Add another level.,再加一层。,7
+lecture,n./v.,讲座,talk,He gave a talk.,他做了一场讲座。,7
+legal,adj.,合法的,lawful,This is a lawful act.,这是合法行为。,7
+legitimate,adj.,合法的,valid,The claim is valid.,这个主张合法。,7
+level,n.,水平,degree,The water degree rose.,水平上升了。,7
+levy,v.,征收,to tax,The state taxed imports.,政府征收了进口税。,7
+liberal,adj.,自由的,open-minded,He has open views.,他观点开明。,7
+license,n.,执照,permit,He got a permit.,他拿到了执照。,7
+link,n./v.,链接；连接,a tie,Click the tie to open.,点击链接打开。,7
+locate,v.,定位,to find,We found the office.,我们找到了办公室。,7
+logical,adj.,逻辑的,reasonable,His reason is sound.,他的逻辑合理。,7
+maintain,v.,维持,to keep,We kept the standard.,我们维持了标准。,7
+major,adj.,主要的,main,This is the main issue.,这是主要问题。,7
+manipulate,v.,操纵,to control,He controlled the data.,他操纵了数据。,7
+manual,adj./n.,手动的；手册,by hand,Read the handbook first.,先读手册。,7
+margin,n.,边缘；利润,edge,The edge of the page.,页边空白处。,7
+mature,adj.,成熟的,fully grown,He is a grown man.,他是个成熟的人。,7
+maximize,v.,最大化,to increase most,We boosted profit most.,我们最大化了利润。,7
+mechanism,n.,机制,system,The system failed.,机制失效了。,7
+media,n.,媒体,press,The press reported it.,媒体报道了此事。,7
+mediate,v.,调解,to settle,They settled the fight.,他们调解了冲突。,7
+medium,adj./n.,中等的；媒介,middle,Use the middle size.,用中等尺寸。,7
+mental,adj.,心理的,mind-related,He has a strong mind.,他心理素质强。,7
+method,n.,方法,way,This is a good way.,这是个好方法。,7
+migrate,v.,迁移,to move,They moved north.,他们向北迁移。,7
+military,adj.,军事的,of armed forces,The armed forces left.,军队撤离了。,7
+minimal,adj.,最小的,least,We kept the cost least.,我们尽量压低成本。,7
+minimize,v.,最小化,to reduce most,We cut risk most.,我们最小化了风险。,7
+minimum,n.,最小值,least amount,This is the least required.,这是最低要求。,7
+ministry,n.,部委,government dept,The dept issued rules.,部委发布了规定。,7
+minor,adj.,次要的,small,This is a small issue.,这是次要问题。,7
+mode,n.,模式,way,Switch the way.,切换模式。,7
+modify,v.,修改,to change,We changed the plan.,我们修改了计划。,7
+monitor,v.,监控,to watch,We watched the system.,我们监控了系统。,7
+motive,n.,动机,reason,His reason was clear.,他的动机明确。,7
+mutual,adj.,相互的,shared,They share respect.,他们相互尊重。,7
+narrow,adj.,狭窄的,thin,The path is thin.,小路很窄。,7
+national,adj.,国家的,of a country,The country team won.,国家队赢了。,7
+native,adj.,本地的,born there,He is a local speaker.,他是本地人。,7
+natural,adj.,自然的,from nature,This is a nature trail.,这是自然小径。,7
+negative,adj.,负面的,bad,The result was bad.,结果是负面的。,7
+neglect,v.,忽视,to ignore,Do not ignore safety.,不要忽视安全。,7
+network,n.,网络,a web,The web went down.,网络断了。,7
+neutral,adj.,中立的,impartial,He stayed impartial.,他保持中立。,7
+nevertheless,adv.,然而,still,Still we persisted.,然而我们坚持了。,7
+nonetheless,adv.,尽管如此,even so,Even so we tried.,尽管如此我们还是试了。,7
+norm,n.,规范,standard,This is the social standard.,这是社会规范。,7
+normal,adj.,正常的,usual,This is the usual case.,这是正常情况。,7
+notion,n.,概念,idea,He has a strange idea.,他有个奇怪的想法。,7
+nuclear,adj.,核能的,of the atom,The plant was shut.,核电站关闭了。,7
+objective,n./adj.,目标；客观的,goal,Our goal is clear.,目标明确。,7
+obtain,v.,获得,to get,We got the permit.,我们获得了许可。,7
+obvious,adj.,明显的,clear,The answer is clear.,答案很明显。,7
+occupy,v.,占据,to fill,The army filled the city.,军队占据了城市。,7
+occur,v.,发生,to happen,The event happened fast.,事件很快发生了。,7
+odd,adj.,奇怪的；奇数的,strange,That is a strange fact.,那是件怪事。,7
+offset,v.,抵消,to balance,The gain balanced the loss.,收益抵消了损失。,7
+ongoing,adj.,进行中的,continuing,The work is continuing.,工作仍在进行。,7
+option,n.,选项,choice,You have a choice.,你有个选项。,7
+orient,v.,定向,to align,We aligned the map.,我们校正了方向。,7
+outcome,n.,结果,result,The result was good.,结果不错。,7
+output,n.,产出,production,The production rose.,产出增加了。,7
+overall,adj.,总体的,total,The total score rose.,总分上升了。,7
+panel,n.,小组；面板,group,The group met today.,小组今天开会了。,7
+parameter,n.,参数,value,Set the value right.,把参数设对。,7
+partial,adj.,部分的,partly,It was a partial win.,那是部分胜利。,7
+participant,n.,参与者,player,Each player got a badge.,每位参与者拿到徽章。,7
+particular,adj.,特定的,specific,This is a specific case.,这是个特定情况。,7
+partner,n.,伙伴,ally,He found a good ally.,他找到了好伙伴。,7
+passive,adj.,被动的,inactive,He took an inactive role.,他态度被动。,7
+peer,n.,同伴,equal,He asked his equal.,他请教了同龄人。,7
+perceive,v.,感知,to sense,We sensed the change.,我们感知到了变化。,7
+percent,n.,百分比,part of hundred,Costs rose by ten.,成本上升了十个百分点。,7
+period,n.,时期,time span,A long time passed.,一段很长的时期过去了。,7
+persist,v.,坚持,to continue,We continued the fight.,我们坚持了下来。,7
+perspective,n.,视角,viewpoint,She shared her view.,她分享了自己的视角。,7
+phenomenon,n.,现象,event,The event puzzled us.,这个现象令人困惑。,7
+philosophy,n.,哲学,belief,His belief guides him.,他的哲学指引着他。,7
+physical,adj.,身体的；物理的,of the body,He is in good shape.,他身体状况良好。,7
+plus,prep./adj.,加；额外的,added,We need added help.,我们需要额外的帮助。,7
+policy,n.,政策,rule,The new rule helps.,新政策有帮助。,7
+portion,n.,部分,part,A part was lost.,一部分丢失了。,7
+pose,v.,造成；摆姿势,to present,This presents a risk.,这造成了风险。,7
+positive,adj.,积极的,good,The news was good.,消息是积极的。,7
+potential,adj./n.,潜在的；潜力,possible,He has real promise.,他有潜在实力。,7
+poverty,n.,贫困,being poor,The area is poor.,这个地区很贫困。,7
+precise,adj.,精确的,exact,Use the exact figure.,用精确的数字。,7
+predict,v.,预测,to forecast,We forecast the trend.,我们预测了趋势。,7
+predominant,adj.,主导的,main,The main cause is known.,主导原因已知。,7
+preliminary,adj.,初步的,early,This is an early step.,这是初步阶段。,7
+premium,n./adj.,保费；优质的,extra cost,They paid extra for quality.,他们为优质支付了溢价。,7
+presence,n.,存在,being there,His being there helped.,他的在场有帮助。,7
+preserve,v.,保护,to keep,We kept the forest.,我们保护了森林。,7
+preside,v.,主持,to lead a meeting,He led the meeting.,他主持了会议。,7
+previous,adj.,以前的,past,The past record shows gain.,以前的记录显示增长。,7
+primary,adj.,主要的,first,The first goal is health.,主要目标是健康。,7
+prime,adj.,首要的,top,This is the top issue.,这是首要问题。,7
+principal,adj./n.,主要的；校长,main,The main rule is fair.,主要原则很公平。,7
+principle,n.,原则,rule,He stood by his rule.,他坚守原则。,7
+priority,n.,优先,top concern,Health is the top concern.,健康是优先事项。,7
+private,adj.,私人的,personal,This is a personal matter.,这是私事。,7
+probable,adj.,可能的,likely,The win is likely.,胜利很可能。,7
+procedure,n.,程序,process,Follow the process.,遵循程序。,7
+proceed,v.,继续,to go on,We went on with work.,我们继续工作。,7
+process,n./v.,过程；处理,course,We handled the task.,我们处理了任务。,7
+proclaim,v.,宣布,to declare,They declared the win.,他们宣布了胜利。,7
+produce,v.,生产,to make,We made the parts.,我们生产了零件。,7
+product,n.,产品,item,The new item sold well.,新产品卖得好。,7
+profile,n.,概况,summary,Read his summary.,读他的简介。,7
+profit,n.,利润,gain,The gain was large.,利润丰厚。,7
+profound,adj.,深刻的,deep,The book had a deep impact.,这本书影响深刻。,7
+program,n.,项目；程序,plan,The plan launched today.,项目今天启动。,7
+project,n./v.,项目；投射,plan,We launched the plan.,我们启动了项目。,7
+promote,v.,促进；晋升,to advance,They advanced the cause.,他们推动了事业。,7
+propose,v.,提议,to suggest,He suggested a plan.,他提议了一个计划。,7
+prospect,n.,前景,outlook,The outlook is bright.,前景光明。,7
+protect,v.,保护,to guard,We guarded the data.,我们保护了数据。,7
+protest,n./v.,抗议,objection,They objected to the law.,他们抗议这项法律。,7
+provide,v.,提供,to give,We gave support.,我们提供了支持。,7
+province,n.,省,region,The region is large.,这个省很大。,7
+publish,v.,出版,to release,They released the book.,他们出版了书。,7
+purchase,v.,购买,to buy,We bought the land.,我们购买了土地。,7
+pursue,v.,追求,to chase,He chased his dream.,他追求梦想。,7
+qualified,adj.,合格的,skilled,She is a skilled worker.,她是合格的人手。,7
+quality,n.,质量,standard,The standard is high.,质量很高。,7
+quantity,n.,数量,amount,The amount grew.,数量增加了。,7
+quote,v./n.,引用；报价,to cite,He cited the line.,他引用了那句话。,7
+radical,adj.,激进的,extreme,The change was extreme.,变化很激进。,7
+random,adj.,随机的,by chance,We picked by chance.,我们随机选的。,7
+range,n./v.,范围；变动,span,Prices span wide.,价格范围很广。,7
+ratio,n.,比率,proportion,The proportion is odd.,比率奇怪。,7
+rational,adj.,理性的,logical,He made a logical choice.,他做了理性选择。,7
+react,v.,反应,to respond,We responded fast.,我们反应很快。,7
+realistic,adj.,现实的,practical,Set a practical goal.,定个现实的目标。,7
+reason,n./v.,理由；推理,cause,He gave a clear cause.,他给出了理由。,7
+recall,v.,回忆,to remember,She remembered the day.,她回忆起那天。,7
+recent,adj.,最近的,new,The new data is key.,最新数据很关键。,7
+recognize,v.,认出,to know,We knew the face.,我们认出了他。,7
+recommend,v.,推荐,to suggest,He suggested the book.,他推荐了这本书。,7
+record,n./v.,记录,to note,We noted the result.,我们记录了结果。,7
+recover,v.,恢复,to get well,He got well soon.,他很快恢复了。,7
+refine,v.,精炼,to improve,We improved the method.,我们精炼了方法。,7
+reflect,v.,反映,to show,The data shows the trend.,数据反映了趋势。,7
+reform,v./n.,改革,to improve,They improved the system.,他们改革了制度。,7
+refuge,n.,避难所,shelter,They found a shelter.,他们找到了避难所。,7
+region,n.,地区,area,The area is dry.,这个地区很干旱。,7
+register,v.,登记,to sign up,Please sign up first.,请先登记。,7
+regulate,v.,监管,to control,The state controls trade.,政府监管贸易。,7
+reinforce,v.,加强,to strengthen,We strengthened the wall.,我们加固了墙。,7
+reject,v.,拒绝,to refuse,They refused the offer.,他们拒绝了提议。,7
+relate,v.,关联,to connect,We connected the facts.,我们关联了事实。,7
+release,v.,释放；发布,to free,They freed the news.,他们发布了消息。,7
+relevant,adj.,相关的,related,This is a related point.,这点相关。,7
+relief,n.,缓解,ease,The aid brought ease.,援助带来了缓解。,7
+rely,v.,依赖,to depend,We depend on you.,我们依赖你。,7
+remain,v.,保持,to stay,We stayed calm.,我们保持冷静。,7
+remote,adj.,偏远的,far,The village is far.,村庄很偏远。,7
+remove,v.,移除,to take away,Please take it away.,请移除它。,7
+repair,v.,修理,to fix,We fixed the car.,我们修理了车。,7
+replace,v.,替换,to swap,We swapped the part.,我们替换了部件。,7
+report,n./v.,报告,to tell,He told the boss.,他汇报了。,7
+represent,v.,代表,to stand for,He stood for the group.,他代表团队。,7
+repress,v.,压抑,to hold back,He held back his anger.,他压抑了怒火。,7
+reproduce,v.,复制,to copy,We copied the result.,我们复现了结果。,7
+research,n./v.,研究,study,We studied the cause.,我们研究了原因。,7
+resident,n.,居民,local,The local complained.,居民抱怨了。,7
+resist,v.,抵抗,to oppose,They opposed the plan.,他们抵抗了计划。,7
+resolve,v.,解决,to settle,We settled the issue.,我们解决了问题。,7
+resource,n.,资源,asset,We lack the asset.,我们缺乏资源。,7
+respond,v.,回应,to reply,We replied fast.,我们迅速回应。,7
+restore,v.,恢复,to bring back,We brought back the old look.,我们恢复了旧貌。,7
+restrain,v.,克制,to hold back,He held back his tears.,他克制住了眼泪。,7
+restrict,v.,限制,to limit,We limited access.,我们限制了进入。,7
+retain,v.,保留,to keep,We kept the right.,我们保留了权利。,7
+reveal,v.,揭示,to show,The test showed the truth.,测试揭示了真相。,7
+reverse,v./adj.,反转；相反的,to flip,We flipped the order.,我们反转了顺序。,7
+revise,v.,修订,to edit,We edited the draft.,我们修订了草稿。,7
+reward,n./v.,奖励,prize,He won a prize.,他得到了奖励。,7
+rigid,adj.,僵化的,stiff,The rule is stiff.,规定很僵化。,7
+role,n.,角色,part,He played a key part.,他扮演了关键角色。,7
+route,n.,路线,path,Take the safe path.,走安全的路线。,7
+routine,n.,常规,habit,This is our daily habit.,这是我们的日常常规。,7
+rule,n./v.,规则；统治,law,Follow the law.,遵守规则。,7
+rural,adj.,农村的,country,The country side is quiet.,农村很安静。,7
+satisfy,v.,满足,to please,We pleased the client.,我们满足了客户。,7
+scarce,adj.,稀缺的,rare,Water is rare here.,这里水很稀缺。,7
+scatter,v.,散播,to spread,The wind spread the seeds.,风播撒了种子。,7
+scheme,n.,计划,plan,They made a clever plan.,他们制定了一个计划。,7
+scope,n.,范围,extent,The extent is clear.,范围很清楚。,7
+section,n.,部分,part,Read this part.,读这一部分。,7
+sector,n.,部门,field,The public field grew.,公共部门发展了。,7
+secure,adj./v.,安全的；确保,safe,We kept the data safe.,我们确保了数据安全。,7
+seek,v.,寻求,to look for,We looked for help.,我们寻求帮助。,7
+segment,n.,部分,piece,This piece is key.,这一段很关键。,7
+select,v.,选择,to pick,Please pick a card.,请选择一张卡。,7
+senior,adj.,资深的,older,He is a senior staff.,他是资深员工。,7
+sequence,n.,顺序,order,Follow the right order.,遵循正确的顺序。,7
+series,n.,系列,set,We launched a new set.,我们推出了一系列。,7
+settle,v.,解决；定居,to resolve,They resolved the case.,他们解决了案子。,7
+severe,adj.,严重的,grave,The wound was grave.,伤势很严重。,7
+shift,v./n.,转变,change,The change was quick.,转变很快。,7
+significant,adj.,重要的,major,This is a major find.,这是个重要发现。,7
+similar,adj.,相似的,alike,The two are alike.,两者相似。,7
+simulate,v.,模拟,to mimic,We mimicked the crash.,我们模拟了崩溃。,7
+site,n.,地点,place,This is the build place.,这是施工地点。,7
+situation,n.,情况,state,The state is stable.,情况稳定。,7
+slight,adj.,轻微的,small,There was a small error.,有轻微错误。,7
+smooth,adj.,平滑的,even,The ride was even.,路程很平稳。,7
+social,adj.,社会的,of society,The issue affects us all.,这是社会问题。,7
+sole,adj.,唯一的,only,He is the only heir.,他是唯一的继承人。,7
+solid,adj.,坚固的,firm,The base is firm.,地基很坚固。,7
+solution,n.,解决方案,answer,We found the answer.,我们找到了解决方案。,7
+solve,v.,解决,to fix,We fixed the puzzle.,我们解决了难题。,7
+somewhat,adv.,有点,rather,It is rather cold.,有点冷。,7
+source,n.,来源,origin,Find the true origin.,找到真正的来源。,7
+specific,adj.,具体的,precise,Give a precise date.,给个具体日期。,7
+specify,v.,指定,to state,Please state the cost.,请指定费用。,7
+sphere,n.,领域；球体,field,This is his field.,这是他的领域。,7
+stable,adj.,稳定的,steady,The market is steady.,市场很稳定。,7
+statistic,n.,统计,data point,The data point surprised us.,这个统计数据令人惊讶。,7
+status,n.,状态,state,Check the current state.,查看当前状态。,7
+steady,adj.,稳定的,stable,The pace is stable.,节奏稳定。,7
+stimulus,n.,刺激,trigger,The tax cut was a trigger.,减税是个刺激。,7
+strategy,n.,策略,plan,We need a smart plan.,我们需要策略。,7
+stress,n./v.,压力；强调,pressure,He felt real pressure.,他感到了压力。,7
+strict,adj.,严格的,rigid,The rule is rigid.,规定很严格。,7
+strike,v.,打击,to hit,The union hit back.,工会发起了罢工。,7
+structure,n.,结构,frame,The frame is sound.,结构很稳固。,7
+submit,v.,提交,to send,Please send the form.,请提交表格。,7
+subsequent,adj.,随后的,later,The later test failed.,随后的测试失败了。,7
+subsidy,n.,补贴,aid,The farm aid helped.,补贴帮了农民。,7
+substance,n.,物质,matter,The matter is toxic.,这种物质有毒。,7
+subtle,adj.,微妙的,delicate,The difference is delicate.,差别很微妙。,7
+substitute,n./v.,替代品；替代,a replacement,Use a replacement part.,用替代部件。,7
+succeed,v.,成功,to win,We won at last.,我们终于成功了。,7
+sufficient,adj.,充足的,enough,We have enough time.,时间充足。,7
+suggest,v.,建议,to propose,He proposed a fix.,他建议了一个办法。,7
+summary,n.,摘要,brief,Read the brief first.,先读摘要。,7
+supplement,n./v.,补充,to add to,We added a new part.,我们补充了内容。,7
+supply,n./v.,供应,to provide,We provided the parts.,我们供应了零件。,7
+support,n./v.,支持,to back,We backed the plan.,我们支持这个计划。,7
+suppose,v.,假设,to assume,Let us assume he is right.,假设他是对的。,7
+supreme,adj.,最高的,highest,The highest court ruled.,最高法院裁决了。,7
+surface,n.,表面,outer face,The outer face is rough.,表面很粗糙。,7
+survey,n./v.,调查,to study,We studied the trend.,我们调查了趋势。,7
+survive,v.,生存,to live,They lived through the storm.,他们在风暴中幸存。,7
+suspect,v./n.,怀疑；嫌疑犯,to doubt,We doubt the claim.,我们怀疑这个说法。,7
+sustain,v.,维持,to keep up,We kept up the pace.,我们维持了节奏。,7
+swift,adj.,迅速的,fast,The fast response saved us.,迅速的反应救了我们。,7
+symbol,n.,象征,sign,The dove is a sign of peace.,鸽子是和平的象征。,7
+system,n.,系统,setup,The setup failed.,系统出故障了。,7
+target,n./v.,目标；瞄准,goal,We hit our goal.,我们达成了目标。,7
+task,n.,任务,job,The job is done.,任务完成了。,7
+technical,adj.,技术的,of skill,He has a skilled role.,他担任技术职务。,7
+technique,n.,技术,method,This method works.,这招技术有效。,7
+technology,n.,科技,tech,The tech advanced fast.,科技发展迅速。,7
+temporary,adj.,临时的,short-term,This is a short-term fix.,这是临时办法。,7
+tend,v.,倾向于,to lean,He leans toward yes.,他倾向于同意。,7
+term,n.,术语；学期,word,Learn this word.,学这个术语。,7
+theme,n.,主题,topic,The topic is clear.,主题明确。,7
+theory,n.,理论,idea,His idea explains it.,他的理论解释了现象。,7
+thereby,adv.,从而,thus,Thus we won.,从而我们赢了。,7
+thorough,adj.,彻底的,complete,We did a complete check.,我们做了彻底检查。,7
+threat,n.,威胁,risk,The risk is real.,威胁是真实的。,7
+thus,adv.,因此,so,So we left.,因此我们离开。,7
+tighten,v.,收紧,to make tight,They made rules tight.,他们收紧了规定。,7
+tolerate,v.,容忍,to bear,We bore the noise.,我们容忍了噪音。,7
+topic,n.,话题,subject,The subject changed.,话题变了。,7
+trace,n./v.,痕迹；追踪,to follow,We followed the clue.,我们追踪了线索。,7
+track,n./v.,轨道；追踪,path,We followed the path.,我们追踪了轨迹。,7
+trade,n./v.,贸易,to exchange,They exchanged goods.,他们做贸易。,7
+traditional,adj.,传统的,old-style,This is an old-style dance.,这是传统舞蹈。,7
+traffic,n.,交通,cars,The cars jammed the road.,交通堵塞了。,7
+transfer,v.,转移,to move,We moved the funds.,我们转移了资金。,7
+transform,v.,转变,to change,The news changed her.,这转变了她。,7
+transit,n.,运输,transport,The transport was late.,运输迟到了。,7
+transmit,v.,传输,to send,We sent the signal.,我们传输了信号。,7
+transport,n./v.,运输,to carry,They carried the goods.,他们运输了货物。,7
+trend,n.,趋势,pattern,The pattern is clear.,趋势明显。,7
+trigger,v./n.,触发；扳机,to start,The spark started the fire.,扳机引发了火灾。,7
+ultimate,adj.,最终的,final,The final goal is peace.,最终目标是和平。,7
+unable,adj.,无法的,not able,He was not able to come.,他无法前来。,7
+undergo,v.,经历,to experience,He experienced pain.,他经历了痛苦。,7
+underlie,v.,构成基础,to be base,Trust underlies all.,信任是一切的基础。,7
+undertake,v.,承担,to take on,He took on the task.,他承担了任务。,7
+uniform,adj./n.,统一的；制服,standard,We wore the standard dress.,我们穿着统一制服。,7
+unify,v.,统一,to join,We joined the groups.,我们统一了各团体。,7
+unique,adj.,独特的,one of a kind,This is one of a kind.,这很独特。,7
+update,v./n.,更新,to refresh,We refreshed the page.,我们更新了页面。,7
+utility,n.,效用,use,The tool has real use.,这工具很有用。,7
+utilize,v.,利用,to use,We used the data.,我们利用了数据。,7
+valid,adj.,有效的,legal,The ticket is legal.,这张票有效。,7
+vary,v.,变化,to differ,Prices differ daily.,价格每天变化。,7
+vehicle,n.,车辆,car,The car broke down.,车辆抛锚了。,7
+version,n.,版本,form,This form is new.,这是新版本。,7
+via,prep.,经由,by way of,Send it by mail.,经由邮件发送。,7
+victim,n.,受害者,one harmed,The harmed man recovered.,受害者康复了。,7
+violate,v.,违反,to break,Do not break the law.,不要违反法律。,7
+virtual,adj.,虚拟的,online,The online meeting worked.,虚拟会议很顺利。,7
+visible,adj.,可见的,seen,The mark was seen.,痕迹清晰可见。,7
+vision,n.,愿景,view,He shared his view.,他分享了愿景。,7
+vital,adj.,至关重要的,key,This is a key step.,这步至关重要。,7
+volume,n.,量；体积,amount,The amount grew.,体量增加了。,7
+voluntary,adj.,自愿的,by choice,The act was by choice.,这是自愿行为。,7
+vote,n./v.,投票,to choose,We chose the leader.,我们投票选了领袖。,7
+wage,n./v.,工资；发动,pay,The pay rose at last.,工资终于涨了。,7
+welfare,n.,福利,wellbeing,The aid boosted wellbeing.,福利改善了。,7
+whereas,conj.,然而,while,He left while she stayed.,然而她留下了。,7
+whereby,adv.,借此,by which,By this we won.,借此我们赢了。,7
+widespread,adj.,广泛的,common,The view is common.,这很普遍。,7
+wisdom,n.,智慧,insight,His insight guided us.,他的智慧指引了我们。,7

@@ -292,6 +292,11 @@ export default function App() {
               全部本档
             </button>
           </div>
+          <p className="mode-hint" aria-live="polite">
+            {mode === 'due'
+              ? '仅到期：只练习今天按记忆算法应当复习的单词，适合每天巩固已学内容。'
+              : '全部本档：练习本档全部单词（含尚未学过的生词），适合集中刷词、扩充词库。'}
+          </p>
 
           <div className="size-selector" role="group" aria-label="每轮卡片数量">
             {SESSION_SIZES.map((n) => (

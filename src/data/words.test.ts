@@ -8,13 +8,13 @@ describe('SEED_WORDS 词表质量与规模', () => {
     expect(SEED_WORDS.length).toBeGreaterThanOrEqual(2000);
   });
 
-  it('各 band 达到最低词数（5≥1400, 6≥250, 7≥200, 8≥80, 9≥100）', () => {
+  it('各 band 达到最低词数（5≥1500, 6≥300, 7≥500, 8≥500, 9≥450）', () => {
     const count = (b: string) => SEED_WORDS.filter((w) => w.band === b).length;
-    expect(count('5')).toBeGreaterThanOrEqual(1400);
-    expect(count('6')).toBeGreaterThanOrEqual(250);
-    expect(count('7')).toBeGreaterThanOrEqual(200);
-    expect(count('8')).toBeGreaterThanOrEqual(80);
-    expect(count('9')).toBeGreaterThanOrEqual(100);
+    expect(count('5')).toBeGreaterThanOrEqual(1500);
+    expect(count('6')).toBeGreaterThanOrEqual(300);
+    expect(count('7')).toBeGreaterThanOrEqual(500);
+    expect(count('8')).toBeGreaterThanOrEqual(500);
+    expect(count('9')).toBeGreaterThanOrEqual(450);
   });
 
   it('所有 id 全局唯一', () => {
