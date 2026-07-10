@@ -4,7 +4,7 @@ import { List, type RowComponentProps } from 'react-window';
 import { SEED_WORDS, SEED_VERSION, type Band, type VocabEntry } from './data/words';
 import { SrsService, type Grade } from './services/SrsService';
 // 持久层与业务编排（已落地）
-import { VocabRepository } from './repository/VocabRepository';
+import { VocabRepository, type Profile } from './repository/VocabRepository';
 import { WordService } from './services/WordService';
 import { createSession, currentCard, grade as gradeSession, type SessionState } from './services/SessionService';
 import { dateKey } from './utils/date';
@@ -14,6 +14,7 @@ import BandSelector from './components/BandSelector';
 import ProgressRing from './components/ProgressRing';
 import Calendar from './components/Calendar';
 import ImportPanel from './components/ImportPanel';
+import ProfileSwitcher from './components/ProfileSwitcher';
 import './styles.css';
 
 // 单例：真实项目里由依赖注入 / context 提供，这里为演示直接实例化。
@@ -83,6 +84,11 @@ export default function App() {
   const [calYear, setCalYear] = useState(new Date().getFullYear());
   const [calMonth, setCalMonth] = useState(new Date().getMonth() + 1);
 
+  // ---------- 多档案（本地账号） ----------
+  const [profiles, setProfiles] = useState<Profile[]>([]);
+  // 初始为空串：门控会话/日历加载，确保档案引导完成后再拉数据，避免错档。
+  const [activeProfileId, setActiveProfileId] = useState<string>('');
+
   // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode 变化都会触发。
   async function buildSession(bandVal: Band, size: number, modeVal: 'due' | 'all' = 'due') {
     setLoading(true);
@@ -96,6 +102,7 @@ export default function App() {
   }
 
   useEffect(() => {
+    if (!activeProfileId) return; // 档案未就绪前不加载会话
     let cancelled = false;
     (async () => {
       setLoading(true);
@@ -113,15 +120,30 @@ export default function App() {
       cancelled = true;
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [band, sessionSize, mode]);
+  }, [band, sessionSize, mode, activeProfileId]);
 
   // 首次挂载：把已学习过的日期读进日历（带 cancelled 守卫，与旧逻辑一致）。
   useEffect(() => {
+    if (!activeProfileId) return; // 档案未就绪前不读取日历
     let cancelled = false;
     (async () => {
       const days = await repo.getStudiedDays();
       if (cancelled) return;
       setStudiedDays(new Set(days));
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [activeProfileId]);
+
+  // 首次挂载：引导档案（首启建默认档案 + 恢复上次激活），再载入档案列表。
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      const id = await repo.ensureDefaultProfile();
+      if (cancelled) return;
+      setActiveProfileId(id);
+      setProfiles(await repo.listProfiles());
     })();
     return () => {
       cancelled = true;
@@ -190,6 +212,31 @@ export default function App() {
     });
   }
 
+  // ---------- 多档案（本地账号）操作 ----------
+  async function refreshProfiles() {
+    setProfiles(await repo.listProfiles());
+  }
+  function handleSwitchProfile(id: string) {
+    if (id === activeProfileId) return;
+    repo.setActiveProfile(id);
+    setActiveProfileId(id); // 触发会话 + 日历按新档案重建
+  }
+  async function handleCreateProfile(name: string) {
+    const p = await repo.createProfile(name);
+    repo.setActiveProfile(p.id);
+    setActiveProfileId(p.id); // 自动切到新建档案（全新进度）
+    await refreshProfiles();
+  }
+  async function handleRenameProfile(id: string, name: string) {
+    await repo.renameProfile(id, name);
+    await refreshProfiles();
+  }
+  async function handleDeleteProfile(id: string) {
+    await repo.deleteProfile(id);
+    setActiveProfileId(repo.getActiveProfileId()); // deleteProfile 已回退到默认档案
+    await refreshProfiles();
+  }
+
   // ---------- 导入词表（模态） ----------
   const [showImport, setShowImport] = useState(false);
 
@@ -232,6 +279,14 @@ export default function App() {
               <p className="app-subtitle">柯林斯式闪卡 · FSRS 间隔重复 · 原生语音朗读</p>
             </div>
             <div className="header-controls">
+              <ProfileSwitcher
+                profiles={profiles}
+                activeId={activeProfileId}
+                onSwitch={handleSwitchProfile}
+                onCreate={handleCreateProfile}
+                onRename={handleRenameProfile}
+                onDelete={handleDeleteProfile}
+              />
               <div className="theme-switch" role="group" aria-label="主题切换">
                 {(['light', 'dark', 'system'] as Theme[]).map((t) => (
                   <button

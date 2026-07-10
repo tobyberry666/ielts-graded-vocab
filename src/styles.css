@@ -693,6 +693,169 @@ body {
   box-shadow: 0 10px 22px -10px var(--accent);
 }
 
+/* ---------- 档案切换器（本地多账号） ---------- */
+.profile-switcher {
+  position: relative;
+}
+
+.profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid var(--glass-border);
+  background: var(--btn-bg);
+  color: var(--text);
+  font: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition: transform 0.2s var(--ease-flip), color 0.2s ease,
+    background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile-btn:hover {
+  transform: translateY(-1px);
+  color: var(--text-strong);
+}
+
+.profile-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.profile-avatar.sm {
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+}
+
+.profile-name {
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-caret {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+.profile-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 40;
+  width: 240px;
+  padding: 10px;
+  border-radius: var(--radius-card);
+}
+
+.profile-menu-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 2px 6px 8px;
+  letter-spacing: 0.04em;
+}
+
+.profile-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.profile-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+  padding: 8px 6px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.profile-item:hover {
+  background: var(--chip-bg);
+}
+
+.profile-item.is-active {
+  background: var(--chip-bg);
+  color: var(--text-strong);
+}
+
+.profile-item-name {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-check {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.profile-menu-actions {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--glass-border);
+}
+
+.profile-action {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: var(--text-muted);
+  font: inherit;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+
+.profile-action:hover:not(:disabled) {
+  color: var(--text-strong);
+  background: var(--chip-bg);
+}
+
+.profile-action:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.profile-action.danger:hover:not(:disabled) {
+  color: var(--grade-again);
+  background: rgba(239, 68, 68, 0.12);
+}
+
 /* ---------- 导入模态 ---------- */
 .modal-backdrop {
   position: fixed;

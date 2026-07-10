@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import type { VocabEntry, Band } from '../data/words';
-import type { VocabRepositoryPort } from '../repository/VocabRepository';
+import type { VocabRepositoryPort, Profile } from '../repository/VocabRepository';
 import {
   parseCsv,
   parseAnki,
@@ -44,6 +44,22 @@ class FakeRepo implements VocabRepositoryPort {
   }
   async getStudiedDays(): Promise<string[]> {
     return [];
+  }
+  // ── 多档案接口（测试不依赖，留空）──
+  async listProfiles(): Promise<Profile[]> {
+    return [];
+  }
+  async createProfile(_name: string): Promise<Profile> {
+    return { id: 'x', name: _name, createdAt: 0 };
+  }
+  async renameProfile(_id: string, _name: string): Promise<void> {}
+  async deleteProfile(_id: string): Promise<void> {}
+  async ensureDefaultProfile(): Promise<string> {
+    return 'default';
+  }
+  setActiveProfile(_id: string): void {}
+  getActiveProfileId(): string {
+    return 'default';
   }
 }
 
