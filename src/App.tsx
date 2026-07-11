@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { List, type RowComponentProps } from 'react-window';
 import { SEED_WORDS, SEED_VERSION, type Band, type VocabEntry } from './data/words';
@@ -13,7 +13,8 @@ import Flashcard from './components/Flashcard';
 import BandSelector from './components/BandSelector';
 import ProgressRing from './components/ProgressRing';
 import Calendar from './components/Calendar';
-import ImportPanel from './components/ImportPanel';
+// ImportPanel 仅在使用「导入词表」时才需要，懒加载以减小首屏包体。
+const ImportPanel = lazy(() => import('./components/ImportPanel'));
 import ProfileSwitcher from './components/ProfileSwitcher';
 import {
   playPronunciation,
@@ -96,17 +97,26 @@ export default function App() {
 
   // 已掌握（会啦）词集合：驱动「不再出现」与计数展示。
   const [masteredIds, setMasteredIds] = useState<Set<string>>(new Set());
-  // ref 始终保持最新集合，供 buildSession 在闭包中读取而不触发重新构建会话（避免中途重洗）。
-  const masteredRef = useRef<Set<string>>(masteredIds);
-  masteredRef.current = masteredIds;
+  // 会话构建序号：每次 buildSession 自增，过期的异步结果直接丢弃，避免竞态导致的错档/重洗。
+  const buildSeqRef = useRef(0);
+  // 交互闸门：防止快速连点导致同一张卡被 FSRS 打两次分、或静默跳卡。
+  const busyRef = useRef(false);
 
-  // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode 变化都会触发。
+  // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode / 档案变化都会触发。
+  // 内部直接取当前激活档案的最新「已掌握」集合，避免依赖外部时序导致的串档。
   async function buildSession(bandVal: Band, size: number, modeVal: 'due' | 'all' = 'due') {
+    const seq = ++buildSeqRef.current;
     setLoading(true);
     await repo.seedOrRefresh(SEED_WORDS, SEED_VERSION); // 版本化刷新：内置词随版本自愈，导入词/进度不动
+    if (buildSeqRef.current !== seq) return; // 已被更新的构建取代，丢弃过期结果
     const all = await wordService.filterByBand(bandVal);
+    if (buildSeqRef.current !== seq) return;
     setBandTotal(all.length);
-    const studySet = await wordService.getStudySet(srs, bandVal, Date.now(), modeVal, masteredRef.current);
+    // 取当前激活档案的最新已掌握集合（切换档案后即时正确，无需等外部 refreshMastered 时序）。
+    const mastered = await repo.getMasteredIds();
+    if (buildSeqRef.current !== seq) return;
+    const studySet = await wordService.getStudySet(srs, bandVal, Date.now(), modeVal, mastered);
+    if (buildSeqRef.current !== seq) return;
     setSession(createSession(studySet, size));
     setRevealed(false);
     setLoading(false);
@@ -114,22 +124,7 @@ export default function App() {
 
   useEffect(() => {
     if (!activeProfileId) return; // 档案未就绪前不加载会话
-    let cancelled = false;
-    (async () => {
-      setLoading(true);
-      await repo.seedOrRefresh(SEED_WORDS, SEED_VERSION);
-      const all = await wordService.filterByBand(band);
-      if (cancelled) return;
-      setBandTotal(all.length);
-      const studySet = await wordService.getStudySet(srs, band, Date.now(), mode, masteredRef.current);
-      if (cancelled) return;
-      setSession(createSession(studySet, sessionSize));
-      setRevealed(false);
-      setLoading(false);
-    })();
-    return () => {
-      cancelled = true;
-    };
+    void buildSession(band, sessionSize, mode);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [band, sessionSize, mode, activeProfileId]);
 
@@ -216,46 +211,58 @@ export default function App() {
   }
 
   async function handleGrade(grade: Grade) {
+    if (busyRef.current) return; // 防连点：同一张卡被 FSRS 打两次分 / 跳卡
     const cur = session ? currentCard(session) : null;
     if (!cur) return;
-    const nextCard = srs.grade(cur.card, grade);
-    await repo.saveCard(cur.word.id, nextCard);
-    setSession((prev) => (prev ? gradeSession(prev, grade) : prev));
-    setRevealed(false);
-    // 打卡：今天背过词 → 记录并即时让日历变紫
-    const key = dateKey();
-    await repo.recordStudyDay(key);
-    setStudiedDays((prev) => {
-      if (prev.has(key)) return prev;
-      const n = new Set(prev);
-      n.add(key);
-      return n;
-    });
+    busyRef.current = true;
+    try {
+      const nextCard = srs.grade(cur.card, grade);
+      await repo.saveCard(cur.word.id, nextCard);
+      setSession((prev) => (prev ? gradeSession(prev, grade) : prev));
+      setRevealed(false);
+      // 打卡：今天背过词 → 记录并即时让日历变紫
+      const key = dateKey();
+      await repo.recordStudyDay(key);
+      setStudiedDays((prev) => {
+        if (prev.has(key)) return prev;
+        const n = new Set(prev);
+        n.add(key);
+        return n;
+      });
+    } finally {
+      busyRef.current = false;
+    }
   }
 
   // 「会啦！」：标记当前词为已掌握 → 从 FSRS 调度彻底移除 + 出队 + 记录今日学习。
   async function handleMastered() {
+    if (busyRef.current) return; // 防连点
     const cur = session ? currentCard(session) : null;
     if (!cur) return;
     const wordId = cur.word.id;
-    await repo.markMastered(wordId);
-    await repo.deleteCard(wordId); // 彻底退出调度，永不再出现
-    setSession((prev) => (prev ? dismissSession(prev) : prev));
-    setRevealed(false);
-    setMasteredIds((prev) => {
-      const n = new Set(prev);
-      n.add(wordId);
-      return n;
-    });
-    // 打卡：算作今日学习，让日历保持活跃。
-    const key = dateKey();
-    await repo.recordStudyDay(key);
-    setStudiedDays((prev) => {
-      if (prev.has(key)) return prev;
-      const n = new Set(prev);
-      n.add(key);
-      return n;
-    });
+    busyRef.current = true;
+    try {
+      await repo.markMastered(wordId);
+      await repo.deleteCard(wordId); // 彻底退出调度，永不再出现
+      setSession((prev) => (prev ? dismissSession(prev) : prev));
+      setRevealed(false);
+      setMasteredIds((prev) => {
+        const n = new Set(prev);
+        n.add(wordId);
+        return n;
+      });
+      // 打卡：算作今日学习，让日历保持活跃。
+      const key = dateKey();
+      await repo.recordStudyDay(key);
+      setStudiedDays((prev) => {
+        if (prev.has(key)) return prev;
+        const n = new Set(prev);
+        n.add(key);
+        return n;
+      });
+    } finally {
+      busyRef.current = false;
+    }
   }
 
   // 撤销「会啦」：清空当前档案已掌握集合，并把词重新放回复习队列。
@@ -275,7 +282,7 @@ export default function App() {
     if (!session) return;
     // 本轮中未点「会啦」的词，重新排成队列复习。
     const unMasteredIds = session.roundCards
-      .filter((c) => !masteredRef.current.has(c.word.id))
+      .filter((c) => !masteredIds.has(c.word.id))
       .map((c) => c.word.id);
     setSession((prev) => (prev ? reviewSessionRound(prev, unMasteredIds) : prev));
     setRevealed(false);
@@ -663,7 +670,9 @@ export default function App() {
               aria-label="导入词表"
               onClick={(e) => e.stopPropagation()}
             >
-              <ImportPanel repo={repo} onClose={() => setShowImport(false)} />
+              <Suspense fallback={<div className="loading-state">加载导入面板…</div>}>
+                <ImportPanel repo={repo} onClose={() => setShowImport(false)} />
+              </Suspense>
             </div>
           </motion.div>
         )}

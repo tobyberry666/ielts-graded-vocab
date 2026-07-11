@@ -11,6 +11,15 @@ import type { VocabRepositoryPort } from '../repository/VocabRepository';
 import { containsInjection, isValidBand } from './sanitize';
 import * as Papa from 'papaparse';
 
+// 导入安全上限：防止超大/恶意 CSV/TSV 阻塞主线程（papaparse 同步解析）或爆内存。
+const MAX_IMPORT_ROWS = 2000;
+const FIELD_MAX = 2000;
+
+/** 字段裁剪：超长内容截断，避免异常输入撑爆存储/渲染。 */
+function cap(s: string): string {
+  return s.length > FIELD_MAX ? s.slice(0, FIELD_MAX) : s;
+}
+
 export interface ImportRow {
   term: string;
   phonetic: string;
@@ -62,15 +71,15 @@ function splitCollocations(s: string): string[] {
 /** 一条解析后的记录 → ImportRow（缺失可选字段默认 '' / []）。 */
 function recordToRow(rec: Record<string, unknown>): ImportRow {
   return {
-    term: strVal(rec.term),
-    phonetic: strVal(rec.phonetic),
-    pos: strVal(rec.pos),
-    meaningZh: strVal(rec.meaningZh),
-    meaningEn: strVal(rec.meaningEn),
+    term: cap(strVal(rec.term)),
+    phonetic: cap(strVal(rec.phonetic)),
+    pos: cap(strVal(rec.pos)),
+    meaningZh: cap(strVal(rec.meaningZh)),
+    meaningEn: cap(strVal(rec.meaningEn)),
     band: toBand(rec.band),
-    collocations: splitCollocations(strVal(rec.collocations)),
-    example: strVal(rec.example),
-    exampleZh: strVal(rec.exampleZh),
+    collocations: splitCollocations(cap(strVal(rec.collocations))),
+    example: cap(strVal(rec.example)),
+    exampleZh: cap(strVal(rec.exampleZh)),
   };
 }
 
@@ -95,7 +104,9 @@ export function parseCsv(text: string): ImportRow[] {
     skipEmptyLines: true,
     transformHeader: (h) => h.trim(),
   });
-  return result.data.map((rec) => recordToRow(rec as Record<string, unknown>));
+  return result.data
+    .slice(0, MAX_IMPORT_ROWS)
+    .map((rec) => recordToRow(rec as Record<string, unknown>));
 }
 
 // ── Anki 解析（TSV）──────────────────────────────────────────────────────
@@ -109,26 +120,27 @@ export function parseAnki(text: string): ImportRow[] {
   const lines = text.split(/\r?\n/);
   for (const line of lines) {
     if (line.trim() === '') continue;
+    if (rows.length >= MAX_IMPORT_ROWS) break; // 超上限即停，防止超大文件阻塞
     const cols = line.split('\t');
 
     if (cols.length === 9) {
       rows.push({
-        term: cols[0].trim(),
-        phonetic: cols[1].trim(),
-        pos: cols[2].trim(),
-        meaningZh: cols[3].trim(),
-        meaningEn: cols[4].trim(),
+        term: cap(cols[0].trim()),
+        phonetic: cap(cols[1].trim()),
+        pos: cap(cols[2].trim()),
+        meaningZh: cap(cols[3].trim()),
+        meaningEn: cap(cols[4].trim()),
         band: toBand(cols[5]),
         collocations: splitCollocations(cols[6]),
-        example: cols[7].trim(),
-        exampleZh: cols[8].trim(),
+        example: cap(cols[7].trim()),
+        exampleZh: cap(cols[8].trim()),
       });
     } else if (cols.length === 2) {
       rows.push({
-        term: cols[0].trim(),
+        term: cap(cols[0].trim()),
         phonetic: '',
         pos: '',
-        meaningZh: cols[1].trim(),
+        meaningZh: cap(cols[1].trim()),
         meaningEn: '',
         band: '5',
         collocations: [],
@@ -138,7 +150,7 @@ export function parseAnki(text: string): ImportRow[] {
     } else {
       // 列数异常：构造一条必然被 importWords 拒绝的行（非法 band）。
       rows.push({
-        term: cols[0]?.trim() || 'unexpected',
+        term: cap(cols[0]?.trim() || 'unexpected'),
         phonetic: '',
         pos: '',
         meaningZh: 'unexpected',
@@ -194,10 +206,12 @@ export function importWords(rows: ImportRow[]): ImportReport {
     }
 
     // 通过全部校验：构建 VocabEntry。
-    // 注意：id = term.trim()；若多个词 term 相同（trim 后），bulkPut 末值覆盖先前值。
+    // 注意：id = 'import:' + term.trim()，加前缀使其永不落在种子词 id 集合内，
+    // 避免下次启动被 seedOrRefresh 按「内置种子词」富文本覆盖；用户导入词独立存活。
+    // 若多个词 term 相同（trim 后），bulkPut 末值覆盖先前值。
     const term = row.term.trim();
     accepted.push({
-      id: term,
+      id: 'import:' + term,
       term,
       phonetic: row.phonetic ?? '',
       pos: row.pos ?? '',

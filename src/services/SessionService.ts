@@ -184,10 +184,9 @@ export function reviewRound(s: SessionState, unMasteredIds: string[]): SessionSt
  * 若 pool 已空且队列也空 → 标记 completed（真正全部背完）。不可变。
  */
 export function nextRound(s: SessionState): SessionState {
+  // 仅在一轮完成（queue 已空、roundComplete=true）的选择点被调用，故 pool 为空即真结束。
   if (s.pool.length === 0) {
-    // 没有更多词了：队列空则结束，否则继续把剩余队列背完。
-    if (s.queue.length === 0) return { ...s, completed: true, roundComplete: false };
-    return { ...s, roundComplete: false, roundProcessed: 0, roundCards: [] };
+    return { ...s, completed: true, roundComplete: false };
   }
   const next = shuffle(s.pool);
   const queue = next.slice(0, s.size);

@@ -7,7 +7,7 @@ FSRS 间隔重复算法排期 → 柯林斯式闪卡（音标/词性/中英释�
 🌐 **在线使用（推荐，任何人直接开链接就能背词，无需安装）**：
 https://tobyberry666.github.io/ielts-graded-vocab/
 
-> 已完成：M2 种子词表 → M3 CSV/Anki 导入 + framer-motion 翻转 → M4 会话制循环复习 + 学习日历 → M5 扩容至 ~2840 词 + 「仅到期/全部本档」复习模式 → M6 新增 **Band 9(GRE 级)** + 日历月份导航 + CSV/Anki 导出，并**部署到 GitHub Pages**（见上方链接，纯静态站点，点开即用）。
+> 已完成：M2 种子词表 → M3 CSV/Anki 导入 + framer-motion 翻转 → M4 会话制循环复习 + 学习日历 → M5 扩容至 210 词 + 「仅到期/全部本档」复习模式 → M6 新增 **Band 9(GRE 级)** + 日历月份导航 + CSV/Anki 导出 + **部署到 GitHub Pages** → M7 **一轮完成选择屏（复习本轮回放 / 下一轮）** + 修复连点漏卡 / 切换档案串档 / 导入词被覆盖等真实踩坑 + 文档同步（见上方链接，纯静态站点，点开即用）。
 
 ## 技术栈
 
@@ -96,5 +96,5 @@ app/
 - **M5**（已完成）：词表大幅扩容 + 复习模式
   - **词表扩容至 210+ 词**：在 M2 的 53 词基础上新增 157 词，Band 5/6/7/8 现分别为 **51 / 51 / 72 / 36**（Band 7 达 72），原种子全部保留；并新增 `src/data/words.test.ts` 守住总词数与各 band 下限。
   - **复习模式「仅到期 / 全部本档」**：默认「仅到期」（旧行为，只练到期词）；切到「全部本档」可把整档词（含已排期到未来的）重新拉出来学，**学完本档不再空档卡死**——空档时引导「复习全部本档」按钮一键重学。`npm run build` 绿（**452 模块** / gzip **167.74 kB**）、`npx vitest run` **67 passed / 8 files**。
-- **M6**：CI（lint+test+build）、打包脚本、一键启动
-- **M7**：文档补全（README/CHANGELOG/Design Rationale）
+- **M6**（已完成）：CI（` .github/workflows/ci.yml` 在 push/PR 跑 `npm run build` + `npm test`）+ GitHub Pages 自动部署（`deploy.yml`）。
+- **M7**（已完成）：一轮完成选择屏（复习本轮回放 / 下一轮）+ 真实踩坑修复（连点漏卡、切换档案串档、导入词被种子覆盖、导入无上限、背面键盘可聚焦）+ 代码分割（manualChunks + 懒加载 ImportPanel）+ 文档同步（CLAUDE.md / README）。

@@ -59,9 +59,12 @@ UI (App.tsx + components/*, 含 Calendar)  →  Service (SrsService / WordServic
 - `src/services/SessionService.ts`（纯 Service 层，零 UI / 零存储 / 零依赖）公共 API：
   - `createSession(cards, size)` —— 洗牌切片成首批（size 张）+ 剩余 pool；size 被 clamp 到 >=1；空卡时返回 `completed:false` 空会话。
   - `currentCard(s)` —— 返回 `s.queue[0]`，完成后返回 `null`。
-  - `grade(s, g)` —— **不可变**：`s` 不变，返回新 `SessionState`。`'again'/'hard'` 把当前卡回收进 `pool`（下轮重洗强化）；`'good'/'easy'` 离开会话；每调一次 `studiedTotal +1`；批次背完且 `pool` 非空则重洗成下一轮（按 `size` 切片），`pool` 与 `queue` 皆空时 `completed:true`。
+  - `grade(s, g)` —— **不可变**：`s` 不变，返回新 `SessionState`。`'again'/'hard'` 把当前卡回收进 `pool`（下轮重洗强化）；`'good'/'easy'` 离开会话；每调一次 `studiedTotal +1`、`roundProcessed +1`、并把当前卡记入 `roundCards`。**一轮（size 张）处理完、pool 仍有余时：置 `roundComplete=true` 暂停**（不再自动重洗），等待 UI 弹出选择屏让用户选「复习本轮回放」或「下一轮」——这是给背词者一个明确的决策点。`pool` 与 `queue` 皆空时 `completed:true`。
+  - `dismissCurrent(s)`（「会啦」出队）—— 与 `grade(good)` 在队列上等价（出队 +1），但语义上不涉及 FSRS 重排（FSRS 卡删除由仓库层 `deleteCard` 处理）；同样在一轮末暂停。
+  - `reviewRound(s, unMasteredIds)` —— 把本轮 `roundCards` 中未点「会啦」的词重排成队列复习；全都会啦则直接 `nextRound`。
+  - `nextRound(s)` —— 从 `pool` 重洗出下一批（size 张），`batchNumber +1`、解除暂停；pool 空即 `completed`。
   - 导出 `shuffle`（Fisher–Yates，返回新数组，便于测试确定性）。
-  - `SessionState { size, queue, pool, batchNumber, studiedTotal, initialCount, completed }`（字段语义见文件头注释，与实测一致）。
+  - `SessionState { size, queue, pool, batchNumber, studiedTotal, initialCount, completed, roundComplete, roundProcessed, roundCards }`（字段语义见文件头注释；`roundComplete/roundProcessed/roundCards` 为 M7 一轮选择屏新增，与实测一致）。
 - `src/utils/date.ts`（零依赖）：`dateKey(d?)`（本地时区 `YYYY-MM-DD`，不用 `toISOString` 的 UTC 偏移）、`daysInMonth`、`buildMonthGrid(year, month, today?)`（6×7=42 格，非当月填 `null`，含 `isToday`）。
 - 单测：`src/services/SessionService.test.ts`（15 tests）· `src/utils/date.test.ts`（11 tests）。`WordService.test.ts` / `ImportService.test.ts` 的 FakeRepo 已扩展支持 `recordStudyDay` / `getStudiedDays`。
 
@@ -69,6 +72,7 @@ UI (App.tsx + components/*, 含 Calendar)  →  Service (SrsService / WordServic
 - `src/components/Calendar.tsx` **已实现**，默认导出 `Calendar`，props `{ studiedDays: Set<string>; year: number; month: number }`；用 `buildMonthGrid` 渲染当月 42 格，每格一个圆点：`studiedDays.has(key)` → `.is-studied`（紫色 `var(--accent)`），今天 → `.is-today` 环；底部 `本月已背 N 天`。位于右栏 `.app-aside`（`.glass` 卡片，`sticky`）。
 - `App.tsx` 已重写为会话模型：`session` / `sessionSize`(默认 10) / `studiedDays`；`buildSession(band, size)` = seed→getDueCards→createSession；`useEffect([band, sessionSize])` 重建；挂载 effect 调 `repo.getStudiedDays()` 载入；`handleGrade` 依次 `srs.grade` + `saveCard` + `grade(prev)` + `recordStudyDay(dateKey())` + 更新 `studiedDays`（**同一会话内日历即变紫**）。
 - `size-selector`（10/30/50/100 按钮）位于 `BandSelector` 下方；`.app-shell` 两栏（`.app-main` 640 + `.app-aside` 日历），<980px 堆叠。
+- **一轮完成选择屏（M7）**：背完一轮（size 张）且 pool 仍有余时，`session.roundComplete=true`，UI 隐藏进度行/闪卡、渲染玻璃质感 `.round-choice` 屏，提供「🔁 复习本轮回放（只重背未点会啦的词）/ 下一轮 →」两个按钮；顶部「已掌握 N 词 · 撤销会啦」。`handleGrade`/`handleMastered` 均有 `busyRef` 闸门防连点。
 - 新增依赖：**无**（`SessionService` / `date.ts` 均零依赖）。`react-window` 仍是 v2（自带类型），`@types/react-window` devDep 仍冗余但无害。
 
 ## M5 交付模块（实测现状，2026-07-09）
@@ -107,7 +111,7 @@ UI (App.tsx + components/*, 含 Calendar)  →  Service (SrsService / WordServic
 3. 任何一层越界（UI 直连 storage、Service 含 UI 代码等）一律打回。
 4. 新增依赖需说明 license（仅接受 MIT/Apache-2.0/宽松协议）。
 
-> 当前状态（M5，2026-07-09）：`npm run build` **绿**（exit 0，已实测，`tsc -b && vite build`，**452 模块**，gzip JS **167.74 kB**，CSS 16.80 kB（gzip 3.69 kB））；`npx vitest run` **67 passed / 8 files**。合并门禁为绿。词表扩容（210 词）+ `getStudySet` + seed merge + 复习模式切换均已落地并有单测覆盖。详细状态见 `M3_TEAM_REPORT.md` / `M4_TEAM_REPORT.md` / `M5_TEAM_REPORT.md`。
+> 当前状态（M7，2026-07-11）：`npm run build` **绿**（`tsc -b && vite build`）；`npx vitest run` **93 passed / 10 files**。合并门禁为绿。词表 210 词 + `getStudySet` + seed merge + 复习模式切换 + **一轮完成选择屏（复习本轮回放 / 下一轮）** + 多档案隔离 + 真人发音优先均已落地并有单测覆盖。详细状态见各 `M*_TEAM_REPORT.md`。
 
 ## 安全红线（踩过的坑与兜底）
 
@@ -162,3 +166,22 @@ UI (App.tsx + components/*, 含 Calendar)  →  Service (SrsService / WordServic
 - **安全红线（达成，沿用 M3/M4）**：导入复用 `sanitize`；全仓 **0 处** `dangerouslySetInnerHTML` 实际使用；CSV/Anki 纯文本、**无压缩包解压**、无 zip-slip 攻击面。`getStudySet` / seed merge 均为纯逻辑，不涉及 DOM 或 innerHTML。
 - **DEV 工具链 `npm audit` 漏洞（已知，仍未强制修复）**：沿用 M3/M4 结论——全部位于 DEV 工具链（esbuild→vite→vitest），修复需破坏性升级 `vite@8`；M5 仍**未自动修复**，仅记录，避免破坏现有构建。
 - **`react-window` v2 类型冗余（非阻塞）**：`@types/react-window` devDep 仍冗余，请勿修改 `package.json`。
+
+## M7 一轮选择屏 + 真实踩坑（2026-07-11）
+
+### 一轮完成选择屏（施调度 + UI，已落地）
+- `SessionService` 新增 `roundComplete` / `roundProcessed` / `roundCards` 三字段；`grade`/`dismissCurrent` 在「一轮（size 张）处理完、pool 仍有余」时**置 `roundComplete=true` 暂停**，不再自动重洗。
+- `App.tsx` 在 `roundComplete && !completed` 时隐藏进度行/闪卡，渲染 `.round-choice` 玻璃选择屏：`🔁 复习本轮回放`（只重背本轮未点「会啦」的词 = `reviewRound(unMasteredIds)`）/ `下一轮 →`（`nextRound`）。`react` 状态驱动，无副作用时序依赖。
+- `SessionService.test.ts` 配套新增 5 项：暂停点 no-op、nextRound 重组、reviewRound 过滤未会啦、全都会啦直接跳轮、末轮 `completed`；并统一用确定性 `makeSession` 构造器（规避 `createSession` 内部洗牌导致的随机 id 断言失败）。
+
+### 真实踩坑（均已在 M7 修复，记录防复发）
+1. **连点漏卡 / 重复打分**：`handleGrade`/`handleMastered` 从闭包 `session` 抓当前卡；快速连点两下都抓到同一张卡 → FSRS 打两次分、会话却推进两张、下一卡被静默跳过。修复：`busyRef` 闸门，点击即置 `true`、`finally` 清，`setSession(prev => …)` 内驱动推进。
+2. **切换档案串档**：原 effect 依赖 `masteredRef.current`（外部 `masteredIds` 时序），`handleSwitchProfile` 先切 `activeProfileId` 触发 effect、再 fire-and-forget `refreshMastered` → 新档案 studySet 用了**旧档案**的「已掌握」集合过滤，把新档案本该出现的词误剔除。修复：`buildSession` 内部直接 `await repo.getMasteredIds()` 取当前激活档案最新集合，并加 `buildSeqRef` 序号丢弃过期异步结果，彻底消除时序与竞态。会话构建入口统一为单一 `buildSession`（原 effect 内联逻辑 + `buildSession` 双路径合并）。
+3. **导入词被种子覆盖**：`ImportService` 原 `id = term.trim()`，若导入词恰与种子同 id（如 `analyse`），下次启动 `seedOrRefresh` 按「内置种子词」富文本覆盖。修复：导入词 `id` 加 `import:` 前缀，永不落在种子 id 集合内，独立存活。
+4. **导入无上限**：原 `papaparse` 同步解析无行数/字段长度限制，超大/恶意 CSV 可阻塞主线程或爆内存。修复：`MAX_IMPORT_ROWS=2000` 行上限 + `FIELD_MAX=2000` 字段长度裁剪。
+5. **背面键盘可聚焦（a11y）**：`Flashcard` 背面打分/「会啦」按钮始终在 DOM（旋转隐藏未 `inert`），键盘用户没翻面就能 Tab 到。修复：未翻面时给 `.fc-back` 设 `inert`（DOM 属性，绕开 React 18 attribute 差异）。
+6. **首包过大**：单 chunk 1.3MB（framer-motion 等全进首屏）。缓解：`vite.config.ts` `manualChunks` 拆 `react`/`motion`/`srs`/`data`/`dexie` 独立 vendor chunk，并将 `ImportPanel` 改为 `React.lazy` 懒加载（仅「导入词表」时拉取）。
+
+### M7 测试 / 构建
+- **测试**：`npx vitest run` → **93 passed / 10 files**（在 M5 的 67 基础上 +26：SessionService 5 项 + 其余服务边界增强）。
+- **构建**：`tsc -b && vite build` 绿；`manualChunks` 拆分后首屏主包显著减小、vendor 可独立缓存。

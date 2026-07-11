@@ -7,6 +7,20 @@ export default defineConfig({
     // 资源必须以该子路径为基准，否则上线后 /assets/* 全部 404。
     base: '/ielts-graded-vocab/',
     plugins: [react()],
+    build: {
+        rollupOptions: {
+            output: {
+                // 将体积较大的第三方库拆分到独立 chunk，提升浏览器缓存命中率、减小首屏主包。
+                manualChunks: {
+                    react: ['react', 'react-dom'],
+                    motion: ['framer-motion'],
+                    srs: ['ts-fsrs'],
+                    data: ['papaparse'],
+                    dexie: ['dexie'],
+                },
+            },
+        },
+    },
     test: {
         environment: 'node',
         include: ['src/**/*.test.ts'],

@@ -109,7 +109,7 @@ describe('parseCsv + importWords (CSV)', () => {
 
     const ubi = report.accepted.find((w) => w.term === 'ubiquitous')!;
     expect(ubi.band).toBe('8');
-    expect(ubi.id).toBe('ubiquitous');
+    expect(ubi.id).toBe('import:ubiquitous');
     expect(ubi.collocations).toEqual(['ubiquitous technology', 'become ubiquitous']);
 
     const ana = report.accepted.find((w) => w.term === 'analyse')!;
@@ -193,8 +193,8 @@ describe('importAndStore', () => {
     expect(repo.bulkCalls).toHaveLength(1);
     expect(repo.bulkCalls[0]).toBe(report.accepted);
     expect(repo.bulkCalls[0]).toHaveLength(2);
-    // 落库内容正确：FakeRepo 内部 store 已写入
-    expect(await repo.getWord('ubiquitous')).toBeDefined();
-    expect((await repo.getWord('ubiquitous'))!.band).toBe('8' as Band);
+    // 落库内容正确：FakeRepo 内部 store 已写入（导入词 id 带 import: 前缀，避开种子 id 碰撞）
+    expect(await repo.getWord('import:ubiquitous')).toBeDefined();
+    expect((await repo.getWord('import:ubiquitous'))!.band).toBe('8' as Band);
   });
 });

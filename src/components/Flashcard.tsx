@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import type { VocabEntry } from '../data/words';
 import type { Grade } from '../services/SrsService';
@@ -71,6 +72,12 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
     ? { duration: 0 }
     : { duration: 0.5, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] };
 
+  // 未翻面时把背面整体设为 inert，禁止键盘用户 Tab 到背面打分/「会啦」按钮（a11y）。
+  const backRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (backRef.current) backRef.current.inert = !revealed;
+  }, [revealed]);
+
   return (
     <div className="fc-scene">
       <motion.div
@@ -100,7 +107,7 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
         </button>
 
         {/* 背面：词性徽章 + 释义 + 搭配 + 中英双语例句，附打分按钮 */}
-        <div className="fc-face fc-back">
+        <div className="fc-face fc-back" ref={backRef}>
           <div className="fc-front-top">
             <div className="fc-back-head">
               <h3 className="fc-back-term">{word.term}</h3>
