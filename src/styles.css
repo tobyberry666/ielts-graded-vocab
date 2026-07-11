@@ -696,6 +696,95 @@ body {
   line-height: 1.6;
 }
 
+/* ---------- 轮次完成选择屏（10/30/50 一轮后的决策点） ---------- */
+.round-choice {
+  margin-top: 8px;
+  padding: 36px 28px 32px;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(160%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%);
+  box-shadow: var(--glass-shadow);
+  text-align: center;
+  animation: rcPop 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes rcPop {
+  from { opacity: 0; transform: translateY(12px) scale(0.98); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.rc-emoji {
+  font-size: 38px;
+  line-height: 1;
+}
+
+.rc-title {
+  margin: 12px 0 4px;
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--text-strong);
+  letter-spacing: 0.2px;
+}
+
+.rc-sub {
+  margin: 0 0 22px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.rc-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.rc-btn {
+  flex: 1 1 200px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 18px;
+  border-radius: 14px;
+  border: 1px solid var(--glass-border);
+  background: linear-gradient(135deg, var(--accent-soft), var(--chip-bg));
+  color: var(--text-strong);
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.rc-btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 16px 30px -16px var(--accent);
+  border-color: var(--accent);
+}
+
+.rc-btn:active {
+  transform: translateY(-1px) scale(0.99);
+}
+
+.rc-review {
+  background: linear-gradient(135deg, var(--accent-soft), var(--chip-bg));
+}
+
+.rc-next {
+  background: linear-gradient(135deg, var(--accent-2-soft, rgba(99, 102, 241, 0.12)), var(--chip-bg));
+}
+
+.rc-btn-hint {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
 /* ---------- 加载态 ---------- */
 .loading-state {
   padding: 60px 0;

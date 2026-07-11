@@ -6,7 +6,7 @@ import { SrsService, type Grade } from './services/SrsService';
 // 持久层与业务编排（已落地）
 import { VocabRepository, type Profile } from './repository/VocabRepository';
 import { WordService } from './services/WordService';
-import { createSession, currentCard, grade as gradeSession, dismissCurrent as dismissSession, type SessionState } from './services/SessionService';
+import { createSession, currentCard, grade as gradeSession, dismissCurrent as dismissSession, reviewRound as reviewSessionRound, nextRound as nextSessionRound, type SessionState } from './services/SessionService';
 import { dateKey } from './utils/date';
 import { toCsv, toAnki, downloadFile } from './utils/export';
 import Flashcard from './components/Flashcard';
@@ -164,6 +164,7 @@ export default function App() {
 
   const current = session ? currentCard(session) : null;
   const roundDone = !loading && session?.completed === true;
+  const roundChoice = !loading && session?.roundComplete === true && !session.completed;
   const isEmpty = !loading && (session?.initialCount ?? 0) === 0;
 
   const [audioSource, setAudioSource] = useState<AudioSource | null>(null);
@@ -267,6 +268,21 @@ export default function App() {
     await repo.resetMastered();
     setMasteredIds(new Set());
     await buildSession(band, sessionSize, mode);
+  }
+
+  // 一轮（10/30/50）背完后的选择点：「复习本轮回放（未会啦的词）」或「直接下一轮」。
+  function handleReviewRound() {
+    if (!session) return;
+    // 本轮中未点「会啦」的词，重新排成队列复习。
+    const unMasteredIds = session.roundCards
+      .filter((c) => !masteredRef.current.has(c.word.id))
+      .map((c) => c.word.id);
+    setSession((prev) => (prev ? reviewSessionRound(prev, unMasteredIds) : prev));
+    setRevealed(false);
+  }
+  function handleNextRound() {
+    setSession((prev) => (prev ? nextSessionRound(prev) : prev));
+    setRevealed(false);
   }
 
   // ---------- 多档案（本地账号）操作 ----------
@@ -444,7 +460,7 @@ export default function App() {
             ))}
           </div>
 
-          {!isEmpty && !roundDone && session && (
+          {!isEmpty && !roundDone && !roundChoice && session && (
             <div className="progress-row">
               <ProgressRing
                 value={session.initialCount ? session.studiedTotal / session.initialCount : 0}
@@ -471,6 +487,40 @@ export default function App() {
               onMastered={handleMastered}
               onSpeak={() => speak(current.word.term)}
             />
+          )}
+
+          {roundChoice && session && (
+            <div className="round-choice glass" role="group" aria-label="本轮完成 · 选择下一步">
+              <div className="rc-emoji" aria-hidden="true">🎯</div>
+              <p className="rc-title">第 {session.batchNumber} 轮完成！</p>
+              <p className="rc-sub">
+                本轮共 {session.roundProcessed} 词
+                {' · '}
+                其中 {session.roundCards.filter((c) => !masteredIds.has(c.word.id)).length} 个未点「会啦」
+              </p>
+              <div className="rc-actions">
+                <button
+                  type="button"
+                  className="rc-btn rc-review"
+                  onClick={handleReviewRound}
+                >
+                  🔁 复习本轮回放
+                  <span className="rc-btn-hint">
+                    {session.roundCards.filter((c) => !masteredIds.has(c.word.id)).length > 0
+                      ? `重背未会啦的 ${session.roundCards.filter((c) => !masteredIds.has(c.word.id)).length} 词`
+                      : '本轮回放词都会啦了'}
+                  </span>
+                </button>
+                <button
+                  type="button"
+                  className="rc-btn rc-next"
+                  onClick={handleNextRound}
+                >
+                  下一轮 →
+                  <span className="rc-btn-hint">跳过本轮回放，直接背下一批</span>
+                </button>
+              </div>
+            </div>
           )}
 
           {isEmpty && bandTotal > 0 && mode === 'due' && (

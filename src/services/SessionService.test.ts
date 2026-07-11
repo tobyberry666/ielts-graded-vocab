@@ -6,6 +6,8 @@ import {
   currentCard,
   grade,
   dismissCurrent,
+  reviewRound,
+  nextRound,
   shuffle,
   type SessionCard,
   type SessionState,
@@ -34,12 +36,36 @@ function makeCards(ids: string[]): SessionCard[] {
 }
 const idsOf = (cards: SessionCard[]): string[] => cards.map((c) => c.word.id);
 
-// 反复对当前卡打分，直到会话完成；返回操作总次数。便于统计 studiedTotal。
+// 确定性构造会话状态（绕过 createSession 的随机洗牌），便于对 grade/reviewRound/nextRound
+// 做精确断言；涉及内部重洗的结果仍只断言长度/集合成员，不假设精确顺序。
+function makeSession(
+  queueIds: string[],
+  poolIds: string[],
+  size: number,
+  extra: Partial<SessionState> = {},
+): SessionState {
+  return {
+    size,
+    queue: makeCards(queueIds),
+    pool: makeCards(poolIds),
+    batchNumber: 1,
+    studiedTotal: 0,
+    initialCount: queueIds.length + poolIds.length,
+    completed: false,
+    roundComplete: false,
+    roundProcessed: 0,
+    roundCards: [],
+    ...extra,
+  };
+}
+
+// 反复对当前卡打分，直到会话完成；遇到「本轮完成」暂停点时自动 nextRound 推进。
 function driveUntilDone(s: SessionState, g: 'good'): SessionState {
   let cur = s;
   let guard = 0;
   while (!cur.completed && guard < 10000) {
-    cur = grade(cur, g);
+    if (cur.roundComplete) cur = nextRound(cur);
+    else cur = grade(cur, g);
     guard++;
   }
   return cur;
@@ -77,10 +103,11 @@ describe('grade 行为', () => {
   it('grade good 不会把卡放回 pool', () => {
     const cards = makeCards(['a', 'b', 'c']);
     let s = createSession(cards, 1); // 每批 1 张
-    // 逐张 good，直到完成
+    // 逐张 good，遇到「一轮完成」暂停点就 nextRound 推进，直到完成
     let guard = 0;
     while (!s.completed && guard < 100) {
-      s = grade(s, 'good');
+      if (s.roundComplete) s = nextRound(s);
+      else s = grade(s, 'good');
       guard++;
     }
     expect(s.completed).toBe(true);
@@ -97,19 +124,27 @@ describe('grade 行为', () => {
     s = grade(s, 'again'); // 对队首打 again → 它进入 pool，队首切到另一张
     expect(idsOf(s.queue)).toEqual([otherId]);
     expect(idsOf(s.pool)).toEqual([firstId]); // 第一张已回收进 pool
-    s = grade(s, 'good'); // 背完另一张，批次结束，pool 重洗成下一批
+    s = grade(s, 'good'); // 背完另一张，本轮结束 → 暂停等选择
+    expect(s.roundComplete).toBe(true);
+    expect(s.queue).toEqual([]);
+    expect(idsOf(s.pool)).toEqual([firstId]);
+    s = nextRound(s); // 用户选「下一轮」
     expect(s.batchNumber).toBe(2); // 进入下一批
     expect(idsOf(s.queue)).toContain(firstId); // 第一张在下一批重现
   });
 
-  it('一批背完后，下一批是剩余 pool 的重洗子集，batchNumber 递增', () => {
+  it('一轮（size 张）背完后暂停，nextRound 重组下一批为剩余 pool 的重洗子集', () => {
     const cards = makeCards(['a', 'b', 'c', 'd']);
     const s0 = createSession(cards, 2);
     expect(s0.queue).toHaveLength(2);
     expect(s0.pool).toHaveLength(2);
     const batch1 = idsOf(s0.queue);
-    // 把整批 good 掉
+    // 把整批 good 掉 → 本轮结束、暂停
     let s = grade(grade(s0, 'good'), 'good');
+    expect(s.roundComplete).toBe(true);
+    expect(s.queue).toEqual([]);
+    // 用户选「下一轮」
+    s = nextRound(s);
     expect(s.batchNumber).toBe(2);
     // 下一批应是上一批 pool 的某种排列（集合一致）
     const batch2 = idsOf(s.queue);
@@ -126,8 +161,11 @@ describe('grade 行为', () => {
     let grades = 0;
     let guard = 0;
     while (!s.completed && guard < 1000) {
-      s = grade(s, 'good');
-      grades++;
+      if (s.roundComplete) s = nextRound(s);
+      else {
+        s = grade(s, 'good');
+        grades++;
+      }
       guard++;
     }
     expect(s.completed).toBe(true);
@@ -158,12 +196,13 @@ describe('grade 行为', () => {
 });
 
 describe('dismissCurrent（会啦 / 已掌握）', () => {
-  // 反复 dismiss 直到会话完成；返回操作总次数。
+  // 反复 dismiss 直到会话完成；遇到「本轮完成」暂停点时自动 nextRound 推进。
   function driveUntilDoneDismiss(s: SessionState): SessionState {
     let cur = s;
     let guard = 0;
     while (!cur.completed && guard < 10000) {
-      cur = dismissCurrent(cur);
+      if (cur.roundComplete) cur = nextRound(cur);
+      else cur = dismissCurrent(cur);
       guard++;
     }
     return cur;
@@ -234,14 +273,83 @@ describe('driveUntilDone 集成', () => {
   });
 
   it('有 again 时该卡被多次复习，studiedTotal > 卡数', () => {
-    const cards = makeCards(['a', 'b']);
-    let s = createSession(cards, 2); // 一批背两张
+    // 确定性状态：队列 [a,b]、pool 空，一批 2 张（恰等于卡数）。
+    let s = makeSession(['a', 'b'], [], 2);
     // 第一批：a good、b again（b 回 pool）
     s = grade(s, 'good'); // 背 a，队列剩 [b]
-    s = grade(s, 'again'); // 背 b，b 回 pool → 重洗成下一批 [b]
+    s = grade(s, 'again'); // 背 b，b 回 pool → 本轮结束、暂停
+    expect(s.roundComplete).toBe(true);
+    s = nextRound(s); // 用户选「下一轮」
     expect(s.batchNumber).toBe(2);
+    expect(idsOf(s.queue)).toEqual(['b']); // 下一批只有 b（pool 仅 b 一张）
     s = grade(s, 'good'); // 背 b 第二次
     expect(s.completed).toBe(true);
     expect(s.studiedTotal).toBe(3); // a 1 + b 2
+  });
+});
+
+describe('一轮完成暂停 + 复习/下一轮选择', () => {
+  it('一轮（size 张）处理完、pool 有余 → roundComplete=true 且 queue 空、pool 保留', () => {
+    // 确定性状态：本轮队列 [a,b,c]、pool [d,e]，一批 3 张。
+    const s0 = makeSession(['a', 'b', 'c'], ['d', 'e'], 3);
+    // 背完本轮 3 张（good）
+    let s = grade(grade(grade(s0, 'good'), 'good'), 'good');
+    expect(s.roundComplete).toBe(true);
+    expect(s.queue).toEqual([]);
+    expect(idsOf(s.pool).sort()).toEqual(['d', 'e']); // 剩余 2 张仍在 pool
+    expect(s.roundProcessed).toBe(3);
+    expect(s.roundCards).toHaveLength(3); // 本轮处理的卡被记录
+    expect(s.completed).toBe(false);
+  });
+
+  it('暂停状态下再 grade / dismiss 为 no-op（必须用户显式选择）', () => {
+    const cards = makeCards(['a', 'b', 'c', 'd']);
+    const s0 = createSession(cards, 2);
+    let s = grade(grade(s0, 'good'), 'good'); // 本轮 2 张背完 → 暂停
+    expect(s.roundComplete).toBe(true);
+    const afterGrade = grade(s, 'good');
+    const afterDismiss = dismissCurrent(s);
+    expect(afterGrade).toBe(s); // 不变
+    expect(afterDismiss).toBe(s); // 不变
+  });
+
+  it('nextRound 解暂停、重置本轮计数、batchNumber+1，并从 pool 重组队列', () => {
+    const cards = makeCards(['a', 'b', 'c', 'd']);
+    const s0 = createSession(cards, 2);
+    let s = grade(grade(s0, 'good'), 'good'); // 暂停
+    const before = s;
+    s = nextRound(s);
+    expect(s.roundComplete).toBe(false);
+    expect(s.roundProcessed).toBe(0);
+    expect(s.roundCards).toEqual([]);
+    expect(s.batchNumber).toBe(before.batchNumber + 1);
+    expect(s.queue).toHaveLength(2); // pool 4-2=2 张重组
+    expect(s.pool).toEqual([]);
+  });
+
+  it('reviewRound 只重排未会啦的词；全部会啦则直接 nextRound', () => {
+    // 确定性状态：本轮队列 [a,b]、pool [c,d]，一批 2 张。
+    const s0 = makeSession(['a', 'b'], ['c', 'd'], 2);
+    // 本轮处理了 a、b（roundCards 含 a、b），c、d 在 pool
+    let s = grade(grade(s0, 'good'), 'good'); // 暂停，roundCards=[a,b]
+    // 假设 a 已会啦，b 未会啦
+    const reviewed = reviewRound(s, ['b']);
+    expect(reviewed.queue).toHaveLength(1);
+    expect(reviewed.queue[0].word.id).toBe('b');
+    expect(reviewed.roundComplete).toBe(false);
+    expect(idsOf(reviewed.pool).sort()).toEqual(['c', 'd']); // pool 不动
+
+    // 全部会啦 → 直接跳下一轮
+    const skipped = reviewRound(s, []);
+    expect(skipped.batchNumber).toBe(s.batchNumber + 1);
+    expect(skipped.queue).toHaveLength(2); // 来自 pool 重组
+  });
+
+  it('最后一轮背完（pool 空）→ completed=true，不再暂停', () => {
+    const cards = makeCards(['a', 'b']);
+    const s0 = createSession(cards, 2); // 一轮即背完，pool 空
+    const s = grade(grade(s0, 'good'), 'good');
+    expect(s.roundComplete).toBe(false);
+    expect(s.completed).toBe(true);
   });
 });
