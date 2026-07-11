@@ -6,3 +6,8 @@ dist-ssr
 .vite
 # TypeScript 增量构建缓存（自动生成，非交付物）
 *.tsbuildinfo
+# vite.config.ts 被 tsc -b 编译出的产物（非交付物，自动生成）
+vite.config.js
+vite.config.d.ts
+# Vite 构建临时文件
+vite.config.ts.timestamp-*.mjs
