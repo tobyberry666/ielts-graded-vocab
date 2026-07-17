@@ -11,3 +11,9 @@ vite.config.js
 vite.config.d.ts
 # Vite 构建临时文件
 vite.config.ts.timestamp-*.mjs
+
+# 富化过程缓存（大文件/中间产物，非交付物）
+.enrich/
+tmp/
+scripts/__pycache__/
+addr.json

@@ -292,6 +292,8 @@ body {
 .fc-scene {
   perspective: 1600px;
   min-height: 440px;
+  /* 给卡片一个高度上限：内容再多也在卡片内滚动，而不是把卡片撑到页面外 */
+  max-height: min(76vh, 600px);
 }
 
 /* 翻转动画改由 framer-motion 驱动（rotateY + transformStyle: preserve-3d）；
@@ -333,6 +335,22 @@ body {
 
 .fc-back {
   transform: rotateY(180deg);
+  /* 背面改用「头部(固定) / 中间内容(滚动) / 底部按钮(固定)」三段式 flex：
+     头部与底部按钮始终可见，中间多义项区域可滚动，内容再多也不截断。 */
+}
+
+/* 背面头部改为正常文档流（正面仍用绝对定位，互不影响） */
+.fc-back .fc-front-top {
+  position: static;
+  top: auto;
+  left: auto;
+  right: auto;
+  margin-bottom: 6px;
+}
+
+/* 背面正文不再用 margin 避让绝对头部，改用 flex 间隙 */
+.fc-back .fc-body {
+  margin-top: 12px;
 }
 
 .fc-front-top {
@@ -468,13 +486,61 @@ body {
   white-space: nowrap;
 }
 
-/* 背面正文：与顶部词头拉开距离，避免「释义贴着单词」看不清 */
+/* 背面正文：与顶部词头拉开距离，避免「释义贴着单词」看不清。
+   多义项时允许内部滚动（min-height:0 是 flex 子项可滚动的前提）。 */
 .fc-body {
   margin-top: 66px;
   flex: 1;
+  min-height: 0;
   display: flex;
   flex-direction: column;
   gap: 22px;
+  overflow-y: auto;
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--glass-border) transparent;
+}
+
+.fc-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.fc-body::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 8px;
+}
+
+/* 多义项容器：去掉 body 默认间距，改由每个义项自身控制分隔。 */
+.fc-senses {
+  gap: 0;
+}
+
+/* 单个义项：相邻义项之间用细分隔线区分，首义项无上边框。 */
+.fc-sense {
+  padding: 18px 0;
+  border-top: 1px solid var(--glass-border);
+}
+
+.fc-sense:first-child {
+  padding-top: 4px;
+  border-top: none;
+}
+
+.fc-sense-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.fc-sense-index {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  background: var(--chip-bg);
+  padding: 2px 9px;
+  border-radius: var(--radius-pill);
 }
 
 .fc-meaning {
@@ -546,6 +612,7 @@ body {
 /* 背面打分按钮 */
 .fc-grades {
   margin-top: auto;
+  flex-shrink: 0;
   padding-top: 18px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -610,8 +677,9 @@ body {
   align-items: center;
   justify-content: center;
   gap: 8px;
+  flex-shrink: 0;
   width: 100%;
-  margin: 4px 0 2px;
+  margin: 8px 0 2px;
   padding: 13px 16px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 16px;

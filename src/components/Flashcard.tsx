@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
-import type { VocabEntry } from '../data/words';
+import { getSenses, primarySense, type VocabEntry } from '../data/words';
 import type { Grade } from '../services/SrsService';
 import type { AudioSource } from '../services/PronunciationService';
 
@@ -66,6 +66,46 @@ function SourcePill({ source }: { source: AudioSource }) {
   );
 }
 
+/** 单个义项（一个词性 + 释义 + 搭配 + 双语例句）。 */
+function SenseBlock({
+  sense,
+  index,
+  total,
+}: {
+  sense: ReturnType<typeof getSenses>[number];
+  index: number;
+  total: number;
+}) {
+  return (
+    <article className="fc-sense">
+      <div className="fc-sense-head">
+        {sense.pos && <span className="fc-pos-badge">{sense.pos}</span>}
+        {total > 1 && <span className="fc-sense-index">释义 {index + 1}</span>}
+      </div>
+
+      <div className="fc-meaning">
+        <span className="fc-meaning-zh">{sense.meaningZh}</span>
+        {sense.meaningEn && <span className="fc-meaning-en">{sense.meaningEn}</span>}
+      </div>
+
+      {sense.collocations.length > 0 && (
+        <div className="fc-block">
+          <span className="fc-label">搭配 · Collocations</span>
+          <p className="fc-collocations">{sense.collocations.join('；')}</p>
+        </div>
+      )}
+
+      {sense.example && (
+        <div className="fc-block fc-example-block">
+          <span className="fc-label">例句 · Example</span>
+          <p className="fc-example">{sense.example}</p>
+          {sense.exampleZh && <p className="fc-example-zh">{sense.exampleZh}</p>}
+        </div>
+      )}
+    </article>
+  );
+}
+
 export default function Flashcard({ word, revealed, audioSource, onReveal, onGrade, onMastered, onSpeak }: FlashcardProps) {
   const reduceMotion = useReducedMotion();
   const flipTransition = reduceMotion
@@ -78,6 +118,9 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
     if (backRef.current) backRef.current.inert = !revealed;
   }, [revealed]);
 
+  const senses = getSenses(word);
+  const primary = primarySense(word);
+
   return (
     <div className="fc-scene">
       <motion.div
@@ -86,7 +129,7 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
         transition={flipTransition}
         style={{ transformStyle: 'preserve-3d' }}
       >
-        {/* 正面：term + phonetic + pos */}
+        {/* 正面：term + phonetic + 主词性 */}
         <button
           type="button"
           className="fc-face fc-front"
@@ -102,16 +145,18 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
           </div>
           <h2 className="fc-term">{word.term}</h2>
           {word.phonetic && <p className="fc-phonetic">{word.phonetic}</p>}
-          {word.pos && <span className="fc-pos-badge fc-pos-badge-front">{word.pos}</span>}
-          <span className="fc-reveal-hint">点击卡片显示释义</span>
+          {primary.pos && <span className="fc-pos-badge fc-pos-badge-front">{primary.pos}</span>}
+          <span className="fc-reveal-hint">
+            {senses.length > 1 ? `点击卡片显示释义（共 ${senses.length} 个义项）` : '点击卡片显示释义'}
+          </span>
         </button>
 
-        {/* 背面：词性徽章 + 释义 + 搭配 + 中英双语例句，附打分按钮 */}
+        {/* 背面：逐义项展示（词性 + 释义 + 搭配 + 双语例句），可滚动 */}
         <div className="fc-face fc-back" ref={backRef}>
           <div className="fc-front-top">
             <div className="fc-back-head">
               <h3 className="fc-back-term">{word.term}</h3>
-              {word.pos && <span className="fc-pos-badge">{word.pos}</span>}
+              {primary.pos && <span className="fc-pos-badge">{primary.pos}</span>}
             </div>
             <div className="fc-front-actions">
               {audioSource && <SourcePill source={audioSource} />}
@@ -119,30 +164,10 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
             </div>
           </div>
 
-          <div className="fc-body">
-            <div className="fc-meaning">
-              <span className="fc-meaning-zh">{word.meaningZh}</span>
-              {word.meaningEn && <span className="fc-meaning-en">{word.meaningEn}</span>}
-            </div>
-
-            {word.collocations.length > 0 && (
-              <div className="fc-block">
-                <span className="fc-label">搭配 · Collocations</span>
-                <p className="fc-collocations">{word.collocations.join('；')}</p>
-              </div>
-            )}
-
-            {word.example && (
-              <div className="fc-block fc-example-block">
-                <span className="fc-label">例句 · Example</span>
-                <p className="fc-example">{word.example}</p>
-                {word.exampleZh && <p className="fc-example-zh">{word.exampleZh}</p>}
-              </div>
-            )}
-
-            {!word.pos && !word.example && !word.meaningEn && (
-              <p className="fc-note">该词暂仅有中文释义，词性与双语例句将在后续补充。</p>
-            )}
+          <div className="fc-body fc-senses">
+            {senses.map((sense, i) => (
+              <SenseBlock key={i} sense={sense} index={i} total={senses.length} />
+            ))}
           </div>
 
           <button
