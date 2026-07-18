@@ -35,6 +35,7 @@ FLAT_PATH = os.path.join(ENRICH, "flat.json")
 CACHE_PATH = os.path.join(ENRICH, "cache.json")
 DICTAPI_CACHE = os.path.join(ENRICH, "dictapi_cache.json")
 MM_CACHE = os.path.join(ENRICH, "mm_cache.json")
+YOUDAO_CACHE = os.path.join(ENRICH, "youdao_cache.json")
 WORDS_OUT = os.path.join(APP, "src", "data", "words.ts")
 BULK_OUT = os.path.join(APP, "src", "data", "seed-bulk.ts")
 
@@ -208,6 +209,80 @@ def fetch_mm(en_phrase):
         return ""
 
 
+def fetch_youdao(word):
+    """有道 dict jsonapi：返回原始 JSON（含 ec 全词性中文 + 双语例句）。"""
+    url = "https://dict.youdao.com/jsonapi?" + urllib.parse.urlencode({"q": word})
+    for attempt in range(3):
+        raw = curl(url, timeout=12)
+        if raw:
+            try:
+                d = json.loads(raw)
+                if isinstance(d, dict):
+                    return d
+            except Exception:
+                pass
+        time.sleep(1.5 * (attempt + 1))
+    return None
+
+
+_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def parse_youdao_ec(d):
+    """提取有道 ec 全词性中文释义，返回 [(pos_canon, zh), ...]。"""
+    out = []
+    if not isinstance(d, dict):
+        return out
+    ec = d.get("ec")
+    if not ec:
+        return out
+    for w in ec.get("word", []):
+        for trs in w.get("trs", []):
+            for tr in trs.get("tr", []):
+                i = tr.get("l", {}).get("i", [])
+                if not i:
+                    continue
+                txt = i[0].strip()
+                m = POS_RE.match(txt)
+                if m:
+                    pos = canon_pos(m.group(1))
+                    zh = m.group(2).strip()
+                else:
+                    if txt.startswith("【") or txt.startswith("("):
+                        continue
+                    continue
+                if not pos or zh.startswith("【"):
+                    continue
+                out.append((pos, zh))
+    return out
+
+
+def parse_youdao_bilingual(d):
+    """提取有道双语例句对（英文 + 中文译文），返回 [(en, zh), ...]。"""
+    pairs = []
+    if not isinstance(d, dict):
+        return pairs
+    blng = d.get("blng_sents_part", {})
+    for p in blng.get("sentence-pair", []):
+        en = _TAG_RE.sub("", (p.get("sentence") or "")).strip()
+        zh = _TAG_RE.sub("", (p.get("sentence-translation") or "")).strip()
+        if en and zh:
+            pairs.append((en, zh))
+    collins = d.get("collins", {})
+    for entry in collins.get("collins_entries", []):
+        es = entry.get("entries", {}).get("entry", [])
+        if isinstance(es, dict):
+            es = [es]
+        for e in es:
+            for te in e.get("tran_entry", []):
+                for sent in te.get("exam_sents", {}).get("sent", []):
+                    en = _TAG_RE.sub("", (sent.get("eng_sent") or "")).strip()
+                    zh = _TAG_RE.sub("", (sent.get("chn_sent") or "")).strip()
+                    if en and zh:
+                        pairs.append((en, zh))
+    return pairs
+
+
 # ----------------------------------------------------------------------------
 # 载入
 # ----------------------------------------------------------------------------
@@ -244,7 +319,7 @@ def load_ecdict(targets):
 # ----------------------------------------------------------------------------
 # 构建词条
 # ----------------------------------------------------------------------------
-def build_entry(fe, ec, cd, da):
+def build_entry(fe, ec, cd, da, yd):
     term = fe["term"]
     band = fe.get("band", "5")
     flat_pos = (fe.get("pos") or "").strip()
@@ -261,6 +336,14 @@ def build_entry(fe, ec, cd, da):
             da_by_pos.setdefault(p, []).append(s)
     da_phonetic = (da or {}).get("phonetic", "")
 
+    # 有道 ec：权威中文全词性；双语例句对（英文+中文）
+    yd_ec = yd.get("ec", []) if isinstance(yd, dict) else []
+    yd_zh = {}
+    for _p, _z in yd_ec:
+        yd_zh.setdefault(_p, _z)
+    yd_pairs = yd.get("pairs", []) if isinstance(yd, dict) else []
+    yd_npairs = len(yd_pairs)
+
     ec_blocks = parse_blocks(ec.get("translation", "")) if ec else []
     ec_zh = {b["pos"]: b["def"] for b in ec_blocks if b["pos"]}
 
@@ -274,76 +357,60 @@ def build_entry(fe, ec, cd, da):
 
     primary_pos = flat_tokens[0] if flat_tokens else (next(iter(da_by_pos), None) or "v.")
 
+    # 收集所有词性（主词性优先），中文以有道 ec 为准，英文以 dictionaryapi 为准
+    all_pos = []
+    seen_order = set()
+    def add_pos(p):
+        if p and p not in seen_order:
+            seen_order.add(p)
+            all_pos.append(p)
+    add_pos(primary_pos)
+    for p in yd_zh: add_pos(p)
+    for p in da_by_pos: add_pos(p)
+    for p in ec_zh: add_pos(p)
+
     senses = []
-    used = set()
+    pair_idx = 0
+    for pos in all_pos:
+        # 中文：有道 ec > ECDICT 片段
+        zh = (yd_zh.get(pos) or ec_zh.get(pos) or "").strip()
+        # 英文释义 + 例句：dictionaryapi
+        en = ""
+        ex_da = ""
+        if pos in da_by_pos:
+            d0 = da_by_pos[pos][0]
+            en = d0.get("en", "")
+            ex_da = d0.get("example", "")
+        # 例句：优先有道双语对（en+zh 一致），否则 dictionaryapi 英文（无中文）
+        if yd_npairs:
+            en_ex, zh_ex = yd_pairs[pair_idx % yd_npairs]
+            pair_idx += 1
+            example = en_ex
+            exampleZh = zh_ex
+        else:
+            example = ex_da
+            exampleZh = ""
+        coll = fe.get("collocations") or [] if pos == primary_pos else []
+        senses.append({"pos": pos, "zh": zh, "en": en, "coll": coll,
+                       "ex": example, "exzh": exampleZh})
 
-    # 主 sense
-    zh0 = (fe.get("meaningZh") or "").strip()
-    en0 = (fe.get("meaningEn") or "").strip()
-    ex0 = (fe.get("example") or "").strip()
-    exzh0 = (fe.get("exampleZh") or "").strip()
-    # 用 dictionaryapi 主词性补 EN/example
-    if primary_pos in da_by_pos:
-        d0 = da_by_pos[primary_pos][0]
-        if not en0 and d0["en"]:
-            en0 = d0["en"]
-        if not ex0 and d0["example"]:
-            ex0 = d0["example"]
-    # 用 ECDICT 主词性补中文
-    if primary_pos in ec_zh:
-        for seg in ec_zh[primary_pos].split("；"):
-            seg = seg.strip()
-            if seg and seg not in zh0:
-                zh0 = (zh0 + "；" + seg) if zh0 else seg
-    # 用 cache_dict 主词性补中文（兜底）
-    if (not zh0 or not en0) and primary_pos in cd_by_pos:
-        c0 = cd_by_pos[primary_pos][0]
-        if not zh0 and c0.get("meaningZh"):
-            zh0 = c0["meaningZh"]
-        if not en0 and c0.get("meaningEn"):
-            en0 = c0["meaningEn"]
-        if not ex0 and c0.get("example"):
-            ex0 = c0["example"]
+    # 主词性叠加 flat 手写精校（中文/英文/例句）
+    if senses:
+        prim = next((s for s in senses if s["pos"] == primary_pos), senses[0])
+        fzh = (fe.get("meaningZh") or "").strip()
+        if fzh and fzh not in prim["zh"]:
+            prim["zh"] = (fzh + "；" + prim["zh"]).strip("；") if prim["zh"] else fzh
+        fen = (fe.get("meaningEn") or "").strip()
+        if fen and not prim["en"]:
+            prim["en"] = fen
+        fex = (fe.get("example") or "").strip()
+        if fex and not prim["ex"]:
+            prim["ex"] = fex
+            fzh_ex = (fe.get("exampleZh") or "").strip()
+            if fzh_ex:
+                prim["exzh"] = fzh_ex
 
-    used.add(primary_pos)
-    senses.append({
-        "pos": flat_pos or primary_pos,
-        "zh": zh0,
-        "en": en0,
-        "coll": fe.get("collocations") or [],
-        "ex": ex0,
-        "exzh": exzh0,
-    })
-
-    # 次要词性（来自 dictionaryapi）
-    for pos, lst in da_by_pos.items():
-        if pos in used:
-            continue
-        used.add(pos)
-        d0 = lst[0]
-        zh = ec_zh.get(pos, "")
-        if not zh and pos in cd_by_pos:
-            zh = cd_by_pos[pos][0].get("meaningZh", "")
-        # 仍无中文 → 标记需要 MyMemory（在外部批量翻译后回填）
-        if not zh:
-            zh = "__NEED_MM__::" + d0["en"]
-        senses.append({
-            "pos": pos,
-            "zh": zh,
-            "en": d0["en"],
-            "coll": [],
-            "ex": d0.get("example", ""),
-            "exzh": "",
-        })
-
-    # ECDICT 有但 dictionaryapi 没覆盖的词性（罕见）
-    for pos, zh in ec_zh.items():
-        if pos in used:
-            continue
-        used.add(pos)
-        senses.append({"pos": pos, "zh": zh, "en": "", "coll": [], "ex": "", "exzh": ""})
-
-    # 去重同 pos：保留首个，并把后续同 pos 的非空 en/ex/zh 补全到首个
+    # 同 pos 去重：保留首个，并把后续同 pos 的非空 en/ex/zh 补全到首个
     _seen = {}
     _dedup = []
     for _s in senses:
@@ -453,7 +520,7 @@ def build_words_ts(core_entries):
     out.append("];")
     for ln in footer_lines:
         if ln.strip().startswith("export const SEED_VERSION"):
-            out.append("export const SEED_VERSION = '2026-07-17-ecdict-dictapi';")
+            out.append("export const SEED_VERSION = '2026-07-18-youdao-ec-bilingual';")
         else:
             out.append(ln)
     text = "\n".join(out)
@@ -530,8 +597,35 @@ def main():
     ec_idx, ec_total = load_ecdict(targets)
     dictapi_cache = load_json(DICTAPI_CACHE, {})
     mm_cache = load_json(MM_CACHE, {})
+    youdao_cache = load_json(YOUDAO_CACHE, {})
 
     print(f"[info] ECDICT partial rows={ec_total}, matched={len(ec_idx)}/{len(targets)}", file=sys.stderr)
+
+    # ---- Pass 0: 拉取有道 dict jsonapi（增量缓存：全词性中文 + 双语例句） ----
+    to_youdao = [e["term"] for e in flat if e["term"] not in youdao_cache]
+    print(f"[info] 有道待拉取={len(to_youdao)}（缓存已有 {len(youdao_cache)}）", file=sys.stderr)
+
+    def yd_one(w):
+        time.sleep(0.25)
+        return w, fetch_youdao(w)
+
+    if to_youdao and not dry:
+        done = 0
+        with ThreadPoolExecutor(max_workers=3) as ex:
+            futs = {ex.submit(yd_one, w): w for w in to_youdao}
+            for fut in as_completed(futs):
+                w, d = fut.result()
+                if d is not None:
+                    youdao_cache[w] = {
+                        "ec": parse_youdao_ec(d),
+                        "pairs": parse_youdao_bilingual(d),
+                    }
+                done += 1
+                if done % 200 == 0:
+                    save_json(YOUDAO_CACHE, youdao_cache)
+                    print(f"[info] 有道进度 {done}/{len(to_youdao)}", file=sys.stderr)
+        save_json(YOUDAO_CACHE, youdao_cache)
+        print(f"[info] 有道完成，缓存 {len(youdao_cache)} 词", file=sys.stderr)
 
     # ---- Pass 1: 拉取 dictionaryapi（增量缓存：只补拉 senses 为空的） ----
     to_fetch = [e["term"] for e in flat
@@ -559,50 +653,14 @@ def main():
         save_json(DICTAPI_CACHE, dictapi_cache)
         print(f"[info] dictapi 拉取完成，缓存 {len(dictapi_cache)} 词", file=sys.stderr)
 
-    # ---- Pass 2: 收集需要 MyMemory 的中文短语 ----
-    need_mm = set()
-    if not dry:
-        for fe in flat:
-            term = fe["term"]
-            da = dictapi_cache.get(term)
-            ec = ec_idx.get(term)
-            cd = cache_dict.get(term)
-            ent = build_entry(fe, ec, cd, da)
-            for s in ent["senses"]:
-                if isinstance(s["zh"], str) and s["zh"].startswith("__NEED_MM__::"):
-                    en = s["zh"].split("__NEED_MM__::", 1)[1]
-                    if en and en not in mm_cache:
-                        need_mm.add(en)
-        print(f"[info] 需 MyMemory 翻译的短语={len(need_mm)}", file=sys.stderr)
-
-        def mm_one(en):
-            return en, fetch_mm(en)
-
-        with ThreadPoolExecutor(max_workers=MM_CONC) as ex:
-            futs = {ex.submit(mm_one, en): en for en in need_mm}
-            done = 0
-            for fut in as_completed(futs):
-                en, zh = fut.result()
-                mm_cache[en] = zh
-                done += 1
-                if done % 500 == 0:
-                    save_json(MM_CACHE, mm_cache)
-                    print(f"[info] MM 进度 {done}/{len(need_mm)}", file=sys.stderr)
-        save_json(MM_CACHE, mm_cache)
-        print(f"[info] MyMemory 完成，缓存 {len(mm_cache)} 条", file=sys.stderr)
-
-    # ---- Pass 3: 构建并最终回填 MM ----
+    # ---- Pass 2: 构建 ----
     def finalize(fe):
         term = fe["term"]
         da = dictapi_cache.get(term)
         ec = ec_idx.get(term)
         cd = cache_dict.get(term)
-        ent = build_entry(fe, ec, cd, da)
-        for s in ent["senses"]:
-            if isinstance(s["zh"], str) and s["zh"].startswith("__NEED_MM__::"):
-                en = s["zh"].split("__NEED_MM__::", 1)[1]
-                s["zh"] = mm_cache.get(en, "")
-        return ent
+        yd = youdao_cache.get(term, {})
+        return build_entry(fe, ec, cd, da, yd)
 
     core = [finalize(f) for f in flat[:210]]
     bulk = [finalize(f) for f in flat[210:]]
@@ -619,7 +677,9 @@ def main():
             e = finalize(fe)
             print(f"\n===== {term} (ec={term in ec_idx}, da={term in dictapi_cache}) =====")
             for s in e["senses"]:
-                print(f"  {s['pos']:8} | {s['zh']}  ||  {s['en'][:60]}")
+                print(f"  {s['pos']:8} | {s['zh']}  ||  {s['en'][:50]}")
+                if s["exzh"]:
+                    print(f"       例: {s['ex'][:48]} -> {s['exzh'][:40]}")
         return
 
     with open(WORDS_OUT, "w", encoding="utf-8") as f:
