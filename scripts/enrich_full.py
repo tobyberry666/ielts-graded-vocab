@@ -358,9 +358,20 @@ def build_entry(fe, ec, cd, da):
         _dedup.append(_s)
     senses = _dedup
 
+    def norm_ipa(p):
+        p = (p or "").strip().strip("'").strip()
+        if not p:
+            return ""
+        if not p.startswith("/"):
+            p = "/" + p
+        if not p.endswith("/"):
+            p = p + "/"
+        return p
+
     top = senses[0]
-    phonetic = (da_phonetic or (cd or {}).get("phonetic", "") or fe.get("phonetic", "")
-                or (ec or {}).get("phonetic", ""))
+    raw_ph = (da_phonetic or (cd or {}).get("phonetic", "") or fe.get("phonetic", "")
+              or (ec or {}).get("phonetic", ""))
+    phonetic = norm_ipa(raw_ph)
     return {
         "id": fe["id"], "term": term, "phonetic": phonetic,
         "pos": top["pos"], "meaningZh": top["zh"], "meaningEn": top["en"],
@@ -446,43 +457,45 @@ def build_words_ts(core_entries):
         else:
             out.append(ln)
     text = "\n".join(out)
-    # 注入 VocabSense 接口 + getSenses/primarySense，并扩展 VocabEntry 支持 senses 字段
-    # （多义项渲染由工作区 Flashcard.tsx 依赖，但 git HEAD 的 words.ts 尚未声明）
-    text = text.replace(
-        "  exampleZh: string;\n}",
-        "  exampleZh: string;\n  senses?: VocabSense[];\n}",
-        1,
-    )
-    inject = (
-        "\n"
-        "export interface VocabSense {\n"
-        "  pos: string;\n"
-        "  meaningZh: string;\n"
-        "  meaningEn: string;\n"
-        "  collocations: string[];\n"
-        "  example: string;\n"
-        "  exampleZh: string;\n"
-        "}\n\n"
-        "export function getSenses(w: VocabEntry): VocabSense[] {\n"
-        "  if (w.senses && w.senses.length) return w.senses;\n"
-        "  return [{\n"
-        "    pos: w.pos,\n"
-        "    meaningZh: w.meaningZh,\n"
-        "    meaningEn: w.meaningEn,\n"
-        "    collocations: w.collocations,\n"
-        "    example: w.example,\n"
-        "    exampleZh: w.exampleZh,\n"
-        "  }];\n"
-        "}\n\n"
-        "export function primarySense(w: VocabEntry): VocabSense {\n"
-        "  return getSenses(w)[0];\n"
-        "}\n\n"
-    )
-    text = text.replace(
-        "const SEED_CORE: VocabEntry[] = [",
-        inject + "const SEED_CORE: VocabEntry[] = [",
-        1,
-    )
+    # 注入 VocabSense 接口 + getSenses/primarySense，并扩展 VocabEntry 支持 senses 字段。
+    # 幂等：git HEAD 可能已含这些注入（脚本先前已提交），已存在则跳过，避免重复声明。
+    if "senses?: VocabSense" not in text:
+        text = text.replace(
+            "  exampleZh: string;\n}",
+            "  exampleZh: string;\n  senses?: VocabSense[];\n}",
+            1,
+        )
+    if "export interface VocabSense" not in text:
+        inject = (
+            "\n"
+            "export interface VocabSense {\n"
+            "  pos: string;\n"
+            "  meaningZh: string;\n"
+            "  meaningEn: string;\n"
+            "  collocations: string[];\n"
+            "  example: string;\n"
+            "  exampleZh: string;\n"
+            "}\n\n"
+            "export function getSenses(w: VocabEntry): VocabSense[] {\n"
+            "  if (w.senses && w.senses.length) return w.senses;\n"
+            "  return [{\n"
+            "    pos: w.pos,\n"
+            "    meaningZh: w.meaningZh,\n"
+            "    meaningEn: w.meaningEn,\n"
+            "    collocations: w.collocations,\n"
+            "    example: w.example,\n"
+            "    exampleZh: w.exampleZh,\n"
+            "  }];\n"
+            "}\n\n"
+            "export function primarySense(w: VocabEntry): VocabSense {\n"
+            "  return getSenses(w)[0];\n"
+            "}\n\n"
+        )
+        text = text.replace(
+            "const SEED_CORE: VocabEntry[] = [",
+            inject + "const SEED_CORE: VocabEntry[] = [",
+            1,
+        )
     return text
 
 

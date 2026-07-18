@@ -140,7 +140,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-16", term: "adequate", phonetic: "'ædikwәt", pos: "adj.", meaningZh: "充足的；适当的；足够的；胜任的；充分的", meaningEn: "enough", band: "5", collocations: [], example: "The supply is adequate.", exampleZh: "供应是充足的。",
+    id: "bulk-16", term: "adequate", phonetic: "/ædikwәt/", pos: "adj.", meaningZh: "充足的；适当的；足够的；胜任的；充分的", meaningEn: "enough", band: "5", collocations: [], example: "The supply is adequate.", exampleZh: "供应是充足的。",
     senses: [
     {
     pos: "adj.", meaningZh: "充足的；适当的；足够的；胜任的；充分的", meaningEn: "enough", collocations: [], example: "The supply is adequate.", exampleZh: "供应是充足的。" },
@@ -350,7 +350,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-38", term: "alive", phonetic: "ә'laiv", pos: "adj.", meaningZh: "活着的；活泼的；敏感的；热闹的", meaningEn: "living", band: "5", collocations: [], example: "The fish is still alive.", exampleZh: "鱼还活着。",
+    id: "bulk-38", term: "alive", phonetic: "/ә'laiv/", pos: "adj.", meaningZh: "活着的；活泼的；敏感的；热闹的", meaningEn: "living", band: "5", collocations: [], example: "The fish is still alive.", exampleZh: "鱼还活着。",
     senses: [
     {
     pos: "adj.", meaningZh: "活着的；活泼的；敏感的；热闹的", meaningEn: "living", collocations: [], example: "The fish is still alive.", exampleZh: "鱼还活着。" }
@@ -491,7 +491,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-53", term: "annual", phonetic: "'ænjuәl", pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", band: "5", collocations: [], example: "We hold an annual event.", exampleZh: "我们举办年度活动。",
+    id: "bulk-53", term: "annual", phonetic: "/ænjuәl/", pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", band: "5", collocations: [], example: "We hold an annual event.", exampleZh: "我们举办年度活动。",
     senses: [
     {
     pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", collocations: [], example: "We hold an annual event.", exampleZh: "我们举办年度活动。" },
@@ -589,7 +589,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-63", term: "appropriate", phonetic: "ә'prәupriәt", pos: "adj.", meaningZh: "合适的；适当的；拨出；占用", meaningEn: "proper", band: "5", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮合适。",
+    id: "bulk-63", term: "appropriate", phonetic: "/ә'prәupriәt/", pos: "adj.", meaningZh: "合适的；适当的；拨出；占用", meaningEn: "proper", band: "5", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮合适。",
     senses: [
     {
     pos: "adj.", meaningZh: "合适的；适当的；拨出；占用", meaningEn: "proper", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮合适。" },
@@ -654,7 +654,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-70", term: "arrive", phonetic: "ә'raiv", pos: "v.", meaningZh: "到达", meaningEn: "to get there", band: "5", collocations: [], example: "We arrive at noon.", exampleZh: "我们中午到达。",
+    id: "bulk-70", term: "arrive", phonetic: "/ә'raiv/", pos: "v.", meaningZh: "到达", meaningEn: "to get there", band: "5", collocations: [], example: "We arrive at noon.", exampleZh: "我们中午到达。",
     senses: [
     {
     pos: "v.", meaningZh: "到达", meaningEn: "to get there", collocations: [], example: "We arrive at noon.", exampleZh: "我们中午到达。" },
@@ -663,7 +663,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-71", term: "article", phonetic: "'ɑ:tikl", pos: "n.", meaningZh: "文章；物品；冠词；物件；条款；契约；信件", meaningEn: "text or item", band: "5", collocations: [], example: "She wrote an article.", exampleZh: "她写了一篇文章。",
+    id: "bulk-71", term: "article", phonetic: "/ɑ:tikl/", pos: "n.", meaningZh: "文章；物品；冠词；物件；条款；契约；信件", meaningEn: "text or item", band: "5", collocations: [], example: "She wrote an article.", exampleZh: "她写了一篇文章。",
     senses: [
     {
     pos: "n.", meaningZh: "文章；物品；冠词；物件；条款；契约；信件", meaningEn: "text or item", collocations: [], example: "She wrote an article.", exampleZh: "她写了一篇文章。" }
@@ -988,7 +988,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-104", term: "block", phonetic: "blɒk", pos: "n.", meaningZh: "块；阻塞；街区；木块；石块", meaningEn: "solid piece or stop", band: "5", collocations: [], example: "The road is blocked.", exampleZh: "道路被堵了。",
+    id: "bulk-104", term: "block", phonetic: "/blɒk/", pos: "n.", meaningZh: "块；阻塞；街区；木块；石块", meaningEn: "solid piece or stop", band: "5", collocations: [], example: "The road is blocked.", exampleZh: "道路被堵了。",
     senses: [
     {
     pos: "n.", meaningZh: "块；阻塞；街区；木块；石块", meaningEn: "solid piece or stop", collocations: [], example: "The road is blocked.", exampleZh: "道路被堵了。" },
@@ -997,7 +997,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-105", term: "board", phonetic: "bɒ:d", pos: "n.", meaningZh: "木板；董事会；甲板；膳食；会议桌", meaningEn: "plank or group", band: "5", collocations: [], example: "The board met today.", exampleZh: "董事会今天开会。",
+    id: "bulk-105", term: "board", phonetic: "/bɒ:d/", pos: "n.", meaningZh: "木板；董事会；甲板；膳食；会议桌", meaningEn: "plank or group", band: "5", collocations: [], example: "The board met today.", exampleZh: "董事会今天开会。",
     senses: [
     {
     pos: "n.", meaningZh: "木板；董事会；甲板；膳食；会议桌", meaningEn: "plank or group", collocations: [], example: "The board met today.", exampleZh: "董事会今天开会。" },
@@ -1008,7 +1008,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-106", term: "boil", phonetic: "bɒil", pos: "v.", meaningZh: "煮沸；激动", meaningEn: "to heat to bubble", band: "5", collocations: [], example: "We boil the water first.", exampleZh: "我们先烧开水。",
+    id: "bulk-106", term: "boil", phonetic: "/bɒil/", pos: "v.", meaningZh: "煮沸；激动", meaningEn: "to heat to bubble", band: "5", collocations: [], example: "We boil the water first.", exampleZh: "我们先烧开水。",
     senses: [
     {
     pos: "v.", meaningZh: "煮沸；激动", meaningEn: "to heat to bubble", collocations: [], example: "We boil the water first.", exampleZh: "我们先烧开水。" },
@@ -1017,7 +1017,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-107", term: "border", phonetic: "'bɒ:dә", pos: "n.", meaningZh: "边界；边缘；边境；花坛", meaningEn: "edge", band: "5", collocations: [], example: "The border is closed.", exampleZh: "边界关闭了。",
+    id: "bulk-107", term: "border", phonetic: "/bɒ:dә/", pos: "n.", meaningZh: "边界；边缘；边境；花坛", meaningEn: "edge", band: "5", collocations: [], example: "The border is closed.", exampleZh: "边界关闭了。",
     senses: [
     {
     pos: "n.", meaningZh: "边界；边缘；边境；花坛", meaningEn: "edge", collocations: [], example: "The border is closed.", exampleZh: "边界关闭了。" },
@@ -1028,14 +1028,14 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-108", term: "boring", phonetic: "'bɒ:riŋ", pos: "adj.", meaningZh: "无聊的；烦人的；无趣的；成孔期；搪孔", meaningEn: "dull", band: "5", collocations: [], example: "The movie was boring.", exampleZh: "电影很无聊。",
+    id: "bulk-108", term: "boring", phonetic: "/bɒ:riŋ/", pos: "adj.", meaningZh: "无聊的；烦人的；无趣的；成孔期；搪孔", meaningEn: "dull", band: "5", collocations: [], example: "The movie was boring.", exampleZh: "电影很无聊。",
     senses: [
     {
     pos: "adj.", meaningZh: "无聊的；烦人的；无趣的；成孔期；搪孔", meaningEn: "dull", collocations: [], example: "The movie was boring.", exampleZh: "电影很无聊。" }
     ]
   },
   {
-    id: "bulk-109", term: "borrow", phonetic: "'bɒrәu", pos: "v.", meaningZh: "借入", meaningEn: "to take from", band: "5", collocations: [], example: "Can I borrow your pen.", exampleZh: "我能借你的笔吗。",
+    id: "bulk-109", term: "borrow", phonetic: "/bɒrәu/", pos: "v.", meaningZh: "借入", meaningEn: "to take from", band: "5", collocations: [], example: "Can I borrow your pen.", exampleZh: "我能借你的笔吗。",
     senses: [
     {
     pos: "v.", meaningZh: "借入", meaningEn: "to take from", collocations: [], example: "Can I borrow your pen.", exampleZh: "我能借你的笔吗。" },
@@ -1046,7 +1046,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-110", term: "boss", phonetic: "bɒs", pos: "n.", meaningZh: "老板；上司；岩瘤；浮雕；母牛", meaningEn: "manager", band: "5", collocations: [], example: "The boss approved it.", exampleZh: "老板批准了。",
+    id: "bulk-110", term: "boss", phonetic: "/bɒs/", pos: "n.", meaningZh: "老板；上司；岩瘤；浮雕；母牛", meaningEn: "manager", band: "5", collocations: [], example: "The boss approved it.", exampleZh: "老板批准了。",
     senses: [
     {
     pos: "n.", meaningZh: "老板；上司；岩瘤；浮雕；母牛", meaningEn: "manager", collocations: [], example: "The boss approved it.", exampleZh: "老板批准了。" },
@@ -1055,7 +1055,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-111", term: "bottom", phonetic: "'bɒtәm", pos: "n.", meaningZh: "底部", meaningEn: "lowest part", band: "5", collocations: [], example: "The book is at the bottom.", exampleZh: "书在底部。",
+    id: "bulk-111", term: "bottom", phonetic: "/bɒtәm/", pos: "n.", meaningZh: "底部", meaningEn: "lowest part", band: "5", collocations: [], example: "The book is at the bottom.", exampleZh: "书在底部。",
     senses: [
     {
     pos: "n.", meaningZh: "底部", meaningEn: "lowest part", collocations: [], example: "The book is at the bottom.", exampleZh: "书在底部。" },
@@ -1312,7 +1312,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-134", term: "camp", phonetic: "[kʰɛəmp]", pos: "n.", meaningZh: "营地；露营；帐篷", meaningEn: "outdoor site", band: "5", collocations: [], example: "We stayed at the camp.", exampleZh: "我们留在营地。",
+    id: "bulk-134", term: "camp", phonetic: "/[kʰɛəmp]/", pos: "n.", meaningZh: "营地；露营；帐篷", meaningEn: "outdoor site", band: "5", collocations: [], example: "We stayed at the camp.", exampleZh: "我们留在营地。",
     senses: [
     {
     pos: "n.", meaningZh: "营地；露营；帐篷", meaningEn: "outdoor site", collocations: [], example: "We stayed at the camp.", exampleZh: "我们留在营地。" },
@@ -1496,7 +1496,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-152", term: "category", phonetic: "'kætigәri", pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "group", band: "5", collocations: [], example: "This falls in a new category.", exampleZh: "这归入新类别。",
+    id: "bulk-152", term: "category", phonetic: "/kætigәri/", pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "group", band: "5", collocations: [], example: "This falls in a new category.", exampleZh: "这归入新类别。",
     senses: [
     {
     pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "group", collocations: [], example: "This falls in a new category.", exampleZh: "这归入新类别。" }
@@ -1514,7 +1514,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-154", term: "cease", phonetic: "si:s", pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", band: "5", collocations: [], example: "The noise ceased at last.", exampleZh: "噪音终于停止了。",
+    id: "bulk-154", term: "cease", phonetic: "/si:s/", pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", band: "5", collocations: [], example: "The noise ceased at last.", exampleZh: "噪音终于停止了。",
     senses: [
     {
     pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", collocations: [], example: "The noise ceased at last.", exampleZh: "噪音终于停止了。" },
@@ -1574,7 +1574,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-160", term: "challenge", phonetic: "'tʃælindʒ", pos: "n.", meaningZh: "挑战；盘问", meaningEn: "difficult task", band: "5", collocations: [], example: "The challenge is tough.", exampleZh: "挑战很艰巨。",
+    id: "bulk-160", term: "challenge", phonetic: "/tʃælindʒ/", pos: "n.", meaningZh: "挑战；盘问", meaningEn: "difficult task", band: "5", collocations: [], example: "The challenge is tough.", exampleZh: "挑战很艰巨。",
     senses: [
     {
     pos: "n.", meaningZh: "挑战；盘问", meaningEn: "difficult task", collocations: [], example: "The challenge is tough.", exampleZh: "挑战很艰巨。" },
@@ -1585,7 +1585,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-161", term: "chance", phonetic: "[tʃʰans]", pos: "n.", meaningZh: "机会；意外；可能性", meaningEn: "opportunity", band: "5", collocations: [], example: "Take this chance now.", exampleZh: "抓住这次机会。",
+    id: "bulk-161", term: "chance", phonetic: "/[tʃʰans]/", pos: "n.", meaningZh: "机会；意外；可能性", meaningEn: "opportunity", band: "5", collocations: [], example: "Take this chance now.", exampleZh: "抓住这次机会。",
     senses: [
     {
     pos: "n.", meaningZh: "机会；意外；可能性", meaningEn: "opportunity", collocations: [], example: "Take this chance now.", exampleZh: "抓住这次机会。" },
@@ -1613,7 +1613,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-163", term: "channel", phonetic: "'tʃænәl", pos: "n.", meaningZh: "频道；渠道；海峡；航道", meaningEn: "TV or path", band: "5", collocations: [], example: "Use this channel to apply.", exampleZh: "用这个渠道申请。",
+    id: "bulk-163", term: "channel", phonetic: "/tʃænәl/", pos: "n.", meaningZh: "频道；渠道；海峡；航道", meaningEn: "TV or path", band: "5", collocations: [], example: "Use this channel to apply.", exampleZh: "用这个渠道申请。",
     senses: [
     {
     pos: "n.", meaningZh: "频道；渠道；海峡；航道", meaningEn: "TV or path", collocations: [], example: "Use this channel to apply.", exampleZh: "用这个渠道申请。" },
@@ -1825,14 +1825,14 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-183", term: "climate", phonetic: "'klaimit", pos: "n.", meaningZh: "气候；社会趋势；气候区", meaningEn: "weather pattern", band: "5", collocations: [], example: "The climate is changing.", exampleZh: "气候在变化。",
+    id: "bulk-183", term: "climate", phonetic: "/klaimit/", pos: "n.", meaningZh: "气候；社会趋势；气候区", meaningEn: "weather pattern", band: "5", collocations: [], example: "The climate is changing.", exampleZh: "气候在变化。",
     senses: [
     {
     pos: "n.", meaningZh: "气候；社会趋势；气候区", meaningEn: "weather pattern", collocations: [], example: "The climate is changing.", exampleZh: "气候在变化。" }
     ]
   },
   {
-    id: "bulk-184", term: "climb", phonetic: "klaim", pos: "v.", meaningZh: "爬；攀登；上升", meaningEn: "to go up", band: "5", collocations: [], example: "We climb the hill.", exampleZh: "我们爬山。",
+    id: "bulk-184", term: "climb", phonetic: "/klaim/", pos: "v.", meaningZh: "爬；攀登；上升", meaningEn: "to go up", band: "5", collocations: [], example: "We climb the hill.", exampleZh: "我们爬山。",
     senses: [
     {
     pos: "v.", meaningZh: "爬；攀登；上升", meaningEn: "to go up", collocations: [], example: "We climb the hill.", exampleZh: "我们爬山。" },
@@ -1841,7 +1841,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-185", term: "clock", phonetic: "klɒk", pos: "n.", meaningZh: "时钟；计时器；(袜子上的)绣花边花", meaningEn: "time device", band: "5", collocations: [], example: "The clock is slow.", exampleZh: "钟慢了。",
+    id: "bulk-185", term: "clock", phonetic: "/klɒk/", pos: "n.", meaningZh: "时钟；计时器；(袜子上的)绣花边花", meaningEn: "time device", band: "5", collocations: [], example: "The clock is slow.", exampleZh: "钟慢了。",
     senses: [
     {
     pos: "n.", meaningZh: "时钟；计时器；(袜子上的)绣花边花", meaningEn: "time device", collocations: [], example: "The clock is slow.", exampleZh: "钟慢了。" },
@@ -1852,7 +1852,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-186", term: "close", phonetic: "klәuz", pos: "v.", meaningZh: "关闭；接近的", meaningEn: "to shut or near", band: "5", collocations: [], example: "Please close the door.", exampleZh: "请关上门。",
+    id: "bulk-186", term: "close", phonetic: "/klәuz/", pos: "v.", meaningZh: "关闭；接近的", meaningEn: "to shut or near", band: "5", collocations: [], example: "Please close the door.", exampleZh: "请关上门。",
     senses: [
     {
     pos: "v.", meaningZh: "关闭；接近的", meaningEn: "to shut or near", collocations: [], example: "Please close the door.", exampleZh: "请关上门。" },
@@ -1869,14 +1869,14 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-187", term: "clothes", phonetic: "klәuðz", pos: "n.", meaningZh: "衣服", meaningEn: "garments", band: "5", collocations: [], example: "She folded the clothes.", exampleZh: "她叠了衣服。",
+    id: "bulk-187", term: "clothes", phonetic: "/klәuðz/", pos: "n.", meaningZh: "衣服", meaningEn: "garments", band: "5", collocations: [], example: "She folded the clothes.", exampleZh: "她叠了衣服。",
     senses: [
     {
     pos: "n.", meaningZh: "衣服", meaningEn: "garments", collocations: [], example: "She folded the clothes.", exampleZh: "她叠了衣服。" }
     ]
   },
   {
-    id: "bulk-188", term: "cloud", phonetic: "klaud", pos: "n.", meaningZh: "云；阴暗；烟雾；疑团", meaningEn: "sky vapor", band: "5", collocations: [], example: "The cloud is white.", exampleZh: "云是白色的。",
+    id: "bulk-188", term: "cloud", phonetic: "/klaud/", pos: "n.", meaningZh: "云；阴暗；烟雾；疑团", meaningEn: "sky vapor", band: "5", collocations: [], example: "The cloud is white.", exampleZh: "云是白色的。",
     senses: [
     {
     pos: "n.", meaningZh: "云；阴暗；烟雾；疑团", meaningEn: "sky vapor", collocations: [], example: "The cloud is white.", exampleZh: "云是白色的。" },
@@ -1887,7 +1887,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-189", term: "coach", phonetic: "kәutʃ", pos: "n.", meaningZh: "教练；四轮大马车", meaningEn: "trainer", band: "5", collocations: [], example: "The coach trained us.", exampleZh: "教练训练了我们。",
+    id: "bulk-189", term: "coach", phonetic: "/kәutʃ/", pos: "n.", meaningZh: "教练；四轮大马车", meaningEn: "trainer", band: "5", collocations: [], example: "The coach trained us.", exampleZh: "教练训练了我们。",
     senses: [
     {
     pos: "n.", meaningZh: "教练；四轮大马车", meaningEn: "trainer", collocations: [], example: "The coach trained us.", exampleZh: "教练训练了我们。" },
@@ -1898,7 +1898,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-190", term: "coal", phonetic: "kәul", pos: "n.", meaningZh: "煤；木炭", meaningEn: "fuel", band: "5", collocations: [], example: "The coal is black.", exampleZh: "煤是黑色的。",
+    id: "bulk-190", term: "coal", phonetic: "/kәul/", pos: "n.", meaningZh: "煤；木炭", meaningEn: "fuel", band: "5", collocations: [], example: "The coal is black.", exampleZh: "煤是黑色的。",
     senses: [
     {
     pos: "n.", meaningZh: "煤；木炭", meaningEn: "fuel", collocations: [], example: "The coal is black.", exampleZh: "煤是黑色的。" },
@@ -2124,7 +2124,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-212", term: "complex", phonetic: "kәm'pleks", pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", band: "5", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。",
+    id: "bulk-212", term: "complex", phonetic: "/kәm'pleks/", pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", band: "5", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。",
     senses: [
     {
     pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。" },
@@ -2162,7 +2162,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-216", term: "concert", phonetic: "'kɒnsәt", pos: "n.", meaningZh: "音乐会；和声；一致", meaningEn: "music event", band: "5", collocations: [], example: "The concert was loud.", exampleZh: "音乐会很吵。",
+    id: "bulk-216", term: "concert", phonetic: "/kɒnsәt/", pos: "n.", meaningZh: "音乐会；和声；一致", meaningEn: "music event", band: "5", collocations: [], example: "The concert was loud.", exampleZh: "音乐会很吵。",
     senses: [
     {
     pos: "n.", meaningZh: "音乐会；和声；一致", meaningEn: "music event", collocations: [], example: "The concert was loud.", exampleZh: "音乐会很吵。" },
@@ -2173,7 +2173,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-217", term: "conduct", phonetic: "'kɔndʌkt, -dәkt", pos: "v.", meaningZh: "实施；行为", meaningEn: "to carry out", band: "5", collocations: [], example: "We conduct the test.", exampleZh: "我们实施测试。",
+    id: "bulk-217", term: "conduct", phonetic: "/kɔndʌkt, -dәkt/", pos: "v.", meaningZh: "实施；行为", meaningEn: "to carry out", band: "5", collocations: [], example: "We conduct the test.", exampleZh: "我们实施测试。",
     senses: [
     {
     pos: "v.", meaningZh: "实施；行为", meaningEn: "to carry out", collocations: [], example: "We conduct the test.", exampleZh: "我们实施测试。" },
@@ -2242,7 +2242,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-224", term: "consult", phonetic: "kәn'sʌlt", pos: "v.", meaningZh: "咨询", meaningEn: "to ask", band: "5", collocations: [], example: "We consult an expert.", exampleZh: "我们咨询专家。",
+    id: "bulk-224", term: "consult", phonetic: "/kәn'sʌlt/", pos: "v.", meaningZh: "咨询", meaningEn: "to ask", band: "5", collocations: [], example: "We consult an expert.", exampleZh: "我们咨询专家。",
     senses: [
     {
     pos: "v.", meaningZh: "咨询", meaningEn: "to ask", collocations: [], example: "We consult an expert.", exampleZh: "我们咨询专家。" },
@@ -2266,7 +2266,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-226", term: "contact", phonetic: "'kɒntækt", pos: "v.", meaningZh: "联系", meaningEn: "to reach", band: "5", collocations: [], example: "Please contact us soon.", exampleZh: "请尽快联系我们。",
+    id: "bulk-226", term: "contact", phonetic: "/kɒntækt/", pos: "v.", meaningZh: "联系", meaningEn: "to reach", band: "5", collocations: [], example: "Please contact us soon.", exampleZh: "请尽快联系我们。",
     senses: [
     {
     pos: "v.", meaningZh: "联系", meaningEn: "to reach", collocations: [], example: "Please contact us soon.", exampleZh: "请尽快联系我们。" },
@@ -2652,7 +2652,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-260", term: "cross", phonetic: "krɒs", pos: "v.", meaningZh: "穿过；交叉；横过；越过；十字标", meaningEn: "to go across", band: "5", collocations: [], example: "We cross the street.", exampleZh: "我们过马路。",
+    id: "bulk-260", term: "cross", phonetic: "/krɒs/", pos: "v.", meaningZh: "穿过；交叉；横过；越过；十字标", meaningEn: "to go across", band: "5", collocations: [], example: "We cross the street.", exampleZh: "我们过马路。",
     senses: [
     {
     pos: "v.", meaningZh: "穿过；交叉；横过；越过；十字标", meaningEn: "to go across", collocations: [], example: "We cross the street.", exampleZh: "我们过马路。" },
@@ -2835,7 +2835,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-277", term: "debate", phonetic: "di'beit", pos: "n.", meaningZh: "辩论；讨论", meaningEn: "discussion", band: "5", collocations: [], example: "The debate was lively.", exampleZh: "辩论很热烈。",
+    id: "bulk-277", term: "debate", phonetic: "/di'beit/", pos: "n.", meaningZh: "辩论；讨论", meaningEn: "discussion", band: "5", collocations: [], example: "The debate was lively.", exampleZh: "辩论很热烈。",
     senses: [
     {
     pos: "n.", meaningZh: "辩论；讨论", meaningEn: "discussion", collocations: [], example: "The debate was lively.", exampleZh: "辩论很热烈。" },
@@ -2851,7 +2851,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-279", term: "decade", phonetic: "'dekeid", pos: "n.", meaningZh: "十年", meaningEn: "ten years", band: "5", collocations: [], example: "The change took a decade.", exampleZh: "变化用了十年。",
+    id: "bulk-279", term: "decade", phonetic: "/dekeid/", pos: "n.", meaningZh: "十年", meaningEn: "ten years", band: "5", collocations: [], example: "The change took a decade.", exampleZh: "变化用了十年。",
     senses: [
     {
     pos: "n.", meaningZh: "十年", meaningEn: "ten years", collocations: [], example: "The change took a decade.", exampleZh: "变化用了十年。" }
@@ -2865,7 +2865,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-281", term: "decline", phonetic: "di'klain", pos: "v.", meaningZh: "下降；拒绝", meaningEn: "to fall or refuse", band: "5", collocations: [], example: "Sales decline in winter.", exampleZh: "冬季销量下降。",
+    id: "bulk-281", term: "decline", phonetic: "/di'klain/", pos: "v.", meaningZh: "下降；拒绝", meaningEn: "to fall or refuse", band: "5", collocations: [], example: "Sales decline in winter.", exampleZh: "冬季销量下降。",
     senses: [
     {
     pos: "v.", meaningZh: "下降；拒绝", meaningEn: "to fall or refuse", collocations: [], example: "Sales decline in winter.", exampleZh: "冬季销量下降。" },
@@ -2885,7 +2885,7 @@ const part_1: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-283", term: "decrease", phonetic: "'di:kri:s", pos: "v.", meaningZh: "减少", meaningEn: "to lessen", band: "5", collocations: [], example: "We decrease the load.", exampleZh: "我们减少负载。",
+    id: "bulk-283", term: "decrease", phonetic: "/di:kri:s/", pos: "v.", meaningZh: "减少", meaningEn: "to lessen", band: "5", collocations: [], example: "We decrease the load.", exampleZh: "我们减少负载。",
     senses: [
     {
     pos: "v.", meaningZh: "减少", meaningEn: "to lessen", collocations: [], example: "We decrease the load.", exampleZh: "我们减少负载。" },
@@ -2917,7 +2917,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-286", term: "define", phonetic: "di'fain", pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", band: "5", collocations: [], example: "We define the term.", exampleZh: "我们定义术语。",
+    id: "bulk-286", term: "define", phonetic: "/di'fain/", pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", band: "5", collocations: [], example: "We define the term.", exampleZh: "我们定义术语。",
     senses: [
     {
     pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", collocations: [], example: "We define the term.", exampleZh: "我们定义术语。" },
@@ -2960,7 +2960,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-291", term: "democracy", phonetic: "di'mɒkrәsi", pos: "n.", meaningZh: "民主；民主政治；民主主义；民主政体", meaningEn: "rule by people", band: "5", collocations: [], example: "The democracy is young.", exampleZh: "民主很年轻。",
+    id: "bulk-291", term: "democracy", phonetic: "/di'mɒkrәsi/", pos: "n.", meaningZh: "民主；民主政治；民主主义；民主政体", meaningEn: "rule by people", band: "5", collocations: [], example: "The democracy is young.", exampleZh: "民主很年轻。",
     senses: [
     {
     pos: "n.", meaningZh: "民主；民主政治；民主主义；民主政体", meaningEn: "rule by people", collocations: [], example: "The democracy is young.", exampleZh: "民主很年轻。" }
@@ -3311,7 +3311,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-326", term: "doubt", phonetic: "daut", pos: "v.", meaningZh: "怀疑；不信", meaningEn: "to question", band: "5", collocations: [], example: "We doubt the claim.", exampleZh: "我们怀疑这个说法。",
+    id: "bulk-326", term: "doubt", phonetic: "/daut/", pos: "v.", meaningZh: "怀疑；不信", meaningEn: "to question", band: "5", collocations: [], example: "We doubt the claim.", exampleZh: "我们怀疑这个说法。",
     senses: [
     {
     pos: "v.", meaningZh: "怀疑；不信", meaningEn: "to question", collocations: [], example: "We doubt the claim.", exampleZh: "我们怀疑这个说法。" },
@@ -3320,7 +3320,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-327", term: "drag", phonetic: "dræg", pos: "v.", meaningZh: "拖；拖累；拖拉；沉重缓慢地走；拖动", meaningEn: "to pull", band: "5", collocations: [], example: "He dragged the chair.", exampleZh: "他拖了椅子。",
+    id: "bulk-327", term: "drag", phonetic: "/dræg/", pos: "v.", meaningZh: "拖；拖累；拖拉；沉重缓慢地走；拖动", meaningEn: "to pull", band: "5", collocations: [], example: "He dragged the chair.", exampleZh: "他拖了椅子。",
     senses: [
     {
     pos: "v.", meaningZh: "拖；拖累；拖拉；沉重缓慢地走；拖动", meaningEn: "to pull", collocations: [], example: "He dragged the chair.", exampleZh: "他拖了椅子。" },
@@ -3329,14 +3329,14 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-328", term: "drama", phonetic: "'drɑ:mә", pos: "n.", meaningZh: "戏剧；戏剧艺术", meaningEn: "play", band: "5", collocations: [], example: "The drama was moving.", exampleZh: "戏剧很感人。",
+    id: "bulk-328", term: "drama", phonetic: "/drɑ:mә/", pos: "n.", meaningZh: "戏剧；戏剧艺术", meaningEn: "play", band: "5", collocations: [], example: "The drama was moving.", exampleZh: "戏剧很感人。",
     senses: [
     {
     pos: "n.", meaningZh: "戏剧；戏剧艺术", meaningEn: "play", collocations: [], example: "The drama was moving.", exampleZh: "戏剧很感人。" }
     ]
   },
   {
-    id: "bulk-329", term: "dream", phonetic: "dri:m", pos: "n.", meaningZh: "梦想；空想；愿望", meaningEn: "wish", band: "5", collocations: [], example: "He followed his dream.", exampleZh: "他追随梦想。",
+    id: "bulk-329", term: "dream", phonetic: "/dri:m/", pos: "n.", meaningZh: "梦想；空想；愿望", meaningEn: "wish", band: "5", collocations: [], example: "He followed his dream.", exampleZh: "他追随梦想。",
     senses: [
     {
     pos: "n.", meaningZh: "梦想；空想；愿望", meaningEn: "wish", collocations: [], example: "He followed his dream.", exampleZh: "他追随梦想。" },
@@ -3345,7 +3345,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-330", term: "dress", phonetic: "dres", pos: "n.", meaningZh: "服装；覆盖物", meaningEn: "clothes", band: "5", collocations: [], example: "She wore a red dress.", exampleZh: "她穿了红裙。",
+    id: "bulk-330", term: "dress", phonetic: "/dres/", pos: "n.", meaningZh: "服装；覆盖物", meaningEn: "clothes", band: "5", collocations: [], example: "She wore a red dress.", exampleZh: "她穿了红裙。",
     senses: [
     {
     pos: "n.", meaningZh: "服装；覆盖物", meaningEn: "clothes", collocations: [], example: "She wore a red dress.", exampleZh: "她穿了红裙。" },
@@ -3356,7 +3356,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-331", term: "drink", phonetic: "driŋk", pos: "v.", meaningZh: "喝；喝酒", meaningEn: "to swallow", band: "5", collocations: [], example: "We drink clean water.", exampleZh: "我们喝清水。",
+    id: "bulk-331", term: "drink", phonetic: "/driŋk/", pos: "v.", meaningZh: "喝；喝酒", meaningEn: "to swallow", band: "5", collocations: [], example: "We drink clean water.", exampleZh: "我们喝清水。",
     senses: [
     {
     pos: "v.", meaningZh: "喝；喝酒", meaningEn: "to swallow", collocations: [], example: "We drink clean water.", exampleZh: "我们喝清水。" },
@@ -3365,7 +3365,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-332", term: "drive", phonetic: "draiv", pos: "v.", meaningZh: "驾驶", meaningEn: "to operate a car", band: "5", collocations: [], example: "He drives to work.", exampleZh: "他开车上班。",
+    id: "bulk-332", term: "drive", phonetic: "/draiv/", pos: "v.", meaningZh: "驾驶", meaningEn: "to operate a car", band: "5", collocations: [], example: "He drives to work.", exampleZh: "他开车上班。",
     senses: [
     {
     pos: "v.", meaningZh: "驾驶", meaningEn: "to operate a car", collocations: [], example: "He drives to work.", exampleZh: "他开车上班。" },
@@ -3378,7 +3378,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-333", term: "drop", phonetic: "drɒp", pos: "v.", meaningZh: "掉落", meaningEn: "to fall", band: "5", collocations: [], example: "The glass dropped.", exampleZh: "玻璃杯掉了。",
+    id: "bulk-333", term: "drop", phonetic: "/drɒp/", pos: "v.", meaningZh: "掉落", meaningEn: "to fall", band: "5", collocations: [], example: "The glass dropped.", exampleZh: "玻璃杯掉了。",
     senses: [
     {
     pos: "v.", meaningZh: "掉落", meaningEn: "to fall", collocations: [], example: "The glass dropped.", exampleZh: "玻璃杯掉了。" },
@@ -3719,7 +3719,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-366", term: "engage", phonetic: "in'geidʒ", pos: "v.", meaningZh: "从事；吸引", meaningEn: "to take part", band: "5", collocations: [], example: "We engage the user.", exampleZh: "我们吸引用户。",
+    id: "bulk-366", term: "engage", phonetic: "/in'geidʒ/", pos: "v.", meaningZh: "从事；吸引", meaningEn: "to take part", band: "5", collocations: [], example: "We engage the user.", exampleZh: "我们吸引用户。",
     senses: [
     {
     pos: "v.", meaningZh: "从事；吸引", meaningEn: "to take part", collocations: [], example: "We engage the user.", exampleZh: "我们吸引用户。" },
@@ -3730,7 +3730,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-367", term: "engine", phonetic: "'endʒin", pos: "n.", meaningZh: "引擎；发动机；机车", meaningEn: "motor", band: "5", collocations: [], example: "The engine is loud.", exampleZh: "引擎很吵。",
+    id: "bulk-367", term: "engine", phonetic: "/endʒin/", pos: "n.", meaningZh: "引擎；发动机；机车", meaningEn: "motor", band: "5", collocations: [], example: "The engine is loud.", exampleZh: "引擎很吵。",
     senses: [
     {
     pos: "n.", meaningZh: "引擎；发动机；机车", meaningEn: "motor", collocations: [], example: "The engine is loud.", exampleZh: "引擎很吵。" },
@@ -3739,7 +3739,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-368", term: "enjoy", phonetic: "in'dʒɒi", pos: "v.", meaningZh: "享受", meaningEn: "to like", band: "5", collocations: [], example: "We enjoy the music.", exampleZh: "我们享受音乐。",
+    id: "bulk-368", term: "enjoy", phonetic: "/in'dʒɒi/", pos: "v.", meaningZh: "享受", meaningEn: "to like", band: "5", collocations: [], example: "We enjoy the music.", exampleZh: "我们享受音乐。",
     senses: [
     {
     pos: "v.", meaningZh: "享受", meaningEn: "to like", collocations: [], example: "We enjoy the music.", exampleZh: "我们享受音乐。" },
@@ -3748,7 +3748,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-369", term: "enough", phonetic: "i'nʌf", pos: "adj.", meaningZh: "足够的；充足的", meaningEn: "sufficient", band: "5", collocations: [], example: "We have enough time.", exampleZh: "我们有足够时间。",
+    id: "bulk-369", term: "enough", phonetic: "/i'nʌf/", pos: "adj.", meaningZh: "足够的；充足的", meaningEn: "sufficient", band: "5", collocations: [], example: "We have enough time.", exampleZh: "我们有足够时间。",
     senses: [
     {
     pos: "adj.", meaningZh: "足够的；充足的", meaningEn: "sufficient", collocations: [], example: "We have enough time.", exampleZh: "我们有足够时间。" },
@@ -3898,7 +3898,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-383", term: "evident", phonetic: "'evidәnt", pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", band: "5", collocations: [], example: "The trend is evident.", exampleZh: "趋势很明显。",
+    id: "bulk-383", term: "evident", phonetic: "/evidәnt/", pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", band: "5", collocations: [], example: "The trend is evident.", exampleZh: "趋势很明显。",
     senses: [
     {
     pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", collocations: [], example: "The trend is evident.", exampleZh: "趋势很明显。" }
@@ -3934,7 +3934,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-387", term: "exceed", phonetic: "ik'si:d", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "5", collocations: [], example: "Costs exceed the budget.", exampleZh: "成本超过预算。",
+    id: "bulk-387", term: "exceed", phonetic: "/ik'si:d/", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "5", collocations: [], example: "Costs exceed the budget.", exampleZh: "成本超过预算。",
     senses: [
     {
     pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", collocations: [], example: "Costs exceed the budget.", exampleZh: "成本超过预算。" },
@@ -3963,7 +3963,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-390", term: "excuse", phonetic: "ik'skju:z", pos: "n.", meaningZh: "借口；致歉；理由；饶恕", meaningEn: "reason", band: "5", collocations: [], example: "He gave a weak excuse.", exampleZh: "他给了软弱借口。",
+    id: "bulk-390", term: "excuse", phonetic: "/ik'skju:z/", pos: "n.", meaningZh: "借口；致歉；理由；饶恕", meaningEn: "reason", band: "5", collocations: [], example: "He gave a weak excuse.", exampleZh: "他给了软弱借口。",
     senses: [
     {
     pos: "n.", meaningZh: "借口；致歉；理由；饶恕", meaningEn: "reason", collocations: [], example: "He gave a weak excuse.", exampleZh: "他给了软弱借口。" },
@@ -4481,7 +4481,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-438", term: "fight", phonetic: "[fʌɪt]", pos: "v.", meaningZh: "战斗；对抗；打架", meaningEn: "to battle", band: "5", collocations: [], example: "They fight for rights.", exampleZh: "他们为权利而战。",
+    id: "bulk-438", term: "fight", phonetic: "/[fʌɪt]/", pos: "v.", meaningZh: "战斗；对抗；打架", meaningEn: "to battle", band: "5", collocations: [], example: "They fight for rights.", exampleZh: "他们为权利而战。",
     senses: [
     {
     pos: "v.", meaningZh: "战斗；对抗；打架", meaningEn: "to battle", collocations: [], example: "They fight for rights.", exampleZh: "他们为权利而战。" },
@@ -4529,7 +4529,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-442", term: "film", phonetic: "[ˈfɪlm̩]", pos: "n.", meaningZh: "电影；软片；薄膜；胶卷", meaningEn: "movie", band: "5", collocations: [], example: "The film is long.", exampleZh: "电影很长。",
+    id: "bulk-442", term: "film", phonetic: "/[ˈfɪlm̩]/", pos: "n.", meaningZh: "电影；软片；薄膜；胶卷", meaningEn: "movie", band: "5", collocations: [], example: "The film is long.", exampleZh: "电影很长。",
     senses: [
     {
     pos: "n.", meaningZh: "电影；软片；薄膜；胶卷", meaningEn: "movie", collocations: [], example: "The film is long.", exampleZh: "电影很长。" },
@@ -4702,7 +4702,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-455", term: "floor", phonetic: "flɒ:", pos: "n.", meaningZh: "地板；地面；基底", meaningEn: "ground surface", band: "5", collocations: [], example: "The floor is clean.", exampleZh: "地板干净。",
+    id: "bulk-455", term: "floor", phonetic: "/flɒ:/", pos: "n.", meaningZh: "地板；地面；基底", meaningEn: "ground surface", band: "5", collocations: [], example: "The floor is clean.", exampleZh: "地板干净。",
     senses: [
     {
     pos: "n.", meaningZh: "地板；地面；基底", meaningEn: "ground surface", collocations: [], example: "The floor is clean.", exampleZh: "地板干净。" },
@@ -4711,7 +4711,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-456", term: "flow", phonetic: "flәu", pos: "v.", meaningZh: "流动", meaningEn: "to move", band: "5", collocations: [], example: "Water flows downhill.", exampleZh: "水向下流。",
+    id: "bulk-456", term: "flow", phonetic: "/flәu/", pos: "v.", meaningZh: "流动", meaningEn: "to move", band: "5", collocations: [], example: "Water flows downhill.", exampleZh: "水向下流。",
     senses: [
     {
     pos: "v.", meaningZh: "流动", meaningEn: "to move", collocations: [], example: "Water flows downhill.", exampleZh: "水向下流。" },
@@ -4724,7 +4724,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-457", term: "flower", phonetic: "'flauә", pos: "n.", meaningZh: "花；开花植物；精华；盛时", meaningEn: "bloom", band: "5", collocations: [], example: "The flower is red.", exampleZh: "花是红色的。",
+    id: "bulk-457", term: "flower", phonetic: "/flauә/", pos: "n.", meaningZh: "花；开花植物；精华；盛时", meaningEn: "bloom", band: "5", collocations: [], example: "The flower is red.", exampleZh: "花是红色的。",
     senses: [
     {
     pos: "n.", meaningZh: "花；开花植物；精华；盛时", meaningEn: "bloom", collocations: [], example: "The flower is red.", exampleZh: "花是红色的。" },
@@ -4735,7 +4735,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-458", term: "fluid", phonetic: "'flu:id", pos: "n.", meaningZh: "流体；液体；分泌液", meaningEn: "liquid", band: "5", collocations: [], example: "The fluid leaked.", exampleZh: "液体漏了。",
+    id: "bulk-458", term: "fluid", phonetic: "/flu:id/", pos: "n.", meaningZh: "流体；液体；分泌液", meaningEn: "liquid", band: "5", collocations: [], example: "The fluid leaked.", exampleZh: "液体漏了。",
     senses: [
     {
     pos: "n.", meaningZh: "流体；液体；分泌液", meaningEn: "liquid", collocations: [], example: "The fluid leaked.", exampleZh: "液体漏了。" },
@@ -4757,7 +4757,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-460", term: "fold", phonetic: "fәuld", pos: "v.", meaningZh: "折叠", meaningEn: "to bend", band: "5", collocations: [], example: "She folds the letter.", exampleZh: "她叠信。",
+    id: "bulk-460", term: "fold", phonetic: "/fәuld/", pos: "v.", meaningZh: "折叠", meaningEn: "to bend", band: "5", collocations: [], example: "She folds the letter.", exampleZh: "她叠信。",
     senses: [
     {
     pos: "v.", meaningZh: "折叠", meaningEn: "to bend", collocations: [], example: "She folds the letter.", exampleZh: "她叠信。" },
@@ -4770,7 +4770,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-461", term: "folk", phonetic: "fәuk", pos: "n.", meaningZh: "人们；民间的；家人；亲属；民族", meaningEn: "people or traditional", band: "5", collocations: [], example: "The folk song is old.", exampleZh: "民歌很古老。",
+    id: "bulk-461", term: "folk", phonetic: "/fәuk/", pos: "n.", meaningZh: "人们；民间的；家人；亲属；民族", meaningEn: "people or traditional", band: "5", collocations: [], example: "The folk song is old.", exampleZh: "民歌很古老。",
     senses: [
     {
     pos: "n.", meaningZh: "人们；民间的；家人；亲属；民族", meaningEn: "people or traditional", collocations: [], example: "The folk song is old.", exampleZh: "民歌很古老。" },
@@ -4779,7 +4779,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-462", term: "follow", phonetic: "'fɒlәu", pos: "v.", meaningZh: "跟随", meaningEn: "to go after", band: "5", collocations: [], example: "We follow the path.", exampleZh: "我们沿着路走。",
+    id: "bulk-462", term: "follow", phonetic: "/fɒlәu/", pos: "v.", meaningZh: "跟随", meaningEn: "to go after", band: "5", collocations: [], example: "We follow the path.", exampleZh: "我们沿着路走。",
     senses: [
     {
     pos: "v.", meaningZh: "跟随", meaningEn: "to go after", collocations: [], example: "We follow the path.", exampleZh: "我们沿着路走。" },
@@ -4792,7 +4792,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-463", term: "food", phonetic: "fu:d", pos: "n.", meaningZh: "食物；养料；食品", meaningEn: "nutrition", band: "5", collocations: [], example: "The food is tasty.", exampleZh: "食物美味。",
+    id: "bulk-463", term: "food", phonetic: "/fu:d/", pos: "n.", meaningZh: "食物；养料；食品", meaningEn: "nutrition", band: "5", collocations: [], example: "The food is tasty.", exampleZh: "食物美味。",
     senses: [
     {
     pos: "n.", meaningZh: "食物；养料；食品", meaningEn: "nutrition", collocations: [], example: "The food is tasty.", exampleZh: "食物美味。" }
@@ -4814,7 +4814,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-465", term: "foot", phonetic: "[fʊt̚]", pos: "n.", meaningZh: "脚；步调；英尺；底部；末尾；步兵", meaningEn: "body part", band: "5", collocations: [], example: "My foot hurts.", exampleZh: "我的脚疼。",
+    id: "bulk-465", term: "foot", phonetic: "/[fʊt̚]/", pos: "n.", meaningZh: "脚；步调；英尺；底部；末尾；步兵", meaningEn: "body part", band: "5", collocations: [], example: "My foot hurts.", exampleZh: "我的脚疼。",
     senses: [
     {
     pos: "n.", meaningZh: "脚；步调；英尺；底部；末尾；步兵", meaningEn: "body part", collocations: [], example: "My foot hurts.", exampleZh: "我的脚疼。" },
@@ -5218,7 +5218,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-499", term: "generate", phonetic: "'dʒenәreit", pos: "v.", meaningZh: "产生", meaningEn: "to create", band: "5", collocations: [], example: "We generate power.", exampleZh: "我们发电。",
+    id: "bulk-499", term: "generate", phonetic: "/dʒenәreit/", pos: "v.", meaningZh: "产生", meaningEn: "to create", band: "5", collocations: [], example: "We generate power.", exampleZh: "我们发电。",
     senses: [
     {
     pos: "v.", meaningZh: "产生", meaningEn: "to create", collocations: [], example: "We generate power.", exampleZh: "我们发电。" },
@@ -5245,7 +5245,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-502", term: "genuine", phonetic: "'dʒenjuin", pos: "adj.", meaningZh: "真正的；真实的；诚恳的；真性的", meaningEn: "real", band: "5", collocations: [], example: "This is genuine.", exampleZh: "这是真的。",
+    id: "bulk-502", term: "genuine", phonetic: "/dʒenjuin/", pos: "adj.", meaningZh: "真正的；真实的；诚恳的；真性的", meaningEn: "real", band: "5", collocations: [], example: "This is genuine.", exampleZh: "这是真的。",
     senses: [
     {
     pos: "adj.", meaningZh: "真正的；真实的；诚恳的；真性的", meaningEn: "real", collocations: [], example: "This is genuine.", exampleZh: "这是真的。" }
@@ -5318,7 +5318,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-509", term: "global", phonetic: "'glәubl", pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", band: "5", collocations: [], example: "The issue is global.", exampleZh: "问题全球化。",
+    id: "bulk-509", term: "global", phonetic: "/glәubl/", pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", band: "5", collocations: [], example: "The issue is global.", exampleZh: "问题全球化。",
     senses: [
     {
     pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", collocations: [], example: "The issue is global.", exampleZh: "问题全球化。" }
@@ -5360,7 +5360,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-513", term: "good", phonetic: "gud", pos: "adj.", meaningZh: "好的；优良的；上等的；愉快的；有益的；好心的；慈善的；虔诚的", meaningEn: "fine", band: "5", collocations: [], example: "The food is good.", exampleZh: "食物很好。",
+    id: "bulk-513", term: "good", phonetic: "/gud/", pos: "adj.", meaningZh: "好的；优良的；上等的；愉快的；有益的；好心的；慈善的；虔诚的", meaningEn: "fine", band: "5", collocations: [], example: "The food is good.", exampleZh: "食物很好。",
     senses: [
     {
     pos: "adj.", meaningZh: "好的；优良的；上等的；愉快的；有益的；好心的；慈善的；虔诚的", meaningEn: "fine", collocations: [], example: "The food is good.", exampleZh: "食物很好。" },
@@ -5369,14 +5369,14 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-514", term: "govern", phonetic: "'gʌvәn", pos: "v.", meaningZh: "统治；支配；管理", meaningEn: "to rule", band: "5", collocations: [], example: "They govern the land.", exampleZh: "他们统治这片土地。",
+    id: "bulk-514", term: "govern", phonetic: "/gʌvәn/", pos: "v.", meaningZh: "统治；支配；管理", meaningEn: "to rule", band: "5", collocations: [], example: "They govern the land.", exampleZh: "他们统治这片土地。",
     senses: [
     {
     pos: "v.", meaningZh: "统治；支配；管理", meaningEn: "to rule", collocations: [], example: "They govern the land.", exampleZh: "他们统治这片土地。" }
     ]
   },
   {
-    id: "bulk-515", term: "grade", phonetic: "greid", pos: "n.", meaningZh: "等级；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", band: "5", collocations: [], example: "He got a high grade.", exampleZh: "他得了高分。",
+    id: "bulk-515", term: "grade", phonetic: "/greid/", pos: "n.", meaningZh: "等级；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", band: "5", collocations: [], example: "He got a high grade.", exampleZh: "他得了高分。",
     senses: [
     {
     pos: "n.", meaningZh: "等级；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", collocations: [], example: "He got a high grade.", exampleZh: "他得了高分。" },
@@ -5387,7 +5387,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-516", term: "grain", phonetic: "grein", pos: "n.", meaningZh: "谷物；谷粒；颗粒；谷类；纹理；本质", meaningEn: "seed", band: "5", collocations: [], example: "The grain is stored.", exampleZh: "谷物已储存。",
+    id: "bulk-516", term: "grain", phonetic: "/grein/", pos: "n.", meaningZh: "谷物；谷粒；颗粒；谷类；纹理；本质", meaningEn: "seed", band: "5", collocations: [], example: "The grain is stored.", exampleZh: "谷物已储存。",
     senses: [
     {
     pos: "n.", meaningZh: "谷物；谷粒；颗粒；谷类；纹理；本质", meaningEn: "seed", collocations: [], example: "The grain is stored.", exampleZh: "谷物已储存。" },
@@ -5414,7 +5414,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-519", term: "grass", phonetic: "[ɡɹ̠äːs]", pos: "n.", meaningZh: "草；草原；牧场；禾本", meaningEn: "plant", band: "5", collocations: [], example: "The grass is green.", exampleZh: "草是绿的。",
+    id: "bulk-519", term: "grass", phonetic: "/[ɡɹ̠äːs]/", pos: "n.", meaningZh: "草；草原；牧场；禾本", meaningEn: "plant", band: "5", collocations: [], example: "The grass is green.", exampleZh: "草是绿的。",
     senses: [
     {
     pos: "n.", meaningZh: "草；草原；牧场；禾本", meaningEn: "plant", collocations: [], example: "The grass is green.", exampleZh: "草是绿的。" }
@@ -5623,7 +5623,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-538", term: "hang", phonetic: "[heɪŋ]", pos: "v.", meaningZh: "悬挂", meaningEn: "to suspend", band: "5", collocations: [], example: "We hang the picture.", exampleZh: "我们挂画。",
+    id: "bulk-538", term: "hang", phonetic: "/[heɪŋ]/", pos: "v.", meaningZh: "悬挂", meaningEn: "to suspend", band: "5", collocations: [], example: "We hang the picture.", exampleZh: "我们挂画。",
     senses: [
     {
     pos: "v.", meaningZh: "悬挂", meaningEn: "to suspend", collocations: [], example: "We hang the picture.", exampleZh: "我们挂画。" },
@@ -5647,7 +5647,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-540", term: "happy", phonetic: "'hæpi", pos: "adj.", meaningZh: "快乐的；幸福的；愉快的；恰当的", meaningEn: "glad", band: "5", collocations: [], example: "She is happy today.", exampleZh: "她今天快乐。",
+    id: "bulk-540", term: "happy", phonetic: "/hæpi/", pos: "adj.", meaningZh: "快乐的；幸福的；愉快的；恰当的", meaningEn: "glad", band: "5", collocations: [], example: "She is happy today.", exampleZh: "她今天快乐。",
     senses: [
     {
     pos: "adj.", meaningZh: "快乐的；幸福的；愉快的；恰当的", meaningEn: "glad", collocations: [], example: "She is happy today.", exampleZh: "她今天快乐。" }
@@ -5663,7 +5663,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-542", term: "hard", phonetic: "hɑ:d", pos: "adj.", meaningZh: "硬的；困难的；坚硬的；艰苦的；坚固的；猛烈的；艰难的；结实的；确实的", meaningEn: "solid or tough", band: "5", collocations: [], example: "The task is hard.", exampleZh: "任务困难。",
+    id: "bulk-542", term: "hard", phonetic: "/hɑ:d/", pos: "adj.", meaningZh: "硬的；困难的；坚硬的；艰苦的；坚固的；猛烈的；艰难的；结实的；确实的", meaningEn: "solid or tough", band: "5", collocations: [], example: "The task is hard.", exampleZh: "任务困难。",
     senses: [
     {
     pos: "adj.", meaningZh: "硬的；困难的；坚硬的；艰苦的；坚固的；猛烈的；艰难的；结实的；确实的", meaningEn: "solid or tough", collocations: [], example: "The task is hard.", exampleZh: "任务困难。" },
@@ -5672,7 +5672,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-543", term: "harm", phonetic: "hɑ:m", pos: "n.", meaningZh: "伤害；害处", meaningEn: "damage", band: "5", collocations: [], example: "The harm is real.", exampleZh: "伤害是真实的。",
+    id: "bulk-543", term: "harm", phonetic: "/hɑ:m/", pos: "n.", meaningZh: "伤害；害处", meaningEn: "damage", band: "5", collocations: [], example: "The harm is real.", exampleZh: "伤害是真实的。",
     senses: [
     {
     pos: "n.", meaningZh: "伤害；害处", meaningEn: "damage", collocations: [], example: "The harm is real.", exampleZh: "伤害是真实的。" },
@@ -5681,7 +5681,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-544", term: "harvest", phonetic: "'hɑ:vist", pos: "v.", meaningZh: "收获；收割", meaningEn: "to gather crops", band: "5", collocations: [], example: "We harvest in autumn.", exampleZh: "我们秋天收获。",
+    id: "bulk-544", term: "harvest", phonetic: "/hɑ:vist/", pos: "v.", meaningZh: "收获；收割", meaningEn: "to gather crops", band: "5", collocations: [], example: "We harvest in autumn.", exampleZh: "我们秋天收获。",
     senses: [
     {
     pos: "v.", meaningZh: "收获；收割", meaningEn: "to gather crops", collocations: [], example: "We harvest in autumn.", exampleZh: "我们秋天收获。" },
@@ -5690,7 +5690,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-545", term: "hate", phonetic: "heit", pos: "v.", meaningZh: "憎恨", meaningEn: "to loathe", band: "5", collocations: [], example: "He hates waiting.", exampleZh: "他讨厌等待。",
+    id: "bulk-545", term: "hate", phonetic: "/heit/", pos: "v.", meaningZh: "憎恨", meaningEn: "to loathe", band: "5", collocations: [], example: "He hates waiting.", exampleZh: "他讨厌等待。",
     senses: [
     {
     pos: "v.", meaningZh: "憎恨", meaningEn: "to loathe", collocations: [], example: "He hates waiting.", exampleZh: "他讨厌等待。" },
@@ -5703,7 +5703,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-546", term: "head", phonetic: "hed", pos: "n.", meaningZh: "头；头脑；领袖；脑袋；最前的部分", meaningEn: "body top", band: "5", collocations: [], example: "He nodded his head.", exampleZh: "他点了头。",
+    id: "bulk-546", term: "head", phonetic: "/hed/", pos: "n.", meaningZh: "头；头脑；领袖；脑袋；最前的部分", meaningEn: "body top", band: "5", collocations: [], example: "He nodded his head.", exampleZh: "他点了头。",
     senses: [
     {
     pos: "n.", meaningZh: "头；头脑；领袖；脑袋；最前的部分", meaningEn: "body top", collocations: [], example: "He nodded his head.", exampleZh: "他点了头。" },
@@ -5723,7 +5723,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-548", term: "hear", phonetic: "hiә", pos: "v.", meaningZh: "听见", meaningEn: "to perceive sound", band: "5", collocations: [], example: "We hear the music.", exampleZh: "我们听见音乐。",
+    id: "bulk-548", term: "hear", phonetic: "/hiә/", pos: "v.", meaningZh: "听见", meaningEn: "to perceive sound", band: "5", collocations: [], example: "We hear the music.", exampleZh: "我们听见音乐。",
     senses: [
     {
     pos: "v.", meaningZh: "听见", meaningEn: "to perceive sound", collocations: [], example: "We hear the music.", exampleZh: "我们听见音乐。" },
@@ -5778,7 +5778,7 @@ const part_2: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-553", term: "hell", phonetic: "hel", pos: "n.", meaningZh: "地狱；邪恶势力；苦境；阴间；毁坏；训斥", meaningEn: "underworld", band: "5", collocations: [], example: "He feared hell.", exampleZh: "他害怕地狱。",
+    id: "bulk-553", term: "hell", phonetic: "/hel/", pos: "n.", meaningZh: "地狱；邪恶势力；苦境；阴间；毁坏；训斥", meaningEn: "underworld", band: "5", collocations: [], example: "He feared hell.", exampleZh: "他害怕地狱。",
     senses: [
     {
     pos: "n.", meaningZh: "地狱；邪恶势力；苦境；阴间；毁坏；训斥", meaningEn: "underworld", collocations: [], example: "He feared hell.", exampleZh: "他害怕地狱。" },
@@ -6071,14 +6071,14 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-579", term: "huge", phonetic: "hju:dʒ", pos: "adj.", meaningZh: "巨大的；极大的；无限的", meaningEn: "very big", band: "5", collocations: [], example: "The cost is huge.", exampleZh: "成本巨大。",
+    id: "bulk-579", term: "huge", phonetic: "/hju:dʒ/", pos: "adj.", meaningZh: "巨大的；极大的；无限的", meaningEn: "very big", band: "5", collocations: [], example: "The cost is huge.", exampleZh: "成本巨大。",
     senses: [
     {
     pos: "adj.", meaningZh: "巨大的；极大的；无限的", meaningEn: "very big", collocations: [], example: "The cost is huge.", exampleZh: "成本巨大。" }
     ]
   },
   {
-    id: "bulk-580", term: "human", phonetic: "'hju:mәn", pos: "adj.", meaningZh: "人类；人类的；似人类的；人性的；有同情心的", meaningEn: "of people", band: "5", collocations: [], example: "This is a human need.", exampleZh: "这是人类需求。",
+    id: "bulk-580", term: "human", phonetic: "/hju:mәn/", pos: "adj.", meaningZh: "人类；人类的；似人类的；人性的；有同情心的", meaningEn: "of people", band: "5", collocations: [], example: "This is a human need.", exampleZh: "这是人类需求。",
     senses: [
     {
     pos: "adj.", meaningZh: "人类；人类的；似人类的；人性的；有同情心的", meaningEn: "of people", collocations: [], example: "This is a human need.", exampleZh: "这是人类需求。" },
@@ -6096,7 +6096,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-582", term: "hundred", phonetic: "'hʌndrәd", pos: "n.", meaningZh: "百；百个东西", meaningEn: "100", band: "5", collocations: [], example: "We need a hundred.", exampleZh: "我们需要一百个。",
+    id: "bulk-582", term: "hundred", phonetic: "/hʌndrәd/", pos: "n.", meaningZh: "百；百个东西", meaningEn: "100", band: "5", collocations: [], example: "We need a hundred.", exampleZh: "我们需要一百个。",
     senses: [
     {
     pos: "n.", meaningZh: "百；百个东西", meaningEn: "100", collocations: [], example: "We need a hundred.", exampleZh: "我们需要一百个。" },
@@ -6166,7 +6166,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-588", term: "ice", phonetic: "[ʌɪs]", pos: "n.", meaningZh: "冰；冰淇淋；糖衣；冷若冰霜；矜持；贿赂", meaningEn: "frozen water", band: "5", collocations: [], example: "The ice melted.", exampleZh: "冰融化了。",
+    id: "bulk-588", term: "ice", phonetic: "/[ʌɪs]/", pos: "n.", meaningZh: "冰；冰淇淋；糖衣；冷若冰霜；矜持；贿赂", meaningEn: "frozen water", band: "5", collocations: [], example: "The ice melted.", exampleZh: "冰融化了。",
     senses: [
     {
     pos: "n.", meaningZh: "冰；冰淇淋；糖衣；冷若冰霜；矜持；贿赂", meaningEn: "frozen water", collocations: [], example: "The ice melted.", exampleZh: "冰融化了。" },
@@ -6265,7 +6265,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-597", term: "impact", phonetic: "'impækt", pos: "n.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", band: "5", collocations: [], example: "The impact is large.", exampleZh: "影响很大。",
+    id: "bulk-597", term: "impact", phonetic: "/impækt/", pos: "n.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", band: "5", collocations: [], example: "The impact is large.", exampleZh: "影响很大。",
     senses: [
     {
     pos: "n.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", collocations: [], example: "The impact is large.", exampleZh: "影响很大。" },
@@ -6362,14 +6362,14 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-606", term: "industry", phonetic: "'indәstri", pos: "n.", meaningZh: "工业；勤劳；企业；产业；有组织的劳动；实业", meaningEn: "business sector", band: "5", collocations: [], example: "The industry grew.", exampleZh: "工业增长了。",
+    id: "bulk-606", term: "industry", phonetic: "/indәstri/", pos: "n.", meaningZh: "工业；勤劳；企业；产业；有组织的劳动；实业", meaningEn: "business sector", band: "5", collocations: [], example: "The industry grew.", exampleZh: "工业增长了。",
     senses: [
     {
     pos: "n.", meaningZh: "工业；勤劳；企业；产业；有组织的劳动；实业", meaningEn: "business sector", collocations: [], example: "The industry grew.", exampleZh: "工业增长了。" }
     ]
   },
   {
-    id: "bulk-607", term: "infant", phonetic: "'infәnt", pos: "n.", meaningZh: "婴儿；儿童；初学者", meaningEn: "baby", band: "5", collocations: [], example: "The infant slept.", exampleZh: "婴儿睡着了。",
+    id: "bulk-607", term: "infant", phonetic: "/infәnt/", pos: "n.", meaningZh: "婴儿；儿童；初学者", meaningEn: "baby", band: "5", collocations: [], example: "The infant slept.", exampleZh: "婴儿睡着了。",
     senses: [
     {
     pos: "n.", meaningZh: "婴儿；儿童；初学者", meaningEn: "baby", collocations: [], example: "The infant slept.", exampleZh: "婴儿睡着了。" },
@@ -6389,7 +6389,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-609", term: "influence", phonetic: "'influәns", pos: "v.", meaningZh: "影响", meaningEn: "to affect", band: "5", collocations: [], example: "We influence the outcome.", exampleZh: "我们影响结果。",
+    id: "bulk-609", term: "influence", phonetic: "/influәns/", pos: "v.", meaningZh: "影响", meaningEn: "to affect", band: "5", collocations: [], example: "We influence the outcome.", exampleZh: "我们影响结果。",
     senses: [
     {
     pos: "v.", meaningZh: "影响", meaningEn: "to affect", collocations: [], example: "We influence the outcome.", exampleZh: "我们影响结果。" },
@@ -6435,7 +6435,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-613", term: "inner", phonetic: "'inә", pos: "adj.", meaningZh: "内部的；内心的", meaningEn: "inside", band: "5", collocations: [], example: "The inner room is quiet.", exampleZh: "里屋安静。",
+    id: "bulk-613", term: "inner", phonetic: "/inә/", pos: "adj.", meaningZh: "内部的；内心的", meaningEn: "inside", band: "5", collocations: [], example: "The inner room is quiet.", exampleZh: "里屋安静。",
     senses: [
     {
     pos: "adj.", meaningZh: "内部的；内心的", meaningEn: "inside", collocations: [], example: "The inner room is quiet.", exampleZh: "里屋安静。" },
@@ -6571,7 +6571,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-627", term: "intent", phonetic: "in'tent", pos: "n.", meaningZh: "意图；含义；故意", meaningEn: "purpose", band: "5", collocations: [], example: "His intent is clear.", exampleZh: "他的意图明确。",
+    id: "bulk-627", term: "intent", phonetic: "/in'tent/", pos: "n.", meaningZh: "意图；含义；故意", meaningEn: "purpose", band: "5", collocations: [], example: "His intent is clear.", exampleZh: "他的意图明确。",
     senses: [
     {
     pos: "n.", meaningZh: "意图；含义；故意", meaningEn: "purpose", collocations: [], example: "His intent is clear.", exampleZh: "他的意图明确。" },
@@ -6735,7 +6735,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-643", term: "item", phonetic: "[ˈaɪ̯ɾm̩]", pos: "n.", meaningZh: "项目；条款；一则", meaningEn: "thing", band: "5", collocations: [], example: "Each item matters.", exampleZh: "每项都重要。",
+    id: "bulk-643", term: "item", phonetic: "/[ˈaɪ̯ɾm̩]/", pos: "n.", meaningZh: "项目；条款；一则", meaningEn: "thing", band: "5", collocations: [], example: "Each item matters.", exampleZh: "每项都重要。",
     senses: [
     {
     pos: "n.", meaningZh: "项目；条款；一则", meaningEn: "thing", collocations: [], example: "Each item matters.", exampleZh: "每项都重要。" },
@@ -6809,7 +6809,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-649", term: "journey", phonetic: "'dʒә:ni", pos: "n.", meaningZh: "旅程；旅行；行程", meaningEn: "trip", band: "5", collocations: [], example: "The journey was long.", exampleZh: "旅程漫长。",
+    id: "bulk-649", term: "journey", phonetic: "/dʒә:ni/", pos: "n.", meaningZh: "旅程；旅行；行程", meaningEn: "trip", band: "5", collocations: [], example: "The journey was long.", exampleZh: "旅程漫长。",
     senses: [
     {
     pos: "n.", meaningZh: "旅程；旅行；行程", meaningEn: "trip", collocations: [], example: "The journey was long.", exampleZh: "旅程漫长。" },
@@ -6820,7 +6820,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-650", term: "joy", phonetic: "dʒɒi", pos: "n.", meaningZh: "喜悦；欢喜；乐事；高兴", meaningEn: "happiness", band: "5", collocations: [], example: "We felt pure joy.", exampleZh: "我们感到纯粹喜悦。",
+    id: "bulk-650", term: "joy", phonetic: "/dʒɒi/", pos: "n.", meaningZh: "喜悦；欢喜；乐事；高兴", meaningEn: "happiness", band: "5", collocations: [], example: "We felt pure joy.", exampleZh: "我们感到纯粹喜悦。",
     senses: [
     {
     pos: "n.", meaningZh: "喜悦；欢喜；乐事；高兴", meaningEn: "happiness", collocations: [], example: "We felt pure joy.", exampleZh: "我们感到纯粹喜悦。" },
@@ -7090,7 +7090,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-674", term: "language", phonetic: "[ˈleɪŋɡwɪd͡ʒ]", pos: "n.", meaningZh: "语言；文字；措辞", meaningEn: "tongue", band: "5", collocations: [], example: "She speaks three languages.", exampleZh: "她说三种语言。",
+    id: "bulk-674", term: "language", phonetic: "/[ˈleɪŋɡwɪd͡ʒ]/", pos: "n.", meaningZh: "语言；文字；措辞", meaningEn: "tongue", band: "5", collocations: [], example: "She speaks three languages.", exampleZh: "她说三种语言。",
     senses: [
     {
     pos: "n.", meaningZh: "语言；文字；措辞", meaningEn: "tongue", collocations: [], example: "She speaks three languages.", exampleZh: "她说三种语言。" },
@@ -7205,7 +7205,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-683", term: "leaf", phonetic: "li:f", pos: "n.", meaningZh: "叶子；树叶；花瓣；页", meaningEn: "plant part", band: "5", collocations: [], example: "The leaf is green.", exampleZh: "叶子是绿的。",
+    id: "bulk-683", term: "leaf", phonetic: "/li:f/", pos: "n.", meaningZh: "叶子；树叶；花瓣；页", meaningEn: "plant part", band: "5", collocations: [], example: "The leaf is green.", exampleZh: "叶子是绿的。",
     senses: [
     {
     pos: "n.", meaningZh: "叶子；树叶；花瓣；页", meaningEn: "plant part", collocations: [], example: "The leaf is green.", exampleZh: "叶子是绿的。" },
@@ -7216,7 +7216,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-684", term: "league", phonetic: "li:g", pos: "n.", meaningZh: "联盟；同盟；盟约", meaningEn: "group", band: "5", collocations: [], example: "The league expanded.", exampleZh: "联盟扩员了。",
+    id: "bulk-684", term: "league", phonetic: "/li:g/", pos: "n.", meaningZh: "联盟；同盟；盟约", meaningEn: "group", band: "5", collocations: [], example: "The league expanded.", exampleZh: "联盟扩员了。",
     senses: [
     {
     pos: "n.", meaningZh: "联盟；同盟；盟约", meaningEn: "group", collocations: [], example: "The league expanded.", exampleZh: "联盟扩员了。" },
@@ -7225,7 +7225,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-685", term: "leak", phonetic: "li:k", pos: "v.", meaningZh: "泄漏", meaningEn: "to escape", band: "5", collocations: [], example: "The pipe leaks water.", exampleZh: "管子漏水。",
+    id: "bulk-685", term: "leak", phonetic: "/li:k/", pos: "v.", meaningZh: "泄漏", meaningEn: "to escape", band: "5", collocations: [], example: "The pipe leaks water.", exampleZh: "管子漏水。",
     senses: [
     {
     pos: "v.", meaningZh: "泄漏", meaningEn: "to escape", collocations: [], example: "The pipe leaks water.", exampleZh: "管子漏水。" },
@@ -7238,7 +7238,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-686", term: "lean", phonetic: "li:n", pos: "v.", meaningZh: "倾斜", meaningEn: "to tilt", band: "5", collocations: [], example: "He leaned on the wall.", exampleZh: "他倚着墙。",
+    id: "bulk-686", term: "lean", phonetic: "/li:n/", pos: "v.", meaningZh: "倾斜", meaningEn: "to tilt", band: "5", collocations: [], example: "He leaned on the wall.", exampleZh: "他倚着墙。",
     senses: [
     {
     pos: "v.", meaningZh: "倾斜", meaningEn: "to tilt", collocations: [], example: "He leaned on the wall.", exampleZh: "他倚着墙。" },
@@ -7253,7 +7253,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-687", term: "learn", phonetic: "lә:n", pos: "v.", meaningZh: "学习", meaningEn: "to study", band: "5", collocations: [], example: "We learn by doing.", exampleZh: "我们通过实践学习。",
+    id: "bulk-687", term: "learn", phonetic: "/lә:n/", pos: "v.", meaningZh: "学习", meaningEn: "to study", band: "5", collocations: [], example: "We learn by doing.", exampleZh: "我们通过实践学习。",
     senses: [
     {
     pos: "v.", meaningZh: "学习", meaningEn: "to study", collocations: [], example: "We learn by doing.", exampleZh: "我们通过实践学习。" },
@@ -7262,7 +7262,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-688", term: "least", phonetic: "li:st", pos: "adj.", meaningZh: "最少的；最小的", meaningEn: "smallest", band: "5", collocations: [], example: "This costs the least.", exampleZh: "这花费最少。",
+    id: "bulk-688", term: "least", phonetic: "/li:st/", pos: "adj.", meaningZh: "最少的；最小的", meaningEn: "smallest", band: "5", collocations: [], example: "This costs the least.", exampleZh: "这花费最少。",
     senses: [
     {
     pos: "adj.", meaningZh: "最少的；最小的", meaningEn: "smallest", collocations: [], example: "This costs the least.", exampleZh: "这花费最少。" },
@@ -7273,7 +7273,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-689", term: "leave", phonetic: "li:v", pos: "v.", meaningZh: "离开", meaningEn: "to depart", band: "5", collocations: [], example: "We leave at dawn.", exampleZh: "我们黎明离开。",
+    id: "bulk-689", term: "leave", phonetic: "/li:v/", pos: "v.", meaningZh: "离开", meaningEn: "to depart", band: "5", collocations: [], example: "We leave at dawn.", exampleZh: "我们黎明离开。",
     senses: [
     {
     pos: "v.", meaningZh: "离开", meaningEn: "to depart", collocations: [], example: "We leave at dawn.", exampleZh: "我们黎明离开。" },
@@ -7644,7 +7644,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-720", term: "look", phonetic: "luk", pos: "v.", meaningZh: "看", meaningEn: "to see", band: "5", collocations: [], example: "We look at the sky.", exampleZh: "我们看天空。",
+    id: "bulk-720", term: "look", phonetic: "/luk/", pos: "v.", meaningZh: "看", meaningEn: "to see", band: "5", collocations: [], example: "We look at the sky.", exampleZh: "我们看天空。",
     senses: [
     {
     pos: "v.", meaningZh: "看", meaningEn: "to see", collocations: [], example: "We look at the sky.", exampleZh: "我们看天空。" },
@@ -7657,7 +7657,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-721", term: "lose", phonetic: "lu:z", pos: "v.", meaningZh: "失去", meaningEn: "to misplace", band: "5", collocations: [], example: "We lose the game.", exampleZh: "我们输了比赛。",
+    id: "bulk-721", term: "lose", phonetic: "/lu:z/", pos: "v.", meaningZh: "失去", meaningEn: "to misplace", band: "5", collocations: [], example: "We lose the game.", exampleZh: "我们输了比赛。",
     senses: [
     {
     pos: "v.", meaningZh: "失去", meaningEn: "to misplace", collocations: [], example: "We lose the game.", exampleZh: "我们输了比赛。" },
@@ -7809,7 +7809,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-735", term: "major", phonetic: "'meidʒә", pos: "adj.", meaningZh: "主要的；专业；较多的；大部分的；成年的；严重的", meaningEn: "chief or subject", band: "5", collocations: [], example: "This is a major issue.", exampleZh: "这是主要问题。",
+    id: "bulk-735", term: "major", phonetic: "/meidʒә/", pos: "adj.", meaningZh: "主要的；专业；较多的；大部分的；成年的；严重的", meaningEn: "chief or subject", band: "5", collocations: [], example: "This is a major issue.", exampleZh: "这是主要问题。",
     senses: [
     {
     pos: "adj.", meaningZh: "主要的；专业；较多的；大部分的；成年的；严重的", meaningEn: "chief or subject", collocations: [], example: "This is a major issue.", exampleZh: "这是主要问题。" },
@@ -7878,7 +7878,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-742", term: "manual", phonetic: "'mænjuәl", pos: "adj.", meaningZh: "手动的；手的；手工的；体力的；人工的", meaningEn: "by hand", band: "5", collocations: [], example: "This is a manual task.", exampleZh: "这是手动任务。",
+    id: "bulk-742", term: "manual", phonetic: "/mænjuәl/", pos: "adj.", meaningZh: "手动的；手的；手工的；体力的；人工的", meaningEn: "by hand", band: "5", collocations: [], example: "This is a manual task.", exampleZh: "这是手动任务。",
     senses: [
     {
     pos: "adj.", meaningZh: "手动的；手的；手工的；体力的；人工的", meaningEn: "by hand", collocations: [], example: "This is a manual task.", exampleZh: "这是手动任务。" },
@@ -7981,7 +7981,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-751", term: "match", phonetic: "mætʃ", pos: "v.", meaningZh: "匹配", meaningEn: "to fit", band: "5", collocations: [], example: "This matches the style.", exampleZh: "这与风格匹配。",
+    id: "bulk-751", term: "match", phonetic: "/mætʃ/", pos: "v.", meaningZh: "匹配", meaningEn: "to fit", band: "5", collocations: [], example: "This matches the style.", exampleZh: "这与风格匹配。",
     senses: [
     {
     pos: "v.", meaningZh: "匹配", meaningEn: "to fit", collocations: [], example: "This matches the style.", exampleZh: "这与风格匹配。" },
@@ -8025,7 +8025,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-755", term: "meal", phonetic: "mi:l", pos: "n.", meaningZh: "餐；一餐；膳食；粗粉", meaningEn: "food", band: "5", collocations: [], example: "The meal was good.", exampleZh: "餐食很好。",
+    id: "bulk-755", term: "meal", phonetic: "/mi:l/", pos: "n.", meaningZh: "餐；一餐；膳食；粗粉", meaningEn: "food", band: "5", collocations: [], example: "The meal was good.", exampleZh: "餐食很好。",
     senses: [
     {
     pos: "n.", meaningZh: "餐；一餐；膳食；粗粉", meaningEn: "food", collocations: [], example: "The meal was good.", exampleZh: "餐食很好。" },
@@ -8152,7 +8152,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-768", term: "mere", phonetic: "miә", pos: "adj.", meaningZh: "仅仅的；只不过的", meaningEn: "only", band: "5", collocations: [], example: "He is a mere child.", exampleZh: "他只是个孩子。",
+    id: "bulk-768", term: "mere", phonetic: "/miә/", pos: "adj.", meaningZh: "仅仅的；只不过的", meaningEn: "only", band: "5", collocations: [], example: "He is a mere child.", exampleZh: "他只是个孩子。",
     senses: [
     {
     pos: "adj.", meaningZh: "仅仅的；只不过的", meaningEn: "only", collocations: [], example: "He is a mere child.", exampleZh: "他只是个孩子。" },
@@ -8214,7 +8214,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-774", term: "milk", phonetic: "[mɛlk]", pos: "n.", meaningZh: "牛奶；乳状物", meaningEn: "drink", band: "5", collocations: [], example: "The milk is fresh.", exampleZh: "牛奶新鲜。",
+    id: "bulk-774", term: "milk", phonetic: "/[mɛlk]/", pos: "n.", meaningZh: "牛奶；乳状物", meaningEn: "drink", band: "5", collocations: [], example: "The milk is fresh.", exampleZh: "牛奶新鲜。",
     senses: [
     {
     pos: "n.", meaningZh: "牛奶；乳状物", meaningEn: "drink", collocations: [], example: "The milk is fresh.", exampleZh: "牛奶新鲜。" },
@@ -8486,7 +8486,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-800", term: "mouse", phonetic: "maus", pos: "n.", meaningZh: "老鼠；胆小羞怯的人；鼠标", meaningEn: "animal", band: "5", collocations: [], example: "The mouse hid.", exampleZh: "老鼠藏起来了。",
+    id: "bulk-800", term: "mouse", phonetic: "/maus/", pos: "n.", meaningZh: "老鼠；胆小羞怯的人；鼠标", meaningEn: "animal", band: "5", collocations: [], example: "The mouse hid.", exampleZh: "老鼠藏起来了。",
     senses: [
     {
     pos: "n.", meaningZh: "老鼠；胆小羞怯的人；鼠标", meaningEn: "animal", collocations: [], example: "The mouse hid.", exampleZh: "老鼠藏起来了。" },
@@ -8594,7 +8594,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-810", term: "must", phonetic: "mʌst", pos: "aux.", meaningZh: "必须", meaningEn: "have to", band: "5", collocations: [], example: "You must leave now.", exampleZh: "你必须现在离开。",
+    id: "bulk-810", term: "must", phonetic: "/mʌst/", pos: "aux.", meaningZh: "必须", meaningEn: "have to", band: "5", collocations: [], example: "You must leave now.", exampleZh: "你必须现在离开。",
     senses: [
     {
     pos: "aux.", meaningZh: "必须", meaningEn: "have to", collocations: [], example: "You must leave now.", exampleZh: "你必须现在离开。" },
@@ -8773,7 +8773,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-827", term: "neighbor", phonetic: "'neibә", pos: "n.", meaningZh: "邻居", meaningEn: "a person nearby", band: "5", collocations: [], example: "My neighbor is kind.", exampleZh: "我的邻居很友善。",
+    id: "bulk-827", term: "neighbor", phonetic: "/neibә/", pos: "n.", meaningZh: "邻居", meaningEn: "a person nearby", band: "5", collocations: [], example: "My neighbor is kind.", exampleZh: "我的邻居很友善。",
     senses: [
     {
     pos: "n.", meaningZh: "邻居", meaningEn: "a person nearby", collocations: [], example: "My neighbor is kind.", exampleZh: "我的邻居很友善。" },
@@ -8795,7 +8795,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-829", term: "net", phonetic: "net", pos: "n.", meaningZh: "网；网状物；罗网；净利；净价", meaningEn: "a mesh for catching", band: "5", collocations: [], example: "The fish hit the net.", exampleZh: "鱼撞到了网。",
+    id: "bulk-829", term: "net", phonetic: "/net/", pos: "n.", meaningZh: "网；网状物；罗网；净利；净价", meaningEn: "a mesh for catching", band: "5", collocations: [], example: "The fish hit the net.", exampleZh: "鱼撞到了网。",
     senses: [
     {
     pos: "n.", meaningZh: "网；网状物；罗网；净利；净价", meaningEn: "a mesh for catching", collocations: [], example: "The fish hit the net.", exampleZh: "鱼撞到了网。" },
@@ -8965,7 +8965,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-845", term: "nuclear", phonetic: "'nju:kliә", pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the nucleus", band: "5", collocations: [], example: "It is a nuclear plant.", exampleZh: "这是一座核电站。",
+    id: "bulk-845", term: "nuclear", phonetic: "/nju:kliә/", pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the nucleus", band: "5", collocations: [], example: "It is a nuclear plant.", exampleZh: "这是一座核电站。",
     senses: [
     {
     pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the nucleus", collocations: [], example: "It is a nuclear plant.", exampleZh: "这是一座核电站。" }
@@ -9000,7 +9000,7 @@ const part_3: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-848", term: "nut", phonetic: "[nɐt]", pos: "n.", meaningZh: "坚果；核心；螺帽；Novell NetWare服务器实用程序", meaningEn: "a hard seed", band: "5", collocations: [], example: "He ate a nut.", exampleZh: "他吃了一颗坚果。",
+    id: "bulk-848", term: "nut", phonetic: "/[nɐt]/", pos: "n.", meaningZh: "坚果；核心；螺帽；Novell NetWare服务器实用程序", meaningEn: "a hard seed", band: "5", collocations: [], example: "He ate a nut.", exampleZh: "他吃了一颗坚果。",
     senses: [
     {
     pos: "n.", meaningZh: "坚果；核心；螺帽；Novell NetWare服务器实用程序", meaningEn: "a hard seed", collocations: [], example: "He ate a nut.", exampleZh: "他吃了一颗坚果。" },
@@ -9038,7 +9038,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-851", term: "observe", phonetic: "әb'zә:v", pos: "v.", meaningZh: "观察", meaningEn: "to watch", band: "5", collocations: [], example: "We observe the stars.", exampleZh: "我们观察星星。",
+    id: "bulk-851", term: "observe", phonetic: "/әb'zә:v/", pos: "v.", meaningZh: "观察", meaningEn: "to watch", band: "5", collocations: [], example: "We observe the stars.", exampleZh: "我们观察星星。",
     senses: [
     {
     pos: "v.", meaningZh: "观察", meaningEn: "to watch", collocations: [], example: "We observe the stars.", exampleZh: "我们观察星星。" },
@@ -9067,7 +9067,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-854", term: "occasion", phonetic: "ә'keiʒәn", pos: "n.", meaningZh: "场合；时机；机会；诱因；理由", meaningEn: "a special event", band: "5", collocations: [], example: "It is a happy occasion.", exampleZh: "这是个快乐的场合。",
+    id: "bulk-854", term: "occasion", phonetic: "/ә'keiʒәn/", pos: "n.", meaningZh: "场合；时机；机会；诱因；理由", meaningEn: "a special event", band: "5", collocations: [], example: "It is a happy occasion.", exampleZh: "这是个快乐的场合。",
     senses: [
     {
     pos: "n.", meaningZh: "场合；时机；机会；诱因；理由", meaningEn: "a special event", collocations: [], example: "It is a happy occasion.", exampleZh: "这是个快乐的场合。" },
@@ -9094,14 +9094,14 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-857", term: "ocean", phonetic: "'әuʃәn", pos: "n.", meaningZh: "海洋；广阔；许多；一大片", meaningEn: "the big sea", band: "5", collocations: [], example: "The ocean is deep.", exampleZh: "海洋很深。",
+    id: "bulk-857", term: "ocean", phonetic: "/әuʃәn/", pos: "n.", meaningZh: "海洋；广阔；许多；一大片", meaningEn: "the big sea", band: "5", collocations: [], example: "The ocean is deep.", exampleZh: "海洋很深。",
     senses: [
     {
     pos: "n.", meaningZh: "海洋；广阔；许多；一大片", meaningEn: "the big sea", collocations: [], example: "The ocean is deep.", exampleZh: "海洋很深。" }
     ]
   },
   {
-    id: "bulk-858", term: "offer", phonetic: "'ɒfә", pos: "v.", meaningZh: "提供", meaningEn: "to give", band: "5", collocations: [], example: "They offer help.", exampleZh: "他们提供帮助。",
+    id: "bulk-858", term: "offer", phonetic: "/ɒfә/", pos: "v.", meaningZh: "提供", meaningEn: "to give", band: "5", collocations: [], example: "They offer help.", exampleZh: "他们提供帮助。",
     senses: [
     {
     pos: "v.", meaningZh: "提供", meaningEn: "to give", collocations: [], example: "They offer help.", exampleZh: "他们提供帮助。" },
@@ -9270,7 +9270,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-875", term: "organise", phonetic: "'ɒ:gәnaiz", pos: "v.", meaningZh: "组织", meaningEn: "to arrange", band: "5", collocations: [], example: "We organise the event.", exampleZh: "我们组织这场活动。",
+    id: "bulk-875", term: "organise", phonetic: "/ɒ:gәnaiz/", pos: "v.", meaningZh: "组织", meaningEn: "to arrange", band: "5", collocations: [], example: "We organise the event.", exampleZh: "我们组织这场活动。",
     senses: [
     {
     pos: "v.", meaningZh: "组织", meaningEn: "to arrange", collocations: [], example: "We organise the event.", exampleZh: "我们组织这场活动。" },
@@ -9381,7 +9381,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-886", term: "outside", phonetic: "'aut'said", pos: "adv.", meaningZh: "外部；外面；外表；外界", meaningEn: "out of", band: "5", collocations: [], example: "He waited outside.", exampleZh: "他在外面等。",
+    id: "bulk-886", term: "outside", phonetic: "/aut'said/", pos: "adv.", meaningZh: "外部；外面；外表；外界", meaningEn: "out of", band: "5", collocations: [], example: "He waited outside.", exampleZh: "他在外面等。",
     senses: [
     {
     pos: "adv.", meaningZh: "外部；外面；外表；外界", meaningEn: "out of", collocations: [], example: "He waited outside.", exampleZh: "他在外面等。" },
@@ -9392,7 +9392,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-887", term: "overall", phonetic: "'әuvәrɒ:l", pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", band: "5", collocations: [], example: "The overall score is high.", exampleZh: "总得分很高。",
+    id: "bulk-887", term: "overall", phonetic: "/әuvәrɒ:l/", pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", band: "5", collocations: [], example: "The overall score is high.", exampleZh: "总得分很高。",
     senses: [
     {
     pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", collocations: [], example: "The overall score is high.", exampleZh: "总得分很高。" },
@@ -9434,7 +9434,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-891", term: "own", phonetic: "әun", pos: "adj.", meaningZh: "拥有；自己的；嫡亲的；同胞的", meaningEn: "to have", band: "5", collocations: [], example: "This is my own room.", exampleZh: "这是我自己的房间。",
+    id: "bulk-891", term: "own", phonetic: "/әun/", pos: "adj.", meaningZh: "拥有；自己的；嫡亲的；同胞的", meaningEn: "to have", band: "5", collocations: [], example: "This is my own room.", exampleZh: "这是我自己的房间。",
     senses: [
     {
     pos: "adj.", meaningZh: "拥有；自己的；嫡亲的；同胞的", meaningEn: "to have", collocations: [], example: "This is my own room.", exampleZh: "这是我自己的房间。" },
@@ -9447,14 +9447,14 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-892", term: "owner", phonetic: "'әunә", pos: "n.", meaningZh: "所有者；拥有者；物主；所有人；业主", meaningEn: "a holder", band: "5", collocations: [], example: "The owner is away.", exampleZh: "所有者外出了。",
+    id: "bulk-892", term: "owner", phonetic: "/әunә/", pos: "n.", meaningZh: "所有者；拥有者；物主；所有人；业主", meaningEn: "a holder", band: "5", collocations: [], example: "The owner is away.", exampleZh: "所有者外出了。",
     senses: [
     {
     pos: "n.", meaningZh: "所有者；拥有者；物主；所有人；业主", meaningEn: "a holder", collocations: [], example: "The owner is away.", exampleZh: "所有者外出了。" }
     ]
   },
   {
-    id: "bulk-893", term: "pack", phonetic: "pæk", pos: "v.", meaningZh: "打包", meaningEn: "to box up", band: "5", collocations: [], example: "We pack the bags.", exampleZh: "我们打包行李。",
+    id: "bulk-893", term: "pack", phonetic: "/pæk/", pos: "v.", meaningZh: "打包", meaningEn: "to box up", band: "5", collocations: [], example: "We pack the bags.", exampleZh: "我们打包行李。",
     senses: [
     {
     pos: "v.", meaningZh: "打包", meaningEn: "to box up", collocations: [], example: "We pack the bags.", exampleZh: "我们打包行李。" },
@@ -9574,7 +9574,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-903", term: "park", phonetic: "[paːk]", pos: "n.", meaningZh: "公园；停车处", meaningEn: "a green space", band: "5", collocations: [], example: "We walked in the park.", exampleZh: "我们在公园散步。",
+    id: "bulk-903", term: "park", phonetic: "/[paːk]/", pos: "n.", meaningZh: "公园；停车处", meaningEn: "a green space", band: "5", collocations: [], example: "We walked in the park.", exampleZh: "我们在公园散步。",
     senses: [
     {
     pos: "n.", meaningZh: "公园；停车处", meaningEn: "a green space", collocations: [], example: "We walked in the park.", exampleZh: "我们在公园散步。" },
@@ -9650,7 +9650,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-909", term: "pass", phonetic: "[pʰäːs]", pos: "v.", meaningZh: "通过", meaningEn: "to go through", band: "5", collocations: [], example: "He passed the test.", exampleZh: "他通过了测试。",
+    id: "bulk-909", term: "pass", phonetic: "/[pʰäːs]/", pos: "v.", meaningZh: "通过", meaningEn: "to go through", band: "5", collocations: [], example: "He passed the test.", exampleZh: "他通过了测试。",
     senses: [
     {
     pos: "v.", meaningZh: "通过", meaningEn: "to go through", collocations: [], example: "He passed the test.", exampleZh: "他通过了测试。" },
@@ -9689,7 +9689,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-912", term: "path", phonetic: "[pʰäːθ]", pos: "n.", meaningZh: "路径；小路；道路；途径；路线；轨道；DOS内部命令:设定DOS读取程序的路径", meaningEn: "a way", band: "5", collocations: [], example: "The path is narrow.", exampleZh: "小路很窄。",
+    id: "bulk-912", term: "path", phonetic: "/[pʰäːθ]/", pos: "n.", meaningZh: "路径；小路；道路；途径；路线；轨道；DOS内部命令:设定DOS读取程序的路径", meaningEn: "a way", band: "5", collocations: [], example: "The path is narrow.", exampleZh: "小路很窄。",
     senses: [
     {
     pos: "n.", meaningZh: "路径；小路；道路；途径；路线；轨道；DOS内部命令:设定DOS读取程序的路径", meaningEn: "a way", collocations: [], example: "The path is narrow.", exampleZh: "小路很窄。" },
@@ -9777,7 +9777,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-920", term: "penalty", phonetic: "'penәlti", pos: "n.", meaningZh: "惩罚；处罚；刑罚；罚款；罚球；报应；不利结果；妨碍；罚金(款)；违约金", meaningEn: "a punishment", band: "5", collocations: [], example: "The penalty is strict.", exampleZh: "惩罚很严厉。",
+    id: "bulk-920", term: "penalty", phonetic: "/penәlti/", pos: "n.", meaningZh: "惩罚；处罚；刑罚；罚款；罚球；报应；不利结果；妨碍；罚金(款)；违约金", meaningEn: "a punishment", band: "5", collocations: [], example: "The penalty is strict.", exampleZh: "惩罚很严厉。",
     senses: [
     {
     pos: "n.", meaningZh: "惩罚；处罚；刑罚；罚款；罚球；报应；不利结果；妨碍；罚金(款)；违约金", meaningEn: "a punishment", collocations: [], example: "The penalty is strict.", exampleZh: "惩罚很严厉。" }
@@ -9791,7 +9791,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-922", term: "people", phonetic: "'pi:pl", pos: "n.", meaningZh: "人们；人民；民族；平民", meaningEn: "persons", band: "5", collocations: [], example: "The people are happy.", exampleZh: "人们很开心。",
+    id: "bulk-922", term: "people", phonetic: "/pi:pl/", pos: "n.", meaningZh: "人们；人民；民族；平民", meaningEn: "persons", band: "5", collocations: [], example: "The people are happy.", exampleZh: "人们很开心。",
     senses: [
     {
     pos: "n.", meaningZh: "人们；人民；民族；平民", meaningEn: "persons", collocations: [], example: "The people are happy.", exampleZh: "人们很开心。" },
@@ -9842,7 +9842,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-927", term: "period", phonetic: "'piәriәd", pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "a span", band: "5", collocations: [], example: "The period was long.", exampleZh: "那段时期很长。",
+    id: "bulk-927", term: "period", phonetic: "/piәriәd/", pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "a span", band: "5", collocations: [], example: "The period was long.", exampleZh: "那段时期很长。",
     senses: [
     {
     pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "a span", collocations: [], example: "The period was long.", exampleZh: "那段时期很长。" },
@@ -9908,7 +9908,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-933", term: "phase", phonetic: "feiz", pos: "n.", meaningZh: "阶段；时期；局面；方面；位相", meaningEn: "a stage", band: "5", collocations: [], example: "We entered a new phase.", exampleZh: "我们进入了一个新阶段。",
+    id: "bulk-933", term: "phase", phonetic: "/feiz/", pos: "n.", meaningZh: "阶段；时期；局面；方面；位相", meaningEn: "a stage", band: "5", collocations: [], example: "We entered a new phase.", exampleZh: "我们进入了一个新阶段。",
     senses: [
     {
     pos: "n.", meaningZh: "阶段；时期；局面；方面；位相", meaningEn: "a stage", collocations: [], example: "We entered a new phase.", exampleZh: "我们进入了一个新阶段。" },
@@ -9924,7 +9924,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-935", term: "philosophy", phonetic: "fi'lɒsәfi", pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "the study of truth", band: "5", collocations: [], example: "He loves philosophy.", exampleZh: "他热爱哲学。",
+    id: "bulk-935", term: "philosophy", phonetic: "/fi'lɒsәfi/", pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "the study of truth", band: "5", collocations: [], example: "He loves philosophy.", exampleZh: "他热爱哲学。",
     senses: [
     {
     pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "the study of truth", collocations: [], example: "He loves philosophy.", exampleZh: "他热爱哲学。" }
@@ -10064,7 +10064,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-947", term: "pipe", phonetic: "paip", pos: "n.", meaningZh: "管道；导管；输送管；管状器官；声带；尖细的声音；烟斗；笛；管乐器", meaningEn: "a tube", band: "5", collocations: [], example: "The pipe is long.", exampleZh: "管道很长。",
+    id: "bulk-947", term: "pipe", phonetic: "/paip/", pos: "n.", meaningZh: "管道；导管；输送管；管状器官；声带；尖细的声音；烟斗；笛；管乐器", meaningEn: "a tube", band: "5", collocations: [], example: "The pipe is long.", exampleZh: "管道很长。",
     senses: [
     {
     pos: "n.", meaningZh: "管道；导管；输送管；管状器官；声带；尖细的声音；烟斗；笛；管乐器", meaningEn: "a tube", collocations: [], example: "The pipe is long.", exampleZh: "管道很长。" },
@@ -10317,7 +10317,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-970", term: "police", phonetic: "[pəˈliːs]", pos: "n.", meaningZh: "警察；警察当局；治安", meaningEn: "law officers", band: "5", collocations: [], example: "The police arrived.", exampleZh: "警察到了。",
+    id: "bulk-970", term: "police", phonetic: "/[pəˈliːs]/", pos: "n.", meaningZh: "警察；警察当局；治安", meaningEn: "law officers", band: "5", collocations: [], example: "The police arrived.", exampleZh: "警察到了。",
     senses: [
     {
     pos: "n.", meaningZh: "警察；警察当局；治安", meaningEn: "law officers", collocations: [], example: "The police arrived.", exampleZh: "警察到了。" },
@@ -10410,7 +10410,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-979", term: "port", phonetic: "pɒ:t", pos: "n.", meaningZh: "港口；埠；舱门；避风港；左舷；炮眼；姿势；意义", meaningEn: "a harbor", band: "5", collocations: [], example: "The ship left the port.", exampleZh: "船离开了港口。",
+    id: "bulk-979", term: "port", phonetic: "/pɒ:t/", pos: "n.", meaningZh: "港口；埠；舱门；避风港；左舷；炮眼；姿势；意义", meaningEn: "a harbor", band: "5", collocations: [], example: "The ship left the port.", exampleZh: "船离开了港口。",
     senses: [
     {
     pos: "n.", meaningZh: "港口；埠；舱门；避风港；左舷；炮眼；姿势；意义", meaningEn: "a harbor", collocations: [], example: "The ship left the port.", exampleZh: "船离开了港口。" },
@@ -10434,7 +10434,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-981", term: "position", phonetic: "pә'ziʃәn", pos: "n.", meaningZh: "位置；地位；身分；形势；姿势；立场；职位；状态；阵地", meaningEn: "a place", band: "5", collocations: [], example: "The position is clear.", exampleZh: "位置很清楚。",
+    id: "bulk-981", term: "position", phonetic: "/pә'ziʃәn/", pos: "n.", meaningZh: "位置；地位；身分；形势；姿势；立场；职位；状态；阵地", meaningEn: "a place", band: "5", collocations: [], example: "The position is clear.", exampleZh: "位置很清楚。",
     senses: [
     {
     pos: "n.", meaningZh: "位置；地位；身分；形势；姿势；立场；职位；状态；阵地", meaningEn: "a place", collocations: [], example: "The position is clear.", exampleZh: "位置很清楚。" },
@@ -10452,7 +10452,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-983", term: "possess", phonetic: "pә'zes", pos: "v.", meaningZh: "拥有", meaningEn: "to own", band: "5", collocations: [], example: "He possesses a car.", exampleZh: "他拥有一辆车。",
+    id: "bulk-983", term: "possess", phonetic: "/pә'zes/", pos: "v.", meaningZh: "拥有", meaningEn: "to own", band: "5", collocations: [], example: "He possesses a car.", exampleZh: "他拥有一辆车。",
     senses: [
     {
     pos: "v.", meaningZh: "拥有", meaningEn: "to own", collocations: [], example: "He possesses a car.", exampleZh: "他拥有一辆车。" },
@@ -10461,7 +10461,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-984", term: "possible", phonetic: "'pɒsәbl", pos: "adj.", meaningZh: "可能的；潜在的；合适的", meaningEn: "can happen", band: "5", collocations: [], example: "It is possible to win.", exampleZh: "赢是有可能的。",
+    id: "bulk-984", term: "possible", phonetic: "/pɒsәbl/", pos: "adj.", meaningZh: "可能的；潜在的；合适的", meaningEn: "can happen", band: "5", collocations: [], example: "It is possible to win.", exampleZh: "赢是有可能的。",
     senses: [
     {
     pos: "adj.", meaningZh: "可能的；潜在的；合适的", meaningEn: "can happen", collocations: [], example: "It is possible to win.", exampleZh: "赢是有可能的。" },
@@ -10470,7 +10470,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-985", term: "post", phonetic: "pәust", pos: "v.", meaningZh: "邮寄；岗位", meaningEn: "to mail or a job", band: "5", collocations: [], example: "She will post the letter.", exampleZh: "她会寄出这封信。",
+    id: "bulk-985", term: "post", phonetic: "/pәust/", pos: "v.", meaningZh: "邮寄；岗位", meaningEn: "to mail or a job", band: "5", collocations: [], example: "She will post the letter.", exampleZh: "她会寄出这封信。",
     senses: [
     {
     pos: "v.", meaningZh: "邮寄；岗位", meaningEn: "to mail or a job", collocations: [], example: "She will post the letter.", exampleZh: "她会寄出这封信。" },
@@ -10485,7 +10485,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-986", term: "pot", phonetic: "pɒt", pos: "n.", meaningZh: "锅；盆；罐；壶；坩埚；奖杯", meaningEn: "a container", band: "5", collocations: [], example: "The pot is full.", exampleZh: "锅满了。",
+    id: "bulk-986", term: "pot", phonetic: "/pɒt/", pos: "n.", meaningZh: "锅；盆；罐；壶；坩埚；奖杯", meaningEn: "a container", band: "5", collocations: [], example: "The pot is full.", exampleZh: "锅满了。",
     senses: [
     {
     pos: "n.", meaningZh: "锅；盆；罐；壶；坩埚；奖杯", meaningEn: "a container", collocations: [], example: "The pot is full.", exampleZh: "锅满了。" },
@@ -10639,7 +10639,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1000", term: "pressure", phonetic: "[ˈpɹɛʃ.ə(ɹ)]", pos: "n.", meaningZh: "压力；榨；按；强制；压迫；压强", meaningEn: "force", band: "5", collocations: [], example: "The pressure is high.", exampleZh: "压力很大。",
+    id: "bulk-1000", term: "pressure", phonetic: "/[ˈpɹɛʃ.ə(ɹ)]/", pos: "n.", meaningZh: "压力；榨；按；强制；压迫；压强", meaningEn: "force", band: "5", collocations: [], example: "The pressure is high.", exampleZh: "压力很大。",
     senses: [
     {
     pos: "n.", meaningZh: "压力；榨；按；强制；压迫；压强", meaningEn: "force", collocations: [], example: "The pressure is high.", exampleZh: "压力很大。" },
@@ -10819,7 +10819,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1018", term: "produce", phonetic: "prә'dju:s", pos: "v.", meaningZh: "生产", meaningEn: "to make", band: "5", collocations: [], example: "The farm produces milk.", exampleZh: "农场生产牛奶。",
+    id: "bulk-1018", term: "produce", phonetic: "/prә'dju:s/", pos: "v.", meaningZh: "生产", meaningEn: "to make", band: "5", collocations: [], example: "The farm produces milk.", exampleZh: "农场生产牛奶。",
     senses: [
     {
     pos: "v.", meaningZh: "生产", meaningEn: "to make", collocations: [], example: "The farm produces milk.", exampleZh: "农场生产牛奶。" },
@@ -10832,14 +10832,14 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1019", term: "product", phonetic: "'prɒdʌkt", pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "a made item", band: "5", collocations: [], example: "The product is new.", exampleZh: "产品是新的。",
+    id: "bulk-1019", term: "product", phonetic: "/prɒdʌkt/", pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "a made item", band: "5", collocations: [], example: "The product is new.", exampleZh: "产品是新的。",
     senses: [
     {
     pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "a made item", collocations: [], example: "The product is new.", exampleZh: "产品是新的。" }
     ]
   },
   {
-    id: "bulk-1020", term: "profit", phonetic: "'prɒfit", pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "money gained", band: "5", collocations: [], example: "The profit is high.", exampleZh: "利润很高。",
+    id: "bulk-1020", term: "profit", phonetic: "/prɒfit/", pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "money gained", band: "5", collocations: [], example: "The profit is high.", exampleZh: "利润很高。",
     senses: [
     {
     pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "money gained", collocations: [], example: "The profit is high.", exampleZh: "利润很高。" },
@@ -10850,7 +10850,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1021", term: "program", phonetic: "'prәugræm", pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "a plan or code", band: "5", collocations: [], example: "The program is useful.", exampleZh: "这个项目很有用。",
+    id: "bulk-1021", term: "program", phonetic: "/prәugræm/", pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "a plan or code", band: "5", collocations: [], example: "The program is useful.", exampleZh: "这个项目很有用。",
     senses: [
     {
     pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "a plan or code", collocations: [], example: "The program is useful.", exampleZh: "这个项目很有用。" },
@@ -10861,7 +10861,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1022", term: "progress", phonetic: "'prәugres", pos: "n.", meaningZh: "进步；发展；前进", meaningEn: "improvement", band: "5", collocations: [], example: "We made progress.", exampleZh: "我们取得了进步。",
+    id: "bulk-1022", term: "progress", phonetic: "/prәugres/", pos: "n.", meaningZh: "进步；发展；前进", meaningEn: "improvement", band: "5", collocations: [], example: "We made progress.", exampleZh: "我们取得了进步。",
     senses: [
     {
     pos: "n.", meaningZh: "进步；发展；前进", meaningEn: "improvement", collocations: [], example: "We made progress.", exampleZh: "我们取得了进步。" },
@@ -10870,7 +10870,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1023", term: "project", phonetic: "'prɒdʒekt", pos: "n.", meaningZh: "项目；计划；设计；事业", meaningEn: "a task", band: "5", collocations: [], example: "The project is big.", exampleZh: "项目很大。",
+    id: "bulk-1023", term: "project", phonetic: "/prɒdʒekt/", pos: "n.", meaningZh: "项目；计划；设计；事业", meaningEn: "a task", band: "5", collocations: [], example: "The project is big.", exampleZh: "项目很大。",
     senses: [
     {
     pos: "n.", meaningZh: "项目；计划；设计；事业", meaningEn: "a task", collocations: [], example: "The project is big.", exampleZh: "项目很大。" },
@@ -10881,7 +10881,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1024", term: "promise", phonetic: "'prɒmis", pos: "n.", meaningZh: "承诺；诺言；约定的事情；有指望", meaningEn: "a vow", band: "5", collocations: [], example: "He kept his promise.", exampleZh: "他遵守了承诺。",
+    id: "bulk-1024", term: "promise", phonetic: "/prɒmis/", pos: "n.", meaningZh: "承诺；诺言；约定的事情；有指望", meaningEn: "a vow", band: "5", collocations: [], example: "He kept his promise.", exampleZh: "他遵守了承诺。",
     senses: [
     {
     pos: "n.", meaningZh: "承诺；诺言；约定的事情；有指望", meaningEn: "a vow", collocations: [], example: "He kept his promise.", exampleZh: "他遵守了承诺。" },
@@ -11044,7 +11044,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1039", term: "push", phonetic: "[pʷʊʃ]", pos: "v.", meaningZh: "推", meaningEn: "to shove", band: "5", collocations: [], example: "Please push the door.", exampleZh: "请推门。",
+    id: "bulk-1039", term: "push", phonetic: "/[pʷʊʃ]/", pos: "v.", meaningZh: "推", meaningEn: "to shove", band: "5", collocations: [], example: "Please push the door.", exampleZh: "请推门。",
     senses: [
     {
     pos: "v.", meaningZh: "推", meaningEn: "to shove", collocations: [], example: "Please push the door.", exampleZh: "请推门。" },
@@ -11297,7 +11297,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1060", term: "rare", phonetic: "[ɹɜɹ]", pos: "adj.", meaningZh: "稀有的；稀罕的；罕有的；珍奇的；稀薄的；半熟的；非常好的", meaningEn: "uncommon", band: "5", collocations: [], example: "This stone is rare.", exampleZh: "这块石头很稀有。",
+    id: "bulk-1060", term: "rare", phonetic: "/[ɹɜɹ]/", pos: "adj.", meaningZh: "稀有的；稀罕的；罕有的；珍奇的；稀薄的；半熟的；非常好的", meaningEn: "uncommon", band: "5", collocations: [], example: "This stone is rare.", exampleZh: "这块石头很稀有。",
     senses: [
     {
     pos: "adj.", meaningZh: "稀有的；稀罕的；罕有的；珍奇的；稀薄的；半熟的；非常好的", meaningEn: "uncommon", collocations: [], example: "This stone is rare.", exampleZh: "这块石头很稀有。" },
@@ -11317,14 +11317,14 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1062", term: "rather", phonetic: "'ræðә", pos: "adv.", meaningZh: "相当；宁可；稍微", meaningEn: "more willingly", band: "5", collocations: [], example: "He would rather stay.", exampleZh: "他宁愿留下。",
+    id: "bulk-1062", term: "rather", phonetic: "/ræðә/", pos: "adv.", meaningZh: "相当；宁可；稍微", meaningEn: "more willingly", band: "5", collocations: [], example: "He would rather stay.", exampleZh: "他宁愿留下。",
     senses: [
     {
     pos: "adv.", meaningZh: "相当；宁可；稍微", meaningEn: "more willingly", collocations: [], example: "He would rather stay.", exampleZh: "他宁愿留下。" }
     ]
   },
   {
-    id: "bulk-1063", term: "raw", phonetic: "rɒ:", pos: "adj.", meaningZh: "生的；未加工的；生疏的；不成熟的；阴冷的；刺痛的；擦掉皮的", meaningEn: "uncooked", band: "5", collocations: [], example: "The meat is raw.", exampleZh: "肉是生的。",
+    id: "bulk-1063", term: "raw", phonetic: "/rɒ:/", pos: "adj.", meaningZh: "生的；未加工的；生疏的；不成熟的；阴冷的；刺痛的；擦掉皮的", meaningEn: "uncooked", band: "5", collocations: [], example: "The meat is raw.", exampleZh: "肉是生的。",
     senses: [
     {
     pos: "adj.", meaningZh: "生的；未加工的；生疏的；不成熟的；阴冷的；刺痛的；擦掉皮的", meaningEn: "uncooked", collocations: [], example: "The meat is raw.", exampleZh: "肉是生的。" },
@@ -11335,7 +11335,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1064", term: "reach", phonetic: "ri:tʃ", pos: "v.", meaningZh: "到达", meaningEn: "to arrive", band: "5", collocations: [], example: "We reach the top.", exampleZh: "我们到达了顶部。",
+    id: "bulk-1064", term: "reach", phonetic: "/ri:tʃ/", pos: "v.", meaningZh: "到达", meaningEn: "to arrive", band: "5", collocations: [], example: "We reach the top.", exampleZh: "我们到达了顶部。",
     senses: [
     {
     pos: "v.", meaningZh: "到达", meaningEn: "to arrive", collocations: [], example: "We reach the top.", exampleZh: "我们到达了顶部。" },
@@ -11422,14 +11422,14 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1071", term: "recent", phonetic: "'ri:snt", pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "not long ago", band: "5", collocations: [], example: "The recent news is good.", exampleZh: "最近的消息很好。",
+    id: "bulk-1071", term: "recent", phonetic: "/ri:snt/", pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "not long ago", band: "5", collocations: [], example: "The recent news is good.", exampleZh: "最近的消息很好。",
     senses: [
     {
     pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "not long ago", collocations: [], example: "The recent news is good.", exampleZh: "最近的消息很好。" }
     ]
   },
   {
-    id: "bulk-1072", term: "recognize", phonetic: "'rekәgnaiz", pos: "v.", meaningZh: "认出", meaningEn: "to know again", band: "5", collocations: [], example: "She recognized him.", exampleZh: "她认出了他。",
+    id: "bulk-1072", term: "recognize", phonetic: "/rekәgnaiz/", pos: "v.", meaningZh: "认出", meaningEn: "to know again", band: "5", collocations: [], example: "She recognized him.", exampleZh: "她认出了他。",
     senses: [
     {
     pos: "v.", meaningZh: "认出", meaningEn: "to know again", collocations: [], example: "She recognized him.", exampleZh: "她认出了他。" },
@@ -11449,7 +11449,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1074", term: "record", phonetic: "ri'kɒ:d", pos: "v.", meaningZh: "记录", meaningEn: "to note", band: "5", collocations: [], example: "He recorded the song.", exampleZh: "他记录了这首歌。",
+    id: "bulk-1074", term: "record", phonetic: "/ri'kɒ:d/", pos: "v.", meaningZh: "记录", meaningEn: "to note", band: "5", collocations: [], example: "He recorded the song.", exampleZh: "他记录了这首歌。",
     senses: [
     {
     pos: "v.", meaningZh: "记录", meaningEn: "to note", collocations: [], example: "He recorded the song.", exampleZh: "他记录了这首歌。" },
@@ -11475,7 +11475,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1076", term: "reflect", phonetic: "ri'flekt", pos: "v.", meaningZh: "反映", meaningEn: "to show back", band: "5", collocations: [], example: "The mirror reflects light.", exampleZh: "镜子反射光。",
+    id: "bulk-1076", term: "reflect", phonetic: "/ri'flekt/", pos: "v.", meaningZh: "反映", meaningEn: "to show back", band: "5", collocations: [], example: "The mirror reflects light.", exampleZh: "镜子反射光。",
     senses: [
     {
     pos: "v.", meaningZh: "反映", meaningEn: "to show back", collocations: [], example: "The mirror reflects light.", exampleZh: "镜子反射光。" },
@@ -11571,7 +11571,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1084", term: "reject", phonetic: "ri'dʒekt", pos: "v.", meaningZh: "拒绝", meaningEn: "to dismiss", band: "5", collocations: [], example: "They rejected the plan.", exampleZh: "他们拒绝了计划。",
+    id: "bulk-1084", term: "reject", phonetic: "/ri'dʒekt/", pos: "v.", meaningZh: "拒绝", meaningEn: "to dismiss", band: "5", collocations: [], example: "They rejected the plan.", exampleZh: "他们拒绝了计划。",
     senses: [
     {
     pos: "v.", meaningZh: "拒绝", meaningEn: "to dismiss", collocations: [], example: "They rejected the plan.", exampleZh: "他们拒绝了计划。" },
@@ -11680,7 +11680,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1095", term: "remote", phonetic: "[ɹəˈməʊt]", pos: "adj.", meaningZh: "遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", band: "5", collocations: [], example: "The island is remote.", exampleZh: "岛屿很遥远。",
+    id: "bulk-1095", term: "remote", phonetic: "/[ɹəˈməʊt]/", pos: "adj.", meaningZh: "遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", band: "5", collocations: [], example: "The island is remote.", exampleZh: "岛屿很遥远。",
     senses: [
     {
     pos: "adj.", meaningZh: "遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", collocations: [], example: "The island is remote.", exampleZh: "岛屿很遥远。" },
@@ -11704,7 +11704,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1097", term: "rent", phonetic: "rent", pos: "n.", meaningZh: "租金；房租；出租物；裂缝；破裂处；分裂", meaningEn: "money for use", band: "5", collocations: [], example: "The rent is high.", exampleZh: "租金很高。",
+    id: "bulk-1097", term: "rent", phonetic: "/rent/", pos: "n.", meaningZh: "租金；房租；出租物；裂缝；破裂处；分裂", meaningEn: "money for use", band: "5", collocations: [], example: "The rent is high.", exampleZh: "租金很高。",
     senses: [
     {
     pos: "n.", meaningZh: "租金；房租；出租物；裂缝；破裂处；分裂", meaningEn: "money for use", collocations: [], example: "The rent is high.", exampleZh: "租金很高。" },
@@ -11730,7 +11730,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1099", term: "repeat", phonetic: "ri'pi:t", pos: "v.", meaningZh: "重复", meaningEn: "to say again", band: "5", collocations: [], example: "Please repeat it.", exampleZh: "请重复一遍。",
+    id: "bulk-1099", term: "repeat", phonetic: "/ri'pi:t/", pos: "v.", meaningZh: "重复", meaningEn: "to say again", band: "5", collocations: [], example: "Please repeat it.", exampleZh: "请重复一遍。",
     senses: [
     {
     pos: "v.", meaningZh: "重复", meaningEn: "to say again", collocations: [], example: "Please repeat it.", exampleZh: "请重复一遍。" },
@@ -11752,7 +11752,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1101", term: "reply", phonetic: "ri'plai", pos: "v.", meaningZh: "回复", meaningEn: "to answer", band: "5", collocations: [], example: "She replied at once.", exampleZh: "她立刻回复了。",
+    id: "bulk-1101", term: "reply", phonetic: "/ri'plai/", pos: "v.", meaningZh: "回复", meaningEn: "to answer", band: "5", collocations: [], example: "She replied at once.", exampleZh: "她立刻回复了。",
     senses: [
     {
     pos: "v.", meaningZh: "回复", meaningEn: "to answer", collocations: [], example: "She replied at once.", exampleZh: "她立刻回复了。" },
@@ -11789,7 +11789,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1104", term: "republic", phonetic: "[ɹɪˈpʌblɪk]", pos: "n.", meaningZh: "共和国；共和政体；团体；界", meaningEn: "a state", band: "5", collocations: [], example: "The republic is young.", exampleZh: "这个共和国很年轻。",
+    id: "bulk-1104", term: "republic", phonetic: "/[ɹɪˈpʌblɪk]/", pos: "n.", meaningZh: "共和国；共和政体；团体；界", meaningEn: "a state", band: "5", collocations: [], example: "The republic is young.", exampleZh: "这个共和国很年轻。",
     senses: [
     {
     pos: "n.", meaningZh: "共和国；共和政体；团体；界", meaningEn: "a state", collocations: [], example: "The republic is young.", exampleZh: "这个共和国很年轻。" }
@@ -11853,7 +11853,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1110", term: "respond", phonetic: "ri'spɒnd", pos: "v.", meaningZh: "回应", meaningEn: "to reply", band: "5", collocations: [], example: "He responded quickly.", exampleZh: "他很快回应。",
+    id: "bulk-1110", term: "respond", phonetic: "/ri'spɒnd/", pos: "v.", meaningZh: "回应", meaningEn: "to reply", band: "5", collocations: [], example: "He responded quickly.", exampleZh: "他很快回应。",
     senses: [
     {
     pos: "v.", meaningZh: "回应", meaningEn: "to reply", collocations: [], example: "He responded quickly.", exampleZh: "他很快回应。" },
@@ -12115,7 +12115,7 @@ const part_4: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1132", term: "rock", phonetic: "rɒk", pos: "n.", meaningZh: "岩石；岩礁；石头；基石；暗礁；摇动；摇滚乐", meaningEn: "a stone", band: "5", collocations: [], example: "The rock is heavy.", exampleZh: "岩石很重。",
+    id: "bulk-1132", term: "rock", phonetic: "/rɒk/", pos: "n.", meaningZh: "岩石；岩礁；石头；基石；暗礁；摇动；摇滚乐", meaningEn: "a stone", band: "5", collocations: [], example: "The rock is heavy.", exampleZh: "岩石很重。",
     senses: [
     {
     pos: "n.", meaningZh: "岩石；岩礁；石头；基石；暗礁；摇动；摇滚乐", meaningEn: "a stone", collocations: [], example: "The rock is heavy.", exampleZh: "岩石很重。" },
@@ -12321,7 +12321,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1149", term: "rural", phonetic: "'ruәrәl", pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "of the country", band: "5", collocations: [], example: "The rural area is quiet.", exampleZh: "农村地区很安静。",
+    id: "bulk-1149", term: "rural", phonetic: "/ruәrәl/", pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "of the country", band: "5", collocations: [], example: "The rural area is quiet.", exampleZh: "农村地区很安静。",
     senses: [
     {
     pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "of the country", collocations: [], example: "The rural area is quiet.", exampleZh: "农村地区很安静。" }
@@ -12638,7 +12638,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1178", term: "season", phonetic: "'si:zn", pos: "n.", meaningZh: "季节；时节；当令期；时期", meaningEn: "a time of year", band: "5", collocations: [], example: "Spring is my season.", exampleZh: "春天是我的季节。",
+    id: "bulk-1178", term: "season", phonetic: "/si:zn/", pos: "n.", meaningZh: "季节；时节；当令期；时期", meaningEn: "a time of year", band: "5", collocations: [], example: "Spring is my season.", exampleZh: "春天是我的季节。",
     senses: [
     {
     pos: "n.", meaningZh: "季节；时节；当令期；时期", meaningEn: "a time of year", collocations: [], example: "Spring is my season.", exampleZh: "春天是我的季节。" },
@@ -12693,7 +12693,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1183", term: "secure", phonetic: "si'kjuә", pos: "adj.", meaningZh: "安全的；无虑的；安心的；可靠的；保险的", meaningEn: "safe", band: "5", collocations: [], example: "The door is secure.", exampleZh: "门很安全。",
+    id: "bulk-1183", term: "secure", phonetic: "/si'kjuә/", pos: "adj.", meaningZh: "安全的；无虑的；安心的；可靠的；保险的", meaningEn: "safe", band: "5", collocations: [], example: "The door is secure.", exampleZh: "门很安全。",
     senses: [
     {
     pos: "adj.", meaningZh: "安全的；无虑的；安心的；可靠的；保险的", meaningEn: "safe", collocations: [], example: "The door is secure.", exampleZh: "门很安全。" },
@@ -12732,7 +12732,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1186", term: "seek", phonetic: "si:k", pos: "v.", meaningZh: "寻求", meaningEn: "to look for", band: "5", collocations: [], example: "We seek the truth.", exampleZh: "我们寻求真相。",
+    id: "bulk-1186", term: "seek", phonetic: "/si:k/", pos: "v.", meaningZh: "寻求", meaningEn: "to look for", band: "5", collocations: [], example: "We seek the truth.", exampleZh: "我们寻求真相。",
     senses: [
     {
     pos: "v.", meaningZh: "寻求", meaningEn: "to look for", collocations: [], example: "We seek the truth.", exampleZh: "我们寻求真相。" },
@@ -12809,7 +12809,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1193", term: "sentence", phonetic: "[ˈsɛntn̩t͡s]", pos: "n.", meaningZh: "句子；命题；宣判", meaningEn: "a phrase", band: "5", collocations: [], example: "Write a sentence.", exampleZh: "写一个句子。",
+    id: "bulk-1193", term: "sentence", phonetic: "/[ˈsɛntn̩t͡s]/", pos: "n.", meaningZh: "句子；命题；宣判", meaningEn: "a phrase", band: "5", collocations: [], example: "Write a sentence.", exampleZh: "写一个句子。",
     senses: [
     {
     pos: "n.", meaningZh: "句子；命题；宣判", meaningEn: "a phrase", collocations: [], example: "Write a sentence.", exampleZh: "写一个句子。" },
@@ -13063,7 +13063,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1215", term: "shine", phonetic: "ʃain", pos: "v.", meaningZh: "发光", meaningEn: "to give light", band: "5", collocations: [], example: "The sun shines.", exampleZh: "太阳发光。",
+    id: "bulk-1215", term: "shine", phonetic: "/ʃain/", pos: "v.", meaningZh: "发光", meaningEn: "to give light", band: "5", collocations: [], example: "The sun shines.", exampleZh: "太阳发光。",
     senses: [
     {
     pos: "v.", meaningZh: "发光", meaningEn: "to give light", collocations: [], example: "The sun shines.", exampleZh: "太阳发光。" },
@@ -13362,7 +13362,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1238", term: "sink", phonetic: "siŋk", pos: "v.", meaningZh: "下沉", meaningEn: "to go down", band: "5", collocations: [], example: "The ship sinks.", exampleZh: "船下沉了。",
+    id: "bulk-1238", term: "sink", phonetic: "/siŋk/", pos: "v.", meaningZh: "下沉", meaningEn: "to go down", band: "5", collocations: [], example: "The ship sinks.", exampleZh: "船下沉了。",
     senses: [
     {
     pos: "v.", meaningZh: "下沉", meaningEn: "to go down", collocations: [], example: "The ship sinks.", exampleZh: "船下沉了。" },
@@ -13375,7 +13375,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1239", term: "sister", phonetic: "'sistә", pos: "n.", meaningZh: "姐妹；护士；修女", meaningEn: "a female sibling", band: "5", collocations: [], example: "My sister is kind.", exampleZh: "我的姐妹很友善。",
+    id: "bulk-1239", term: "sister", phonetic: "/sistә/", pos: "n.", meaningZh: "姐妹；护士；修女", meaningEn: "a female sibling", band: "5", collocations: [], example: "My sister is kind.", exampleZh: "我的姐妹很友善。",
     senses: [
     {
     pos: "n.", meaningZh: "姐妹；护士；修女", meaningEn: "a female sibling", collocations: [], example: "My sister is kind.", exampleZh: "我的姐妹很友善。" },
@@ -13402,7 +13402,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1242", term: "size", phonetic: "saiz", pos: "n.", meaningZh: "尺寸；大小；规模；尺码；能力；浆料", meaningEn: "how big", band: "5", collocations: [], example: "What is the size?", exampleZh: "尺寸是多少？",
+    id: "bulk-1242", term: "size", phonetic: "/saiz/", pos: "n.", meaningZh: "尺寸；大小；规模；尺码；能力；浆料", meaningEn: "how big", band: "5", collocations: [], example: "What is the size?", exampleZh: "尺寸是多少？",
     senses: [
     {
     pos: "n.", meaningZh: "尺寸；大小；规模；尺码；能力；浆料", meaningEn: "how big", collocations: [], example: "What is the size?", exampleZh: "尺寸是多少？" },
@@ -13422,7 +13422,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1244", term: "skin", phonetic: "skin", pos: "n.", meaningZh: "皮肤", meaningEn: "the body cover", band: "5", collocations: [], example: "Her skin is soft.", exampleZh: "她的皮肤很柔软。",
+    id: "bulk-1244", term: "skin", phonetic: "/skin/", pos: "n.", meaningZh: "皮肤", meaningEn: "the body cover", band: "5", collocations: [], example: "Her skin is soft.", exampleZh: "她的皮肤很柔软。",
     senses: [
     {
     pos: "n.", meaningZh: "皮肤", meaningEn: "the body cover", collocations: [], example: "Her skin is soft.", exampleZh: "她的皮肤很柔软。" },
@@ -13433,7 +13433,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1245", term: "skip", phonetic: "skip", pos: "v.", meaningZh: "跳过", meaningEn: "to jump over", band: "5", collocations: [], example: "He skipped the step.", exampleZh: "他跳过了那一步。",
+    id: "bulk-1245", term: "skip", phonetic: "/skip/", pos: "v.", meaningZh: "跳过", meaningEn: "to jump over", band: "5", collocations: [], example: "He skipped the step.", exampleZh: "他跳过了那一步。",
     senses: [
     {
     pos: "v.", meaningZh: "跳过", meaningEn: "to jump over", collocations: [], example: "He skipped the step.", exampleZh: "他跳过了那一步。" },
@@ -13498,7 +13498,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1250", term: "slight", phonetic: "[sl̥l͡ɐɪʔ̚]", pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", band: "5", collocations: [], example: "There is a slight error.", exampleZh: "有一个轻微的误差。",
+    id: "bulk-1250", term: "slight", phonetic: "/[sl̥l͡ɐɪʔ̚]/", pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", band: "5", collocations: [], example: "There is a slight error.", exampleZh: "有一个轻微的误差。",
     senses: [
     {
     pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", collocations: [], example: "There is a slight error.", exampleZh: "有一个轻微的误差。" },
@@ -13741,7 +13741,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1269", term: "some", phonetic: "sʌm", pos: "adj.", meaningZh: "一些；一些的；少许的；某一的", meaningEn: "a few", band: "5", collocations: [], example: "We need some water.", exampleZh: "我们需要一些水。",
+    id: "bulk-1269", term: "some", phonetic: "/sʌm/", pos: "adj.", meaningZh: "一些；一些的；少许的；某一的", meaningEn: "a few", band: "5", collocations: [], example: "We need some water.", exampleZh: "我们需要一些水。",
     senses: [
     {
     pos: "adj.", meaningZh: "一些；一些的；少许的；某一的", meaningEn: "a few", collocations: [], example: "We need some water.", exampleZh: "我们需要一些水。" },
@@ -13752,28 +13752,28 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1270", term: "son", phonetic: "sʌn", pos: "n.", meaningZh: "儿子；女婿；子孙；养子", meaningEn: "a male child", band: "5", collocations: [], example: "Her son is young.", exampleZh: "她的儿子还小。",
+    id: "bulk-1270", term: "son", phonetic: "/sʌn/", pos: "n.", meaningZh: "儿子；女婿；子孙；养子", meaningEn: "a male child", band: "5", collocations: [], example: "Her son is young.", exampleZh: "她的儿子还小。",
     senses: [
     {
     pos: "n.", meaningZh: "儿子；女婿；子孙；养子", meaningEn: "a male child", collocations: [], example: "Her son is young.", exampleZh: "她的儿子还小。" }
     ]
   },
   {
-    id: "bulk-1271", term: "song", phonetic: "sɒŋ", pos: "n.", meaningZh: "歌曲；鸣声；歌唱；诗歌", meaningEn: "a tune", band: "5", collocations: [], example: "The song is nice.", exampleZh: "歌曲很好听。",
+    id: "bulk-1271", term: "song", phonetic: "/sɒŋ/", pos: "n.", meaningZh: "歌曲；鸣声；歌唱；诗歌", meaningEn: "a tune", band: "5", collocations: [], example: "The song is nice.", exampleZh: "歌曲很好听。",
     senses: [
     {
     pos: "n.", meaningZh: "歌曲；鸣声；歌唱；诗歌", meaningEn: "a tune", collocations: [], example: "The song is nice.", exampleZh: "歌曲很好听。" }
     ]
   },
   {
-    id: "bulk-1272", term: "soon", phonetic: "su:n", pos: "adv.", meaningZh: "很快；不久；早；宁可", meaningEn: "before long", band: "5", collocations: [], example: "He will come soon.", exampleZh: "他很快会来。",
+    id: "bulk-1272", term: "soon", phonetic: "/su:n/", pos: "adv.", meaningZh: "很快；不久；早；宁可", meaningEn: "before long", band: "5", collocations: [], example: "He will come soon.", exampleZh: "他很快会来。",
     senses: [
     {
     pos: "adv.", meaningZh: "很快；不久；早；宁可", meaningEn: "before long", collocations: [], example: "He will come soon.", exampleZh: "他很快会来。" }
     ]
   },
   {
-    id: "bulk-1273", term: "sort", phonetic: "sɒ:t", pos: "n.", meaningZh: "种类；方式；品质；态度；举止", meaningEn: "a type", band: "5", collocations: [], example: "This is a new sort.", exampleZh: "这是一种新种类。",
+    id: "bulk-1273", term: "sort", phonetic: "/sɒ:t/", pos: "n.", meaningZh: "种类；方式；品质；态度；举止", meaningEn: "a type", band: "5", collocations: [], example: "This is a new sort.", exampleZh: "这是一种新种类。",
     senses: [
     {
     pos: "n.", meaningZh: "种类；方式；品质；态度；举止", meaningEn: "a type", collocations: [], example: "This is a new sort.", exampleZh: "这是一种新种类。" },
@@ -13784,7 +13784,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1274", term: "soul", phonetic: "sәul", pos: "n.", meaningZh: "灵魂；心灵；精神；精髓；人；化身；典型；鬼魂", meaningEn: "the spirit", band: "5", collocations: [], example: "His soul is calm.", exampleZh: "他的灵魂平静。",
+    id: "bulk-1274", term: "soul", phonetic: "/sәul/", pos: "n.", meaningZh: "灵魂；心灵；精神；精髓；人；化身；典型；鬼魂", meaningEn: "the spirit", band: "5", collocations: [], example: "His soul is calm.", exampleZh: "他的灵魂平静。",
     senses: [
     {
     pos: "n.", meaningZh: "灵魂；心灵；精神；精髓；人；化身；典型；鬼魂", meaningEn: "the spirit", collocations: [], example: "His soul is calm.", exampleZh: "他的灵魂平静。" },
@@ -14202,7 +14202,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1308", term: "steady", phonetic: "'stedi", pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "constant", band: "5", collocations: [], example: "The pace is steady.", exampleZh: "节奏稳定。",
+    id: "bulk-1308", term: "steady", phonetic: "/stedi/", pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "constant", band: "5", collocations: [], example: "The pace is steady.", exampleZh: "节奏稳定。",
     senses: [
     {
     pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "constant", collocations: [], example: "The pace is steady.", exampleZh: "节奏稳定。" },
@@ -14213,7 +14213,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1309", term: "steal", phonetic: "sti:l", pos: "v.", meaningZh: "偷", meaningEn: "to take", band: "5", collocations: [], example: "He stole the book.", exampleZh: "他偷了书。",
+    id: "bulk-1309", term: "steal", phonetic: "/sti:l/", pos: "v.", meaningZh: "偷", meaningEn: "to take", band: "5", collocations: [], example: "He stole the book.", exampleZh: "他偷了书。",
     senses: [
     {
     pos: "v.", meaningZh: "偷", meaningEn: "to take", collocations: [], example: "He stole the book.", exampleZh: "他偷了书。" },
@@ -14384,7 +14384,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1322", term: "stress", phonetic: "stres", pos: "n.", meaningZh: "压力；紧迫；强调；重音；重点；应力", meaningEn: "strain", band: "5", collocations: [], example: "The stress is high.", exampleZh: "压力很大。",
+    id: "bulk-1322", term: "stress", phonetic: "/stres/", pos: "n.", meaningZh: "压力；紧迫；强调；重音；重点；应力", meaningEn: "strain", band: "5", collocations: [], example: "The stress is high.", exampleZh: "压力很大。",
     senses: [
     {
     pos: "n.", meaningZh: "压力；紧迫；强调；重音；重点；应力", meaningEn: "strain", collocations: [], example: "The stress is high.", exampleZh: "压力很大。" },
@@ -14413,7 +14413,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1325", term: "strong", phonetic: "strɒŋ", pos: "adj.", meaningZh: "强壮的；坚固的；坚强的；强烈的；有力的；优良的", meaningEn: "powerful", band: "5", collocations: [], example: "He is strong.", exampleZh: "他很强壮。",
+    id: "bulk-1325", term: "strong", phonetic: "/strɒŋ/", pos: "adj.", meaningZh: "强壮的；坚固的；坚强的；强烈的；有力的；优良的", meaningEn: "powerful", band: "5", collocations: [], example: "He is strong.", exampleZh: "他很强壮。",
     senses: [
     {
     pos: "adj.", meaningZh: "强壮的；坚固的；坚强的；强烈的；有力的；优良的", meaningEn: "powerful", collocations: [], example: "He is strong.", exampleZh: "他很强壮。" },
@@ -14666,7 +14666,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1348", term: "survey", phonetic: "sә'vei", pos: "n.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "a study", band: "5", collocations: [], example: "The survey is done.", exampleZh: "调查完成了。",
+    id: "bulk-1348", term: "survey", phonetic: "/sә'vei/", pos: "n.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "a study", band: "5", collocations: [], example: "The survey is done.", exampleZh: "调查完成了。",
     senses: [
     {
     pos: "n.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "a study", collocations: [], example: "The survey is done.", exampleZh: "调查完成了。" },
@@ -14732,7 +14732,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1354", term: "system", phonetic: "'sistәm", pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "a set", band: "5", collocations: [], example: "The system works.", exampleZh: "系统运行正常。",
+    id: "bulk-1354", term: "system", phonetic: "/sistәm/", pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "a set", band: "5", collocations: [], example: "The system works.", exampleZh: "系统运行正常。",
     senses: [
     {
     pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "a set", collocations: [], example: "The system works.", exampleZh: "系统运行正常。" }
@@ -14855,7 +14855,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1365", term: "target", phonetic: "'tɑ:git", pos: "n.", meaningZh: "目标；靶子；指标", meaningEn: "an aim", band: "5", collocations: [], example: "We hit the target.", exampleZh: "我们击中了目标。",
+    id: "bulk-1365", term: "target", phonetic: "/tɑ:git/", pos: "n.", meaningZh: "目标；靶子；指标", meaningEn: "an aim", band: "5", collocations: [], example: "We hit the target.", exampleZh: "我们击中了目标。",
     senses: [
     {
     pos: "n.", meaningZh: "目标；靶子；指标", meaningEn: "an aim", collocations: [], example: "We hit the target.", exampleZh: "我们击中了目标。" },
@@ -14864,7 +14864,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1366", term: "task", phonetic: "tɑ:sk", pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "a job", band: "5", collocations: [], example: "The task is done.", exampleZh: "任务完成了。",
+    id: "bulk-1366", term: "task", phonetic: "/tɑ:sk/", pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "a job", band: "5", collocations: [], example: "The task is done.", exampleZh: "任务完成了。",
     senses: [
     {
     pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "a job", collocations: [], example: "The task is done.", exampleZh: "任务完成了。" },
@@ -14906,7 +14906,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1370", term: "teach", phonetic: "ti:tʃ", pos: "v.", meaningZh: "教", meaningEn: "to instruct", band: "5", collocations: [], example: "He teaches math.", exampleZh: "他教数学。",
+    id: "bulk-1370", term: "teach", phonetic: "/ti:tʃ/", pos: "v.", meaningZh: "教", meaningEn: "to instruct", band: "5", collocations: [], example: "He teaches math.", exampleZh: "他教数学。",
     senses: [
     {
     pos: "v.", meaningZh: "教", meaningEn: "to instruct", collocations: [], example: "He teaches math.", exampleZh: "他教数学。" },
@@ -14917,7 +14917,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1371", term: "team", phonetic: "ti:m", pos: "n.", meaningZh: "团队；组", meaningEn: "a group", band: "5", collocations: [], example: "The team won.", exampleZh: "团队赢了。",
+    id: "bulk-1371", term: "team", phonetic: "/ti:m/", pos: "n.", meaningZh: "团队；组", meaningEn: "a group", band: "5", collocations: [], example: "The team won.", exampleZh: "团队赢了。",
     senses: [
     {
     pos: "n.", meaningZh: "团队；组", meaningEn: "a group", collocations: [], example: "The team won.", exampleZh: "团队赢了。" },
@@ -14928,7 +14928,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1372", term: "tear", phonetic: "tiә. tєә", pos: "v.", meaningZh: "撕裂", meaningEn: "to rip", band: "5", collocations: [], example: "He tore the paper.", exampleZh: "他撕了纸。",
+    id: "bulk-1372", term: "tear", phonetic: "/tiә. tєә/", pos: "v.", meaningZh: "撕裂", meaningEn: "to rip", band: "5", collocations: [], example: "He tore the paper.", exampleZh: "他撕了纸。",
     senses: [
     {
     pos: "v.", meaningZh: "撕裂", meaningEn: "to rip", collocations: [], example: "He tore the paper.", exampleZh: "他撕了纸。" },
@@ -14941,7 +14941,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1373", term: "technical", phonetic: "'teknikl", pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", band: "5", collocations: [], example: "The manual is technical.", exampleZh: "手册是技术性的。",
+    id: "bulk-1373", term: "technical", phonetic: "/teknikl/", pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", band: "5", collocations: [], example: "The manual is technical.", exampleZh: "手册是技术性的。",
     senses: [
     {
     pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", collocations: [], example: "The manual is technical.", exampleZh: "手册是技术性的。" }
@@ -15097,7 +15097,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1389", term: "thank", phonetic: "[θaŋk]", pos: "v.", meaningZh: "感谢", meaningEn: "to appreciate", band: "5", collocations: [], example: "We thank the host.", exampleZh: "我们感谢主人。",
+    id: "bulk-1389", term: "thank", phonetic: "/[θaŋk]/", pos: "v.", meaningZh: "感谢", meaningEn: "to appreciate", band: "5", collocations: [], example: "We thank the host.", exampleZh: "我们感谢主人。",
     senses: [
     {
     pos: "v.", meaningZh: "感谢", meaningEn: "to appreciate", collocations: [], example: "We thank the host.", exampleZh: "我们感谢主人。" },
@@ -15115,7 +15115,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1391", term: "their", phonetic: "ðєә", pos: "pron.", meaningZh: "他们的", meaningEn: "belonging to them", band: "5", collocations: [], example: "Their car is new.", exampleZh: "他们的车是新的。",
+    id: "bulk-1391", term: "their", phonetic: "/ðєә/", pos: "pron.", meaningZh: "他们的", meaningEn: "belonging to them", band: "5", collocations: [], example: "Their car is new.", exampleZh: "他们的车是新的。",
     senses: [
     {
     pos: "pron.", meaningZh: "他们的", meaningEn: "belonging to them", collocations: [], example: "Their car is new.", exampleZh: "他们的车是新的。" }
@@ -15214,14 +15214,14 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1400", term: "thirsty", phonetic: "'θә:sti", pos: "adj.", meaningZh: "口渴的；渴望的；干燥的", meaningEn: "needing water", band: "5", collocations: [], example: "He is thirsty.", exampleZh: "他口渴了。",
+    id: "bulk-1400", term: "thirsty", phonetic: "/θә:sti/", pos: "adj.", meaningZh: "口渴的；渴望的；干燥的", meaningEn: "needing water", band: "5", collocations: [], example: "He is thirsty.", exampleZh: "他口渴了。",
     senses: [
     {
     pos: "adj.", meaningZh: "口渴的；渴望的；干燥的", meaningEn: "needing water", collocations: [], example: "He is thirsty.", exampleZh: "他口渴了。" }
     ]
   },
   {
-    id: "bulk-1401", term: "this", phonetic: "θis", pos: "pron.", meaningZh: "这个；本", meaningEn: "near me", band: "5", collocations: [], example: "This is mine.", exampleZh: "这是我的。",
+    id: "bulk-1401", term: "this", phonetic: "/θis/", pos: "pron.", meaningZh: "这个；本", meaningEn: "near me", band: "5", collocations: [], example: "This is mine.", exampleZh: "这是我的。",
     senses: [
     {
     pos: "pron.", meaningZh: "这个；本", meaningEn: "near me", collocations: [], example: "This is mine.", exampleZh: "这是我的。" },
@@ -15232,7 +15232,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1402", term: "though", phonetic: "ðәu", pos: "conj.", meaningZh: "尽管；虽然；纵然", meaningEn: "even if", band: "5", collocations: [], example: "We left though it rained.", exampleZh: "虽然下雨我们还是离开了。",
+    id: "bulk-1402", term: "though", phonetic: "/ðәu/", pos: "conj.", meaningZh: "尽管；虽然；纵然", meaningEn: "even if", band: "5", collocations: [], example: "We left though it rained.", exampleZh: "虽然下雨我们还是离开了。",
     senses: [
     {
     pos: "conj.", meaningZh: "尽管；虽然；纵然", meaningEn: "even if", collocations: [], example: "We left though it rained.", exampleZh: "虽然下雨我们还是离开了。" },
@@ -15250,7 +15250,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1404", term: "throat", phonetic: "θrәut", pos: "n.", meaningZh: "喉咙；咽喉；嗓音", meaningEn: "the neck part", band: "5", collocations: [], example: "His throat hurts.", exampleZh: "他的喉咙疼。",
+    id: "bulk-1404", term: "throat", phonetic: "/θrәut/", pos: "n.", meaningZh: "喉咙；咽喉；嗓音", meaningEn: "the neck part", band: "5", collocations: [], example: "His throat hurts.", exampleZh: "他的喉咙疼。",
     senses: [
     {
     pos: "n.", meaningZh: "喉咙；咽喉；嗓音", meaningEn: "the neck part", collocations: [], example: "His throat hurts.", exampleZh: "他的喉咙疼。" },
@@ -15259,7 +15259,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1405", term: "through", phonetic: "θru:", pos: "prep.", meaningZh: "通过；经过；穿过", meaningEn: "by way of", band: "5", collocations: [], example: "We walked through the door.", exampleZh: "我们穿过了门。",
+    id: "bulk-1405", term: "through", phonetic: "/θru:/", pos: "prep.", meaningZh: "通过；经过；穿过", meaningEn: "by way of", band: "5", collocations: [], example: "We walked through the door.", exampleZh: "我们穿过了门。",
     senses: [
     {
     pos: "prep.", meaningZh: "通过；经过；穿过", meaningEn: "by way of", collocations: [], example: "We walked through the door.", exampleZh: "我们穿过了门。" },
@@ -15329,7 +15329,7 @@ const part_5: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1411", term: "tight", phonetic: "tait", pos: "adj.", meaningZh: "紧的；密封的；吝啬的；严厉的", meaningEn: "not loose", band: "5", collocations: [], example: "The lid is tight.", exampleZh: "盖子很紧。",
+    id: "bulk-1411", term: "tight", phonetic: "/tait/", pos: "adj.", meaningZh: "紧的；密封的；吝啬的；严厉的", meaningEn: "not loose", band: "5", collocations: [], example: "The lid is tight.", exampleZh: "盖子很紧。",
     senses: [
     {
     pos: "adj.", meaningZh: "紧的；密封的；吝啬的；严厉的", meaningEn: "not loose", collocations: [], example: "The lid is tight.", exampleZh: "盖子很紧。" },
@@ -15433,7 +15433,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1420", term: "tomato", phonetic: "[tʰə̥ˈmɐːtʰɐʉ]", pos: "n.", meaningZh: "番茄；西红柿", meaningEn: "a red fruit", band: "5", collocations: [], example: "He ate a tomato.", exampleZh: "他吃了一个番茄。",
+    id: "bulk-1420", term: "tomato", phonetic: "/[tʰə̥ˈmɐːtʰɐʉ]/", pos: "n.", meaningZh: "番茄；西红柿", meaningEn: "a red fruit", band: "5", collocations: [], example: "He ate a tomato.", exampleZh: "他吃了一个番茄。",
     senses: [
     {
     pos: "n.", meaningZh: "番茄；西红柿", meaningEn: "a red fruit", collocations: [], example: "He ate a tomato.", exampleZh: "他吃了一个番茄。" },
@@ -15536,7 +15536,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1429", term: "total", phonetic: "'tәutl", pos: "adj.", meaningZh: "总计；全体的；总的；全然的", meaningEn: "whole", band: "5", collocations: [], example: "The total is high.", exampleZh: "总数很高。",
+    id: "bulk-1429", term: "total", phonetic: "/tәutl/", pos: "adj.", meaningZh: "总计；全体的；总的；全然的", meaningEn: "whole", band: "5", collocations: [], example: "The total is high.", exampleZh: "总数很高。",
     senses: [
     {
     pos: "adj.", meaningZh: "总计；全体的；总的；全然的", meaningEn: "whole", collocations: [], example: "The total is high.", exampleZh: "总数很高。" },
@@ -15551,7 +15551,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1430", term: "touch", phonetic: "tʌtʃ", pos: "v.", meaningZh: "触摸", meaningEn: "to feel", band: "5", collocations: [], example: "He touched the wall.", exampleZh: "他摸了墙。",
+    id: "bulk-1430", term: "touch", phonetic: "/tʌtʃ/", pos: "v.", meaningZh: "触摸", meaningEn: "to feel", band: "5", collocations: [], example: "He touched the wall.", exampleZh: "他摸了墙。",
     senses: [
     {
     pos: "v.", meaningZh: "触摸", meaningEn: "to feel", collocations: [], example: "He touched the wall.", exampleZh: "他摸了墙。" },
@@ -15744,7 +15744,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1447", term: "transport", phonetic: "træns'pɒ:t", pos: "v.", meaningZh: "运输", meaningEn: "to carry", band: "5", collocations: [], example: "We transport goods.", exampleZh: "我们运输货物。",
+    id: "bulk-1447", term: "transport", phonetic: "/træns'pɒ:t/", pos: "v.", meaningZh: "运输", meaningEn: "to carry", band: "5", collocations: [], example: "We transport goods.", exampleZh: "我们运输货物。",
     senses: [
     {
     pos: "v.", meaningZh: "运输", meaningEn: "to carry", collocations: [], example: "We transport goods.", exampleZh: "我们运输货物。" },
@@ -15945,7 +15945,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1464", term: "turn", phonetic: "tә:n", pos: "v.", meaningZh: "转动", meaningEn: "to rotate", band: "5", collocations: [], example: "He turned the knob.", exampleZh: "他转动了旋钮。",
+    id: "bulk-1464", term: "turn", phonetic: "/tә:n/", pos: "v.", meaningZh: "转动", meaningEn: "to rotate", band: "5", collocations: [], example: "He turned the knob.", exampleZh: "他转动了旋钮。",
     senses: [
     {
     pos: "v.", meaningZh: "转动", meaningEn: "to rotate", collocations: [], example: "He turned the knob.", exampleZh: "他转动了旋钮。" },
@@ -16136,7 +16136,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1483", term: "use", phonetic: "ju:s", pos: "v.", meaningZh: "使用", meaningEn: "to employ", band: "5", collocations: [], example: "We use the tool.", exampleZh: "我们使用工具。",
+    id: "bulk-1483", term: "use", phonetic: "/ju:s/", pos: "v.", meaningZh: "使用", meaningEn: "to employ", band: "5", collocations: [], example: "We use the tool.", exampleZh: "我们使用工具。",
     senses: [
     {
     pos: "v.", meaningZh: "使用", meaningEn: "to employ", collocations: [], example: "We use the tool.", exampleZh: "我们使用工具。" },
@@ -16165,7 +16165,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1486", term: "utility", phonetic: "ju:'tiliti", pos: "n.", meaningZh: "公用事业；功用；有用之物；实用；实用程序", meaningEn: "a service", band: "5", collocations: [], example: "The utility failed.", exampleZh: "公用事业停了。",
+    id: "bulk-1486", term: "utility", phonetic: "/ju:'tiliti/", pos: "n.", meaningZh: "公用事业；功用；有用之物；实用；实用程序", meaningEn: "a service", band: "5", collocations: [], example: "The utility failed.", exampleZh: "公用事业停了。",
     senses: [
     {
     pos: "n.", meaningZh: "公用事业；功用；有用之物；实用；实用程序", meaningEn: "a service", collocations: [], example: "The utility failed.", exampleZh: "公用事业停了。" },
@@ -16208,7 +16208,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1491", term: "valley", phonetic: "'væli", pos: "n.", meaningZh: "山谷；溪谷；流域；凹地", meaningEn: "a low land", band: "5", collocations: [], example: "The valley is green.", exampleZh: "山谷是绿色的。",
+    id: "bulk-1491", term: "valley", phonetic: "/væli/", pos: "n.", meaningZh: "山谷；溪谷；流域；凹地", meaningEn: "a low land", band: "5", collocations: [], example: "The valley is green.", exampleZh: "山谷是绿色的。",
     senses: [
     {
     pos: "n.", meaningZh: "山谷；溪谷；流域；凹地", meaningEn: "a low land", collocations: [], example: "The valley is green.", exampleZh: "山谷是绿色的。" }
@@ -16226,7 +16226,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1493", term: "vanish", phonetic: "'væniʃ", pos: "v.", meaningZh: "消失", meaningEn: "to disappear", band: "5", collocations: [], example: "The fog vanished.", exampleZh: "雾消散了。",
+    id: "bulk-1493", term: "vanish", phonetic: "/væniʃ/", pos: "v.", meaningZh: "消失", meaningEn: "to disappear", band: "5", collocations: [], example: "The fog vanished.", exampleZh: "雾消散了。",
     senses: [
     {
     pos: "v.", meaningZh: "消失", meaningEn: "to disappear", collocations: [], example: "The fog vanished.", exampleZh: "雾消散了。" },
@@ -16235,7 +16235,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1494", term: "variable", phonetic: "'vєәriәbl", pos: "n.", meaningZh: "变量；易变的事物；变数；可变物", meaningEn: "a factor", band: "5", collocations: [], example: "This is a variable.", exampleZh: "这是一个变量。",
+    id: "bulk-1494", term: "variable", phonetic: "/vєәriәbl/", pos: "n.", meaningZh: "变量；易变的事物；变数；可变物", meaningEn: "a factor", band: "5", collocations: [], example: "This is a variable.", exampleZh: "这是一个变量。",
     senses: [
     {
     pos: "n.", meaningZh: "变量；易变的事物；变数；可变物", meaningEn: "a factor", collocations: [], example: "This is a variable.", exampleZh: "这是一个变量。" },
@@ -16244,28 +16244,28 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1495", term: "variety", phonetic: "vә'raiәti", pos: "n.", meaningZh: "多样；种类；变种；杂耍", meaningEn: "a range", band: "5", collocations: [], example: "We offer variety.", exampleZh: "我们提供多样选择。",
+    id: "bulk-1495", term: "variety", phonetic: "/vә'raiәti/", pos: "n.", meaningZh: "多样；种类；变种；杂耍", meaningEn: "a range", band: "5", collocations: [], example: "We offer variety.", exampleZh: "我们提供多样选择。",
     senses: [
     {
     pos: "n.", meaningZh: "多样；种类；变种；杂耍", meaningEn: "a range", collocations: [], example: "We offer variety.", exampleZh: "我们提供多样选择。" }
     ]
   },
   {
-    id: "bulk-1496", term: "various", phonetic: "'vєәriәs", pos: "adj.", meaningZh: "各种各样的；不同的；各种的；多方面的；许多的；个别的；杂色的；种种的；各式各样的", meaningEn: "many kinds", band: "5", collocations: [], example: "We tried various ways.", exampleZh: "我们尝试了各种方法。",
+    id: "bulk-1496", term: "various", phonetic: "/vєәriәs/", pos: "adj.", meaningZh: "各种各样的；不同的；各种的；多方面的；许多的；个别的；杂色的；种种的；各式各样的", meaningEn: "many kinds", band: "5", collocations: [], example: "We tried various ways.", exampleZh: "我们尝试了各种方法。",
     senses: [
     {
     pos: "adj.", meaningZh: "各种各样的；不同的；各种的；多方面的；许多的；个别的；杂色的；种种的；各式各样的", meaningEn: "many kinds", collocations: [], example: "We tried various ways.", exampleZh: "我们尝试了各种方法。" }
     ]
   },
   {
-    id: "bulk-1497", term: "vast", phonetic: "vɑ:st", pos: "adj.", meaningZh: "广阔的；巨大的；广大的；非常的；大量的", meaningEn: "huge", band: "5", collocations: [], example: "The desert is vast.", exampleZh: "沙漠很广阔。",
+    id: "bulk-1497", term: "vast", phonetic: "/vɑ:st/", pos: "adj.", meaningZh: "广阔的；巨大的；广大的；非常的；大量的", meaningEn: "huge", band: "5", collocations: [], example: "The desert is vast.", exampleZh: "沙漠很广阔。",
     senses: [
     {
     pos: "adj.", meaningZh: "广阔的；巨大的；广大的；非常的；大量的", meaningEn: "huge", collocations: [], example: "The desert is vast.", exampleZh: "沙漠很广阔。" }
     ]
   },
   {
-    id: "bulk-1498", term: "vegetable", phonetic: "'vedʒәtәbl", pos: "n.", meaningZh: "蔬菜；植物；无精打采之人", meaningEn: "a plant food", band: "5", collocations: [], example: "He ate a vegetable.", exampleZh: "他吃了蔬菜。",
+    id: "bulk-1498", term: "vegetable", phonetic: "/vedʒәtәbl/", pos: "n.", meaningZh: "蔬菜；植物；无精打采之人", meaningEn: "a plant food", band: "5", collocations: [], example: "He ate a vegetable.", exampleZh: "他吃了蔬菜。",
     senses: [
     {
     pos: "n.", meaningZh: "蔬菜；植物；无精打采之人", meaningEn: "a plant food", collocations: [], example: "He ate a vegetable.", exampleZh: "他吃了蔬菜。" },
@@ -16312,7 +16312,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1503", term: "veteran", phonetic: "[ˈvɛ.t̬ə.ɹən]", pos: "n.", meaningZh: "老兵；老手；退伍军人；老树", meaningEn: "an old soldier", band: "5", collocations: [], example: "The veteran smiled.", exampleZh: "老兵笑了。",
+    id: "bulk-1503", term: "veteran", phonetic: "/[ˈvɛ.t̬ə.ɹən]/", pos: "n.", meaningZh: "老兵；老手；退伍军人；老树", meaningEn: "an old soldier", band: "5", collocations: [], example: "The veteran smiled.", exampleZh: "老兵笑了。",
     senses: [
     {
     pos: "n.", meaningZh: "老兵；老手；退伍军人；老树", meaningEn: "an old soldier", collocations: [], example: "The veteran smiled.", exampleZh: "老兵笑了。" },
@@ -16737,21 +16737,21 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1540", term: "wedding", phonetic: "'wediŋ", pos: "n.", meaningZh: "婚礼；结婚；结婚周年纪念日；结合；结婚纪念日", meaningEn: "a marriage", band: "5", collocations: [], example: "The wedding was lovely.", exampleZh: "婚礼很美好。",
+    id: "bulk-1540", term: "wedding", phonetic: "/wediŋ/", pos: "n.", meaningZh: "婚礼；结婚；结婚周年纪念日；结合；结婚纪念日", meaningEn: "a marriage", band: "5", collocations: [], example: "The wedding was lovely.", exampleZh: "婚礼很美好。",
     senses: [
     {
     pos: "n.", meaningZh: "婚礼；结婚；结婚周年纪念日；结合；结婚纪念日", meaningEn: "a marriage", collocations: [], example: "The wedding was lovely.", exampleZh: "婚礼很美好。" }
     ]
   },
   {
-    id: "bulk-1541", term: "week", phonetic: "wi:k", pos: "n.", meaningZh: "周；星期", meaningEn: "seven days", band: "5", collocations: [], example: "The week passed.", exampleZh: "一周过去了。",
+    id: "bulk-1541", term: "week", phonetic: "/wi:k/", pos: "n.", meaningZh: "周；星期", meaningEn: "seven days", band: "5", collocations: [], example: "The week passed.", exampleZh: "一周过去了。",
     senses: [
     {
     pos: "n.", meaningZh: "周；星期", meaningEn: "seven days", collocations: [], example: "The week passed.", exampleZh: "一周过去了。" }
     ]
   },
   {
-    id: "bulk-1542", term: "weigh", phonetic: "wei", pos: "v.", meaningZh: "称重", meaningEn: "to measure", band: "5", collocations: [], example: "He weighed the bag.", exampleZh: "他称了包。",
+    id: "bulk-1542", term: "weigh", phonetic: "/wei/", pos: "v.", meaningZh: "称重", meaningEn: "to measure", band: "5", collocations: [], example: "He weighed the bag.", exampleZh: "他称了包。",
     senses: [
     {
     pos: "v.", meaningZh: "称重", meaningEn: "to measure", collocations: [], example: "He weighed the bag.", exampleZh: "他称了包。" },
@@ -16764,7 +16764,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1543", term: "weight", phonetic: "weit", pos: "n.", meaningZh: "重量；体重；砝码；重大；影响；力量", meaningEn: "heaviness", band: "5", collocations: [], example: "The weight is high.", exampleZh: "重量很大。",
+    id: "bulk-1543", term: "weight", phonetic: "/weit/", pos: "n.", meaningZh: "重量；体重；砝码；重大；影响；力量", meaningEn: "heaviness", band: "5", collocations: [], example: "The weight is high.", exampleZh: "重量很大。",
     senses: [
     {
     pos: "n.", meaningZh: "重量；体重；砝码；重大；影响；力量", meaningEn: "heaviness", collocations: [], example: "The weight is high.", exampleZh: "重量很大。" },
@@ -16773,7 +16773,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1544", term: "welcome", phonetic: "'welkәm", pos: "v.", meaningZh: "欢迎", meaningEn: "to greet", band: "5", collocations: [], example: "We welcome you.", exampleZh: "我们欢迎你。",
+    id: "bulk-1544", term: "welcome", phonetic: "/welkәm/", pos: "v.", meaningZh: "欢迎", meaningEn: "to greet", band: "5", collocations: [], example: "We welcome you.", exampleZh: "我们欢迎你。",
     senses: [
     {
     pos: "v.", meaningZh: "欢迎", meaningEn: "to greet", collocations: [], example: "We welcome you.", exampleZh: "我们欢迎你。" },
@@ -17042,7 +17042,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1567", term: "wine", phonetic: "wain", pos: "n.", meaningZh: "酒；葡萄酒；果酒；暗红色", meaningEn: "a drink", band: "5", collocations: [], example: "He drank wine.", exampleZh: "他喝了酒。",
+    id: "bulk-1567", term: "wine", phonetic: "/wain/", pos: "n.", meaningZh: "酒；葡萄酒；果酒；暗红色", meaningEn: "a drink", band: "5", collocations: [], example: "He drank wine.", exampleZh: "他喝了酒。",
     senses: [
     {
     pos: "n.", meaningZh: "酒；葡萄酒；果酒；暗红色", meaningEn: "a drink", collocations: [], example: "He drank wine.", exampleZh: "他喝了酒。" },
@@ -17051,7 +17051,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1568", term: "wing", phonetic: "wiŋ", pos: "n.", meaningZh: "翅膀；翼；机翼；派别", meaningEn: "a fly part", band: "5", collocations: [], example: "The wing broke.", exampleZh: "翅膀断了。",
+    id: "bulk-1568", term: "wing", phonetic: "/wiŋ/", pos: "n.", meaningZh: "翅膀；翼；机翼；派别", meaningEn: "a fly part", band: "5", collocations: [], example: "The wing broke.", exampleZh: "翅膀断了。",
     senses: [
     {
     pos: "n.", meaningZh: "翅膀；翼；机翼；派别", meaningEn: "a fly part", collocations: [], example: "The wing broke.", exampleZh: "翅膀断了。" },
@@ -17062,7 +17062,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1569", term: "winter", phonetic: "'wintә", pos: "n.", meaningZh: "冬天；冬季；萧条期；衰退期", meaningEn: "the cold season", band: "5", collocations: [], example: "Winter is cold.", exampleZh: "冬天很冷。",
+    id: "bulk-1569", term: "winter", phonetic: "/wintә/", pos: "n.", meaningZh: "冬天；冬季；萧条期；衰退期", meaningEn: "the cold season", band: "5", collocations: [], example: "Winter is cold.", exampleZh: "冬天很冷。",
     senses: [
     {
     pos: "n.", meaningZh: "冬天；冬季；萧条期；衰退期", meaningEn: "the cold season", collocations: [], example: "Winter is cold.", exampleZh: "冬天很冷。" },
@@ -17075,7 +17075,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1570", term: "wire", phonetic: "'waiә", pos: "n.", meaningZh: "电线；电报；电信；铁丝网；金属丝", meaningEn: "a cord", band: "5", collocations: [], example: "The wire is live.", exampleZh: "电线带电。",
+    id: "bulk-1570", term: "wire", phonetic: "/waiә/", pos: "n.", meaningZh: "电线；电报；电信；铁丝网；金属丝", meaningEn: "a cord", band: "5", collocations: [], example: "The wire is live.", exampleZh: "电线带电。",
     senses: [
     {
     pos: "n.", meaningZh: "电线；电报；电信；铁丝网；金属丝", meaningEn: "a cord", collocations: [], example: "The wire is live.", exampleZh: "电线带电。" },
@@ -17086,7 +17086,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1571", term: "wise", phonetic: "waiz", pos: "adj.", meaningZh: "明智的；慎虑的；聪明的；博学的；狡猾的；机灵的", meaningEn: "smart", band: "5", collocations: [], example: "The choice is wise.", exampleZh: "选择很明智。",
+    id: "bulk-1571", term: "wise", phonetic: "/waiz/", pos: "adj.", meaningZh: "明智的；慎虑的；聪明的；博学的；狡猾的；机灵的", meaningEn: "smart", band: "5", collocations: [], example: "The choice is wise.", exampleZh: "选择很明智。",
     senses: [
     {
     pos: "adj.", meaningZh: "明智的；慎虑的；聪明的；博学的；狡猾的；机灵的", meaningEn: "smart", collocations: [], example: "The choice is wise.", exampleZh: "选择很明智。" },
@@ -17099,7 +17099,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1572", term: "wish", phonetic: "wiʃ", pos: "v.", meaningZh: "希望", meaningEn: "to want", band: "5", collocations: [], example: "We wish you well.", exampleZh: "我们祝你好。",
+    id: "bulk-1572", term: "wish", phonetic: "/wiʃ/", pos: "v.", meaningZh: "希望", meaningEn: "to want", band: "5", collocations: [], example: "We wish you well.", exampleZh: "我们祝你好。",
     senses: [
     {
     pos: "v.", meaningZh: "希望", meaningEn: "to want", collocations: [], example: "We wish you well.", exampleZh: "我们祝你好。" },
@@ -17112,14 +17112,14 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1573", term: "with", phonetic: "wið", pos: "prep.", meaningZh: "和；和...在一起；以；由于", meaningEn: "along", band: "5", collocations: [], example: "He came with us.", exampleZh: "他和我们一起来。",
+    id: "bulk-1573", term: "with", phonetic: "/wið/", pos: "prep.", meaningZh: "和；和...在一起；以；由于", meaningEn: "along", band: "5", collocations: [], example: "He came with us.", exampleZh: "他和我们一起来。",
     senses: [
     {
     pos: "prep.", meaningZh: "和；和...在一起；以；由于", meaningEn: "along", collocations: [], example: "He came with us.", exampleZh: "他和我们一起来。" }
     ]
   },
   {
-    id: "bulk-1574", term: "withdraw", phonetic: "wið'drɒ:", pos: "v.", meaningZh: "撤回", meaningEn: "to pull back", band: "5", collocations: [], example: "We withdraw the claim.", exampleZh: "我们撤回了主张。",
+    id: "bulk-1574", term: "withdraw", phonetic: "/wið'drɒ:/", pos: "v.", meaningZh: "撤回", meaningEn: "to pull back", band: "5", collocations: [], example: "We withdraw the claim.", exampleZh: "我们撤回了主张。",
     senses: [
     {
     pos: "v.", meaningZh: "撤回", meaningEn: "to pull back", collocations: [], example: "We withdraw the claim.", exampleZh: "我们撤回了主张。" },
@@ -17464,14 +17464,14 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1603", term: "accelerate", phonetic: "әk'selәreit", pos: "v.", meaningZh: "加速；促进", meaningEn: "to speed up", band: "6", collocations: [], example: "The car accelerated quickly.", exampleZh: "汽车迅速加速。",
+    id: "bulk-1603", term: "accelerate", phonetic: "/әk'selәreit/", pos: "v.", meaningZh: "加速；促进", meaningEn: "to speed up", band: "6", collocations: [], example: "The car accelerated quickly.", exampleZh: "汽车迅速加速。",
     senses: [
     {
     pos: "v.", meaningZh: "加速；促进", meaningEn: "to speed up", collocations: [], example: "The car accelerated quickly.", exampleZh: "汽车迅速加速。" }
     ]
   },
   {
-    id: "bulk-1604", term: "accommodate", phonetic: "ә'kɒmәdeit", pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", band: "6", collocations: [], example: "The hotel can accommodate 200 guests.", exampleZh: "这家酒店可容纳200位客人。",
+    id: "bulk-1604", term: "accommodate", phonetic: "/ә'kɒmәdeit/", pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", band: "6", collocations: [], example: "The hotel can accommodate 200 guests.", exampleZh: "这家酒店可容纳200位客人。",
     senses: [
     {
     pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", collocations: [], example: "The hotel can accommodate 200 guests.", exampleZh: "这家酒店可容纳200位客人。" },
@@ -17482,28 +17482,28 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1605", term: "accurate", phonetic: "'ækjurәt", pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "exact", band: "6", collocations: [], example: "The data is accurate.", exampleZh: "这些数据是准确的。",
+    id: "bulk-1605", term: "accurate", phonetic: "/ækjurәt/", pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "exact", band: "6", collocations: [], example: "The data is accurate.", exampleZh: "这些数据是准确的。",
     senses: [
     {
     pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "exact", collocations: [], example: "The data is accurate.", exampleZh: "这些数据是准确的。" }
     ]
   },
   {
-    id: "bulk-1606", term: "achievement", phonetic: "ә'tʃi:vmәnt", pos: "n.", meaningZh: "成就；完成；功业", meaningEn: "something achieved", band: "6", collocations: [], example: "Winning the prize was a great achievement.", exampleZh: "获奖是一项了不起的成就。",
+    id: "bulk-1606", term: "achievement", phonetic: "/ә'tʃi:vmәnt/", pos: "n.", meaningZh: "成就；完成；功业", meaningEn: "something achieved", band: "6", collocations: [], example: "Winning the prize was a great achievement.", exampleZh: "获奖是一项了不起的成就。",
     senses: [
     {
     pos: "n.", meaningZh: "成就；完成；功业", meaningEn: "something achieved", collocations: [], example: "Winning the prize was a great achievement.", exampleZh: "获奖是一项了不起的成就。" }
     ]
   },
   {
-    id: "bulk-1607", term: "acquisition", phonetic: ".ækwi'ziʃәn", pos: "n.", meaningZh: "获得；获得物；收购；招揽；取得", meaningEn: "act of gaining", band: "6", collocations: [], example: "The acquisition of skills takes time.", exampleZh: "技能的习得需要时间。",
+    id: "bulk-1607", term: "acquisition", phonetic: "/.ækwi'ziʃәn/", pos: "n.", meaningZh: "获得；获得物；收购；招揽；取得", meaningEn: "act of gaining", band: "6", collocations: [], example: "The acquisition of skills takes time.", exampleZh: "技能的习得需要时间。",
     senses: [
     {
     pos: "n.", meaningZh: "获得；获得物；收购；招揽；取得", meaningEn: "act of gaining", collocations: [], example: "The acquisition of skills takes time.", exampleZh: "技能的习得需要时间。" }
     ]
   },
   {
-    id: "bulk-1608", term: "administrative", phonetic: "әd'ministrәtiv", pos: "adj.", meaningZh: "行政的；管理的；遗产管理的", meaningEn: "of management", band: "6", collocations: [], example: "She works in an administrative role.", exampleZh: "她从事行政工作。",
+    id: "bulk-1608", term: "administrative", phonetic: "/әd'ministrәtiv/", pos: "adj.", meaningZh: "行政的；管理的；遗产管理的", meaningEn: "of management", band: "6", collocations: [], example: "She works in an administrative role.", exampleZh: "她从事行政工作。",
     senses: [
     {
     pos: "adj.", meaningZh: "行政的；管理的；遗产管理的", meaningEn: "of management", collocations: [], example: "She works in an administrative role.", exampleZh: "她从事行政工作。" }
@@ -17528,7 +17528,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1611", term: "aggregate", phonetic: "'ægrigәt", pos: "n.", meaningZh: "总计；合计；聚集体", meaningEn: "total amount", band: "6", collocations: [], example: "The aggregate of votes was clear.", exampleZh: "选票总数一目了然。",
+    id: "bulk-1611", term: "aggregate", phonetic: "/ægrigәt/", pos: "n.", meaningZh: "总计；合计；聚集体", meaningEn: "total amount", band: "6", collocations: [], example: "The aggregate of votes was clear.", exampleZh: "选票总数一目了然。",
     senses: [
     {
     pos: "n.", meaningZh: "总计；合计；聚集体", meaningEn: "total amount", collocations: [], example: "The aggregate of votes was clear.", exampleZh: "选票总数一目了然。" },
@@ -17627,7 +17627,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1622", term: "assessment", phonetic: "ә'sesmәnt", pos: "n.", meaningZh: "评估；估定；评定的款额", meaningEn: "evaluation", band: "6", collocations: [], example: "The risk assessment is done.", exampleZh: "风险评估已完成。",
+    id: "bulk-1622", term: "assessment", phonetic: "/ә'sesmәnt/", pos: "n.", meaningZh: "评估；估定；评定的款额", meaningEn: "evaluation", band: "6", collocations: [], example: "The risk assessment is done.", exampleZh: "风险评估已完成。",
     senses: [
     {
     pos: "n.", meaningZh: "评估；估定；评定的款额", meaningEn: "evaluation", collocations: [], example: "The risk assessment is done.", exampleZh: "风险评估已完成。" }
@@ -17641,7 +17641,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1624", term: "attribute", phonetic: "ә'tribju:t", pos: "v.", meaningZh: "归因", meaningEn: "to credit to", band: "6", collocations: [], example: "We attribute success to hard work.", exampleZh: "我们把成功归功于努力。",
+    id: "bulk-1624", term: "attribute", phonetic: "/ә'tribju:t/", pos: "v.", meaningZh: "归因", meaningEn: "to credit to", band: "6", collocations: [], example: "We attribute success to hard work.", exampleZh: "我们把成功归功于努力。",
     senses: [
     {
     pos: "v.", meaningZh: "归因", meaningEn: "to credit to", collocations: [], example: "We attribute success to hard work.", exampleZh: "我们把成功归功于努力。" },
@@ -17672,7 +17672,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1627", term: "autonomous", phonetic: "ɒ:'tɒnәmәs", pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", band: "6", collocations: [], example: "The robot is autonomous.", exampleZh: "这个机器人是自主的。",
+    id: "bulk-1627", term: "autonomous", phonetic: "/ɒ:'tɒnәmәs/", pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", band: "6", collocations: [], example: "The robot is autonomous.", exampleZh: "这个机器人是自主的。",
     senses: [
     {
     pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", collocations: [], example: "The robot is autonomous.", exampleZh: "这个机器人是自主的。" }
@@ -17686,7 +17686,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1629", term: "behalf", phonetic: "bi'hɑ:f", pos: "n.", meaningZh: "代表；利益；方面", meaningEn: "side or interest", band: "6", collocations: [], example: "He spoke on my behalf.", exampleZh: "他代表我发言。",
+    id: "bulk-1629", term: "behalf", phonetic: "/bi'hɑ:f/", pos: "n.", meaningZh: "代表；利益；方面", meaningEn: "side or interest", band: "6", collocations: [], example: "He spoke on my behalf.", exampleZh: "他代表我发言。",
     senses: [
     {
     pos: "n.", meaningZh: "代表；利益；方面", meaningEn: "side or interest", collocations: [], example: "He spoke on my behalf.", exampleZh: "他代表我发言。" }
@@ -17760,7 +17760,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1637", term: "calibrate", phonetic: "'kælibreit", pos: "v.", meaningZh: "校准", meaningEn: "to adjust precisely", band: "6", collocations: [], example: "We calibrate the machine weekly.", exampleZh: "我们每周校准这台机器。",
+    id: "bulk-1637", term: "calibrate", phonetic: "/kælibreit/", pos: "v.", meaningZh: "校准", meaningEn: "to adjust precisely", band: "6", collocations: [], example: "We calibrate the machine weekly.", exampleZh: "我们每周校准这台机器。",
     senses: [
     {
     pos: "v.", meaningZh: "校准", meaningEn: "to adjust precisely", collocations: [], example: "We calibrate the machine weekly.", exampleZh: "我们每周校准这台机器。" },
@@ -17785,7 +17785,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1640", term: "cite", phonetic: "sait", pos: "v.", meaningZh: "引用", meaningEn: "to quote", band: "6", collocations: [], example: "She cited a famous line.", exampleZh: "她引用了一句名言。",
+    id: "bulk-1640", term: "cite", phonetic: "/sait/", pos: "v.", meaningZh: "引用", meaningEn: "to quote", band: "6", collocations: [], example: "She cited a famous line.", exampleZh: "她引用了一句名言。",
     senses: [
     {
     pos: "v.", meaningZh: "引用", meaningEn: "to quote", collocations: [], example: "She cited a famous line.", exampleZh: "她引用了一句名言。" },
@@ -17794,7 +17794,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1641", term: "civilization", phonetic: "[ˌsɪv.ə.lɑeˈzæɪ.ʃən]", pos: "n.", meaningZh: "文明；教化；文化；文明国家的总称", meaningEn: "advanced society", band: "6", collocations: [], example: "This civilization was ancient.", exampleZh: "这个文明十分古老。",
+    id: "bulk-1641", term: "civilization", phonetic: "/[ˌsɪv.ə.lɑeˈzæɪ.ʃən]/", pos: "n.", meaningZh: "文明；教化；文化；文明国家的总称", meaningEn: "advanced society", band: "6", collocations: [], example: "This civilization was ancient.", exampleZh: "这个文明十分古老。",
     senses: [
     {
     pos: "n.", meaningZh: "文明；教化；文化；文明国家的总称", meaningEn: "advanced society", collocations: [], example: "This civilization was ancient.", exampleZh: "这个文明十分古老。" },
@@ -17951,7 +17951,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1658", term: "concurrent", phonetic: "kәn'kʌrәnt", pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", band: "6", collocations: [], example: "Two concurrent events occurred.", exampleZh: "两个事件同时发生。",
+    id: "bulk-1658", term: "concurrent", phonetic: "/kәn'kʌrәnt/", pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", band: "6", collocations: [], example: "Two concurrent events occurred.", exampleZh: "两个事件同时发生。",
     senses: [
     {
     pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", collocations: [], example: "Two concurrent events occurred.", exampleZh: "两个事件同时发生。" },
@@ -17973,7 +17973,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1660", term: "confine", phonetic: "kәn'fain", pos: "v.", meaningZh: "限制", meaningEn: "to restrict", band: "6", collocations: [], example: "Please confine your talk to ten minutes.", exampleZh: "请把发言限制在十分钟内。",
+    id: "bulk-1660", term: "confine", phonetic: "/kәn'fain/", pos: "v.", meaningZh: "限制", meaningEn: "to restrict", band: "6", collocations: [], example: "Please confine your talk to ten minutes.", exampleZh: "请把发言限制在十分钟内。",
     senses: [
     {
     pos: "v.", meaningZh: "限制", meaningEn: "to restrict", collocations: [], example: "Please confine your talk to ten minutes.", exampleZh: "请把发言限制在十分钟内。" },
@@ -17986,7 +17986,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1661", term: "confirm", phonetic: "kәn'fә:m", pos: "v.", meaningZh: "确认", meaningEn: "to verify", band: "6", collocations: [], example: "Please confirm your order.", exampleZh: "请确认你的订单。",
+    id: "bulk-1661", term: "confirm", phonetic: "/kәn'fә:m/", pos: "v.", meaningZh: "确认", meaningEn: "to verify", band: "6", collocations: [], example: "Please confirm your order.", exampleZh: "请确认你的订单。",
     senses: [
     {
     pos: "v.", meaningZh: "确认", meaningEn: "to verify", collocations: [], example: "Please confirm your order.", exampleZh: "请确认你的订单。" },
@@ -18022,7 +18022,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1665", term: "consensus", phonetic: "kәn'sensәs", pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", band: "6", collocations: [], example: "They reached a consensus.", exampleZh: "他们达成了共识。",
+    id: "bulk-1665", term: "consensus", phonetic: "/kәn'sensәs/", pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", band: "6", collocations: [], example: "They reached a consensus.", exampleZh: "他们达成了共识。",
     senses: [
     {
     pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", collocations: [], example: "They reached a consensus.", exampleZh: "他们达成了共识。" }
@@ -18038,7 +18038,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1667", term: "conserve", phonetic: "kәn'sә:v", pos: "v.", meaningZh: "保护", meaningEn: "to protect", band: "6", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。",
+    id: "bulk-1667", term: "conserve", phonetic: "/kәn'sә:v/", pos: "v.", meaningZh: "保护", meaningEn: "to protect", band: "6", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。",
     senses: [
     {
     pos: "v.", meaningZh: "保护", meaningEn: "to protect", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。" },
@@ -18089,7 +18089,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1672", term: "contextual", phonetic: "kɒn'tekstjuәl", pos: "adj.", meaningZh: "语境的；上下文的；前后关系的", meaningEn: "of context", band: "6", collocations: [], example: "The meaning is contextual.", exampleZh: "这个含义是依语境而定的。",
+    id: "bulk-1672", term: "contextual", phonetic: "/kɒn'tekstjuәl/", pos: "adj.", meaningZh: "语境的；上下文的；前后关系的", meaningEn: "of context", band: "6", collocations: [], example: "The meaning is contextual.", exampleZh: "这个含义是依语境而定的。",
     senses: [
     {
     pos: "adj.", meaningZh: "语境的；上下文的；前后关系的", meaningEn: "of context", collocations: [], example: "The meaning is contextual.", exampleZh: "这个含义是依语境而定的。" }
@@ -18201,7 +18201,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1684", term: "deduce", phonetic: "di'dju:s", pos: "v.", meaningZh: "推断", meaningEn: "to conclude", band: "6", collocations: [], example: "We deduce the cause from the clues.", exampleZh: "我们从线索推断出原因。",
+    id: "bulk-1684", term: "deduce", phonetic: "/di'dju:s/", pos: "v.", meaningZh: "推断", meaningEn: "to conclude", band: "6", collocations: [], example: "We deduce the cause from the clues.", exampleZh: "我们从线索推断出原因。",
     senses: [
     {
     pos: "v.", meaningZh: "推断", meaningEn: "to conclude", collocations: [], example: "We deduce the cause from the clues.", exampleZh: "我们从线索推断出原因。" },
@@ -18217,7 +18217,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1686", term: "delegate", phonetic: "'deligeit", pos: "v.", meaningZh: "委派", meaningEn: "to assign", band: "6", collocations: [], example: "We delegate the task to her.", exampleZh: "我们把任务委派给她。",
+    id: "bulk-1686", term: "delegate", phonetic: "/deligeit/", pos: "v.", meaningZh: "委派", meaningEn: "to assign", band: "6", collocations: [], example: "We delegate the task to her.", exampleZh: "我们把任务委派给她。",
     senses: [
     {
     pos: "v.", meaningZh: "委派", meaningEn: "to assign", collocations: [], example: "We delegate the task to her.", exampleZh: "我们把任务委派给她。" },
@@ -18228,7 +18228,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1687", term: "deliberate", phonetic: "di'libәrәt", pos: "adj.", meaningZh: "故意的；深思熟虑的；从容的", meaningEn: "intentional", band: "6", collocations: [], example: "It was a deliberate act.", exampleZh: "那是故意的行为。",
+    id: "bulk-1687", term: "deliberate", phonetic: "/di'libәrәt/", pos: "adj.", meaningZh: "故意的；深思熟虑的；从容的", meaningEn: "intentional", band: "6", collocations: [], example: "It was a deliberate act.", exampleZh: "那是故意的行为。",
     senses: [
     {
     pos: "adj.", meaningZh: "故意的；深思熟虑的；从容的", meaningEn: "intentional", collocations: [], example: "It was a deliberate act.", exampleZh: "那是故意的行为。" },
@@ -18335,7 +18335,7 @@ const part_6: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1698", term: "discern", phonetic: "di'zә:n", pos: "v.", meaningZh: "辨别；看清楚；了解", meaningEn: "to perceive", band: "6", collocations: [], example: "We discern a clear pattern.", exampleZh: "我们辨别出一种清晰的模式。",
+    id: "bulk-1698", term: "discern", phonetic: "/di'zә:n/", pos: "v.", meaningZh: "辨别；看清楚；了解", meaningEn: "to perceive", band: "6", collocations: [], example: "We discern a clear pattern.", exampleZh: "我们辨别出一种清晰的模式。",
     senses: [
     {
     pos: "v.", meaningZh: "辨别；看清楚；了解", meaningEn: "to perceive", collocations: [], example: "We discern a clear pattern.", exampleZh: "我们辨别出一种清晰的模式。" }
@@ -18470,14 +18470,14 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1712", term: "ecosystem", phonetic: "'i:kәu.sistәm", pos: "n.", meaningZh: "生态系统", meaningEn: "life system", band: "6", collocations: [], example: "The forest ecosystem is rich.", exampleZh: "森林生态系统很丰富。",
+    id: "bulk-1712", term: "ecosystem", phonetic: "/i:kәu.sistәm/", pos: "n.", meaningZh: "生态系统", meaningEn: "life system", band: "6", collocations: [], example: "The forest ecosystem is rich.", exampleZh: "森林生态系统很丰富。",
     senses: [
     {
     pos: "n.", meaningZh: "生态系统", meaningEn: "life system", collocations: [], example: "The forest ecosystem is rich.", exampleZh: "森林生态系统很丰富。" }
     ]
   },
   {
-    id: "bulk-1713", term: "elaborate", phonetic: "i'læbәreit", pos: "adj.", meaningZh: "详尽的；精细的；精心计划(或制作)的", meaningEn: "detailed", band: "6", collocations: [], example: "She gave an elaborate plan.", exampleZh: "她给出了详尽的计划。",
+    id: "bulk-1713", term: "elaborate", phonetic: "/i'læbәreit/", pos: "adj.", meaningZh: "详尽的；精细的；精心计划(或制作)的", meaningEn: "detailed", band: "6", collocations: [], example: "She gave an elaborate plan.", exampleZh: "她给出了详尽的计划。",
     senses: [
     {
     pos: "adj.", meaningZh: "详尽的；精细的；精心计划(或制作)的", meaningEn: "detailed", collocations: [], example: "She gave an elaborate plan.", exampleZh: "她给出了详尽的计划。" },
@@ -18497,7 +18497,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1715", term: "embody", phonetic: "im'bɒdi", pos: "v.", meaningZh: "体现", meaningEn: "to represent", band: "6", collocations: [], example: "The law embodies fairness.", exampleZh: "这部法律体现了公平。",
+    id: "bulk-1715", term: "embody", phonetic: "/im'bɒdi/", pos: "v.", meaningZh: "体现", meaningEn: "to represent", band: "6", collocations: [], example: "The law embodies fairness.", exampleZh: "这部法律体现了公平。",
     senses: [
     {
     pos: "v.", meaningZh: "体现", meaningEn: "to represent", collocations: [], example: "The law embodies fairness.", exampleZh: "这部法律体现了公平。" },
@@ -18506,14 +18506,14 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1716", term: "empathy", phonetic: "'empæθik", pos: "n.", meaningZh: "共情；移情作用；共鸣；神入", meaningEn: "understanding", band: "6", collocations: [], example: "She showed real empathy.", exampleZh: "她表现出真正的共情。",
+    id: "bulk-1716", term: "empathy", phonetic: "/empæθik/", pos: "n.", meaningZh: "共情；移情作用；共鸣；神入", meaningEn: "understanding", band: "6", collocations: [], example: "She showed real empathy.", exampleZh: "她表现出真正的共情。",
     senses: [
     {
     pos: "n.", meaningZh: "共情；移情作用；共鸣；神入", meaningEn: "understanding", collocations: [], example: "She showed real empathy.", exampleZh: "她表现出真正的共情。" }
     ]
   },
   {
-    id: "bulk-1717", term: "encompass", phonetic: "in'kʌmpәs", pos: "v.", meaningZh: "包含", meaningEn: "to include", band: "6", collocations: [], example: "The plan encompasses all teams.", exampleZh: "计划涵盖所有团队。",
+    id: "bulk-1717", term: "encompass", phonetic: "/in'kʌmpәs/", pos: "v.", meaningZh: "包含", meaningEn: "to include", band: "6", collocations: [], example: "The plan encompasses all teams.", exampleZh: "计划涵盖所有团队。",
     senses: [
     {
     pos: "v.", meaningZh: "包含", meaningEn: "to include", collocations: [], example: "The plan encompasses all teams.", exampleZh: "计划涵盖所有团队。" },
@@ -18522,7 +18522,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1718", term: "endeavor", phonetic: "in'devә", pos: "n.", meaningZh: "努力；尽力", meaningEn: "an effort", band: "6", collocations: [], example: "It was a noble endeavor.", exampleZh: "那是一项高尚的努力。",
+    id: "bulk-1718", term: "endeavor", phonetic: "/in'devә/", pos: "n.", meaningZh: "努力；尽力", meaningEn: "an effort", band: "6", collocations: [], example: "It was a noble endeavor.", exampleZh: "那是一项高尚的努力。",
     senses: [
     {
     pos: "n.", meaningZh: "努力；尽力", meaningEn: "an effort", collocations: [], example: "It was a noble endeavor.", exampleZh: "那是一项高尚的努力。" },
@@ -18531,7 +18531,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1719", term: "enhance", phonetic: "in'hæns", pos: "v.", meaningZh: "增强", meaningEn: "to improve", band: "6", collocations: [], example: "We enhance the product weekly.", exampleZh: "我们每周改进产品。",
+    id: "bulk-1719", term: "enhance", phonetic: "/in'hæns/", pos: "v.", meaningZh: "增强", meaningEn: "to improve", band: "6", collocations: [], example: "We enhance the product weekly.", exampleZh: "我们每周改进产品。",
     senses: [
     {
     pos: "v.", meaningZh: "增强", meaningEn: "to improve", collocations: [], example: "We enhance the product weekly.", exampleZh: "我们每周改进产品。" },
@@ -18540,7 +18540,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1720", term: "envisage", phonetic: "in'vizidʒ", pos: "v.", meaningZh: "设想", meaningEn: "to imagine", band: "6", collocations: [], example: "We envisage a bright future.", exampleZh: "我们设想一个光明的未来。",
+    id: "bulk-1720", term: "envisage", phonetic: "/in'vizidʒ/", pos: "v.", meaningZh: "设想", meaningEn: "to imagine", band: "6", collocations: [], example: "We envisage a bright future.", exampleZh: "我们设想一个光明的未来。",
     senses: [
     {
     pos: "v.", meaningZh: "设想", meaningEn: "to imagine", collocations: [], example: "We envisage a bright future.", exampleZh: "我们设想一个光明的未来。" },
@@ -18563,7 +18563,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1723", term: "essence", phonetic: "'esns", pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "core nature", band: "6", collocations: [], example: "The essence is simple.", exampleZh: "本质很简单。",
+    id: "bulk-1723", term: "essence", phonetic: "/esns/", pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "core nature", band: "6", collocations: [], example: "The essence is simple.", exampleZh: "本质很简单。",
     senses: [
     {
     pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "core nature", collocations: [], example: "The essence is simple.", exampleZh: "本质很简单。" }
@@ -18579,7 +18579,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1725", term: "evolve", phonetic: "i'vɒlv", pos: "v.", meaningZh: "进化", meaningEn: "to develop", band: "6", collocations: [], example: "The species evolved slowly.", exampleZh: "这个物种缓慢进化。",
+    id: "bulk-1725", term: "evolve", phonetic: "/i'vɒlv/", pos: "v.", meaningZh: "进化", meaningEn: "to develop", band: "6", collocations: [], example: "The species evolved slowly.", exampleZh: "这个物种缓慢进化。",
     senses: [
     {
     pos: "v.", meaningZh: "进化", meaningEn: "to develop", collocations: [], example: "The species evolved slowly.", exampleZh: "这个物种缓慢进化。" },
@@ -18590,7 +18590,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1726", term: "exceed", phonetic: "ik'si:d", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "6", collocations: [], example: "Sales exceed our goal.", exampleZh: "销量超过了我们的目标。",
+    id: "bulk-1726", term: "exceed", phonetic: "/ik'si:d/", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "6", collocations: [], example: "Sales exceed our goal.", exampleZh: "销量超过了我们的目标。",
     senses: [
     {
     pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", collocations: [], example: "Sales exceed our goal.", exampleZh: "销量超过了我们的目标。" },
@@ -18617,7 +18617,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1729", term: "exploit", phonetic: "'eksplɒit", pos: "v.", meaningZh: "开发；剥削", meaningEn: "to use or abuse", band: "6", collocations: [], example: "They exploit the resource wisely.", exampleZh: "他们合理地开发这种资源。",
+    id: "bulk-1729", term: "exploit", phonetic: "/eksplɒit/", pos: "v.", meaningZh: "开发；剥削", meaningEn: "to use or abuse", band: "6", collocations: [], example: "They exploit the resource wisely.", exampleZh: "他们合理地开发这种资源。",
     senses: [
     {
     pos: "v.", meaningZh: "开发；剥削", meaningEn: "to use or abuse", collocations: [], example: "They exploit the resource wisely.", exampleZh: "他们合理地开发这种资源。" },
@@ -18628,7 +18628,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1730", term: "extract", phonetic: "ik'strækt", pos: "v.", meaningZh: "提取", meaningEn: "to pull out", band: "6", collocations: [], example: "We extract the data from logs.", exampleZh: "我们从日志中提取数据。",
+    id: "bulk-1730", term: "extract", phonetic: "/ik'strækt/", pos: "v.", meaningZh: "提取", meaningEn: "to pull out", band: "6", collocations: [], example: "We extract the data from logs.", exampleZh: "我们从日志中提取数据。",
     senses: [
     {
     pos: "v.", meaningZh: "提取", meaningEn: "to pull out", collocations: [], example: "We extract the data from logs.", exampleZh: "我们从日志中提取数据。" },
@@ -18664,7 +18664,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1734", term: "fluctuate", phonetic: "'flʌktʃueit", pos: "v.", meaningZh: "波动", meaningEn: "to vary", band: "6", collocations: [], example: "Prices fluctuate daily.", exampleZh: "价格每日波动。",
+    id: "bulk-1734", term: "fluctuate", phonetic: "/flʌktʃueit/", pos: "v.", meaningZh: "波动", meaningEn: "to vary", band: "6", collocations: [], example: "Prices fluctuate daily.", exampleZh: "价格每日波动。",
     senses: [
     {
     pos: "v.", meaningZh: "波动", meaningEn: "to vary", collocations: [], example: "Prices fluctuate daily.", exampleZh: "价格每日波动。" },
@@ -18684,7 +18684,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1736", term: "formulate", phonetic: "'fɒ:mjuleit", pos: "v.", meaningZh: "制定", meaningEn: "to create", band: "6", collocations: [], example: "We formulate a clear strategy.", exampleZh: "我们制定清晰战略。",
+    id: "bulk-1736", term: "formulate", phonetic: "/fɒ:mjuleit/", pos: "v.", meaningZh: "制定", meaningEn: "to create", band: "6", collocations: [], example: "We formulate a clear strategy.", exampleZh: "我们制定清晰战略。",
     senses: [
     {
     pos: "v.", meaningZh: "制定", meaningEn: "to create", collocations: [], example: "We formulate a clear strategy.", exampleZh: "我们制定清晰战略。" },
@@ -18720,7 +18720,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1740", term: "fundamental", phonetic: ".fʌndә'mentәl", pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", band: "6", collocations: [], example: "Trust is fundamental to team work.", exampleZh: "信任是团队合作的基础。",
+    id: "bulk-1740", term: "fundamental", phonetic: "/.fʌndә'mentәl/", pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", band: "6", collocations: [], example: "Trust is fundamental to team work.", exampleZh: "信任是团队合作的基础。",
     senses: [
     {
     pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", collocations: [], example: "Trust is fundamental to team work.", exampleZh: "信任是团队合作的基础。" },
@@ -18768,7 +18768,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1746", term: "identifiable", phonetic: "ai'dentifaiәbl", pos: "adj.", meaningZh: "可识别的；可辨认的；可证明为同一的；可以办清的", meaningEn: "recognizable", band: "6", collocations: [], example: "The cause is identifiable.", exampleZh: "原因可识别。",
+    id: "bulk-1746", term: "identifiable", phonetic: "/ai'dentifaiәbl/", pos: "adj.", meaningZh: "可识别的；可辨认的；可证明为同一的；可以办清的", meaningEn: "recognizable", band: "6", collocations: [], example: "The cause is identifiable.", exampleZh: "原因可识别。",
     senses: [
     {
     pos: "adj.", meaningZh: "可识别的；可辨认的；可证明为同一的；可以办清的", meaningEn: "recognizable", collocations: [], example: "The cause is identifiable.", exampleZh: "原因可识别。" }
@@ -18801,7 +18801,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1749", term: "immense", phonetic: "i'mens", pos: "adj.", meaningZh: "巨大的；极广大的；无边的；非常好的", meaningEn: "huge", band: "6", collocations: [], example: "The task is immense.", exampleZh: "任务巨大。",
+    id: "bulk-1749", term: "immense", phonetic: "/i'mens/", pos: "adj.", meaningZh: "巨大的；极广大的；无边的；非常好的", meaningEn: "huge", band: "6", collocations: [], example: "The task is immense.", exampleZh: "任务巨大。",
     senses: [
     {
     pos: "adj.", meaningZh: "巨大的；极广大的；无边的；非常好的", meaningEn: "huge", collocations: [], example: "The task is immense.", exampleZh: "任务巨大。" }
@@ -18837,14 +18837,14 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1753", term: "implicit", phonetic: "im'plisit", pos: "adj.", meaningZh: "含蓄的；暗示的；固有的；绝对的；不讲明的", meaningEn: "implied", band: "6", collocations: [], example: "There is an implicit rule here.", exampleZh: "这里有一条隐含的规则。",
+    id: "bulk-1753", term: "implicit", phonetic: "/im'plisit/", pos: "adj.", meaningZh: "含蓄的；暗示的；固有的；绝对的；不讲明的", meaningEn: "implied", band: "6", collocations: [], example: "There is an implicit rule here.", exampleZh: "这里有一条隐含的规则。",
     senses: [
     {
     pos: "adj.", meaningZh: "含蓄的；暗示的；固有的；绝对的；不讲明的", meaningEn: "implied", collocations: [], example: "There is an implicit rule here.", exampleZh: "这里有一条隐含的规则。" }
     ]
   },
   {
-    id: "bulk-1754", term: "incentive", phonetic: "in'sentiv", pos: "n.", meaningZh: "激励；动机", meaningEn: "a motive", band: "6", collocations: [], example: "The bonus is a strong incentive.", exampleZh: "奖金是一种强力激励。",
+    id: "bulk-1754", term: "incentive", phonetic: "/in'sentiv/", pos: "n.", meaningZh: "激励；动机", meaningEn: "a motive", band: "6", collocations: [], example: "The bonus is a strong incentive.", exampleZh: "奖金是一种强力激励。",
     senses: [
     {
     pos: "n.", meaningZh: "激励；动机", meaningEn: "a motive", collocations: [], example: "The bonus is a strong incentive.", exampleZh: "奖金是一种强力激励。" },
@@ -18853,14 +18853,14 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1755", term: "incidence", phonetic: "'insidәns", pos: "n.", meaningZh: "发生率；影响；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", band: "6", collocations: [], example: "The incidence is rising.", exampleZh: "发生率在上升。",
+    id: "bulk-1755", term: "incidence", phonetic: "/insidәns/", pos: "n.", meaningZh: "发生率；影响；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", band: "6", collocations: [], example: "The incidence is rising.", exampleZh: "发生率在上升。",
     senses: [
     {
     pos: "n.", meaningZh: "发生率；影响；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", collocations: [], example: "The incidence is rising.", exampleZh: "发生率在上升。" }
     ]
   },
   {
-    id: "bulk-1756", term: "incline", phonetic: "in'klain", pos: "v.", meaningZh: "倾向于", meaningEn: "to lean toward", band: "6", collocations: [], example: "We incline to agree with you.", exampleZh: "我们倾向于同意你。",
+    id: "bulk-1756", term: "incline", phonetic: "/in'klain/", pos: "v.", meaningZh: "倾向于", meaningEn: "to lean toward", band: "6", collocations: [], example: "We incline to agree with you.", exampleZh: "我们倾向于同意你。",
     senses: [
     {
     pos: "v.", meaningZh: "倾向于", meaningEn: "to lean toward", collocations: [], example: "We incline to agree with you.", exampleZh: "我们倾向于同意你。" },
@@ -18949,7 +18949,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1765", term: "initiate", phonetic: "i'niʃieit", pos: "v.", meaningZh: "发起", meaningEn: "to start", band: "6", collocations: [], example: "We initiate the review process.", exampleZh: "我们启动审查流程。",
+    id: "bulk-1765", term: "initiate", phonetic: "/i'niʃieit/", pos: "v.", meaningZh: "发起", meaningEn: "to start", band: "6", collocations: [], example: "We initiate the review process.", exampleZh: "我们启动审查流程。",
     senses: [
     {
     pos: "v.", meaningZh: "发起", meaningEn: "to start", collocations: [], example: "We initiate the review process.", exampleZh: "我们启动审查流程。" },
@@ -19025,7 +19025,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1773", term: "lucrative", phonetic: "'lu:krәtiv", pos: "adj.", meaningZh: "有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", band: "6", collocations: [], example: "It is a lucrative business.", exampleZh: "这是一门赚钱的生意。",
+    id: "bulk-1773", term: "lucrative", phonetic: "/lu:krәtiv/", pos: "adj.", meaningZh: "有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", band: "6", collocations: [], example: "It is a lucrative business.", exampleZh: "这是一门赚钱的生意。",
     senses: [
     {
     pos: "adj.", meaningZh: "有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", collocations: [], example: "It is a lucrative business.", exampleZh: "这是一门赚钱的生意。" }
@@ -19179,7 +19179,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1791", term: "ongoing", phonetic: "'ɒngәuiŋ", pos: "adj.", meaningZh: "持续的；前进的；进行的；不间断的", meaningEn: "continuing", band: "6", collocations: [], example: "The work is ongoing.", exampleZh: "工作持续进行中。",
+    id: "bulk-1791", term: "ongoing", phonetic: "/ɒngәuiŋ/", pos: "adj.", meaningZh: "持续的；前进的；进行的；不间断的", meaningEn: "continuing", band: "6", collocations: [], example: "The work is ongoing.", exampleZh: "工作持续进行中。",
     senses: [
     {
     pos: "adj.", meaningZh: "持续的；前进的；进行的；不间断的", meaningEn: "continuing", collocations: [], example: "The work is ongoing.", exampleZh: "工作持续进行中。" },
@@ -19352,7 +19352,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1808", term: "predominant", phonetic: "pri'dɒminәnt", pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", band: "6", collocations: [], example: "The predominant color is blue.", exampleZh: "主导色是蓝色。",
+    id: "bulk-1808", term: "predominant", phonetic: "/pri'dɒminәnt/", pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", band: "6", collocations: [], example: "The predominant color is blue.", exampleZh: "主导色是蓝色。",
     senses: [
     {
     pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", collocations: [], example: "The predominant color is blue.", exampleZh: "主导色是蓝色。" },
@@ -19563,7 +19563,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1833", term: "recall", phonetic: "ri'kɒ:l", pos: "v.", meaningZh: "回忆", meaningEn: "to remember", band: "6", collocations: [], example: "You can recall the event.", exampleZh: "你能回忆起那件事。",
+    id: "bulk-1833", term: "recall", phonetic: "/ri'kɒ:l/", pos: "v.", meaningZh: "回忆", meaningEn: "to remember", band: "6", collocations: [], example: "You can recall the event.", exampleZh: "你能回忆起那件事。",
     senses: [
     {
     pos: "v.", meaningZh: "回忆", meaningEn: "to remember", collocations: [], example: "You can recall the event.", exampleZh: "你能回忆起那件事。" },
@@ -19745,7 +19745,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1851", term: "resilient", phonetic: "ri'ziliәnt", pos: "adj.", meaningZh: "有韧性的；弹回的；有弹力的；回弹的；回能的", meaningEn: "able to recover", band: "6", collocations: [], example: "Children are quite resilient.", exampleZh: "孩子很有韧性。",
+    id: "bulk-1851", term: "resilient", phonetic: "/ri'ziliәnt/", pos: "adj.", meaningZh: "有韧性的；弹回的；有弹力的；回弹的；回能的", meaningEn: "able to recover", band: "6", collocations: [], example: "Children are quite resilient.", exampleZh: "孩子很有韧性。",
     senses: [
     {
     pos: "adj.", meaningZh: "有韧性的；弹回的；有弹力的；回弹的；回能的", meaningEn: "able to recover", collocations: [], example: "Children are quite resilient.", exampleZh: "孩子很有韧性。" }
@@ -19793,7 +19793,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1857", term: "safeguard", phonetic: "'seifgɑ:d", pos: "v.", meaningZh: "保护", meaningEn: "to protect", band: "6", collocations: [], example: "We safeguard the user data.", exampleZh: "我们保护用户数据。",
+    id: "bulk-1857", term: "safeguard", phonetic: "/seifgɑ:d/", pos: "v.", meaningZh: "保护", meaningEn: "to protect", band: "6", collocations: [], example: "We safeguard the user data.", exampleZh: "我们保护用户数据。",
     senses: [
     {
     pos: "v.", meaningZh: "保护", meaningEn: "to protect", collocations: [], example: "We safeguard the user data.", exampleZh: "我们保护用户数据。" },
@@ -19811,7 +19811,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1859", term: "scrutinize", phonetic: "'skrutinaiz", pos: "v.", meaningZh: "细查", meaningEn: "to examine", band: "6", collocations: [], example: "We scrutinize the full report.", exampleZh: "我们细查完整报告。",
+    id: "bulk-1859", term: "scrutinize", phonetic: "/skrutinaiz/", pos: "v.", meaningZh: "细查", meaningEn: "to examine", band: "6", collocations: [], example: "We scrutinize the full report.", exampleZh: "我们细查完整报告。",
     senses: [
     {
     pos: "v.", meaningZh: "细查", meaningEn: "to examine", collocations: [], example: "We scrutinize the full report.", exampleZh: "我们细查完整报告。" },
@@ -19820,7 +19820,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1860", term: "segment", phonetic: "'segmәnt", pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "a piece", band: "6", collocations: [], example: "This market segment is key.", exampleZh: "这个市场部分很关键。",
+    id: "bulk-1860", term: "segment", phonetic: "/segmәnt/", pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "a piece", band: "6", collocations: [], example: "This market segment is key.", exampleZh: "这个市场部分很关键。",
     senses: [
     {
     pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "a piece", collocations: [], example: "This market segment is key.", exampleZh: "这个市场部分很关键。" },
@@ -19909,14 +19909,14 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1869", term: "solidarity", phonetic: ".sɒli'dæriti", pos: "n.", meaningZh: "团结；团结一致；共同一致；共同责任", meaningEn: "unity", band: "6", collocations: [], example: "We showed real solidarity.", exampleZh: "我们展现了真正的团结。",
+    id: "bulk-1869", term: "solidarity", phonetic: "/.sɒli'dæriti/", pos: "n.", meaningZh: "团结；团结一致；共同一致；共同责任", meaningEn: "unity", band: "6", collocations: [], example: "We showed real solidarity.", exampleZh: "我们展现了真正的团结。",
     senses: [
     {
     pos: "n.", meaningZh: "团结；团结一致；共同一致；共同责任", meaningEn: "unity", collocations: [], example: "We showed real solidarity.", exampleZh: "我们展现了真正的团结。" }
     ]
   },
   {
-    id: "bulk-1870", term: "sophisticated", phonetic: "sә'fistikeitid", pos: "adj.", meaningZh: "复杂的；久经世故的；尖端的；高级的；非常有经验的", meaningEn: "advanced", band: "6", collocations: [], example: "The tool is rather sophisticated.", exampleZh: "这个工具相当复杂。",
+    id: "bulk-1870", term: "sophisticated", phonetic: "/sә'fistikeitid/", pos: "adj.", meaningZh: "复杂的；久经世故的；尖端的；高级的；非常有经验的", meaningEn: "advanced", band: "6", collocations: [], example: "The tool is rather sophisticated.", exampleZh: "这个工具相当复杂。",
     senses: [
     {
     pos: "adj.", meaningZh: "复杂的；久经世故的；尖端的；高级的；非常有经验的", meaningEn: "advanced", collocations: [], example: "The tool is rather sophisticated.", exampleZh: "这个工具相当复杂。" },
@@ -19948,7 +19948,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1874", term: "speculate", phonetic: "'spekjuleit", pos: "v.", meaningZh: "推测", meaningEn: "to guess", band: "6", collocations: [], example: "We speculate on the real cause.", exampleZh: "我们推测真正的原因。",
+    id: "bulk-1874", term: "speculate", phonetic: "/spekjuleit/", pos: "v.", meaningZh: "推测", meaningEn: "to guess", band: "6", collocations: [], example: "We speculate on the real cause.", exampleZh: "我们推测真正的原因。",
     senses: [
     {
     pos: "v.", meaningZh: "推测", meaningEn: "to guess", collocations: [], example: "We speculate on the real cause.", exampleZh: "我们推测真正的原因。" },
@@ -19964,7 +19964,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1876", term: "straightforward", phonetic: "streit'fɒ:wәd", pos: "adj.", meaningZh: "直截了当的；笔直的；率直的；明确的；简单的；直接的", meaningEn: "simple", band: "6", collocations: [], example: "The answer is straightforward.", exampleZh: "答案直截了当。",
+    id: "bulk-1876", term: "straightforward", phonetic: "/streit'fɒ:wәd/", pos: "adj.", meaningZh: "直截了当的；笔直的；率直的；明确的；简单的；直接的", meaningEn: "simple", band: "6", collocations: [], example: "The answer is straightforward.", exampleZh: "答案直截了当。",
     senses: [
     {
     pos: "adj.", meaningZh: "直截了当的；笔直的；率直的；明确的；简单的；直接的", meaningEn: "simple", collocations: [], example: "The answer is straightforward.", exampleZh: "答案直截了当。" },
@@ -19980,7 +19980,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1878", term: "streamline", phonetic: "'stri:mlain", pos: "v.", meaningZh: "简化", meaningEn: "to make efficient", band: "6", collocations: [], example: "We streamline the workflow.", exampleZh: "我们简化工作流程。",
+    id: "bulk-1878", term: "streamline", phonetic: "/stri:mlain/", pos: "v.", meaningZh: "简化", meaningEn: "to make efficient", band: "6", collocations: [], example: "We streamline the workflow.", exampleZh: "我们简化工作流程。",
     senses: [
     {
     pos: "v.", meaningZh: "简化", meaningEn: "to make efficient", collocations: [], example: "We streamline the workflow.", exampleZh: "我们简化工作流程。" },
@@ -19998,7 +19998,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1880", term: "subordinate", phonetic: "sә'bɒ:dnit", pos: "adj.", meaningZh: "下属的；下级的；次要的；附属的", meaningEn: "lower in rank", band: "6", collocations: [], example: "He is a subordinate member.", exampleZh: "他是下级成员。",
+    id: "bulk-1880", term: "subordinate", phonetic: "/sә'bɒ:dnit/", pos: "adj.", meaningZh: "下属的；下级的；次要的；附属的", meaningEn: "lower in rank", band: "6", collocations: [], example: "He is a subordinate member.", exampleZh: "他是下级成员。",
     senses: [
     {
     pos: "adj.", meaningZh: "下属的；下级的；次要的；附属的", meaningEn: "lower in rank", collocations: [], example: "He is a subordinate member.", exampleZh: "他是下级成员。" },
@@ -20018,7 +20018,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1882", term: "subside", phonetic: "sәb'said", pos: "v.", meaningZh: "平息", meaningEn: "to calm down", band: "6", collocations: [], example: "The storm finally subsided.", exampleZh: "风暴终于平息了。",
+    id: "bulk-1882", term: "subside", phonetic: "/sәb'said/", pos: "v.", meaningZh: "平息", meaningEn: "to calm down", band: "6", collocations: [], example: "The storm finally subsided.", exampleZh: "风暴终于平息了。",
     senses: [
     {
     pos: "v.", meaningZh: "平息", meaningEn: "to calm down", collocations: [], example: "The storm finally subsided.", exampleZh: "风暴终于平息了。" },
@@ -20122,7 +20122,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1894", term: "tentative", phonetic: "'tentәtiv", pos: "adj.", meaningZh: "试探性的；试验性的；暂时的", meaningEn: "provisional", band: "6", collocations: [], example: "We reached a tentative deal.", exampleZh: "我们达成了试探性协议。",
+    id: "bulk-1894", term: "tentative", phonetic: "/tentәtiv/", pos: "adj.", meaningZh: "试探性的；试验性的；暂时的", meaningEn: "provisional", band: "6", collocations: [], example: "We reached a tentative deal.", exampleZh: "我们达成了试探性协议。",
     senses: [
     {
     pos: "adj.", meaningZh: "试探性的；试验性的；暂时的", meaningEn: "provisional", collocations: [], example: "We reached a tentative deal.", exampleZh: "我们达成了试探性协议。" },
@@ -20131,7 +20131,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1895", term: "terminate", phonetic: "'tә:mineit", pos: "v.", meaningZh: "终止", meaningEn: "to end", band: "6", collocations: [], example: "We terminate the old contract.", exampleZh: "我们终止旧合同。",
+    id: "bulk-1895", term: "terminate", phonetic: "/tә:mineit/", pos: "v.", meaningZh: "终止", meaningEn: "to end", band: "6", collocations: [], example: "We terminate the old contract.", exampleZh: "我们终止旧合同。",
     senses: [
     {
     pos: "v.", meaningZh: "终止", meaningEn: "to end", collocations: [], example: "We terminate the old contract.", exampleZh: "我们终止旧合同。" },
@@ -20144,7 +20144,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1896", term: "theoretical", phonetic: "θiә'retikәl", pos: "adj.", meaningZh: "理论的；理论上的；假设的；推理的", meaningEn: "abstract", band: "6", collocations: [], example: "This is a theoretical model.", exampleZh: "这是一个理论模型。",
+    id: "bulk-1896", term: "theoretical", phonetic: "/θiә'retikәl/", pos: "adj.", meaningZh: "理论的；理论上的；假设的；推理的", meaningEn: "abstract", band: "6", collocations: [], example: "This is a theoretical model.", exampleZh: "这是一个理论模型。",
     senses: [
     {
     pos: "adj.", meaningZh: "理论的；理论上的；假设的；推理的", meaningEn: "abstract", collocations: [], example: "This is a theoretical model.", exampleZh: "这是一个理论模型。" }
@@ -20158,7 +20158,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1898", term: "threshold", phonetic: "'θreʃәuld", pos: "n.", meaningZh: "阈值；门槛；入口；开端", meaningEn: "a limit", band: "6", collocations: [], example: "We crossed the danger threshold.", exampleZh: "我们越过了危险阈值。",
+    id: "bulk-1898", term: "threshold", phonetic: "/θreʃәuld/", pos: "n.", meaningZh: "阈值；门槛；入口；开端", meaningEn: "a limit", band: "6", collocations: [], example: "We crossed the danger threshold.", exampleZh: "我们越过了危险阈值。",
     senses: [
     {
     pos: "n.", meaningZh: "阈值；门槛；入口；开端", meaningEn: "a limit", collocations: [], example: "We crossed the danger threshold.", exampleZh: "我们越过了危险阈值。" }
@@ -20268,7 +20268,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1910", term: "underlie", phonetic: ".ʌndә'lai", pos: "v.", meaningZh: "构成…基础", meaningEn: "to be the basis", band: "6", collocations: [], example: "Trust underlies the whole deal.", exampleZh: "信任是整笔交易的基础。",
+    id: "bulk-1910", term: "underlie", phonetic: "/.ʌndә'lai/", pos: "v.", meaningZh: "构成…基础", meaningEn: "to be the basis", band: "6", collocations: [], example: "Trust underlies the whole deal.", exampleZh: "信任是整笔交易的基础。",
     senses: [
     {
     pos: "v.", meaningZh: "构成…基础", meaningEn: "to be the basis", collocations: [], example: "Trust underlies the whole deal.", exampleZh: "信任是整笔交易的基础。" },
@@ -20286,7 +20286,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1912", term: "unilateral", phonetic: "[ˌjʉː.nɪˈlæt.ə.ɹɫ̩]", pos: "adj.", meaningZh: "单边的；单方面的；片面的；单侧的；一侧的", meaningEn: "one-sided", band: "6", collocations: [], example: "It was a unilateral move.", exampleZh: "那是单边举动。",
+    id: "bulk-1912", term: "unilateral", phonetic: "/[ˌjʉː.nɪˈlæt.ə.ɹɫ̩]/", pos: "adj.", meaningZh: "单边的；单方面的；片面的；单侧的；一侧的", meaningEn: "one-sided", band: "6", collocations: [], example: "It was a unilateral move.", exampleZh: "那是单边举动。",
     senses: [
     {
     pos: "adj.", meaningZh: "单边的；单方面的；片面的；单侧的；一侧的", meaningEn: "one-sided", collocations: [], example: "It was a unilateral move.", exampleZh: "那是单边举动。" }
@@ -20373,7 +20373,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1923", term: "widespread", phonetic: "'waidspred", pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "broad", band: "6", collocations: [], example: "The change was widespread.", exampleZh: "变化很广泛。",
+    id: "bulk-1923", term: "widespread", phonetic: "/waidspred/", pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "broad", band: "6", collocations: [], example: "The change was widespread.", exampleZh: "变化很广泛。",
     senses: [
     {
     pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "broad", collocations: [], example: "The change was widespread.", exampleZh: "变化很广泛。" }
@@ -20498,7 +20498,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1936", term: "accommodate", phonetic: "ә'kɒmәdeit", pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", band: "7", collocations: [], example: "The hotel can accommodate guests.", exampleZh: "这家酒店能容纳客人。",
+    id: "bulk-1936", term: "accommodate", phonetic: "/ә'kɒmәdeit/", pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", band: "7", collocations: [], example: "The hotel can accommodate guests.", exampleZh: "这家酒店能容纳客人。",
     senses: [
     {
     pos: "v.", meaningZh: "容纳；适应", meaningEn: "to house or adapt", collocations: [], example: "The hotel can accommodate guests.", exampleZh: "这家酒店能容纳客人。" },
@@ -20529,7 +20529,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1939", term: "account", phonetic: "ә'kaunt", pos: "n.", meaningZh: "账户；描述；报告；解释；估价；理由；利润；算账；帐目", meaningEn: "a record or report", band: "7", collocations: [], example: "He opened a bank account.", exampleZh: "他开了一个银行账户。",
+    id: "bulk-1939", term: "account", phonetic: "/ә'kaunt/", pos: "n.", meaningZh: "账户；描述；报告；解释；估价；理由；利润；算账；帐目", meaningEn: "a record or report", band: "7", collocations: [], example: "He opened a bank account.", exampleZh: "他开了一个银行账户。",
     senses: [
     {
     pos: "n.", meaningZh: "账户；描述；报告；解释；估价；理由；利润；算账；帐目", meaningEn: "a record or report", collocations: [], example: "He opened a bank account.", exampleZh: "他开了一个银行账户。" },
@@ -20540,7 +20540,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1940", term: "accurate", phonetic: "'ækjurәt", pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "correct", band: "7", collocations: [], example: "The data is accurate.", exampleZh: "数据是准确的。",
+    id: "bulk-1940", term: "accurate", phonetic: "/ækjurәt/", pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "correct", band: "7", collocations: [], example: "The data is accurate.", exampleZh: "数据是准确的。",
     senses: [
     {
     pos: "adj.", meaningZh: "准确的；正确的；精确的", meaningEn: "correct", collocations: [], example: "The data is accurate.", exampleZh: "数据是准确的。" }
@@ -20580,7 +20580,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1944", term: "adequate", phonetic: "'ædikwәt", pos: "adj.", meaningZh: "足够的；适当的；胜任的；充分的", meaningEn: "sufficient", band: "7", collocations: [], example: "We have adequate food.", exampleZh: "我们有足够的食物。",
+    id: "bulk-1944", term: "adequate", phonetic: "/ædikwәt/", pos: "adj.", meaningZh: "足够的；适当的；胜任的；充分的", meaningEn: "sufficient", band: "7", collocations: [], example: "We have adequate food.", exampleZh: "我们有足够的食物。",
     senses: [
     {
     pos: "adj.", meaningZh: "足够的；适当的；胜任的；充分的", meaningEn: "sufficient", collocations: [], example: "We have adequate food.", exampleZh: "我们有足够的食物。" },
@@ -20611,7 +20611,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1947", term: "administrate", phonetic: "әd'ministreit", pos: "v.", meaningZh: "管理", meaningEn: "to manage", band: "7", collocations: [], example: "She administrates the office.", exampleZh: "她管理办公室。",
+    id: "bulk-1947", term: "administrate", phonetic: "/әd'ministreit/", pos: "v.", meaningZh: "管理", meaningEn: "to manage", band: "7", collocations: [], example: "She administrates the office.", exampleZh: "她管理办公室。",
     senses: [
     {
     pos: "v.", meaningZh: "管理", meaningEn: "to manage", collocations: [], example: "She administrates the office.", exampleZh: "她管理办公室。" },
@@ -20688,7 +20688,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1954", term: "aesthetic", phonetic: "i:s'θetik", pos: "adj.", meaningZh: "审美的；美学的；有美感的", meaningEn: "related to beauty", band: "7", collocations: [], example: "The design has aesthetic value.", exampleZh: "这个设计有审美价值。",
+    id: "bulk-1954", term: "aesthetic", phonetic: "/i:s'θetik/", pos: "adj.", meaningZh: "审美的；美学的；有美感的", meaningEn: "related to beauty", band: "7", collocations: [], example: "The design has aesthetic value.", exampleZh: "这个设计有审美价值。",
     senses: [
     {
     pos: "adj.", meaningZh: "审美的；美学的；有美感的", meaningEn: "related to beauty", collocations: [], example: "The design has aesthetic value.", exampleZh: "这个设计有审美价值。" }
@@ -20715,7 +20715,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1957", term: "aggregate", phonetic: "'ægrigәt", pos: "adj./n.", meaningZh: "总计的；合计的；聚集的", meaningEn: "total", band: "7", collocations: [], example: "The aggregate score is high.", exampleZh: "总分很高。",
+    id: "bulk-1957", term: "aggregate", phonetic: "/ægrigәt/", pos: "adj./n.", meaningZh: "总计的；合计的；聚集的", meaningEn: "total", band: "7", collocations: [], example: "The aggregate score is high.", exampleZh: "总分很高。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "总计的；合计的；聚集的", meaningEn: "total", collocations: [], example: "The aggregate score is high.", exampleZh: "总分很高。" },
@@ -20758,7 +20758,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1962", term: "amend", phonetic: "ә'mend", pos: "v.", meaningZh: "修正", meaningEn: "to correct", band: "7", collocations: [], example: "They amended the law.", exampleZh: "他们修订了法律。",
+    id: "bulk-1962", term: "amend", phonetic: "/ә'mend/", pos: "v.", meaningZh: "修正", meaningEn: "to correct", band: "7", collocations: [], example: "They amended the law.", exampleZh: "他们修订了法律。",
     senses: [
     {
     pos: "v.", meaningZh: "修正", meaningEn: "to correct", collocations: [], example: "They amended the law.", exampleZh: "他们修订了法律。" },
@@ -20776,7 +20776,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1964", term: "analyze", phonetic: "'ænәlaiz", pos: "v.", meaningZh: "分析", meaningEn: "to examine", band: "7", collocations: [], example: "We analyzed the data.", exampleZh: "我们分析了数据。",
+    id: "bulk-1964", term: "analyze", phonetic: "/ænәlaiz/", pos: "v.", meaningZh: "分析", meaningEn: "to examine", band: "7", collocations: [], example: "We analyzed the data.", exampleZh: "我们分析了数据。",
     senses: [
     {
     pos: "v.", meaningZh: "分析", meaningEn: "to examine", collocations: [], example: "We analyzed the data.", exampleZh: "我们分析了数据。" },
@@ -20792,7 +20792,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1966", term: "annual", phonetic: "'ænjuәl", pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", band: "7", collocations: [], example: "They hold an annual meeting.", exampleZh: "他们举行年度会议。",
+    id: "bulk-1966", term: "annual", phonetic: "/ænjuәl/", pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", band: "7", collocations: [], example: "They hold an annual meeting.", exampleZh: "他们举行年度会议。",
     senses: [
     {
     pos: "adj.", meaningZh: "每年的；一年一次的；全年的；一年生的", meaningEn: "yearly", collocations: [], example: "They hold an annual meeting.", exampleZh: "他们举行年度会议。" },
@@ -20828,7 +20828,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1970", term: "appropriate", phonetic: "ә'prәupriәt", pos: "adj.", meaningZh: "适当的；拨出；占用", meaningEn: "suitable", band: "7", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮很得体。",
+    id: "bulk-1970", term: "appropriate", phonetic: "/ә'prәupriәt/", pos: "adj.", meaningZh: "适当的；拨出；占用", meaningEn: "suitable", band: "7", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮很得体。",
     senses: [
     {
     pos: "adj.", meaningZh: "适当的；拨出；占用", meaningEn: "suitable", collocations: [], example: "This is appropriate dress.", exampleZh: "这身打扮很得体。" },
@@ -20837,7 +20837,7 @@ const part_7: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1971", term: "approximate", phonetic: "ә'prɒksimәt", pos: "adj.", meaningZh: "近似的；大约的；接近的", meaningEn: "near", band: "7", collocations: [], example: "The cost is approximate.", exampleZh: "成本是个近似值。",
+    id: "bulk-1971", term: "approximate", phonetic: "/ә'prɒksimәt/", pos: "adj.", meaningZh: "近似的；大约的；接近的", meaningEn: "near", band: "7", collocations: [], example: "The cost is approximate.", exampleZh: "成本是个近似值。",
     senses: [
     {
     pos: "adj.", meaningZh: "近似的；大约的；接近的", meaningEn: "near", collocations: [], example: "The cost is approximate.", exampleZh: "成本是个近似值。" },
@@ -20988,7 +20988,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1985", term: "attribute", phonetic: "ә'tribju:t", pos: "v./n.", meaningZh: "归因于；属性", meaningEn: "to credit", band: "7", collocations: [], example: "We attribute success to work.", exampleZh: "我们把成功归功于努力。",
+    id: "bulk-1985", term: "attribute", phonetic: "/ә'tribju:t/", pos: "v./n.", meaningZh: "归因于；属性", meaningEn: "to credit", band: "7", collocations: [], example: "We attribute success to work.", exampleZh: "我们把成功归功于努力。",
     senses: [
     {
     pos: "v./n.", meaningZh: "归因于；属性", meaningEn: "to credit", collocations: [], example: "We attribute success to work.", exampleZh: "我们把成功归功于努力。" },
@@ -21112,14 +21112,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1997", term: "category", phonetic: "'kætigәri", pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "class", band: "7", collocations: [], example: "This falls in a category.", exampleZh: "这归为一类。",
+    id: "bulk-1997", term: "category", phonetic: "/kætigәri/", pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "class", band: "7", collocations: [], example: "This falls in a category.", exampleZh: "这归为一类。",
     senses: [
     {
     pos: "n.", meaningZh: "类别；种类；类项；分类", meaningEn: "class", collocations: [], example: "This falls in a category.", exampleZh: "这归为一类。" }
     ]
   },
   {
-    id: "bulk-1998", term: "cease", phonetic: "si:s", pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", band: "7", collocations: [], example: "The rain ceased.", exampleZh: "雨停了。",
+    id: "bulk-1998", term: "cease", phonetic: "/si:s/", pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", band: "7", collocations: [], example: "The rain ceased.", exampleZh: "雨停了。",
     senses: [
     {
     pos: "v.", meaningZh: "停止；终了", meaningEn: "to stop", collocations: [], example: "The rain ceased.", exampleZh: "雨停了。" },
@@ -21128,7 +21128,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-1999", term: "challenge", phonetic: "'tʃælindʒ", pos: "n./v.", meaningZh: "挑战；盘问", meaningEn: "difficult task", band: "7", collocations: [], example: "He faced a challenge.", exampleZh: "他面临挑战。",
+    id: "bulk-1999", term: "challenge", phonetic: "/tʃælindʒ/", pos: "n./v.", meaningZh: "挑战；盘问", meaningEn: "difficult task", band: "7", collocations: [], example: "He faced a challenge.", exampleZh: "他面临挑战。",
     senses: [
     {
     pos: "n./v.", meaningZh: "挑战；盘问", meaningEn: "difficult task", collocations: [], example: "He faced a challenge.", exampleZh: "他面临挑战。" },
@@ -21139,7 +21139,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2000", term: "channel", phonetic: "'tʃænәl", pos: "n.", meaningZh: "渠道；海峡；航道；频道", meaningEn: "means", band: "7", collocations: [], example: "Use this channel.", exampleZh: "用这个渠道。",
+    id: "bulk-2000", term: "channel", phonetic: "/tʃænәl/", pos: "n.", meaningZh: "渠道；海峡；航道；频道", meaningEn: "means", band: "7", collocations: [], example: "Use this channel.", exampleZh: "用这个渠道。",
     senses: [
     {
     pos: "n.", meaningZh: "渠道；海峡；航道；频道", meaningEn: "means", collocations: [], example: "Use this channel.", exampleZh: "用这个渠道。" },
@@ -21180,7 +21180,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2005", term: "cite", phonetic: "sait", pos: "v.", meaningZh: "引用", meaningEn: "to quote", band: "7", collocations: [], example: "He cited a study.", exampleZh: "他引用了一项研究。",
+    id: "bulk-2005", term: "cite", phonetic: "/sait/", pos: "v.", meaningZh: "引用", meaningEn: "to quote", band: "7", collocations: [], example: "He cited a study.", exampleZh: "他引用了一项研究。",
     senses: [
     {
     pos: "v.", meaningZh: "引用", meaningEn: "to quote", collocations: [], example: "He cited a study.", exampleZh: "他引用了一项研究。" },
@@ -21283,7 +21283,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2016", term: "complex", phonetic: "kәm'pleks", pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", band: "7", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。",
+    id: "bulk-2016", term: "complex", phonetic: "/kәm'pleks/", pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", band: "7", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。",
     senses: [
     {
     pos: "adj.", meaningZh: "复杂的；组合的", meaningEn: "complicated", collocations: [], example: "The issue is complex.", exampleZh: "问题很复杂。" },
@@ -21372,7 +21372,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2025", term: "concurrent", phonetic: "kәn'kʌrәnt", pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", band: "7", collocations: [], example: "Two events were concurrent.", exampleZh: "两件事同时发生。",
+    id: "bulk-2025", term: "concurrent", phonetic: "/kәn'kʌrәnt/", pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", band: "7", collocations: [], example: "Two events were concurrent.", exampleZh: "两件事同时发生。",
     senses: [
     {
     pos: "adj.", meaningZh: "同时的；同时发生的；一致的；并行的；并发的；共行的", meaningEn: "at the same time", collocations: [], example: "Two events were concurrent.", exampleZh: "两件事同时发生。" },
@@ -21381,7 +21381,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2026", term: "conduct", phonetic: "'kɔndʌkt, -dәkt", pos: "v.", meaningZh: "进行；行为", meaningEn: "to carry out", band: "7", collocations: [], example: "They conducted a test.", exampleZh: "他们进行了测试。",
+    id: "bulk-2026", term: "conduct", phonetic: "/kɔndʌkt, -dәkt/", pos: "v.", meaningZh: "进行；行为", meaningEn: "to carry out", band: "7", collocations: [], example: "They conducted a test.", exampleZh: "他们进行了测试。",
     senses: [
     {
     pos: "v.", meaningZh: "进行；行为", meaningEn: "to carry out", collocations: [], example: "They conducted a test.", exampleZh: "他们进行了测试。" },
@@ -21419,7 +21419,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2030", term: "confine", phonetic: "kәn'fain", pos: "v.", meaningZh: "限制", meaningEn: "to limit", band: "7", collocations: [], example: "They confined the area.", exampleZh: "他们限制了区域。",
+    id: "bulk-2030", term: "confine", phonetic: "/kәn'fain/", pos: "v.", meaningZh: "限制", meaningEn: "to limit", band: "7", collocations: [], example: "They confined the area.", exampleZh: "他们限制了区域。",
     senses: [
     {
     pos: "v.", meaningZh: "限制", meaningEn: "to limit", collocations: [], example: "They confined the area.", exampleZh: "他们限制了区域。" },
@@ -21432,7 +21432,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2031", term: "confirm", phonetic: "kәn'fә:m", pos: "v.", meaningZh: "确认", meaningEn: "to verify", band: "7", collocations: [], example: "Please confirm the date.", exampleZh: "请确认日期。",
+    id: "bulk-2031", term: "confirm", phonetic: "/kәn'fә:m/", pos: "v.", meaningZh: "确认", meaningEn: "to verify", band: "7", collocations: [], example: "Please confirm the date.", exampleZh: "请确认日期。",
     senses: [
     {
     pos: "v.", meaningZh: "确认", meaningEn: "to verify", collocations: [], example: "Please confirm the date.", exampleZh: "请确认日期。" },
@@ -21504,7 +21504,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2039", term: "consensus", phonetic: "kәn'sensәs", pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", band: "7", collocations: [], example: "We use consensus to mean general agreement.", exampleZh: "我们用「consensus」表示共识。",
+    id: "bulk-2039", term: "consensus", phonetic: "/kәn'sensәs/", pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", band: "7", collocations: [], example: "We use consensus to mean general agreement.", exampleZh: "我们用「consensus」表示共识。",
     senses: [
     {
     pos: "n.", meaningZh: "共识；合意；一致；同感", meaningEn: "general agreement", collocations: [], example: "We use consensus to mean general agreement.", exampleZh: "我们用「consensus」表示共识。" }
@@ -21531,7 +21531,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2042", term: "conserve", phonetic: "kәn'sә:v", pos: "v.", meaningZh: "保护", meaningEn: "to preserve", band: "7", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。",
+    id: "bulk-2042", term: "conserve", phonetic: "/kәn'sә:v/", pos: "v.", meaningZh: "保护", meaningEn: "to preserve", band: "7", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。",
     senses: [
     {
     pos: "v.", meaningZh: "保护", meaningEn: "to preserve", collocations: [], example: "We must conserve water.", exampleZh: "我们必须节约用水。" },
@@ -21600,7 +21600,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2049", term: "consult", phonetic: "kәn'sʌlt", pos: "v.", meaningZh: "咨询", meaningEn: "to ask", band: "7", collocations: [], example: "He consulted a doctor.", exampleZh: "他咨询了医生。",
+    id: "bulk-2049", term: "consult", phonetic: "/kәn'sʌlt/", pos: "v.", meaningZh: "咨询", meaningEn: "to ask", band: "7", collocations: [], example: "He consulted a doctor.", exampleZh: "他咨询了医生。",
     senses: [
     {
     pos: "v.", meaningZh: "咨询", meaningEn: "to ask", collocations: [], example: "He consulted a doctor.", exampleZh: "他咨询了医生。" },
@@ -21624,7 +21624,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2051", term: "contact", phonetic: "'kɒntækt", pos: "n./v.", meaningZh: "联系；交际；熟人；接触", meaningEn: "to reach", band: "7", collocations: [], example: "Please contact us.", exampleZh: "请联系我们。",
+    id: "bulk-2051", term: "contact", phonetic: "/kɒntækt/", pos: "n./v.", meaningZh: "联系；交际；熟人；接触", meaningEn: "to reach", band: "7", collocations: [], example: "Please contact us.", exampleZh: "请联系我们。",
     senses: [
     {
     pos: "n./v.", meaningZh: "联系；交际；熟人；接触", meaningEn: "to reach", collocations: [], example: "Please contact us.", exampleZh: "请联系我们。" },
@@ -21648,7 +21648,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2053", term: "contemplate", phonetic: "'kɒntempleit", pos: "v.", meaningZh: "沉思", meaningEn: "to consider deeply", band: "7", collocations: [], example: "He contemplated the view.", exampleZh: "他凝视着景色沉思。",
+    id: "bulk-2053", term: "contemplate", phonetic: "/kɒntempleit/", pos: "v.", meaningZh: "沉思", meaningEn: "to consider deeply", band: "7", collocations: [], example: "He contemplated the view.", exampleZh: "他凝视着景色沉思。",
     senses: [
     {
     pos: "v.", meaningZh: "沉思", meaningEn: "to consider deeply", collocations: [], example: "He contemplated the view.", exampleZh: "他凝视着景色沉思。" },
@@ -21683,7 +21683,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2056", term: "contend", phonetic: "kәn'tend", pos: "v.", meaningZh: "主张；竞争", meaningEn: "to argue", band: "7", collocations: [], example: "He contended the point.", exampleZh: "他主张这一点。",
+    id: "bulk-2056", term: "contend", phonetic: "/kәn'tend/", pos: "v.", meaningZh: "主张；竞争", meaningEn: "to argue", band: "7", collocations: [], example: "He contended the point.", exampleZh: "他主张这一点。",
     senses: [
     {
     pos: "v.", meaningZh: "主张；竞争", meaningEn: "to argue", collocations: [], example: "He contended the point.", exampleZh: "他主张这一点。" },
@@ -21833,7 +21833,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2070", term: "coordinate", phonetic: "kәu'ɒ:dineit", pos: "v.", meaningZh: "协调；(使)协调", meaningEn: "to organize", band: "7", collocations: [], example: "She coordinated the event.", exampleZh: "她协调了活动。",
+    id: "bulk-2070", term: "coordinate", phonetic: "/kәu'ɒ:dineit/", pos: "v.", meaningZh: "协调；(使)协调", meaningEn: "to organize", band: "7", collocations: [], example: "She coordinated the event.", exampleZh: "她协调了活动。",
     senses: [
     {
     pos: "v.", meaningZh: "协调；(使)协调", meaningEn: "to organize", collocations: [], example: "She coordinated the event.", exampleZh: "她协调了活动。" },
@@ -21940,7 +21940,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2081", term: "debate", phonetic: "di'beit", pos: "n./v.", meaningZh: "辩论；讨论", meaningEn: "discussion", band: "7", collocations: [], example: "They held a debate.", exampleZh: "他们进行了一场辩论。",
+    id: "bulk-2081", term: "debate", phonetic: "/di'beit/", pos: "n./v.", meaningZh: "辩论；讨论", meaningEn: "discussion", band: "7", collocations: [], example: "They held a debate.", exampleZh: "他们进行了一场辩论。",
     senses: [
     {
     pos: "n./v.", meaningZh: "辩论；讨论", meaningEn: "discussion", collocations: [], example: "They held a debate.", exampleZh: "他们进行了一场辩论。" },
@@ -21949,14 +21949,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2082", term: "decade", phonetic: "'dekeid", pos: "n.", meaningZh: "十年", meaningEn: "ten years", band: "7", collocations: [], example: "We use decade to mean ten years.", exampleZh: "我们用「decade」表示十年。",
+    id: "bulk-2082", term: "decade", phonetic: "/dekeid/", pos: "n.", meaningZh: "十年", meaningEn: "ten years", band: "7", collocations: [], example: "We use decade to mean ten years.", exampleZh: "我们用「decade」表示十年。",
     senses: [
     {
     pos: "n.", meaningZh: "十年", meaningEn: "ten years", collocations: [], example: "We use decade to mean ten years.", exampleZh: "我们用「decade」表示十年。" }
     ]
   },
   {
-    id: "bulk-2083", term: "decline", phonetic: "di'klain", pos: "v./n.", meaningZh: "下降", meaningEn: "to decrease", band: "7", collocations: [], example: "Sales declined.", exampleZh: "销量下降了。",
+    id: "bulk-2083", term: "decline", phonetic: "/di'klain/", pos: "v./n.", meaningZh: "下降", meaningEn: "to decrease", band: "7", collocations: [], example: "Sales declined.", exampleZh: "销量下降了。",
     senses: [
     {
     pos: "v./n.", meaningZh: "下降", meaningEn: "to decrease", collocations: [], example: "Sales declined.", exampleZh: "销量下降了。" },
@@ -21969,7 +21969,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2084", term: "deduce", phonetic: "di'dju:s", pos: "v.", meaningZh: "推断", meaningEn: "to infer", band: "7", collocations: [], example: "We deduced the cause.", exampleZh: "我们推断出了原因。",
+    id: "bulk-2084", term: "deduce", phonetic: "/di'dju:s/", pos: "v.", meaningZh: "推断", meaningEn: "to infer", band: "7", collocations: [], example: "We deduced the cause.", exampleZh: "我们推断出了原因。",
     senses: [
     {
     pos: "v.", meaningZh: "推断", meaningEn: "to infer", collocations: [], example: "We deduced the cause.", exampleZh: "我们推断出了原因。" },
@@ -21978,14 +21978,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2085", term: "defect", phonetic: "di'fekt", pos: "n.", meaningZh: "缺陷；缺点；缺损", meaningEn: "fault", band: "7", collocations: [], example: "The term defect is defined as fault.", exampleZh: "「defect」被定义为缺陷。",
+    id: "bulk-2085", term: "defect", phonetic: "/di'fekt/", pos: "n.", meaningZh: "缺陷；缺点；缺损", meaningEn: "fault", band: "7", collocations: [], example: "The term defect is defined as fault.", exampleZh: "「defect」被定义为缺陷。",
     senses: [
     {
     pos: "n.", meaningZh: "缺陷；缺点；缺损", meaningEn: "fault", collocations: [], example: "The term defect is defined as fault.", exampleZh: "「defect」被定义为缺陷。" }
     ]
   },
   {
-    id: "bulk-2086", term: "define", phonetic: "di'fain", pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", band: "7", collocations: [], example: "Please define the term.", exampleZh: "请定义这个术语。",
+    id: "bulk-2086", term: "define", phonetic: "/di'fain/", pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", band: "7", collocations: [], example: "Please define the term.", exampleZh: "请定义这个术语。",
     senses: [
     {
     pos: "v.", meaningZh: "定义", meaningEn: "to state meaning", collocations: [], example: "Please define the term.", exampleZh: "请定义这个术语。" },
@@ -21994,7 +21994,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2087", term: "definite", phonetic: "'definit", pos: "adj.", meaningZh: "明确的；一定的；确切的", meaningEn: "clear", band: "7", collocations: [], example: "The word definite means clear.", exampleZh: "「definite」的意思是明确的。",
+    id: "bulk-2087", term: "definite", phonetic: "/definit/", pos: "adj.", meaningZh: "明确的；一定的；确切的", meaningEn: "clear", band: "7", collocations: [], example: "The word definite means clear.", exampleZh: "「definite」的意思是明确的。",
     senses: [
     {
     pos: "adj.", meaningZh: "明确的；一定的；确切的", meaningEn: "clear", collocations: [], example: "The word definite means clear.", exampleZh: "「definite」的意思是明确的。" }
@@ -22263,14 +22263,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2116", term: "dominate", phonetic: "'dɒmineit", pos: "v.", meaningZh: "主导；支配；占优势", meaningEn: "to control", band: "7", collocations: [], example: "One team dominated.", exampleZh: "一支队伍主导了比赛。",
+    id: "bulk-2116", term: "dominate", phonetic: "/dɒmineit/", pos: "v.", meaningZh: "主导；支配；占优势", meaningEn: "to control", band: "7", collocations: [], example: "One team dominated.", exampleZh: "一支队伍主导了比赛。",
     senses: [
     {
     pos: "v.", meaningZh: "主导；支配；占优势", meaningEn: "to control", collocations: [], example: "One team dominated.", exampleZh: "一支队伍主导了比赛。" }
     ]
   },
   {
-    id: "bulk-2117", term: "doubt", phonetic: "daut", pos: "n./v.", meaningZh: "怀疑；疑惑", meaningEn: "uncertainty", band: "7", collocations: [], example: "He had doubts.", exampleZh: "他有所怀疑。",
+    id: "bulk-2117", term: "doubt", phonetic: "/daut/", pos: "n./v.", meaningZh: "怀疑；疑惑", meaningEn: "uncertainty", band: "7", collocations: [], example: "He had doubts.", exampleZh: "他有所怀疑。",
     senses: [
     {
     pos: "n./v.", meaningZh: "怀疑；疑惑", meaningEn: "uncertainty", collocations: [], example: "He had doubts.", exampleZh: "他有所怀疑。" },
@@ -22392,7 +22392,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2131", term: "enhance", phonetic: "in'hæns", pos: "v.", meaningZh: "增强", meaningEn: "to improve", band: "7", collocations: [], example: "The word enhance means to improve.", exampleZh: "「enhance」的意思是增强。",
+    id: "bulk-2131", term: "enhance", phonetic: "/in'hæns/", pos: "v.", meaningZh: "增强", meaningEn: "to improve", band: "7", collocations: [], example: "The word enhance means to improve.", exampleZh: "「enhance」的意思是增强。",
     senses: [
     {
     pos: "v.", meaningZh: "增强", meaningEn: "to improve", collocations: [], example: "The word enhance means to improve.", exampleZh: "「enhance」的意思是增强。" },
@@ -22473,7 +22473,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2140", term: "essence", phonetic: "'esns", pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "nature", band: "7", collocations: [], example: "The term essence is defined as nature.", exampleZh: "「essence」被定义为本质。",
+    id: "bulk-2140", term: "essence", phonetic: "/esns/", pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "nature", band: "7", collocations: [], example: "The term essence is defined as nature.", exampleZh: "「essence」被定义为本质。",
     senses: [
     {
     pos: "n.", meaningZh: "本质；实质；香精", meaningEn: "nature", collocations: [], example: "The term essence is defined as nature.", exampleZh: "「essence」被定义为本质。" }
@@ -22512,14 +22512,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2145", term: "evident", phonetic: "'evidәnt", pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", band: "7", collocations: [], example: "We use evident to mean clear.", exampleZh: "我们用「evident」表示明显的。",
+    id: "bulk-2145", term: "evident", phonetic: "/evidәnt/", pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", band: "7", collocations: [], example: "We use evident to mean clear.", exampleZh: "我们用「evident」表示明显的。",
     senses: [
     {
     pos: "adj.", meaningZh: "明显的；显然的", meaningEn: "clear", collocations: [], example: "We use evident to mean clear.", exampleZh: "我们用「evident」表示明显的。" }
     ]
   },
   {
-    id: "bulk-2146", term: "evolve", phonetic: "i'vɒlv", pos: "v.", meaningZh: "进化", meaningEn: "to develop", band: "7", collocations: [], example: "The firm evolved fast.", exampleZh: "公司迅速演变。",
+    id: "bulk-2146", term: "evolve", phonetic: "/i'vɒlv/", pos: "v.", meaningZh: "进化", meaningEn: "to develop", band: "7", collocations: [], example: "The firm evolved fast.", exampleZh: "公司迅速演变。",
     senses: [
     {
     pos: "v.", meaningZh: "进化", meaningEn: "to develop", collocations: [], example: "The firm evolved fast.", exampleZh: "公司迅速演变。" },
@@ -22530,7 +22530,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2147", term: "exceed", phonetic: "ik'si:d", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "7", collocations: [], example: "Costs exceeded budget.", exampleZh: "成本超出了预算。",
+    id: "bulk-2147", term: "exceed", phonetic: "/ik'si:d/", pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", band: "7", collocations: [], example: "Costs exceeded budget.", exampleZh: "成本超出了预算。",
     senses: [
     {
     pos: "v.", meaningZh: "超过", meaningEn: "to go beyond", collocations: [], example: "Costs exceeded budget.", exampleZh: "成本超出了预算。" },
@@ -22599,7 +22599,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2154", term: "exploit", phonetic: "'eksplɒit", pos: "v.", meaningZh: "利用", meaningEn: "to use", band: "7", collocations: [], example: "In English, exploit refers to to use.", exampleZh: "在英语中，「exploit」指利用。",
+    id: "bulk-2154", term: "exploit", phonetic: "/eksplɒit/", pos: "v.", meaningZh: "利用", meaningEn: "to use", band: "7", collocations: [], example: "In English, exploit refers to to use.", exampleZh: "在英语中，「exploit」指利用。",
     senses: [
     {
     pos: "v.", meaningZh: "利用", meaningEn: "to use", collocations: [], example: "In English, exploit refers to to use.", exampleZh: "在英语中，「exploit」指利用。" },
@@ -22748,14 +22748,14 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2169", term: "flexibility", phonetic: ".fleksi'biliti", pos: "n.", meaningZh: "灵活性；弹性；适应性", meaningEn: "ability to adapt", band: "7", collocations: [], example: "In English, flexibility refers to ability to adapt.", exampleZh: "在英语中，「flexibility」指灵活性。",
+    id: "bulk-2169", term: "flexibility", phonetic: "/.fleksi'biliti/", pos: "n.", meaningZh: "灵活性；弹性；适应性", meaningEn: "ability to adapt", band: "7", collocations: [], example: "In English, flexibility refers to ability to adapt.", exampleZh: "在英语中，「flexibility」指灵活性。",
     senses: [
     {
     pos: "n.", meaningZh: "灵活性；弹性；适应性", meaningEn: "ability to adapt", collocations: [], example: "In English, flexibility refers to ability to adapt.", exampleZh: "在英语中，「flexibility」指灵活性。" }
     ]
   },
   {
-    id: "bulk-2170", term: "fluctuate", phonetic: "'flʌktʃueit", pos: "v.", meaningZh: "波动", meaningEn: "to vary", band: "7", collocations: [], example: "We use fluctuate to mean to vary.", exampleZh: "我们用「fluctuate」表示波动。",
+    id: "bulk-2170", term: "fluctuate", phonetic: "/flʌktʃueit/", pos: "v.", meaningZh: "波动", meaningEn: "to vary", band: "7", collocations: [], example: "We use fluctuate to mean to vary.", exampleZh: "我们用「fluctuate」表示波动。",
     senses: [
     {
     pos: "v.", meaningZh: "波动", meaningEn: "to vary", collocations: [], example: "We use fluctuate to mean to vary.", exampleZh: "我们用「fluctuate」表示波动。" },
@@ -22826,7 +22826,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2177", term: "fundamental", phonetic: ".fʌndә'mentәl", pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", band: "7", collocations: [], example: "The term fundamental is defined as basic.", exampleZh: "「fundamental」被定义为基本的。",
+    id: "bulk-2177", term: "fundamental", phonetic: "/.fʌndә'mentәl/", pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", band: "7", collocations: [], example: "The term fundamental is defined as basic.", exampleZh: "「fundamental」被定义为基本的。",
     senses: [
     {
     pos: "adj.", meaningZh: "基本的；重要的；原音的", meaningEn: "basic", collocations: [], example: "The term fundamental is defined as basic.", exampleZh: "「fundamental」被定义为基本的。" },
@@ -22842,7 +22842,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2179", term: "generate", phonetic: "'dʒenәreit", pos: "v.", meaningZh: "生成", meaningEn: "to produce", band: "7", collocations: [], example: "The word generate means to produce.", exampleZh: "「generate」的意思是生成。",
+    id: "bulk-2179", term: "generate", phonetic: "/dʒenәreit/", pos: "v.", meaningZh: "生成", meaningEn: "to produce", band: "7", collocations: [], example: "The word generate means to produce.", exampleZh: "「generate」的意思是生成。",
     senses: [
     {
     pos: "v.", meaningZh: "生成", meaningEn: "to produce", collocations: [], example: "The word generate means to produce.", exampleZh: "「generate」的意思是生成。" },
@@ -22851,21 +22851,21 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2180", term: "genuine", phonetic: "'dʒenjuin", pos: "adj.", meaningZh: "真实的；真正的；诚恳的；真性的", meaningEn: "real", band: "7", collocations: [], example: "The term genuine is defined as real.", exampleZh: "「genuine」被定义为真实的。",
+    id: "bulk-2180", term: "genuine", phonetic: "/dʒenjuin/", pos: "adj.", meaningZh: "真实的；真正的；诚恳的；真性的", meaningEn: "real", band: "7", collocations: [], example: "The term genuine is defined as real.", exampleZh: "「genuine」被定义为真实的。",
     senses: [
     {
     pos: "adj.", meaningZh: "真实的；真正的；诚恳的；真性的", meaningEn: "real", collocations: [], example: "The term genuine is defined as real.", exampleZh: "「genuine」被定义为真实的。" }
     ]
   },
   {
-    id: "bulk-2181", term: "global", phonetic: "'glәubl", pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", band: "7", collocations: [], example: "We use global to mean worldwide.", exampleZh: "我们用「global」表示全球的。",
+    id: "bulk-2181", term: "global", phonetic: "/glәubl/", pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", band: "7", collocations: [], example: "We use global to mean worldwide.", exampleZh: "我们用「global」表示全球的。",
     senses: [
     {
     pos: "adj.", meaningZh: "全球的；通用的；球形的；综合的；普遍的；共用", meaningEn: "worldwide", collocations: [], example: "We use global to mean worldwide.", exampleZh: "我们用「global」表示全球的。" }
     ]
   },
   {
-    id: "bulk-2182", term: "grade", phonetic: "greid", pos: "n./v.", meaningZh: "等级；评分；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", band: "7", collocations: [], example: "He graded the test.", exampleZh: "他评了分。",
+    id: "bulk-2182", term: "grade", phonetic: "/greid/", pos: "n./v.", meaningZh: "等级；评分；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", band: "7", collocations: [], example: "He graded the test.", exampleZh: "他评了分。",
     senses: [
     {
     pos: "n./v.", meaningZh: "等级；评分；年级；阶段；成绩；程度；坡度；斜坡", meaningEn: "level", collocations: [], example: "He graded the test.", exampleZh: "他评了分。" },
@@ -22956,7 +22956,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2191", term: "ideology", phonetic: ".aidi'ɒlәdʒi", pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "belief system", band: "7", collocations: [], example: "The term ideology is defined as belief system.", exampleZh: "「ideology」被定义为意识形态。",
+    id: "bulk-2191", term: "ideology", phonetic: "/.aidi'ɒlәdʒi/", pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "belief system", band: "7", collocations: [], example: "The term ideology is defined as belief system.", exampleZh: "「ideology」被定义为意识形态。",
     senses: [
     {
     pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "belief system", collocations: [], example: "The term ideology is defined as belief system.", exampleZh: "「ideology」被定义为意识形态。" }
@@ -23014,7 +23014,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2197", term: "impact", phonetic: "'impækt", pos: "n./v.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", band: "7", collocations: [], example: "The word impact means effect.", exampleZh: "「impact」的意思是影响。",
+    id: "bulk-2197", term: "impact", phonetic: "/impækt/", pos: "n./v.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", band: "7", collocations: [], example: "The word impact means effect.", exampleZh: "「impact」的意思是影响。",
     senses: [
     {
     pos: "n./v.", meaningZh: "影响；冲击；冲突；效果", meaningEn: "effect", collocations: [], example: "The word impact means effect.", exampleZh: "「impact」的意思是影响。" },
@@ -23043,7 +23043,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2200", term: "implicit", phonetic: "im'plisit", pos: "adj.", meaningZh: "隐含的；暗示的；含蓄的；固有的；绝对的；不讲明的", meaningEn: "implied", band: "7", collocations: [], example: "The rule was implied.", exampleZh: "规则是隐含的。",
+    id: "bulk-2200", term: "implicit", phonetic: "/im'plisit/", pos: "adj.", meaningZh: "隐含的；暗示的；含蓄的；固有的；绝对的；不讲明的", meaningEn: "implied", band: "7", collocations: [], example: "The rule was implied.", exampleZh: "规则是隐含的。",
     senses: [
     {
     pos: "adj.", meaningZh: "隐含的；暗示的；含蓄的；固有的；绝对的；不讲明的", meaningEn: "implied", collocations: [], example: "The rule was implied.", exampleZh: "规则是隐含的。" }
@@ -23074,7 +23074,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2203", term: "incline", phonetic: "in'klain", pos: "v.", meaningZh: "倾向于", meaningEn: "to lean", band: "7", collocations: [], example: "The term incline is defined as to lean.", exampleZh: "「incline」被定义为倾向于。",
+    id: "bulk-2203", term: "incline", phonetic: "/in'klain/", pos: "v.", meaningZh: "倾向于", meaningEn: "to lean", band: "7", collocations: [], example: "The term incline is defined as to lean.", exampleZh: "「incline」被定义为倾向于。",
     senses: [
     {
     pos: "v.", meaningZh: "倾向于", meaningEn: "to lean", collocations: [], example: "The term incline is defined as to lean.", exampleZh: "「incline」被定义为倾向于。" },
@@ -23107,7 +23107,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2206", term: "indicator", phonetic: "'indikeitә", pos: "n.", meaningZh: "指标；指示器；指示剂", meaningEn: "sign", band: "7", collocations: [], example: "In English, indicator refers to sign.", exampleZh: "在英语中，「indicator」指指标。",
+    id: "bulk-2206", term: "indicator", phonetic: "/indikeitә/", pos: "n.", meaningZh: "指标；指示器；指示剂", meaningEn: "sign", band: "7", collocations: [], example: "In English, indicator refers to sign.", exampleZh: "在英语中，「indicator」指指标。",
     senses: [
     {
     pos: "n.", meaningZh: "指标；指示器；指示剂", meaningEn: "sign", collocations: [], example: "In English, indicator refers to sign.", exampleZh: "在英语中，「indicator」指指标。" }
@@ -23125,7 +23125,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2208", term: "influence", phonetic: "'influәns", pos: "n./v.", meaningZh: "影响；影响力；权力；势力", meaningEn: "effect", band: "7", collocations: [], example: "We use influence to mean effect.", exampleZh: "我们用「influence」表示影响。",
+    id: "bulk-2208", term: "influence", phonetic: "/influәns/", pos: "n./v.", meaningZh: "影响；影响力；权力；势力", meaningEn: "effect", band: "7", collocations: [], example: "We use influence to mean effect.", exampleZh: "我们用「influence」表示影响。",
     senses: [
     {
     pos: "n./v.", meaningZh: "影响；影响力；权力；势力", meaningEn: "effect", collocations: [], example: "We use influence to mean effect.", exampleZh: "我们用「influence」表示影响。" },
@@ -23187,7 +23187,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2214", term: "insert", phonetic: "in'sә:t", pos: "v.", meaningZh: "插入", meaningEn: "to put in", band: "7", collocations: [], example: "The term insert is defined as to put in.", exampleZh: "「insert」被定义为插入。",
+    id: "bulk-2214", term: "insert", phonetic: "/in'sә:t/", pos: "v.", meaningZh: "插入", meaningEn: "to put in", band: "7", collocations: [], example: "The term insert is defined as to put in.", exampleZh: "「insert」被定义为插入。",
     senses: [
     {
     pos: "v.", meaningZh: "插入", meaningEn: "to put in", collocations: [], example: "The term insert is defined as to put in.", exampleZh: "「insert」被定义为插入。" },
@@ -23207,7 +23207,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2216", term: "inspect", phonetic: "in'spekt", pos: "v.", meaningZh: "检查", meaningEn: "to examine", band: "7", collocations: [], example: "The word inspect means to examine.", exampleZh: "「inspect」的意思是检查。",
+    id: "bulk-2216", term: "inspect", phonetic: "/in'spekt/", pos: "v.", meaningZh: "检查", meaningEn: "to examine", band: "7", collocations: [], example: "The word inspect means to examine.", exampleZh: "「inspect」的意思是检查。",
     senses: [
     {
     pos: "v.", meaningZh: "检查", meaningEn: "to examine", collocations: [], example: "The word inspect means to examine.", exampleZh: "「inspect」的意思是检查。" },
@@ -23262,7 +23262,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2221", term: "integrity", phonetic: "in'tegriti", pos: "n.", meaningZh: "诚信；完整；正直；廉正；完整性", meaningEn: "honesty", band: "7", collocations: [], example: "The term integrity is defined as honesty.", exampleZh: "「integrity」被定义为诚信；完整。",
+    id: "bulk-2221", term: "integrity", phonetic: "/in'tegriti/", pos: "n.", meaningZh: "诚信；完整；正直；廉正；完整性", meaningEn: "honesty", band: "7", collocations: [], example: "The term integrity is defined as honesty.", exampleZh: "「integrity」被定义为诚信；完整。",
     senses: [
     {
     pos: "n.", meaningZh: "诚信；完整；正直；廉正；完整性", meaningEn: "honesty", collocations: [], example: "The term integrity is defined as honesty.", exampleZh: "「integrity」被定义为诚信；完整。" }
@@ -23276,7 +23276,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2223", term: "intense", phonetic: "in'tens", pos: "adj.", meaningZh: "强烈的；非常的；紧张的；热情的；强的", meaningEn: "strong", band: "7", collocations: [], example: "The word intense means strong.", exampleZh: "「intense」的意思是强烈的。",
+    id: "bulk-2223", term: "intense", phonetic: "/in'tens/", pos: "adj.", meaningZh: "强烈的；非常的；紧张的；热情的；强的", meaningEn: "strong", band: "7", collocations: [], example: "The word intense means strong.", exampleZh: "「intense」的意思是强烈的。",
     senses: [
     {
     pos: "adj.", meaningZh: "强烈的；非常的；紧张的；热情的；强的", meaningEn: "strong", collocations: [], example: "The word intense means strong.", exampleZh: "「intense」的意思是强烈的。" }
@@ -23319,7 +23319,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2228", term: "intervene", phonetic: ".intә'vi:n", pos: "v.", meaningZh: "干预", meaningEn: "to step in", band: "7", collocations: [], example: "In English, intervene refers to to step in.", exampleZh: "在英语中，「intervene」指干预。",
+    id: "bulk-2228", term: "intervene", phonetic: "/.intә'vi:n/", pos: "v.", meaningZh: "干预", meaningEn: "to step in", band: "7", collocations: [], example: "In English, intervene refers to to step in.", exampleZh: "在英语中，「intervene」指干预。",
     senses: [
     {
     pos: "v.", meaningZh: "干预", meaningEn: "to step in", collocations: [], example: "In English, intervene refers to to step in.", exampleZh: "在英语中，「intervene」指干预。" },
@@ -23366,7 +23366,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2233", term: "isolate", phonetic: "'aisәleit", pos: "v.", meaningZh: "隔离", meaningEn: "to separate", band: "7", collocations: [], example: "We use isolate to mean to separate.", exampleZh: "我们用「isolate」表示隔离。",
+    id: "bulk-2233", term: "isolate", phonetic: "/aisәleit/", pos: "v.", meaningZh: "隔离", meaningEn: "to separate", band: "7", collocations: [], example: "We use isolate to mean to separate.", exampleZh: "我们用「isolate」表示隔离。",
     senses: [
     {
     pos: "v.", meaningZh: "隔离", meaningEn: "to separate", collocations: [], example: "We use isolate to mean to separate.", exampleZh: "我们用「isolate」表示隔离。" },
@@ -23473,7 +23473,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2242", term: "legitimate", phonetic: "li'dʒitimәt", pos: "adj.", meaningZh: "合法的；正当的；婚生的", meaningEn: "valid", band: "7", collocations: [], example: "In English, legitimate refers to valid.", exampleZh: "在英语中，「legitimate」指合法的。",
+    id: "bulk-2242", term: "legitimate", phonetic: "/li'dʒitimәt/", pos: "adj.", meaningZh: "合法的；正当的；婚生的", meaningEn: "valid", band: "7", collocations: [], example: "In English, legitimate refers to valid.", exampleZh: "在英语中，「legitimate」指合法的。",
     senses: [
     {
     pos: "adj.", meaningZh: "合法的；正当的；婚生的", meaningEn: "valid", collocations: [], example: "In English, legitimate refers to valid.", exampleZh: "在英语中，「legitimate」指合法的。" },
@@ -23572,7 +23572,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2251", term: "major", phonetic: "'meidʒә", pos: "adj.", meaningZh: "主要的；较多的；大部分的；成年的；严重的", meaningEn: "main", band: "7", collocations: [], example: "We use major to mean main.", exampleZh: "我们用「major」表示主要的。",
+    id: "bulk-2251", term: "major", phonetic: "/meidʒә/", pos: "adj.", meaningZh: "主要的；较多的；大部分的；成年的；严重的", meaningEn: "main", band: "7", collocations: [], example: "We use major to mean main.", exampleZh: "我们用「major」表示主要的。",
     senses: [
     {
     pos: "adj.", meaningZh: "主要的；较多的；大部分的；成年的；严重的", meaningEn: "main", collocations: [], example: "We use major to mean main.", exampleZh: "我们用「major」表示主要的。" },
@@ -23592,7 +23592,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2253", term: "manual", phonetic: "'mænjuәl", pos: "adj./n.", meaningZh: "手动的；手册；手的；手工的；体力的；人工的", meaningEn: "by hand", band: "7", collocations: [], example: "In English, manual refers to by hand.", exampleZh: "在英语中，「manual」指手动的；手册。",
+    id: "bulk-2253", term: "manual", phonetic: "/mænjuәl/", pos: "adj./n.", meaningZh: "手动的；手册；手的；手工的；体力的；人工的", meaningEn: "by hand", band: "7", collocations: [], example: "In English, manual refers to by hand.", exampleZh: "在英语中，「manual」指手动的；手册。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "手动的；手册；手的；手工的；体力的；人工的", meaningEn: "by hand", collocations: [], example: "In English, manual refers to by hand.", exampleZh: "在英语中，「manual」指手动的；手册。" },
@@ -23625,7 +23625,7 @@ const part_8: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2256", term: "maximize", phonetic: "'mæksimaiz", pos: "v.", meaningZh: "最大化", meaningEn: "to increase most", band: "7", collocations: [], example: "The word maximize means to increase most.", exampleZh: "「maximize」的意思是最大化。",
+    id: "bulk-2256", term: "maximize", phonetic: "/mæksimaiz/", pos: "v.", meaningZh: "最大化", meaningEn: "to increase most", band: "7", collocations: [], example: "The word maximize means to increase most.", exampleZh: "「maximize」的意思是最大化。",
     senses: [
     {
     pos: "v.", meaningZh: "最大化", meaningEn: "to increase most", collocations: [], example: "The word maximize means to increase most.", exampleZh: "「maximize」的意思是最大化。" },
@@ -23930,7 +23930,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2288", term: "nuclear", phonetic: "'nju:kliә", pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the atom", band: "7", collocations: [], example: "We use nuclear to mean of the atom.", exampleZh: "我们用「nuclear」表示核能的。",
+    id: "bulk-2288", term: "nuclear", phonetic: "/nju:kliә/", pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the atom", band: "7", collocations: [], example: "We use nuclear to mean of the atom.", exampleZh: "我们用「nuclear」表示核能的。",
     senses: [
     {
     pos: "adj.", meaningZh: "核能的；核子的；原子能的；核的；中心的", meaningEn: "of the atom", collocations: [], example: "We use nuclear to mean of the atom.", exampleZh: "我们用「nuclear」表示核能的。" }
@@ -24004,7 +24004,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2296", term: "ongoing", phonetic: "'ɒngәuiŋ", pos: "adj.", meaningZh: "进行中的；前进的；进行的；不间断的", meaningEn: "continuing", band: "7", collocations: [], example: "The word ongoing means continuing.", exampleZh: "「ongoing」的意思是进行中的。",
+    id: "bulk-2296", term: "ongoing", phonetic: "/ɒngәuiŋ/", pos: "adj.", meaningZh: "进行中的；前进的；进行的；不间断的", meaningEn: "continuing", band: "7", collocations: [], example: "The word ongoing means continuing.", exampleZh: "「ongoing」的意思是进行中的。",
     senses: [
     {
     pos: "adj.", meaningZh: "进行中的；前进的；进行的；不间断的", meaningEn: "continuing", collocations: [], example: "The word ongoing means continuing.", exampleZh: "「ongoing」的意思是进行中的。" },
@@ -24057,7 +24057,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2301", term: "overall", phonetic: "'әuvәrɒ:l", pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", band: "7", collocations: [], example: "In English, overall refers to total.", exampleZh: "在英语中，「overall」指总体的。",
+    id: "bulk-2301", term: "overall", phonetic: "/әuvәrɒ:l/", pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", band: "7", collocations: [], example: "In English, overall refers to total.", exampleZh: "在英语中，「overall」指总体的。",
     senses: [
     {
     pos: "adj.", meaningZh: "总体的；全部的；全体的；从头至尾的；一切在内的", meaningEn: "total", collocations: [], example: "In English, overall refers to total.", exampleZh: "在英语中，「overall」指总体的。" },
@@ -24164,7 +24164,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2312", term: "period", phonetic: "'piәriәd", pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "time span", band: "7", collocations: [], example: "In English, period refers to time span.", exampleZh: "在英语中，「period」指时期。",
+    id: "bulk-2312", term: "period", phonetic: "/piәriәd/", pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "time span", band: "7", collocations: [], example: "In English, period refers to time span.", exampleZh: "在英语中，「period」指时期。",
     senses: [
     {
     pos: "n.", meaningZh: "时期；节段；句点；学时；周期", meaningEn: "time span", collocations: [], example: "In English, period refers to time span.", exampleZh: "在英语中，「period」指时期。" },
@@ -24198,7 +24198,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2316", term: "philosophy", phonetic: "fi'lɒsәfi", pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "belief", band: "7", collocations: [], example: "In English, philosophy refers to belief.", exampleZh: "在英语中，「philosophy」指哲学。",
+    id: "bulk-2316", term: "philosophy", phonetic: "/fi'lɒsәfi/", pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "belief", band: "7", collocations: [], example: "In English, philosophy refers to belief.", exampleZh: "在英语中，「philosophy」指哲学。",
     senses: [
     {
     pos: "n.", meaningZh: "哲学；人生观；哲学思想；哲理；基本原理；见解；达观；沉着", meaningEn: "belief", collocations: [], example: "In English, philosophy refers to belief.", exampleZh: "在英语中，「philosophy」指哲学。" }
@@ -24303,7 +24303,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2327", term: "predominant", phonetic: "pri'dɒminәnt", pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", band: "7", collocations: [], example: "In English, predominant refers to main.", exampleZh: "在英语中，「predominant」指主导的。",
+    id: "bulk-2327", term: "predominant", phonetic: "/pri'dɒminәnt/", pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", band: "7", collocations: [], example: "In English, predominant refers to main.", exampleZh: "在英语中，「predominant」指主导的。",
     senses: [
     {
     pos: "adj.", meaningZh: "主导的；占主导地位的；卓越的；占优势的；支配其他的；主要的", meaningEn: "main", collocations: [], example: "In English, predominant refers to main.", exampleZh: "在英语中，「predominant」指主导的。" },
@@ -24352,7 +24352,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2332", term: "preside", phonetic: "pri'zaid", pos: "v.", meaningZh: "主持", meaningEn: "to lead a meeting", band: "7", collocations: [], example: "We use preside to mean to lead a meeting.", exampleZh: "我们用「preside」表示主持。",
+    id: "bulk-2332", term: "preside", phonetic: "/pri'zaid/", pos: "v.", meaningZh: "主持", meaningEn: "to lead a meeting", band: "7", collocations: [], example: "We use preside to mean to lead a meeting.", exampleZh: "我们用「preside」表示主持。",
     senses: [
     {
     pos: "v.", meaningZh: "主持", meaningEn: "to lead a meeting", collocations: [], example: "We use preside to mean to lead a meeting.", exampleZh: "我们用「preside」表示主持。" },
@@ -24473,7 +24473,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2345", term: "produce", phonetic: "prә'dju:s", pos: "v.", meaningZh: "生产", meaningEn: "to make", band: "7", collocations: [], example: "In English, produce refers to to make.", exampleZh: "在英语中，「produce」指生产。",
+    id: "bulk-2345", term: "produce", phonetic: "/prә'dju:s/", pos: "v.", meaningZh: "生产", meaningEn: "to make", band: "7", collocations: [], example: "In English, produce refers to to make.", exampleZh: "在英语中，「produce」指生产。",
     senses: [
     {
     pos: "v.", meaningZh: "生产", meaningEn: "to make", collocations: [], example: "In English, produce refers to to make.", exampleZh: "在英语中，「produce」指生产。" },
@@ -24486,14 +24486,14 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2346", term: "product", phonetic: "'prɒdʌkt", pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "item", band: "7", collocations: [], example: "The term product is defined as item.", exampleZh: "「product」被定义为产品。",
+    id: "bulk-2346", term: "product", phonetic: "/prɒdʌkt/", pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "item", band: "7", collocations: [], example: "The term product is defined as item.", exampleZh: "「product」被定义为产品。",
     senses: [
     {
     pos: "n.", meaningZh: "产品；结果；乘积；生产物", meaningEn: "item", collocations: [], example: "The term product is defined as item.", exampleZh: "「product」被定义为产品。" }
     ]
   },
   {
-    id: "bulk-2347", term: "profile", phonetic: "'prәufail", pos: "n.", meaningZh: "概况；侧面；轮廓；传略", meaningEn: "summary", band: "7", collocations: [], example: "We use profile to mean summary.", exampleZh: "我们用「profile」表示概况。",
+    id: "bulk-2347", term: "profile", phonetic: "/prәufail/", pos: "n.", meaningZh: "概况；侧面；轮廓；传略", meaningEn: "summary", band: "7", collocations: [], example: "We use profile to mean summary.", exampleZh: "我们用「profile」表示概况。",
     senses: [
     {
     pos: "n.", meaningZh: "概况；侧面；轮廓；传略", meaningEn: "summary", collocations: [], example: "We use profile to mean summary.", exampleZh: "我们用「profile」表示概况。" },
@@ -24502,7 +24502,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2348", term: "profit", phonetic: "'prɒfit", pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "gain", band: "7", collocations: [], example: "The word profit means gain.", exampleZh: "「profit」的意思是利润。",
+    id: "bulk-2348", term: "profit", phonetic: "/prɒfit/", pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "gain", band: "7", collocations: [], example: "The word profit means gain.", exampleZh: "「profit」的意思是利润。",
     senses: [
     {
     pos: "n.", meaningZh: "利润；赢利；利益", meaningEn: "gain", collocations: [], example: "The word profit means gain.", exampleZh: "「profit」的意思是利润。" },
@@ -24520,7 +24520,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2350", term: "program", phonetic: "'prәugræm", pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "plan", band: "7", collocations: [], example: "We use program to mean plan.", exampleZh: "我们用「program」表示项目；程序。",
+    id: "bulk-2350", term: "program", phonetic: "/prәugræm/", pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "plan", band: "7", collocations: [], example: "We use program to mean plan.", exampleZh: "我们用「program」表示项目；程序。",
     senses: [
     {
     pos: "n.", meaningZh: "项目；程序；节目；节目单；纲要；大纲；计划", meaningEn: "plan", collocations: [], example: "We use program to mean plan.", exampleZh: "我们用「program」表示项目；程序。" },
@@ -24531,7 +24531,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2351", term: "project", phonetic: "'prɒdʒekt", pos: "n./v.", meaningZh: "项目；投射；计划；设计；事业", meaningEn: "plan", band: "7", collocations: [], example: "The word project means plan.", exampleZh: "「project」的意思是项目；投射。",
+    id: "bulk-2351", term: "project", phonetic: "/prɒdʒekt/", pos: "n./v.", meaningZh: "项目；投射；计划；设计；事业", meaningEn: "plan", band: "7", collocations: [], example: "The word project means plan.", exampleZh: "「project」的意思是项目；投射。",
     senses: [
     {
     pos: "n./v.", meaningZh: "项目；投射；计划；设计；事业", meaningEn: "plan", collocations: [], example: "The word project means plan.", exampleZh: "「project」的意思是项目；投射。" },
@@ -24766,7 +24766,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2374", term: "recall", phonetic: "ri'kɒ:l", pos: "v.", meaningZh: "回忆", meaningEn: "to remember", band: "7", collocations: [], example: "In English, recall refers to to remember.", exampleZh: "在英语中，「recall」指回忆。",
+    id: "bulk-2374", term: "recall", phonetic: "/ri'kɒ:l/", pos: "v.", meaningZh: "回忆", meaningEn: "to remember", band: "7", collocations: [], example: "In English, recall refers to to remember.", exampleZh: "在英语中，「recall」指回忆。",
     senses: [
     {
     pos: "v.", meaningZh: "回忆", meaningEn: "to remember", collocations: [], example: "In English, recall refers to to remember.", exampleZh: "在英语中，「recall」指回忆。" },
@@ -24777,14 +24777,14 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2375", term: "recent", phonetic: "'ri:snt", pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "new", band: "7", collocations: [], example: "The term recent is defined as new.", exampleZh: "「recent」被定义为最近的。",
+    id: "bulk-2375", term: "recent", phonetic: "/ri:snt/", pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "new", band: "7", collocations: [], example: "The term recent is defined as new.", exampleZh: "「recent」被定义为最近的。",
     senses: [
     {
     pos: "adj.", meaningZh: "最近的；近代的；最新的；新进的", meaningEn: "new", collocations: [], example: "The term recent is defined as new.", exampleZh: "「recent」被定义为最近的。" }
     ]
   },
   {
-    id: "bulk-2376", term: "recognize", phonetic: "'rekәgnaiz", pos: "v.", meaningZh: "认出", meaningEn: "to know", band: "7", collocations: [], example: "We use recognize to mean to know.", exampleZh: "我们用「recognize」表示认出。",
+    id: "bulk-2376", term: "recognize", phonetic: "/rekәgnaiz/", pos: "v.", meaningZh: "认出", meaningEn: "to know", band: "7", collocations: [], example: "We use recognize to mean to know.", exampleZh: "我们用「recognize」表示认出。",
     senses: [
     {
     pos: "v.", meaningZh: "认出", meaningEn: "to know", collocations: [], example: "We use recognize to mean to know.", exampleZh: "我们用「recognize」表示认出。" },
@@ -24804,7 +24804,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2378", term: "record", phonetic: "ri'kɒ:d", pos: "n./v.", meaningZh: "记录；履历；档案；审判记录；最高纪录；唱片", meaningEn: "to note", band: "7", collocations: [], example: "In English, record refers to to note.", exampleZh: "在英语中，「record」指记录。",
+    id: "bulk-2378", term: "record", phonetic: "/ri'kɒ:d/", pos: "n./v.", meaningZh: "记录；履历；档案；审判记录；最高纪录；唱片", meaningEn: "to note", band: "7", collocations: [], example: "In English, record refers to to note.", exampleZh: "在英语中，「record」指记录。",
     senses: [
     {
     pos: "n./v.", meaningZh: "记录；履历；档案；审判记录；最高纪录；唱片", meaningEn: "to note", collocations: [], example: "In English, record refers to to note.", exampleZh: "在英语中，「record」指记录。" },
@@ -24817,7 +24817,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2379", term: "recover", phonetic: "ri'kʌvә", pos: "v.", meaningZh: "恢复", meaningEn: "to get well", band: "7", collocations: [], example: "The term recover is defined as to get well.", exampleZh: "「recover」被定义为恢复。",
+    id: "bulk-2379", term: "recover", phonetic: "/ri'kʌvә/", pos: "v.", meaningZh: "恢复", meaningEn: "to get well", band: "7", collocations: [], example: "The term recover is defined as to get well.", exampleZh: "「recover」被定义为恢复。",
     senses: [
     {
     pos: "v.", meaningZh: "恢复", meaningEn: "to get well", collocations: [], example: "The term recover is defined as to get well.", exampleZh: "「recover」被定义为恢复。" },
@@ -24839,7 +24839,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2381", term: "reflect", phonetic: "ri'flekt", pos: "v.", meaningZh: "反映", meaningEn: "to show", band: "7", collocations: [], example: "In English, reflect refers to to show.", exampleZh: "在英语中，「reflect」指反映。",
+    id: "bulk-2381", term: "reflect", phonetic: "/ri'flekt/", pos: "v.", meaningZh: "反映", meaningEn: "to show", band: "7", collocations: [], example: "In English, reflect refers to to show.", exampleZh: "在英语中，「reflect」指反映。",
     senses: [
     {
     pos: "v.", meaningZh: "反映", meaningEn: "to show", collocations: [], example: "In English, reflect refers to to show.", exampleZh: "在英语中，「reflect」指反映。" },
@@ -24918,7 +24918,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2388", term: "reject", phonetic: "ri'dʒekt", pos: "v.", meaningZh: "拒绝", meaningEn: "to refuse", band: "7", collocations: [], example: "The word reject means to refuse.", exampleZh: "「reject」的意思是拒绝。",
+    id: "bulk-2388", term: "reject", phonetic: "/ri'dʒekt/", pos: "v.", meaningZh: "拒绝", meaningEn: "to refuse", band: "7", collocations: [], example: "The word reject means to refuse.", exampleZh: "「reject」的意思是拒绝。",
     senses: [
     {
     pos: "v.", meaningZh: "拒绝", meaningEn: "to refuse", collocations: [], example: "The word reject means to refuse.", exampleZh: "「reject」的意思是拒绝。" },
@@ -24985,7 +24985,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2395", term: "remote", phonetic: "[ɹəˈməʊt]", pos: "adj.", meaningZh: "偏远的；遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", band: "7", collocations: [], example: "The word remote means far.", exampleZh: "「remote」的意思是偏远的。",
+    id: "bulk-2395", term: "remote", phonetic: "/[ɹəˈməʊt]/", pos: "adj.", meaningZh: "偏远的；遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", band: "7", collocations: [], example: "The word remote means far.", exampleZh: "「remote」的意思是偏远的。",
     senses: [
     {
     pos: "adj.", meaningZh: "偏远的；遥远的；偏僻的；疏远的；微少的；远程；远程访问实用程序", meaningEn: "far", collocations: [], example: "The word remote means far.", exampleZh: "「remote」的意思是偏远的。" },
@@ -25055,7 +25055,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2401", term: "repress", phonetic: "ri'pres", pos: "v.", meaningZh: "压抑", meaningEn: "to hold back", band: "7", collocations: [], example: "The term repress is defined as to hold back.", exampleZh: "「repress」被定义为压抑。",
+    id: "bulk-2401", term: "repress", phonetic: "/ri'pres/", pos: "v.", meaningZh: "压抑", meaningEn: "to hold back", band: "7", collocations: [], example: "The term repress is defined as to hold back.", exampleZh: "「repress」被定义为压抑。",
     senses: [
     {
     pos: "v.", meaningZh: "压抑", meaningEn: "to hold back", collocations: [], example: "The term repress is defined as to hold back.", exampleZh: "「repress」被定义为压抑。" },
@@ -25126,7 +25126,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2408", term: "respond", phonetic: "ri'spɒnd", pos: "v.", meaningZh: "回应", meaningEn: "to reply", band: "7", collocations: [], example: "In English, respond refers to to reply.", exampleZh: "在英语中，「respond」指回应。",
+    id: "bulk-2408", term: "respond", phonetic: "/ri'spɒnd/", pos: "v.", meaningZh: "回应", meaningEn: "to reply", band: "7", collocations: [], example: "In English, respond refers to to reply.", exampleZh: "在英语中，「respond」指回应。",
     senses: [
     {
     pos: "v.", meaningZh: "回应", meaningEn: "to reply", collocations: [], example: "In English, respond refers to to reply.", exampleZh: "在英语中，「respond」指回应。" },
@@ -25280,7 +25280,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2422", term: "rural", phonetic: "'ruәrәl", pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "country", band: "7", collocations: [], example: "In English, rural refers to country.", exampleZh: "在英语中，「rural」指农村的。",
+    id: "bulk-2422", term: "rural", phonetic: "/ruәrәl/", pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "country", band: "7", collocations: [], example: "In English, rural refers to country.", exampleZh: "在英语中，「rural」指农村的。",
     senses: [
     {
     pos: "adj.", meaningZh: "农村的；乡下的；田园的；乡村风味的；乡村的；有关农业的", meaningEn: "country", collocations: [], example: "In English, rural refers to country.", exampleZh: "在英语中，「rural」指农村的。" }
@@ -25305,7 +25305,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2425", term: "scatter", phonetic: "'skætә", pos: "v.", meaningZh: "散播", meaningEn: "to spread", band: "7", collocations: [], example: "The word scatter means to spread.", exampleZh: "「scatter」的意思是散播。",
+    id: "bulk-2425", term: "scatter", phonetic: "/skætә/", pos: "v.", meaningZh: "散播", meaningEn: "to spread", band: "7", collocations: [], example: "The word scatter means to spread.", exampleZh: "「scatter」的意思是散播。",
     senses: [
     {
     pos: "v.", meaningZh: "散播", meaningEn: "to spread", collocations: [], example: "The word scatter means to spread.", exampleZh: "「scatter」的意思是散播。" },
@@ -25345,7 +25345,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2429", term: "sector", phonetic: "'sektә", pos: "n.", meaningZh: "部门；扇形；部分；函数尺；象限仪；段；区段", meaningEn: "field", band: "7", collocations: [], example: "The word sector means field.", exampleZh: "「sector」的意思是部门。",
+    id: "bulk-2429", term: "sector", phonetic: "/sektә/", pos: "n.", meaningZh: "部门；扇形；部分；函数尺；象限仪；段；区段", meaningEn: "field", band: "7", collocations: [], example: "The word sector means field.", exampleZh: "「sector」的意思是部门。",
     senses: [
     {
     pos: "n.", meaningZh: "部门；扇形；部分；函数尺；象限仪；段；区段", meaningEn: "field", collocations: [], example: "The word sector means field.", exampleZh: "「sector」的意思是部门。" },
@@ -25354,7 +25354,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2430", term: "secure", phonetic: "si'kjuә", pos: "adj./v.", meaningZh: "安全的；确保；无虑的；安心的；可靠的；保险的", meaningEn: "safe", band: "7", collocations: [], example: "The term secure is defined as safe.", exampleZh: "「secure」被定义为安全的；确保。",
+    id: "bulk-2430", term: "secure", phonetic: "/si'kjuә/", pos: "adj./v.", meaningZh: "安全的；确保；无虑的；安心的；可靠的；保险的", meaningEn: "safe", band: "7", collocations: [], example: "The term secure is defined as safe.", exampleZh: "「secure」被定义为安全的；确保。",
     senses: [
     {
     pos: "adj./v.", meaningZh: "安全的；确保；无虑的；安心的；可靠的；保险的", meaningEn: "safe", collocations: [], example: "The term secure is defined as safe.", exampleZh: "「secure」被定义为安全的；确保。" },
@@ -25365,7 +25365,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2431", term: "seek", phonetic: "si:k", pos: "v.", meaningZh: "寻求", meaningEn: "to look for", band: "7", collocations: [], example: "We use seek to mean to look for.", exampleZh: "我们用「seek」表示寻求。",
+    id: "bulk-2431", term: "seek", phonetic: "/si:k/", pos: "v.", meaningZh: "寻求", meaningEn: "to look for", band: "7", collocations: [], example: "We use seek to mean to look for.", exampleZh: "我们用「seek」表示寻求。",
     senses: [
     {
     pos: "v.", meaningZh: "寻求", meaningEn: "to look for", collocations: [], example: "We use seek to mean to look for.", exampleZh: "我们用「seek」表示寻求。" },
@@ -25376,7 +25376,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2432", term: "segment", phonetic: "'segmәnt", pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "piece", band: "7", collocations: [], example: "The word segment means piece.", exampleZh: "「segment」的意思是部分。",
+    id: "bulk-2432", term: "segment", phonetic: "/segmәnt/", pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "piece", band: "7", collocations: [], example: "The word segment means piece.", exampleZh: "「segment」的意思是部分。",
     senses: [
     {
     pos: "n.", meaningZh: "部分；片段；分节", meaningEn: "piece", collocations: [], example: "The word segment means piece.", exampleZh: "「segment」的意思是部分。" },
@@ -25505,7 +25505,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2445", term: "slight", phonetic: "[sl̥l͡ɐɪʔ̚]", pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", band: "7", collocations: [], example: "The term slight is defined as small.", exampleZh: "「slight」被定义为轻微的。",
+    id: "bulk-2445", term: "slight", phonetic: "/[sl̥l͡ɐɪʔ̚]/", pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", band: "7", collocations: [], example: "The term slight is defined as small.", exampleZh: "「slight」被定义为轻微的。",
     senses: [
     {
     pos: "adj.", meaningZh: "轻微的；纤细的；脆弱的；苗条的", meaningEn: "small", collocations: [], example: "The term slight is defined as small.", exampleZh: "「slight」被定义为轻微的。" },
@@ -25628,7 +25628,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2456", term: "sphere", phonetic: "sfiә", pos: "n.", meaningZh: "领域；球体；球面；天体；地球仪；范围", meaningEn: "field", band: "7", collocations: [], example: "The term sphere is defined as field.", exampleZh: "「sphere」被定义为领域；球体。",
+    id: "bulk-2456", term: "sphere", phonetic: "/sfiә/", pos: "n.", meaningZh: "领域；球体；球面；天体；地球仪；范围", meaningEn: "field", band: "7", collocations: [], example: "The term sphere is defined as field.", exampleZh: "「sphere」被定义为领域；球体。",
     senses: [
     {
     pos: "n.", meaningZh: "领域；球体；球面；天体；地球仪；范围", meaningEn: "field", collocations: [], example: "The term sphere is defined as field.", exampleZh: "「sphere」被定义为领域；球体。" },
@@ -25650,7 +25650,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2458", term: "statistic", phonetic: "stә'tistik", pos: "n.", meaningZh: "统计；统计量", meaningEn: "data point", band: "7", collocations: [], example: "The word statistic means data point.", exampleZh: "「statistic」的意思是统计。",
+    id: "bulk-2458", term: "statistic", phonetic: "/stә'tistik/", pos: "n.", meaningZh: "统计；统计量", meaningEn: "data point", band: "7", collocations: [], example: "The word statistic means data point.", exampleZh: "「statistic」的意思是统计。",
     senses: [
     {
     pos: "n.", meaningZh: "统计；统计量", meaningEn: "data point", collocations: [], example: "The word statistic means data point.", exampleZh: "「statistic」的意思是统计。" },
@@ -25666,7 +25666,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2460", term: "steady", phonetic: "'stedi", pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "stable", band: "7", collocations: [], example: "The pace is stable.", exampleZh: "节奏稳定。",
+    id: "bulk-2460", term: "steady", phonetic: "/stedi/", pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "stable", band: "7", collocations: [], example: "The pace is stable.", exampleZh: "节奏稳定。",
     senses: [
     {
     pos: "adj.", meaningZh: "稳定的；不动摇的；沉着的；稳固的；坚定的；经常的", meaningEn: "stable", collocations: [], example: "The pace is stable.", exampleZh: "节奏稳定。" },
@@ -25691,7 +25691,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2463", term: "stress", phonetic: "stres", pos: "n./v.", meaningZh: "压力；强调；紧迫；重音；重点；应力", meaningEn: "pressure", band: "7", collocations: [], example: "The term stress is defined as pressure.", exampleZh: "「stress」被定义为压力；强调。",
+    id: "bulk-2463", term: "stress", phonetic: "/stres/", pos: "n./v.", meaningZh: "压力；强调；紧迫；重音；重点；应力", meaningEn: "pressure", band: "7", collocations: [], example: "The term stress is defined as pressure.", exampleZh: "「stress」被定义为压力；强调。",
     senses: [
     {
     pos: "n./v.", meaningZh: "压力；强调；紧迫；重音；重点；应力", meaningEn: "pressure", collocations: [], example: "The term stress is defined as pressure.", exampleZh: "「stress」被定义为压力；强调。" },
@@ -25897,7 +25897,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2483", term: "survey", phonetic: "sә'vei", pos: "n./v.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "to study", band: "7", collocations: [], example: "The word survey means to study.", exampleZh: "「survey」的意思是调查。",
+    id: "bulk-2483", term: "survey", phonetic: "/sә'vei/", pos: "n./v.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "to study", band: "7", collocations: [], example: "The word survey means to study.", exampleZh: "「survey」的意思是调查。",
     senses: [
     {
     pos: "n./v.", meaningZh: "调查；纵览；视察；测量；俯瞰", meaningEn: "to study", collocations: [], example: "The word survey means to study.", exampleZh: "「survey」的意思是调查。" },
@@ -25961,14 +25961,14 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2489", term: "system", phonetic: "'sistәm", pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "setup", band: "7", collocations: [], example: "The term system is defined as setup.", exampleZh: "「system」被定义为系统。",
+    id: "bulk-2489", term: "system", phonetic: "/sistәm/", pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "setup", band: "7", collocations: [], example: "The term system is defined as setup.", exampleZh: "「system」被定义为系统。",
     senses: [
     {
     pos: "n.", meaningZh: "系统；体系；制度；方式；秩序；分类原则；体制", meaningEn: "setup", collocations: [], example: "The term system is defined as setup.", exampleZh: "「system」被定义为系统。" }
     ]
   },
   {
-    id: "bulk-2490", term: "target", phonetic: "'tɑ:git", pos: "n./v.", meaningZh: "目标；瞄准；靶子；指标", meaningEn: "goal", band: "7", collocations: [], example: "The word target means goal.", exampleZh: "「target」的意思是目标；瞄准。",
+    id: "bulk-2490", term: "target", phonetic: "/tɑ:git/", pos: "n./v.", meaningZh: "目标；瞄准；靶子；指标", meaningEn: "goal", band: "7", collocations: [], example: "The word target means goal.", exampleZh: "「target」的意思是目标；瞄准。",
     senses: [
     {
     pos: "n./v.", meaningZh: "目标；瞄准；靶子；指标", meaningEn: "goal", collocations: [], example: "The word target means goal.", exampleZh: "「target」的意思是目标；瞄准。" },
@@ -25977,7 +25977,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2491", term: "task", phonetic: "tɑ:sk", pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "job", band: "7", collocations: [], example: "In English, task refers to job.", exampleZh: "在英语中，「task」指任务。",
+    id: "bulk-2491", term: "task", phonetic: "/tɑ:sk/", pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "job", band: "7", collocations: [], example: "In English, task refers to job.", exampleZh: "在英语中，「task」指任务。",
     senses: [
     {
     pos: "n.", meaningZh: "任务；工作；作业；困难的工作", meaningEn: "job", collocations: [], example: "In English, task refers to job.", exampleZh: "在英语中，「task」指任务。" },
@@ -25986,7 +25986,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2492", term: "technical", phonetic: "'teknikl", pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", band: "7", collocations: [], example: "The term technical is defined as of skill.", exampleZh: "「technical」被定义为技术的。",
+    id: "bulk-2492", term: "technical", phonetic: "/teknikl/", pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", band: "7", collocations: [], example: "The term technical is defined as of skill.", exampleZh: "「technical」被定义为技术的。",
     senses: [
     {
     pos: "adj.", meaningZh: "技术的；技术上的；专门的；工业的；严格根据法律的；技巧", meaningEn: "of skill", collocations: [], example: "The term technical is defined as of skill.", exampleZh: "「technical」被定义为技术的。" }
@@ -26232,7 +26232,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2516", term: "transport", phonetic: "træns'pɒ:t", pos: "n./v.", meaningZh: "运输；运输工具；激动；狂喜；流放犯", meaningEn: "to carry", band: "7", collocations: [], example: "We use transport to mean to carry.", exampleZh: "我们用「transport」表示运输。",
+    id: "bulk-2516", term: "transport", phonetic: "/træns'pɒ:t/", pos: "n./v.", meaningZh: "运输；运输工具；激动；狂喜；流放犯", meaningEn: "to carry", band: "7", collocations: [], example: "We use transport to mean to carry.", exampleZh: "我们用「transport」表示运输。",
     senses: [
     {
     pos: "n./v.", meaningZh: "运输；运输工具；激动；狂喜；流放犯", meaningEn: "to carry", collocations: [], example: "We use transport to mean to carry.", exampleZh: "我们用「transport」表示运输。" },
@@ -26296,7 +26296,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2522", term: "underlie", phonetic: ".ʌndә'lai", pos: "v.", meaningZh: "构成基础", meaningEn: "to be base", band: "7", collocations: [], example: "Trust underlies all.", exampleZh: "信任是一切的基础。",
+    id: "bulk-2522", term: "underlie", phonetic: "/.ʌndә'lai/", pos: "v.", meaningZh: "构成基础", meaningEn: "to be base", band: "7", collocations: [], example: "Trust underlies all.", exampleZh: "信任是一切的基础。",
     senses: [
     {
     pos: "v.", meaningZh: "构成基础", meaningEn: "to be base", collocations: [], example: "Trust underlies all.", exampleZh: "信任是一切的基础。" },
@@ -26323,7 +26323,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2525", term: "unify", phonetic: "'ju:nifai", pos: "v.", meaningZh: "统一；使成一体", meaningEn: "to join", band: "7", collocations: [], example: "In English, unify refers to to join.", exampleZh: "在英语中，「unify」指统一。",
+    id: "bulk-2525", term: "unify", phonetic: "/ju:nifai/", pos: "v.", meaningZh: "统一；使成一体", meaningEn: "to join", band: "7", collocations: [], example: "In English, unify refers to to join.", exampleZh: "在英语中，「unify」指统一。",
     senses: [
     {
     pos: "v.", meaningZh: "统一；使成一体", meaningEn: "to join", collocations: [], example: "In English, unify refers to to join.", exampleZh: "在英语中，「unify」指统一。" }
@@ -26337,7 +26337,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2527", term: "update", phonetic: "ʌp'deit", pos: "v./n.", meaningZh: "更新", meaningEn: "to refresh", band: "7", collocations: [], example: "We use update to mean to refresh.", exampleZh: "我们用「update」表示更新。",
+    id: "bulk-2527", term: "update", phonetic: "/ʌp'deit/", pos: "v./n.", meaningZh: "更新", meaningEn: "to refresh", band: "7", collocations: [], example: "We use update to mean to refresh.", exampleZh: "我们用「update」表示更新。",
     senses: [
     {
     pos: "v./n.", meaningZh: "更新", meaningEn: "to refresh", collocations: [], example: "We use update to mean to refresh.", exampleZh: "我们用「update」表示更新。" },
@@ -26348,7 +26348,7 @@ const part_9: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2528", term: "utility", phonetic: "ju:'tiliti", pos: "n.", meaningZh: "效用；功用；有用之物；实用；公用事业；实用程序", meaningEn: "use", band: "7", collocations: [], example: "The word utility means use.", exampleZh: "「utility」的意思是效用。",
+    id: "bulk-2528", term: "utility", phonetic: "/ju:'tiliti/", pos: "n.", meaningZh: "效用；功用；有用之物；实用；公用事业；实用程序", meaningEn: "use", band: "7", collocations: [], example: "The word utility means use.", exampleZh: "「utility」的意思是效用。",
     senses: [
     {
     pos: "n.", meaningZh: "效用；功用；有用之物；实用；公用事业；实用程序", meaningEn: "use", collocations: [], example: "The word utility means use.", exampleZh: "「utility」的意思是效用。" },
@@ -26547,14 +26547,14 @@ const part_9: VocabEntry[] = [
 
 const part_10: VocabEntry[] = [
   {
-    id: "bulk-2548", term: "widespread", phonetic: "'waidspred", pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "common", band: "7", collocations: [], example: "The term widespread is defined as common.", exampleZh: "「widespread」被定义为广泛的。",
+    id: "bulk-2548", term: "widespread", phonetic: "/waidspred/", pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "common", band: "7", collocations: [], example: "The term widespread is defined as common.", exampleZh: "「widespread」被定义为广泛的。",
     senses: [
     {
     pos: "adj.", meaningZh: "广泛的；充分伸展的；广布的；普及的；流传广的", meaningEn: "common", collocations: [], example: "The term widespread is defined as common.", exampleZh: "「widespread」被定义为广泛的。" }
     ]
   },
   {
-    id: "bulk-2549", term: "wisdom", phonetic: "'wizdәm", pos: "n.", meaningZh: "智慧；明智行为；学识；名言；贤人", meaningEn: "insight", band: "7", collocations: [], example: "We use wisdom to mean insight.", exampleZh: "我们用「wisdom」表示智慧。",
+    id: "bulk-2549", term: "wisdom", phonetic: "/wizdәm/", pos: "n.", meaningZh: "智慧；明智行为；学识；名言；贤人", meaningEn: "insight", band: "7", collocations: [], example: "We use wisdom to mean insight.", exampleZh: "我们用「wisdom」表示智慧。",
     senses: [
     {
     pos: "n.", meaningZh: "智慧；明智行为；学识；名言；贤人", meaningEn: "insight", collocations: [], example: "We use wisdom to mean insight.", exampleZh: "我们用「wisdom」表示智慧。" }
@@ -26572,7 +26572,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2551", term: "abate", phonetic: "ә'beit", pos: "v.", meaningZh: "减轻；减弱", meaningEn: "to become less strong", band: "8", collocations: [], example: "The pain abated slowly.", exampleZh: "疼痛慢慢减轻了。",
+    id: "bulk-2551", term: "abate", phonetic: "/ә'beit/", pos: "v.", meaningZh: "减轻；减弱", meaningEn: "to become less strong", band: "8", collocations: [], example: "The pain abated slowly.", exampleZh: "疼痛慢慢减轻了。",
     senses: [
     {
     pos: "v.", meaningZh: "减轻；减弱", meaningEn: "to become less strong", collocations: [], example: "The pain abated slowly.", exampleZh: "疼痛慢慢减轻了。" },
@@ -26583,7 +26583,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2552", term: "aberration", phonetic: "æbә'reiʃәn", pos: "n.", meaningZh: "反常；异常；离开正路；偏离；畸变；光行差；心理失常；色差；像差", meaningEn: "deviation from normal", band: "8", collocations: [], example: "The error was an aberration.", exampleZh: "那个错误属于反常。",
+    id: "bulk-2552", term: "aberration", phonetic: "/æbә'reiʃәn/", pos: "n.", meaningZh: "反常；异常；离开正路；偏离；畸变；光行差；心理失常；色差；像差", meaningEn: "deviation from normal", band: "8", collocations: [], example: "The error was an aberration.", exampleZh: "那个错误属于反常。",
     senses: [
     {
     pos: "n.", meaningZh: "反常；异常；离开正路；偏离；畸变；光行差；心理失常；色差；像差", meaningEn: "deviation from normal", collocations: [], example: "The error was an aberration.", exampleZh: "那个错误属于反常。" }
@@ -26599,7 +26599,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2554", term: "abolish", phonetic: "ә'bɒliʃ", pos: "v.", meaningZh: "废除；废止", meaningEn: "to end officially", band: "8", collocations: [], example: "They abolished the tax.", exampleZh: "他们废除了那项税。",
+    id: "bulk-2554", term: "abolish", phonetic: "/ә'bɒliʃ/", pos: "v.", meaningZh: "废除；废止", meaningEn: "to end officially", band: "8", collocations: [], example: "They abolished the tax.", exampleZh: "他们废除了那项税。",
     senses: [
     {
     pos: "v.", meaningZh: "废除；废止", meaningEn: "to end officially", collocations: [], example: "They abolished the tax.", exampleZh: "他们废除了那项税。" },
@@ -26617,7 +26617,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2556", term: "absolve", phonetic: "әb'zɒlv", pos: "v.", meaningZh: "赦免；免除", meaningEn: "to free from blame", band: "8", collocations: [], example: "The court absolved him.", exampleZh: "法庭赦免了他。",
+    id: "bulk-2556", term: "absolve", phonetic: "/әb'zɒlv/", pos: "v.", meaningZh: "赦免；免除", meaningEn: "to free from blame", band: "8", collocations: [], example: "The court absolved him.", exampleZh: "法庭赦免了他。",
     senses: [
     {
     pos: "v.", meaningZh: "赦免；免除", meaningEn: "to free from blame", collocations: [], example: "The court absolved him.", exampleZh: "法庭赦免了他。" },
@@ -26675,7 +26675,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2562", term: "adept", phonetic: "ә'dept", pos: "adj./n.", meaningZh: "熟练的；行家；老练的；巧妙的", meaningEn: "highly skilled", band: "8", collocations: [], example: "He is adept at coding.", exampleZh: "他精通编程。",
+    id: "bulk-2562", term: "adept", phonetic: "/ә'dept/", pos: "adj./n.", meaningZh: "熟练的；行家；老练的；巧妙的", meaningEn: "highly skilled", band: "8", collocations: [], example: "He is adept at coding.", exampleZh: "他精通编程。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "熟练的；行家；老练的；巧妙的", meaningEn: "highly skilled", collocations: [], example: "He is adept at coding.", exampleZh: "他精通编程。" },
@@ -26702,7 +26702,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2565", term: "affable", phonetic: "'æfәbl", pos: "adj.", meaningZh: "和蔼可亲的；友善的；亲切的；慈祥的", meaningEn: "friendly", band: "8", collocations: [], example: "The affable host smiled.", exampleZh: "那位和蔼的主人微笑着。",
+    id: "bulk-2565", term: "affable", phonetic: "/æfәbl/", pos: "adj.", meaningZh: "和蔼可亲的；友善的；亲切的；慈祥的", meaningEn: "friendly", band: "8", collocations: [], example: "The affable host smiled.", exampleZh: "那位和蔼的主人微笑着。",
     senses: [
     {
     pos: "adj.", meaningZh: "和蔼可亲的；友善的；亲切的；慈祥的", meaningEn: "friendly", collocations: [], example: "The affable host smiled.", exampleZh: "那位和蔼的主人微笑着。" }
@@ -26725,7 +26725,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2568", term: "alacrity", phonetic: "[əˈlækɹɨti]", pos: "n.", meaningZh: "敏捷；乐意；轻快", meaningEn: "cheerful readiness", band: "8", collocations: [], example: "She accepted with alacrity.", exampleZh: "她欣然接受了。",
+    id: "bulk-2568", term: "alacrity", phonetic: "/[əˈlækɹɨti]/", pos: "n.", meaningZh: "敏捷；乐意；轻快", meaningEn: "cheerful readiness", band: "8", collocations: [], example: "She accepted with alacrity.", exampleZh: "她欣然接受了。",
     senses: [
     {
     pos: "n.", meaningZh: "敏捷；乐意；轻快", meaningEn: "cheerful readiness", collocations: [], example: "She accepted with alacrity.", exampleZh: "她欣然接受了。" }
@@ -26829,7 +26829,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2580", term: "anomalous", phonetic: "ә'nɒmәlәs", pos: "adj.", meaningZh: "异常的；不规则的；反常的", meaningEn: "deviating from rule", band: "8", collocations: [], example: "The result was anomalous.", exampleZh: "结果异常。",
+    id: "bulk-2580", term: "anomalous", phonetic: "/ә'nɒmәlәs/", pos: "adj.", meaningZh: "异常的；不规则的；反常的", meaningEn: "deviating from rule", band: "8", collocations: [], example: "The result was anomalous.", exampleZh: "结果异常。",
     senses: [
     {
     pos: "adj.", meaningZh: "异常的；不规则的；反常的", meaningEn: "deviating from rule", collocations: [], example: "The result was anomalous.", exampleZh: "结果异常。" }
@@ -26931,14 +26931,14 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2592", term: "ascendancy", phonetic: "ә'sendәnsi", pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "supreme influence", band: "8", collocations: [], example: "The party gained ascendancy.", exampleZh: "那个政党取得了优势。",
+    id: "bulk-2592", term: "ascendancy", phonetic: "/ә'sendәnsi/", pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "supreme influence", band: "8", collocations: [], example: "The party gained ascendancy.", exampleZh: "那个政党取得了优势。",
     senses: [
     {
     pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "supreme influence", collocations: [], example: "The party gained ascendancy.", exampleZh: "那个政党取得了优势。" }
     ]
   },
   {
-    id: "bulk-2593", term: "aspersion", phonetic: "ә'spә:ʃәn", pos: "n.", meaningZh: "诽谤；溅洒；中伤；洒水；喷洒", meaningEn: "a false accusation", band: "8", collocations: [], example: "He cast aspersion on her.", exampleZh: "他诽谤了她。",
+    id: "bulk-2593", term: "aspersion", phonetic: "/ә'spә:ʃәn/", pos: "n.", meaningZh: "诽谤；溅洒；中伤；洒水；喷洒", meaningEn: "a false accusation", band: "8", collocations: [], example: "He cast aspersion on her.", exampleZh: "他诽谤了她。",
     senses: [
     {
     pos: "n.", meaningZh: "诽谤；溅洒；中伤；洒水；喷洒", meaningEn: "a false accusation", collocations: [], example: "He cast aspersion on her.", exampleZh: "他诽谤了她。" }
@@ -26992,14 +26992,14 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2599", term: "astute", phonetic: "ә'stju:t", pos: "adj.", meaningZh: "敏锐的；精明的；狡猾的", meaningEn: "shrewd", band: "8", collocations: [], example: "An astute investor profited.", exampleZh: "精明的投资者获利了。",
+    id: "bulk-2599", term: "astute", phonetic: "/ә'stju:t/", pos: "adj.", meaningZh: "敏锐的；精明的；狡猾的", meaningEn: "shrewd", band: "8", collocations: [], example: "An astute investor profited.", exampleZh: "精明的投资者获利了。",
     senses: [
     {
     pos: "adj.", meaningZh: "敏锐的；精明的；狡猾的", meaningEn: "shrewd", collocations: [], example: "An astute investor profited.", exampleZh: "精明的投资者获利了。" }
     ]
   },
   {
-    id: "bulk-2600", term: "attenuate", phonetic: "ә'tenjueit", pos: "v.", meaningZh: "使变薄；减弱", meaningEn: "to reduce strength", band: "8", collocations: [], example: "The drug attenuated the effect.", exampleZh: "那种药减弱了效果。",
+    id: "bulk-2600", term: "attenuate", phonetic: "/ә'tenjueit/", pos: "v.", meaningZh: "使变薄；减弱", meaningEn: "to reduce strength", band: "8", collocations: [], example: "The drug attenuated the effect.", exampleZh: "那种药减弱了效果。",
     senses: [
     {
     pos: "v.", meaningZh: "使变薄；减弱", meaningEn: "to reduce strength", collocations: [], example: "The drug attenuated the effect.", exampleZh: "那种药减弱了效果。" },
@@ -27012,14 +27012,14 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2601", term: "augment", phonetic: "ɒ:g'ment", pos: "v.", meaningZh: "增加；扩大；增长；增量；添加", meaningEn: "to make greater", band: "8", collocations: [], example: "They augmented the force.", exampleZh: "他们增加了兵力。",
+    id: "bulk-2601", term: "augment", phonetic: "/ɒ:g'ment/", pos: "v.", meaningZh: "增加；扩大；增长；增量；添加", meaningEn: "to make greater", band: "8", collocations: [], example: "They augmented the force.", exampleZh: "他们增加了兵力。",
     senses: [
     {
     pos: "v.", meaningZh: "增加；扩大；增长；增量；添加", meaningEn: "to make greater", collocations: [], example: "They augmented the force.", exampleZh: "他们增加了兵力。" }
     ]
   },
   {
-    id: "bulk-2602", term: "auspicious", phonetic: "ɒ:'spiʃәs", pos: "adj.", meaningZh: "吉利的；有利的；吉兆的；幸运的", meaningEn: "favorable", band: "8", collocations: [], example: "The day was auspicious.", exampleZh: "那天很吉利。",
+    id: "bulk-2602", term: "auspicious", phonetic: "/ɒ:'spiʃәs/", pos: "adj.", meaningZh: "吉利的；有利的；吉兆的；幸运的", meaningEn: "favorable", band: "8", collocations: [], example: "The day was auspicious.", exampleZh: "那天很吉利。",
     senses: [
     {
     pos: "adj.", meaningZh: "吉利的；有利的；吉兆的；幸运的", meaningEn: "favorable", collocations: [], example: "The day was auspicious.", exampleZh: "那天很吉利。" }
@@ -27033,14 +27033,14 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2604", term: "autonomous", phonetic: "ɒ:'tɒnәmәs", pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", band: "8", collocations: [], example: "The region is autonomous.", exampleZh: "那个地区是自治的。",
+    id: "bulk-2604", term: "autonomous", phonetic: "/ɒ:'tɒnәmәs/", pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", band: "8", collocations: [], example: "The region is autonomous.", exampleZh: "那个地区是自治的。",
     senses: [
     {
     pos: "adj.", meaningZh: "自主的；自治的", meaningEn: "self-governing", collocations: [], example: "The region is autonomous.", exampleZh: "那个地区是自治的。" }
     ]
   },
   {
-    id: "bulk-2605", term: "aver", phonetic: "ә'vә:", pos: "v.", meaningZh: "断言；极力声明", meaningEn: "to state confidently", band: "8", collocations: [], example: "He averred his innocence.", exampleZh: "他极力声明自己无辜。",
+    id: "bulk-2605", term: "aver", phonetic: "/ә'vә:/", pos: "v.", meaningZh: "断言；极力声明", meaningEn: "to state confidently", band: "8", collocations: [], example: "He averred his innocence.", exampleZh: "他极力声明自己无辜。",
     senses: [
     {
     pos: "v.", meaningZh: "断言；极力声明", meaningEn: "to state confidently", collocations: [], example: "He averred his innocence.", exampleZh: "他极力声明自己无辜。" },
@@ -27049,7 +27049,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2606", term: "averse", phonetic: "ә'vә:s", pos: "adj.", meaningZh: "反对的；厌恶的；不愿意的", meaningEn: "reluctant", band: "8", collocations: [], example: "He was averse to risk.", exampleZh: "他厌恶风险。",
+    id: "bulk-2606", term: "averse", phonetic: "/ә'vә:s/", pos: "adj.", meaningZh: "反对的；厌恶的；不愿意的", meaningEn: "reluctant", band: "8", collocations: [], example: "He was averse to risk.", exampleZh: "他厌恶风险。",
     senses: [
     {
     pos: "adj.", meaningZh: "反对的；厌恶的；不愿意的", meaningEn: "reluctant", collocations: [], example: "He was averse to risk.", exampleZh: "他厌恶风险。" }
@@ -27153,7 +27153,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2618", term: "belabor", phonetic: "bi'leibә", pos: "v.", meaningZh: "冗长地讨论；痛打", meaningEn: "to over-elaborate", band: "8", collocations: [], example: "Do not belabor the point.", exampleZh: "不要赘述这一点。",
+    id: "bulk-2618", term: "belabor", phonetic: "/bi'leibә/", pos: "v.", meaningZh: "冗长地讨论；痛打", meaningEn: "to over-elaborate", band: "8", collocations: [], example: "Do not belabor the point.", exampleZh: "不要赘述这一点。",
     senses: [
     {
     pos: "v.", meaningZh: "冗长地讨论；痛打", meaningEn: "to over-elaborate", collocations: [], example: "Do not belabor the point.", exampleZh: "不要赘述这一点。" },
@@ -27187,7 +27187,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2622", term: "bemused", phonetic: "bi'mju:zd", pos: "adj.", meaningZh: "困惑的；出神的；发呆的", meaningEn: "confused", band: "8", collocations: [], example: "He looked bemused.", exampleZh: "他一脸困惑。",
+    id: "bulk-2622", term: "bemused", phonetic: "/bi'mju:zd/", pos: "adj.", meaningZh: "困惑的；出神的；发呆的", meaningEn: "confused", band: "8", collocations: [], example: "He looked bemused.", exampleZh: "他一脸困惑。",
     senses: [
     {
     pos: "adj.", meaningZh: "困惑的；出神的；发呆的", meaningEn: "confused", collocations: [], example: "He looked bemused.", exampleZh: "他一脸困惑。" },
@@ -27284,7 +27284,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2633", term: "blase", phonetic: "'blɑ:zei", pos: "adj.", meaningZh: "厌倦享乐的；漠不关心的；玩腻了的", meaningEn: "unimpressed by pleasure", band: "8", collocations: [], example: "The blase critic yawned.", exampleZh: "那个厌倦的评论家打了哈欠。",
+    id: "bulk-2633", term: "blase", phonetic: "/blɑ:zei/", pos: "adj.", meaningZh: "厌倦享乐的；漠不关心的；玩腻了的", meaningEn: "unimpressed by pleasure", band: "8", collocations: [], example: "The blase critic yawned.", exampleZh: "那个厌倦的评论家打了哈欠。",
     senses: [
     {
     pos: "adj.", meaningZh: "厌倦享乐的；漠不关心的；玩腻了的", meaningEn: "unimpressed by pleasure", collocations: [], example: "The blase critic yawned.", exampleZh: "那个厌倦的评论家打了哈欠。" }
@@ -27305,7 +27305,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2636", term: "bluster", phonetic: "'blʌstә", pos: "v./n.", meaningZh: "咆哮；虚张声势", meaningEn: "loud empty talk", band: "8", collocations: [], example: "He blustered in anger.", exampleZh: "他怒气冲冲地咆哮。",
+    id: "bulk-2636", term: "bluster", phonetic: "/blʌstә/", pos: "v./n.", meaningZh: "咆哮；虚张声势", meaningEn: "loud empty talk", band: "8", collocations: [], example: "He blustered in anger.", exampleZh: "他怒气冲冲地咆哮。",
     senses: [
     {
     pos: "v./n.", meaningZh: "咆哮；虚张声势", meaningEn: "loud empty talk", collocations: [], example: "He blustered in anger.", exampleZh: "他怒气冲冲地咆哮。" },
@@ -27385,7 +27385,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2644", term: "breach", phonetic: "[bɹiːtʃ]", pos: "n./v.", meaningZh: "破坏；违背；裂口；违反；突破；破裂", meaningEn: "a break", band: "8", collocations: [], example: "The breach widened.", exampleZh: "裂痕扩大了。",
+    id: "bulk-2644", term: "breach", phonetic: "/[bɹiːtʃ]/", pos: "n./v.", meaningZh: "破坏；违背；裂口；违反；突破；破裂", meaningEn: "a break", band: "8", collocations: [], example: "The breach widened.", exampleZh: "裂痕扩大了。",
     senses: [
     {
     pos: "n./v.", meaningZh: "破坏；违背；裂口；违反；突破；破裂", meaningEn: "a break", collocations: [], example: "The breach widened.", exampleZh: "裂痕扩大了。" },
@@ -27545,7 +27545,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2660", term: "cajole", phonetic: "kә'dʒәul", pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to coax", band: "8", collocations: [], example: "She cajoled him to stay.", exampleZh: "她哄他留下。",
+    id: "bulk-2660", term: "cajole", phonetic: "/kә'dʒәul/", pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to coax", band: "8", collocations: [], example: "She cajoled him to stay.", exampleZh: "她哄他留下。",
     senses: [
     {
     pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to coax", collocations: [], example: "She cajoled him to stay.", exampleZh: "她哄他留下。" },
@@ -27563,14 +27563,14 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2662", term: "calumny", phonetic: "'kælәmni", pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "false slander", band: "8", collocations: [], example: "The calumny spread fast.", exampleZh: "诽谤传得很快。",
+    id: "bulk-2662", term: "calumny", phonetic: "/kælәmni/", pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "false slander", band: "8", collocations: [], example: "The calumny spread fast.", exampleZh: "诽谤传得很快。",
     senses: [
     {
     pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "false slander", collocations: [], example: "The calumny spread fast.", exampleZh: "诽谤传得很快。" }
     ]
   },
   {
-    id: "bulk-2663", term: "candor", phonetic: "'kændә", pos: "n.", meaningZh: "坦率；直率；坦白", meaningEn: "frankness", band: "8", collocations: [], example: "She spoke with candor.", exampleZh: "她坦率地说。",
+    id: "bulk-2663", term: "candor", phonetic: "/kændә/", pos: "n.", meaningZh: "坦率；直率；坦白", meaningEn: "frankness", band: "8", collocations: [], example: "She spoke with candor.", exampleZh: "她坦率地说。",
     senses: [
     {
     pos: "n.", meaningZh: "坦率；直率；坦白", meaningEn: "frankness", collocations: [], example: "She spoke with candor.", exampleZh: "她坦率地说。" }
@@ -27586,7 +27586,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2665", term: "capitulate", phonetic: "kә'pitjuleit", pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", band: "8", collocations: [], example: "The fort capitulated.", exampleZh: "城堡投降了。",
+    id: "bulk-2665", term: "capitulate", phonetic: "/kә'pitjuleit/", pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", band: "8", collocations: [], example: "The fort capitulated.", exampleZh: "城堡投降了。",
     senses: [
     {
     pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", collocations: [], example: "The fort capitulated.", exampleZh: "城堡投降了。" },
@@ -27616,7 +27616,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2669", term: "cardinal", phonetic: "'kɑ:dinәl", pos: "adj.", meaningZh: "首要的；深红的；主要的；深红色的", meaningEn: "of basic importance", band: "8", collocations: [], example: "Trust is cardinal.", exampleZh: "信任是首要的。",
+    id: "bulk-2669", term: "cardinal", phonetic: "/kɑ:dinәl/", pos: "adj.", meaningZh: "首要的；深红的；主要的；深红色的", meaningEn: "of basic importance", band: "8", collocations: [], example: "Trust is cardinal.", exampleZh: "信任是首要的。",
     senses: [
     {
     pos: "adj.", meaningZh: "首要的；深红的；主要的；深红色的", meaningEn: "of basic importance", collocations: [], example: "Trust is cardinal.", exampleZh: "信任是首要的。" },
@@ -27661,7 +27661,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2674", term: "castigate", phonetic: "'kæstigeit", pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", band: "8", collocations: [], example: "The teacher castigated him.", exampleZh: "老师严厉批评了他。",
+    id: "bulk-2674", term: "castigate", phonetic: "/kæstigeit/", pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", band: "8", collocations: [], example: "The teacher castigated him.", exampleZh: "老师严厉批评了他。",
     senses: [
     {
     pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", collocations: [], example: "The teacher castigated him.", exampleZh: "老师严厉批评了他。" },
@@ -27842,7 +27842,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2695", term: "chide", phonetic: "tʃaid", pos: "v.", meaningZh: "责备；训诫；斥责；责骂", meaningEn: "to scold mildly", band: "8", collocations: [], example: "She chided the child.", exampleZh: "她轻责了孩子。",
+    id: "bulk-2695", term: "chide", phonetic: "/tʃaid/", pos: "v.", meaningZh: "责备；训诫；斥责；责骂", meaningEn: "to scold mildly", band: "8", collocations: [], example: "She chided the child.", exampleZh: "她轻责了孩子。",
     senses: [
     {
     pos: "v.", meaningZh: "责备；训诫；斥责；责骂", meaningEn: "to scold mildly", collocations: [], example: "She chided the child.", exampleZh: "她轻责了孩子。" }
@@ -27856,7 +27856,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2697", term: "chisel", phonetic: "'tʃizәl", pos: "v./n.", meaningZh: "凿；欺诈；刻；雕凿；欺骗", meaningEn: "to carve or cheat", band: "8", collocations: [], example: "He chiseled the stone.", exampleZh: "他凿了石头。",
+    id: "bulk-2697", term: "chisel", phonetic: "/tʃizәl/", pos: "v./n.", meaningZh: "凿；欺诈；刻；雕凿；欺骗", meaningEn: "to carve or cheat", band: "8", collocations: [], example: "He chiseled the stone.", exampleZh: "他凿了石头。",
     senses: [
     {
     pos: "v./n.", meaningZh: "凿；欺诈；刻；雕凿；欺骗", meaningEn: "to carve or cheat", collocations: [], example: "He chiseled the stone.", exampleZh: "他凿了石头。" },
@@ -27865,7 +27865,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2698", term: "choleric", phonetic: "'kɒlәrik", pos: "adj.", meaningZh: "易怒的；暴躁的；胆汁质的；急躁的", meaningEn: "hot-tempered", band: "8", collocations: [], example: "The choleric man shouted.", exampleZh: "那个暴躁的男人大喊。",
+    id: "bulk-2698", term: "choleric", phonetic: "/kɒlәrik/", pos: "adj.", meaningZh: "易怒的；暴躁的；胆汁质的；急躁的", meaningEn: "hot-tempered", band: "8", collocations: [], example: "The choleric man shouted.", exampleZh: "那个暴躁的男人大喊。",
     senses: [
     {
     pos: "adj.", meaningZh: "易怒的；暴躁的；胆汁质的；急躁的", meaningEn: "hot-tempered", collocations: [], example: "The choleric man shouted.", exampleZh: "那个暴躁的男人大喊。" }
@@ -27879,7 +27879,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2700", term: "circumscribe", phonetic: "'sә:kәmskraib", pos: "v.", meaningZh: "限制；包围", meaningEn: "to restrict", band: "8", collocations: [], example: "The law circumscribed power.", exampleZh: "法律限制了权力。",
+    id: "bulk-2700", term: "circumscribe", phonetic: "/sә:kәmskraib/", pos: "v.", meaningZh: "限制；包围", meaningEn: "to restrict", band: "8", collocations: [], example: "The law circumscribed power.", exampleZh: "法律限制了权力。",
     senses: [
     {
     pos: "v.", meaningZh: "限制；包围", meaningEn: "to restrict", collocations: [], example: "The law circumscribed power.", exampleZh: "法律限制了权力。" },
@@ -27895,7 +27895,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2702", term: "circumvent", phonetic: ".sә:kәm'vent", pos: "v.", meaningZh: "规避；绕过", meaningEn: "to avoid by artifice", band: "8", collocations: [], example: "They circumvented the rule.", exampleZh: "他们规避了规则。",
+    id: "bulk-2702", term: "circumvent", phonetic: "/.sә:kәm'vent/", pos: "v.", meaningZh: "规避；绕过", meaningEn: "to avoid by artifice", band: "8", collocations: [], example: "They circumvented the rule.", exampleZh: "他们规避了规则。",
     senses: [
     {
     pos: "v.", meaningZh: "规避；绕过", meaningEn: "to avoid by artifice", collocations: [], example: "They circumvented the rule.", exampleZh: "他们规避了规则。" },
@@ -27929,7 +27929,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2706", term: "clangor", phonetic: "'klæŋ^ә", pos: "n.", meaningZh: "叮当声；铿锵声；丁当声", meaningEn: "a loud ringing", band: "8", collocations: [], example: "The clangor echoed.", exampleZh: "叮当声回荡。",
+    id: "bulk-2706", term: "clangor", phonetic: "/klæŋ^ә/", pos: "n.", meaningZh: "叮当声；铿锵声；丁当声", meaningEn: "a loud ringing", band: "8", collocations: [], example: "The clangor echoed.", exampleZh: "叮当声回荡。",
     senses: [
     {
     pos: "n.", meaningZh: "叮当声；铿锵声；丁当声", meaningEn: "a loud ringing", collocations: [], example: "The clangor echoed.", exampleZh: "叮当声回荡。" },
@@ -28097,7 +28097,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2724", term: "compendium", phonetic: "kәm'pendiәm", pos: "n.", meaningZh: "纲要；概略；简述", meaningEn: "a brief summary", band: "8", collocations: [], example: "The book is a compendium.", exampleZh: "那本书是纲要。",
+    id: "bulk-2724", term: "compendium", phonetic: "/kәm'pendiәm/", pos: "n.", meaningZh: "纲要；概略；简述", meaningEn: "a brief summary", band: "8", collocations: [], example: "The book is a compendium.", exampleZh: "那本书是纲要。",
     senses: [
     {
     pos: "n.", meaningZh: "纲要；概略；简述", meaningEn: "a brief summary", collocations: [], example: "The book is a compendium.", exampleZh: "那本书是纲要。" }
@@ -28183,7 +28183,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2734", term: "congenial", phonetic: "kәn'dʒi:njәl", pos: "adj.", meaningZh: "意气相投的；适宜的；协调的；一致的；适意的；趣味相同的", meaningEn: "pleasant", band: "8", collocations: [], example: "The congenial host welcomed.", exampleZh: "那位意气相投的主人欢迎了客人。",
+    id: "bulk-2734", term: "congenial", phonetic: "/kәn'dʒi:njәl/", pos: "adj.", meaningZh: "意气相投的；适宜的；协调的；一致的；适意的；趣味相同的", meaningEn: "pleasant", band: "8", collocations: [], example: "The congenial host welcomed.", exampleZh: "那位意气相投的主人欢迎了客人。",
     senses: [
     {
     pos: "adj.", meaningZh: "意气相投的；适宜的；协调的；一致的；适意的；趣味相同的", meaningEn: "pleasant", collocations: [], example: "The congenial host welcomed.", exampleZh: "那位意气相投的主人欢迎了客人。" }
@@ -28212,7 +28212,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2737", term: "consensus", phonetic: "kәn'sensәs", pos: "n.", meaningZh: "共识；一致；合意；同感", meaningEn: "general agreement", band: "8", collocations: [], example: "They reached consensus.", exampleZh: "他们达成了共识。",
+    id: "bulk-2737", term: "consensus", phonetic: "/kәn'sensәs/", pos: "n.", meaningZh: "共识；一致；合意；同感", meaningEn: "general agreement", band: "8", collocations: [], example: "They reached consensus.", exampleZh: "他们达成了共识。",
     senses: [
     {
     pos: "n.", meaningZh: "共识；一致；合意；同感", meaningEn: "general agreement", collocations: [], example: "They reached consensus.", exampleZh: "他们达成了共识。" }
@@ -28280,7 +28280,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2745", term: "consummate", phonetic: "'kɒnsәmeit", pos: "adj./v.", meaningZh: "完美的；完成；无上的；至上的", meaningEn: "supremely skilled", band: "8", collocations: [], example: "He is a consummate artist.", exampleZh: "他是完美的艺术家。",
+    id: "bulk-2745", term: "consummate", phonetic: "/kɒnsәmeit/", pos: "adj./v.", meaningZh: "完美的；完成；无上的；至上的", meaningEn: "supremely skilled", band: "8", collocations: [], example: "He is a consummate artist.", exampleZh: "他是完美的艺术家。",
     senses: [
     {
     pos: "adj./v.", meaningZh: "完美的；完成；无上的；至上的", meaningEn: "supremely skilled", collocations: [], example: "He is a consummate artist.", exampleZh: "他是完美的艺术家。" },
@@ -28289,7 +28289,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2746", term: "contemplate", phonetic: "'kɒntempleit", pos: "v.", meaningZh: "沉思；注视", meaningEn: "to think deeply", band: "8", collocations: [], example: "She contemplated the sky.", exampleZh: "她凝视天空。",
+    id: "bulk-2746", term: "contemplate", phonetic: "/kɒntempleit/", pos: "v.", meaningZh: "沉思；注视", meaningEn: "to think deeply", band: "8", collocations: [], example: "She contemplated the sky.", exampleZh: "她凝视天空。",
     senses: [
     {
     pos: "v.", meaningZh: "沉思；注视", meaningEn: "to think deeply", collocations: [], example: "She contemplated the sky.", exampleZh: "她凝视天空。" },
@@ -28300,7 +28300,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2747", term: "contend", phonetic: "kәn'tend", pos: "v.", meaningZh: "竞争；主张", meaningEn: "to struggle", band: "8", collocations: [], example: "They contended for the prize.", exampleZh: "他们争夺奖项。",
+    id: "bulk-2747", term: "contend", phonetic: "/kәn'tend/", pos: "v.", meaningZh: "竞争；主张", meaningEn: "to struggle", band: "8", collocations: [], example: "They contended for the prize.", exampleZh: "他们争夺奖项。",
     senses: [
     {
     pos: "v.", meaningZh: "竞争；主张", meaningEn: "to struggle", collocations: [], example: "They contended for the prize.", exampleZh: "他们争夺奖项。" },
@@ -28341,7 +28341,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2752", term: "controvert", phonetic: "'kɒntrәvә:t", pos: "v.", meaningZh: "反驳；否定", meaningEn: "to deny", band: "8", collocations: [], example: "He controverted the claim.", exampleZh: "他反驳了说法。",
+    id: "bulk-2752", term: "controvert", phonetic: "/kɒntrәvә:t/", pos: "v.", meaningZh: "反驳；否定", meaningEn: "to deny", band: "8", collocations: [], example: "He controverted the claim.", exampleZh: "他反驳了说法。",
     senses: [
     {
     pos: "v.", meaningZh: "反驳；否定", meaningEn: "to deny", collocations: [], example: "He controverted the claim.", exampleZh: "他反驳了说法。" },
@@ -28389,7 +28389,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2758", term: "cosset", phonetic: "'kɒsit", pos: "v.", meaningZh: "宠爱；细心照料", meaningEn: "to pamper", band: "8", collocations: [], example: "She cosseted the cat.", exampleZh: "她宠爱猫。",
+    id: "bulk-2758", term: "cosset", phonetic: "/kɒsit/", pos: "v.", meaningZh: "宠爱；细心照料", meaningEn: "to pamper", band: "8", collocations: [], example: "She cosseted the cat.", exampleZh: "她宠爱猫。",
     senses: [
     {
     pos: "v.", meaningZh: "宠爱；细心照料", meaningEn: "to pamper", collocations: [], example: "She cosseted the cat.", exampleZh: "她宠爱猫。" },
@@ -28599,7 +28599,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2780", term: "cue", phonetic: "kju:", pos: "n./v.", meaningZh: "暗示；提示；线索", meaningEn: "a signal", band: "8", collocations: [], example: "He took the cue.", exampleZh: "他领会了暗示。",
+    id: "bulk-2780", term: "cue", phonetic: "/kju:/", pos: "n./v.", meaningZh: "暗示；提示；线索", meaningEn: "a signal", band: "8", collocations: [], example: "He took the cue.", exampleZh: "他领会了暗示。",
     senses: [
     {
     pos: "n./v.", meaningZh: "暗示；提示；线索", meaningEn: "a signal", collocations: [], example: "He took the cue.", exampleZh: "他领会了暗示。" },
@@ -28652,7 +28652,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2787", term: "dabbler", phonetic: "'dæblә", pos: "n.", meaningZh: "浅尝者；业余爱好者；戏水者", meaningEn: "a casual participant", band: "8", collocations: [], example: "He is a dabbler in art.", exampleZh: "他是艺术的业余爱好者。",
+    id: "bulk-2787", term: "dabbler", phonetic: "/dæblә/", pos: "n.", meaningZh: "浅尝者；业余爱好者；戏水者", meaningEn: "a casual participant", band: "8", collocations: [], example: "He is a dabbler in art.", exampleZh: "他是艺术的业余爱好者。",
     senses: [
     {
     pos: "n.", meaningZh: "浅尝者；业余爱好者；戏水者", meaningEn: "a casual participant", collocations: [], example: "He is a dabbler in art.", exampleZh: "他是艺术的业余爱好者。" }
@@ -28852,7 +28852,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2809", term: "deleterious", phonetic: ".deli'tiәriәs", pos: "adj.", meaningZh: "有害的；有毒的；造成伤害的", meaningEn: "harming", band: "8", collocations: [], example: "The deleterious effect showed.", exampleZh: "有害效应显现了。",
+    id: "bulk-2809", term: "deleterious", phonetic: "/.deli'tiәriәs/", pos: "adj.", meaningZh: "有害的；有毒的；造成伤害的", meaningEn: "harming", band: "8", collocations: [], example: "The deleterious effect showed.", exampleZh: "有害效应显现了。",
     senses: [
     {
     pos: "adj.", meaningZh: "有害的；有毒的；造成伤害的", meaningEn: "harming", collocations: [], example: "The deleterious effect showed.", exampleZh: "有害效应显现了。" }
@@ -28886,7 +28886,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2813", term: "demure", phonetic: "di'mjuә", pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest", band: "8", collocations: [], example: "The demure girl nodded.", exampleZh: "端庄的女孩点了点头。",
+    id: "bulk-2813", term: "demure", phonetic: "/di'mjuә/", pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest", band: "8", collocations: [], example: "The demure girl nodded.", exampleZh: "端庄的女孩点了点头。",
     senses: [
     {
     pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest", collocations: [], example: "The demure girl nodded.", exampleZh: "端庄的女孩点了点头。" }
@@ -29007,7 +29007,7 @@ const part_10: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2826", term: "desolate", phonetic: "'desәlәt", pos: "adj./v.", meaningZh: "荒凉的；使荒凉", meaningEn: "deserted", band: "8", collocations: [], example: "The desolate island lay bare.", exampleZh: "荒凉的岛屿裸露着。",
+    id: "bulk-2826", term: "desolate", phonetic: "/desәlәt/", pos: "adj./v.", meaningZh: "荒凉的；使荒凉", meaningEn: "deserted", band: "8", collocations: [], example: "The desolate island lay bare.", exampleZh: "荒凉的岛屿裸露着。",
     senses: [
     {
     pos: "adj./v.", meaningZh: "荒凉的；使荒凉", meaningEn: "deserted", collocations: [], example: "The desolate island lay bare.", exampleZh: "荒凉的岛屿裸露着。" },
@@ -29195,7 +29195,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2847", term: "disabuse", phonetic: ".disә'bju:z", pos: "v.", meaningZh: "纠正；使省悟", meaningEn: "to free from error", band: "8", collocations: [], example: "He disabused her.", exampleZh: "他纠正了她。",
+    id: "bulk-2847", term: "disabuse", phonetic: "/.disә'bju:z/", pos: "v.", meaningZh: "纠正；使省悟", meaningEn: "to free from error", band: "8", collocations: [], example: "He disabused her.", exampleZh: "他纠正了她。",
     senses: [
     {
     pos: "v.", meaningZh: "纠正；使省悟", meaningEn: "to free from error", collocations: [], example: "He disabused her.", exampleZh: "他纠正了她。" },
@@ -29233,7 +29233,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2851", term: "discern", phonetic: "di'zә:n", pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive", band: "8", collocations: [], example: "She discerned the truth.", exampleZh: "她看清了真相。",
+    id: "bulk-2851", term: "discern", phonetic: "/di'zә:n/", pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive", band: "8", collocations: [], example: "She discerned the truth.", exampleZh: "她看清了真相。",
     senses: [
     {
     pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive", collocations: [], example: "She discerned the truth.", exampleZh: "她看清了真相。" }
@@ -29251,7 +29251,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2853", term: "disconcert", phonetic: ".diskәn'sә:t", pos: "v.", meaningZh: "使不安；使慌乱", meaningEn: "to disturb", band: "8", collocations: [], example: "The noise disconcerted her.", exampleZh: "噪音让她不安。",
+    id: "bulk-2853", term: "disconcert", phonetic: "/.diskәn'sә:t/", pos: "v.", meaningZh: "使不安；使慌乱", meaningEn: "to disturb", band: "8", collocations: [], example: "The noise disconcerted her.", exampleZh: "噪音让她不安。",
     senses: [
     {
     pos: "v.", meaningZh: "使不安；使慌乱", meaningEn: "to disturb", collocations: [], example: "The noise disconcerted her.", exampleZh: "噪音让她不安。" },
@@ -29260,7 +29260,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2854", term: "discord", phonetic: "'diskɒ:d", pos: "n.", meaningZh: "不和；不一致；不调和", meaningEn: "conflict", band: "8", collocations: [], example: "The discord grew.", exampleZh: "不和加剧了。",
+    id: "bulk-2854", term: "discord", phonetic: "/diskɒ:d/", pos: "n.", meaningZh: "不和；不一致；不调和", meaningEn: "conflict", band: "8", collocations: [], example: "The discord grew.", exampleZh: "不和加剧了。",
     senses: [
     {
     pos: "n.", meaningZh: "不和；不一致；不调和", meaningEn: "conflict", collocations: [], example: "The discord grew.", exampleZh: "不和加剧了。" },
@@ -29269,7 +29269,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2855", term: "discredit", phonetic: "dis'kredit", pos: "v.", meaningZh: "败坏；不信", meaningEn: "to disgrace", band: "8", collocations: [], example: "The lie discredited him.", exampleZh: "谎言败坏了他。",
+    id: "bulk-2855", term: "discredit", phonetic: "/dis'kredit/", pos: "v.", meaningZh: "败坏；不信", meaningEn: "to disgrace", band: "8", collocations: [], example: "The lie discredited him.", exampleZh: "谎言败坏了他。",
     senses: [
     {
     pos: "v.", meaningZh: "败坏；不信", meaningEn: "to disgrace", collocations: [], example: "The lie discredited him.", exampleZh: "谎言败坏了他。" },
@@ -29280,7 +29280,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2856", term: "discreet", phonetic: "dis'kri:t", pos: "adj.", meaningZh: "谨慎的；不显眼的；小心的；慎重的", meaningEn: "prudent", band: "8", collocations: [], example: "He was discreet.", exampleZh: "他很谨慎。",
+    id: "bulk-2856", term: "discreet", phonetic: "/dis'kri:t/", pos: "adj.", meaningZh: "谨慎的；不显眼的；小心的；慎重的", meaningEn: "prudent", band: "8", collocations: [], example: "He was discreet.", exampleZh: "他很谨慎。",
     senses: [
     {
     pos: "adj.", meaningZh: "谨慎的；不显眼的；小心的；慎重的", meaningEn: "prudent", collocations: [], example: "He was discreet.", exampleZh: "他很谨慎。" }
@@ -29294,7 +29294,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2858", term: "disdain", phonetic: "dis'dein", pos: "n./v.", meaningZh: "鄙视；不屑；蔑视", meaningEn: "contempt", band: "8", collocations: [], example: "She felt disdain.", exampleZh: "她感到鄙视。",
+    id: "bulk-2858", term: "disdain", phonetic: "/dis'dein/", pos: "n./v.", meaningZh: "鄙视；不屑；蔑视", meaningEn: "contempt", band: "8", collocations: [], example: "She felt disdain.", exampleZh: "她感到鄙视。",
     senses: [
     {
     pos: "n./v.", meaningZh: "鄙视；不屑；蔑视", meaningEn: "contempt", collocations: [], example: "She felt disdain.", exampleZh: "她感到鄙视。" },
@@ -29303,7 +29303,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2859", term: "disgorge", phonetic: "dis'gɒ:dʒ", pos: "v.", meaningZh: "吐出；被迫交出", meaningEn: "to pour forth", band: "8", collocations: [], example: "The volcano disgorged lava.", exampleZh: "火山吐出熔岩。",
+    id: "bulk-2859", term: "disgorge", phonetic: "/dis'gɒ:dʒ/", pos: "v.", meaningZh: "吐出；被迫交出", meaningEn: "to pour forth", band: "8", collocations: [], example: "The volcano disgorged lava.", exampleZh: "火山吐出熔岩。",
     senses: [
     {
     pos: "v.", meaningZh: "吐出；被迫交出", meaningEn: "to pour forth", collocations: [], example: "The volcano disgorged lava.", exampleZh: "火山吐出熔岩。" },
@@ -29323,7 +29323,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2861", term: "disheveled", phonetic: "di'ʃevәld", pos: "adj.", meaningZh: "凌乱的；衣冠不整的；不整洁的", meaningEn: "untidy", band: "8", collocations: [], example: "His disheveled look shocked.", exampleZh: "他凌乱的模样令人震惊。",
+    id: "bulk-2861", term: "disheveled", phonetic: "/di'ʃevәld/", pos: "adj.", meaningZh: "凌乱的；衣冠不整的；不整洁的", meaningEn: "untidy", band: "8", collocations: [], example: "His disheveled look shocked.", exampleZh: "他凌乱的模样令人震惊。",
     senses: [
     {
     pos: "adj.", meaningZh: "凌乱的；衣冠不整的；不整洁的", meaningEn: "untidy", collocations: [], example: "His disheveled look shocked.", exampleZh: "他凌乱的模样令人震惊。" },
@@ -29364,7 +29364,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2866", term: "dismal", phonetic: "[ˈdɪzməɫ]", pos: "adj.", meaningZh: "阴沉的；凄凉的；令人忧郁的", meaningEn: "gloomy", band: "8", collocations: [], example: "The dismal weather depressed.", exampleZh: "阴沉的天气让人沮丧。",
+    id: "bulk-2866", term: "dismal", phonetic: "/[ˈdɪzməɫ]/", pos: "adj.", meaningZh: "阴沉的；凄凉的；令人忧郁的", meaningEn: "gloomy", band: "8", collocations: [], example: "The dismal weather depressed.", exampleZh: "阴沉的天气让人沮丧。",
     senses: [
     {
     pos: "adj.", meaningZh: "阴沉的；凄凉的；令人忧郁的", meaningEn: "gloomy", collocations: [], example: "The dismal weather depressed.", exampleZh: "阴沉的天气让人沮丧。" },
@@ -29373,7 +29373,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2867", term: "dismantle", phonetic: "[dɪsˈmæntʰəɫ]", pos: "v.", meaningZh: "拆除；废除", meaningEn: "to take apart", band: "8", collocations: [], example: "They dismantled the rig.", exampleZh: "他们拆除了装置。",
+    id: "bulk-2867", term: "dismantle", phonetic: "/[dɪsˈmæntʰəɫ]/", pos: "v.", meaningZh: "拆除；废除", meaningEn: "to take apart", band: "8", collocations: [], example: "They dismantled the rig.", exampleZh: "他们拆除了装置。",
     senses: [
     {
     pos: "v.", meaningZh: "拆除；废除", meaningEn: "to take apart", collocations: [], example: "They dismantled the rig.", exampleZh: "他们拆除了装置。" },
@@ -29393,7 +29393,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2869", term: "dispel", phonetic: "[dɪˈspɛɫ]", pos: "v.", meaningZh: "驱散；消除", meaningEn: "to scatter", band: "8", collocations: [], example: "The sun dispelled fog.", exampleZh: "太阳驱散了雾。",
+    id: "bulk-2869", term: "dispel", phonetic: "/[dɪˈspɛɫ]/", pos: "v.", meaningZh: "驱散；消除", meaningEn: "to scatter", band: "8", collocations: [], example: "The sun dispelled fog.", exampleZh: "太阳驱散了雾。",
     senses: [
     {
     pos: "v.", meaningZh: "驱散；消除", meaningEn: "to scatter", collocations: [], example: "The sun dispelled fog.", exampleZh: "太阳驱散了雾。" },
@@ -29448,7 +29448,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2874", term: "dissemble", phonetic: "[dɪˈsɛmbəɫ]", pos: "v.", meaningZh: "掩饰；伪装；假装不知道", meaningEn: "to conceal", band: "8", collocations: [], example: "He dissembled fear.", exampleZh: "他掩饰恐惧。",
+    id: "bulk-2874", term: "dissemble", phonetic: "/[dɪˈsɛmbəɫ]/", pos: "v.", meaningZh: "掩饰；伪装；假装不知道", meaningEn: "to conceal", band: "8", collocations: [], example: "He dissembled fear.", exampleZh: "他掩饰恐惧。",
     senses: [
     {
     pos: "v.", meaningZh: "掩饰；伪装；假装不知道", meaningEn: "to conceal", collocations: [], example: "He dissembled fear.", exampleZh: "他掩饰恐惧。" }
@@ -29613,7 +29613,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2893", term: "dormant", phonetic: "'dɒ:mәnt", pos: "adj.", meaningZh: "休眠的；静止的；睡眠状态的；不活动的；休止的", meaningEn: "inactive", band: "8", collocations: [], example: "The volcano is dormant.", exampleZh: "火山休眠了。",
+    id: "bulk-2893", term: "dormant", phonetic: "/dɒ:mәnt/", pos: "adj.", meaningZh: "休眠的；静止的；睡眠状态的；不活动的；休止的", meaningEn: "inactive", band: "8", collocations: [], example: "The volcano is dormant.", exampleZh: "火山休眠了。",
     senses: [
     {
     pos: "adj.", meaningZh: "休眠的；静止的；睡眠状态的；不活动的；休止的", meaningEn: "inactive", collocations: [], example: "The volcano is dormant.", exampleZh: "火山休眠了。" }
@@ -29627,7 +29627,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2895", term: "dwindle", phonetic: "'dwindl", pos: "v.", meaningZh: "减少；缩小", meaningEn: "to diminish", band: "8", collocations: [], example: "The supply dwindled.", exampleZh: "供应减少了。",
+    id: "bulk-2895", term: "dwindle", phonetic: "/dwindl/", pos: "v.", meaningZh: "减少；缩小", meaningEn: "to diminish", band: "8", collocations: [], example: "The supply dwindled.", exampleZh: "供应减少了。",
     senses: [
     {
     pos: "v.", meaningZh: "减少；缩小", meaningEn: "to diminish", collocations: [], example: "The supply dwindled.", exampleZh: "供应减少了。" },
@@ -29686,7 +29686,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2902", term: "efface", phonetic: "i'feis", pos: "v.", meaningZh: "抹去；消除", meaningEn: "to erase", band: "8", collocations: [], example: "He effaced the mark.", exampleZh: "他抹去了痕迹。",
+    id: "bulk-2902", term: "efface", phonetic: "/i'feis/", pos: "v.", meaningZh: "抹去；消除", meaningEn: "to erase", band: "8", collocations: [], example: "He effaced the mark.", exampleZh: "他抹去了痕迹。",
     senses: [
     {
     pos: "v.", meaningZh: "抹去；消除", meaningEn: "to erase", collocations: [], example: "He effaced the mark.", exampleZh: "他抹去了痕迹。" },
@@ -29695,7 +29695,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2903", term: "effectuate", phonetic: "i'fektʃueit", pos: "v.", meaningZh: "实现；使生效", meaningEn: "to bring about", band: "8", collocations: [], example: "He effectuated the plan.", exampleZh: "他实现了计划。",
+    id: "bulk-2903", term: "effectuate", phonetic: "/i'fektʃueit/", pos: "v.", meaningZh: "实现；使生效", meaningEn: "to bring about", band: "8", collocations: [], example: "He effectuated the plan.", exampleZh: "他实现了计划。",
     senses: [
     {
     pos: "v.", meaningZh: "实现；使生效", meaningEn: "to bring about", collocations: [], example: "He effectuated the plan.", exampleZh: "他实现了计划。" },
@@ -29718,7 +29718,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2906", term: "egoism", phonetic: "'egәuizm", pos: "n.", meaningZh: "利己主义；自我中心；自我主义", meaningEn: "self-interest", band: "8", collocations: [], example: "His egoism repelled.", exampleZh: "他的利己主义令人反感。",
+    id: "bulk-2906", term: "egoism", phonetic: "/egәuizm/", pos: "n.", meaningZh: "利己主义；自我中心；自我主义", meaningEn: "self-interest", band: "8", collocations: [], example: "His egoism repelled.", exampleZh: "他的利己主义令人反感。",
     senses: [
     {
     pos: "n.", meaningZh: "利己主义；自我中心；自我主义", meaningEn: "self-interest", collocations: [], example: "His egoism repelled.", exampleZh: "他的利己主义令人反感。" }
@@ -29736,7 +29736,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2908", term: "ejaculate", phonetic: "i'dʒækjuleit", pos: "v.", meaningZh: "突然说出；射出", meaningEn: "to utter suddenly", band: "8", collocations: [], example: "He ejaculated a curse.", exampleZh: "他突然骂了一句。",
+    id: "bulk-2908", term: "ejaculate", phonetic: "/i'dʒækjuleit/", pos: "v.", meaningZh: "突然说出；射出", meaningEn: "to utter suddenly", band: "8", collocations: [], example: "He ejaculated a curse.", exampleZh: "他突然骂了一句。",
     senses: [
     {
     pos: "v.", meaningZh: "突然说出；射出", meaningEn: "to utter suddenly", collocations: [], example: "He ejaculated a curse.", exampleZh: "他突然骂了一句。" },
@@ -29749,7 +29749,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2909", term: "elated", phonetic: "i'leitid", pos: "adj.", meaningZh: "兴高采烈的；得意扬扬的", meaningEn: "extremely happy", band: "8", collocations: [], example: "The elated winner cheered.", exampleZh: "兴高采烈的赢家欢呼。",
+    id: "bulk-2909", term: "elated", phonetic: "/i'leitid/", pos: "adj.", meaningZh: "兴高采烈的；得意扬扬的", meaningEn: "extremely happy", band: "8", collocations: [], example: "The elated winner cheered.", exampleZh: "兴高采烈的赢家欢呼。",
     senses: [
     {
     pos: "adj.", meaningZh: "兴高采烈的；得意扬扬的", meaningEn: "extremely happy", collocations: [], example: "The elated winner cheered.", exampleZh: "兴高采烈的赢家欢呼。" },
@@ -29996,7 +29996,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2936", term: "encumber", phonetic: "in'kʌmbә", pos: "v.", meaningZh: "拖累；阻塞", meaningEn: "to burden", band: "8", collocations: [], example: "The load encumbered him.", exampleZh: "重负拖累了他。",
+    id: "bulk-2936", term: "encumber", phonetic: "/in'kʌmbә/", pos: "v.", meaningZh: "拖累；阻塞", meaningEn: "to burden", band: "8", collocations: [], example: "The load encumbered him.", exampleZh: "重负拖累了他。",
     senses: [
     {
     pos: "v.", meaningZh: "拖累；阻塞", meaningEn: "to burden", collocations: [], example: "The load encumbered him.", exampleZh: "重负拖累了他。" },
@@ -30025,7 +30025,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2939", term: "endow", phonetic: "in'dau", pos: "v.", meaningZh: "捐赠；赋予", meaningEn: "to provide with funds", band: "8", collocations: [], example: "He endowed the college.", exampleZh: "他捐赠了学院。",
+    id: "bulk-2939", term: "endow", phonetic: "/in'dau/", pos: "v.", meaningZh: "捐赠；赋予", meaningEn: "to provide with funds", band: "8", collocations: [], example: "He endowed the college.", exampleZh: "他捐赠了学院。",
     senses: [
     {
     pos: "v.", meaningZh: "捐赠；赋予", meaningEn: "to provide with funds", collocations: [], example: "He endowed the college.", exampleZh: "他捐赠了学院。" },
@@ -30034,7 +30034,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2940", term: "enervate", phonetic: "'enәveit", pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", band: "8", collocations: [], example: "The heat enervated them.", exampleZh: "酷热让他们虚弱。",
+    id: "bulk-2940", term: "enervate", phonetic: "/enәveit/", pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", band: "8", collocations: [], example: "The heat enervated them.", exampleZh: "酷热让他们虚弱。",
     senses: [
     {
     pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", collocations: [], example: "The heat enervated them.", exampleZh: "酷热让他们虚弱。" },
@@ -30056,7 +30056,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2942", term: "engross", phonetic: "in'grәus", pos: "v.", meaningZh: "使全神贯注", meaningEn: "to absorb", band: "8", collocations: [], example: "The book engrossed her.", exampleZh: "书让她全神贯注。",
+    id: "bulk-2942", term: "engross", phonetic: "/in'grәus/", pos: "v.", meaningZh: "使全神贯注", meaningEn: "to absorb", band: "8", collocations: [], example: "The book engrossed her.", exampleZh: "书让她全神贯注。",
     senses: [
     {
     pos: "v.", meaningZh: "使全神贯注", meaningEn: "to absorb", collocations: [], example: "The book engrossed her.", exampleZh: "书让她全神贯注。" },
@@ -30065,7 +30065,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2943", term: "enhance", phonetic: "in'hæns", pos: "v.", meaningZh: "提高；增强", meaningEn: "to improve", band: "8", collocations: [], example: "The update enhanced speed.", exampleZh: "更新增强了速度。",
+    id: "bulk-2943", term: "enhance", phonetic: "/in'hæns/", pos: "v.", meaningZh: "提高；增强", meaningEn: "to improve", band: "8", collocations: [], example: "The update enhanced speed.", exampleZh: "更新增强了速度。",
     senses: [
     {
     pos: "v.", meaningZh: "提高；增强", meaningEn: "to improve", collocations: [], example: "The update enhanced speed.", exampleZh: "更新增强了速度。" },
@@ -30074,14 +30074,14 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2944", term: "enigma", phonetic: "i'nigmә", pos: "n.", meaningZh: "谜；神秘人；费解的事物", meaningEn: "a puzzle", band: "8", collocations: [], example: "The murder was an enigma.", exampleZh: "那桩谋杀是个谜。",
+    id: "bulk-2944", term: "enigma", phonetic: "/i'nigmә/", pos: "n.", meaningZh: "谜；神秘人；费解的事物", meaningEn: "a puzzle", band: "8", collocations: [], example: "The murder was an enigma.", exampleZh: "那桩谋杀是个谜。",
     senses: [
     {
     pos: "n.", meaningZh: "谜；神秘人；费解的事物", meaningEn: "a puzzle", collocations: [], example: "The murder was an enigma.", exampleZh: "那桩谋杀是个谜。" }
     ]
   },
   {
-    id: "bulk-2945", term: "enjoin", phonetic: "in'dʒɒin", pos: "v.", meaningZh: "命令；嘱咐", meaningEn: "to order", band: "8", collocations: [], example: "He enjoined silence.", exampleZh: "他命令安静。",
+    id: "bulk-2945", term: "enjoin", phonetic: "/in'dʒɒin/", pos: "v.", meaningZh: "命令；嘱咐", meaningEn: "to order", band: "8", collocations: [], example: "He enjoined silence.", exampleZh: "他命令安静。",
     senses: [
     {
     pos: "v.", meaningZh: "命令；嘱咐", meaningEn: "to order", collocations: [], example: "He enjoined silence.", exampleZh: "他命令安静。" },
@@ -30090,7 +30090,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2946", term: "enmity", phonetic: "'enmәti", pos: "n.", meaningZh: "敌意；仇恨；憎恨", meaningEn: "deep hatred", band: "8", collocations: [], example: "The enmity grew.", exampleZh: "敌意加深了。",
+    id: "bulk-2946", term: "enmity", phonetic: "/enmәti/", pos: "n.", meaningZh: "敌意；仇恨；憎恨", meaningEn: "deep hatred", band: "8", collocations: [], example: "The enmity grew.", exampleZh: "敌意加深了。",
     senses: [
     {
     pos: "n.", meaningZh: "敌意；仇恨；憎恨", meaningEn: "deep hatred", collocations: [], example: "The enmity grew.", exampleZh: "敌意加深了。" }
@@ -30106,7 +30106,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2948", term: "enrapture", phonetic: "in'ræptʃә", pos: "v.", meaningZh: "使狂喜；使陶醉", meaningEn: "to delight greatly", band: "8", collocations: [], example: "The music enraptured her.", exampleZh: "音乐让她陶醉。",
+    id: "bulk-2948", term: "enrapture", phonetic: "/in'ræptʃә/", pos: "v.", meaningZh: "使狂喜；使陶醉", meaningEn: "to delight greatly", band: "8", collocations: [], example: "The music enraptured her.", exampleZh: "音乐让她陶醉。",
     senses: [
     {
     pos: "v.", meaningZh: "使狂喜；使陶醉", meaningEn: "to delight greatly", collocations: [], example: "The music enraptured her.", exampleZh: "音乐让她陶醉。" },
@@ -30126,7 +30126,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2950", term: "enthrall", phonetic: "in'θrɒ:l", pos: "v.", meaningZh: "迷住；使着迷", meaningEn: "to captivate", band: "8", collocations: [], example: "The tale enthralled all.", exampleZh: "故事迷住了所有人。",
+    id: "bulk-2950", term: "enthrall", phonetic: "/in'θrɒ:l/", pos: "v.", meaningZh: "迷住；使着迷", meaningEn: "to captivate", band: "8", collocations: [], example: "The tale enthralled all.", exampleZh: "故事迷住了所有人。",
     senses: [
     {
     pos: "v.", meaningZh: "迷住；使着迷", meaningEn: "to captivate", collocations: [], example: "The tale enthralled all.", exampleZh: "故事迷住了所有人。" },
@@ -30135,7 +30135,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2951", term: "entice", phonetic: "in'tais", pos: "v.", meaningZh: "诱惑；怂恿", meaningEn: "to attract by charm", band: "8", collocations: [], example: "The smell enticed him.", exampleZh: "气味诱惑了他。",
+    id: "bulk-2951", term: "entice", phonetic: "/in'tais/", pos: "v.", meaningZh: "诱惑；怂恿", meaningEn: "to attract by charm", band: "8", collocations: [], example: "The smell enticed him.", exampleZh: "气味诱惑了他。",
     senses: [
     {
     pos: "v.", meaningZh: "诱惑；怂恿", meaningEn: "to attract by charm", collocations: [], example: "The smell enticed him.", exampleZh: "气味诱惑了他。" },
@@ -30144,7 +30144,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2952", term: "entitled", phonetic: "in'taitld", pos: "adj.", meaningZh: "有资格的；自以为是的；给与名称的", meaningEn: "having a right", band: "8", collocations: [], example: "He felt entitled.", exampleZh: "他自觉有资格。",
+    id: "bulk-2952", term: "entitled", phonetic: "/in'taitld/", pos: "adj.", meaningZh: "有资格的；自以为是的；给与名称的", meaningEn: "having a right", band: "8", collocations: [], example: "He felt entitled.", exampleZh: "他自觉有资格。",
     senses: [
     {
     pos: "adj.", meaningZh: "有资格的；自以为是的；给与名称的", meaningEn: "having a right", collocations: [], example: "He felt entitled.", exampleZh: "他自觉有资格。" },
@@ -30153,7 +30153,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2953", term: "entomology", phonetic: ".entә'mɒlәdʒi", pos: "n.", meaningZh: "昆虫学", meaningEn: "the study of insects", band: "8", collocations: [], example: "He studied entomology.", exampleZh: "他学习昆虫学。",
+    id: "bulk-2953", term: "entomology", phonetic: "/.entә'mɒlәdʒi/", pos: "n.", meaningZh: "昆虫学", meaningEn: "the study of insects", band: "8", collocations: [], example: "He studied entomology.", exampleZh: "他学习昆虫学。",
     senses: [
     {
     pos: "n.", meaningZh: "昆虫学", meaningEn: "the study of insects", collocations: [], example: "He studied entomology.", exampleZh: "他学习昆虫学。" }
@@ -30187,7 +30187,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2957", term: "epitaph", phonetic: "[ˈɛpɪtɑːf]", pos: "n.", meaningZh: "墓志铭；挽词；碑文", meaningEn: "an inscription for the dead", band: "8", collocations: [], example: "The epitaph moved.", exampleZh: "墓志铭令人感动。",
+    id: "bulk-2957", term: "epitaph", phonetic: "/[ˈɛpɪtɑːf]/", pos: "n.", meaningZh: "墓志铭；挽词；碑文", meaningEn: "an inscription for the dead", band: "8", collocations: [], example: "The epitaph moved.", exampleZh: "墓志铭令人感动。",
     senses: [
     {
     pos: "n.", meaningZh: "墓志铭；挽词；碑文", meaningEn: "an inscription for the dead", collocations: [], example: "The epitaph moved.", exampleZh: "墓志铭令人感动。" },
@@ -30369,7 +30369,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2977", term: "esoteric", phonetic: ".esәu'terik", pos: "adj.", meaningZh: "深奥的；秘传的；秘教的；奥秘的；体内的；内部的；隐的", meaningEn: "understood by few", band: "8", collocations: [], example: "The esoteric text puzzled.", exampleZh: "深奥的文本令人困惑。",
+    id: "bulk-2977", term: "esoteric", phonetic: "/.esәu'terik/", pos: "adj.", meaningZh: "深奥的；秘传的；秘教的；奥秘的；体内的；内部的；隐的", meaningEn: "understood by few", band: "8", collocations: [], example: "The esoteric text puzzled.", exampleZh: "深奥的文本令人困惑。",
     senses: [
     {
     pos: "adj.", meaningZh: "深奥的；秘传的；秘教的；奥秘的；体内的；内部的；隐的", meaningEn: "understood by few", collocations: [], example: "The esoteric text puzzled.", exampleZh: "深奥的文本令人困惑。" }
@@ -30385,7 +30385,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2979", term: "estrange", phonetic: "i'streindʒ", pos: "v.", meaningZh: "使疏远；离间", meaningEn: "to alienate", band: "8", collocations: [], example: "The fight estranged them.", exampleZh: "争吵疏远了他们。",
+    id: "bulk-2979", term: "estrange", phonetic: "/i'streindʒ/", pos: "v.", meaningZh: "使疏远；离间", meaningEn: "to alienate", band: "8", collocations: [], example: "The fight estranged them.", exampleZh: "争吵疏远了他们。",
     senses: [
     {
     pos: "v.", meaningZh: "使疏远；离间", meaningEn: "to alienate", collocations: [], example: "The fight estranged them.", exampleZh: "争吵疏远了他们。" },
@@ -30394,7 +30394,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2980", term: "ethereal", phonetic: "i'θiriәl", pos: "adj.", meaningZh: "轻飘的；空灵的；轻的；飘渺的；天上的；醚制的；挥发性的", meaningEn: "delicate and light", band: "8", collocations: [], example: "The ethereal music soothed.", exampleZh: "空灵的音乐安抚了。",
+    id: "bulk-2980", term: "ethereal", phonetic: "/i'θiriәl/", pos: "adj.", meaningZh: "轻飘的；空灵的；轻的；飘渺的；天上的；醚制的；挥发性的", meaningEn: "delicate and light", band: "8", collocations: [], example: "The ethereal music soothed.", exampleZh: "空灵的音乐安抚了。",
     senses: [
     {
     pos: "adj.", meaningZh: "轻飘的；空灵的；轻的；飘渺的；天上的；醚制的；挥发性的", meaningEn: "delicate and light", collocations: [], example: "The ethereal music soothed.", exampleZh: "空灵的音乐安抚了。" }
@@ -30463,7 +30463,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-2989", term: "exacting", phonetic: "ig'zæktiŋ", pos: "adj.", meaningZh: "苛求的；严厉的；吃力的", meaningEn: "making great demands", band: "8", collocations: [], example: "His exacting boss tired him.", exampleZh: "苛求的老板累坏了他。",
+    id: "bulk-2989", term: "exacting", phonetic: "/ig'zæktiŋ/", pos: "adj.", meaningZh: "苛求的；严厉的；吃力的", meaningEn: "making great demands", band: "8", collocations: [], example: "His exacting boss tired him.", exampleZh: "苛求的老板累坏了他。",
     senses: [
     {
     pos: "adj.", meaningZh: "苛求的；严厉的；吃力的", meaningEn: "making great demands", collocations: [], example: "His exacting boss tired him.", exampleZh: "苛求的老板累坏了他。" },
@@ -30575,7 +30575,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3001", term: "exigency", phonetic: "'eksidʒәnsi", pos: "n.", meaningZh: "紧急；危急；急迫；紧急事件", meaningEn: "a pressing need", band: "8", collocations: [], example: "The exigency demanded action.", exampleZh: "危急需要行动。",
+    id: "bulk-3001", term: "exigency", phonetic: "/eksidʒәnsi/", pos: "n.", meaningZh: "紧急；危急；急迫；紧急事件", meaningEn: "a pressing need", band: "8", collocations: [], example: "The exigency demanded action.", exampleZh: "危急需要行动。",
     senses: [
     {
     pos: "n.", meaningZh: "紧急；危急；急迫；紧急事件", meaningEn: "a pressing need", collocations: [], example: "The exigency demanded action.", exampleZh: "危急需要行动。" }
@@ -30607,7 +30607,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3005", term: "exorcise", phonetic: "'eksɒ:saiz", pos: "v.", meaningZh: "驱除；除邪", meaningEn: "to drive out evil", band: "8", collocations: [], example: "They exorcised the ghost.", exampleZh: "他们驱除了鬼。",
+    id: "bulk-3005", term: "exorcise", phonetic: "/eksɒ:saiz/", pos: "v.", meaningZh: "驱除；除邪", meaningEn: "to drive out evil", band: "8", collocations: [], example: "They exorcised the ghost.", exampleZh: "他们驱除了鬼。",
     senses: [
     {
     pos: "v.", meaningZh: "驱除；除邪", meaningEn: "to drive out evil", collocations: [], example: "They exorcised the ghost.", exampleZh: "他们驱除了鬼。" },
@@ -30632,7 +30632,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3008", term: "expediate", phonetic: "'ekspi:dɪeɪt", pos: "v.", meaningZh: "加快；促进；使加速", meaningEn: "to hasten", band: "8", collocations: [], example: "They expediated the work.", exampleZh: "他们加快了工作。",
+    id: "bulk-3008", term: "expediate", phonetic: "/ekspi:dɪeɪt/", pos: "v.", meaningZh: "加快；促进；使加速", meaningEn: "to hasten", band: "8", collocations: [], example: "They expediated the work.", exampleZh: "他们加快了工作。",
     senses: [
     {
     pos: "v.", meaningZh: "加快；促进；使加速", meaningEn: "to hasten", collocations: [], example: "They expediated the work.", exampleZh: "他们加快了工作。" }
@@ -30702,14 +30702,14 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3016", term: "extemporize", phonetic: "ik'stempәraiz", pos: "v.", meaningZh: "即兴创作；即席演说；即兴演奏；当场作成", meaningEn: "to speak without preparation", band: "8", collocations: [], example: "He extemporized a speech.", exampleZh: "他即兴演讲。",
+    id: "bulk-3016", term: "extemporize", phonetic: "/ik'stempәraiz/", pos: "v.", meaningZh: "即兴创作；即席演说；即兴演奏；当场作成", meaningEn: "to speak without preparation", band: "8", collocations: [], example: "He extemporized a speech.", exampleZh: "他即兴演讲。",
     senses: [
     {
     pos: "v.", meaningZh: "即兴创作；即席演说；即兴演奏；当场作成", meaningEn: "to speak without preparation", collocations: [], example: "He extemporized a speech.", exampleZh: "他即兴演讲。" }
     ]
   },
   {
-    id: "bulk-3017", term: "extenuating", phonetic: "eks'tenjueitiŋ", pos: "adj.", meaningZh: "情有可原的；减轻的；使减轻的", meaningEn: "excusing", band: "8", collocations: [], example: "The extenuating facts helped.", exampleZh: "情有可原的事实有帮助。",
+    id: "bulk-3017", term: "extenuating", phonetic: "/eks'tenjueitiŋ/", pos: "adj.", meaningZh: "情有可原的；减轻的；使减轻的", meaningEn: "excusing", band: "8", collocations: [], example: "The extenuating facts helped.", exampleZh: "情有可原的事实有帮助。",
     senses: [
     {
     pos: "adj.", meaningZh: "情有可原的；减轻的；使减轻的", meaningEn: "excusing", collocations: [], example: "The extenuating facts helped.", exampleZh: "情有可原的事实有帮助。" },
@@ -30807,7 +30807,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3029", term: "fallible", phonetic: "'fælәbl", pos: "adj.", meaningZh: "易犯错的；易错的；可能犯错的", meaningEn: "capable of error", band: "8", collocations: [], example: "He is fallible.", exampleZh: "他会犯错。",
+    id: "bulk-3029", term: "fallible", phonetic: "/fælәbl/", pos: "adj.", meaningZh: "易犯错的；易错的；可能犯错的", meaningEn: "capable of error", band: "8", collocations: [], example: "He is fallible.", exampleZh: "他会犯错。",
     senses: [
     {
     pos: "adj.", meaningZh: "易犯错的；易错的；可能犯错的", meaningEn: "capable of error", collocations: [], example: "He is fallible.", exampleZh: "他会犯错。" }
@@ -30852,7 +30852,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3034", term: "fatuous", phonetic: "'fætjuәs", pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "foolishly self-satisfied", band: "8", collocations: [], example: "His fatuous grin annoyed.", exampleZh: "他愚昧的傻笑惹恼了。",
+    id: "bulk-3034", term: "fatuous", phonetic: "/fætjuәs/", pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "foolishly self-satisfied", band: "8", collocations: [], example: "His fatuous grin annoyed.", exampleZh: "他愚昧的傻笑惹恼了。",
     senses: [
     {
     pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "foolishly self-satisfied", collocations: [], example: "His fatuous grin annoyed.", exampleZh: "他愚昧的傻笑惹恼了。" }
@@ -30873,7 +30873,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3037", term: "fawning", phonetic: "'fɔ:niŋ", pos: "adj.", meaningZh: "奉承的；摇尾乞怜的；讨好；生(小鹿)；幼鹿；小动物；小山羊；淡黄褐色；浅黄褐色的", meaningEn: "ingratiating", band: "8", collocations: [], example: "The fawning servant bowed.", exampleZh: "奉承的仆人鞠躬。",
+    id: "bulk-3037", term: "fawning", phonetic: "/fɔ:niŋ/", pos: "adj.", meaningZh: "奉承的；摇尾乞怜的；讨好；生(小鹿)；幼鹿；小动物；小山羊；淡黄褐色；浅黄褐色的", meaningEn: "ingratiating", band: "8", collocations: [], example: "The fawning servant bowed.", exampleZh: "奉承的仆人鞠躬。",
     senses: [
     {
     pos: "adj.", meaningZh: "奉承的；摇尾乞怜的；讨好；生(小鹿)；幼鹿；小动物；小山羊；淡黄褐色；浅黄褐色的", meaningEn: "ingratiating", collocations: [], example: "The fawning servant bowed.", exampleZh: "奉承的仆人鞠躬。" },
@@ -30954,7 +30954,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3046", term: "ferment", phonetic: "'fә:ment", pos: "n./v.", meaningZh: "发酵；动乱；酵素", meaningEn: "agitation", band: "8", collocations: [], example: "The ferment grew.", exampleZh: "动乱加剧了。",
+    id: "bulk-3046", term: "ferment", phonetic: "/fә:ment/", pos: "n./v.", meaningZh: "发酵；动乱；酵素", meaningEn: "agitation", band: "8", collocations: [], example: "The ferment grew.", exampleZh: "动乱加剧了。",
     senses: [
     {
     pos: "n./v.", meaningZh: "发酵；动乱；酵素", meaningEn: "agitation", collocations: [], example: "The ferment grew.", exampleZh: "动乱加剧了。" },
@@ -30983,14 +30983,14 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3049", term: "fervid", phonetic: "'fә:vid", pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "impassioned", band: "8", collocations: [], example: "His fervid speech moved.", exampleZh: "他热情的演讲动人。",
+    id: "bulk-3049", term: "fervid", phonetic: "/fә:vid/", pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "impassioned", band: "8", collocations: [], example: "His fervid speech moved.", exampleZh: "他热情的演讲动人。",
     senses: [
     {
     pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "impassioned", collocations: [], example: "His fervid speech moved.", exampleZh: "他热情的演讲动人。" }
     ]
   },
   {
-    id: "bulk-3050", term: "fester", phonetic: "'festә", pos: "v.", meaningZh: "化脓；恶化", meaningEn: "to rot", band: "8", collocations: [], example: "The wound festered.", exampleZh: "伤口化脓了。",
+    id: "bulk-3050", term: "fester", phonetic: "/festә/", pos: "v.", meaningZh: "化脓；恶化", meaningEn: "to rot", band: "8", collocations: [], example: "The wound festered.", exampleZh: "伤口化脓了。",
     senses: [
     {
     pos: "v.", meaningZh: "化脓；恶化", meaningEn: "to rot", collocations: [], example: "The wound festered.", exampleZh: "伤口化脓了。" },
@@ -31062,14 +31062,14 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3058", term: "figment", phonetic: "'figmәnt", pos: "n.", meaningZh: "虚构；臆想；虚构的事", meaningEn: "an invention", band: "8", collocations: [], example: "The fear was a figment.", exampleZh: "恐惧是臆想。",
+    id: "bulk-3058", term: "figment", phonetic: "/figmәnt/", pos: "n.", meaningZh: "虚构；臆想；虚构的事", meaningEn: "an invention", band: "8", collocations: [], example: "The fear was a figment.", exampleZh: "恐惧是臆想。",
     senses: [
     {
     pos: "n.", meaningZh: "虚构；臆想；虚构的事", meaningEn: "an invention", collocations: [], example: "The fear was a figment.", exampleZh: "恐惧是臆想。" }
     ]
   },
   {
-    id: "bulk-3059", term: "filch", phonetic: "filtʃ", pos: "v.", meaningZh: "偷窃；小偷小摸", meaningEn: "to steal small", band: "8", collocations: [], example: "He filched a cookie.", exampleZh: "他偷了块饼干。",
+    id: "bulk-3059", term: "filch", phonetic: "/filtʃ/", pos: "v.", meaningZh: "偷窃；小偷小摸", meaningEn: "to steal small", band: "8", collocations: [], example: "He filched a cookie.", exampleZh: "他偷了块饼干。",
     senses: [
     {
     pos: "v.", meaningZh: "偷窃；小偷小摸", meaningEn: "to steal small", collocations: [], example: "He filched a cookie.", exampleZh: "他偷了块饼干。" },
@@ -31085,7 +31085,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3061", term: "finale", phonetic: "fi'nɑ:li", pos: "n.", meaningZh: "终曲；结局；最后乐章", meaningEn: "the last part", band: "8", collocations: [], example: "The finale thrilled.", exampleZh: "终曲令人激动。",
+    id: "bulk-3061", term: "finale", phonetic: "/fi'nɑ:li/", pos: "n.", meaningZh: "终曲；结局；最后乐章", meaningEn: "the last part", band: "8", collocations: [], example: "The finale thrilled.", exampleZh: "终曲令人激动。",
     senses: [
     {
     pos: "n.", meaningZh: "终曲；结局；最后乐章", meaningEn: "the last part", collocations: [], example: "The finale thrilled.", exampleZh: "终曲令人激动。" }
@@ -31171,14 +31171,14 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3071", term: "flak", phonetic: "flæk", pos: "n.", meaningZh: "高射炮；批评；对空炮火；广告；宣传", meaningEn: "anti-aircraft fire or criticism", band: "8", collocations: [], example: "He took the flak.", exampleZh: "他承受了批评。",
+    id: "bulk-3071", term: "flak", phonetic: "/flæk/", pos: "n.", meaningZh: "高射炮；批评；对空炮火；广告；宣传", meaningEn: "anti-aircraft fire or criticism", band: "8", collocations: [], example: "He took the flak.", exampleZh: "他承受了批评。",
     senses: [
     {
     pos: "n.", meaningZh: "高射炮；批评；对空炮火；广告；宣传", meaningEn: "anti-aircraft fire or criticism", collocations: [], example: "He took the flak.", exampleZh: "他承受了批评。" }
     ]
   },
   {
-    id: "bulk-3072", term: "flamboyant", phonetic: "flæm'bɒiәnt", pos: "adj.", meaningZh: "艳丽的；炫耀的；火焰似的；辉耀的；华丽的", meaningEn: "showy", band: "8", collocations: [], example: "The flamboyant dress drew eyes.", exampleZh: "艳丽的裙子引人注目。",
+    id: "bulk-3072", term: "flamboyant", phonetic: "/flæm'bɒiәnt/", pos: "adj.", meaningZh: "艳丽的；炫耀的；火焰似的；辉耀的；华丽的", meaningEn: "showy", band: "8", collocations: [], example: "The flamboyant dress drew eyes.", exampleZh: "艳丽的裙子引人注目。",
     senses: [
     {
     pos: "adj.", meaningZh: "艳丽的；炫耀的；火焰似的；辉耀的；华丽的", meaningEn: "showy", collocations: [], example: "The flamboyant dress drew eyes.", exampleZh: "艳丽的裙子引人注目。" }
@@ -31310,7 +31310,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3086", term: "fluctuate", phonetic: "'flʌktʃueit", pos: "v.", meaningZh: "波动；起伏", meaningEn: "to vary irregularly", band: "8", collocations: [], example: "The price fluctuated.", exampleZh: "价格起伏。",
+    id: "bulk-3086", term: "fluctuate", phonetic: "/flʌktʃueit/", pos: "v.", meaningZh: "波动；起伏", meaningEn: "to vary irregularly", band: "8", collocations: [], example: "The price fluctuated.", exampleZh: "价格起伏。",
     senses: [
     {
     pos: "v.", meaningZh: "波动；起伏", meaningEn: "to vary irregularly", collocations: [], example: "The price fluctuated.", exampleZh: "价格起伏。" },
@@ -31381,7 +31381,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3093", term: "footloose", phonetic: "'futlu:s", pos: "adj.", meaningZh: "自由自在的；无拘束的；能做所要做的；不受束缚的", meaningEn: "free to go", band: "8", collocations: [], example: "The footloose traveler left.", exampleZh: "无拘束的旅行者离开了。",
+    id: "bulk-3093", term: "footloose", phonetic: "/futlu:s/", pos: "adj.", meaningZh: "自由自在的；无拘束的；能做所要做的；不受束缚的", meaningEn: "free to go", band: "8", collocations: [], example: "The footloose traveler left.", exampleZh: "无拘束的旅行者离开了。",
     senses: [
     {
     pos: "adj.", meaningZh: "自由自在的；无拘束的；能做所要做的；不受束缚的", meaningEn: "free to go", collocations: [], example: "The footloose traveler left.", exampleZh: "无拘束的旅行者离开了。" }
@@ -31439,7 +31439,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3099", term: "forebear", phonetic: "'fɒ:bєә", pos: "n.", meaningZh: "祖先；祖宗", meaningEn: "an ancestor", band: "8", collocations: [], example: "His forebears emigrated.", exampleZh: "他的祖先移民了。",
+    id: "bulk-3099", term: "forebear", phonetic: "/fɒ:bєә/", pos: "n.", meaningZh: "祖先；祖宗", meaningEn: "an ancestor", band: "8", collocations: [], example: "His forebears emigrated.", exampleZh: "他的祖先移民了。",
     senses: [
     {
     pos: "n.", meaningZh: "祖先；祖宗", meaningEn: "an ancestor", collocations: [], example: "His forebears emigrated.", exampleZh: "他的祖先移民了。" },
@@ -31510,7 +31510,7 @@ const part_11: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3106", term: "forlorn", phonetic: "fә'lɒ:n", pos: "adj.", meaningZh: "孤独的；绝望的；悲惨的；凄凉的", meaningEn: "desolate", band: "8", collocations: [], example: "The forlorn figure waited.", exampleZh: "孤独的身影等待着。",
+    id: "bulk-3106", term: "forlorn", phonetic: "/fә'lɒ:n/", pos: "adj.", meaningZh: "孤独的；绝望的；悲惨的；凄凉的", meaningEn: "desolate", band: "8", collocations: [], example: "The forlorn figure waited.", exampleZh: "孤独的身影等待着。",
     senses: [
     {
     pos: "adj.", meaningZh: "孤独的；绝望的；悲惨的；凄凉的", meaningEn: "desolate", collocations: [], example: "The forlorn figure waited.", exampleZh: "孤独的身影等待着。" }
@@ -31727,7 +31727,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3130", term: "functionary", phonetic: "'fʌŋkʃәnәri", pos: "n.", meaningZh: "小官员；职员；负责人员", meaningEn: "a minor official", band: "8", collocations: [], example: "The functionary stamped.", exampleZh: "小官员盖了章。",
+    id: "bulk-3130", term: "functionary", phonetic: "/fʌŋkʃәnәri/", pos: "n.", meaningZh: "小官员；职员；负责人员", meaningEn: "a minor official", band: "8", collocations: [], example: "The functionary stamped.", exampleZh: "小官员盖了章。",
     senses: [
     {
     pos: "n.", meaningZh: "小官员；职员；负责人员", meaningEn: "a minor official", collocations: [], example: "The functionary stamped.", exampleZh: "小官员盖了章。" },
@@ -31752,7 +31752,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3133", term: "furrow", phonetic: "'fʌrәu", pos: "n./v.", meaningZh: "犁沟；皱眉；车辙；皱纹", meaningEn: "a trench", band: "8", collocations: [], example: "He furrowed his brow.", exampleZh: "他皱了眉。",
+    id: "bulk-3133", term: "furrow", phonetic: "/fʌrәu/", pos: "n./v.", meaningZh: "犁沟；皱眉；车辙；皱纹", meaningEn: "a trench", band: "8", collocations: [], example: "He furrowed his brow.", exampleZh: "他皱了眉。",
     senses: [
     {
     pos: "n./v.", meaningZh: "犁沟；皱眉；车辙；皱纹", meaningEn: "a trench", collocations: [], example: "He furrowed his brow.", exampleZh: "他皱了眉。" },
@@ -31820,7 +31820,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3141", term: "gamely", phonetic: "'geimli", pos: "adv.", meaningZh: "勇敢地；不屈地", meaningEn: "in a spirited way", band: "8", collocations: [], example: "He fought gamely.", exampleZh: "他勇敢地战斗。",
+    id: "bulk-3141", term: "gamely", phonetic: "/geimli/", pos: "adv.", meaningZh: "勇敢地；不屈地", meaningEn: "in a spirited way", band: "8", collocations: [], example: "He fought gamely.", exampleZh: "他勇敢地战斗。",
     senses: [
     {
     pos: "adv.", meaningZh: "勇敢地；不屈地", meaningEn: "in a spirited way", collocations: [], example: "He fought gamely.", exampleZh: "他勇敢地战斗。" },
@@ -31829,7 +31829,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3142", term: "gamine", phonetic: "^æ'mi:n", pos: "n.", meaningZh: "假小子；流浪女孩", meaningEn: "a playful girl", band: "8", collocations: [], example: "The gamine grinned.", exampleZh: "假小子咧嘴笑。",
+    id: "bulk-3142", term: "gamine", phonetic: "/^æ'mi:n/", pos: "n.", meaningZh: "假小子；流浪女孩", meaningEn: "a playful girl", band: "8", collocations: [], example: "The gamine grinned.", exampleZh: "假小子咧嘴笑。",
     senses: [
     {
     pos: "n.", meaningZh: "假小子；流浪女孩", meaningEn: "a playful girl", collocations: [], example: "The gamine grinned.", exampleZh: "假小子咧嘴笑。" },
@@ -31932,14 +31932,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3155", term: "gentility", phonetic: "dʒen'tiliti", pos: "n.", meaningZh: "绅士风度；高贵的地位；出身高贵；绅士们；上流阶层；斯文；有教养；彬彬有礼；文雅；装体面；假斯文", meaningEn: "refinement", band: "8", collocations: [], example: "The gentility impressed.", exampleZh: "高贵的风度令人印象深刻。",
+    id: "bulk-3155", term: "gentility", phonetic: "/dʒen'tiliti/", pos: "n.", meaningZh: "绅士风度；高贵的地位；出身高贵；绅士们；上流阶层；斯文；有教养；彬彬有礼；文雅；装体面；假斯文", meaningEn: "refinement", band: "8", collocations: [], example: "The gentility impressed.", exampleZh: "高贵的风度令人印象深刻。",
     senses: [
     {
     pos: "n.", meaningZh: "绅士风度；高贵的地位；出身高贵；绅士们；上流阶层；斯文；有教养；彬彬有礼；文雅；装体面；假斯文", meaningEn: "refinement", collocations: [], example: "The gentility impressed.", exampleZh: "高贵的风度令人印象深刻。" }
     ]
   },
   {
-    id: "bulk-3156", term: "geriatric", phonetic: ",dʒeri'ætrik", pos: "adj.", meaningZh: "老年的；老人的；老年病学的；衰老的；老年医学的；老人学的", meaningEn: "of old age", band: "8", collocations: [], example: "The geriatric ward filled.", exampleZh: "老年病房满了。",
+    id: "bulk-3156", term: "geriatric", phonetic: "/,dʒeri'ætrik/", pos: "adj.", meaningZh: "老年的；老人的；老年病学的；衰老的；老年医学的；老人学的", meaningEn: "of old age", band: "8", collocations: [], example: "The geriatric ward filled.", exampleZh: "老年病房满了。",
     senses: [
     {
     pos: "adj.", meaningZh: "老年的；老人的；老年病学的；衰老的；老年医学的；老人学的", meaningEn: "of old age", collocations: [], example: "The geriatric ward filled.", exampleZh: "老年病房满了。" },
@@ -31957,7 +31957,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3158", term: "gingerly", phonetic: "'dʒindʒәli", pos: "adv.", meaningZh: "小心翼翼地；慎重地", meaningEn: "with great care", band: "8", collocations: [], example: "He stepped gingerly.", exampleZh: "他小心翼翼地走。",
+    id: "bulk-3158", term: "gingerly", phonetic: "/dʒindʒәli/", pos: "adv.", meaningZh: "小心翼翼地；慎重地", meaningEn: "with great care", band: "8", collocations: [], example: "He stepped gingerly.", exampleZh: "他小心翼翼地走。",
     senses: [
     {
     pos: "adv.", meaningZh: "小心翼翼地；慎重地", meaningEn: "with great care", collocations: [], example: "He stepped gingerly.", exampleZh: "他小心翼翼地走。" },
@@ -32069,7 +32069,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3168", term: "gnarled", phonetic: "nɑ:ld", pos: "adj.", meaningZh: "多瘤的；扭曲的；多节的；粗糙的；乖僻的；乖戾的", meaningEn: "knotted", band: "8", collocations: [], example: "The gnarled tree bent.", exampleZh: "多瘤的树弯了。",
+    id: "bulk-3168", term: "gnarled", phonetic: "/nɑ:ld/", pos: "adj.", meaningZh: "多瘤的；扭曲的；多节的；粗糙的；乖僻的；乖戾的", meaningEn: "knotted", band: "8", collocations: [], example: "The gnarled tree bent.", exampleZh: "多瘤的树弯了。",
     senses: [
     {
     pos: "adj.", meaningZh: "多瘤的；扭曲的；多节的；粗糙的；乖僻的；乖戾的", meaningEn: "knotted", collocations: [], example: "The gnarled tree bent.", exampleZh: "多瘤的树弯了。" },
@@ -32078,7 +32078,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3169", term: "gnash", phonetic: "næʃ", pos: "v.", meaningZh: "咬牙；切齿；咬牙切齿", meaningEn: "to grind teeth", band: "8", collocations: [], example: "He gnashed in rage.", exampleZh: "他愤怒地咬牙。",
+    id: "bulk-3169", term: "gnash", phonetic: "/næʃ/", pos: "v.", meaningZh: "咬牙；切齿；咬牙切齿", meaningEn: "to grind teeth", band: "8", collocations: [], example: "He gnashed in rage.", exampleZh: "他愤怒地咬牙。",
     senses: [
     {
     pos: "v.", meaningZh: "咬牙；切齿；咬牙切齿", meaningEn: "to grind teeth", collocations: [], example: "He gnashed in rage.", exampleZh: "他愤怒地咬牙。" },
@@ -32087,14 +32087,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3170", term: "gnome", phonetic: "nәum", pos: "n.", meaningZh: "侏儒；格言；箴言；土地神", meaningEn: "a dwarf or maxim", band: "8", collocations: [], example: "The garden gnome sat.", exampleZh: "花园侏儒坐着。",
+    id: "bulk-3170", term: "gnome", phonetic: "/nәum/", pos: "n.", meaningZh: "侏儒；格言；箴言；土地神", meaningEn: "a dwarf or maxim", band: "8", collocations: [], example: "The garden gnome sat.", exampleZh: "花园侏儒坐着。",
     senses: [
     {
     pos: "n.", meaningZh: "侏儒；格言；箴言；土地神", meaningEn: "a dwarf or maxim", collocations: [], example: "The garden gnome sat.", exampleZh: "花园侏儒坐着。" }
     ]
   },
   {
-    id: "bulk-3171", term: "goad", phonetic: "gәud", pos: "v./n.", meaningZh: "刺激；驱使", meaningEn: "to provoke", band: "8", collocations: [], example: "He goaded the ox.", exampleZh: "他驱赶牛。",
+    id: "bulk-3171", term: "goad", phonetic: "/gәud/", pos: "v./n.", meaningZh: "刺激；驱使", meaningEn: "to provoke", band: "8", collocations: [], example: "He goaded the ox.", exampleZh: "他驱赶牛。",
     senses: [
     {
     pos: "v./n.", meaningZh: "刺激；驱使", meaningEn: "to provoke", collocations: [], example: "He goaded the ox.", exampleZh: "他驱赶牛。" },
@@ -32105,7 +32105,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3172", term: "gobble", phonetic: "'gɒbl", pos: "v.", meaningZh: "狼吞虎咽；咯咯叫", meaningEn: "to eat fast", band: "8", collocations: [], example: "He gobbled the meal.", exampleZh: "他狼吞虎咽。",
+    id: "bulk-3172", term: "gobble", phonetic: "/gɒbl/", pos: "v.", meaningZh: "狼吞虎咽；咯咯叫", meaningEn: "to eat fast", band: "8", collocations: [], example: "He gobbled the meal.", exampleZh: "他狼吞虎咽。",
     senses: [
     {
     pos: "v.", meaningZh: "狼吞虎咽；咯咯叫", meaningEn: "to eat fast", collocations: [], example: "He gobbled the meal.", exampleZh: "他狼吞虎咽。" },
@@ -32118,14 +32118,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3173", term: "goblet", phonetic: "'gɒblit", pos: "n.", meaningZh: "高脚杯；酒杯", meaningEn: "a drinking cup", band: "8", collocations: [], example: "The goblet gleamed.", exampleZh: "高脚杯闪闪发光。",
+    id: "bulk-3173", term: "goblet", phonetic: "/gɒblit/", pos: "n.", meaningZh: "高脚杯；酒杯", meaningEn: "a drinking cup", band: "8", collocations: [], example: "The goblet gleamed.", exampleZh: "高脚杯闪闪发光。",
     senses: [
     {
     pos: "n.", meaningZh: "高脚杯；酒杯", meaningEn: "a drinking cup", collocations: [], example: "The goblet gleamed.", exampleZh: "高脚杯闪闪发光。" }
     ]
   },
   {
-    id: "bulk-3174", term: "goggle", phonetic: "'gɒgl", pos: "v.", meaningZh: "瞪视；睁眼", meaningEn: "to stare", band: "8", collocations: [], example: "He goggled at sight.", exampleZh: "他瞪视景象。",
+    id: "bulk-3174", term: "goggle", phonetic: "/gɒgl/", pos: "v.", meaningZh: "瞪视；睁眼", meaningEn: "to stare", band: "8", collocations: [], example: "He goggled at sight.", exampleZh: "他瞪视景象。",
     senses: [
     {
     pos: "v.", meaningZh: "瞪视；睁眼", meaningEn: "to stare", collocations: [], example: "He goggled at sight.", exampleZh: "他瞪视景象。" },
@@ -32140,7 +32140,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3175", term: "gorge", phonetic: "gɒ:dʒ", pos: "n./v.", meaningZh: "峡谷；狼吞；凹槽；塞饱；咽喉", meaningEn: "to eat greedily", band: "8", collocations: [], example: "He gorged on food.", exampleZh: "他狼吞食物。",
+    id: "bulk-3175", term: "gorge", phonetic: "/gɒ:dʒ/", pos: "n./v.", meaningZh: "峡谷；狼吞；凹槽；塞饱；咽喉", meaningEn: "to eat greedily", band: "8", collocations: [], example: "He gorged on food.", exampleZh: "他狼吞食物。",
     senses: [
     {
     pos: "n./v.", meaningZh: "峡谷；狼吞；凹槽；塞饱；咽喉", meaningEn: "to eat greedily", collocations: [], example: "He gorged on food.", exampleZh: "他狼吞食物。" },
@@ -32151,7 +32151,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3176", term: "gory", phonetic: "'gɒ:ri", pos: "adj.", meaningZh: "血腥的；残酷的；血淋淋的；满是血的；血污的", meaningEn: "bloody", band: "8", collocations: [], example: "The gory scene shocked.", exampleZh: "血腥场景令人震惊。",
+    id: "bulk-3176", term: "gory", phonetic: "/gɒ:ri/", pos: "adj.", meaningZh: "血腥的；残酷的；血淋淋的；满是血的；血污的", meaningEn: "bloody", band: "8", collocations: [], example: "The gory scene shocked.", exampleZh: "血腥场景令人震惊。",
     senses: [
     {
     pos: "adj.", meaningZh: "血腥的；残酷的；血淋淋的；满是血的；血污的", meaningEn: "bloody", collocations: [], example: "The gory scene shocked.", exampleZh: "血腥场景令人震惊。" }
@@ -32205,7 +32205,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3182", term: "grandiose", phonetic: "'grændiәus", pos: "adj.", meaningZh: "宏大的；浮夸的；宏伟的；壮丽的；夸张的；夸大的", meaningEn: "impressive but pretentious", band: "8", collocations: [], example: "The grandiose plan failed.", exampleZh: "浮夸的计划失败了。",
+    id: "bulk-3182", term: "grandiose", phonetic: "/grændiәus/", pos: "adj.", meaningZh: "宏大的；浮夸的；宏伟的；壮丽的；夸张的；夸大的", meaningEn: "impressive but pretentious", band: "8", collocations: [], example: "The grandiose plan failed.", exampleZh: "浮夸的计划失败了。",
     senses: [
     {
     pos: "adj.", meaningZh: "宏大的；浮夸的；宏伟的；壮丽的；夸张的；夸大的", meaningEn: "impressive but pretentious", collocations: [], example: "The grandiose plan failed.", exampleZh: "浮夸的计划失败了。" }
@@ -32281,7 +32281,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3190", term: "groundless", phonetic: "'^aundlis", pos: "adj.", meaningZh: "无根据的；无理由的", meaningEn: "without basis", band: "8", collocations: [], example: "The fear was groundless.", exampleZh: "恐惧无根据。",
+    id: "bulk-3190", term: "groundless", phonetic: "/^aundlis/", pos: "adj.", meaningZh: "无根据的；无理由的", meaningEn: "without basis", band: "8", collocations: [], example: "The fear was groundless.", exampleZh: "恐惧无根据。",
     senses: [
     {
     pos: "adj.", meaningZh: "无根据的；无理由的", meaningEn: "without basis", collocations: [], example: "The fear was groundless.", exampleZh: "恐惧无根据。" }
@@ -32301,7 +32301,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3192", term: "grovel", phonetic: "'grɒvl", pos: "v.", meaningZh: "卑躬屈膝；趴", meaningEn: "to crawl abjectly", band: "8", collocations: [], example: "He groveled for mercy.", exampleZh: "他卑躬屈膝求饶。",
+    id: "bulk-3192", term: "grovel", phonetic: "/grɒvl/", pos: "v.", meaningZh: "卑躬屈膝；趴", meaningEn: "to crawl abjectly", band: "8", collocations: [], example: "He groveled for mercy.", exampleZh: "他卑躬屈膝求饶。",
     senses: [
     {
     pos: "v.", meaningZh: "卑躬屈膝；趴", meaningEn: "to crawl abjectly", collocations: [], example: "He groveled for mercy.", exampleZh: "他卑躬屈膝求饶。" },
@@ -32332,7 +32332,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3195", term: "grueling", phonetic: "'^ruәliŋ", pos: "adj.", meaningZh: "折磨人的；繁重的；使人精疲力尽的", meaningEn: "exhausting", band: "8", collocations: [], example: "The grueling march tired.", exampleZh: "繁重的行军令人疲惫。",
+    id: "bulk-3195", term: "grueling", phonetic: "/^ruәliŋ/", pos: "adj.", meaningZh: "折磨人的；繁重的；使人精疲力尽的", meaningEn: "exhausting", band: "8", collocations: [], example: "The grueling march tired.", exampleZh: "繁重的行军令人疲惫。",
     senses: [
     {
     pos: "adj.", meaningZh: "折磨人的；繁重的；使人精疲力尽的", meaningEn: "exhausting", collocations: [], example: "The grueling march tired.", exampleZh: "繁重的行军令人疲惫。" },
@@ -32341,7 +32341,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3196", term: "gruesome", phonetic: "'gru:sәm", pos: "adj.", meaningZh: "可怕的；令人毛骨悚然的；阴森的", meaningEn: "horrible", band: "8", collocations: [], example: "The gruesome sight sickened.", exampleZh: "可怕的景象令人作呕。",
+    id: "bulk-3196", term: "gruesome", phonetic: "/gru:sәm/", pos: "adj.", meaningZh: "可怕的；令人毛骨悚然的；阴森的", meaningEn: "horrible", band: "8", collocations: [], example: "The gruesome sight sickened.", exampleZh: "可怕的景象令人作呕。",
     senses: [
     {
     pos: "adj.", meaningZh: "可怕的；令人毛骨悚然的；阴森的", meaningEn: "horrible", collocations: [], example: "The gruesome sight sickened.", exampleZh: "可怕的景象令人作呕。" }
@@ -32452,7 +32452,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3209", term: "habituate", phonetic: "hә'bitjueit", pos: "v.", meaningZh: "使习惯于", meaningEn: "to accustom", band: "8", collocations: [], example: "He habituated to noise.", exampleZh: "他习惯了噪音。",
+    id: "bulk-3209", term: "habituate", phonetic: "/hә'bitjueit/", pos: "v.", meaningZh: "使习惯于", meaningEn: "to accustom", band: "8", collocations: [], example: "He habituated to noise.", exampleZh: "他习惯了噪音。",
     senses: [
     {
     pos: "v.", meaningZh: "使习惯于", meaningEn: "to accustom", collocations: [], example: "He habituated to noise.", exampleZh: "他习惯了噪音。" },
@@ -32514,7 +32514,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3215", term: "halfhearted", phonetic: "'hɑ:f'hɑ:tid", pos: "adj.", meaningZh: "半心半意的；不热心的；不认真的；无兴趣的", meaningEn: "lacking enthusiasm", band: "8", collocations: [], example: "The halfhearted try failed.", exampleZh: "不热心的尝试失败了。",
+    id: "bulk-3215", term: "halfhearted", phonetic: "/hɑ:f'hɑ:tid/", pos: "adj.", meaningZh: "半心半意的；不热心的；不认真的；无兴趣的", meaningEn: "lacking enthusiasm", band: "8", collocations: [], example: "The halfhearted try failed.", exampleZh: "不热心的尝试失败了。",
     senses: [
     {
     pos: "adj.", meaningZh: "半心半意的；不热心的；不认真的；无兴趣的", meaningEn: "lacking enthusiasm", collocations: [], example: "The halfhearted try failed.", exampleZh: "不热心的尝试失败了。" }
@@ -32667,7 +32667,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3230", term: "headstrong", phonetic: "'hedstrɒŋ", pos: "adj.", meaningZh: "任性的；倔强的；顽固的；刚愎的", meaningEn: "willful", band: "8", collocations: [], example: "The headstrong girl refused.", exampleZh: "任性的女孩拒绝了。",
+    id: "bulk-3230", term: "headstrong", phonetic: "/hedstrɒŋ/", pos: "adj.", meaningZh: "任性的；倔强的；顽固的；刚愎的", meaningEn: "willful", band: "8", collocations: [], example: "The headstrong girl refused.", exampleZh: "任性的女孩拒绝了。",
     senses: [
     {
     pos: "adj.", meaningZh: "任性的；倔强的；顽固的；刚愎的", meaningEn: "willful", collocations: [], example: "The headstrong girl refused.", exampleZh: "任性的女孩拒绝了。" }
@@ -32815,7 +32815,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3248", term: "higgledy-piggledy", phonetic: "'hi^ldi'pi^ldi", pos: "adj./adv.", meaningZh: "杂乱的；乱七八糟；乱七八糟的；杂乱无章的", meaningEn: "messy", band: "8", collocations: [], example: "The room was higgledy-piggledy.", exampleZh: "房间乱七八糟。",
+    id: "bulk-3248", term: "higgledy-piggledy", phonetic: "/hi^ldi'pi^ldi/", pos: "adj./adv.", meaningZh: "杂乱的；乱七八糟；乱七八糟的；杂乱无章的", meaningEn: "messy", band: "8", collocations: [], example: "The room was higgledy-piggledy.", exampleZh: "房间乱七八糟。",
     senses: [
     {
     pos: "adj./adv.", meaningZh: "杂乱的；乱七八糟；乱七八糟的；杂乱无章的", meaningEn: "messy", collocations: [], example: "The room was higgledy-piggledy.", exampleZh: "房间乱七八糟。" },
@@ -32824,7 +32824,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3249", term: "highbrow", phonetic: "'haibrau", pos: "adj./n.", meaningZh: "高品味的；知识分子；自炫博学的；知识分子的；不切实际的", meaningEn: "intellectual", band: "8", collocations: [], example: "The highbrow film puzzled.", exampleZh: "高品味的电影令人困惑。",
+    id: "bulk-3249", term: "highbrow", phonetic: "/haibrau/", pos: "adj./n.", meaningZh: "高品味的；知识分子；自炫博学的；知识分子的；不切实际的", meaningEn: "intellectual", band: "8", collocations: [], example: "The highbrow film puzzled.", exampleZh: "高品味的电影令人困惑。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "高品味的；知识分子；自炫博学的；知识分子的；不切实际的", meaningEn: "intellectual", collocations: [], example: "The highbrow film puzzled.", exampleZh: "高品味的电影令人困惑。" },
@@ -32833,7 +32833,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3250", term: "hike", phonetic: "haik", pos: "n./v.", meaningZh: "远足；提高；徒步旅行；涨价", meaningEn: "a long walk", band: "8", collocations: [], example: "They hiked the price.", exampleZh: "他们提高了价格。",
+    id: "bulk-3250", term: "hike", phonetic: "/haik/", pos: "n./v.", meaningZh: "远足；提高；徒步旅行；涨价", meaningEn: "a long walk", band: "8", collocations: [], example: "They hiked the price.", exampleZh: "他们提高了价格。",
     senses: [
     {
     pos: "n./v.", meaningZh: "远足；提高；徒步旅行；涨价", meaningEn: "a long walk", collocations: [], example: "They hiked the price.", exampleZh: "他们提高了价格。" },
@@ -32844,21 +32844,21 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3251", term: "hilarious", phonetic: "hi'lєәriәs", pos: "adj.", meaningZh: "欢闹的；滑稽的；喜不自禁的；引人发笑的", meaningEn: "extremely funny", band: "8", collocations: [], example: "The hilarious joke roared.", exampleZh: "滑稽的笑话让人大笑。",
+    id: "bulk-3251", term: "hilarious", phonetic: "/hi'lєәriәs/", pos: "adj.", meaningZh: "欢闹的；滑稽的；喜不自禁的；引人发笑的", meaningEn: "extremely funny", band: "8", collocations: [], example: "The hilarious joke roared.", exampleZh: "滑稽的笑话让人大笑。",
     senses: [
     {
     pos: "adj.", meaningZh: "欢闹的；滑稽的；喜不自禁的；引人发笑的", meaningEn: "extremely funny", collocations: [], example: "The hilarious joke roared.", exampleZh: "滑稽的笑话让人大笑。" }
     ]
   },
   {
-    id: "bulk-3252", term: "hindrance", phonetic: "'hindrәns", pos: "n.", meaningZh: "障碍；妨碍；妨害；阻碍物", meaningEn: "a block", band: "8", collocations: [], example: "The delay was a hindrance.", exampleZh: "延误是障碍。",
+    id: "bulk-3252", term: "hindrance", phonetic: "/hindrәns/", pos: "n.", meaningZh: "障碍；妨碍；妨害；阻碍物", meaningEn: "a block", band: "8", collocations: [], example: "The delay was a hindrance.", exampleZh: "延误是障碍。",
     senses: [
     {
     pos: "n.", meaningZh: "障碍；妨碍；妨害；阻碍物", meaningEn: "a block", collocations: [], example: "The delay was a hindrance.", exampleZh: "延误是障碍。" }
     ]
   },
   {
-    id: "bulk-3253", term: "hinge", phonetic: "hindʒ", pos: "n./v.", meaningZh: "铰链；取决于；关键；枢纽", meaningEn: "a joint", band: "8", collocations: [], example: "The plan hinges on it.", exampleZh: "计划取决于它。",
+    id: "bulk-3253", term: "hinge", phonetic: "/hindʒ/", pos: "n./v.", meaningZh: "铰链；取决于；关键；枢纽", meaningEn: "a joint", band: "8", collocations: [], example: "The plan hinges on it.", exampleZh: "计划取决于它。",
     senses: [
     {
     pos: "n./v.", meaningZh: "铰链；取决于；关键；枢纽", meaningEn: "a joint", collocations: [], example: "The plan hinges on it.", exampleZh: "计划取决于它。" },
@@ -32869,7 +32869,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3254", term: "hinterland", phonetic: "'hintәlænd", pos: "n.", meaningZh: "腹地；内地；偏僻地区", meaningEn: "the remote area", band: "8", collocations: [], example: "The hinterland developed.", exampleZh: "腹地发展了。",
+    id: "bulk-3254", term: "hinterland", phonetic: "/hintәlænd/", pos: "n.", meaningZh: "腹地；内地；偏僻地区", meaningEn: "the remote area", band: "8", collocations: [], example: "The hinterland developed.", exampleZh: "腹地发展了。",
     senses: [
     {
     pos: "n.", meaningZh: "腹地；内地；偏僻地区", meaningEn: "the remote area", collocations: [], example: "The hinterland developed.", exampleZh: "腹地发展了。" }
@@ -32912,7 +32912,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3259", term: "holster", phonetic: "'hәulstә", pos: "n./v.", meaningZh: "手枪皮套；放入套", meaningEn: "a gun case", band: "8", collocations: [], example: "He holstered the pistol.", exampleZh: "他把枪放入套。",
+    id: "bulk-3259", term: "holster", phonetic: "/hәulstә/", pos: "n./v.", meaningZh: "手枪皮套；放入套", meaningEn: "a gun case", band: "8", collocations: [], example: "He holstered the pistol.", exampleZh: "他把枪放入套。",
     senses: [
     {
     pos: "n./v.", meaningZh: "手枪皮套；放入套", meaningEn: "a gun case", collocations: [], example: "He holstered the pistol.", exampleZh: "他把枪放入套。" },
@@ -33057,7 +33057,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3276", term: "hydroelectric", phonetic: ".haidrәui'lektrik", pos: "adj.", meaningZh: "水电的；水力电气的；水电治疗的", meaningEn: "of water power", band: "8", collocations: [], example: "The hydroelectric dam powered.", exampleZh: "水电坝供电了。",
+    id: "bulk-3276", term: "hydroelectric", phonetic: "/.haidrәui'lektrik/", pos: "adj.", meaningZh: "水电的；水力电气的；水电治疗的", meaningEn: "of water power", band: "8", collocations: [], example: "The hydroelectric dam powered.", exampleZh: "水电坝供电了。",
     senses: [
     {
     pos: "adj.", meaningZh: "水电的；水力电气的；水电治疗的", meaningEn: "of water power", collocations: [], example: "The hydroelectric dam powered.", exampleZh: "水电坝供电了。" }
@@ -33087,7 +33087,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3280", term: "hypochondria", phonetic: "haipә'kɔndriә", pos: "n.", meaningZh: "疑病症；多疑", meaningEn: "imagined illness", band: "8", collocations: [], example: "His hypochondria worried.", exampleZh: "他的疑病症令人担忧。",
+    id: "bulk-3280", term: "hypochondria", phonetic: "/haipә'kɔndriә/", pos: "n.", meaningZh: "疑病症；多疑", meaningEn: "imagined illness", band: "8", collocations: [], example: "His hypochondria worried.", exampleZh: "他的疑病症令人担忧。",
     senses: [
     {
     pos: "n.", meaningZh: "疑病症；多疑", meaningEn: "imagined illness", collocations: [], example: "His hypochondria worried.", exampleZh: "他的疑病症令人担忧。" }
@@ -33108,7 +33108,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3283", term: "hypothermia", phonetic: ".haipә'θә:miә", pos: "n.", meaningZh: "体温过低；低体温；低温；降温", meaningEn: "dangerously low body heat", band: "8", collocations: [], example: "The hypothermia threatened.", exampleZh: "低体温构成威胁。",
+    id: "bulk-3283", term: "hypothermia", phonetic: "/.haipә'θә:miә/", pos: "n.", meaningZh: "体温过低；低体温；低温；降温", meaningEn: "dangerously low body heat", band: "8", collocations: [], example: "The hypothermia threatened.", exampleZh: "低体温构成威胁。",
     senses: [
     {
     pos: "n.", meaningZh: "体温过低；低体温；低温；降温", meaningEn: "dangerously low body heat", collocations: [], example: "The hypothermia threatened.", exampleZh: "低体温构成威胁。" }
@@ -33122,7 +33122,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3285", term: "ideology", phonetic: ".aidi'ɒlәdʒi", pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "a system of ideas", band: "8", collocations: [], example: "The ideology divided.", exampleZh: "意识形态分裂了。",
+    id: "bulk-3285", term: "ideology", phonetic: "/.aidi'ɒlәdʒi/", pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "a system of ideas", band: "8", collocations: [], example: "The ideology divided.", exampleZh: "意识形态分裂了。",
     senses: [
     {
     pos: "n.", meaningZh: "意识形态；思想体系；观念学；空论；观念形态", meaningEn: "a system of ideas", collocations: [], example: "The ideology divided.", exampleZh: "意识形态分裂了。" }
@@ -33159,7 +33159,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3290", term: "illicit", phonetic: "i'lisit", pos: "adj.", meaningZh: "违法的；违禁的；不法的；不正当的；禁止的；被禁止的", meaningEn: "unlawful", band: "8", collocations: [], example: "The illicit trade stopped.", exampleZh: "非法贸易停止了。",
+    id: "bulk-3290", term: "illicit", phonetic: "/i'lisit/", pos: "adj.", meaningZh: "违法的；违禁的；不法的；不正当的；禁止的；被禁止的", meaningEn: "unlawful", band: "8", collocations: [], example: "The illicit trade stopped.", exampleZh: "非法贸易停止了。",
     senses: [
     {
     pos: "adj.", meaningZh: "违法的；违禁的；不法的；不正当的；禁止的；被禁止的", meaningEn: "unlawful", collocations: [], example: "The illicit trade stopped.", exampleZh: "非法贸易停止了。" }
@@ -33319,7 +33319,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3308", term: "imperceptible", phonetic: ".impә'septibl", pos: "adj.", meaningZh: "觉察不到的；极细微的；不能感知的；微细的", meaningEn: "not noticeable", band: "8", collocations: [], example: "The change was imperceptible.", exampleZh: "变化觉察不到。",
+    id: "bulk-3308", term: "imperceptible", phonetic: "/.impә'septibl/", pos: "adj.", meaningZh: "觉察不到的；极细微的；不能感知的；微细的", meaningEn: "not noticeable", band: "8", collocations: [], example: "The change was imperceptible.", exampleZh: "变化觉察不到。",
     senses: [
     {
     pos: "adj.", meaningZh: "觉察不到的；极细微的；不能感知的；微细的", meaningEn: "not noticeable", collocations: [], example: "The change was imperceptible.", exampleZh: "变化觉察不到。" }
@@ -33365,7 +33365,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3314", term: "impiety", phonetic: "im'paiәti", pos: "n.", meaningZh: "不敬；不孝；无信仰；不虔诚", meaningEn: "lack of reverence", band: "8", collocations: [], example: "His impiety shocked.", exampleZh: "他的不敬令人震惊。",
+    id: "bulk-3314", term: "impiety", phonetic: "/im'paiәti/", pos: "n.", meaningZh: "不敬；不孝；无信仰；不虔诚", meaningEn: "lack of reverence", band: "8", collocations: [], example: "His impiety shocked.", exampleZh: "他的不敬令人震惊。",
     senses: [
     {
     pos: "n.", meaningZh: "不敬；不孝；无信仰；不虔诚", meaningEn: "lack of reverence", collocations: [], example: "His impiety shocked.", exampleZh: "他的不敬令人震惊。" }
@@ -33390,7 +33390,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3317", term: "implausible", phonetic: "im'plɒ:zәbl", pos: "adj.", meaningZh: "难以置信的；似乎不合情理的；不象真实的", meaningEn: "not believable", band: "8", collocations: [], example: "The story was implausible.", exampleZh: "故事难以置信。",
+    id: "bulk-3317", term: "implausible", phonetic: "/im'plɒ:zәbl/", pos: "adj.", meaningZh: "难以置信的；似乎不合情理的；不象真实的", meaningEn: "not believable", band: "8", collocations: [], example: "The story was implausible.", exampleZh: "故事难以置信。",
     senses: [
     {
     pos: "adj.", meaningZh: "难以置信的；似乎不合情理的；不象真实的", meaningEn: "not believable", collocations: [], example: "The story was implausible.", exampleZh: "故事难以置信。" }
@@ -33417,14 +33417,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3320", term: "implicit", phonetic: "im'plisit", pos: "adj.", meaningZh: "含蓄的；绝对的；暗示的；固有的；不讲明的", meaningEn: "implied", band: "8", collocations: [], example: "The trust was implicit.", exampleZh: "信任是含蓄的。",
+    id: "bulk-3320", term: "implicit", phonetic: "/im'plisit/", pos: "adj.", meaningZh: "含蓄的；绝对的；暗示的；固有的；不讲明的", meaningEn: "implied", band: "8", collocations: [], example: "The trust was implicit.", exampleZh: "信任是含蓄的。",
     senses: [
     {
     pos: "adj.", meaningZh: "含蓄的；绝对的；暗示的；固有的；不讲明的", meaningEn: "implied", collocations: [], example: "The trust was implicit.", exampleZh: "信任是含蓄的。" }
     ]
   },
   {
-    id: "bulk-3321", term: "implode", phonetic: "im'plәud", pos: "v.", meaningZh: "内爆；剧减", meaningEn: "to collapse inward", band: "8", collocations: [], example: "The bubble imploded.", exampleZh: "泡沫内爆了。",
+    id: "bulk-3321", term: "implode", phonetic: "/im'plәud/", pos: "v.", meaningZh: "内爆；剧减", meaningEn: "to collapse inward", band: "8", collocations: [], example: "The bubble imploded.", exampleZh: "泡沫内爆了。",
     senses: [
     {
     pos: "v.", meaningZh: "内爆；剧减", meaningEn: "to collapse inward", collocations: [], example: "The bubble imploded.", exampleZh: "泡沫内爆了。" },
@@ -33471,7 +33471,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3326", term: "impoverish", phonetic: "im'pɒvәriʃ", pos: "v.", meaningZh: "使贫穷；使贫瘠", meaningEn: "to make poor", band: "8", collocations: [], example: "The war impoverished them.", exampleZh: "战争使他们贫穷。",
+    id: "bulk-3326", term: "impoverish", phonetic: "/im'pɒvәriʃ/", pos: "v.", meaningZh: "使贫穷；使贫瘠", meaningEn: "to make poor", band: "8", collocations: [], example: "The war impoverished them.", exampleZh: "战争使他们贫穷。",
     senses: [
     {
     pos: "v.", meaningZh: "使贫穷；使贫瘠", meaningEn: "to make poor", collocations: [], example: "The war impoverished them.", exampleZh: "战争使他们贫穷。" },
@@ -33546,7 +33546,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3335", term: "impuissant", phonetic: "im'pju:isnt", pos: "adj.", meaningZh: "无力的；虚弱的；无能的", meaningEn: "powerless", band: "8", collocations: [], example: "The impuissant army fell.", exampleZh: "无力的军队倒下了。",
+    id: "bulk-3335", term: "impuissant", phonetic: "/im'pju:isnt/", pos: "adj.", meaningZh: "无力的；虚弱的；无能的", meaningEn: "powerless", band: "8", collocations: [], example: "The impuissant army fell.", exampleZh: "无力的军队倒下了。",
     senses: [
     {
     pos: "adj.", meaningZh: "无力的；虚弱的；无能的", meaningEn: "powerless", collocations: [], example: "The impuissant army fell.", exampleZh: "无力的军队倒下了。" }
@@ -33654,7 +33654,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3347", term: "inch", phonetic: "intʃ", pos: "v.", meaningZh: "缓慢移动；逼近", meaningEn: "to move slowly", band: "8", collocations: [], example: "He inched forward.", exampleZh: "他缓慢向前。",
+    id: "bulk-3347", term: "inch", phonetic: "/intʃ/", pos: "v.", meaningZh: "缓慢移动；逼近", meaningEn: "to move slowly", band: "8", collocations: [], example: "He inched forward.", exampleZh: "他缓慢向前。",
     senses: [
     {
     pos: "v.", meaningZh: "缓慢移动；逼近", meaningEn: "to move slowly", collocations: [], example: "He inched forward.", exampleZh: "他缓慢向前。" },
@@ -33667,14 +33667,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3348", term: "incidence", phonetic: "'insidәns", pos: "n.", meaningZh: "发生率；影响范围；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", band: "8", collocations: [], example: "The incidence rose.", exampleZh: "发生率上升了。",
+    id: "bulk-3348", term: "incidence", phonetic: "/insidәns/", pos: "n.", meaningZh: "发生率；影响范围；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", band: "8", collocations: [], example: "The incidence rose.", exampleZh: "发生率上升了。",
     senses: [
     {
     pos: "n.", meaningZh: "发生率；影响范围；负担者；入射；倾角；发生数", meaningEn: "rate of occurrence", collocations: [], example: "The incidence rose.", exampleZh: "发生率上升了。" }
     ]
   },
   {
-    id: "bulk-3349", term: "incinerate", phonetic: "in'sinәreit", pos: "v.", meaningZh: "焚化；烧成灰", meaningEn: "to burn to ashes", band: "8", collocations: [], example: "They incinerated waste.", exampleZh: "他们焚化了废物。",
+    id: "bulk-3349", term: "incinerate", phonetic: "/in'sinәreit/", pos: "v.", meaningZh: "焚化；烧成灰", meaningEn: "to burn to ashes", band: "8", collocations: [], example: "They incinerated waste.", exampleZh: "他们焚化了废物。",
     senses: [
     {
     pos: "v.", meaningZh: "焚化；烧成灰", meaningEn: "to burn to ashes", collocations: [], example: "They incinerated waste.", exampleZh: "他们焚化了废物。" },
@@ -33685,14 +33685,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3350", term: "incipient", phonetic: "in'sipiәnt", pos: "adj.", meaningZh: "初期的；开始的；起初的；发端的；初发的", meaningEn: "beginning", band: "8", collocations: [], example: "The incipient fire spread.", exampleZh: "初期的火蔓延了。",
+    id: "bulk-3350", term: "incipient", phonetic: "/in'sipiәnt/", pos: "adj.", meaningZh: "初期的；开始的；起初的；发端的；初发的", meaningEn: "beginning", band: "8", collocations: [], example: "The incipient fire spread.", exampleZh: "初期的火蔓延了。",
     senses: [
     {
     pos: "adj.", meaningZh: "初期的；开始的；起初的；发端的；初发的", meaningEn: "beginning", collocations: [], example: "The incipient fire spread.", exampleZh: "初期的火蔓延了。" }
     ]
   },
   {
-    id: "bulk-3351", term: "incise", phonetic: "in'saiz", pos: "v.", meaningZh: "切割；雕刻", meaningEn: "to cut into", band: "8", collocations: [], example: "He incised the stone.", exampleZh: "他切割了石头。",
+    id: "bulk-3351", term: "incise", phonetic: "/in'saiz/", pos: "v.", meaningZh: "切割；雕刻", meaningEn: "to cut into", band: "8", collocations: [], example: "He incised the stone.", exampleZh: "他切割了石头。",
     senses: [
     {
     pos: "v.", meaningZh: "切割；雕刻", meaningEn: "to cut into", collocations: [], example: "He incised the stone.", exampleZh: "他切割了石头。" },
@@ -33701,7 +33701,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3352", term: "incite", phonetic: "in'sait", pos: "v.", meaningZh: "煽动；激励", meaningEn: "to stir up", band: "8", collocations: [], example: "He incited revolt.", exampleZh: "他煽动叛乱。",
+    id: "bulk-3352", term: "incite", phonetic: "/in'sait/", pos: "v.", meaningZh: "煽动；激励", meaningEn: "to stir up", band: "8", collocations: [], example: "He incited revolt.", exampleZh: "他煽动叛乱。",
     senses: [
     {
     pos: "v.", meaningZh: "煽动；激励", meaningEn: "to stir up", collocations: [], example: "He incited revolt.", exampleZh: "他煽动叛乱。" },
@@ -33710,14 +33710,14 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3353", term: "inclination", phonetic: ".inkli'neiʃәn", pos: "n.", meaningZh: "倾向；斜坡；趋向；倾斜度；点头；倾角", meaningEn: "a tendency", band: "8", collocations: [], example: "He had an inclination.", exampleZh: "他有倾向。",
+    id: "bulk-3353", term: "inclination", phonetic: "/.inkli'neiʃәn/", pos: "n.", meaningZh: "倾向；斜坡；趋向；倾斜度；点头；倾角", meaningEn: "a tendency", band: "8", collocations: [], example: "He had an inclination.", exampleZh: "他有倾向。",
     senses: [
     {
     pos: "n.", meaningZh: "倾向；斜坡；趋向；倾斜度；点头；倾角", meaningEn: "a tendency", collocations: [], example: "He had an inclination.", exampleZh: "他有倾向。" }
     ]
   },
   {
-    id: "bulk-3354", term: "incline", phonetic: "in'klain", pos: "v./n.", meaningZh: "倾斜；倾向于", meaningEn: "to lean", band: "8", collocations: [], example: "He inclined his head.", exampleZh: "他倾斜了头。",
+    id: "bulk-3354", term: "incline", phonetic: "/in'klain/", pos: "v./n.", meaningZh: "倾斜；倾向于", meaningEn: "to lean", band: "8", collocations: [], example: "He inclined his head.", exampleZh: "他倾斜了头。",
     senses: [
     {
     pos: "v./n.", meaningZh: "倾斜；倾向于", meaningEn: "to lean", collocations: [], example: "He inclined his head.", exampleZh: "他倾斜了头。" },
@@ -33737,7 +33737,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3356", term: "incommodious", phonetic: ".inkә'mәudjәs", pos: "adj.", meaningZh: "不方便的；狭窄的；不便的；设备不佳的", meaningEn: "inconvenient", band: "8", collocations: [], example: "The incommodious room cramped.", exampleZh: "狭窄的房间拥挤。",
+    id: "bulk-3356", term: "incommodious", phonetic: "/.inkә'mәudjәs/", pos: "adj.", meaningZh: "不方便的；狭窄的；不便的；设备不佳的", meaningEn: "inconvenient", band: "8", collocations: [], example: "The incommodious room cramped.", exampleZh: "狭窄的房间拥挤。",
     senses: [
     {
     pos: "adj.", meaningZh: "不方便的；狭窄的；不便的；设备不佳的", meaningEn: "inconvenient", collocations: [], example: "The incommodious room cramped.", exampleZh: "狭窄的房间拥挤。" }
@@ -33753,7 +33753,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3358", term: "incompetent", phonetic: "in'kɒmpitәnt", pos: "adj.", meaningZh: "无能力的；不胜任的；无资格的；机能不全的", meaningEn: "not capable", band: "8", collocations: [], example: "The incompetent worker failed.", exampleZh: "不胜任的工人失败了。",
+    id: "bulk-3358", term: "incompetent", phonetic: "/in'kɒmpitәnt/", pos: "adj.", meaningZh: "无能力的；不胜任的；无资格的；机能不全的", meaningEn: "not capable", band: "8", collocations: [], example: "The incompetent worker failed.", exampleZh: "不胜任的工人失败了。",
     senses: [
     {
     pos: "adj.", meaningZh: "无能力的；不胜任的；无资格的；机能不全的", meaningEn: "not capable", collocations: [], example: "The incompetent worker failed.", exampleZh: "不胜任的工人失败了。" },
@@ -33895,7 +33895,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3374", term: "indent", phonetic: "in'dent", pos: "v./n.", meaningZh: "缩进；订货", meaningEn: "to notch", band: "8", collocations: [], example: "He indented the line.", exampleZh: "他缩进了行。",
+    id: "bulk-3374", term: "indent", phonetic: "/in'dent/", pos: "v./n.", meaningZh: "缩进；订货", meaningEn: "to notch", band: "8", collocations: [], example: "He indented the line.", exampleZh: "他缩进了行。",
     senses: [
     {
     pos: "v./n.", meaningZh: "缩进；订货", meaningEn: "to notch", collocations: [], example: "He indented the line.", exampleZh: "他缩进了行。" },
@@ -33978,7 +33978,7 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3383", term: "indubitable", phonetic: "in'dju:bitәbl", pos: "adj.", meaningZh: "无疑的；明确的；确实的；明显的；不容置疑的", meaningEn: "certain", band: "8", collocations: [], example: "The indubitable proof convinced.", exampleZh: "无疑的证据说服了。",
+    id: "bulk-3383", term: "indubitable", phonetic: "/in'dju:bitәbl/", pos: "adj.", meaningZh: "无疑的；明确的；确实的；明显的；不容置疑的", meaningEn: "certain", band: "8", collocations: [], example: "The indubitable proof convinced.", exampleZh: "无疑的证据说服了。",
     senses: [
     {
     pos: "adj.", meaningZh: "无疑的；明确的；确实的；明显的；不容置疑的", meaningEn: "certain", collocations: [], example: "The indubitable proof convinced.", exampleZh: "无疑的证据说服了。" }
@@ -34005,21 +34005,21 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3386", term: "industrious", phonetic: "in'dʌstriәs", pos: "adj.", meaningZh: "勤勉的；勤奋的；刻苦的", meaningEn: "hardworking", band: "8", collocations: [], example: "The industrious ant worked.", exampleZh: "勤勉的蚂蚁工作。",
+    id: "bulk-3386", term: "industrious", phonetic: "/in'dʌstriәs/", pos: "adj.", meaningZh: "勤勉的；勤奋的；刻苦的", meaningEn: "hardworking", band: "8", collocations: [], example: "The industrious ant worked.", exampleZh: "勤勉的蚂蚁工作。",
     senses: [
     {
     pos: "adj.", meaningZh: "勤勉的；勤奋的；刻苦的", meaningEn: "hardworking", collocations: [], example: "The industrious ant worked.", exampleZh: "勤勉的蚂蚁工作。" }
     ]
   },
   {
-    id: "bulk-3387", term: "ineffable", phonetic: "in'efәbl", pos: "adj.", meaningZh: "难以言喻的；不可言说的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", band: "8", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。",
+    id: "bulk-3387", term: "ineffable", phonetic: "/in'efәbl/", pos: "adj.", meaningZh: "难以言喻的；不可言说的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", band: "8", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。",
     senses: [
     {
     pos: "adj.", meaningZh: "难以言喻的；不可言说的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。" }
     ]
   },
   {
-    id: "bulk-3388", term: "ineffaceable", phonetic: ".ini'feisәbl", pos: "adj.", meaningZh: "不可磨灭的；难忘的；不能消除的；不能抹掉的", meaningEn: "unable to be erased", band: "8", collocations: [], example: "The ineffaceable memory stayed.", exampleZh: "难忘的记忆留下了。",
+    id: "bulk-3388", term: "ineffaceable", phonetic: "/.ini'feisәbl/", pos: "adj.", meaningZh: "不可磨灭的；难忘的；不能消除的；不能抹掉的", meaningEn: "unable to be erased", band: "8", collocations: [], example: "The ineffaceable memory stayed.", exampleZh: "难忘的记忆留下了。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可磨灭的；难忘的；不能消除的；不能抹掉的", meaningEn: "unable to be erased", collocations: [], example: "The ineffaceable memory stayed.", exampleZh: "难忘的记忆留下了。" }
@@ -34067,21 +34067,21 @@ const part_12: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3394", term: "inexorable", phonetic: "in'eksәrәbl", pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "relentless", band: "8", collocations: [], example: "Time was inexorable.", exampleZh: "时间无情。",
+    id: "bulk-3394", term: "inexorable", phonetic: "/in'eksәrәbl/", pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "relentless", band: "8", collocations: [], example: "Time was inexorable.", exampleZh: "时间无情。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "relentless", collocations: [], example: "Time was inexorable.", exampleZh: "时间无情。" }
     ]
   },
   {
-    id: "bulk-3395", term: "inexpedient", phonetic: ".inik'spi:djәnt", pos: "adj.", meaningZh: "不适当的；不便利的；不便的；失策的", meaningEn: "not advisable", band: "8", collocations: [], example: "The inexpedient move hurt.", exampleZh: "不适当的举动有害。",
+    id: "bulk-3395", term: "inexpedient", phonetic: "/.inik'spi:djәnt/", pos: "adj.", meaningZh: "不适当的；不便利的；不便的；失策的", meaningEn: "not advisable", band: "8", collocations: [], example: "The inexpedient move hurt.", exampleZh: "不适当的举动有害。",
     senses: [
     {
     pos: "adj.", meaningZh: "不适当的；不便利的；不便的；失策的", meaningEn: "not advisable", collocations: [], example: "The inexpedient move hurt.", exampleZh: "不适当的举动有害。" }
     ]
   },
   {
-    id: "bulk-3396", term: "inexpensive", phonetic: ".inik'spensiv", pos: "adj.", meaningZh: "便宜的；廉价的；不贵重的", meaningEn: "low cost", band: "8", collocations: [], example: "The inexpensive meal satisfied.", exampleZh: "便宜的餐令人满意。",
+    id: "bulk-3396", term: "inexpensive", phonetic: "/.inik'spensiv/", pos: "adj.", meaningZh: "便宜的；廉价的；不贵重的", meaningEn: "low cost", band: "8", collocations: [], example: "The inexpensive meal satisfied.", exampleZh: "便宜的餐令人满意。",
     senses: [
     {
     pos: "adj.", meaningZh: "便宜的；廉价的；不贵重的", meaningEn: "low cost", collocations: [], example: "The inexpensive meal satisfied.", exampleZh: "便宜的餐令人满意。" }
@@ -34333,7 +34333,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3423", term: "inhume", phonetic: "in'hju:m", pos: "v.", meaningZh: "埋葬；土葬", meaningEn: "to bury", band: "8", collocations: [], example: "They inhumed the dead.", exampleZh: "他们埋葬了死者。",
+    id: "bulk-3423", term: "inhume", phonetic: "/in'hju:m/", pos: "v.", meaningZh: "埋葬；土葬", meaningEn: "to bury", band: "8", collocations: [], example: "They inhumed the dead.", exampleZh: "他们埋葬了死者。",
     senses: [
     {
     pos: "v.", meaningZh: "埋葬；土葬", meaningEn: "to bury", collocations: [], example: "They inhumed the dead.", exampleZh: "他们埋葬了死者。" },
@@ -34376,7 +34376,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3428", term: "initiate", phonetic: "i'niʃieit", pos: "v./n.", meaningZh: "开始； initiator", meaningEn: "to begin", band: "8", collocations: [], example: "They initiated the plan.", exampleZh: "他们启动了计划。",
+    id: "bulk-3428", term: "initiate", phonetic: "/i'niʃieit/", pos: "v./n.", meaningZh: "开始； initiator", meaningEn: "to begin", band: "8", collocations: [], example: "They initiated the plan.", exampleZh: "他们启动了计划。",
     senses: [
     {
     pos: "v./n.", meaningZh: "开始； initiator", meaningEn: "to begin", collocations: [], example: "They initiated the plan.", exampleZh: "他们启动了计划。" },
@@ -34414,7 +34414,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3432", term: "inmate", phonetic: "'inmeit", pos: "n.", meaningZh: "同住者；囚犯；被收容者；内部的；接近中心的；内在的", meaningEn: "a prisoner", band: "8", collocations: [], example: "The inmate served.", exampleZh: "囚犯服刑了。",
+    id: "bulk-3432", term: "inmate", phonetic: "/inmeit/", pos: "n.", meaningZh: "同住者；囚犯；被收容者；内部的；接近中心的；内在的", meaningEn: "a prisoner", band: "8", collocations: [], example: "The inmate served.", exampleZh: "囚犯服刑了。",
     senses: [
     {
     pos: "n.", meaningZh: "同住者；囚犯；被收容者；内部的；接近中心的；内在的", meaningEn: "a prisoner", collocations: [], example: "The inmate served.", exampleZh: "囚犯服刑了。" }
@@ -34455,7 +34455,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3437", term: "inoculate", phonetic: "i'nɒkjuleit", pos: "v.", meaningZh: "接种；灌输", meaningEn: "to vaccinate", band: "8", collocations: [], example: "They inoculated children.", exampleZh: "他们给孩子接种。",
+    id: "bulk-3437", term: "inoculate", phonetic: "/i'nɒkjuleit/", pos: "v.", meaningZh: "接种；灌输", meaningEn: "to vaccinate", band: "8", collocations: [], example: "They inoculated children.", exampleZh: "他们给孩子接种。",
     senses: [
     {
     pos: "v.", meaningZh: "接种；灌输", meaningEn: "to vaccinate", collocations: [], example: "They inoculated children.", exampleZh: "他们给孩子接种。" },
@@ -34464,21 +34464,21 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3438", term: "inordinate", phonetic: "i'nɒ:dinәt", pos: "adj.", meaningZh: "过度的；无节制的；紊乱的；过分的", meaningEn: "excessive", band: "8", collocations: [], example: "The inordinate delay annoyed.", exampleZh: "过度的延误惹恼了。",
+    id: "bulk-3438", term: "inordinate", phonetic: "/i'nɒ:dinәt/", pos: "adj.", meaningZh: "过度的；无节制的；紊乱的；过分的", meaningEn: "excessive", band: "8", collocations: [], example: "The inordinate delay annoyed.", exampleZh: "过度的延误惹恼了。",
     senses: [
     {
     pos: "adj.", meaningZh: "过度的；无节制的；紊乱的；过分的", meaningEn: "excessive", collocations: [], example: "The inordinate delay annoyed.", exampleZh: "过度的延误惹恼了。" }
     ]
   },
   {
-    id: "bulk-3439", term: "inquest", phonetic: "'inkwest", pos: "n.", meaningZh: "审讯；调查；讯问；验尸", meaningEn: "a judicial inquiry", band: "8", collocations: [], example: "The inquest revealed.", exampleZh: "审讯揭露了。",
+    id: "bulk-3439", term: "inquest", phonetic: "/inkwest/", pos: "n.", meaningZh: "审讯；调查；讯问；验尸", meaningEn: "a judicial inquiry", band: "8", collocations: [], example: "The inquest revealed.", exampleZh: "审讯揭露了。",
     senses: [
     {
     pos: "n.", meaningZh: "审讯；调查；讯问；验尸", meaningEn: "a judicial inquiry", collocations: [], example: "The inquest revealed.", exampleZh: "审讯揭露了。" }
     ]
   },
   {
-    id: "bulk-3440", term: "inquire", phonetic: "in'kwaiә", pos: "v.", meaningZh: "询问；调查；问明；查究", meaningEn: "to ask", band: "8", collocations: [], example: "He inquired the way.", exampleZh: "他询问了路。",
+    id: "bulk-3440", term: "inquire", phonetic: "/in'kwaiә/", pos: "v.", meaningZh: "询问；调查；问明；查究", meaningEn: "to ask", band: "8", collocations: [], example: "He inquired the way.", exampleZh: "他询问了路。",
     senses: [
     {
     pos: "v.", meaningZh: "询问；调查；问明；查究", meaningEn: "to ask", collocations: [], example: "He inquired the way.", exampleZh: "他询问了路。" }
@@ -34501,7 +34501,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3443", term: "insatiable", phonetic: "in'seiʃjәbl", pos: "adj.", meaningZh: "不知足的；贪求无厌的；不能满足的；不饱的", meaningEn: "never satisfied", band: "8", collocations: [], example: "His insatiable greed grew.", exampleZh: "他贪得无厌的欲望增长。",
+    id: "bulk-3443", term: "insatiable", phonetic: "/in'seiʃjәbl/", pos: "adj.", meaningZh: "不知足的；贪求无厌的；不能满足的；不饱的", meaningEn: "never satisfied", band: "8", collocations: [], example: "His insatiable greed grew.", exampleZh: "他贪得无厌的欲望增长。",
     senses: [
     {
     pos: "adj.", meaningZh: "不知足的；贪求无厌的；不能满足的；不饱的", meaningEn: "never satisfied", collocations: [], example: "His insatiable greed grew.", exampleZh: "他贪得无厌的欲望增长。" },
@@ -34560,7 +34560,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3450", term: "insolvent", phonetic: "in'sɒlvәnt", pos: "adj.", meaningZh: "破产的；无偿付能力的；无力偿还的", meaningEn: "unable to pay debts", band: "8", collocations: [], example: "The insolvent firm closed.", exampleZh: "破产的公司关门了。",
+    id: "bulk-3450", term: "insolvent", phonetic: "/in'sɒlvәnt/", pos: "adj.", meaningZh: "破产的；无偿付能力的；无力偿还的", meaningEn: "unable to pay debts", band: "8", collocations: [], example: "The insolvent firm closed.", exampleZh: "破产的公司关门了。",
     senses: [
     {
     pos: "adj.", meaningZh: "破产的；无偿付能力的；无力偿还的", meaningEn: "unable to pay debts", collocations: [], example: "The insolvent firm closed.", exampleZh: "破产的公司关门了。" },
@@ -34585,7 +34585,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3453", term: "insubordinate", phonetic: ".insә'bɒ:dinәt", pos: "adj.", meaningZh: "不顺从的；犯上的；地位不低的", meaningEn: "disobedient", band: "8", collocations: [], example: "The insubordinate soldier rebelled.", exampleZh: "不顺从的士兵反了。",
+    id: "bulk-3453", term: "insubordinate", phonetic: "/.insә'bɒ:dinәt/", pos: "adj.", meaningZh: "不顺从的；犯上的；地位不低的", meaningEn: "disobedient", band: "8", collocations: [], example: "The insubordinate soldier rebelled.", exampleZh: "不顺从的士兵反了。",
     senses: [
     {
     pos: "adj.", meaningZh: "不顺从的；犯上的；地位不低的", meaningEn: "disobedient", collocations: [], example: "The insubordinate soldier rebelled.", exampleZh: "不顺从的士兵反了。" },
@@ -34594,7 +34594,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3454", term: "insufferable", phonetic: "[ɪnˈsʌfɹəbl̩]", pos: "adj.", meaningZh: "难以忍受的；令人厌恶的；不可忍受的；忍耐不住的", meaningEn: "unbearable", band: "8", collocations: [], example: "His insufferable pride repelled.", exampleZh: "他难以忍受的骄傲令人反感。",
+    id: "bulk-3454", term: "insufferable", phonetic: "/[ɪnˈsʌfɹəbl̩]/", pos: "adj.", meaningZh: "难以忍受的；令人厌恶的；不可忍受的；忍耐不住的", meaningEn: "unbearable", band: "8", collocations: [], example: "His insufferable pride repelled.", exampleZh: "他难以忍受的骄傲令人反感。",
     senses: [
     {
     pos: "adj.", meaningZh: "难以忍受的；令人厌恶的；不可忍受的；忍耐不住的", meaningEn: "unbearable", collocations: [], example: "His insufferable pride repelled.", exampleZh: "他难以忍受的骄傲令人反感。" }
@@ -34626,7 +34626,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3458", term: "insurmountable", phonetic: ".insә'mauntәbl", pos: "adj.", meaningZh: "不可逾越的；无法克服的；难以克服的；不能超越的", meaningEn: "impossible to overcome", band: "8", collocations: [], example: "The insurmountable wall blocked.", exampleZh: "不可逾越的墙阻挡了。",
+    id: "bulk-3458", term: "insurmountable", phonetic: "/.insә'mauntәbl/", pos: "adj.", meaningZh: "不可逾越的；无法克服的；难以克服的；不能超越的", meaningEn: "impossible to overcome", band: "8", collocations: [], example: "The insurmountable wall blocked.", exampleZh: "不可逾越的墙阻挡了。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可逾越的；无法克服的；难以克服的；不能超越的", meaningEn: "impossible to overcome", collocations: [], example: "The insurmountable wall blocked.", exampleZh: "不可逾越的墙阻挡了。" }
@@ -34687,7 +34687,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3465", term: "integrity", phonetic: "in'tegriti", pos: "n.", meaningZh: "正直；完整；廉正；完整性", meaningEn: "honesty", band: "8", collocations: [], example: "His integrity was unquestioned.", exampleZh: "他的正直无可置疑。",
+    id: "bulk-3465", term: "integrity", phonetic: "/in'tegriti/", pos: "n.", meaningZh: "正直；完整；廉正；完整性", meaningEn: "honesty", band: "8", collocations: [], example: "His integrity was unquestioned.", exampleZh: "他的正直无可置疑。",
     senses: [
     {
     pos: "n.", meaningZh: "正直；完整；廉正；完整性", meaningEn: "honesty", collocations: [], example: "His integrity was unquestioned.", exampleZh: "他的正直无可置疑。" }
@@ -34701,7 +34701,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3467", term: "intemperate", phonetic: "in'tempәrit", pos: "adj.", meaningZh: "无节制的；过度的；不节制的；不温和的；饮酒过度的", meaningEn: "lacking restraint", band: "8", collocations: [], example: "His intemperate rage scared.", exampleZh: "他无节制的愤怒吓人。",
+    id: "bulk-3467", term: "intemperate", phonetic: "/in'tempәrit/", pos: "adj.", meaningZh: "无节制的；过度的；不节制的；不温和的；饮酒过度的", meaningEn: "lacking restraint", band: "8", collocations: [], example: "His intemperate rage scared.", exampleZh: "他无节制的愤怒吓人。",
     senses: [
     {
     pos: "adj.", meaningZh: "无节制的；过度的；不节制的；不温和的；饮酒过度的", meaningEn: "lacking restraint", collocations: [], example: "His intemperate rage scared.", exampleZh: "他无节制的愤怒吓人。" }
@@ -34717,14 +34717,14 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3469", term: "intense", phonetic: "in'tens", pos: "adj.", meaningZh: "强烈的；剧烈的；非常的；紧张的；热情的；强的", meaningEn: "extreme", band: "8", collocations: [], example: "The intense heat burned.", exampleZh: "剧烈的热燃烧。",
+    id: "bulk-3469", term: "intense", phonetic: "/in'tens/", pos: "adj.", meaningZh: "强烈的；剧烈的；非常的；紧张的；热情的；强的", meaningEn: "extreme", band: "8", collocations: [], example: "The intense heat burned.", exampleZh: "剧烈的热燃烧。",
     senses: [
     {
     pos: "adj.", meaningZh: "强烈的；剧烈的；非常的；紧张的；热情的；强的", meaningEn: "extreme", collocations: [], example: "The intense heat burned.", exampleZh: "剧烈的热燃烧。" }
     ]
   },
   {
-    id: "bulk-3470", term: "intent", phonetic: "in'tent", pos: "n./adj.", meaningZh: "意图；专心的；含义；故意", meaningEn: "purpose", band: "8", collocations: [], example: "He was intent on it.", exampleZh: "他专心于它。",
+    id: "bulk-3470", term: "intent", phonetic: "/in'tent/", pos: "n./adj.", meaningZh: "意图；专心的；含义；故意", meaningEn: "purpose", band: "8", collocations: [], example: "He was intent on it.", exampleZh: "他专心于它。",
     senses: [
     {
     pos: "n./adj.", meaningZh: "意图；专心的；含义；故意", meaningEn: "purpose", collocations: [], example: "He was intent on it.", exampleZh: "他专心于它。" },
@@ -34753,7 +34753,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3473", term: "intercept", phonetic: ".intә'sept", pos: "v.", meaningZh: "拦截；截获", meaningEn: "to stop", band: "8", collocations: [], example: "They intercepted the letter.", exampleZh: "他们截获了信。",
+    id: "bulk-3473", term: "intercept", phonetic: "/.intә'sept/", pos: "v.", meaningZh: "拦截；截获", meaningEn: "to stop", band: "8", collocations: [], example: "They intercepted the letter.", exampleZh: "他们截获了信。",
     senses: [
     {
     pos: "v.", meaningZh: "拦截；截获", meaningEn: "to stop", collocations: [], example: "They intercepted the letter.", exampleZh: "他们截获了信。" },
@@ -34782,7 +34782,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3476", term: "interlope", phonetic: ",intә(:)'lәup", pos: "v.", meaningZh: "干涉；闯入", meaningEn: "to intrude", band: "8", collocations: [], example: "He interloped the talk.", exampleZh: "他闯入了谈话。",
+    id: "bulk-3476", term: "interlope", phonetic: "/,intә(:)'lәup/", pos: "v.", meaningZh: "干涉；闯入", meaningEn: "to intrude", band: "8", collocations: [], example: "He interloped the talk.", exampleZh: "他闯入了谈话。",
     senses: [
     {
     pos: "v.", meaningZh: "干涉；闯入", meaningEn: "to intrude", collocations: [], example: "He interloped the talk.", exampleZh: "他闯入了谈话。" },
@@ -34791,7 +34791,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3477", term: "interlude", phonetic: "'intәlu:d", pos: "n.", meaningZh: "间歇；插曲；幕间；幕间时间；穿插；过场；插算；中间程序", meaningEn: "a pause", band: "8", collocations: [], example: "The interlude relaxed.", exampleZh: "间歇让人放松。",
+    id: "bulk-3477", term: "interlude", phonetic: "/intәlu:d/", pos: "n.", meaningZh: "间歇；插曲；幕间；幕间时间；穿插；过场；插算；中间程序", meaningEn: "a pause", band: "8", collocations: [], example: "The interlude relaxed.", exampleZh: "间歇让人放松。",
     senses: [
     {
     pos: "n.", meaningZh: "间歇；插曲；幕间；幕间时间；穿插；过场；插算；中间程序", meaningEn: "a pause", collocations: [], example: "The interlude relaxed.", exampleZh: "间歇让人放松。" },
@@ -34800,7 +34800,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3478", term: "intermediary", phonetic: ".intә'mi:diәri", pos: "n.", meaningZh: "中间人；媒介；仲裁者；调解者；媒介物", meaningEn: "a go-between", band: "8", collocations: [], example: "The intermediary negotiated.", exampleZh: "中间人谈判了。",
+    id: "bulk-3478", term: "intermediary", phonetic: "/.intә'mi:diәri/", pos: "n.", meaningZh: "中间人；媒介；仲裁者；调解者；媒介物", meaningEn: "a go-between", band: "8", collocations: [], example: "The intermediary negotiated.", exampleZh: "中间人谈判了。",
     senses: [
     {
     pos: "n.", meaningZh: "中间人；媒介；仲裁者；调解者；媒介物", meaningEn: "a go-between", collocations: [], example: "The intermediary negotiated.", exampleZh: "中间人谈判了。" },
@@ -34809,7 +34809,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3479", term: "interment", phonetic: "in'tә:mәnt", pos: "n.", meaningZh: "安葬；埋葬；土葬", meaningEn: "burial", band: "8", collocations: [], example: "The interment ended.", exampleZh: "安葬结束了。",
+    id: "bulk-3479", term: "interment", phonetic: "/in'tә:mәnt/", pos: "n.", meaningZh: "安葬；埋葬；土葬", meaningEn: "burial", band: "8", collocations: [], example: "The interment ended.", exampleZh: "安葬结束了。",
     senses: [
     {
     pos: "n.", meaningZh: "安葬；埋葬；土葬", meaningEn: "burial", collocations: [], example: "The interment ended.", exampleZh: "安葬结束了。" }
@@ -34866,7 +34866,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3486", term: "interrogate", phonetic: "in'terәgeit", pos: "v.", meaningZh: "审问；询问", meaningEn: "to question", band: "8", collocations: [], example: "They interrogated the spy.", exampleZh: "他们审问了间谍。",
+    id: "bulk-3486", term: "interrogate", phonetic: "/in'terәgeit/", pos: "v.", meaningZh: "审问；询问", meaningEn: "to question", band: "8", collocations: [], example: "They interrogated the spy.", exampleZh: "他们审问了间谍。",
     senses: [
     {
     pos: "v.", meaningZh: "审问；询问", meaningEn: "to question", collocations: [], example: "They interrogated the spy.", exampleZh: "他们审问了间谍。" },
@@ -34917,7 +34917,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3491", term: "intertwine", phonetic: ".intә'twain", pos: "v.", meaningZh: "纠缠；缠绕；(使)纠缠；(使)缠绕", meaningEn: "to twist together", band: "8", collocations: [], example: "The vines intertwined.", exampleZh: "藤蔓纠缠了。",
+    id: "bulk-3491", term: "intertwine", phonetic: "/.intә'twain/", pos: "v.", meaningZh: "纠缠；缠绕；(使)纠缠；(使)缠绕", meaningEn: "to twist together", band: "8", collocations: [], example: "The vines intertwined.", exampleZh: "藤蔓纠缠了。",
     senses: [
     {
     pos: "v.", meaningZh: "纠缠；缠绕；(使)纠缠；(使)缠绕", meaningEn: "to twist together", collocations: [], example: "The vines intertwined.", exampleZh: "藤蔓纠缠了。" }
@@ -34931,7 +34931,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3493", term: "intervene", phonetic: ".intә'vi:n", pos: "v.", meaningZh: "干涉；介入", meaningEn: "to interfere", band: "8", collocations: [], example: "They intervened in time.", exampleZh: "他们及时介入了。",
+    id: "bulk-3493", term: "intervene", phonetic: "/.intә'vi:n/", pos: "v.", meaningZh: "干涉；介入", meaningEn: "to interfere", band: "8", collocations: [], example: "They intervened in time.", exampleZh: "他们及时介入了。",
     senses: [
     {
     pos: "v.", meaningZh: "干涉；介入", meaningEn: "to interfere", collocations: [], example: "They intervened in time.", exampleZh: "他们及时介入了。" },
@@ -34969,7 +34969,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3497", term: "intoxicant", phonetic: "in'tɒksikәnt", pos: "n./adj.", meaningZh: "致醉物；醉人的；酒类饮料；致醉药物", meaningEn: "an intoxicating substance", band: "8", collocations: [], example: "The intoxicant relaxed.", exampleZh: "致醉物让人放松。",
+    id: "bulk-3497", term: "intoxicant", phonetic: "/in'tɒksikәnt/", pos: "n./adj.", meaningZh: "致醉物；醉人的；酒类饮料；致醉药物", meaningEn: "an intoxicating substance", band: "8", collocations: [], example: "The intoxicant relaxed.", exampleZh: "致醉物让人放松。",
     senses: [
     {
     pos: "n./adj.", meaningZh: "致醉物；醉人的；酒类饮料；致醉药物", meaningEn: "an intoxicating substance", collocations: [], example: "The intoxicant relaxed.", exampleZh: "致醉物让人放松。" },
@@ -34978,7 +34978,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3498", term: "intractable", phonetic: "in'træktәbl", pos: "adj.", meaningZh: "倔强的；难处理的；不听话的；棘手的；顽固的；难治的", meaningEn: "stubborn", band: "8", collocations: [], example: "The intractable mule refused.", exampleZh: "倔强的骡子拒绝。",
+    id: "bulk-3498", term: "intractable", phonetic: "/in'træktәbl/", pos: "adj.", meaningZh: "倔强的；难处理的；不听话的；棘手的；顽固的；难治的", meaningEn: "stubborn", band: "8", collocations: [], example: "The intractable mule refused.", exampleZh: "倔强的骡子拒绝。",
     senses: [
     {
     pos: "adj.", meaningZh: "倔强的；难处理的；不听话的；棘手的；顽固的；难治的", meaningEn: "stubborn", collocations: [], example: "The intractable mule refused.", exampleZh: "倔强的骡子拒绝。" }
@@ -35008,7 +35008,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3502", term: "intrigue", phonetic: "in'tri:g", pos: "n./v.", meaningZh: "阴谋；激起兴趣；复杂的事", meaningEn: "a secret plot", band: "8", collocations: [], example: "The intrigue fascinated.", exampleZh: "阴谋引人入胜。",
+    id: "bulk-3502", term: "intrigue", phonetic: "/in'tri:g/", pos: "n./v.", meaningZh: "阴谋；激起兴趣；复杂的事", meaningEn: "a secret plot", band: "8", collocations: [], example: "The intrigue fascinated.", exampleZh: "阴谋引人入胜。",
     senses: [
     {
     pos: "n./v.", meaningZh: "阴谋；激起兴趣；复杂的事", meaningEn: "a secret plot", collocations: [], example: "The intrigue fascinated.", exampleZh: "阴谋引人入胜。" },
@@ -35026,14 +35026,14 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3504", term: "introspection", phonetic: ".intrәu'spekʃәn", pos: "n.", meaningZh: "内省；反省", meaningEn: "self-examination", band: "8", collocations: [], example: "The introspection helped.", exampleZh: "内省有帮助。",
+    id: "bulk-3504", term: "introspection", phonetic: "/.intrәu'spekʃәn/", pos: "n.", meaningZh: "内省；反省", meaningEn: "self-examination", band: "8", collocations: [], example: "The introspection helped.", exampleZh: "内省有帮助。",
     senses: [
     {
     pos: "n.", meaningZh: "内省；反省", meaningEn: "self-examination", collocations: [], example: "The introspection helped.", exampleZh: "内省有帮助。" }
     ]
   },
   {
-    id: "bulk-3505", term: "intrude", phonetic: "in'tru:d", pos: "v.", meaningZh: "侵入；打扰", meaningEn: "to trespass", band: "8", collocations: [], example: "He intruded rudely.", exampleZh: "他粗鲁地闯入。",
+    id: "bulk-3505", term: "intrude", phonetic: "/in'tru:d/", pos: "v.", meaningZh: "侵入；打扰", meaningEn: "to trespass", band: "8", collocations: [], example: "He intruded rudely.", exampleZh: "他粗鲁地闯入。",
     senses: [
     {
     pos: "v.", meaningZh: "侵入；打扰", meaningEn: "to trespass", collocations: [], example: "He intruded rudely.", exampleZh: "他粗鲁地闯入。" },
@@ -35044,7 +35044,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3506", term: "intuition", phonetic: ".intju:'iʃәn", pos: "n.", meaningZh: "直觉；直觉力；直觉的知识", meaningEn: "instinctive knowing", band: "8", collocations: [], example: "Her intuition guided.", exampleZh: "她的直觉指引了。",
+    id: "bulk-3506", term: "intuition", phonetic: "/.intju:'iʃәn/", pos: "n.", meaningZh: "直觉；直觉力；直觉的知识", meaningEn: "instinctive knowing", band: "8", collocations: [], example: "Her intuition guided.", exampleZh: "她的直觉指引了。",
     senses: [
     {
     pos: "n.", meaningZh: "直觉；直觉力；直觉的知识", meaningEn: "instinctive knowing", collocations: [], example: "Her intuition guided.", exampleZh: "她的直觉指引了。" }
@@ -35060,7 +35060,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3508", term: "inure", phonetic: "i'njuә", pos: "v.", meaningZh: "使习惯；使适应", meaningEn: "to accustom", band: "8", collocations: [], example: "He inured to pain.", exampleZh: "他习惯了痛苦。",
+    id: "bulk-3508", term: "inure", phonetic: "/i'njuә/", pos: "v.", meaningZh: "使习惯；使适应", meaningEn: "to accustom", band: "8", collocations: [], example: "He inured to pain.", exampleZh: "他习惯了痛苦。",
     senses: [
     {
     pos: "v.", meaningZh: "使习惯；使适应", meaningEn: "to accustom", collocations: [], example: "He inured to pain.", exampleZh: "他习惯了痛苦。" },
@@ -35125,7 +35125,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3515", term: "invert", phonetic: "in'vә:t", pos: "v.", meaningZh: "使倒置；使倒转", meaningEn: "to reverse", band: "8", collocations: [], example: "He inverted the cup.", exampleZh: "他倒置了杯子。",
+    id: "bulk-3515", term: "invert", phonetic: "/in'vә:t/", pos: "v.", meaningZh: "使倒置；使倒转", meaningEn: "to reverse", band: "8", collocations: [], example: "He inverted the cup.", exampleZh: "他倒置了杯子。",
     senses: [
     {
     pos: "v.", meaningZh: "使倒置；使倒转", meaningEn: "to reverse", collocations: [], example: "He inverted the cup.", exampleZh: "他倒置了杯子。" },
@@ -35154,7 +35154,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3518", term: "invigilate", phonetic: "in'vidʒileit", pos: "v.", meaningZh: "监考；看守", meaningEn: "to supervise exams", band: "8", collocations: [], example: "He invigilated the test.", exampleZh: "他监考了测试。",
+    id: "bulk-3518", term: "invigilate", phonetic: "/in'vidʒileit/", pos: "v.", meaningZh: "监考；看守", meaningEn: "to supervise exams", band: "8", collocations: [], example: "He invigilated the test.", exampleZh: "他监考了测试。",
     senses: [
     {
     pos: "v.", meaningZh: "监考；看守", meaningEn: "to supervise exams", collocations: [], example: "He invigilated the test.", exampleZh: "他监考了测试。" },
@@ -35197,7 +35197,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3523", term: "invulnerable", phonetic: "in'vʌlnәrәbl", pos: "adj.", meaningZh: "刀枪不入的；无懈可击的；不会受伤害的；无可反驳的", meaningEn: "incapable of being wounded", band: "8", collocations: [], example: "The invulnerable hero stood.", exampleZh: "无懈可击的英雄站着。",
+    id: "bulk-3523", term: "invulnerable", phonetic: "/in'vʌlnәrәbl/", pos: "adj.", meaningZh: "刀枪不入的；无懈可击的；不会受伤害的；无可反驳的", meaningEn: "incapable of being wounded", band: "8", collocations: [], example: "The invulnerable hero stood.", exampleZh: "无懈可击的英雄站着。",
     senses: [
     {
     pos: "adj.", meaningZh: "刀枪不入的；无懈可击的；不会受伤害的；无可反驳的", meaningEn: "incapable of being wounded", collocations: [], example: "The invulnerable hero stood.", exampleZh: "无懈可击的英雄站着。" }
@@ -35241,7 +35241,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3529", term: "ironclad", phonetic: "'aiәnclæd", pos: "adj.", meaningZh: "装甲的；不可推翻的；铁定的；打不破；镶铁的", meaningEn: "impossible to break", band: "8", collocations: [], example: "The ironclad proof held.", exampleZh: "不可推翻的证据维持了。",
+    id: "bulk-3529", term: "ironclad", phonetic: "/aiәnclæd/", pos: "adj.", meaningZh: "装甲的；不可推翻的；铁定的；打不破；镶铁的", meaningEn: "impossible to break", band: "8", collocations: [], example: "The ironclad proof held.", exampleZh: "不可推翻的证据维持了。",
     senses: [
     {
     pos: "adj.", meaningZh: "装甲的；不可推翻的；铁定的；打不破；镶铁的", meaningEn: "impossible to break", collocations: [], example: "The ironclad proof held.", exampleZh: "不可推翻的证据维持了。" },
@@ -35277,7 +35277,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3533", term: "irreconcilable", phonetic: "i'rekәnsailәbl", pos: "adj.", meaningZh: "不可调和的；矛盾的；不能和解的；不能协调的", meaningEn: "impossible to reconcile", band: "8", collocations: [], example: "The irreconcilable views clashed.", exampleZh: "不可调和的观点冲突。",
+    id: "bulk-3533", term: "irreconcilable", phonetic: "/i'rekәnsailәbl/", pos: "adj.", meaningZh: "不可调和的；矛盾的；不能和解的；不能协调的", meaningEn: "impossible to reconcile", band: "8", collocations: [], example: "The irreconcilable views clashed.", exampleZh: "不可调和的观点冲突。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可调和的；矛盾的；不能和解的；不能协调的", meaningEn: "impossible to reconcile", collocations: [], example: "The irreconcilable views clashed.", exampleZh: "不可调和的观点冲突。" }
@@ -35298,7 +35298,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3536", term: "irrelevant", phonetic: "i'relәvәnt", pos: "adj.", meaningZh: "无关的；离题的；不恰当的；无关系的；不相干的", meaningEn: "not relevant", band: "8", collocations: [], example: "The irrelevant detail omitted.", exampleZh: "无关细节略去。",
+    id: "bulk-3536", term: "irrelevant", phonetic: "/i'relәvәnt/", pos: "adj.", meaningZh: "无关的；离题的；不恰当的；无关系的；不相干的", meaningEn: "not relevant", band: "8", collocations: [], example: "The irrelevant detail omitted.", exampleZh: "无关细节略去。",
     senses: [
     {
     pos: "adj.", meaningZh: "无关的；离题的；不恰当的；无关系的；不相干的", meaningEn: "not relevant", collocations: [], example: "The irrelevant detail omitted.", exampleZh: "无关细节略去。" }
@@ -35312,28 +35312,28 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3538", term: "irrepressible", phonetic: ".iri'presәbl", pos: "adj.", meaningZh: "抑制不住的；难控制的；约束不住的", meaningEn: "uncontrollable", band: "8", collocations: [], example: "The irrepressible laugh burst.", exampleZh: "抑制不住的笑爆发了。",
+    id: "bulk-3538", term: "irrepressible", phonetic: "/.iri'presәbl/", pos: "adj.", meaningZh: "抑制不住的；难控制的；约束不住的", meaningEn: "uncontrollable", band: "8", collocations: [], example: "The irrepressible laugh burst.", exampleZh: "抑制不住的笑爆发了。",
     senses: [
     {
     pos: "adj.", meaningZh: "抑制不住的；难控制的；约束不住的", meaningEn: "uncontrollable", collocations: [], example: "The irrepressible laugh burst.", exampleZh: "抑制不住的笑爆发了。" }
     ]
   },
   {
-    id: "bulk-3539", term: "irresolute", phonetic: "i'rezәlu:t", pos: "adj.", meaningZh: "犹豫不决的；踌躇的；无决断的；优柔寡断的；踌躇不定的", meaningEn: "uncertain", band: "8", collocations: [], example: "His irresolute manner stalled.", exampleZh: "他犹豫不决的样子拖延了。",
+    id: "bulk-3539", term: "irresolute", phonetic: "/i'rezәlu:t/", pos: "adj.", meaningZh: "犹豫不决的；踌躇的；无决断的；优柔寡断的；踌躇不定的", meaningEn: "uncertain", band: "8", collocations: [], example: "His irresolute manner stalled.", exampleZh: "他犹豫不决的样子拖延了。",
     senses: [
     {
     pos: "adj.", meaningZh: "犹豫不决的；踌躇的；无决断的；优柔寡断的；踌躇不定的", meaningEn: "uncertain", collocations: [], example: "His irresolute manner stalled.", exampleZh: "他犹豫不决的样子拖延了。" }
     ]
   },
   {
-    id: "bulk-3540", term: "irretrievable", phonetic: ".iri'tri:vәbl", pos: "adj.", meaningZh: "不能挽回的；不能恢复的；不能复原的；无法挽救的；不能弥补的", meaningEn: "impossible to recover", band: "8", collocations: [], example: "The irretrievable loss grieved.", exampleZh: "不能挽回的损失令人悲痛。",
+    id: "bulk-3540", term: "irretrievable", phonetic: "/.iri'tri:vәbl/", pos: "adj.", meaningZh: "不能挽回的；不能恢复的；不能复原的；无法挽救的；不能弥补的", meaningEn: "impossible to recover", band: "8", collocations: [], example: "The irretrievable loss grieved.", exampleZh: "不能挽回的损失令人悲痛。",
     senses: [
     {
     pos: "adj.", meaningZh: "不能挽回的；不能恢复的；不能复原的；无法挽救的；不能弥补的", meaningEn: "impossible to recover", collocations: [], example: "The irretrievable loss grieved.", exampleZh: "不能挽回的损失令人悲痛。" }
     ]
   },
   {
-    id: "bulk-3541", term: "irreverent", phonetic: "i'revәrәnt", pos: "adj.", meaningZh: "不敬的；无礼的；不逊的", meaningEn: "disrespectful", band: "8", collocations: [], example: "His irreverent joke shocked.", exampleZh: "他不敬的笑话震惊了。",
+    id: "bulk-3541", term: "irreverent", phonetic: "/i'revәrәnt/", pos: "adj.", meaningZh: "不敬的；无礼的；不逊的", meaningEn: "disrespectful", band: "8", collocations: [], example: "His irreverent joke shocked.", exampleZh: "他不敬的笑话震惊了。",
     senses: [
     {
     pos: "adj.", meaningZh: "不敬的；无礼的；不逊的", meaningEn: "disrespectful", collocations: [], example: "His irreverent joke shocked.", exampleZh: "他不敬的笑话震惊了。" }
@@ -35491,7 +35491,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3559", term: "jollity", phonetic: "'dʒɒliti", pos: "n.", meaningZh: "欢乐；高兴；酒宴", meaningEn: "gaiety", band: "8", collocations: [], example: "The jollity spread.", exampleZh: "欢乐传开了。",
+    id: "bulk-3559", term: "jollity", phonetic: "/dʒɒliti/", pos: "n.", meaningZh: "欢乐；高兴；酒宴", meaningEn: "gaiety", band: "8", collocations: [], example: "The jollity spread.", exampleZh: "欢乐传开了。",
     senses: [
     {
     pos: "n.", meaningZh: "欢乐；高兴；酒宴", meaningEn: "gaiety", collocations: [], example: "The jollity spread.", exampleZh: "欢乐传开了。" }
@@ -35559,7 +35559,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3567", term: "jumbo", phonetic: "'dʒʌmbәu", pos: "adj./n.", meaningZh: "巨大的；巨型", meaningEn: "a large size", band: "8", collocations: [], example: "The jumbo jet landed.", exampleZh: "巨型喷气机降落了。",
+    id: "bulk-3567", term: "jumbo", phonetic: "/dʒʌmbәu/", pos: "adj./n.", meaningZh: "巨大的；巨型", meaningEn: "a large size", band: "8", collocations: [], example: "The jumbo jet landed.", exampleZh: "巨型喷气机降落了。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "巨大的；巨型", meaningEn: "a large size", collocations: [], example: "The jumbo jet landed.", exampleZh: "巨型喷气机降落了。" },
@@ -35568,7 +35568,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3568", term: "junket", phonetic: "'dʒʌŋkit", pos: "n./v.", meaningZh: "郊游；公款旅游；凝乳食品；用公费游山玩水；宴请", meaningEn: "a trip", band: "8", collocations: [], example: "The junket cost much.", exampleZh: "郊游花费多。",
+    id: "bulk-3568", term: "junket", phonetic: "/dʒʌŋkit/", pos: "n./v.", meaningZh: "郊游；公款旅游；凝乳食品；用公费游山玩水；宴请", meaningEn: "a trip", band: "8", collocations: [], example: "The junket cost much.", exampleZh: "郊游花费多。",
     senses: [
     {
     pos: "n./v.", meaningZh: "郊游；公款旅游；凝乳食品；用公费游山玩水；宴请", meaningEn: "a trip", collocations: [], example: "The junket cost much.", exampleZh: "郊游花费多。" },
@@ -35586,14 +35586,14 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3570", term: "juridical", phonetic: ".dʒuә'ridikәl", pos: "adj.", meaningZh: "司法的；法庭的；裁判上的；司法上的；法院的；审判上的；法律上的", meaningEn: "legal", band: "8", collocations: [], example: "The juridical review held.", exampleZh: "司法审查维持了。",
+    id: "bulk-3570", term: "juridical", phonetic: "/.dʒuә'ridikәl/", pos: "adj.", meaningZh: "司法的；法庭的；裁判上的；司法上的；法院的；审判上的；法律上的", meaningEn: "legal", band: "8", collocations: [], example: "The juridical review held.", exampleZh: "司法审查维持了。",
     senses: [
     {
     pos: "adj.", meaningZh: "司法的；法庭的；裁判上的；司法上的；法院的；审判上的；法律上的", meaningEn: "legal", collocations: [], example: "The juridical review held.", exampleZh: "司法审查维持了。" }
     ]
   },
   {
-    id: "bulk-3571", term: "justifiable", phonetic: "'dʒʌstifaiәbl", pos: "adj.", meaningZh: "可证明为正当的；有理的；可辩解的；可证明的；不可非议的；可办明的", meaningEn: "defensible", band: "8", collocations: [], example: "The justifiable act stood.", exampleZh: "正当的行为站住了。",
+    id: "bulk-3571", term: "justifiable", phonetic: "/dʒʌstifaiәbl/", pos: "adj.", meaningZh: "可证明为正当的；有理的；可辩解的；可证明的；不可非议的；可办明的", meaningEn: "defensible", band: "8", collocations: [], example: "The justifiable act stood.", exampleZh: "正当的行为站住了。",
     senses: [
     {
     pos: "adj.", meaningZh: "可证明为正当的；有理的；可辩解的；可证明的；不可非议的；可办明的", meaningEn: "defensible", collocations: [], example: "The justifiable act stood.", exampleZh: "正当的行为站住了。" }
@@ -35625,7 +35625,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3575", term: "kempt", phonetic: "kempt", pos: "adj.", meaningZh: "整洁的；梳理过的；收拾得很整洁的", meaningEn: "neat", band: "8", collocations: [], example: "The kempt hair shone.", exampleZh: "整洁的头发发亮。",
+    id: "bulk-3575", term: "kempt", phonetic: "/kempt/", pos: "adj.", meaningZh: "整洁的；梳理过的；收拾得很整洁的", meaningEn: "neat", band: "8", collocations: [], example: "The kempt hair shone.", exampleZh: "整洁的头发发亮。",
     senses: [
     {
     pos: "adj.", meaningZh: "整洁的；梳理过的；收拾得很整洁的", meaningEn: "neat", collocations: [], example: "The kempt hair shone.", exampleZh: "整洁的头发发亮。" }
@@ -35672,7 +35672,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3580", term: "kinship", phonetic: "'kinʃip", pos: "n.", meaningZh: "亲属关系；亲切感；家族关系", meaningEn: "relationship", band: "8", collocations: [], example: "The kinship bonded.", exampleZh: "亲属关系联结了。",
+    id: "bulk-3580", term: "kinship", phonetic: "/kinʃip/", pos: "n.", meaningZh: "亲属关系；亲切感；家族关系", meaningEn: "relationship", band: "8", collocations: [], example: "The kinship bonded.", exampleZh: "亲属关系联结了。",
     senses: [
     {
     pos: "n.", meaningZh: "亲属关系；亲切感；家族关系", meaningEn: "relationship", collocations: [], example: "The kinship bonded.", exampleZh: "亲属关系联结了。" }
@@ -35740,7 +35740,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3588", term: "knickerbocker", phonetic: "'nikәbɔkә", pos: "n.", meaningZh: "纽约人；灯笼裤；荷兰移民的后代", meaningEn: "a NYC person", band: "8", collocations: [], example: "The knickerbocker wrote.", exampleZh: "纽约人写了。",
+    id: "bulk-3588", term: "knickerbocker", phonetic: "/nikәbɔkә/", pos: "n.", meaningZh: "纽约人；灯笼裤；荷兰移民的后代", meaningEn: "a NYC person", band: "8", collocations: [], example: "The knickerbocker wrote.", exampleZh: "纽约人写了。",
     senses: [
     {
     pos: "n.", meaningZh: "纽约人；灯笼裤；荷兰移民的后代", meaningEn: "a NYC person", collocations: [], example: "The knickerbocker wrote.", exampleZh: "纽约人写了。" }
@@ -35760,7 +35760,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3590", term: "knotty", phonetic: "'nɒti", pos: "adj.", meaningZh: "多结的；棘手的；有结的；多节的；多瘤的", meaningEn: "problematic", band: "8", collocations: [], example: "The knotty issue stalled.", exampleZh: "棘手的问题拖延了。",
+    id: "bulk-3590", term: "knotty", phonetic: "/nɒti/", pos: "adj.", meaningZh: "多结的；棘手的；有结的；多节的；多瘤的", meaningEn: "problematic", band: "8", collocations: [], example: "The knotty issue stalled.", exampleZh: "棘手的问题拖延了。",
     senses: [
     {
     pos: "adj.", meaningZh: "多结的；棘手的；有结的；多节的；多瘤的", meaningEn: "problematic", collocations: [], example: "The knotty issue stalled.", exampleZh: "棘手的问题拖延了。" }
@@ -35801,7 +35801,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3595", term: "lacerate", phonetic: "'læsәreit", pos: "v.", meaningZh: "撕裂；割碎", meaningEn: "to tear", band: "8", collocations: [], example: "The glass lacerated skin.", exampleZh: "玻璃撕裂了皮肤。",
+    id: "bulk-3595", term: "lacerate", phonetic: "/læsәreit/", pos: "v.", meaningZh: "撕裂；割碎", meaningEn: "to tear", band: "8", collocations: [], example: "The glass lacerated skin.", exampleZh: "玻璃撕裂了皮肤。",
     senses: [
     {
     pos: "v.", meaningZh: "撕裂；割碎", meaningEn: "to tear", collocations: [], example: "The glass lacerated skin.", exampleZh: "玻璃撕裂了皮肤。" },
@@ -36041,14 +36041,14 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3621", term: "laudable", phonetic: "'lɒ:dәbl", pos: "adj.", meaningZh: "值得称赞的；高尚的；值得赞赏的；值得佩服的；健康的", meaningEn: "commendable", band: "8", collocations: [], example: "His laudable effort won.", exampleZh: "他值得称赞的努力赢了。",
+    id: "bulk-3621", term: "laudable", phonetic: "/lɒ:dәbl/", pos: "adj.", meaningZh: "值得称赞的；高尚的；值得赞赏的；值得佩服的；健康的", meaningEn: "commendable", band: "8", collocations: [], example: "His laudable effort won.", exampleZh: "他值得称赞的努力赢了。",
     senses: [
     {
     pos: "adj.", meaningZh: "值得称赞的；高尚的；值得赞赏的；值得佩服的；健康的", meaningEn: "commendable", collocations: [], example: "His laudable effort won.", exampleZh: "他值得称赞的努力赢了。" }
     ]
   },
   {
-    id: "bulk-3622", term: "lave", phonetic: "leiv", pos: "v.", meaningZh: "洗；冲洗", meaningEn: "to wash", band: "8", collocations: [], example: "The wave laved the shore.", exampleZh: "浪冲洗海岸。",
+    id: "bulk-3622", term: "lave", phonetic: "/leiv/", pos: "v.", meaningZh: "洗；冲洗", meaningEn: "to wash", band: "8", collocations: [], example: "The wave laved the shore.", exampleZh: "浪冲洗海岸。",
     senses: [
     {
     pos: "v.", meaningZh: "洗；冲洗", meaningEn: "to wash", collocations: [], example: "The wave laved the shore.", exampleZh: "浪冲洗海岸。" },
@@ -36059,7 +36059,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3623", term: "lavish", phonetic: "'læviʃ", pos: "adj./v.", meaningZh: "奢侈的；慷慨给予；大方的；丰富的；浪费的", meaningEn: "profuse", band: "8", collocations: [], example: "The lavish feast delighted.", exampleZh: "奢侈的宴席令人欢喜。",
+    id: "bulk-3623", term: "lavish", phonetic: "/læviʃ/", pos: "adj./v.", meaningZh: "奢侈的；慷慨给予；大方的；丰富的；浪费的", meaningEn: "profuse", band: "8", collocations: [], example: "The lavish feast delighted.", exampleZh: "奢侈的宴席令人欢喜。",
     senses: [
     {
     pos: "adj./v.", meaningZh: "奢侈的；慷慨给予；大方的；丰富的；浪费的", meaningEn: "profuse", collocations: [], example: "The lavish feast delighted.", exampleZh: "奢侈的宴席令人欢喜。" },
@@ -36068,7 +36068,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3624", term: "leaven", phonetic: "'levn", pos: "n./v.", meaningZh: "酵母；使发起来；促使渐变的因素", meaningEn: "a leavening agent", band: "8", collocations: [], example: "The leaven rose.", exampleZh: "酵母发起来了。",
+    id: "bulk-3624", term: "leaven", phonetic: "/levn/", pos: "n./v.", meaningZh: "酵母；使发起来；促使渐变的因素", meaningEn: "a leavening agent", band: "8", collocations: [], example: "The leaven rose.", exampleZh: "酵母发起来了。",
     senses: [
     {
     pos: "n./v.", meaningZh: "酵母；使发起来；促使渐变的因素", meaningEn: "a leavening agent", collocations: [], example: "The leaven rose.", exampleZh: "酵母发起来了。" },
@@ -36077,7 +36077,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3625", term: "legacy", phonetic: "'legәsi", pos: "n.", meaningZh: "遗产；遗赠；祖先传下来之物；遗赠物", meaningEn: "something inherited", band: "8", collocations: [], example: "The legacy inspired.", exampleZh: "遗产鼓舞了。",
+    id: "bulk-3625", term: "legacy", phonetic: "/legәsi/", pos: "n.", meaningZh: "遗产；遗赠；祖先传下来之物；遗赠物", meaningEn: "something inherited", band: "8", collocations: [], example: "The legacy inspired.", exampleZh: "遗产鼓舞了。",
     senses: [
     {
     pos: "n.", meaningZh: "遗产；遗赠；祖先传下来之物；遗赠物", meaningEn: "something inherited", collocations: [], example: "The legacy inspired.", exampleZh: "遗产鼓舞了。" }
@@ -36202,7 +36202,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3640", term: "libation", phonetic: "lai'beiʃәn", pos: "n.", meaningZh: "祭酒；饮料；献酒；奠酒；饮酒", meaningEn: "a pouring of drink", band: "8", collocations: [], example: "The libation honored gods.", exampleZh: "祭酒敬了神。",
+    id: "bulk-3640", term: "libation", phonetic: "/lai'beiʃәn/", pos: "n.", meaningZh: "祭酒；饮料；献酒；奠酒；饮酒", meaningEn: "a pouring of drink", band: "8", collocations: [], example: "The libation honored gods.", exampleZh: "祭酒敬了神。",
     senses: [
     {
     pos: "n.", meaningZh: "祭酒；饮料；献酒；奠酒；饮酒", meaningEn: "a pouring of drink", collocations: [], example: "The libation honored gods.", exampleZh: "祭酒敬了神。" }
@@ -36263,7 +36263,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3647", term: "licentious", phonetic: "lai'senʃәs", pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained", band: "8", collocations: [], example: "His licentious act shocked.", exampleZh: "他放肆的行为震惊了。",
+    id: "bulk-3647", term: "licentious", phonetic: "/lai'senʃәs/", pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained", band: "8", collocations: [], example: "His licentious act shocked.", exampleZh: "他放肆的行为震惊了。",
     senses: [
     {
     pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained", collocations: [], example: "His licentious act shocked.", exampleZh: "他放肆的行为震惊了。" }
@@ -36277,7 +36277,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3649", term: "lifelong", phonetic: "'laiflɒŋ", pos: "adj.", meaningZh: "终身的；毕生的", meaningEn: "lasting a life", band: "8", collocations: [], example: "The lifelong bond held.", exampleZh: "终身的纽带维持了。",
+    id: "bulk-3649", term: "lifelong", phonetic: "/laiflɒŋ/", pos: "adj.", meaningZh: "终身的；毕生的", meaningEn: "lasting a life", band: "8", collocations: [], example: "The lifelong bond held.", exampleZh: "终身的纽带维持了。",
     senses: [
     {
     pos: "adj.", meaningZh: "终身的；毕生的", meaningEn: "lasting a life", collocations: [], example: "The lifelong bond held.", exampleZh: "终身的纽带维持了。" }
@@ -36302,7 +36302,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3652", term: "ligneous", phonetic: "'ligniәs", pos: "adj.", meaningZh: "木质的；木本的；似木的；木制的；木样的", meaningEn: "woody", band: "8", collocations: [], example: "The ligneous stem hardened.", exampleZh: "木质的茎变硬了。",
+    id: "bulk-3652", term: "ligneous", phonetic: "/ligniәs/", pos: "adj.", meaningZh: "木质的；木本的；似木的；木制的；木样的", meaningEn: "woody", band: "8", collocations: [], example: "The ligneous stem hardened.", exampleZh: "木质的茎变硬了。",
     senses: [
     {
     pos: "adj.", meaningZh: "木质的；木本的；似木的；木制的；木样的", meaningEn: "woody", collocations: [], example: "The ligneous stem hardened.", exampleZh: "木质的茎变硬了。" }
@@ -36445,7 +36445,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3669", term: "lodestar", phonetic: "'lәudstɑ:", pos: "n.", meaningZh: "北极星；指导原则；指示方向之星；指导原理", meaningEn: "a guiding star", band: "8", collocations: [], example: "The lodestar guided.", exampleZh: "北极星指引了。",
+    id: "bulk-3669", term: "lodestar", phonetic: "/lәudstɑ:/", pos: "n.", meaningZh: "北极星；指导原则；指示方向之星；指导原理", meaningEn: "a guiding star", band: "8", collocations: [], example: "The lodestar guided.", exampleZh: "北极星指引了。",
     senses: [
     {
     pos: "n.", meaningZh: "北极星；指导原则；指示方向之星；指导原理", meaningEn: "a guiding star", collocations: [], example: "The lodestar guided.", exampleZh: "北极星指引了。" }
@@ -36459,7 +36459,7 @@ const part_13: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3671", term: "logjam", phonetic: "'lɒgdʒæm", pos: "n.", meaningZh: "浮木阻塞；僵局；拥挤；行不通；为许多圆木材所阻", meaningEn: "a jam", band: "8", collocations: [], example: "The logjam broke.", exampleZh: "僵局打破了。",
+    id: "bulk-3671", term: "logjam", phonetic: "/lɒgdʒæm/", pos: "n.", meaningZh: "浮木阻塞；僵局；拥挤；行不通；为许多圆木材所阻", meaningEn: "a jam", band: "8", collocations: [], example: "The logjam broke.", exampleZh: "僵局打破了。",
     senses: [
     {
     pos: "n.", meaningZh: "浮木阻塞；僵局；拥挤；行不通；为许多圆木材所阻", meaningEn: "a jam", collocations: [], example: "The logjam broke.", exampleZh: "僵局打破了。" }
@@ -36539,7 +36539,7 @@ const part_13: VocabEntry[] = [
 
 const part_14: VocabEntry[] = [
   {
-    id: "bulk-3680", term: "lucrative", phonetic: "'lu:krәtiv", pos: "adj.", meaningZh: "盈利的；有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", band: "8", collocations: [], example: "The lucrative deal paid.", exampleZh: "盈利的交易回报了。",
+    id: "bulk-3680", term: "lucrative", phonetic: "/lu:krәtiv/", pos: "adj.", meaningZh: "盈利的；有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", band: "8", collocations: [], example: "The lucrative deal paid.", exampleZh: "盈利的交易回报了。",
     senses: [
     {
     pos: "adj.", meaningZh: "盈利的；有利可图的；有利益的；获利的；合算的", meaningEn: "profitable", collocations: [], example: "The lucrative deal paid.", exampleZh: "盈利的交易回报了。" }
@@ -36560,7 +36560,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3683", term: "lull", phonetic: "lʌl", pos: "v./n.", meaningZh: "使安静；间歇", meaningEn: "to calm", band: "8", collocations: [], example: "The lull relaxed.", exampleZh: "间歇让人放松。",
+    id: "bulk-3683", term: "lull", phonetic: "/lʌl/", pos: "v./n.", meaningZh: "使安静；间歇", meaningEn: "to calm", band: "8", collocations: [], example: "The lull relaxed.", exampleZh: "间歇让人放松。",
     senses: [
     {
     pos: "v./n.", meaningZh: "使安静；间歇", meaningEn: "to calm", collocations: [], example: "The lull relaxed.", exampleZh: "间歇让人放松。" },
@@ -36600,7 +36600,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3687", term: "lurch", phonetic: "lә:tʃ", pos: "v./n.", meaningZh: "蹒跚；突然倾斜", meaningEn: "to stagger", band: "8", collocations: [], example: "The ship lurched.", exampleZh: "船突然倾斜。",
+    id: "bulk-3687", term: "lurch", phonetic: "/lә:tʃ/", pos: "v./n.", meaningZh: "蹒跚；突然倾斜", meaningEn: "to stagger", band: "8", collocations: [], example: "The ship lurched.", exampleZh: "船突然倾斜。",
     senses: [
     {
     pos: "v./n.", meaningZh: "蹒跚；突然倾斜", meaningEn: "to stagger", collocations: [], example: "The ship lurched.", exampleZh: "船突然倾斜。" },
@@ -36613,14 +36613,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3688", term: "lurid", phonetic: "'luәrid", pos: "adj.", meaningZh: "可怕的；耸人听闻的；火烧似的；苍白的；华丽的", meaningEn: "shockingly vivid", band: "8", collocations: [], example: "The lurid tale chilled.", exampleZh: "可怕的故事让人发冷。",
+    id: "bulk-3688", term: "lurid", phonetic: "/luәrid/", pos: "adj.", meaningZh: "可怕的；耸人听闻的；火烧似的；苍白的；华丽的", meaningEn: "shockingly vivid", band: "8", collocations: [], example: "The lurid tale chilled.", exampleZh: "可怕的故事让人发冷。",
     senses: [
     {
     pos: "adj.", meaningZh: "可怕的；耸人听闻的；火烧似的；苍白的；华丽的", meaningEn: "shockingly vivid", collocations: [], example: "The lurid tale chilled.", exampleZh: "可怕的故事让人发冷。" }
     ]
   },
   {
-    id: "bulk-3689", term: "lurk", phonetic: "lә:k", pos: "v.", meaningZh: "潜伏；埋伏", meaningEn: "to lie hidden", band: "8", collocations: [], example: "The danger lurked.", exampleZh: "危险潜伏。",
+    id: "bulk-3689", term: "lurk", phonetic: "/lә:k/", pos: "v.", meaningZh: "潜伏；埋伏", meaningEn: "to lie hidden", band: "8", collocations: [], example: "The danger lurked.", exampleZh: "危险潜伏。",
     senses: [
     {
     pos: "v.", meaningZh: "潜伏；埋伏", meaningEn: "to lie hidden", collocations: [], example: "The danger lurked.", exampleZh: "危险潜伏。" },
@@ -36631,14 +36631,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3690", term: "luscious", phonetic: "'lʌʃәs", pos: "adj.", meaningZh: "甘美的；性感的；浓厚的；满足感官的", meaningEn: "deliciously sweet", band: "8", collocations: [], example: "The luscious fruit tempted.", exampleZh: "甘美的水果诱人。",
+    id: "bulk-3690", term: "luscious", phonetic: "/lʌʃәs/", pos: "adj.", meaningZh: "甘美的；性感的；浓厚的；满足感官的", meaningEn: "deliciously sweet", band: "8", collocations: [], example: "The luscious fruit tempted.", exampleZh: "甘美的水果诱人。",
     senses: [
     {
     pos: "adj.", meaningZh: "甘美的；性感的；浓厚的；满足感官的", meaningEn: "deliciously sweet", collocations: [], example: "The luscious fruit tempted.", exampleZh: "甘美的水果诱人。" }
     ]
   },
   {
-    id: "bulk-3691", term: "lush", phonetic: "lʌʃ", pos: "adj.", meaningZh: "茂盛的；豪华的；苍翠繁茂的；多青草的；丰富的", meaningEn: "luxuriant", band: "8", collocations: [], example: "The lush garden bloomed.", exampleZh: "茂盛的花园盛开。",
+    id: "bulk-3691", term: "lush", phonetic: "/lʌʃ/", pos: "adj.", meaningZh: "茂盛的；豪华的；苍翠繁茂的；多青草的；丰富的", meaningEn: "luxuriant", band: "8", collocations: [], example: "The lush garden bloomed.", exampleZh: "茂盛的花园盛开。",
     senses: [
     {
     pos: "adj.", meaningZh: "茂盛的；豪华的；苍翠繁茂的；多青草的；丰富的", meaningEn: "luxuriant", collocations: [], example: "The lush garden bloomed.", exampleZh: "茂盛的花园盛开。" },
@@ -36649,7 +36649,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3692", term: "lustrous", phonetic: "'lʌstrәs", pos: "adj.", meaningZh: "有光泽的；光彩的；光辉的", meaningEn: "shiny", band: "8", collocations: [], example: "The lustrous silk shimmered.", exampleZh: "有光泽的丝绸闪闪发光。",
+    id: "bulk-3692", term: "lustrous", phonetic: "/lʌstrәs/", pos: "adj.", meaningZh: "有光泽的；光彩的；光辉的", meaningEn: "shiny", band: "8", collocations: [], example: "The lustrous silk shimmered.", exampleZh: "有光泽的丝绸闪闪发光。",
     senses: [
     {
     pos: "adj.", meaningZh: "有光泽的；光彩的；光辉的", meaningEn: "shiny", collocations: [], example: "The lustrous silk shimmered.", exampleZh: "有光泽的丝绸闪闪发光。" }
@@ -36663,7 +36663,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3694", term: "lyrical", phonetic: "'lirikәl", pos: "adj.", meaningZh: "抒情的；狂热的；抒情诗调的；有抒情味的；感情丰富的", meaningEn: "expressive", band: "8", collocations: [], example: "The lyrical song moved.", exampleZh: "抒情的歌动人。",
+    id: "bulk-3694", term: "lyrical", phonetic: "/lirikәl/", pos: "adj.", meaningZh: "抒情的；狂热的；抒情诗调的；有抒情味的；感情丰富的", meaningEn: "expressive", band: "8", collocations: [], example: "The lyrical song moved.", exampleZh: "抒情的歌动人。",
     senses: [
     {
     pos: "adj.", meaningZh: "抒情的；狂热的；抒情诗调的；有抒情味的；感情丰富的", meaningEn: "expressive", collocations: [], example: "The lyrical song moved.", exampleZh: "抒情的歌动人。" }
@@ -36677,7 +36677,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3696", term: "machiavellian", phonetic: ".mækiә'veliәn", pos: "adj.", meaningZh: "权谋的；狡诈的；马基雅弗利的；狡猾的", meaningEn: "cunning and scheming", band: "8", collocations: [], example: "His machiavellian plot unfolded.", exampleZh: "他权谋的阴谋展开。",
+    id: "bulk-3696", term: "machiavellian", phonetic: "/.mækiә'veliәn/", pos: "adj.", meaningZh: "权谋的；狡诈的；马基雅弗利的；狡猾的", meaningEn: "cunning and scheming", band: "8", collocations: [], example: "His machiavellian plot unfolded.", exampleZh: "他权谋的阴谋展开。",
     senses: [
     {
     pos: "adj.", meaningZh: "权谋的；狡诈的；马基雅弗利的；狡猾的", meaningEn: "cunning and scheming", collocations: [], example: "His machiavellian plot unfolded.", exampleZh: "他权谋的阴谋展开。" },
@@ -36693,7 +36693,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3698", term: "maculate", phonetic: "'mækjuleit", pos: "adj.", meaningZh: "有斑点的；有污点的", meaningEn: "spotted", band: "8", collocations: [], example: "The maculate leaf fell.", exampleZh: "有斑点的叶子落了。",
+    id: "bulk-3698", term: "maculate", phonetic: "/mækjuleit/", pos: "adj.", meaningZh: "有斑点的；有污点的", meaningEn: "spotted", band: "8", collocations: [], example: "The maculate leaf fell.", exampleZh: "有斑点的叶子落了。",
     senses: [
     {
     pos: "adj.", meaningZh: "有斑点的；有污点的", meaningEn: "spotted", collocations: [], example: "The maculate leaf fell.", exampleZh: "有斑点的叶子落了。" },
@@ -36704,7 +36704,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3699", term: "madcap", phonetic: "'mædkæp", pos: "adj./n.", meaningZh: "鲁莽的；狂妄者；冲动的", meaningEn: "reckless", band: "8", collocations: [], example: "The madcap scheme failed.", exampleZh: "鲁莽的计划失败了。",
+    id: "bulk-3699", term: "madcap", phonetic: "/mædkæp/", pos: "adj./n.", meaningZh: "鲁莽的；狂妄者；冲动的", meaningEn: "reckless", band: "8", collocations: [], example: "The madcap scheme failed.", exampleZh: "鲁莽的计划失败了。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "鲁莽的；狂妄者；冲动的", meaningEn: "reckless", collocations: [], example: "The madcap scheme failed.", exampleZh: "鲁莽的计划失败了。" },
@@ -36891,14 +36891,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3722", term: "malodorous", phonetic: "mæ'lәudәrәs", pos: "adj.", meaningZh: "恶臭的；难闻的；有恶臭的", meaningEn: "smelly", band: "8", collocations: [], example: "The malodorous drain reeked.", exampleZh: "恶臭的排水沟发臭。",
+    id: "bulk-3722", term: "malodorous", phonetic: "/mæ'lәudәrәs/", pos: "adj.", meaningZh: "恶臭的；难闻的；有恶臭的", meaningEn: "smelly", band: "8", collocations: [], example: "The malodorous drain reeked.", exampleZh: "恶臭的排水沟发臭。",
     senses: [
     {
     pos: "adj.", meaningZh: "恶臭的；难闻的；有恶臭的", meaningEn: "smelly", collocations: [], example: "The malodorous drain reeked.", exampleZh: "恶臭的排水沟发臭。" }
     ]
   },
   {
-    id: "bulk-3723", term: "maltreat", phonetic: "mæl'tri:t", pos: "v.", meaningZh: "虐待；苛待", meaningEn: "to abuse", band: "8", collocations: [], example: "They maltreated the dog.", exampleZh: "他们虐待狗。",
+    id: "bulk-3723", term: "maltreat", phonetic: "/mæl'tri:t/", pos: "v.", meaningZh: "虐待；苛待", meaningEn: "to abuse", band: "8", collocations: [], example: "They maltreated the dog.", exampleZh: "他们虐待狗。",
     senses: [
     {
     pos: "v.", meaningZh: "虐待；苛待", meaningEn: "to abuse", collocations: [], example: "They maltreated the dog.", exampleZh: "他们虐待狗。" },
@@ -36907,7 +36907,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3724", term: "mammoth", phonetic: "'mæmәθ", pos: "adj./n.", meaningZh: "巨大的；猛犸；猛犸似的", meaningEn: "huge", band: "8", collocations: [], example: "The mammoth task loomed.", exampleZh: "巨大的任务迫近。",
+    id: "bulk-3724", term: "mammoth", phonetic: "/mæmәθ/", pos: "adj./n.", meaningZh: "巨大的；猛犸；猛犸似的", meaningEn: "huge", band: "8", collocations: [], example: "The mammoth task loomed.", exampleZh: "巨大的任务迫近。",
     senses: [
     {
     pos: "adj./n.", meaningZh: "巨大的；猛犸；猛犸似的", meaningEn: "huge", collocations: [], example: "The mammoth task loomed.", exampleZh: "巨大的任务迫近。" },
@@ -36925,7 +36925,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3726", term: "mangle", phonetic: "'mæŋgl", pos: "v.", meaningZh: "乱砍；糟蹋", meaningEn: "to mutilate", band: "8", collocations: [], example: "The machine mangled it.", exampleZh: "机器糟蹋了它。",
+    id: "bulk-3726", term: "mangle", phonetic: "/mæŋgl/", pos: "v.", meaningZh: "乱砍；糟蹋", meaningEn: "to mutilate", band: "8", collocations: [], example: "The machine mangled it.", exampleZh: "机器糟蹋了它。",
     senses: [
     {
     pos: "v.", meaningZh: "乱砍；糟蹋", meaningEn: "to mutilate", collocations: [], example: "The machine mangled it.", exampleZh: "机器糟蹋了它。" },
@@ -36936,14 +36936,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3727", term: "mangy", phonetic: "'meindʒi", pos: "adj.", meaningZh: "长满癣的；污秽的；疥癣的", meaningEn: "shabby", band: "8", collocations: [], example: "The mangy dog whined.", exampleZh: "长癣的狗哀鸣。",
+    id: "bulk-3727", term: "mangy", phonetic: "/meindʒi/", pos: "adj.", meaningZh: "长满癣的；污秽的；疥癣的", meaningEn: "shabby", band: "8", collocations: [], example: "The mangy dog whined.", exampleZh: "长癣的狗哀鸣。",
     senses: [
     {
     pos: "adj.", meaningZh: "长满癣的；污秽的；疥癣的", meaningEn: "shabby", collocations: [], example: "The mangy dog whined.", exampleZh: "长癣的狗哀鸣。" }
     ]
   },
   {
-    id: "bulk-3728", term: "maniac", phonetic: "'meiniæk", pos: "n.", meaningZh: "疯子；狂热者；狂人", meaningEn: "a mad person", band: "8", collocations: [], example: "The maniac raved.", exampleZh: "疯子胡言。",
+    id: "bulk-3728", term: "maniac", phonetic: "/meiniæk/", pos: "n.", meaningZh: "疯子；狂热者；狂人", meaningEn: "a mad person", band: "8", collocations: [], example: "The maniac raved.", exampleZh: "疯子胡言。",
     senses: [
     {
     pos: "n.", meaningZh: "疯子；狂热者；狂人", meaningEn: "a mad person", collocations: [], example: "The maniac raved.", exampleZh: "疯子胡言。" },
@@ -36991,7 +36991,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3732", term: "mannerism", phonetic: "'mænәrizm", pos: "n.", meaningZh: "习气；特殊姿态；矫揉造作；习性；装相；作态", meaningEn: "a habitual gesture", band: "8", collocations: [], example: "His mannerism amused.", exampleZh: "他的习气逗人乐。",
+    id: "bulk-3732", term: "mannerism", phonetic: "/mænәrizm/", pos: "n.", meaningZh: "习气；特殊姿态；矫揉造作；习性；装相；作态", meaningEn: "a habitual gesture", band: "8", collocations: [], example: "His mannerism amused.", exampleZh: "他的习气逗人乐。",
     senses: [
     {
     pos: "n.", meaningZh: "习气；特殊姿态；矫揉造作；习性；装相；作态", meaningEn: "a habitual gesture", collocations: [], example: "His mannerism amused.", exampleZh: "他的习气逗人乐。" }
@@ -37112,7 +37112,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3745", term: "matriculate", phonetic: "mә'trikjuleit", pos: "v.", meaningZh: "录取；入学", meaningEn: "to enroll", band: "8", collocations: [], example: "He matriculated at college.", exampleZh: "他入了大学。",
+    id: "bulk-3745", term: "matriculate", phonetic: "/mә'trikjuleit/", pos: "v.", meaningZh: "录取；入学", meaningEn: "to enroll", band: "8", collocations: [], example: "He matriculated at college.", exampleZh: "他入了大学。",
     senses: [
     {
     pos: "v.", meaningZh: "录取；入学", meaningEn: "to enroll", collocations: [], example: "He matriculated at college.", exampleZh: "他入了大学。" },
@@ -37159,7 +37159,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3750", term: "maverick", phonetic: "'mævәrik", pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "an independent", band: "8", collocations: [], example: "He is a maverick.", exampleZh: "他是独行侠。",
+    id: "bulk-3750", term: "maverick", phonetic: "/mævәrik/", pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "an independent", band: "8", collocations: [], example: "He is a maverick.", exampleZh: "他是独行侠。",
     senses: [
     {
     pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "an independent", collocations: [], example: "He is a maverick.", exampleZh: "他是独行侠。" },
@@ -37267,7 +37267,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3762", term: "mellifluous", phonetic: "me'lifljәs", pos: "adj.", meaningZh: "悦耳的；流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", band: "8", collocations: [], example: "Her mellifluous voice soothed.", exampleZh: "她悦耳的声音安抚了。",
+    id: "bulk-3762", term: "mellifluous", phonetic: "/me'lifljәs/", pos: "adj.", meaningZh: "悦耳的；流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", band: "8", collocations: [], example: "Her mellifluous voice soothed.", exampleZh: "她悦耳的声音安抚了。",
     senses: [
     {
     pos: "adj.", meaningZh: "悦耳的；流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", collocations: [], example: "Her mellifluous voice soothed.", exampleZh: "她悦耳的声音安抚了。" }
@@ -37315,7 +37315,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3768", term: "mercurial", phonetic: "mә:'kjuәriәl", pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", band: "8", collocations: [], example: "His mercurial mood shifted.", exampleZh: "他善变的情绪变了。",
+    id: "bulk-3768", term: "mercurial", phonetic: "/mә:'kjuәriәl/", pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", band: "8", collocations: [], example: "His mercurial mood shifted.", exampleZh: "他善变的情绪变了。",
     senses: [
     {
     pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", collocations: [], example: "His mercurial mood shifted.", exampleZh: "他善变的情绪变了。" },
@@ -37365,28 +37365,28 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3774", term: "methodical", phonetic: "mi'θɒdikl", pos: "adj.", meaningZh: "有条理的；有方法的；有系统的", meaningEn: "orderly", band: "8", collocations: [], example: "His methodical work impressed.", exampleZh: "他有条理的工作令人印象深刻。",
+    id: "bulk-3774", term: "methodical", phonetic: "/mi'θɒdikl/", pos: "adj.", meaningZh: "有条理的；有方法的；有系统的", meaningEn: "orderly", band: "8", collocations: [], example: "His methodical work impressed.", exampleZh: "他有条理的工作令人印象深刻。",
     senses: [
     {
     pos: "adj.", meaningZh: "有条理的；有方法的；有系统的", meaningEn: "orderly", collocations: [], example: "His methodical work impressed.", exampleZh: "他有条理的工作令人印象深刻。" }
     ]
   },
   {
-    id: "bulk-3775", term: "meticulous", phonetic: "mә'tikjulәs", pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", band: "8", collocations: [], example: "Her meticulous notes helped.", exampleZh: "她一丝不苟的笔记有帮助。",
+    id: "bulk-3775", term: "meticulous", phonetic: "/mә'tikjulәs/", pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", band: "8", collocations: [], example: "Her meticulous notes helped.", exampleZh: "她一丝不苟的笔记有帮助。",
     senses: [
     {
     pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", collocations: [], example: "Her meticulous notes helped.", exampleZh: "她一丝不苟的笔记有帮助。" }
     ]
   },
   {
-    id: "bulk-3776", term: "mettle", phonetic: "'metl", pos: "n.", meaningZh: "勇气；气概；气质；耐力", meaningEn: "spirit", band: "8", collocations: [], example: "He showed his mettle.", exampleZh: "他显示了勇气。",
+    id: "bulk-3776", term: "mettle", phonetic: "/metl/", pos: "n.", meaningZh: "勇气；气概；气质；耐力", meaningEn: "spirit", band: "8", collocations: [], example: "He showed his mettle.", exampleZh: "他显示了勇气。",
     senses: [
     {
     pos: "n.", meaningZh: "勇气；气概；气质；耐力", meaningEn: "spirit", collocations: [], example: "He showed his mettle.", exampleZh: "他显示了勇气。" }
     ]
   },
   {
-    id: "bulk-3777", term: "microcosm", phonetic: "'maikrәukɒzm", pos: "n.", meaningZh: "微观世界；缩影；小宇宙；小世界；人类", meaningEn: "a small world", band: "8", collocations: [], example: "The village was a microcosm.", exampleZh: "村庄是缩影。",
+    id: "bulk-3777", term: "microcosm", phonetic: "/maikrәukɒzm/", pos: "n.", meaningZh: "微观世界；缩影；小宇宙；小世界；人类", meaningEn: "a small world", band: "8", collocations: [], example: "The village was a microcosm.", exampleZh: "村庄是缩影。",
     senses: [
     {
     pos: "n.", meaningZh: "微观世界；缩影；小宇宙；小世界；人类", meaningEn: "a small world", collocations: [], example: "The village was a microcosm.", exampleZh: "村庄是缩影。" }
@@ -37414,7 +37414,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3781", term: "militate", phonetic: "'militeit", pos: "v.", meaningZh: "起作用；产生影响", meaningEn: "to operate against", band: "8", collocations: [], example: "The facts militated.", exampleZh: "事实起作用了。",
+    id: "bulk-3781", term: "militate", phonetic: "/militeit/", pos: "v.", meaningZh: "起作用；产生影响", meaningEn: "to operate against", band: "8", collocations: [], example: "The facts militated.", exampleZh: "事实起作用了。",
     senses: [
     {
     pos: "v.", meaningZh: "起作用；产生影响", meaningEn: "to operate against", collocations: [], example: "The facts militated.", exampleZh: "事实起作用了。" },
@@ -37523,7 +37523,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3792", term: "miscalculate", phonetic: "mis'kælkjuleit", pos: "v.", meaningZh: "算错；估计错误", meaningEn: "to misjudge", band: "8", collocations: [], example: "He miscalculated the cost.", exampleZh: "他算错了成本。",
+    id: "bulk-3792", term: "miscalculate", phonetic: "/mis'kælkjuleit/", pos: "v.", meaningZh: "算错；估计错误", meaningEn: "to misjudge", band: "8", collocations: [], example: "He miscalculated the cost.", exampleZh: "他算错了成本。",
     senses: [
     {
     pos: "v.", meaningZh: "算错；估计错误", meaningEn: "to misjudge", collocations: [], example: "He miscalculated the cost.", exampleZh: "他算错了成本。" },
@@ -37571,7 +37571,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3798", term: "misgiving", phonetic: "mis'^iviŋ", pos: "n.", meaningZh: "疑虑；担忧；不安；害怕；担扰；疑惧", meaningEn: "a doubt", band: "8", collocations: [], example: "He had misgivings.", exampleZh: "他有疑虑。",
+    id: "bulk-3798", term: "misgiving", phonetic: "/mis'^iviŋ/", pos: "n.", meaningZh: "疑虑；担忧；不安；害怕；担扰；疑惧", meaningEn: "a doubt", band: "8", collocations: [], example: "He had misgivings.", exampleZh: "他有疑虑。",
     senses: [
     {
     pos: "n.", meaningZh: "疑虑；担忧；不安；害怕；担扰；疑惧", meaningEn: "a doubt", collocations: [], example: "He had misgivings.", exampleZh: "他有疑虑。" }
@@ -37603,7 +37603,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3802", term: "mistrial", phonetic: ".mis'traiәl", pos: "n.", meaningZh: "无效审判；未决审判；误审；审判失误", meaningEn: "a failed trial", band: "8", collocations: [], example: "The mistrial ended.", exampleZh: "无效审判结束了。",
+    id: "bulk-3802", term: "mistrial", phonetic: "/.mis'traiәl/", pos: "n.", meaningZh: "无效审判；未决审判；误审；审判失误", meaningEn: "a failed trial", band: "8", collocations: [], example: "The mistrial ended.", exampleZh: "无效审判结束了。",
     senses: [
     {
     pos: "n.", meaningZh: "无效审判；未决审判；误审；审判失误", meaningEn: "a failed trial", collocations: [], example: "The mistrial ended.", exampleZh: "无效审判结束了。" }
@@ -37630,7 +37630,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3805", term: "mobilize", phonetic: "'mәubilaiz", pos: "v.", meaningZh: "动员；调动", meaningEn: "to assemble", band: "8", collocations: [], example: "They mobilized troops.", exampleZh: "他们动员了部队。",
+    id: "bulk-3805", term: "mobilize", phonetic: "/mәubilaiz/", pos: "v.", meaningZh: "动员；调动", meaningEn: "to assemble", band: "8", collocations: [], example: "They mobilized troops.", exampleZh: "他们动员了部队。",
     senses: [
     {
     pos: "v.", meaningZh: "动员；调动", meaningEn: "to assemble", collocations: [], example: "They mobilized troops.", exampleZh: "他们动员了部队。" },
@@ -37658,21 +37658,21 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3807", term: "modicum", phonetic: "'mɒdikәm", pos: "n.", meaningZh: "少量；一点点", meaningEn: "a small amount", band: "8", collocations: [], example: "He had a modicum.", exampleZh: "他有一点点。",
+    id: "bulk-3807", term: "modicum", phonetic: "/mɒdikәm/", pos: "n.", meaningZh: "少量；一点点", meaningEn: "a small amount", band: "8", collocations: [], example: "He had a modicum.", exampleZh: "他有一点点。",
     senses: [
     {
     pos: "n.", meaningZh: "少量；一点点", meaningEn: "a small amount", collocations: [], example: "He had a modicum.", exampleZh: "他有一点点。" }
     ]
   },
   {
-    id: "bulk-3808", term: "mogul", phonetic: "mәu'^ʌl, 'mәu^ʌl", pos: "n.", meaningZh: "大亨；权贵；大人物；有权势的人", meaningEn: "a powerful person", band: "8", collocations: [], example: "The mogul decided.", exampleZh: "大亨决定了。",
+    id: "bulk-3808", term: "mogul", phonetic: "/mәu'^ʌl, 'mәu^ʌl/", pos: "n.", meaningZh: "大亨；权贵；大人物；有权势的人", meaningEn: "a powerful person", band: "8", collocations: [], example: "The mogul decided.", exampleZh: "大亨决定了。",
     senses: [
     {
     pos: "n.", meaningZh: "大亨；权贵；大人物；有权势的人", meaningEn: "a powerful person", collocations: [], example: "The mogul decided.", exampleZh: "大亨决定了。" }
     ]
   },
   {
-    id: "bulk-3809", term: "molest", phonetic: "mә'lest", pos: "v.", meaningZh: "骚扰；调戏", meaningEn: "to assault", band: "8", collocations: [], example: "He molested the child.", exampleZh: "他骚扰了孩子。",
+    id: "bulk-3809", term: "molest", phonetic: "/mә'lest/", pos: "v.", meaningZh: "骚扰；调戏", meaningEn: "to assault", band: "8", collocations: [], example: "He molested the child.", exampleZh: "他骚扰了孩子。",
     senses: [
     {
     pos: "v.", meaningZh: "骚扰；调戏", meaningEn: "to assault", collocations: [], example: "He molested the child.", exampleZh: "他骚扰了孩子。" },
@@ -37681,7 +37681,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3810", term: "mollify", phonetic: "'mɒlifai", pos: "v.", meaningZh: "抚慰；平息", meaningEn: "to soothe", band: "8", collocations: [], example: "She mollified the angry.", exampleZh: "她抚慰了愤怒者。",
+    id: "bulk-3810", term: "mollify", phonetic: "/mɒlifai/", pos: "v.", meaningZh: "抚慰；平息", meaningEn: "to soothe", band: "8", collocations: [], example: "She mollified the angry.", exampleZh: "她抚慰了愤怒者。",
     senses: [
     {
     pos: "v.", meaningZh: "抚慰；平息", meaningEn: "to soothe", collocations: [], example: "She mollified the angry.", exampleZh: "她抚慰了愤怒者。" },
@@ -37690,7 +37690,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3811", term: "molt", phonetic: "mәult", pos: "v.", meaningZh: "脱毛；蜕皮；换毛", meaningEn: "to shed", band: "8", collocations: [], example: "The snake molted.", exampleZh: "蛇蜕皮了。",
+    id: "bulk-3811", term: "molt", phonetic: "/mәult/", pos: "v.", meaningZh: "脱毛；蜕皮；换毛", meaningEn: "to shed", band: "8", collocations: [], example: "The snake molted.", exampleZh: "蛇蜕皮了。",
     senses: [
     {
     pos: "v.", meaningZh: "脱毛；蜕皮；换毛", meaningEn: "to shed", collocations: [], example: "The snake molted.", exampleZh: "蛇蜕皮了。" },
@@ -37747,7 +37747,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3818", term: "monolithic", phonetic: ".mɒnәu'liθik", pos: "adj.", meaningZh: "整体的；巨石的；独石的；完全统一的；整体(铸；烧结)的；龟甲网衬里；单片；单块", meaningEn: "single massive", band: "8", collocations: [], example: "The monolithic block stood.", exampleZh: "巨石耸立。",
+    id: "bulk-3818", term: "monolithic", phonetic: "/.mɒnәu'liθik/", pos: "adj.", meaningZh: "整体的；巨石的；独石的；完全统一的；整体(铸；烧结)的；龟甲网衬里；单片；单块", meaningEn: "single massive", band: "8", collocations: [], example: "The monolithic block stood.", exampleZh: "巨石耸立。",
     senses: [
     {
     pos: "adj.", meaningZh: "整体的；巨石的；独石的；完全统一的；整体(铸；烧结)的；龟甲网衬里；单片；单块", meaningEn: "single massive", collocations: [], example: "The monolithic block stood.", exampleZh: "巨石耸立。" }
@@ -37933,14 +37933,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3840", term: "murky", phonetic: "'mә:ki", pos: "adj.", meaningZh: "黑暗的；含糊的；黝暗的；阴沉的；朦胧的", meaningEn: "dark and unclear", band: "8", collocations: [], example: "The murky water hid.", exampleZh: "黑暗的水藏着。",
+    id: "bulk-3840", term: "murky", phonetic: "/mә:ki/", pos: "adj.", meaningZh: "黑暗的；含糊的；黝暗的；阴沉的；朦胧的", meaningEn: "dark and unclear", band: "8", collocations: [], example: "The murky water hid.", exampleZh: "黑暗的水藏着。",
     senses: [
     {
     pos: "adj.", meaningZh: "黑暗的；含糊的；黝暗的；阴沉的；朦胧的", meaningEn: "dark and unclear", collocations: [], example: "The murky water hid.", exampleZh: "黑暗的水藏着。" }
     ]
   },
   {
-    id: "bulk-3841", term: "muse", phonetic: "mju:z", pos: "v./n.", meaningZh: "沉思；缪斯；冥想；若有所思地凝望或说", meaningEn: "to ponder", band: "8", collocations: [], example: "She mused on life.", exampleZh: "她沉思生活。",
+    id: "bulk-3841", term: "muse", phonetic: "/mju:z/", pos: "v./n.", meaningZh: "沉思；缪斯；冥想；若有所思地凝望或说", meaningEn: "to ponder", band: "8", collocations: [], example: "She mused on life.", exampleZh: "她沉思生活。",
     senses: [
     {
     pos: "v./n.", meaningZh: "沉思；缪斯；冥想；若有所思地凝望或说", meaningEn: "to ponder", collocations: [], example: "She mused on life.", exampleZh: "她沉思生活。" },
@@ -37956,7 +37956,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3843", term: "musty", phonetic: "[ˈmʌstɪ]", pos: "adj.", meaningZh: "发霉的；陈腐的；霉臭的；落伍的", meaningEn: "stale", band: "8", collocations: [], example: "The musty room smelled.", exampleZh: "发霉的房间有味道。",
+    id: "bulk-3843", term: "musty", phonetic: "/[ˈmʌstɪ]/", pos: "adj.", meaningZh: "发霉的；陈腐的；霉臭的；落伍的", meaningEn: "stale", band: "8", collocations: [], example: "The musty room smelled.", exampleZh: "发霉的房间有味道。",
     senses: [
     {
     pos: "adj.", meaningZh: "发霉的；陈腐的；霉臭的；落伍的", meaningEn: "stale", collocations: [], example: "The musty room smelled.", exampleZh: "发霉的房间有味道。" }
@@ -38001,7 +38001,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3848", term: "mystify", phonetic: "'mistifai", pos: "v.", meaningZh: "使困惑；使神秘", meaningEn: "to bewilder", band: "8", collocations: [], example: "The trick mystified.", exampleZh: "戏法令人困惑。",
+    id: "bulk-3848", term: "mystify", phonetic: "/mistifai/", pos: "v.", meaningZh: "使困惑；使神秘", meaningEn: "to bewilder", band: "8", collocations: [], example: "The trick mystified.", exampleZh: "戏法令人困惑。",
     senses: [
     {
     pos: "v.", meaningZh: "使困惑；使神秘", meaningEn: "to bewilder", collocations: [], example: "The trick mystified.", exampleZh: "戏法令人困惑。" },
@@ -38122,7 +38122,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3863", term: "nettle", phonetic: "'netl", pos: "v./n.", meaningZh: "惹恼；荨麻", meaningEn: "to irritate", band: "8", collocations: [], example: "The remark nettled him.", exampleZh: "那话惹恼了他。",
+    id: "bulk-3863", term: "nettle", phonetic: "/netl/", pos: "v./n.", meaningZh: "惹恼；荨麻", meaningEn: "to irritate", band: "8", collocations: [], example: "The remark nettled him.", exampleZh: "那话惹恼了他。",
     senses: [
     {
     pos: "v./n.", meaningZh: "惹恼；荨麻", meaningEn: "to irritate", collocations: [], example: "The remark nettled him.", exampleZh: "那话惹恼了他。" },
@@ -38133,35 +38133,35 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3864", term: "nexus", phonetic: "'neksәs", pos: "n.", meaningZh: "连结；核心；关系；融合膜", meaningEn: "a connection", band: "8", collocations: [], example: "The nexus held.", exampleZh: "连结维持了。",
+    id: "bulk-3864", term: "nexus", phonetic: "/neksәs/", pos: "n.", meaningZh: "连结；核心；关系；融合膜", meaningEn: "a connection", band: "8", collocations: [], example: "The nexus held.", exampleZh: "连结维持了。",
     senses: [
     {
     pos: "n.", meaningZh: "连结；核心；关系；融合膜", meaningEn: "a connection", collocations: [], example: "The nexus held.", exampleZh: "连结维持了。" }
     ]
   },
   {
-    id: "bulk-3865", term: "nicety", phonetic: "'naisәti", pos: "n.", meaningZh: "细微差别；精确；美好；准确；精密；拘泥细节；纤细", meaningEn: "a subtle distinction", band: "8", collocations: [], example: "The nicety mattered.", exampleZh: "细微差别重要。",
+    id: "bulk-3865", term: "nicety", phonetic: "/naisәti/", pos: "n.", meaningZh: "细微差别；精确；美好；准确；精密；拘泥细节；纤细", meaningEn: "a subtle distinction", band: "8", collocations: [], example: "The nicety mattered.", exampleZh: "细微差别重要。",
     senses: [
     {
     pos: "n.", meaningZh: "细微差别；精确；美好；准确；精密；拘泥细节；纤细", meaningEn: "a subtle distinction", collocations: [], example: "The nicety mattered.", exampleZh: "细微差别重要。" }
     ]
   },
   {
-    id: "bulk-3866", term: "nimble", phonetic: "'nimbl", pos: "adj.", meaningZh: "敏捷的；聪明的；伶俐的", meaningEn: "agile", band: "8", collocations: [], example: "The nimble cat leapt.", exampleZh: "敏捷的猫跳了。",
+    id: "bulk-3866", term: "nimble", phonetic: "/nimbl/", pos: "adj.", meaningZh: "敏捷的；聪明的；伶俐的", meaningEn: "agile", band: "8", collocations: [], example: "The nimble cat leapt.", exampleZh: "敏捷的猫跳了。",
     senses: [
     {
     pos: "adj.", meaningZh: "敏捷的；聪明的；伶俐的", meaningEn: "agile", collocations: [], example: "The nimble cat leapt.", exampleZh: "敏捷的猫跳了。" }
     ]
   },
   {
-    id: "bulk-3867", term: "nirvana", phonetic: "nә:'vɑ:nә", pos: "n.", meaningZh: "涅槃；极乐；天堂", meaningEn: "perfect peace", band: "8", collocations: [], example: "He sought nirvana.", exampleZh: "他寻求涅槃。",
+    id: "bulk-3867", term: "nirvana", phonetic: "/nә:'vɑ:nә/", pos: "n.", meaningZh: "涅槃；极乐；天堂", meaningEn: "perfect peace", band: "8", collocations: [], example: "He sought nirvana.", exampleZh: "他寻求涅槃。",
     senses: [
     {
     pos: "n.", meaningZh: "涅槃；极乐；天堂", meaningEn: "perfect peace", collocations: [], example: "He sought nirvana.", exampleZh: "他寻求涅槃。" }
     ]
   },
   {
-    id: "bulk-3868", term: "nocturnal", phonetic: "nɒk'tә:nәl", pos: "adj.", meaningZh: "夜的；夜出的；夜曲的；夜间的", meaningEn: "of the night", band: "8", collocations: [], example: "The nocturnal owl hooted.", exampleZh: "夜出的猫头鹰叫了。",
+    id: "bulk-3868", term: "nocturnal", phonetic: "/nɒk'tә:nәl/", pos: "adj.", meaningZh: "夜的；夜出的；夜曲的；夜间的", meaningEn: "of the night", band: "8", collocations: [], example: "The nocturnal owl hooted.", exampleZh: "夜出的猫头鹰叫了。",
     senses: [
     {
     pos: "adj.", meaningZh: "夜的；夜出的；夜曲的；夜间的", meaningEn: "of the night", collocations: [], example: "The nocturnal owl hooted.", exampleZh: "夜出的猫头鹰叫了。" }
@@ -38175,7 +38175,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3870", term: "nomadic", phonetic: "nәu'mædik", pos: "adj.", meaningZh: "游牧的；流浪的；游牧生活的；游动的；无定的；游离的", meaningEn: "wandering", band: "8", collocations: [], example: "The nomadic tribe moved.", exampleZh: "游牧部落移动了。",
+    id: "bulk-3870", term: "nomadic", phonetic: "/nәu'mædik/", pos: "adj.", meaningZh: "游牧的；流浪的；游牧生活的；游动的；无定的；游离的", meaningEn: "wandering", band: "8", collocations: [], example: "The nomadic tribe moved.", exampleZh: "游牧部落移动了。",
     senses: [
     {
     pos: "adj.", meaningZh: "游牧的；流浪的；游牧生活的；游动的；无定的；游离的", meaningEn: "wandering", collocations: [], example: "The nomadic tribe moved.", exampleZh: "游牧部落移动了。" }
@@ -38205,7 +38205,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3874", term: "nonentity", phonetic: "nɒn'entiti", pos: "n.", meaningZh: "无足轻重的人；虚构；不存在；非实在；虚无", meaningEn: "an unimportant person", band: "8", collocations: [], example: "The nonentity faded.", exampleZh: "无足轻重者消失了。",
+    id: "bulk-3874", term: "nonentity", phonetic: "/nɒn'entiti/", pos: "n.", meaningZh: "无足轻重的人；虚构；不存在；非实在；虚无", meaningEn: "an unimportant person", band: "8", collocations: [], example: "The nonentity faded.", exampleZh: "无足轻重者消失了。",
     senses: [
     {
     pos: "n.", meaningZh: "无足轻重的人；虚构；不存在；非实在；虚无", meaningEn: "an unimportant person", collocations: [], example: "The nonentity faded.", exampleZh: "无足轻重者消失了。" }
@@ -38221,7 +38221,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3876", term: "nonsuch", phonetic: "'nɔnsʌtʃ", pos: "n.", meaningZh: "无可匹敌者；典范；(=nonesuch)无与伦比的事物；绝品；极品", meaningEn: "one without equal", band: "8", collocations: [], example: "He was a nonsuch.", exampleZh: "他是无匹者。",
+    id: "bulk-3876", term: "nonsuch", phonetic: "/nɔnsʌtʃ/", pos: "n.", meaningZh: "无可匹敌者；典范；(=nonesuch)无与伦比的事物；绝品；极品", meaningEn: "one without equal", band: "8", collocations: [], example: "He was a nonsuch.", exampleZh: "他是无匹者。",
     senses: [
     {
     pos: "n.", meaningZh: "无可匹敌者；典范；(=nonesuch)无与伦比的事物；绝品；极品", meaningEn: "one without equal", collocations: [], example: "He was a nonsuch.", exampleZh: "他是无匹者。" }
@@ -38374,7 +38374,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3895", term: "numismatist", phonetic: "nju:'mizmәtist", pos: "n.", meaningZh: "钱币学家；收藏家；钱币(或奖章)收藏家", meaningEn: "a coin collector", band: "8", collocations: [], example: "The numismatist displayed.", exampleZh: "钱币学家展示了。",
+    id: "bulk-3895", term: "numismatist", phonetic: "/nju:'mizmәtist/", pos: "n.", meaningZh: "钱币学家；收藏家；钱币(或奖章)收藏家", meaningEn: "a coin collector", band: "8", collocations: [], example: "The numismatist displayed.", exampleZh: "钱币学家展示了。",
     senses: [
     {
     pos: "n.", meaningZh: "钱币学家；收藏家；钱币(或奖章)收藏家", meaningEn: "a coin collector", collocations: [], example: "The numismatist displayed.", exampleZh: "钱币学家展示了。" }
@@ -38410,14 +38410,14 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3899", term: "oaf", phonetic: "әuf", pos: "n.", meaningZh: "笨人；蠢人；呆子；畸形儿", meaningEn: "a clumsy fool", band: "8", collocations: [], example: "The oaf dropped it.", exampleZh: "蠢人掉了它。",
+    id: "bulk-3899", term: "oaf", phonetic: "/әuf/", pos: "n.", meaningZh: "笨人；蠢人；呆子；畸形儿", meaningEn: "a clumsy fool", band: "8", collocations: [], example: "The oaf dropped it.", exampleZh: "蠢人掉了它。",
     senses: [
     {
     pos: "n.", meaningZh: "笨人；蠢人；呆子；畸形儿", meaningEn: "a clumsy fool", collocations: [], example: "The oaf dropped it.", exampleZh: "蠢人掉了它。" }
     ]
   },
   {
-    id: "bulk-3900", term: "oath", phonetic: "әuθ", pos: "n.", meaningZh: "誓言；诅咒；誓约；咒骂；宣誓", meaningEn: "a solemn promise", band: "8", collocations: [], example: "He swore an oath.", exampleZh: "他发了誓。",
+    id: "bulk-3900", term: "oath", phonetic: "/әuθ/", pos: "n.", meaningZh: "誓言；诅咒；誓约；咒骂；宣誓", meaningEn: "a solemn promise", band: "8", collocations: [], example: "He swore an oath.", exampleZh: "他发了誓。",
     senses: [
     {
     pos: "n.", meaningZh: "誓言；诅咒；誓约；咒骂；宣誓", meaningEn: "a solemn promise", collocations: [], example: "He swore an oath.", exampleZh: "他发了誓。" }
@@ -38433,28 +38433,28 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3902", term: "obedience", phonetic: "ә'bi:djәns", pos: "n.", meaningZh: "服从；顺从；忠实；遵从", meaningEn: "compliance", band: "8", collocations: [], example: "The obedience impressed.", exampleZh: "顺从令人印象深刻。",
+    id: "bulk-3902", term: "obedience", phonetic: "/ә'bi:djәns/", pos: "n.", meaningZh: "服从；顺从；忠实；遵从", meaningEn: "compliance", band: "8", collocations: [], example: "The obedience impressed.", exampleZh: "顺从令人印象深刻。",
     senses: [
     {
     pos: "n.", meaningZh: "服从；顺从；忠实；遵从", meaningEn: "compliance", collocations: [], example: "The obedience impressed.", exampleZh: "顺从令人印象深刻。" }
     ]
   },
   {
-    id: "bulk-3903", term: "obeisance", phonetic: "әu'beisns", pos: "n.", meaningZh: "敬礼；鞠躬；敬重", meaningEn: "a bow", band: "8", collocations: [], example: "He made obeisance.", exampleZh: "他鞠躬。",
+    id: "bulk-3903", term: "obeisance", phonetic: "/әu'beisns/", pos: "n.", meaningZh: "敬礼；鞠躬；敬重", meaningEn: "a bow", band: "8", collocations: [], example: "He made obeisance.", exampleZh: "他鞠躬。",
     senses: [
     {
     pos: "n.", meaningZh: "敬礼；鞠躬；敬重", meaningEn: "a bow", collocations: [], example: "He made obeisance.", exampleZh: "他鞠躬。" }
     ]
   },
   {
-    id: "bulk-3904", term: "obelisk", phonetic: "'ɒbәlisk", pos: "n.", meaningZh: "方尖碑；方尖塔；剑号；疑问记号", meaningEn: "a tapered monument", band: "8", collocations: [], example: "The obelisk towered.", exampleZh: "方尖碑高耸。",
+    id: "bulk-3904", term: "obelisk", phonetic: "/ɒbәlisk/", pos: "n.", meaningZh: "方尖碑；方尖塔；剑号；疑问记号", meaningEn: "a tapered monument", band: "8", collocations: [], example: "The obelisk towered.", exampleZh: "方尖碑高耸。",
     senses: [
     {
     pos: "n.", meaningZh: "方尖碑；方尖塔；剑号；疑问记号", meaningEn: "a tapered monument", collocations: [], example: "The obelisk towered.", exampleZh: "方尖碑高耸。" }
     ]
   },
   {
-    id: "bulk-3905", term: "obese", phonetic: "әu'bi:s", pos: "adj.", meaningZh: "肥胖的；过胖的", meaningEn: "very fat", band: "8", collocations: [], example: "The obese man struggled.", exampleZh: "肥胖的人挣扎。",
+    id: "bulk-3905", term: "obese", phonetic: "/әu'bi:s/", pos: "adj.", meaningZh: "肥胖的；过胖的", meaningEn: "very fat", band: "8", collocations: [], example: "The obese man struggled.", exampleZh: "肥胖的人挣扎。",
     senses: [
     {
     pos: "adj.", meaningZh: "肥胖的；过胖的", meaningEn: "very fat", collocations: [], example: "The obese man struggled.", exampleZh: "肥胖的人挣扎。" }
@@ -38490,7 +38490,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3909", term: "objurgate", phonetic: "'ɒbdʒә:geit", pos: "v.", meaningZh: "怒斥；谴责", meaningEn: "to scold harshly", band: "8", collocations: [], example: "He objurgated the sinner.", exampleZh: "他怒斥罪人。",
+    id: "bulk-3909", term: "objurgate", phonetic: "/ɒbdʒә:geit/", pos: "v.", meaningZh: "怒斥；谴责", meaningEn: "to scold harshly", band: "8", collocations: [], example: "He objurgated the sinner.", exampleZh: "他怒斥罪人。",
     senses: [
     {
     pos: "v.", meaningZh: "怒斥；谴责", meaningEn: "to scold harshly", collocations: [], example: "He objurgated the sinner.", exampleZh: "他怒斥罪人。" },
@@ -38684,7 +38684,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3931", term: "occlude", phonetic: "ә'klu:d", pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close", band: "8", collocations: [], example: "The clot occluded.", exampleZh: "血栓堵塞了。",
+    id: "bulk-3931", term: "occlude", phonetic: "/ә'klu:d/", pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close", band: "8", collocations: [], example: "The clot occluded.", exampleZh: "血栓堵塞了。",
     senses: [
     {
     pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close", collocations: [], example: "The clot occluded.", exampleZh: "血栓堵塞了。" },
@@ -38725,7 +38725,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3936", term: "officious", phonetic: "ә'fiʃәs", pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", band: "8", collocations: [], example: "The officious neighbor interfered.", exampleZh: "爱管闲事的邻居插手。",
+    id: "bulk-3936", term: "officious", phonetic: "/ә'fiʃәs/", pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", band: "8", collocations: [], example: "The officious neighbor interfered.", exampleZh: "爱管闲事的邻居插手。",
     senses: [
     {
     pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", collocations: [], example: "The officious neighbor interfered.", exampleZh: "爱管闲事的邻居插手。" }
@@ -38800,7 +38800,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3945", term: "omnivorous", phonetic: "ɒm'nivәrәs", pos: "adj.", meaningZh: "杂食的；兴趣广泛的；无所不吃的；什么都喜欢的", meaningEn: "eating everything", band: "8", collocations: [], example: "The omnivorous bear ate.", exampleZh: "杂食的熊吃了。",
+    id: "bulk-3945", term: "omnivorous", phonetic: "/ɒm'nivәrәs/", pos: "adj.", meaningZh: "杂食的；兴趣广泛的；无所不吃的；什么都喜欢的", meaningEn: "eating everything", band: "8", collocations: [], example: "The omnivorous bear ate.", exampleZh: "杂食的熊吃了。",
     senses: [
     {
     pos: "adj.", meaningZh: "杂食的；兴趣广泛的；无所不吃的；什么都喜欢的", meaningEn: "eating everything", collocations: [], example: "The omnivorous bear ate.", exampleZh: "杂食的熊吃了。" }
@@ -38854,7 +38854,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3951", term: "opportune", phonetic: ".ɒpә'tju:n", pos: "adj.", meaningZh: "恰好的；及时的；时机适宜的；适当的", meaningEn: "timely", band: "8", collocations: [], example: "The opportune moment came.", exampleZh: "恰好的时刻来了。",
+    id: "bulk-3951", term: "opportune", phonetic: "/.ɒpә'tju:n/", pos: "adj.", meaningZh: "恰好的；及时的；时机适宜的；适当的", meaningEn: "timely", band: "8", collocations: [], example: "The opportune moment came.", exampleZh: "恰好的时刻来了。",
     senses: [
     {
     pos: "adj.", meaningZh: "恰好的；及时的；时机适宜的；适当的", meaningEn: "timely", collocations: [], example: "The opportune moment came.", exampleZh: "恰好的时刻来了。" }
@@ -38877,7 +38877,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3954", term: "optional", phonetic: "'ɒpʃәnl", pos: "adj.", meaningZh: "可选择的；非强制的；随意的；选购的", meaningEn: "not required", band: "8", collocations: [], example: "The optional task skipped.", exampleZh: "可选任务跳过。",
+    id: "bulk-3954", term: "optional", phonetic: "/ɒpʃәnl/", pos: "adj.", meaningZh: "可选择的；非强制的；随意的；选购的", meaningEn: "not required", band: "8", collocations: [], example: "The optional task skipped.", exampleZh: "可选任务跳过。",
     senses: [
     {
     pos: "adj.", meaningZh: "可选择的；非强制的；随意的；选购的", meaningEn: "not required", collocations: [], example: "The optional task skipped.", exampleZh: "可选任务跳过。" },
@@ -38886,7 +38886,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3955", term: "opulent", phonetic: "'ɒpjulәnt", pos: "adj.", meaningZh: "富裕的；奢华的；豪华的；奢侈的；丰富的；大量的", meaningEn: "wealthy", band: "8", collocations: [], example: "The opulent palace gleamed.", exampleZh: "奢华的宫殿闪闪发光。",
+    id: "bulk-3955", term: "opulent", phonetic: "/ɒpjulәnt/", pos: "adj.", meaningZh: "富裕的；奢华的；豪华的；奢侈的；丰富的；大量的", meaningEn: "wealthy", band: "8", collocations: [], example: "The opulent palace gleamed.", exampleZh: "奢华的宫殿闪闪发光。",
     senses: [
     {
     pos: "adj.", meaningZh: "富裕的；奢华的；豪华的；奢侈的；丰富的；大量的", meaningEn: "wealthy", collocations: [], example: "The opulent palace gleamed.", exampleZh: "奢华的宫殿闪闪发光。" }
@@ -38909,7 +38909,7 @@ const part_14: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3958", term: "orb", phonetic: "ɒ:b", pos: "v./n.", meaningZh: "弄圆；球体", meaningEn: "to circle", band: "8", collocations: [], example: "The moon orbited.", exampleZh: "月亮绕行。",
+    id: "bulk-3958", term: "orb", phonetic: "/ɒ:b/", pos: "v./n.", meaningZh: "弄圆；球体", meaningEn: "to circle", band: "8", collocations: [], example: "The moon orbited.", exampleZh: "月亮绕行。",
     senses: [
     {
     pos: "v./n.", meaningZh: "弄圆；球体", meaningEn: "to circle", collocations: [], example: "The moon orbited.", exampleZh: "月亮绕行。" },
@@ -38957,7 +38957,7 @@ const part_14: VocabEntry[] = [
 
 const part_15: VocabEntry[] = [
   {
-    id: "bulk-3963", term: "ornithology", phonetic: ".ɒ:ni'θɒlәdʒi", pos: "n.", meaningZh: "鸟类学", meaningEn: "the study of birds", band: "8", collocations: [], example: "He studied ornithology.", exampleZh: "他学习鸟类学。",
+    id: "bulk-3963", term: "ornithology", phonetic: "/.ɒ:ni'θɒlәdʒi/", pos: "n.", meaningZh: "鸟类学", meaningEn: "the study of birds", band: "8", collocations: [], example: "He studied ornithology.", exampleZh: "他学习鸟类学。",
     senses: [
     {
     pos: "n.", meaningZh: "鸟类学", meaningEn: "the study of birds", collocations: [], example: "He studied ornithology.", exampleZh: "他学习鸟类学。" }
@@ -38982,7 +38982,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3966", term: "osmosis", phonetic: "ɒz'mәusis", pos: "n.", meaningZh: "渗透；潜移默化；渗透作用；渗透性；耳濡目染", meaningEn: "gradual absorption", band: "8", collocations: [], example: "He learned by osmosis.", exampleZh: "他潜移默化地学习。",
+    id: "bulk-3966", term: "osmosis", phonetic: "/ɒz'mәusis/", pos: "n.", meaningZh: "渗透；潜移默化；渗透作用；渗透性；耳濡目染", meaningEn: "gradual absorption", band: "8", collocations: [], example: "He learned by osmosis.", exampleZh: "他潜移默化地学习。",
     senses: [
     {
     pos: "n.", meaningZh: "渗透；潜移默化；渗透作用；渗透性；耳濡目染", meaningEn: "gradual absorption", collocations: [], example: "He learned by osmosis.", exampleZh: "他潜移默化地学习。" }
@@ -39030,7 +39030,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3972", term: "outmoded", phonetic: ".aut'mәudid", pos: "adj.", meaningZh: "过时的；废弃的；(式样等)过时的；废弃了的", meaningEn: "outdated", band: "8", collocations: [], example: "The outmoded idea retired.", exampleZh: "过时的想法退役了。",
+    id: "bulk-3972", term: "outmoded", phonetic: "/.aut'mәudid/", pos: "adj.", meaningZh: "过时的；废弃的；(式样等)过时的；废弃了的", meaningEn: "outdated", band: "8", collocations: [], example: "The outmoded idea retired.", exampleZh: "过时的想法退役了。",
     senses: [
     {
     pos: "adj.", meaningZh: "过时的；废弃的；(式样等)过时的；废弃了的", meaningEn: "outdated", collocations: [], example: "The outmoded idea retired.", exampleZh: "过时的想法退役了。" },
@@ -39057,7 +39057,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3975", term: "outstrip", phonetic: ".aut'strip", pos: "v.", meaningZh: "胜过；越过", meaningEn: "to exceed", band: "8", collocations: [], example: "He outstripped rivals.", exampleZh: "他胜过了对手。",
+    id: "bulk-3975", term: "outstrip", phonetic: "/.aut'strip/", pos: "v.", meaningZh: "胜过；越过", meaningEn: "to exceed", band: "8", collocations: [], example: "He outstripped rivals.", exampleZh: "他胜过了对手。",
     senses: [
     {
     pos: "v.", meaningZh: "胜过；越过", meaningEn: "to exceed", collocations: [], example: "He outstripped rivals.", exampleZh: "他胜过了对手。" },
@@ -39084,7 +39084,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3978", term: "overbearing", phonetic: ".әuvә'bєәriŋ", pos: "adj.", meaningZh: "专横的；傲慢的；骄傲自大的；蛮横的；压倒一切的；专制的；压倒的", meaningEn: "domineering", band: "8", collocations: [], example: "His overbearing manner offended.", exampleZh: "他专横的态度冒犯了。",
+    id: "bulk-3978", term: "overbearing", phonetic: "/.әuvә'bєәriŋ/", pos: "adj.", meaningZh: "专横的；傲慢的；骄傲自大的；蛮横的；压倒一切的；专制的；压倒的", meaningEn: "domineering", band: "8", collocations: [], example: "His overbearing manner offended.", exampleZh: "他专横的态度冒犯了。",
     senses: [
     {
     pos: "adj.", meaningZh: "专横的；傲慢的；骄傲自大的；蛮横的；压倒一切的；专制的；压倒的", meaningEn: "domineering", collocations: [], example: "His overbearing manner offended.", exampleZh: "他专横的态度冒犯了。" },
@@ -39171,21 +39171,21 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3987", term: "oxymoron", phonetic: ".ɒksi'mәurɒn", pos: "n.", meaningZh: "矛盾修饰法；逆喻", meaningEn: "a contradiction", band: "8", collocations: [], example: "The oxymoron amused.", exampleZh: "矛盾修饰法逗人乐。",
+    id: "bulk-3987", term: "oxymoron", phonetic: "/.ɒksi'mәurɒn/", pos: "n.", meaningZh: "矛盾修饰法；逆喻", meaningEn: "a contradiction", band: "8", collocations: [], example: "The oxymoron amused.", exampleZh: "矛盾修饰法逗人乐。",
     senses: [
     {
     pos: "n.", meaningZh: "矛盾修饰法；逆喻", meaningEn: "a contradiction", collocations: [], example: "The oxymoron amused.", exampleZh: "矛盾修饰法逗人乐。" }
     ]
   },
   {
-    id: "bulk-3988", term: "pachyderm", phonetic: "'pækidә:m", pos: "n.", meaningZh: "厚皮动物；迟钝的人；厚皮类动物；脸皮厚的人", meaningEn: "a thick-skinned animal", band: "8", collocations: [], example: "The pachyderm trudged.", exampleZh: "厚皮动物跋涉。",
+    id: "bulk-3988", term: "pachyderm", phonetic: "/pækidә:m/", pos: "n.", meaningZh: "厚皮动物；迟钝的人；厚皮类动物；脸皮厚的人", meaningEn: "a thick-skinned animal", band: "8", collocations: [], example: "The pachyderm trudged.", exampleZh: "厚皮动物跋涉。",
     senses: [
     {
     pos: "n.", meaningZh: "厚皮动物；迟钝的人；厚皮类动物；脸皮厚的人", meaningEn: "a thick-skinned animal", collocations: [], example: "The pachyderm trudged.", exampleZh: "厚皮动物跋涉。" }
     ]
   },
   {
-    id: "bulk-3989", term: "pacific", phonetic: "pә'sifik", pos: "adj.", meaningZh: "和平的；温和的；太平洋的；太平洋沿岸的；爱好和平的；安静的；平息的", meaningEn: "peaceful", band: "8", collocations: [], example: "The pacific sea calmed.", exampleZh: "平和的海平静了。",
+    id: "bulk-3989", term: "pacific", phonetic: "/pә'sifik/", pos: "adj.", meaningZh: "和平的；温和的；太平洋的；太平洋沿岸的；爱好和平的；安静的；平息的", meaningEn: "peaceful", band: "8", collocations: [], example: "The pacific sea calmed.", exampleZh: "平和的海平静了。",
     senses: [
     {
     pos: "adj.", meaningZh: "和平的；温和的；太平洋的；太平洋沿岸的；爱好和平的；安静的；平息的", meaningEn: "peaceful", collocations: [], example: "The pacific sea calmed.", exampleZh: "平和的海平静了。" },
@@ -39194,7 +39194,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3990", term: "pacify", phonetic: "'pæsifai", pos: "v.", meaningZh: "使平静；安抚", meaningEn: "to soothe", band: "8", collocations: [], example: "She pacified the child.", exampleZh: "她安抚了孩子。",
+    id: "bulk-3990", term: "pacify", phonetic: "/pæsifai/", pos: "v.", meaningZh: "使平静；安抚", meaningEn: "to soothe", band: "8", collocations: [], example: "She pacified the child.", exampleZh: "她安抚了孩子。",
     senses: [
     {
     pos: "v.", meaningZh: "使平静；安抚", meaningEn: "to soothe", collocations: [], example: "She pacified the child.", exampleZh: "她安抚了孩子。" },
@@ -39203,14 +39203,14 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3991", term: "pact", phonetic: "pækt", pos: "n.", meaningZh: "契约；协定；条约；合同", meaningEn: "a treaty", band: "8", collocations: [], example: "The pact signed.", exampleZh: "契约签署了。",
+    id: "bulk-3991", term: "pact", phonetic: "/pækt/", pos: "n.", meaningZh: "契约；协定；条约；合同", meaningEn: "a treaty", band: "8", collocations: [], example: "The pact signed.", exampleZh: "契约签署了。",
     senses: [
     {
     pos: "n.", meaningZh: "契约；协定；条约；合同", meaningEn: "a treaty", collocations: [], example: "The pact signed.", exampleZh: "契约签署了。" }
     ]
   },
   {
-    id: "bulk-3992", term: "pagan", phonetic: "'peigәn", pos: "n./adj.", meaningZh: "异教徒；异教的；无宗教信仰者", meaningEn: "not Christian", band: "8", collocations: [], example: "The pagan ritual ended.", exampleZh: "异教仪式结束了。",
+    id: "bulk-3992", term: "pagan", phonetic: "/peigәn/", pos: "n./adj.", meaningZh: "异教徒；异教的；无宗教信仰者", meaningEn: "not Christian", band: "8", collocations: [], example: "The pagan ritual ended.", exampleZh: "异教仪式结束了。",
     senses: [
     {
     pos: "n./adj.", meaningZh: "异教徒；异教的；无宗教信仰者", meaningEn: "not Christian", collocations: [], example: "The pagan ritual ended.", exampleZh: "异教仪式结束了。" },
@@ -39219,14 +39219,14 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3993", term: "palatable", phonetic: "'pælәtәbl", pos: "adj.", meaningZh: "美味的；可接受的；好吃的；可口的；适口的；味美的", meaningEn: "acceptable", band: "8", collocations: [], example: "The palatable meal satisfied.", exampleZh: "美味的餐令人满意。",
+    id: "bulk-3993", term: "palatable", phonetic: "/pælәtәbl/", pos: "adj.", meaningZh: "美味的；可接受的；好吃的；可口的；适口的；味美的", meaningEn: "acceptable", band: "8", collocations: [], example: "The palatable meal satisfied.", exampleZh: "美味的餐令人满意。",
     senses: [
     {
     pos: "adj.", meaningZh: "美味的；可接受的；好吃的；可口的；适口的；味美的", meaningEn: "acceptable", collocations: [], example: "The palatable meal satisfied.", exampleZh: "美味的餐令人满意。" }
     ]
   },
   {
-    id: "bulk-3994", term: "palatial", phonetic: "pә'leiʃәl", pos: "adj.", meaningZh: "宫殿般的；宏伟的；宫殿似的；堂皇的；庄严的", meaningEn: "grand", band: "8", collocations: [], example: "The palatial home amazed.", exampleZh: "宫殿般的家令人惊叹。",
+    id: "bulk-3994", term: "palatial", phonetic: "/pә'leiʃәl/", pos: "adj.", meaningZh: "宫殿般的；宏伟的；宫殿似的；堂皇的；庄严的", meaningEn: "grand", band: "8", collocations: [], example: "The palatial home amazed.", exampleZh: "宫殿般的家令人惊叹。",
     senses: [
     {
     pos: "adj.", meaningZh: "宫殿般的；宏伟的；宫殿似的；堂皇的；庄严的", meaningEn: "grand", collocations: [], example: "The palatial home amazed.", exampleZh: "宫殿般的家令人惊叹。" }
@@ -39246,7 +39246,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-3996", term: "paleontology", phonetic: ".pæliɒn'tɒlәdʒi", pos: "n.", meaningZh: "古生物学", meaningEn: "the study of fossils", band: "8", collocations: [], example: "He studied paleontology.", exampleZh: "他学习古生物学。",
+    id: "bulk-3996", term: "paleontology", phonetic: "/.pæliɒn'tɒlәdʒi/", pos: "n.", meaningZh: "古生物学", meaningEn: "the study of fossils", band: "8", collocations: [], example: "He studied paleontology.", exampleZh: "他学习古生物学。",
     senses: [
     {
     pos: "n.", meaningZh: "古生物学", meaningEn: "the study of fossils", collocations: [], example: "He studied paleontology.", exampleZh: "他学习古生物学。" }
@@ -39364,14 +39364,14 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4010", term: "papacy", phonetic: "'peipәsi", pos: "n.", meaningZh: "教皇职位；教皇任期；罗马教皇职位；教皇权；教皇世系；罗马教皇的职位；教皇统治", meaningEn: "the office of pope", band: "8", collocations: [], example: "The papacy endured.", exampleZh: "教皇职位延续了。",
+    id: "bulk-4010", term: "papacy", phonetic: "/peipәsi/", pos: "n.", meaningZh: "教皇职位；教皇任期；罗马教皇职位；教皇权；教皇世系；罗马教皇的职位；教皇统治", meaningEn: "the office of pope", band: "8", collocations: [], example: "The papacy endured.", exampleZh: "教皇职位延续了。",
     senses: [
     {
     pos: "n.", meaningZh: "教皇职位；教皇任期；罗马教皇职位；教皇权；教皇世系；罗马教皇的职位；教皇统治", meaningEn: "the office of pope", collocations: [], example: "The papacy endured.", exampleZh: "教皇职位延续了。" }
     ]
   },
   {
-    id: "bulk-4011", term: "papery", phonetic: "'peipәri", pos: "adj.", meaningZh: "似纸的；薄的；薄如纸的", meaningEn: "thin like paper", band: "8", collocations: [], example: "The papery skin dried.", exampleZh: "似纸的皮干了。",
+    id: "bulk-4011", term: "papery", phonetic: "/peipәri/", pos: "adj.", meaningZh: "似纸的；薄的；薄如纸的", meaningEn: "thin like paper", band: "8", collocations: [], example: "The papery skin dried.", exampleZh: "似纸的皮干了。",
     senses: [
     {
     pos: "adj.", meaningZh: "似纸的；薄的；薄如纸的", meaningEn: "thin like paper", collocations: [], example: "The papery skin dried.", exampleZh: "似纸的皮干了。" }
@@ -39436,7 +39436,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4018", term: "abate", phonetic: "ә'beit", pos: "v.", meaningZh: "减轻；减退", meaningEn: "to become less intense", band: "9", collocations: [], example: "The storm abated by midnight.", exampleZh: "风暴在午夜前减弱了。",
+    id: "bulk-4018", term: "abate", phonetic: "/ә'beit/", pos: "v.", meaningZh: "减轻；减退", meaningEn: "to become less intense", band: "9", collocations: [], example: "The storm abated by midnight.", exampleZh: "风暴在午夜前减弱了。",
     senses: [
     {
     pos: "v.", meaningZh: "减轻；减退", meaningEn: "to become less intense", collocations: [], example: "The storm abated by midnight.", exampleZh: "风暴在午夜前减弱了。" },
@@ -39486,7 +39486,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4024", term: "adulterate", phonetic: "ә'dʌltәreit", pos: "v.", meaningZh: "掺假；掺杂", meaningEn: "to make impure by mixing", band: "9", collocations: [], example: "They adulterated the wine with water.", exampleZh: "他们往酒里掺了水。",
+    id: "bulk-4024", term: "adulterate", phonetic: "/ә'dʌltәreit/", pos: "v.", meaningZh: "掺假；掺杂", meaningEn: "to make impure by mixing", band: "9", collocations: [], example: "They adulterated the wine with water.", exampleZh: "他们往酒里掺了水。",
     senses: [
     {
     pos: "v.", meaningZh: "掺假；掺杂", meaningEn: "to make impure by mixing", collocations: [], example: "They adulterated the wine with water.", exampleZh: "他们往酒里掺了水。" },
@@ -39497,7 +39497,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4025", term: "aesthetic", phonetic: "i:s'θetik", pos: "adj.", meaningZh: "美学的；审美的；有美感的", meaningEn: "concerning beauty or art", band: "9", collocations: [], example: "The building has great aesthetic value.", exampleZh: "这栋建筑极具美学价值。",
+    id: "bulk-4025", term: "aesthetic", phonetic: "/i:s'θetik/", pos: "adj.", meaningZh: "美学的；审美的；有美感的", meaningEn: "concerning beauty or art", band: "9", collocations: [], example: "The building has great aesthetic value.", exampleZh: "这栋建筑极具美学价值。",
     senses: [
     {
     pos: "adj.", meaningZh: "美学的；审美的；有美感的", meaningEn: "concerning beauty or art", collocations: [], example: "The building has great aesthetic value.", exampleZh: "这栋建筑极具美学价值。" }
@@ -39721,7 +39721,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4053", term: "cajole", phonetic: "kә'dʒәul", pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to persuade with flattery", band: "9", collocations: [], example: "She cajoled him into staying.", exampleZh: "她哄着他留了下来。",
+    id: "bulk-4053", term: "cajole", phonetic: "/kә'dʒәul/", pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to persuade with flattery", band: "9", collocations: [], example: "She cajoled him into staying.", exampleZh: "她哄着他留了下来。",
     senses: [
     {
     pos: "v.", meaningZh: "哄骗；劝诱", meaningEn: "to persuade with flattery", collocations: [], example: "She cajoled him into staying.", exampleZh: "她哄着他留了下来。" },
@@ -39739,28 +39739,28 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4055", term: "calumny", phonetic: "'kælәmni", pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "a false and malicious statement", band: "9", collocations: [], example: "The article was pure calumny.", exampleZh: "那篇文章纯粹是诽谤。",
+    id: "bulk-4055", term: "calumny", phonetic: "/kælәmni/", pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "a false and malicious statement", band: "9", collocations: [], example: "The article was pure calumny.", exampleZh: "那篇文章纯粹是诽谤。",
     senses: [
     {
     pos: "n.", meaningZh: "诽谤；诬蔑；中伤；诬告", meaningEn: "a false and malicious statement", collocations: [], example: "The article was pure calumny.", exampleZh: "那篇文章纯粹是诽谤。" }
     ]
   },
   {
-    id: "bulk-4056", term: "canard", phonetic: "kæ'nɑ:d", pos: "n.", meaningZh: "谣言；虚假报道；误传", meaningEn: "a false report", band: "9", collocations: [], example: "The story was a canard.", exampleZh: "那个说法是个谣言。",
+    id: "bulk-4056", term: "canard", phonetic: "/kæ'nɑ:d/", pos: "n.", meaningZh: "谣言；虚假报道；误传", meaningEn: "a false report", band: "9", collocations: [], example: "The story was a canard.", exampleZh: "那个说法是个谣言。",
     senses: [
     {
     pos: "n.", meaningZh: "谣言；虚假报道；误传", meaningEn: "a false report", collocations: [], example: "The story was a canard.", exampleZh: "那个说法是个谣言。" }
     ]
   },
   {
-    id: "bulk-4057", term: "candor", phonetic: "'kændә", pos: "n.", meaningZh: "坦率；直言；坦白；直率", meaningEn: "frankness", band: "9", collocations: [], example: "He spoke with refreshing candor.", exampleZh: "他说话坦率得让人耳目一新。",
+    id: "bulk-4057", term: "candor", phonetic: "/kændә/", pos: "n.", meaningZh: "坦率；直言；坦白；直率", meaningEn: "frankness", band: "9", collocations: [], example: "He spoke with refreshing candor.", exampleZh: "他说话坦率得让人耳目一新。",
     senses: [
     {
     pos: "n.", meaningZh: "坦率；直言；坦白；直率", meaningEn: "frankness", collocations: [], example: "He spoke with refreshing candor.", exampleZh: "他说话坦率得让人耳目一新。" }
     ]
   },
   {
-    id: "bulk-4058", term: "capitulate", phonetic: "kә'pitjuleit", pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", band: "9", collocations: [], example: "The army capitulated at dawn.", exampleZh: "军队在黎明时投降了。",
+    id: "bulk-4058", term: "capitulate", phonetic: "/kә'pitjuleit/", pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", band: "9", collocations: [], example: "The army capitulated at dawn.", exampleZh: "军队在黎明时投降了。",
     senses: [
     {
     pos: "v.", meaningZh: "投降；屈服", meaningEn: "to surrender", collocations: [], example: "The army capitulated at dawn.", exampleZh: "军队在黎明时投降了。" },
@@ -39776,7 +39776,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4060", term: "castigate", phonetic: "'kæstigeit", pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", band: "9", collocations: [], example: "The report castigated the agency.", exampleZh: "报告严厉批评了那个机构。",
+    id: "bulk-4060", term: "castigate", phonetic: "/kæstigeit/", pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", band: "9", collocations: [], example: "The report castigated the agency.", exampleZh: "报告严厉批评了那个机构。",
     senses: [
     {
     pos: "v.", meaningZh: "严惩；申斥", meaningEn: "to criticize severely", collocations: [], example: "The report castigated the agency.", exampleZh: "报告严厉批评了那个机构。" },
@@ -39851,7 +39851,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4069", term: "cobbler", phonetic: "'kɒblә", pos: "n.", meaningZh: "补鞋匠；笨拙的工匠；皮匠；笨工匠", meaningEn: "a shoemaker", band: "9", collocations: [], example: "The cobbler repaired the boots.", exampleZh: "补鞋匠修好了靴子。",
+    id: "bulk-4069", term: "cobbler", phonetic: "/kɒblә/", pos: "n.", meaningZh: "补鞋匠；笨拙的工匠；皮匠；笨工匠", meaningEn: "a shoemaker", band: "9", collocations: [], example: "The cobbler repaired the boots.", exampleZh: "补鞋匠修好了靴子。",
     senses: [
     {
     pos: "n.", meaningZh: "补鞋匠；笨拙的工匠；皮匠；笨工匠", meaningEn: "a shoemaker", collocations: [], example: "The cobbler repaired the boots.", exampleZh: "补鞋匠修好了靴子。" }
@@ -40029,7 +40029,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4091", term: "demure", phonetic: "di'mjuә", pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest and reserved", band: "9", collocations: [], example: "She gave a demure smile.", exampleZh: "她羞涩地一笑。",
+    id: "bulk-4091", term: "demure", phonetic: "/di'mjuә/", pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest and reserved", band: "9", collocations: [], example: "She gave a demure smile.", exampleZh: "她羞涩地一笑。",
     senses: [
     {
     pos: "adj.", meaningZh: "端庄的；羞涩的；装成端庄的；假正经的；娴静的", meaningEn: "modest and reserved", collocations: [], example: "She gave a demure smile.", exampleZh: "她羞涩地一笑。" }
@@ -40109,7 +40109,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4101", term: "discern", phonetic: "di'zә:n", pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive clearly", band: "9", collocations: [], example: "She could discern the truth.", exampleZh: "她能看清真相。",
+    id: "bulk-4101", term: "discern", phonetic: "/di'zә:n/", pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive clearly", band: "9", collocations: [], example: "She could discern the truth.", exampleZh: "她能看清真相。",
     senses: [
     {
     pos: "v.", meaningZh: "辨别；看出；看清楚；了解", meaningEn: "to perceive clearly", collocations: [], example: "She could discern the truth.", exampleZh: "她能看清真相。" }
@@ -40127,7 +40127,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4103", term: "dissemble", phonetic: "[dɪˈsɛmbəɫ]", pos: "v.", meaningZh: "掩饰；装假；假装不知道", meaningEn: "to conceal feelings", band: "9", collocations: [], example: "He dissembled his fear.", exampleZh: "他掩饰了自己的恐惧。",
+    id: "bulk-4103", term: "dissemble", phonetic: "/[dɪˈsɛmbəɫ]/", pos: "v.", meaningZh: "掩饰；装假；假装不知道", meaningEn: "to conceal feelings", band: "9", collocations: [], example: "He dissembled his fear.", exampleZh: "他掩饰了自己的恐惧。",
     senses: [
     {
     pos: "v.", meaningZh: "掩饰；装假；假装不知道", meaningEn: "to conceal feelings", collocations: [], example: "He dissembled his fear.", exampleZh: "他掩饰了自己的恐惧。" }
@@ -40234,7 +40234,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4116", term: "enervate", phonetic: "'enәveit", pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", band: "9", collocations: [], example: "The heat enervated the workers.", exampleZh: "酷热让工人们虚弱无力。",
+    id: "bulk-4116", term: "enervate", phonetic: "/enәveit/", pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", band: "9", collocations: [], example: "The heat enervated the workers.", exampleZh: "酷热让工人们虚弱无力。",
     senses: [
     {
     pos: "v.", meaningZh: "使衰弱；使无力", meaningEn: "to weaken", collocations: [], example: "The heat enervated the workers.", exampleZh: "酷热让工人们虚弱无力。" },
@@ -40274,7 +40274,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4120", term: "epistyle", phonetic: "'epistail", pos: "n.", meaningZh: "额枋；柱顶过梁", meaningEn: "the architrave", band: "9", collocations: [], example: "The epistyle cracked.", exampleZh: "那根额枋裂开了。",
+    id: "bulk-4120", term: "epistyle", phonetic: "/epistail/", pos: "n.", meaningZh: "额枋；柱顶过梁", meaningEn: "the architrave", band: "9", collocations: [], example: "The epistyle cracked.", exampleZh: "那根额枋裂开了。",
     senses: [
     {
     pos: "n.", meaningZh: "额枋；柱顶过梁", meaningEn: "the architrave", collocations: [], example: "The epistyle cracked.", exampleZh: "那根额枋裂开了。" }
@@ -40433,7 +40433,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4139", term: "facetious", phonetic: "fә'si:ʃәs", pos: "adj.", meaningZh: "爱开玩笑的；滑稽的", meaningEn: "not meant to be taken seriously", band: "9", collocations: [], example: "His facetious remark eased tension.", exampleZh: "他开玩笑的话缓解了紧张。",
+    id: "bulk-4139", term: "facetious", phonetic: "/fә'si:ʃәs/", pos: "adj.", meaningZh: "爱开玩笑的；滑稽的", meaningEn: "not meant to be taken seriously", band: "9", collocations: [], example: "His facetious remark eased tension.", exampleZh: "他开玩笑的话缓解了紧张。",
     senses: [
     {
     pos: "adj.", meaningZh: "爱开玩笑的；滑稽的", meaningEn: "not meant to be taken seriously", collocations: [], example: "His facetious remark eased tension.", exampleZh: "他开玩笑的话缓解了紧张。" }
@@ -40447,21 +40447,21 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4141", term: "fatuous", phonetic: "'fætjuәs", pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "silly and self-satisfied", band: "9", collocations: [], example: "His fatuous grin annoyed her.", exampleZh: "他愚蠢的傻笑惹恼了她。",
+    id: "bulk-4141", term: "fatuous", phonetic: "/fætjuәs/", pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "silly and self-satisfied", band: "9", collocations: [], example: "His fatuous grin annoyed her.", exampleZh: "他愚蠢的傻笑惹恼了她。",
     senses: [
     {
     pos: "adj.", meaningZh: "愚昧的；自满的；发呆的；愚笨的", meaningEn: "silly and self-satisfied", collocations: [], example: "His fatuous grin annoyed her.", exampleZh: "他愚蠢的傻笑惹恼了她。" }
     ]
   },
   {
-    id: "bulk-4142", term: "feckless", phonetic: "'feklis", pos: "adj.", meaningZh: "效率低下的；不负责任的；无效的；无能的", meaningEn: "lacking purpose", band: "9", collocations: [], example: "His feckless son worried him.", exampleZh: "他那个不成器的儿子让他担忧。",
+    id: "bulk-4142", term: "feckless", phonetic: "/feklis/", pos: "adj.", meaningZh: "效率低下的；不负责任的；无效的；无能的", meaningEn: "lacking purpose", band: "9", collocations: [], example: "His feckless son worried him.", exampleZh: "他那个不成器的儿子让他担忧。",
     senses: [
     {
     pos: "adj.", meaningZh: "效率低下的；不负责任的；无效的；无能的", meaningEn: "lacking purpose", collocations: [], example: "His feckless son worried him.", exampleZh: "他那个不成器的儿子让他担忧。" }
     ]
   },
   {
-    id: "bulk-4143", term: "fervid", phonetic: "'fә:vid", pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "intensely enthusiastic", band: "9", collocations: [], example: "She gave a fervid speech.", exampleZh: "她做了一番热情的演讲。",
+    id: "bulk-4143", term: "fervid", phonetic: "/fә:vid/", pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "intensely enthusiastic", band: "9", collocations: [], example: "She gave a fervid speech.", exampleZh: "她做了一番热情的演讲。",
     senses: [
     {
     pos: "adj.", meaningZh: "炽热的；热情的；热心的", meaningEn: "intensely enthusiastic", collocations: [], example: "She gave a fervid speech.", exampleZh: "她做了一番热情的演讲。" }
@@ -40655,7 +40655,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4165", term: "immutable", phonetic: "i'mju:tәbl", pos: "adj.", meaningZh: "不可改变的；不可变的；不变的；不能变的", meaningEn: "unchangeable", band: "9", collocations: [], example: "The law is immutable.", exampleZh: "那条法则不可改变。",
+    id: "bulk-4165", term: "immutable", phonetic: "/i'mju:tәbl/", pos: "adj.", meaningZh: "不可改变的；不可变的；不变的；不能变的", meaningEn: "unchangeable", band: "9", collocations: [], example: "The law is immutable.", exampleZh: "那条法则不可改变。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可改变的；不可变的；不变的；不能变的", meaningEn: "unchangeable", collocations: [], example: "The law is immutable.", exampleZh: "那条法则不可改变。" },
@@ -40749,14 +40749,14 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4177", term: "ineffable", phonetic: "in'efәbl", pos: "adj.", meaningZh: "难以言喻的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", band: "9", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。",
+    id: "bulk-4177", term: "ineffable", phonetic: "/in'efәbl/", pos: "adj.", meaningZh: "难以言喻的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", band: "9", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。",
     senses: [
     {
     pos: "adj.", meaningZh: "难以言喻的；无法形容的；不可言喻的；避讳的", meaningEn: "too great to express", collocations: [], example: "She felt ineffable joy.", exampleZh: "她感到难以言喻的喜悦。" }
     ]
   },
   {
-    id: "bulk-4178", term: "inexorable", phonetic: "in'eksәrәbl", pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "impossible to stop", band: "9", collocations: [], example: "Time is inexorable.", exampleZh: "时间无情地流逝。",
+    id: "bulk-4178", term: "inexorable", phonetic: "/in'eksәrәbl/", pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "impossible to stop", band: "9", collocations: [], example: "Time is inexorable.", exampleZh: "时间无情地流逝。",
     senses: [
     {
     pos: "adj.", meaningZh: "不可阻挡的；无情的；冷酷的", meaningEn: "impossible to stop", collocations: [], example: "Time is inexorable.", exampleZh: "时间无情地流逝。" }
@@ -40914,7 +40914,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4198", term: "licentious", phonetic: "lai'senʃәs", pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained by morality", band: "9", collocations: [], example: "His licentious behavior shocked all.", exampleZh: "他放肆的行为震惊了所有人。",
+    id: "bulk-4198", term: "licentious", phonetic: "/lai'senʃәs/", pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained by morality", band: "9", collocations: [], example: "His licentious behavior shocked all.", exampleZh: "他放肆的行为震惊了所有人。",
     senses: [
     {
     pos: "adj.", meaningZh: "放肆的；淫乱的；放纵的；无法无天的；不守法的", meaningEn: "unrestrained by morality", collocations: [], example: "His licentious behavior shocked all.", exampleZh: "他放肆的行为震惊了所有人。" }
@@ -40967,7 +40967,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4205", term: "maverick", phonetic: "'mævәrik", pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "one who acts independently", band: "9", collocations: [], example: "He is a political maverick.", exampleZh: "他是个政治上的独行侠。",
+    id: "bulk-4205", term: "maverick", phonetic: "/mævәrik/", pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "one who acts independently", band: "9", collocations: [], example: "He is a political maverick.", exampleZh: "他是个政治上的独行侠。",
     senses: [
     {
     pos: "n.", meaningZh: "独行其是者；标新立异者；未烙饲主印记的小牛；持不同意见的人", meaningEn: "one who acts independently", collocations: [], example: "He is a political maverick.", exampleZh: "他是个政治上的独行侠。" },
@@ -40976,21 +40976,21 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4206", term: "mellifluous", phonetic: "me'lifljәs", pos: "adj.", meaningZh: "悦耳的；如蜜般流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", band: "9", collocations: [], example: "Her mellifluous voice soothed him.", exampleZh: "她悦耳的声音安抚了他。",
+    id: "bulk-4206", term: "mellifluous", phonetic: "/me'lifljәs/", pos: "adj.", meaningZh: "悦耳的；如蜜般流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", band: "9", collocations: [], example: "Her mellifluous voice soothed him.", exampleZh: "她悦耳的声音安抚了他。",
     senses: [
     {
     pos: "adj.", meaningZh: "悦耳的；如蜜般流畅的；加了蜜糖的；甜蜜的；甜美的", meaningEn: "sweet sounding", collocations: [], example: "Her mellifluous voice soothed him.", exampleZh: "她悦耳的声音安抚了他。" }
     ]
   },
   {
-    id: "bulk-4207", term: "mendacity", phonetic: "men'dæsiti", pos: "n.", meaningZh: "虚假；谎言；虚伪；谎话；说谎癖；谎言癖", meaningEn: "the quality of being false", band: "9", collocations: [], example: "His mendacity was exposed.", exampleZh: "他的谎言被揭穿了。",
+    id: "bulk-4207", term: "mendacity", phonetic: "/men'dæsiti/", pos: "n.", meaningZh: "虚假；谎言；虚伪；谎话；说谎癖；谎言癖", meaningEn: "the quality of being false", band: "9", collocations: [], example: "His mendacity was exposed.", exampleZh: "他的谎言被揭穿了。",
     senses: [
     {
     pos: "n.", meaningZh: "虚假；谎言；虚伪；谎话；说谎癖；谎言癖", meaningEn: "the quality of being false", collocations: [], example: "His mendacity was exposed.", exampleZh: "他的谎言被揭穿了。" }
     ]
   },
   {
-    id: "bulk-4208", term: "mercurial", phonetic: "mә:'kjuәriәl", pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", band: "9", collocations: [], example: "His mercurial mood worried her.", exampleZh: "他善变的情绪让她担忧。",
+    id: "bulk-4208", term: "mercurial", phonetic: "/mә:'kjuәriәl/", pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", band: "9", collocations: [], example: "His mercurial mood worried her.", exampleZh: "他善变的情绪让她担忧。",
     senses: [
     {
     pos: "adj.", meaningZh: "善变的；机智的；水星的；敏捷的；活泼的；水银的", meaningEn: "changeable", collocations: [], example: "His mercurial mood worried her.", exampleZh: "他善变的情绪让她担忧。" },
@@ -40999,14 +40999,14 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4209", term: "meticulous", phonetic: "mә'tikjulәs", pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", band: "9", collocations: [], example: "She kept meticulous records.", exampleZh: "她做了极仔细的记录。",
+    id: "bulk-4209", term: "meticulous", phonetic: "/mә'tikjulәs/", pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", band: "9", collocations: [], example: "She kept meticulous records.", exampleZh: "她做了极仔细的记录。",
     senses: [
     {
     pos: "adj.", meaningZh: "一丝不苟的；极仔细的；精确的；过细的", meaningEn: "very careful", collocations: [], example: "She kept meticulous records.", exampleZh: "她做了极仔细的记录。" }
     ]
   },
   {
-    id: "bulk-4210", term: "mettlesome", phonetic: "'met(ә)lsәm", pos: "adj.", meaningZh: "精神饱满的；勇敢的；有生气的", meaningEn: "spirited", band: "9", collocations: [], example: "The mettlesome horse raced.", exampleZh: "那匹精神饱满的马奔驰。",
+    id: "bulk-4210", term: "mettlesome", phonetic: "/met(ә)lsәm/", pos: "adj.", meaningZh: "精神饱满的；勇敢的；有生气的", meaningEn: "spirited", band: "9", collocations: [], example: "The mettlesome horse raced.", exampleZh: "那匹精神饱满的马奔驰。",
     senses: [
     {
     pos: "adj.", meaningZh: "精神饱满的；勇敢的；有生气的", meaningEn: "spirited", collocations: [], example: "The mettlesome horse raced.", exampleZh: "那匹精神饱满的马奔驰。" }
@@ -41029,7 +41029,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4213", term: "mollify", phonetic: "'mɒlifai", pos: "v.", meaningZh: "抚慰；使平静", meaningEn: "to soothe", band: "9", collocations: [], example: "She mollified the angry child.", exampleZh: "她安抚了那个愤怒的孩子。",
+    id: "bulk-4213", term: "mollify", phonetic: "/mɒlifai/", pos: "v.", meaningZh: "抚慰；使平静", meaningEn: "to soothe", band: "9", collocations: [], example: "She mollified the angry child.", exampleZh: "她安抚了那个愤怒的孩子。",
     senses: [
     {
     pos: "v.", meaningZh: "抚慰；使平静", meaningEn: "to soothe", collocations: [], example: "She mollified the angry child.", exampleZh: "她安抚了那个愤怒的孩子。" },
@@ -41152,7 +41152,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4228", term: "occlude", phonetic: "ә'klu:d", pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close up", band: "9", collocations: [], example: "The clot occluded the artery.", exampleZh: "血栓堵塞了动脉。",
+    id: "bulk-4228", term: "occlude", phonetic: "/ә'klu:d/", pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close up", band: "9", collocations: [], example: "The clot occluded the artery.", exampleZh: "血栓堵塞了动脉。",
     senses: [
     {
     pos: "v.", meaningZh: "堵塞；封闭", meaningEn: "to close up", collocations: [], example: "The clot occluded the artery.", exampleZh: "血栓堵塞了动脉。" },
@@ -41170,7 +41170,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4230", term: "officious", phonetic: "ә'fiʃәs", pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", band: "9", collocations: [], example: "The officious neighbor interfered.", exampleZh: "那个爱管闲事的邻居插了手。",
+    id: "bulk-4230", term: "officious", phonetic: "/ә'fiʃәs/", pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", band: "9", collocations: [], example: "The officious neighbor interfered.", exampleZh: "那个爱管闲事的邻居插了手。",
     senses: [
     {
     pos: "adj.", meaningZh: "爱管闲事的；非官方的；多管闲事的；非正式的", meaningEn: "meddlesome", collocations: [], example: "The officious neighbor interfered.", exampleZh: "那个爱管闲事的邻居插了手。" }
@@ -41250,7 +41250,7 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4240", term: "paroxysm", phonetic: "'pærәksizәm", pos: "n.", meaningZh: "突发；阵发；发作", meaningEn: "a sudden outburst", band: "9", collocations: [], example: "He fell in a paroxysm of cough.", exampleZh: "他突然一阵咳嗽。",
+    id: "bulk-4240", term: "paroxysm", phonetic: "/pærәksizәm/", pos: "n.", meaningZh: "突发；阵发；发作", meaningEn: "a sudden outburst", band: "9", collocations: [], example: "He fell in a paroxysm of cough.", exampleZh: "他突然一阵咳嗽。",
     senses: [
     {
     pos: "n.", meaningZh: "突发；阵发；发作", meaningEn: "a sudden outburst", collocations: [], example: "He fell in a paroxysm of cough.", exampleZh: "他突然一阵咳嗽。" }
@@ -41264,28 +41264,28 @@ const part_15: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4242", term: "pathological", phonetic: ",pæθә'lɔdʒikәl", pos: "adj.", meaningZh: "病理的；病态的；病理学的；由疾病引起的；(非正式)不合理的；仅由想象引起的；不理智的；错误的", meaningEn: "relating to disease", band: "9", collocations: [], example: "His fear was pathological.", exampleZh: "他的恐惧是病态的。",
+    id: "bulk-4242", term: "pathological", phonetic: "/,pæθә'lɔdʒikәl/", pos: "adj.", meaningZh: "病理的；病态的；病理学的；由疾病引起的；(非正式)不合理的；仅由想象引起的；不理智的；错误的", meaningEn: "relating to disease", band: "9", collocations: [], example: "His fear was pathological.", exampleZh: "他的恐惧是病态的。",
     senses: [
     {
     pos: "adj.", meaningZh: "病理的；病态的；病理学的；由疾病引起的；(非正式)不合理的；仅由想象引起的；不理智的；错误的", meaningEn: "relating to disease", collocations: [], example: "His fear was pathological.", exampleZh: "他的恐惧是病态的。" }
     ]
   },
   {
-    id: "bulk-4243", term: "paucity", phonetic: "'pɒ:sәti", pos: "n.", meaningZh: "缺乏；稀少；少数；少量", meaningEn: "scarcity", band: "9", collocations: [], example: "The paucity of data hindered us.", exampleZh: "数据稀少阻碍了进展。",
+    id: "bulk-4243", term: "paucity", phonetic: "/pɒ:sәti/", pos: "n.", meaningZh: "缺乏；稀少；少数；少量", meaningEn: "scarcity", band: "9", collocations: [], example: "The paucity of data hindered us.", exampleZh: "数据稀少阻碍了进展。",
     senses: [
     {
     pos: "n.", meaningZh: "缺乏；稀少；少数；少量", meaningEn: "scarcity", collocations: [], example: "The paucity of data hindered us.", exampleZh: "数据稀少阻碍了进展。" }
     ]
   },
   {
-    id: "bulk-4244", term: "peccadillo", phonetic: ".pekә'dilәu", pos: "n.", meaningZh: "小过失；轻罪；小瑕疵", meaningEn: "a minor sin", band: "9", collocations: [], example: "He laughed off the peccadillo.", exampleZh: "他一笑置之那点小过失。",
+    id: "bulk-4244", term: "peccadillo", phonetic: "/.pekә'dilәu/", pos: "n.", meaningZh: "小过失；轻罪；小瑕疵", meaningEn: "a minor sin", band: "9", collocations: [], example: "He laughed off the peccadillo.", exampleZh: "他一笑置之那点小过失。",
     senses: [
     {
     pos: "n.", meaningZh: "小过失；轻罪；小瑕疵", meaningEn: "a minor sin", collocations: [], example: "He laughed off the peccadillo.", exampleZh: "他一笑置之那点小过失。" }
     ]
   },
   {
-    id: "bulk-4245", term: "pedantic", phonetic: "pi'dæntik", pos: "adj.", meaningZh: "学究气的；迂腐的；卖弄学问的；学究式的；假装学者的", meaningEn: "overly concerned with detail", band: "9", collocations: [], example: "His pedantic style bored them.", exampleZh: "他学究气的风格让他们厌烦。",
+    id: "bulk-4245", term: "pedantic", phonetic: "/pi'dæntik/", pos: "adj.", meaningZh: "学究气的；迂腐的；卖弄学问的；学究式的；假装学者的", meaningEn: "overly concerned with detail", band: "9", collocations: [], example: "His pedantic style bored them.", exampleZh: "他学究气的风格让他们厌烦。",
     senses: [
     {
     pos: "adj.", meaningZh: "学究气的；迂腐的；卖弄学问的；学究式的；假装学者的", meaningEn: "overly concerned with detail", collocations: [], example: "His pedantic style bored them.", exampleZh: "他学究气的风格让他们厌烦。" }
@@ -41295,21 +41295,21 @@ const part_15: VocabEntry[] = [
 
 const part_16: VocabEntry[] = [
   {
-    id: "bulk-4246", term: "pellucid", phonetic: "pә'lju:sid", pos: "adj.", meaningZh: "透明的；清晰的；澄清的；明了的", meaningEn: "transparently clear", band: "9", collocations: [], example: "The pellucid water shimmered.", exampleZh: "清澈的水闪闪发光。",
+    id: "bulk-4246", term: "pellucid", phonetic: "/pә'lju:sid/", pos: "adj.", meaningZh: "透明的；清晰的；澄清的；明了的", meaningEn: "transparently clear", band: "9", collocations: [], example: "The pellucid water shimmered.", exampleZh: "清澈的水闪闪发光。",
     senses: [
     {
     pos: "adj.", meaningZh: "透明的；清晰的；澄清的；明了的", meaningEn: "transparently clear", collocations: [], example: "The pellucid water shimmered.", exampleZh: "清澈的水闪闪发光。" }
     ]
   },
   {
-    id: "bulk-4247", term: "penchant", phonetic: "'pә:ŋʃә:ŋ", pos: "n.", meaningZh: "偏好；倾向；爱好；嗜好", meaningEn: "a strong liking", band: "9", collocations: [], example: "He has a penchant for risk.", exampleZh: "他偏好冒险。",
+    id: "bulk-4247", term: "penchant", phonetic: "/pә:ŋʃә:ŋ/", pos: "n.", meaningZh: "偏好；倾向；爱好；嗜好", meaningEn: "a strong liking", band: "9", collocations: [], example: "He has a penchant for risk.", exampleZh: "他偏好冒险。",
     senses: [
     {
     pos: "n.", meaningZh: "偏好；倾向；爱好；嗜好", meaningEn: "a strong liking", collocations: [], example: "He has a penchant for risk.", exampleZh: "他偏好冒险。" }
     ]
   },
   {
-    id: "bulk-4248", term: "penurious", phonetic: "pi'njuәriәs", pos: "adj.", meaningZh: "贫穷的；吝啬的；赤贫的；缺乏的", meaningEn: "extremely poor", band: "9", collocations: [], example: "The penurious family struggled.", exampleZh: "那个贫穷的家庭艰难度日。",
+    id: "bulk-4248", term: "penurious", phonetic: "/pi'njuәriәs/", pos: "adj.", meaningZh: "贫穷的；吝啬的；赤贫的；缺乏的", meaningEn: "extremely poor", band: "9", collocations: [], example: "The penurious family struggled.", exampleZh: "那个贫穷的家庭艰难度日。",
     senses: [
     {
     pos: "adj.", meaningZh: "贫穷的；吝啬的；赤贫的；缺乏的", meaningEn: "extremely poor", collocations: [], example: "The penurious family struggled.", exampleZh: "那个贫穷的家庭艰难度日。" }
@@ -41564,7 +41564,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4279", term: "propinquity", phonetic: "prә'piŋkwiti", pos: "n.", meaningZh: "邻近；亲近；接近；近亲关系；类似", meaningEn: "nearness", band: "9", collocations: [], example: "Their propinquity sparked friendship.", exampleZh: "他们的邻近促成了友谊。",
+    id: "bulk-4279", term: "propinquity", phonetic: "/prә'piŋkwiti/", pos: "n.", meaningZh: "邻近；亲近；接近；近亲关系；类似", meaningEn: "nearness", band: "9", collocations: [], example: "Their propinquity sparked friendship.", exampleZh: "他们的邻近促成了友谊。",
     senses: [
     {
     pos: "n.", meaningZh: "邻近；亲近；接近；近亲关系；类似", meaningEn: "nearness", collocations: [], example: "Their propinquity sparked friendship.", exampleZh: "他们的邻近促成了友谊。" }
@@ -41610,7 +41610,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4285", term: "pulchritude", phonetic: "[ˈpʰʌɫkɹəˌtjuːd]", pos: "n.", meaningZh: "美丽", meaningEn: "physical beauty", band: "9", collocations: [], example: "Her pulchritude was famed.", exampleZh: "她的美貌闻名遐迩。",
+    id: "bulk-4285", term: "pulchritude", phonetic: "/[ˈpʰʌɫkɹəˌtjuːd]/", pos: "n.", meaningZh: "美丽", meaningEn: "physical beauty", band: "9", collocations: [], example: "Her pulchritude was famed.", exampleZh: "她的美貌闻名遐迩。",
     senses: [
     {
     pos: "n.", meaningZh: "美丽", meaningEn: "physical beauty", collocations: [], example: "Her pulchritude was famed.", exampleZh: "她的美貌闻名遐迩。" }
@@ -41756,7 +41756,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4303", term: "recidivism", phonetic: "ri'sidivizm", pos: "n.", meaningZh: "累犯；再犯；复发趋向；再发趋向；再犯趋向", meaningEn: "relapse into crime", band: "9", collocations: [], example: "The program reduced recidivism.", exampleZh: "那个项目减少了累犯。",
+    id: "bulk-4303", term: "recidivism", phonetic: "/ri'sidivizm/", pos: "n.", meaningZh: "累犯；再犯；复发趋向；再发趋向；再犯趋向", meaningEn: "relapse into crime", band: "9", collocations: [], example: "The program reduced recidivism.", exampleZh: "那个项目减少了累犯。",
     senses: [
     {
     pos: "n.", meaningZh: "累犯；再犯；复发趋向；再发趋向；再犯趋向", meaningEn: "relapse into crime", collocations: [], example: "The program reduced recidivism.", exampleZh: "那个项目减少了累犯。" }
@@ -41774,7 +41774,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4305", term: "redoubtable", phonetic: "ri'dautәbl", pos: "adj.", meaningZh: "令人敬畏的；强大的；可怕的；厉害的；可敬的", meaningEn: "formidable", band: "9", collocations: [], example: "The redoubtable general won.", exampleZh: "那位令人敬畏的将军赢了。",
+    id: "bulk-4305", term: "redoubtable", phonetic: "/ri'dautәbl/", pos: "adj.", meaningZh: "令人敬畏的；强大的；可怕的；厉害的；可敬的", meaningEn: "formidable", band: "9", collocations: [], example: "The redoubtable general won.", exampleZh: "那位令人敬畏的将军赢了。",
     senses: [
     {
     pos: "adj.", meaningZh: "令人敬畏的；强大的；可怕的；厉害的；可敬的", meaningEn: "formidable", collocations: [], example: "The redoubtable general won.", exampleZh: "那位令人敬畏的将军赢了。" }
@@ -41836,7 +41836,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4311", term: "reproof", phonetic: "ri'pru:f", pos: "n.", meaningZh: "责备；指责；谴责；非难；申诉", meaningEn: "an expression of blame", band: "9", collocations: [], example: "He received a stern reproof.", exampleZh: "他受到了严厉的责备。",
+    id: "bulk-4311", term: "reproof", phonetic: "/ri'pru:f/", pos: "n.", meaningZh: "责备；指责；谴责；非难；申诉", meaningEn: "an expression of blame", band: "9", collocations: [], example: "He received a stern reproof.", exampleZh: "他受到了严厉的责备。",
     senses: [
     {
     pos: "n.", meaningZh: "责备；指责；谴责；非难；申诉", meaningEn: "an expression of blame", collocations: [], example: "He received a stern reproof.", exampleZh: "他受到了严厉的责备。" },
@@ -41979,7 +41979,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4328", term: "slake", phonetic: "sleik", pos: "v.", meaningZh: "消除；平息", meaningEn: "to satisfy", band: "9", collocations: [], example: "He slaked his thirst.", exampleZh: "他解了渴。",
+    id: "bulk-4328", term: "slake", phonetic: "/sleik/", pos: "v.", meaningZh: "消除；平息", meaningEn: "to satisfy", band: "9", collocations: [], example: "He slaked his thirst.", exampleZh: "他解了渴。",
     senses: [
     {
     pos: "v.", meaningZh: "消除；平息", meaningEn: "to satisfy", collocations: [], example: "He slaked his thirst.", exampleZh: "他解了渴。" },
@@ -42211,7 +42211,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4356", term: "terse", phonetic: "tә:s", pos: "adj.", meaningZh: "简洁的；简练的；扼要的", meaningEn: "using few words", band: "9", collocations: [], example: "He gave a terse reply.", exampleZh: "他给了个简短的回答。",
+    id: "bulk-4356", term: "terse", phonetic: "/tә:s/", pos: "adj.", meaningZh: "简洁的；简练的；扼要的", meaningEn: "using few words", band: "9", collocations: [], example: "He gave a terse reply.", exampleZh: "他给了个简短的回答。",
     senses: [
     {
     pos: "adj.", meaningZh: "简洁的；简练的；扼要的", meaningEn: "using few words", collocations: [], example: "He gave a terse reply.", exampleZh: "他给了个简短的回答。" }
@@ -42233,28 +42233,28 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4358", term: "timorous", phonetic: "'timәrәs", pos: "adj.", meaningZh: "胆怯的；羞怯的；胆小的", meaningEn: "fearful", band: "9", collocations: [], example: "The timorous child hid.", exampleZh: "那个胆怯的孩子躲了起来。",
+    id: "bulk-4358", term: "timorous", phonetic: "/timәrәs/", pos: "adj.", meaningZh: "胆怯的；羞怯的；胆小的", meaningEn: "fearful", band: "9", collocations: [], example: "The timorous child hid.", exampleZh: "那个胆怯的孩子躲了起来。",
     senses: [
     {
     pos: "adj.", meaningZh: "胆怯的；羞怯的；胆小的", meaningEn: "fearful", collocations: [], example: "The timorous child hid.", exampleZh: "那个胆怯的孩子躲了起来。" }
     ]
   },
   {
-    id: "bulk-4359", term: "torpid", phonetic: "'tɒ:pid", pos: "adj.", meaningZh: "迟钝的；不活泼的；麻痹的；迟缓的；蛰伏的；缓慢的", meaningEn: "sluggish", band: "9", collocations: [], example: "The torpid frog lay still.", exampleZh: "那只迟钝的青蛙一动不动。",
+    id: "bulk-4359", term: "torpid", phonetic: "/tɒ:pid/", pos: "adj.", meaningZh: "迟钝的；不活泼的；麻痹的；迟缓的；蛰伏的；缓慢的", meaningEn: "sluggish", band: "9", collocations: [], example: "The torpid frog lay still.", exampleZh: "那只迟钝的青蛙一动不动。",
     senses: [
     {
     pos: "adj.", meaningZh: "迟钝的；不活泼的；麻痹的；迟缓的；蛰伏的；缓慢的", meaningEn: "sluggish", collocations: [], example: "The torpid frog lay still.", exampleZh: "那只迟钝的青蛙一动不动。" }
     ]
   },
   {
-    id: "bulk-4360", term: "tractable", phonetic: "'træktәbl", pos: "adj.", meaningZh: "易处理的；温顺的；驯服的；易于管教的；易加工的", meaningEn: "easily managed", band: "9", collocations: [], example: "The tractable horse obeyed.", exampleZh: "那匹温顺的马听话了。",
+    id: "bulk-4360", term: "tractable", phonetic: "/træktәbl/", pos: "adj.", meaningZh: "易处理的；温顺的；驯服的；易于管教的；易加工的", meaningEn: "easily managed", band: "9", collocations: [], example: "The tractable horse obeyed.", exampleZh: "那匹温顺的马听话了。",
     senses: [
     {
     pos: "adj.", meaningZh: "易处理的；温顺的；驯服的；易于管教的；易加工的", meaningEn: "easily managed", collocations: [], example: "The tractable horse obeyed.", exampleZh: "那匹温顺的马听话了。" }
     ]
   },
   {
-    id: "bulk-4361", term: "transient", phonetic: "'trænziәnt", pos: "adj.", meaningZh: "短暂的；易变的；瞬变的；路过的；瞬变过程；过渡过程；过渡的；瞬时峰值电压", meaningEn: "lasting a short time", band: "9", collocations: [], example: "The joy was transient.", exampleZh: "那份喜悦是短暂的。",
+    id: "bulk-4361", term: "transient", phonetic: "/trænziәnt/", pos: "adj.", meaningZh: "短暂的；易变的；瞬变的；路过的；瞬变过程；过渡过程；过渡的；瞬时峰值电压", meaningEn: "lasting a short time", band: "9", collocations: [], example: "The joy was transient.", exampleZh: "那份喜悦是短暂的。",
     senses: [
     {
     pos: "adj.", meaningZh: "短暂的；易变的；瞬变的；路过的；瞬变过程；过渡过程；过渡的；瞬时峰值电压", meaningEn: "lasting a short time", collocations: [], example: "The joy was transient.", exampleZh: "那份喜悦是短暂的。" },
@@ -42300,7 +42300,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4367", term: "turpitude", phonetic: "'tә:pitju:d", pos: "n.", meaningZh: "卑鄙；堕落；卑鄙行为；邪恶；可耻行为", meaningEn: "depravity", band: "9", collocations: [], example: "His moral turpitude shocked all.", exampleZh: "他道德的堕落震惊了所有人。",
+    id: "bulk-4367", term: "turpitude", phonetic: "/tә:pitju:d/", pos: "n.", meaningZh: "卑鄙；堕落；卑鄙行为；邪恶；可耻行为", meaningEn: "depravity", band: "9", collocations: [], example: "His moral turpitude shocked all.", exampleZh: "他道德的堕落震惊了所有人。",
     senses: [
     {
     pos: "n.", meaningZh: "卑鄙；堕落；卑鄙行为；邪恶；可耻行为", meaningEn: "depravity", collocations: [], example: "His moral turpitude shocked all.", exampleZh: "他道德的堕落震惊了所有人。" }
@@ -42416,7 +42416,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4381", term: "vainglory", phonetic: "vein'^lɔ:ri", pos: "n.", meaningZh: "虚荣；浮夸的自豪；自负；极度的虚荣心", meaningEn: "excessive pride", band: "9", collocations: [], example: "His vainglory amused none.", exampleZh: "他的虚荣无人欣赏。",
+    id: "bulk-4381", term: "vainglory", phonetic: "/vein'^lɔ:ri/", pos: "n.", meaningZh: "虚荣；浮夸的自豪；自负；极度的虚荣心", meaningEn: "excessive pride", band: "9", collocations: [], example: "His vainglory amused none.", exampleZh: "他的虚荣无人欣赏。",
     senses: [
     {
     pos: "n.", meaningZh: "虚荣；浮夸的自豪；自负；极度的虚荣心", meaningEn: "excessive pride", collocations: [], example: "His vainglory amused none.", exampleZh: "他的虚荣无人欣赏。" },
@@ -42478,7 +42478,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4389", term: "vicissitude", phonetic: "[vaɪˈsɪs.ɨˌt(j)u(ː)d]", pos: "n.", meaningZh: "变迁；兴衰；变化无常；荣枯；盛衰", meaningEn: "a change of fortune", band: "9", collocations: [], example: "He endured lifes vicissitudes.", exampleZh: "他承受了人生的兴衰。",
+    id: "bulk-4389", term: "vicissitude", phonetic: "/[vaɪˈsɪs.ɨˌt(j)u(ː)d]/", pos: "n.", meaningZh: "变迁；兴衰；变化无常；荣枯；盛衰", meaningEn: "a change of fortune", band: "9", collocations: [], example: "He endured lifes vicissitudes.", exampleZh: "他承受了人生的兴衰。",
     senses: [
     {
     pos: "n.", meaningZh: "变迁；兴衰；变化无常；荣枯；盛衰", meaningEn: "a change of fortune", collocations: [], example: "He endured lifes vicissitudes.", exampleZh: "他承受了人生的兴衰。" }
@@ -42501,7 +42501,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4392", term: "viscid", phonetic: "'visid", pos: "adj.", meaningZh: "黏稠的；粘的；胶粘的；粘质的", meaningEn: "sticky and thick", band: "9", collocations: [], example: "The viscid sap stuck.", exampleZh: "黏稠的树液粘住了。",
+    id: "bulk-4392", term: "viscid", phonetic: "/visid/", pos: "adj.", meaningZh: "黏稠的；粘的；胶粘的；粘质的", meaningEn: "sticky and thick", band: "9", collocations: [], example: "The viscid sap stuck.", exampleZh: "黏稠的树液粘住了。",
     senses: [
     {
     pos: "adj.", meaningZh: "黏稠的；粘的；胶粘的；粘质的", meaningEn: "sticky and thick", collocations: [], example: "The viscid sap stuck.", exampleZh: "黏稠的树液粘住了。" }
@@ -42517,7 +42517,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4394", term: "vitriolic", phonetic: ".vitri'ɒlik", pos: "adj.", meaningZh: "尖酸刻薄的；硫酸的；像硫酸的；语言刻薄的", meaningEn: "bitterly caustic", band: "9", collocations: [], example: "His vitriolic review stung.", exampleZh: "他尖酸刻薄的评论令人刺痛。",
+    id: "bulk-4394", term: "vitriolic", phonetic: "/.vitri'ɒlik/", pos: "adj.", meaningZh: "尖酸刻薄的；硫酸的；像硫酸的；语言刻薄的", meaningEn: "bitterly caustic", band: "9", collocations: [], example: "His vitriolic review stung.", exampleZh: "他尖酸刻薄的评论令人刺痛。",
     senses: [
     {
     pos: "adj.", meaningZh: "尖酸刻薄的；硫酸的；像硫酸的；语言刻薄的", meaningEn: "bitterly caustic", collocations: [], example: "His vitriolic review stung.", exampleZh: "他尖酸刻薄的评论令人刺痛。" }
@@ -42533,7 +42533,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4396", term: "vociferous", phonetic: "vәu'sifәrәs", pos: "adj.", meaningZh: "大声疾呼的；喧闹的；大声叫的；喊叫的；喧嚷的", meaningEn: "loud and forceful", band: "9", collocations: [], example: "The vociferous crowd cheered.", exampleZh: "喧闹的人群欢呼着。",
+    id: "bulk-4396", term: "vociferous", phonetic: "/vәu'sifәrәs/", pos: "adj.", meaningZh: "大声疾呼的；喧闹的；大声叫的；喊叫的；喧嚷的", meaningEn: "loud and forceful", band: "9", collocations: [], example: "The vociferous crowd cheered.", exampleZh: "喧闹的人群欢呼着。",
     senses: [
     {
     pos: "adj.", meaningZh: "大声疾呼的；喧闹的；大声叫的；喊叫的；喧嚷的", meaningEn: "loud and forceful", collocations: [], example: "The vociferous crowd cheered.", exampleZh: "喧闹的人群欢呼着。" }
@@ -42563,7 +42563,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4400", term: "waggish", phonetic: "'wægiʃ", pos: "adj.", meaningZh: "滑稽的；爱开玩笑的；诙谐的", meaningEn: "humorous", band: "9", collocations: [], example: "His waggish tale amused all.", exampleZh: "他滑稽的故事让所有人发笑。",
+    id: "bulk-4400", term: "waggish", phonetic: "/wægiʃ/", pos: "adj.", meaningZh: "滑稽的；爱开玩笑的；诙谐的", meaningEn: "humorous", band: "9", collocations: [], example: "His waggish tale amused all.", exampleZh: "他滑稽的故事让所有人发笑。",
     senses: [
     {
     pos: "adj.", meaningZh: "滑稽的；爱开玩笑的；诙谐的", meaningEn: "humorous", collocations: [], example: "His waggish tale amused all.", exampleZh: "他滑稽的故事让所有人发笑。" }
@@ -42581,7 +42581,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4402", term: "warped", phonetic: "wɔ:pt", pos: "adj.", meaningZh: "歪曲的；有偏见的；反常的；乖戾的；（变）弯曲的；变形的", meaningEn: "twisted", band: "9", collocations: [], example: "His warped view alarmed us.", exampleZh: "他歪曲的观点让我们警觉。",
+    id: "bulk-4402", term: "warped", phonetic: "/wɔ:pt/", pos: "adj.", meaningZh: "歪曲的；有偏见的；反常的；乖戾的；（变）弯曲的；变形的", meaningEn: "twisted", band: "9", collocations: [], example: "His warped view alarmed us.", exampleZh: "他歪曲的观点让我们警觉。",
     senses: [
     {
     pos: "adj.", meaningZh: "歪曲的；有偏见的；反常的；乖戾的；（变）弯曲的；变形的", meaningEn: "twisted", collocations: [], example: "His warped view alarmed us.", exampleZh: "他歪曲的观点让我们警觉。" },
@@ -42597,7 +42597,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4404", term: "wastrel", phonetic: "'weistrәl", pos: "n.", meaningZh: "挥霍者；败家子；浪费者；饭桶；浪子；废品；流浪者", meaningEn: "a wasteful person", band: "9", collocations: [], example: "The wastrel lost the fortune.", exampleZh: "那个败家子败光了家产。",
+    id: "bulk-4404", term: "wastrel", phonetic: "/weistrәl/", pos: "n.", meaningZh: "挥霍者；败家子；浪费者；饭桶；浪子；废品；流浪者", meaningEn: "a wasteful person", band: "9", collocations: [], example: "The wastrel lost the fortune.", exampleZh: "那个败家子败光了家产。",
     senses: [
     {
     pos: "n.", meaningZh: "挥霍者；败家子；浪费者；饭桶；浪子；废品；流浪者", meaningEn: "a wasteful person", collocations: [], example: "The wastrel lost the fortune.", exampleZh: "那个败家子败光了家产。" }
@@ -42711,7 +42711,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4418", term: "zesty", phonetic: "'zesti", pos: "adj.", meaningZh: "刺激的；有风味的；强烈的兴趣；热心；热忱；热情；滋味；风趣；香味", meaningEn: "lively and pleasing", band: "9", collocations: [], example: "The zesty sauce pleased him.", exampleZh: "那刺激的酱汁让他满意。",
+    id: "bulk-4418", term: "zesty", phonetic: "/zesti/", pos: "adj.", meaningZh: "刺激的；有风味的；强烈的兴趣；热心；热忱；热情；滋味；风趣；香味", meaningEn: "lively and pleasing", band: "9", collocations: [], example: "The zesty sauce pleased him.", exampleZh: "那刺激的酱汁让他满意。",
     senses: [
     {
     pos: "adj.", meaningZh: "刺激的；有风味的；强烈的兴趣；热心；热忱；热情；滋味；风趣；香味", meaningEn: "lively and pleasing", collocations: [], example: "The zesty sauce pleased him.", exampleZh: "那刺激的酱汁让他满意。" },
@@ -42720,42 +42720,42 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4419", term: "abstinence", phonetic: "'æbstinәns", pos: "n.", meaningZh: "节制；禁戒；禁欲；戒酒；禁戒(如禁酒；节欲)", meaningEn: "restraint from indulgence", band: "9", collocations: [], example: "He practiced abstinence from alcohol.", exampleZh: "他戒酒了。",
+    id: "bulk-4419", term: "abstinence", phonetic: "/æbstinәns/", pos: "n.", meaningZh: "节制；禁戒；禁欲；戒酒；禁戒(如禁酒；节欲)", meaningEn: "restraint from indulgence", band: "9", collocations: [], example: "He practiced abstinence from alcohol.", exampleZh: "他戒酒了。",
     senses: [
     {
     pos: "n.", meaningZh: "节制；禁戒；禁欲；戒酒；禁戒(如禁酒；节欲)", meaningEn: "restraint from indulgence", collocations: [], example: "He practiced abstinence from alcohol.", exampleZh: "他戒酒了。" }
     ]
   },
   {
-    id: "bulk-4420", term: "acrimony", phonetic: "'ækrimәni", pos: "n.", meaningZh: "尖刻；刻薄；严厉；辛辣", meaningEn: "bitter anger", band: "9", collocations: [], example: "The debate was full of acrimony.", exampleZh: "辩论充满了尖刻。",
+    id: "bulk-4420", term: "acrimony", phonetic: "/ækrimәni/", pos: "n.", meaningZh: "尖刻；刻薄；严厉；辛辣", meaningEn: "bitter anger", band: "9", collocations: [], example: "The debate was full of acrimony.", exampleZh: "辩论充满了尖刻。",
     senses: [
     {
     pos: "n.", meaningZh: "尖刻；刻薄；严厉；辛辣", meaningEn: "bitter anger", collocations: [], example: "The debate was full of acrimony.", exampleZh: "辩论充满了尖刻。" }
     ]
   },
   {
-    id: "bulk-4421", term: "acumen", phonetic: "ә'kju:men", pos: "n.", meaningZh: "敏锐；洞察力；聪明", meaningEn: "sharp insight", band: "9", collocations: [], example: "She has business acumen.", exampleZh: "她有商业洞察力。",
+    id: "bulk-4421", term: "acumen", phonetic: "/ә'kju:men/", pos: "n.", meaningZh: "敏锐；洞察力；聪明", meaningEn: "sharp insight", band: "9", collocations: [], example: "She has business acumen.", exampleZh: "她有商业洞察力。",
     senses: [
     {
     pos: "n.", meaningZh: "敏锐；洞察力；聪明", meaningEn: "sharp insight", collocations: [], example: "She has business acumen.", exampleZh: "她有商业洞察力。" }
     ]
   },
   {
-    id: "bulk-4422", term: "adage", phonetic: "'ædidʒ", pos: "n.", meaningZh: "格言；谚语", meaningEn: "a wise saying", band: "9", collocations: [], example: "An old adage guided him.", exampleZh: "一句古老的格言指引了他。",
+    id: "bulk-4422", term: "adage", phonetic: "/ædidʒ/", pos: "n.", meaningZh: "格言；谚语", meaningEn: "a wise saying", band: "9", collocations: [], example: "An old adage guided him.", exampleZh: "一句古老的格言指引了他。",
     senses: [
     {
     pos: "n.", meaningZh: "格言；谚语", meaningEn: "a wise saying", collocations: [], example: "An old adage guided him.", exampleZh: "一句古老的格言指引了他。" }
     ]
   },
   {
-    id: "bulk-4423", term: "adversity", phonetic: "әd'vә:sәti", pos: "n.", meaningZh: "逆境；不幸；灾祸；灾难", meaningEn: "hard fortune", band: "9", collocations: [], example: "He thrived in adversity.", exampleZh: "他在逆境中成长。",
+    id: "bulk-4423", term: "adversity", phonetic: "/әd'vә:sәti/", pos: "n.", meaningZh: "逆境；不幸；灾祸；灾难", meaningEn: "hard fortune", band: "9", collocations: [], example: "He thrived in adversity.", exampleZh: "他在逆境中成长。",
     senses: [
     {
     pos: "n.", meaningZh: "逆境；不幸；灾祸；灾难", meaningEn: "hard fortune", collocations: [], example: "He thrived in adversity.", exampleZh: "他在逆境中成长。" }
     ]
   },
   {
-    id: "bulk-4424", term: "affluent", phonetic: "'æfluәnt", pos: "adj.", meaningZh: "富裕的；丰富的", meaningEn: "wealthy", band: "9", collocations: [], example: "They live in an affluent area.", exampleZh: "他们住在富裕区。",
+    id: "bulk-4424", term: "affluent", phonetic: "/æfluәnt/", pos: "adj.", meaningZh: "富裕的；丰富的", meaningEn: "wealthy", band: "9", collocations: [], example: "They live in an affluent area.", exampleZh: "他们住在富裕区。",
     senses: [
     {
     pos: "adj.", meaningZh: "富裕的；丰富的", meaningEn: "wealthy", collocations: [], example: "They live in an affluent area.", exampleZh: "他们住在富裕区。" },
@@ -42764,7 +42764,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4425", term: "agitate", phonetic: "'ædʒiteit", pos: "v.", meaningZh: "煽动；搅动", meaningEn: "to stir up", band: "9", collocations: [], example: "They agitated for change.", exampleZh: "他们鼓动变革。",
+    id: "bulk-4425", term: "agitate", phonetic: "/ædʒiteit/", pos: "v.", meaningZh: "煽动；搅动", meaningEn: "to stir up", band: "9", collocations: [], example: "They agitated for change.", exampleZh: "他们鼓动变革。",
     senses: [
     {
     pos: "v.", meaningZh: "煽动；搅动", meaningEn: "to stir up", collocations: [], example: "They agitated for change.", exampleZh: "他们鼓动变革。" },
@@ -42793,7 +42793,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4428", term: "ambrosial", phonetic: "æm'brәuzjәl", pos: "adj.", meaningZh: "芳香的；美味的；特别美味的", meaningEn: "fragrant", band: "9", collocations: [], example: "The ambrosial meal delighted them.", exampleZh: "那顿美餐让他们愉悦。",
+    id: "bulk-4428", term: "ambrosial", phonetic: "/æm'brәuzjәl/", pos: "adj.", meaningZh: "芳香的；美味的；特别美味的", meaningEn: "fragrant", band: "9", collocations: [], example: "The ambrosial meal delighted them.", exampleZh: "那顿美餐让他们愉悦。",
     senses: [
     {
     pos: "adj.", meaningZh: "芳香的；美味的；特别美味的", meaningEn: "fragrant", collocations: [], example: "The ambrosial meal delighted them.", exampleZh: "那顿美餐让他们愉悦。" }
@@ -42842,7 +42842,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4435", term: "ascendancy", phonetic: "ә'sendәnsi", pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "dominance", band: "9", collocations: [], example: "They gained ascendancy.", exampleZh: "他们取得了优势。",
+    id: "bulk-4435", term: "ascendancy", phonetic: "/ә'sendәnsi/", pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "dominance", band: "9", collocations: [], example: "They gained ascendancy.", exampleZh: "他们取得了优势。",
     senses: [
     {
     pos: "n.", meaningZh: "优势；支配；支配地位", meaningEn: "dominance", collocations: [], example: "They gained ascendancy.", exampleZh: "他们取得了优势。" }
@@ -42976,7 +42976,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4451", term: "comeliness", phonetic: "'kʌmlinis", pos: "n.", meaningZh: "美丽；优雅；清秀；合宜", meaningEn: "beauty", band: "9", collocations: [], example: "Her comeliness drew looks.", exampleZh: "她的美貌引人注目。",
+    id: "bulk-4451", term: "comeliness", phonetic: "/kʌmlinis/", pos: "n.", meaningZh: "美丽；优雅；清秀；合宜", meaningEn: "beauty", band: "9", collocations: [], example: "Her comeliness drew looks.", exampleZh: "她的美貌引人注目。",
     senses: [
     {
     pos: "n.", meaningZh: "美丽；优雅；清秀；合宜", meaningEn: "beauty", collocations: [], example: "Her comeliness drew looks.", exampleZh: "她的美貌引人注目。" }
@@ -43017,7 +43017,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4456", term: "countenance", phonetic: "[kʲʰæũ̯.ʔɪ̆.nəns]", pos: "n./v.", meaningZh: "面容；支持；面部表情；镇定", meaningEn: "face or support", band: "9", collocations: [], example: "He countenanced the plan.", exampleZh: "他支持这个计划。",
+    id: "bulk-4456", term: "countenance", phonetic: "/[kʲʰæũ̯.ʔɪ̆.nəns]/", pos: "n./v.", meaningZh: "面容；支持；面部表情；镇定", meaningEn: "face or support", band: "9", collocations: [], example: "He countenanced the plan.", exampleZh: "他支持这个计划。",
     senses: [
     {
     pos: "n./v.", meaningZh: "面容；支持；面部表情；镇定", meaningEn: "face or support", collocations: [], example: "He countenanced the plan.", exampleZh: "他支持这个计划。" }
@@ -43031,7 +43031,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4458", term: "deleterious", phonetic: ".deli'tiәriәs", pos: "adj.", meaningZh: "有害的；造成伤害的", meaningEn: "harmful", band: "9", collocations: [], example: "The effect was deleterious.", exampleZh: "影响是有害的。",
+    id: "bulk-4458", term: "deleterious", phonetic: "/.deli'tiәriәs/", pos: "adj.", meaningZh: "有害的；造成伤害的", meaningEn: "harmful", band: "9", collocations: [], example: "The effect was deleterious.", exampleZh: "影响是有害的。",
     senses: [
     {
     pos: "adj.", meaningZh: "有害的；造成伤害的", meaningEn: "harmful", collocations: [], example: "The effect was deleterious.", exampleZh: "影响是有害的。" }
@@ -43074,7 +43074,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4463", term: "disabuse", phonetic: ".disә'bju:z", pos: "v.", meaningZh: "使醒悟", meaningEn: "to free from error", band: "9", collocations: [], example: "He disabused her of the myth.", exampleZh: "他让她摆脱了误解。",
+    id: "bulk-4463", term: "disabuse", phonetic: "/.disә'bju:z/", pos: "v.", meaningZh: "使醒悟", meaningEn: "to free from error", band: "9", collocations: [], example: "He disabused her of the myth.", exampleZh: "他让她摆脱了误解。",
     senses: [
     {
     pos: "v.", meaningZh: "使醒悟", meaningEn: "to free from error", collocations: [], example: "He disabused her of the myth.", exampleZh: "他让她摆脱了误解。" },
@@ -43181,7 +43181,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4476", term: "exigency", phonetic: "'eksidʒәnsi", pos: "n.", meaningZh: "紧急需要；急迫；紧急事件", meaningEn: "urgency", band: "9", collocations: [], example: "The exigency required speed.", exampleZh: "紧急情况需要速度。",
+    id: "bulk-4476", term: "exigency", phonetic: "/eksidʒәnsi/", pos: "n.", meaningZh: "紧急需要；急迫；紧急事件", meaningEn: "urgency", band: "9", collocations: [], example: "The exigency required speed.", exampleZh: "紧急情况需要速度。",
     senses: [
     {
     pos: "n.", meaningZh: "紧急需要；急迫；紧急事件", meaningEn: "urgency", collocations: [], example: "The exigency required speed.", exampleZh: "紧急情况需要速度。" }
@@ -43301,7 +43301,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4492", term: "malediction", phonetic: ".mæli'dikʃәn", pos: "n.", meaningZh: "诅咒；坏话", meaningEn: "curse", band: "9", collocations: [], example: "He uttered a malediction.", exampleZh: "他发出了诅咒。",
+    id: "bulk-4492", term: "malediction", phonetic: "/.mæli'dikʃәn/", pos: "n.", meaningZh: "诅咒；坏话", meaningEn: "curse", band: "9", collocations: [], example: "He uttered a malediction.", exampleZh: "他发出了诅咒。",
     senses: [
     {
     pos: "n.", meaningZh: "诅咒；坏话", meaningEn: "curse", collocations: [], example: "He uttered a malediction.", exampleZh: "他发出了诅咒。" }
@@ -43322,7 +43322,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4495", term: "minatory", phonetic: "'minәtәri", pos: "adj.", meaningZh: "威胁的", meaningEn: "threatening", band: "9", collocations: [], example: "His minatory tone warned them.", exampleZh: "他威胁的语气警告了他们。",
+    id: "bulk-4495", term: "minatory", phonetic: "/minәtәri/", pos: "adj.", meaningZh: "威胁的", meaningEn: "threatening", band: "9", collocations: [], example: "His minatory tone warned them.", exampleZh: "他威胁的语气警告了他们。",
     senses: [
     {
     pos: "adj.", meaningZh: "威胁的", meaningEn: "threatening", collocations: [], example: "His minatory tone warned them.", exampleZh: "他威胁的语气警告了他们。" }
@@ -43345,14 +43345,14 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4498", term: "perfidy", phonetic: "'pә:fidi", pos: "n.", meaningZh: "背叛；不诚实；背信弃义(行为)；叛变；出卖", meaningEn: "treachery", band: "9", collocations: [], example: "His perfidy shocked friends.", exampleZh: "他的背叛震惊了朋友。",
+    id: "bulk-4498", term: "perfidy", phonetic: "/pә:fidi/", pos: "n.", meaningZh: "背叛；不诚实；背信弃义(行为)；叛变；出卖", meaningEn: "treachery", band: "9", collocations: [], example: "His perfidy shocked friends.", exampleZh: "他的背叛震惊了朋友。",
     senses: [
     {
     pos: "n.", meaningZh: "背叛；不诚实；背信弃义(行为)；叛变；出卖", meaningEn: "treachery", collocations: [], example: "His perfidy shocked friends.", exampleZh: "他的背叛震惊了朋友。" }
     ]
   },
   {
-    id: "bulk-4499", term: "peripatetic", phonetic: ".peripә'tetik", pos: "adj.", meaningZh: "巡回的；徒步的；漫游的", meaningEn: "traveling", band: "9", collocations: [], example: "The peripatetic teacher moved often.", exampleZh: "巡回的老师经常搬家。",
+    id: "bulk-4499", term: "peripatetic", phonetic: "/.peripә'tetik/", pos: "adj.", meaningZh: "巡回的；徒步的；漫游的", meaningEn: "traveling", band: "9", collocations: [], example: "The peripatetic teacher moved often.", exampleZh: "巡回的老师经常搬家。",
     senses: [
     {
     pos: "adj.", meaningZh: "巡回的；徒步的；漫游的", meaningEn: "traveling", collocations: [], example: "The peripatetic teacher moved often.", exampleZh: "巡回的老师经常搬家。" },
@@ -43361,21 +43361,21 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4500", term: "perspicacious", phonetic: ".pә:spi'keiʃәs", pos: "adj.", meaningZh: "敏锐的；聪颖的；聪明的；有洞察力的", meaningEn: "astute", band: "9", collocations: [], example: "Her perspicacious insight helped.", exampleZh: "她敏锐的洞察帮了忙。",
+    id: "bulk-4500", term: "perspicacious", phonetic: "/.pә:spi'keiʃәs/", pos: "adj.", meaningZh: "敏锐的；聪颖的；聪明的；有洞察力的", meaningEn: "astute", band: "9", collocations: [], example: "Her perspicacious insight helped.", exampleZh: "她敏锐的洞察帮了忙。",
     senses: [
     {
     pos: "adj.", meaningZh: "敏锐的；聪颖的；聪明的；有洞察力的", meaningEn: "astute", collocations: [], example: "Her perspicacious insight helped.", exampleZh: "她敏锐的洞察帮了忙。" }
     ]
   },
   {
-    id: "bulk-4501", term: "petrous", phonetic: "'petrәs", pos: "adj.", meaningZh: "岩石的；坚硬的；岩石般的；岩石样的；石状的", meaningEn: "rocky", band: "9", collocations: [], example: "The petrous cliff loomed.", exampleZh: "坚硬的悬崖耸立。",
+    id: "bulk-4501", term: "petrous", phonetic: "/petrәs/", pos: "adj.", meaningZh: "岩石的；坚硬的；岩石般的；岩石样的；石状的", meaningEn: "rocky", band: "9", collocations: [], example: "The petrous cliff loomed.", exampleZh: "坚硬的悬崖耸立。",
     senses: [
     {
     pos: "adj.", meaningZh: "岩石的；坚硬的；岩石般的；岩石样的；石状的", meaningEn: "rocky", collocations: [], example: "The petrous cliff loomed.", exampleZh: "坚硬的悬崖耸立。" }
     ]
   },
   {
-    id: "bulk-4502", term: "philistine", phonetic: "'filistain", pos: "n./adj.", meaningZh: "庸人；平庸的；门外汉；仇敌；俗气的人", meaningEn: "anti-art person", band: "9", collocations: [], example: "The philistine ignored art.", exampleZh: "庸人无视艺术。",
+    id: "bulk-4502", term: "philistine", phonetic: "/filistain/", pos: "n./adj.", meaningZh: "庸人；平庸的；门外汉；仇敌；俗气的人", meaningEn: "anti-art person", band: "9", collocations: [], example: "The philistine ignored art.", exampleZh: "庸人无视艺术。",
     senses: [
     {
     pos: "n./adj.", meaningZh: "庸人；平庸的；门外汉；仇敌；俗气的人", meaningEn: "anti-art person", collocations: [], example: "The philistine ignored art.", exampleZh: "庸人无视艺术。" },
@@ -43384,7 +43384,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4503", term: "picayune", phonetic: ".pikә'ju:n", pos: "adj.", meaningZh: "琐碎的；微小的；微不足道的；不值钱的；琐细的；眼光狭小的；小气的；可鄙的", meaningEn: "petty", band: "9", collocations: [], example: "The picayune detail annoyed him.", exampleZh: "琐碎的细节惹恼了他。",
+    id: "bulk-4503", term: "picayune", phonetic: "/.pikә'ju:n/", pos: "adj.", meaningZh: "琐碎的；微小的；微不足道的；不值钱的；琐细的；眼光狭小的；小气的；可鄙的", meaningEn: "petty", band: "9", collocations: [], example: "The picayune detail annoyed him.", exampleZh: "琐碎的细节惹恼了他。",
     senses: [
     {
     pos: "adj.", meaningZh: "琐碎的；微小的；微不足道的；不值钱的；琐细的；眼光狭小的；小气的；可鄙的", meaningEn: "petty", collocations: [], example: "The picayune detail annoyed him.", exampleZh: "琐碎的细节惹恼了他。" },
@@ -43445,7 +43445,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4510", term: "raffish", phonetic: "'ræfiʃ", pos: "adj.", meaningZh: "放荡的；名誉不好的；无赖的；卑鄙的；俗艳的", meaningEn: "disreputable", band: "9", collocations: [], example: "The raffish crowd gathered.", exampleZh: "放荡的人群聚在一起。",
+    id: "bulk-4510", term: "raffish", phonetic: "/ræfiʃ/", pos: "adj.", meaningZh: "放荡的；名誉不好的；无赖的；卑鄙的；俗艳的", meaningEn: "disreputable", band: "9", collocations: [], example: "The raffish crowd gathered.", exampleZh: "放荡的人群聚在一起。",
     senses: [
     {
     pos: "adj.", meaningZh: "放荡的；名誉不好的；无赖的；卑鄙的；俗艳的", meaningEn: "disreputable", collocations: [], example: "The raffish crowd gathered.", exampleZh: "放荡的人群聚在一起。" }
@@ -43495,7 +43495,7 @@ const part_16: VocabEntry[] = [
     ]
   },
   {
-    id: "bulk-4516", term: "toady", phonetic: "'tәudi", pos: "n./v.", meaningZh: "谄媚者；奉承；马屁精", meaningEn: "sycophant", band: "9", collocations: [], example: "The toady flattered the king.", exampleZh: "谄媚者奉承国王。",
+    id: "bulk-4516", term: "toady", phonetic: "/tәudi/", pos: "n./v.", meaningZh: "谄媚者；奉承；马屁精", meaningEn: "sycophant", band: "9", collocations: [], example: "The toady flattered the king.", exampleZh: "谄媚者奉承国王。",
     senses: [
     {
     pos: "n./v.", meaningZh: "谄媚者；奉承；马屁精", meaningEn: "sycophant", collocations: [], example: "The toady flattered the king.", exampleZh: "谄媚者奉承国王。" },
