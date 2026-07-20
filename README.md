@@ -1,100 +1,71 @@
-# 雅思分级背词器 (IELTS Graded Vocab)
+[English](README_EN.md)
 
-类 Anki 的雅思分级背单词 Web 应用：输入你的水平 Band → 推送对应难度词表
-（Band 5 / 6 / 7 / 8 / 9(GRE 级)，共约 2840 词）→ 用现代
-FSRS 间隔重复算法排期 → 柯林斯式闪卡（音标/词性/中英释义/搭配/原版例句）。
+# IELTS Graded Vocab
 
-🌐 **在线使用（推荐，任何人直接开链接就能背词，无需安装）**：
-https://tobyberry666.github.io/ielts-graded-vocab/
+一个面向雅思学习者的本地优先背词应用：按 Band 5-9 选择分级词汇，用 FSRS 间隔重复安排复习，并把学习进度保存在当前浏览器中。无需注册即可使用，也可通过 CSV 或 Anki 文本带入、带出词表。
 
-> 已完成：M2 种子词表 → M3 CSV/Anki 导入 + framer-motion 翻转 → M4 会话制循环复习 + 学习日历 → M5 扩容至 210 词 + 「仅到期/全部本档」复习模式 → M6 新增 **Band 9(GRE 级)** + 日历月份导航 + CSV/Anki 导出 + **部署到 GitHub Pages** → M7 **一轮完成选择屏（复习本轮回放 / 下一轮）** + 修复连点漏卡 / 切换档案串档 / 导入词被覆盖等真实踩坑 + 文档同步（见上方链接，纯静态站点，点开即用）。
+- [在线 Demo](https://tobyberry666.github.io/ielts-graded-vocab/)
+- [CI](https://github.com/tobyberry666/ielts-graded-vocab/actions/workflows/ci.yml)
+- [更新记录](CHANGELOG.md)
 
-## 技术栈
+## 核心能力
 
-- **前端**：React 18 + TypeScript + Vite
-- **SRS 引擎**：[`ts-fsrs`](https://github.com/ishiko732/ts-fsrs)（FSRS v6，现代 Anki 同款调度，MIT）
-- **测试**：Vitest（覆盖 Service 调度核心）
-- **持久化**：M1 用 `localStorage`；M2 换成 `Dexie`(IndexedDB)
+- Band 5-9 分级词汇；支持“仅到期”和“全部本档”两种学习范围。
+- 正反面闪卡与 `again`、`hard`、`good`、`easy` 四档评分，由 FSRS 计算下一次复习时间。
+- 分批学习、轮次回放或继续下一轮，以及“会啦”标记。
+- 多个本地档案；各档案的卡片进度、已掌握词和学习日历相互隔离。
+- CSV / Anki 文本导入与导出；导入内容经过字段校验、Band 白名单和注入检查。
+- 中英释义、例句、搭配和发音能力按词条可用数据展示。
 
-## 🌐 别人/自己怎么用（无需安装）
+## 设计与架构
 
-**直接打开这个网址即可，不用装 Node、不用 clone、不用开 5173 端口：**
-> https://tobyberry666.github.io/ielts-graded-vocab/
+```text
+React UI
+  |-- Word / Session / Import / Pronunciation services
+  |-- SrsService -> ts-fsrs
+  `-- VocabRepository -> Dexie / IndexedDB
+                         `-- checked-in Band vocabulary data
+```
 
-- 选 Band（5/6/7/8/9）→ 开始背 → 翻卡看释义 → 按 `again / hard / good / easy` 评分，FSRS 自动排期。
-- 进度存在浏览器本地（IndexedDB），换设备 / 清缓存会重置；需要带走的词表用右侧「导出 CSV / Anki」。
-- 纯前端静态站点，部署在 GitHub Pages，**任何人点链接就能用**。
+`SrsService` 单独封装 `ts-fsrs`，不负责界面或持久化；会话编排和导入处理也各自位于独立 Service。`VocabRepository` 为上层屏蔽 IndexedDB 细节，并按档案隔离卡片、学习日历和已掌握状态。这些边界让核心规则可以脱离 UI 测试。
 
-## 开发者本地调试（改代码才需要）
+应用采用 local-first 模式：词表和学习状态写入浏览器 IndexedDB，不需要远端账户或后端服务。CSV / Anki 导入导出适合迁移自定义词表，但当前导出不包含档案、学习日历或 FSRS 进度。
+
+## 本地运行
+
+CI 使用 Node.js 20。在仓库根目录运行：
 
 ```bash
-cd app
-npm install
-npm run dev        # 启动开发服务器（默认 http://localhost:5173，仅本机可访问）
-npm test           # 运行 SRS 调度核心单元测试
-npm run build      # 类型检查 + 生产构建
+git clone https://github.com/tobyberry666/ielts-graded-vocab.git
+cd ielts-graded-vocab
+npm ci
+npm run dev
 ```
 
-> 重新部署到线上：改完代码后 `npm run build`，再把 `app/dist/` 内容推到 `gh-pages` 分支（仓库已配好 GitHub Pages，自动发布）。
+生产构建：
 
-## 架构（团队定的分层红线）
-
-```
-UI (src/App.tsx)
-  │  只负责渲染与交互，不含调度/存储逻辑
-  ▼
-Service (src/services/SrsService.ts)
-  │  封装 ts-fsrs，纯逻辑、可单测；不碰 UI、不碰存储
-  ▼
-Repository (src/repository/VocabRepository.ts)
-  │  负责卡调度状态的持久化（Dexie/IndexedDB），对 Service 屏蔽存储细节
-  ▼
-Data (src/data/words.ts)
-     种子词表（Band 标签 + 柯林斯式字段）
+```bash
+npm run build
 ```
 
-> 红线：Service 不出现 UI 代码，Repository 不直连组件，UI 不直连存储。
-> 任何一层越界都会在 Code Review 阶段被「严把关」驳回。
+## 测试与 CI
 
-## 目录
-
-```
-app/
-├── index.html
-├── package.json
-├── tsconfig.json / tsconfig.node.json
-├── vite.config.ts          # 同时承载 Vite 与 Vitest 配置
-├── src/
-│   ├── main.tsx
-│   ├── App.tsx             # UI 层
-│   ├── data/words.ts       # 数据层：Band 分级种子词
-│   ├── repository/
-│   │   └── VocabRepository.ts  # Repository 层：Dexie/IndexedDB 持久化
-│   ├── services/
-│   │   ├── SrsService.ts        # Service 层：FSRS 调度
-│   │   ├── SrsService.test.ts   # Service 单测
-│   │   ├── ImportService.ts     # Service 层：CSV/Anki 导入管线
-│   │   └── sanitize.ts          # 注入过滤 / band 白名单
-│   └── components/
-│       ├── Flashcard.tsx        # framer-motion 翻转闪卡
-│       └── ImportPanel.tsx      # 导入面板（CSV/Anki）
-├── CLAUDE.md               # 架构与质量门禁（给 AI/协作者看）
-└── README.md
+```bash
+npm test
+npm run build
 ```
 
-## 路线图（M1–M6）
+测试覆盖 FSRS 评分与到期判断、会话轮次、Band 与到期词筛选、导入校验、档案隔离与 IndexedDB 迁移、日历日期边界、词表数据约束和发音选择等关键行为。README 不固定记录用例数或覆盖率，以 CI 结果为准。
 
-- **M1**（已完成）：词表管线 + 项目骨架 + ts-fsrs 集成 + Service 单测
-- **M2**（已完成）：Dexie 离线存储 + 210 词种子词表（M5 扩容；Band 5/6/7/8 = 51/51/72/36）
-- **M3**（已完成）：
-  - 已落地：CSV/Anki **导入管线**（`ImportService`，含 `containsInjection`/`isValidBand` 安全清洗，与 `safeParseWord` 同源规则）、Web Speech 原生语音朗读。
-  - 已落地 UI：导入面板（`ImportPanel`，CSV/Anki 解析 + 接受/拒绝明细）、`App` 内「导入词表」弹窗（`AnimatePresence` 模态，`role="dialog"`/`aria-modal`，背景点击 / Esc 关闭）、react-window v2 虚拟滚动词库（`List`，`rowComponent={WordRow}`）、`Flashcard` 的 framer-motion 翻转动画（`motion.div` + `useReducedMotion`）。`framer-motion`/`react-window` 均已在源码中真实使用，`npm run build` 绿（449 模块 / gzip 150.67 kB）、`npx vitest run` 35 passed / 5 files。
-- **M4**（已完成）：会话制循环复习 + 学习日历
-  - **每轮批量自选 10/30/50/100**：切换档位触发重新组会话（`App` 内 `size-selector`，默认 10）。
-  - **循环复习**：答 `again`/`hard` 的卡回收进池下轮重洗（遵循 FSRS/艾宾浩斯间隔重复强化），答 `good`/`easy` 离开；池空即本轮完成。由 `SessionService` 纯逻辑编排、单测覆盖。
-  - **学习日历**：右栏 `Calendar` 当月网格，背过词当天圆点变紫（`.is-studied`，`var(--accent)`），底部「本月已背 N 天」；打卡当天即写入 `studyLog`（IndexedDB 持久化），同一会话内即时变紫。`npm run build` 绿（**452 模块** / gzip **152.06 kB**）、`npx vitest run` **61 passed / 7 files**。
-- **M5**（已完成）：词表大幅扩容 + 复习模式
-  - **词表扩容至 210+ 词**：在 M2 的 53 词基础上新增 157 词，Band 5/6/7/8 现分别为 **51 / 51 / 72 / 36**（Band 7 达 72），原种子全部保留；并新增 `src/data/words.test.ts` 守住总词数与各 band 下限。
-  - **复习模式「仅到期 / 全部本档」**：默认「仅到期」（旧行为，只练到期词）；切到「全部本档」可把整档词（含已排期到未来的）重新拉出来学，**学完本档不再空档卡死**——空档时引导「复习全部本档」按钮一键重学。`npm run build` 绿（**452 模块** / gzip **167.74 kB**）、`npx vitest run` **67 passed / 8 files**。
-- **M6**（已完成）：CI（` .github/workflows/ci.yml` 在 push/PR 跑 `npm run build` + `npm test`）+ GitHub Pages 自动部署（`deploy.yml`）。
-- **M7**（已完成）：一轮完成选择屏（复习本轮回放 / 下一轮）+ 真实踩坑修复（连点漏卡、切换档案串档、导入词被种子覆盖、导入无上限、背面键盘可聚焦）+ 代码分割（manualChunks + 懒加载 ImportPanel）+ 文档同步（CLAUDE.md / README）。
+CI 工作流在提交到 `master` 以及面向 `master` 的 Pull Request 上，从仓库根目录执行 `npm ci`、`npm run build` 和 `npm test`。Pages 工作流在 `master` 更新或手动触发时同样从根目录构建，将生成的 `dist/` 作为 Pages artifact 部署；使用者无需手动推送 `app/dist` 或维护 `gh-pages` 分支。
+
+## 数据与许可边界
+
+词汇数据的来源、衍生范围和已核实许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。仓库没有为代码与数据的组合分发提供统一许可授权；再分发前需自行评估适用的第三方条款并取得所需许可。
+
+## 已知限制
+
+- 学习状态仅保存在当前浏览器和站点存储中；换设备、换浏览器、清除站点数据或使用临时会话时不会自动恢复。
+- 本地档案不是云端账户，项目目前不提供跨设备同步。
+- CSV / Anki 导入导出可迁移词表，但不能备份或恢复档案、学习日历和 FSRS 进度。
+- 发音可用性取决于词条数据、浏览器能力和网络环境。
