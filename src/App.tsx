@@ -1,5 +1,5 @@
-import { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import { AnimatePresence, motion } from 'framer-motion';
+import { lazy, Suspense, useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { gsap } from 'gsap';
 import { List, type RowComponentProps } from 'react-window';
 import { SEED_WORDS, SEED_VERSION, type Band, type VocabEntry } from './data/words';
 import { SrsService, type Grade } from './services/SrsService';
@@ -22,6 +22,11 @@ import {
   type AudioSource,
 } from './services/PronunciationService';
 import './styles.css';
+
+// 是否开启「减少动态效果」：GSAP 动效统一在此降级为零时长。
+const prefersReduced = () =>
+  typeof window !== 'undefined' &&
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // 单例：真实项目里由依赖注入 / context 提供，这里为演示直接实例化。
 const repo = new VocabRepository();
@@ -78,6 +83,21 @@ export default function App() {
 
   const resolvedTheme = theme === 'system' ? (systemDark ? 'dark' : 'light') : theme;
 
+  // 首屏入场：主区与右栏轻量上浮淡入（尊重「减少动态效果」系统设置）。
+  useLayoutEffect(() => {
+    if (prefersReduced()) return;
+    const ctx = gsap.context(() => {
+      gsap.from('.app-main, .app-aside', {
+        autoAlpha: 0,
+        y: 16,
+        duration: 0.5,
+        ease: 'power2.out',
+        stagger: 0.08,
+      });
+    }, shellRef);
+    return () => ctx.revert();
+  }, []);
+
   // ---------- 学习会话（SessionService 编排） ----------
   const [band, setBand] = useState<Band>('5');
   const [sessionSize, setSessionSize] = useState<number>(10);
@@ -101,6 +121,12 @@ export default function App() {
   const buildSeqRef = useRef(0);
   // 交互闸门：防止快速连点导致同一张卡被 FSRS 打两次分、或静默跳卡。
   const busyRef = useRef(false);
+
+  // 动画作用域与导入模态引用（GSAP 接管动效，替代原 framer-motion）。
+  const shellRef = useRef<HTMLDivElement>(null);
+  const bankPanelRef = useRef<HTMLDivElement>(null);
+  const modalBackdropRef = useRef<HTMLDivElement>(null);
+  const modalDialogRef = useRef<HTMLDivElement>(null);
 
   // 构建一次会话：seed → 取学习集合 → 建 session。band / size / mode / 档案变化都会触发。
   // 内部直接取当前激活档案的最新「已掌握」集合，避免依赖外部时序导致的串档。
@@ -326,10 +352,55 @@ export default function App() {
   // ---------- 导入词表（模态） ----------
   const [showImport, setShowImport] = useState(false);
 
+  // 受控退出：先播放收起动画再卸载，避免模态「啪」地消失。
+  function closeImport() {
+    if (prefersReduced() || !modalBackdropRef.current) {
+      setShowImport(false);
+      return;
+    }
+    gsap.to(modalDialogRef.current, {
+      autoAlpha: 0,
+      y: 10,
+      scale: 0.98,
+      duration: 0.2,
+      ease: 'power1.in',
+    });
+    gsap.to(modalBackdropRef.current, {
+      autoAlpha: 0,
+      duration: 0.22,
+      ease: 'power1.in',
+      onComplete: () => setShowImport(false),
+    });
+  }
+
+  // 导入模态入场动画（GSAP 接管，替代原 framer-motion）。
+  useLayoutEffect(() => {
+    if (!showImport || prefersReduced()) return;
+    const ctx = gsap.context(() => {
+      if (modalBackdropRef.current) {
+        gsap.fromTo(
+          modalBackdropRef.current,
+          { autoAlpha: 0 },
+          { autoAlpha: 1, duration: 0.25, ease: 'power1.out' },
+        );
+      }
+      if (modalDialogRef.current) {
+        gsap.from(modalDialogRef.current, {
+          autoAlpha: 0,
+          scale: 0.96,
+          y: 10,
+          duration: 0.32,
+          ease: 'power3.out',
+        });
+      }
+    });
+    return () => ctx.revert();
+  }, [showImport]);
+
   useEffect(() => {
     if (!showImport) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') setShowImport(false);
+      if (e.key === 'Escape') closeImport();
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
@@ -355,9 +426,24 @@ export default function App() {
     }
   }
 
+  // 词库面板展开时轻量入场（GSAP）。
+  useLayoutEffect(() => {
+    const el = bankPanelRef.current;
+    if (!showBank || !el || prefersReduced()) return;
+    const ctx = gsap.context(() => {
+      gsap.from(el, {
+        autoAlpha: 0,
+        y: 14,
+        duration: 0.4,
+        ease: 'power2.out',
+      });
+    });
+    return () => ctx.revert();
+  }, [showBank]);
+
   return (
     <div className="app" data-theme={resolvedTheme}>
-      <div className="app-shell">
+      <div className="app-shell" ref={shellRef}>
         <div className="app-main">
           <header className="app-header">
             <div>
@@ -581,11 +667,9 @@ export default function App() {
           )}
 
           {showBank && (
-            <motion.section
+            <section
               className="bank-panel"
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
+              ref={bankPanelRef}
               aria-label="词库浏览"
             >
               <div className="bank-head">
@@ -606,7 +690,7 @@ export default function App() {
                   overscanCount={6}
                 />
               )}
-            </motion.section>
+            </section>
           )}
         </div>
 
@@ -652,31 +736,27 @@ export default function App() {
       </div>
 
       {/* 导入词表模态：背景点击 / Esc / 关闭 均可退出 */}
-      <AnimatePresence>
-        {showImport && (
-          <motion.div
-            className="modal-backdrop"
-            onClick={() => setShowImport(false)}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.25 }}
-            role="presentation"
+      {showImport && (
+        <div
+          className="modal-backdrop"
+          ref={modalBackdropRef}
+          onClick={closeImport}
+          role="presentation"
+        >
+          <div
+            className="modal-dialog"
+            ref={modalDialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label="导入词表"
+            onClick={(e) => e.stopPropagation()}
           >
-            <div
-              className="modal-dialog"
-              role="dialog"
-              aria-modal="true"
-              aria-label="导入词表"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <Suspense fallback={<div className="loading-state">加载导入面板…</div>}>
-                <ImportPanel repo={repo} onClose={() => setShowImport(false)} />
-              </Suspense>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+            <Suspense fallback={<div className="loading-state">加载导入面板…</div>}>
+              <ImportPanel repo={repo} onClose={closeImport} />
+            </Suspense>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

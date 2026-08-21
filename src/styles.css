@@ -33,6 +33,11 @@
   --grade-good: #10b981;
   --grade-easy: #3b82f6;
   --btn-bg: rgba(255, 255, 255, 0.8);
+  /* 悬停/激活的浅色强调底（此前缺失，导致若干 hover 态失效） */
+  --accent-soft: rgba(99, 102, 241, 0.14);
+  --accent-2-soft: rgba(236, 72, 153, 0.13);
+  /* 卡片/控件描边色（此前缺失，导致导出按钮与日历导航无边框） */
+  --card-border: rgba(15, 23, 42, 0.1);
 }
 
 /* ---------- 深色主题 ---------- */
@@ -55,10 +60,49 @@
   --grade-good: #34d399;
   --grade-easy: #60a5fa;
   --btn-bg: rgba(51, 65, 85, 0.6);
+  /* 悬停/激活的浅色强调底（此前缺失，导致若干 hover 态失效） */
+  --accent-soft: rgba(129, 140, 248, 0.16);
+  --accent-2-soft: rgba(244, 114, 182, 0.16);
+  /* 卡片/控件描边色（此前缺失，导致导出按钮与日历导航无边框） */
+  --card-border: rgba(226, 232, 240, 0.14);
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* 键盘焦点环：用主题强调色统一，替代浏览器默认（a11y 信号来自设计系统而非 UA）。 */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* 自定义滚动条：用主题色着色，避免突兀的 UA 灰条（仅影响溢出区域，不强制全局）。 */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--glass-border) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--glass-border);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-soft);
+  background-clip: padding-box;
 }
 
 html,
@@ -255,6 +299,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   color: var(--text-strong);
+  font-variant-numeric: tabular-nums;
 }
 
 .progress-hint {
@@ -286,6 +331,7 @@ body {
   font-size: 13px;
   font-weight: 700;
   color: var(--text-strong);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- 闪卡 3D 翻转 ---------- */
@@ -296,7 +342,7 @@ body {
   max-height: min(76vh, 600px);
 }
 
-/* 翻转动画改由 framer-motion 驱动（rotateY + transformStyle: preserve-3d）；
+/* 翻转动画改由 GSAP 驱动（rotationY + transformStyle: preserve-3d）；
    CSS 不再负责 transform 过渡，仅保留 3D 容器与背面隐藏。 */
 .fc-inner {
   position: relative;
@@ -744,6 +790,7 @@ body {
   -webkit-backdrop-filter: blur(18px);
   box-shadow: var(--glass-shadow);
   text-align: center;
+  animation: stateIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .empty-emoji {
@@ -775,10 +822,10 @@ body {
   -webkit-backdrop-filter: blur(20px) saturate(160%);
   box-shadow: var(--glass-shadow);
   text-align: center;
-  animation: rcPop 0.35s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: stateIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-@keyframes rcPop {
+@keyframes stateIn {
   from { opacity: 0; transform: translateY(12px) scale(0.98); }
   to { opacity: 1; transform: translateY(0) scale(1); }
 }
@@ -894,6 +941,11 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .fc-inner {
     transition: none;
+  }
+  .empty-state,
+  .round-choice,
+  .fc-source-pill {
+    animation: none;
   }
 }
 

@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { useState, type ChangeEvent } from 'react';
 import {
   parseAnki,
@@ -54,14 +53,7 @@ export default function ImportPanel({ repo, onClose }: ImportPanelProps) {
   }
 
   return (
-    <motion.div
-      className="ip-card glass"
-      initial={{ opacity: 0, y: 24, scale: 0.98 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      exit={{ opacity: 0, y: 16, scale: 0.98 }}
-      transition={{ duration: 0.35, ease: [0.16, 1, 0.3, 1] }}
-      role="document"
-    >
+    <div className="ip-card glass" role="document">
       <div className="ip-head">
         <div>
           <h2 className="ip-title">导入词表</h2>
@@ -133,6 +125,6 @@ export default function ImportPanel({ repo, onClose }: ImportPanelProps) {
           </button>
         </div>
       )}
-    </motion.div>
+    </div>
   );
 }

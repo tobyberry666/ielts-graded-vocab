@@ -1,4 +1,3 @@
-import { motion, useReducedMotion } from 'framer-motion';
 import { buildMonthGrid } from '../utils/date';
 
 export interface CalendarProps {
@@ -19,19 +18,12 @@ export interface CalendarProps {
 const WEEKDAYS = ['日', '一', '二', '三', '四', '五', '六'];
 
 export default function Calendar({ studiedDays, year, month, onPrev, onNext, onToday }: CalendarProps) {
-  const reduceMotion = useReducedMotion();
   const cells = buildMonthGrid(year, month);
   const prefix = `${year}-${String(month).padStart(2, '0')}`;
   const studiedThisMonth = [...studiedDays].filter((k) => k.startsWith(prefix)).length;
 
   return (
-    <motion.section
-      className="cal glass"
-      initial={reduceMotion ? false : { opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.32, ease: [0.16, 1, 0.3, 1] }}
-      aria-label="学习日历"
-    >
+    <section className="cal glass" aria-label="学习日历">
       <div className="cal-head">
         <h2 className="cal-title">学习日历</h2>
         <div className="cal-nav" role="group" aria-label="切换月份">
@@ -76,6 +68,6 @@ export default function Calendar({ studiedDays, year, month, onPrev, onNext, onT
       </div>
 
       <p className="cal-summary">本月已背 {studiedThisMonth} 天</p>
-    </motion.section>
+    </section>
   );
 }
