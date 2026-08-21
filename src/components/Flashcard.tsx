@@ -1,8 +1,12 @@
 import { useEffect, useRef } from 'react';
-import { motion, useReducedMotion } from 'framer-motion';
+import { gsap } from 'gsap';
 import { getSenses, primarySense, type VocabEntry } from '../data/words';
 import type { Grade } from '../services/SrsService';
 import type { AudioSource } from '../services/PronunciationService';
+
+const reduceMotion = () =>
+  typeof window !== 'undefined' &&
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 export interface FlashcardProps {
   word: VocabEntry;
@@ -107,26 +111,47 @@ function SenseBlock({
 }
 
 export default function Flashcard({ word, revealed, audioSource, onReveal, onGrade, onMastered, onSpeak }: FlashcardProps) {
-  const reduceMotion = useReducedMotion();
-  const flipTransition = reduceMotion
-    ? { duration: 0 }
-    : { duration: 0.5, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] };
+  const rootRef = useRef<HTMLDivElement>(null);
+  const flipRef = useRef<HTMLDivElement>(null);
+  const backRef = useRef<HTMLDivElement>(null);
 
   // 未翻面时把背面整体设为 inert，禁止键盘用户 Tab 到背面打分/「会啦」按钮（a11y）。
-  const backRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (backRef.current) backRef.current.inert = !revealed;
   }, [revealed]);
+
+  // 3D 翻面：用 GSAP 驱动 rotationY，缓动自然、可被打断。
+  useEffect(() => {
+    if (!flipRef.current) return;
+    gsap.to(flipRef.current, {
+      rotationY: revealed ? 180 : 0,
+      duration: reduceMotion() ? 0 : 0.55,
+      ease: 'power3.inOut',
+      overwrite: 'auto',
+    });
+  }, [revealed]);
+
+  // 新词入场：正面词条 / 音标 / 词性徽标轻量上浮淡入（仅正面可见时）。
+  useEffect(() => {
+    if (!rootRef.current || reduceMotion()) return;
+    const ctx = gsap.context(() => {
+      gsap.fromTo(
+        '.fc-term, .fc-phonetic, .fc-pos-badge-front',
+        { y: 12, autoAlpha: 0.2 },
+        { y: 0, autoAlpha: 1, duration: 0.4, ease: 'power2.out', stagger: 0.05, delay: 0.06 },
+      );
+    }, rootRef);
+    return () => ctx.revert();
+  }, [word.term]);
 
   const senses = getSenses(word);
   const primary = primarySense(word);
 
   return (
-    <div className="fc-scene">
-      <motion.div
+    <div className="fc-scene" ref={rootRef}>
+      <div
         className="fc-inner"
-        animate={{ rotateY: revealed ? 180 : 0 }}
-        transition={flipTransition}
+        ref={flipRef}
         style={{ transformStyle: 'preserve-3d' }}
       >
         {/* 正面：term + phonetic + 主词性 */}
@@ -194,7 +219,7 @@ export default function Flashcard({ word, revealed, audioSource, onReveal, onGra
             ))}
           </div>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

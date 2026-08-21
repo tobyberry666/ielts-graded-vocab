@@ -12,13 +12,13 @@ export default defineConfig({
     rollupOptions: {
       output: {
         // 将体积较大的第三方库拆分到独立 chunk，提升浏览器缓存命中率、减小首屏主包。
-        manualChunks: {
-          react: ['react', 'react-dom'],
-          motion: ['framer-motion'],
-          srs: ['ts-fsrs'],
-          data: ['papaparse'],
-          dexie: ['dexie'],
-        },
+                manualChunks: {
+                    react: ['react', 'react-dom'],
+                    motion: ['gsap'],
+                    srs: ['ts-fsrs'],
+                    data: ['papaparse'],
+                    dexie: ['dexie'],
+                },
       },
     },
   },
