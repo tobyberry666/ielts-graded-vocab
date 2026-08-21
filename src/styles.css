@@ -15,56 +15,56 @@
 
 /* ---------- 浅色主题 ---------- */
 [data-theme='light'] {
-  --bg-grad-1: #eef2ff;
-  --bg-grad-2: #f8fafc;
-  --bg-grad-3: #ffe9f3;
-  --text-strong: #0f172a;
-  --text: #1e293b;
-  --text-muted: #64748b;
-  --glass-bg: rgba(255, 255, 255, 0.55);
-  --glass-border: rgba(255, 255, 255, 0.7);
-  --glass-shadow: 0 20px 50px -20px rgba(30, 41, 59, 0.35);
-  --accent: #6366f1;
-  --accent-2: #ec4899;
-  --chip-bg: rgba(99, 102, 241, 0.12);
-  --track: rgba(15, 23, 42, 0.1);
+  --bg-grad-1: #e3f1ec;
+  --bg-grad-2: #f5f7f5;
+  --bg-grad-3: #e8f0ea;
+  --text-strong: #0c1a18;
+  --text: #1d2b29;
+  --text-muted: #5e6f6b;
+  --glass-bg: rgba(255, 255, 255, 0.62);
+  --glass-border: rgba(13, 40, 38, 0.1);
+  --glass-shadow: 0 20px 50px -20px rgba(13, 60, 54, 0.28);
+  --accent: #0f766e;
+  --accent-2: #115e59;
+  --chip-bg: rgba(15, 118, 110, 0.12);
+  --track: rgba(13, 40, 38, 0.1);
   --grade-again: #ef4444;
   --grade-hard: #f59e0b;
   --grade-good: #10b981;
-  --grade-easy: #3b82f6;
-  --btn-bg: rgba(255, 255, 255, 0.8);
+  --grade-easy: #0ea5e9;
+  --btn-bg: rgba(255, 255, 255, 0.82);
   /* 悬停/激活的浅色强调底（此前缺失，导致若干 hover 态失效） */
-  --accent-soft: rgba(99, 102, 241, 0.14);
-  --accent-2-soft: rgba(236, 72, 153, 0.13);
+  --accent-soft: rgba(15, 118, 110, 0.14);
+  --accent-2-soft: rgba(17, 94, 89, 0.12);
   /* 卡片/控件描边色（此前缺失，导致导出按钮与日历导航无边框） */
-  --card-border: rgba(15, 23, 42, 0.1);
+  --card-border: rgba(13, 40, 38, 0.12);
 }
 
 /* ---------- 深色主题 ---------- */
 [data-theme='dark'] {
-  --bg-grad-1: #0b1020;
-  --bg-grad-2: #131a2e;
-  --bg-grad-3: #2a1130;
-  --text-strong: #f8fafc;
-  --text: #e2e8f0;
-  --text-muted: #94a3b8;
-  --glass-bg: rgba(30, 41, 59, 0.45);
-  --glass-border: rgba(148, 163, 184, 0.22);
+  --bg-grad-1: #06201e;
+  --bg-grad-2: #0b1513;
+  --bg-grad-3: #0a2a26;
+  --text-strong: #eef5f3;
+  --text: #cfe0db;
+  --text-muted: #8aa39c;
+  --glass-bg: rgba(16, 36, 33, 0.5);
+  --glass-border: rgba(140, 185, 175, 0.18);
   --glass-shadow: 0 24px 60px -24px rgba(0, 0, 0, 0.7);
-  --accent: #818cf8;
-  --accent-2: #f472b6;
-  --chip-bg: rgba(129, 140, 248, 0.18);
-  --track: rgba(226, 232, 240, 0.12);
+  --accent: #0d9488;
+  --accent-2: #0f766e;
+  --chip-bg: rgba(13, 148, 136, 0.16);
+  --track: rgba(207, 224, 219, 0.12);
   --grade-again: #f87171;
   --grade-hard: #fbbf24;
   --grade-good: #34d399;
-  --grade-easy: #60a5fa;
-  --btn-bg: rgba(51, 65, 85, 0.6);
+  --grade-easy: #38bdf8;
+  --btn-bg: rgba(26, 50, 46, 0.6);
   /* 悬停/激活的浅色强调底（此前缺失，导致若干 hover 态失效） */
-  --accent-soft: rgba(129, 140, 248, 0.16);
-  --accent-2-soft: rgba(244, 114, 182, 0.16);
+  --accent-soft: rgba(13, 148, 136, 0.16);
+  --accent-2-soft: rgba(15, 118, 110, 0.18);
   /* 卡片/控件描边色（此前缺失，导致导出按钮与日历导航无边框） */
-  --card-border: rgba(226, 232, 240, 0.14);
+  --card-border: rgba(207, 224, 219, 0.14);
 }
 
 * {
