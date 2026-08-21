@@ -5,7 +5,7 @@
 
 :root {
   --ease-flip: cubic-bezier(0.16, 1, 0.3, 1);
-  --radius-card: 22px;
+  --radius-card: 16px;
   --radius-pill: 999px;
   --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', 'PingFang SC',
     'Microsoft YaHei', sans-serif;
@@ -120,7 +120,7 @@ body {
 /* ---------- 根容器 ---------- */
 .app {
   min-height: 100vh;
-  padding: 40px 16px 64px;
+  padding: 48px 16px 72px;
   background:
     radial-gradient(1200px 600px at 12% -8%, var(--bg-grad-3), transparent 60%),
     radial-gradient(1000px 700px at 110% 10%, var(--bg-grad-1), transparent 55%),
@@ -134,36 +134,34 @@ body {
   margin: 0 auto;
 }
 
-/* ---------- 两栏布局（主区 + 右侧日历） ---------- */
+/* ---------- 单列居中布局：词卡为视觉主角，日历/导出移至顶部通栏 ---------- */
 .app-shell {
   display: flex;
+  flex-direction: column;
   gap: 24px;
-  align-items: flex-start;
-  max-width: 1000px;
+  align-items: stretch;
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .app-main {
-  flex: 0 0 640px;
+  width: 100%;
   min-width: 0;
 }
 
+/* 日历 + 导出作为顶部通栏两栏，不再挤占词卡宽度（组间紧、分隔松）。 */
 .app-aside {
-  flex: 1 1 300px;
-  max-width: 320px;
-  position: sticky;
-  top: 32px;
+  order: -1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
 }
 
-@media (max-width: 980px) {
-  .app-shell {
-    flex-direction: column;
-  }
+/* 顶部通栏在窄屏堆叠为单列 */
+@media (max-width: 680px) {
   .app-aside {
-    max-width: none;
-    position: static;
-    width: 100%;
-    order: 2;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -336,10 +334,10 @@ body {
 
 /* ---------- 闪卡 3D 翻转 ---------- */
 .fc-scene {
-  perspective: 1600px;
-  min-height: 440px;
+  perspective: 1800px;
+  min-height: 560px;
   /* 给卡片一个高度上限：内容再多也在卡片内滚动，而不是把卡片撑到页面外 */
-  max-height: min(76vh, 600px);
+  max-height: min(84vh, 720px);
 }
 
 /* 翻转动画改由 GSAP 驱动（rotationY + transformStyle: preserve-3d）；
@@ -348,7 +346,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 440px;
+  min-height: 560px;
   transform-style: preserve-3d;
 }
 
@@ -363,7 +361,7 @@ body {
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   box-shadow: var(--glass-shadow);
-  padding: 28px;
+  padding: 36px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -401,9 +399,9 @@ body {
 
 .fc-front-top {
   position: absolute;
-  top: 20px;
-  left: 24px;
-  right: 24px;
+  top: 28px;
+  left: 32px;
+  right: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -420,15 +418,16 @@ body {
 
 .fc-term {
   margin: 0;
-  font-size: 44px;
+  font-size: 58px;
   font-weight: 800;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
+  line-height: 1.05;
   color: var(--text-strong);
 }
 
 .fc-phonetic {
-  margin: 8px 0 0;
-  font-size: 18px;
+  margin: 10px 0 0;
+  font-size: 21px;
   color: var(--text-muted);
 }
 
@@ -524,7 +523,7 @@ body {
 
 .fc-back-term {
   margin: 0;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--text-strong);
   overflow: hidden;
@@ -535,14 +534,14 @@ body {
 /* 背面正文：与顶部词头拉开距离，避免「释义贴着单词」看不清。
    多义项时允许内部滚动（min-height:0 是 flex 子项可滚动的前提）。 */
 .fc-body {
-  margin-top: 66px;
+  margin-top: 76px;
   flex: 1;
   min-height: 0;
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 24px;
   overflow-y: auto;
-  padding-right: 6px;
+  padding-right: 8px;
   scrollbar-width: thin;
   scrollbar-color: var(--glass-border) transparent;
 }
@@ -596,7 +595,7 @@ body {
 }
 
 .fc-meaning-zh {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 1.35;
   color: var(--text-strong);
@@ -659,18 +658,18 @@ body {
 .fc-grades {
   margin-top: auto;
   flex-shrink: 0;
-  padding-top: 18px;
+  padding-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+  gap: 10px;
 }
 
 .fc-grade {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
-  padding: 10px 4px;
+  gap: 3px;
+  padding: 14px 6px;
   border-radius: 14px;
   border: 1px solid var(--glass-border);
   background: var(--btn-bg);
@@ -686,12 +685,12 @@ body {
 }
 
 .fc-grade-label {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 700;
 }
 
 .fc-grade-hint {
-  font-size: 10px;
+  font-size: 11px;
   opacity: 0.7;
   letter-spacing: 0.04em;
 }
@@ -920,21 +919,21 @@ body {
     font-size: 24px;
   }
   .fc-term {
-    font-size: 36px;
+    font-size: 44px;
   }
   .fc-face {
-    padding: 22px;
+    padding: 28px;
   }
   .fc-front-top {
-    left: 22px;
-    right: 22px;
+    left: 24px;
+    right: 24px;
   }
   .fc-grades {
     grid-template-columns: repeat(2, 1fr);
   }
   .fc-scene,
   .fc-inner {
-    min-height: 480px;
+    min-height: 520px;
   }
 }
 
