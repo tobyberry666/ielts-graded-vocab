@@ -61,10 +61,20 @@ npm run dev
 5. 选「跟随系统」时，系统切换深/浅色后页面经 `matchMedia('(prefers-color-scheme: dark)')` 监听器（`App.tsx:45-50`）自动跟随。
 
 ### 语音朗读 (Pronunciation)
-1. 卡片正面/背面右上角有喇叭按钮（`.fc-speak`）。
-2. 点击 → 浏览器用英式发音朗读当前单词。
-3. 实现：`App.tsx:91-97` 中 `window.speechSynthesis.cancel()` 后 `new SpeechSynthesisUtterance(word.term)`，并设 `u.lang = 'en-GB'`。
-4. 注意：依赖浏览器原生 TTS，部分环境需先有用户交互才允许发声（已满足，按钮即交互）；无语音引擎的浏览器会静默失败（已做 `'speechSynthesis' in window` 守卫）。
+1. 卡片正面/背面右上角有喇叭按钮（`.fc-speak`）；播放后旁边出现「真人 / 机器」来源标签（`.fc-source-pill`）。
+2. 顶栏有 **英音 / 美音** 切换（复用 `.theme-switch` 样式），偏好写入 `localStorage['ielts-accent-pref-v1']`，默认英音。
+3. 实现集中在 `src/services/PronunciationService.ts`，**三级降级**，任一级失败自动落到下一级：
+
+   | 级别 | 来源 | 说明 |
+   |---|---|---|
+   | 1 | 有道 `dictvoice` | 主源。URL 是本地拼接的（`youdaoAudioUrl`），点击即开始下载 MP3，**不需要先请求 JSON 解析接口**；实测 ~0.8s 出声，抽样 36 词（band 5/7/9）覆盖率 36/36 |
+   | 2 | `dictionaryapi.dev`（Wikimedia 真人录音） | 开源兜底。`AbortController` 3s 超时，失败不缓存以便重试；结果缓存进 `localStorage['ielts-audio-cache-v1']` |
+   | 3 | 浏览器 TTS | 最后手段。`pickEnglishVoice()` 按「口音匹配 > 嗓音质量 > 离线可用」挑嗓音（优先 Aria/Jenny/Google UK 等），`rate=0.95`；不再裸用默认引擎 |
+
+4. 播放成功与否由 `playUrl()` 判定：只有真正触发 `onplaying` 才算成功；`onerror`、时长 < 0.2s 的空音频、7s 无响应都算失败并降级。
+5. **熔断**：主源连续失败 3 次后本次会话内不再尝试主源，避免整场学习每个词都白等一遍。
+6. **预热**：切词时 `prefetchPronunciation()` 把音频拉进浏览器 HTTP 缓存（最多缓存 8 条），首次点击时还会 `preconnect` 到 `dict.youdao.com`。
+7. 已知限制：有道是非官方公开接口，无 SLA，理论上可能被限流——这正是保留第 2 级开源兜底的原因。
 
 ### 档位驱动队列 (Band → Due Queue)
 1. 点击 Band 5 / 6 / 7 / 8+ 标签，卡片区重新加载对应档位到期词（8+ 为「8 分以上」档）。
