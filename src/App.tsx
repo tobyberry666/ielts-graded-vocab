@@ -17,8 +17,12 @@ import Calendar from './components/Calendar';
 const ImportPanel = lazy(() => import('./components/ImportPanel'));
 import ProfileSwitcher from './components/ProfileSwitcher';
 import {
+  clearWarmPool,
+  getAccent,
   playPronunciation,
   prefetchPronunciation,
+  setAccent,
+  type Accent,
   type AudioSource,
 } from './services/PronunciationService';
 import './styles.css';
@@ -189,9 +193,17 @@ export default function App() {
   const isEmpty = !loading && (session?.initialCount ?? 0) === 0;
 
   const [audioSource, setAudioSource] = useState<AudioSource | null>(null);
+  const [accent, setAccentState] = useState<Accent>(getAccent);
+
+  function handleAccent(next: Accent) {
+    if (next === accent) return;
+    setAccentState(next);
+    setAccent(next);
+    clearWarmPool(); // 旧口音的预热音频作废
+  }
 
   function speak(term: string) {
-    // 优先真人发音，取不到自动回退机器 TTS
+    // 有道真人 → 开源真人录音 → 优质机器 TTS，逐级降级
     playPronunciation(term, { onSource: setAudioSource });
   }
 
@@ -470,6 +482,20 @@ export default function App() {
                   >
                     <span aria-hidden="true">{THEME_ICON[t]}</span>
                     {t === 'light' ? '浅色' : t === 'dark' ? '深色' : '跟随系统'}
+                  </button>
+                ))}
+              </div>
+              <div className="theme-switch" role="group" aria-label="发音口音">
+                {(['uk', 'us'] as Accent[]).map((a) => (
+                  <button
+                    key={a}
+                    type="button"
+                    className={`theme-btn${accent === a ? ' is-active' : ''}`}
+                    aria-pressed={accent === a}
+                    onClick={() => handleAccent(a)}
+                    title={a === 'uk' ? '英音（雅思听力主口音）' : '美音'}
+                  >
+                    {a === 'uk' ? '英音' : '美音'}
                   </button>
                 ))}
               </div>

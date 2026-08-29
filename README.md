@@ -87,7 +87,7 @@ app/
 - **M1**（已完成）：词表管线 + 项目骨架 + ts-fsrs 集成 + Service 单测
 - **M2**（已完成）：Dexie 离线存储 + 210 词种子词表（M5 扩容；Band 5/6/7/8 = 51/51/72/36）
 - **M3**（已完成）：
-  - 已落地：CSV/Anki **导入管线**（`ImportService`，含 `containsInjection`/`isValidBand` 安全清洗，与 `safeParseWord` 同源规则）、Web Speech 原生语音朗读。
+  - 已落地：CSV/Anki **导入管线**（`ImportService`，含 `containsInjection`/`isValidBand` 安全清洗，与 `safeParseWord` 同源规则）、**发音朗读**（2026-08-28 重写为三级降级：有道真人 → 开源真人录音 → 机器 TTS，顶栏可切英音/美音；详见 `FRONTEND_HANDOFF.md`）。
   - 已落地 UI：导入面板（`ImportPanel`，CSV/Anki 解析 + 接受/拒绝明细）、`App` 内「导入词表」弹窗（`AnimatePresence` 模态，`role="dialog"`/`aria-modal`，背景点击 / Esc 关闭）、react-window v2 虚拟滚动词库（`List`，`rowComponent={WordRow}`）、`Flashcard` 的 framer-motion 翻转动画（`motion.div` + `useReducedMotion`）。`framer-motion`/`react-window` 均已在源码中真实使用，`npm run build` 绿（449 模块 / gzip 150.67 kB）、`npx vitest run` 35 passed / 5 files。
 - **M4**（已完成）：会话制循环复习 + 学习日历
   - **每轮批量自选 10/30/50/100**：切换档位触发重新组会话（`App` 内 `size-selector`，默认 10）。
