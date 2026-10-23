@@ -28,14 +28,13 @@ https://tobyberry666.github.io/ielts-graded-vocab/
 ## 开发者本地调试（改代码才需要）
 
 ```bash
-cd app
 npm install
 npm run dev        # 启动开发服务器（默认 http://localhost:5173，仅本机可访问）
 npm test           # 运行 SRS 调度核心单元测试
 npm run build      # 类型检查 + 生产构建
 ```
 
-> 重新部署到线上：改完代码后 `npm run build`，再把 `app/dist/` 内容推到 `gh-pages` 分支（仓库已配好 GitHub Pages，自动发布）。
+> 重新部署到线上：把代码推送到 `master` 分支即可，CI（`.github/workflows/deploy.yml`）会自动构建并发布到 GitHub Pages，无需手动推 `gh-pages`。
 
 ## 架构（团队定的分层红线）
 
